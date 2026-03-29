@@ -1,0 +1,122 @@
+{
+  "Nav": {
+    "home": "Accueil",
+    "products": "Produits",
+    "about": "À Propos",
+    "custom": "Commandes Sur Mesure",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Fabricant Premium de Casquettes Personnalisées",
+    "subtitle": "De la conception à la livraison — casquettes de baseball, bobs, snapbacks et plus. Artisanat de qualité à prix d'usine compétitifs.",
+    "cta": "Voir les Produits",
+    "ctaSecondary": "Demander un Devis"
+  },
+  "Features": {
+    "title": "Pourquoi Nous Choisir",
+    "factory": "Usine Propre",
+    "factoryDesc": "Installation de production de 20 000m² avec plus de 200 ouvriers qualifiés et équipements avancés.",
+    "quality": "Qualité Garantie",
+    "qualityDesc": "Certification ISO 9001. Contrôle qualité rigoureux à chaque étape de production.",
+    "custom": "Personnalisation Complète",
+    "customDesc": "Broderie de logo, tissus personnalisés, couleurs, tailles — donnez vie à votre vision.",
+    "moq": "MOQ Bas",
+    "moqDesc": "À partir de 100 pièces par style. Parfait pour les startups et les marques établies."
+  },
+  "FeaturedProducts": {
+    "title": "Produits Vedettes",
+    "viewAll": "Voir Tous les Produits"
+  },
+  "CTA": {
+    "title": "Prêt à Démarrer Votre Projet de Casquettes?",
+    "subtitle": "Parlez-nous de vos besoins et recevez un devis gratuit sous 24 heures.",
+    "button": "Demander un Devis"
+  },
+  "Footer": {
+    "description": "NanCrown — Fabricant professionnel de casquettes spécialisé dans les casquettes de baseball, bobs, snapbacks et plus.",
+    "quickLinks": "Liens Rapides",
+    "contactUs": "Contactez-nous",
+    "followUs": "Suivez-nous",
+    "rights": "Tous droits réservés.",
+    "email": "E-mail",
+    "phone": "Téléphone",
+    "address": "Adresse"
+  },
+  "Products": {
+    "title": "Nos Produits",
+    "subtitle": "Découvrez notre gamme complète de casquettes premium",
+    "search": "Rechercher des produits...",
+    "allCategories": "Toutes les Catégories",
+    "noProducts": "Aucun produit trouvé.",
+    "requestQuote": "Demander un Devis",
+    "minOrder": "Commande Min.",
+    "pieces": "pcs",
+    "material": "Matériau",
+    "colors": "Couleurs Disponibles",
+    "relatedProducts": "Produits Similaires"
+  },
+  "About": {
+    "title": "À Propos",
+    "subtitle": "Votre Partenaire de Confiance en Fabrication de Casquettes",
+    "story": "Notre Histoire",
+    "storyText": "Fondée en 2010, nous sommes passés d'un petit atelier à l'un des principaux fabricants de casquettes en Chine. Avec plus d'une décennie d'expérience, nous servons des marques du monde entier.",
+    "capacity": "Capacité de Production",
+    "capacityText": "Notre usine de pointe couvre 20 000m² et emploie plus de 200 ouvriers qualifiés. Nous pouvons produire plus de 500 000 pièces par mois.",
+    "certifications": "Certifications et Conformité",
+    "certificationsText": "Nous détenons la certification ISO 9001 et respectons les normes internationales BSCI et SEDEX.",
+    "years": "Années d'Expérience",
+    "workers": "Ouvriers Qualifiés",
+    "monthlyCapacity": "Capacité Mensuelle",
+    "countries": "Pays Desservis"
+  },
+  "Custom": {
+    "title": "Commandes Sur Mesure",
+    "subtitle": "Donnez Vie à Votre Vision",
+    "intro": "Du concept au produit fini, nous gérons chaque étape du processus de fabrication sur mesure.",
+    "step1": "Consultation Design",
+    "step1Desc": "Partagez vos idées, logos et exigences. Notre équipe créera des maquettes pour votre approbation.",
+    "step2": "Sélection des Matériaux",
+    "step2Desc": "Choisissez parmi une large gamme de tissus, couleurs et accessoires.",
+    "step3": "Production d'Échantillons",
+    "step3Desc": "Nous produisons des échantillons physiques pour votre examen avant la production en masse.",
+    "step4": "Production en Masse",
+    "step4Desc": "Une fois approuvé, nous commençons la production complète avec un contrôle qualité strict.",
+    "step5": "Inspection Qualité",
+    "step5Desc": "Chaque lot subit une inspection approfondie avec des rapports détaillés.",
+    "step6": "Expédition et Livraison",
+    "step6Desc": "Nous gérons l'emballage et la logistique mondiale. Options FOB, CIF et porte-à-porte.",
+    "getStarted": "Démarrer Votre Commande"
+  },
+  "Contact": {
+    "title": "Contact",
+    "subtitle": "Contactez-nous — Nous Serions Ravis de Vous Entendre",
+    "name": "Votre Nom",
+    "email": "Adresse E-mail",
+    "company": "Nom de l'Entreprise",
+    "country": "Pays",
+    "product": "Produit Souhaité",
+    "quantity": "Quantité Estimée",
+    "message": "Votre Message",
+    "submit": "Envoyer la Demande",
+    "sending": "Envoi en cours...",
+    "success": "Merci! Votre demande a été envoyée. Nous répondrons sous 24 heures.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire directement.",
+    "required": "Obligatoire",
+    "selectProduct": "Sélectionnez une catégorie",
+    "productOptions": {
+      "baseball": "Casquettes de Baseball",
+      "bucket": "Bobs",
+      "snapback": "Snapbacks",
+      "trucker": "Casquettes Trucker",
+      "beanie": "Bonnets",
+      "visor": "Visières",
+      "other": "Autre"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

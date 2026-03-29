@@ -1,0 +1,122 @@
+{
+  "Nav": {
+    "home": "Inicio",
+    "products": "Productos",
+    "about": "Sobre Nosotros",
+    "custom": "Pedidos Personalizados",
+    "contact": "Contacto"
+  },
+  "Hero": {
+    "title": "Fabricante Premium de Gorras Personalizadas",
+    "subtitle": "Del diseño a la entrega — gorras de béisbol, sombreros de pescador, snapbacks y más. Artesanía de calidad con precios competitivos de fábrica.",
+    "cta": "Ver Productos",
+    "ctaSecondary": "Solicitar Cotización"
+  },
+  "Features": {
+    "title": "Por Qué Elegirnos",
+    "factory": "Fábrica Propia",
+    "factoryDesc": "Instalaciones de producción de 20,000m² con más de 200 trabajadores cualificados y equipos avanzados.",
+    "quality": "Calidad Garantizada",
+    "qualityDesc": "Certificación ISO 9001. Control de calidad riguroso en cada etapa de producción.",
+    "custom": "Personalización Total",
+    "customDesc": "Bordado de logo, telas personalizadas, colores, tallas — haz realidad tu visión.",
+    "moq": "Pedido Mínimo Bajo",
+    "moqDesc": "Desde 100 piezas por estilo. Perfecto para startups y marcas establecidas."
+  },
+  "FeaturedProducts": {
+    "title": "Productos Destacados",
+    "viewAll": "Ver Todos los Productos"
+  },
+  "CTA": {
+    "title": "¿Listo para Iniciar tu Proyecto de Gorras Personalizadas?",
+    "subtitle": "Cuéntanos tus necesidades y recibe una cotización gratuita en 24 horas.",
+    "button": "Solicitar Cotización"
+  },
+  "Footer": {
+    "description": "NanCrown — Fabricante profesional de gorras especializado en gorras de béisbol, sombreros de pescador, snapbacks y más.",
+    "quickLinks": "Enlaces Rápidos",
+    "contactUs": "Contáctenos",
+    "followUs": "Síguenos",
+    "rights": "Todos los derechos reservados.",
+    "email": "Correo",
+    "phone": "Teléfono",
+    "address": "Dirección"
+  },
+  "Products": {
+    "title": "Nuestros Productos",
+    "subtitle": "Explora nuestra gama completa de gorras premium",
+    "search": "Buscar productos...",
+    "allCategories": "Todas las Categorías",
+    "noProducts": "No se encontraron productos.",
+    "requestQuote": "Solicitar Cotización",
+    "minOrder": "Pedido Mín.",
+    "pieces": "pzs",
+    "material": "Material",
+    "colors": "Colores Disponibles",
+    "relatedProducts": "Productos Relacionados"
+  },
+  "About": {
+    "title": "Sobre Nosotros",
+    "subtitle": "Tu Socio de Confianza en Fabricación de Gorras",
+    "story": "Nuestra Historia",
+    "storyText": "Fundada en 2010, hemos crecido de un pequeño taller a uno de los principales fabricantes de gorras en China. Con más de una década de experiencia, servimos a marcas y empresas en todo el mundo con gorras personalizadas de primera calidad.",
+    "capacity": "Capacidad de Producción",
+    "capacityText": "Nuestras instalaciones de última generación abarcan 20,000m² y albergan más de 200 trabajadores cualificados. Equipados con las últimas máquinas de bordado y sistemas de control de calidad, podemos producir más de 500,000 piezas al mes.",
+    "certifications": "Certificaciones y Cumplimiento",
+    "certificationsText": "Contamos con certificación de gestión de calidad ISO 9001 y cumplimos con estándares internacionales incluyendo BSCI y SEDEX.",
+    "years": "Años de Experiencia",
+    "workers": "Trabajadores",
+    "monthlyCapacity": "Capacidad Mensual",
+    "countries": "Países Atendidos"
+  },
+  "Custom": {
+    "title": "Pedidos Personalizados",
+    "subtitle": "Haz Realidad tu Visión de Gorras",
+    "intro": "Del concepto al producto terminado, manejamos cada paso del proceso de fabricación personalizada.",
+    "step1": "Consulta de Diseño",
+    "step1Desc": "Comparte tus ideas, logos y requisitos. Nuestro equipo de diseño creará maquetas para tu aprobación.",
+    "step2": "Selección de Material",
+    "step2Desc": "Elige entre una amplia gama de telas, colores y accesorios.",
+    "step3": "Producción de Muestra",
+    "step3Desc": "Producimos muestras físicas para tu revisión antes de la producción en masa.",
+    "step4": "Producción en Masa",
+    "step4Desc": "Una vez aprobado, comenzamos la producción completa con estricto control de calidad.",
+    "step5": "Inspección de Calidad",
+    "step5Desc": "Cada lote se somete a una inspección exhaustiva con informes detallados.",
+    "step6": "Envío y Entrega",
+    "step6Desc": "Manejamos embalaje y logística mundial. Opciones FOB, CIF y puerta a puerta.",
+    "getStarted": "Iniciar Pedido Personalizado"
+  },
+  "Contact": {
+    "title": "Contacto",
+    "subtitle": "Ponte en Contacto — Nos Encantaría Saber de Ti",
+    "name": "Tu Nombre",
+    "email": "Correo Electrónico",
+    "company": "Nombre de la Empresa",
+    "country": "País",
+    "product": "Producto de Interés",
+    "quantity": "Cantidad Estimada",
+    "message": "Tu Mensaje",
+    "submit": "Enviar Consulta",
+    "sending": "Enviando...",
+    "success": "¡Gracias! Tu consulta ha sido enviada. Responderemos en 24 horas.",
+    "error": "Algo salió mal. Inténtalo de nuevo o envíanos un correo directamente.",
+    "required": "Obligatorio",
+    "selectProduct": "Selecciona una categoría",
+    "productOptions": {
+      "baseball": "Gorras de Béisbol",
+      "bucket": "Sombreros de Pescador",
+      "snapback": "Snapbacks",
+      "trucker": "Gorras Trucker",
+      "beanie": "Gorros",
+      "visor": "Viseras",
+      "other": "Otro"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

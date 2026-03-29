@@ -1,0 +1,122 @@
+{
+  "Nav": {
+    "home": "Home",
+    "products": "Products",
+    "about": "About Us",
+    "custom": "Custom Orders",
+    "contact": "Contact"
+  },
+  "Hero": {
+    "title": "Premium Custom Headwear Manufacturer",
+    "subtitle": "From design to delivery — baseball caps, bucket hats, snapbacks, and more. Quality craftsmanship with competitive factory-direct pricing.",
+    "cta": "View Products",
+    "ctaSecondary": "Get a Quote"
+  },
+  "Features": {
+    "title": "Why Choose Us",
+    "factory": "Own Factory",
+    "factoryDesc": "20,000m² production facility with 200+ skilled workers and advanced equipment.",
+    "quality": "Quality Assured",
+    "qualityDesc": "ISO 9001 certified. Rigorous quality control at every production stage.",
+    "custom": "Full Customization",
+    "customDesc": "Logo embroidery, custom fabrics, colors, sizes — bring your vision to life.",
+    "moq": "Low MOQ",
+    "moqDesc": "Starting from 100 pieces per style. Perfect for startups and established brands alike."
+  },
+  "FeaturedProducts": {
+    "title": "Featured Products",
+    "viewAll": "View All Products"
+  },
+  "CTA": {
+    "title": "Ready to Start Your Custom Headwear Project?",
+    "subtitle": "Tell us about your needs and get a free quote within 24 hours.",
+    "button": "Request a Quote"
+  },
+  "Footer": {
+    "description": "NanCrown — Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more.",
+    "quickLinks": "Quick Links",
+    "contactUs": "Contact Us",
+    "followUs": "Follow Us",
+    "rights": "All rights reserved.",
+    "email": "Email",
+    "phone": "Phone",
+    "address": "Address"
+  },
+  "Products": {
+    "title": "Our Products",
+    "subtitle": "Explore our full range of premium headwear",
+    "search": "Search products...",
+    "allCategories": "All Categories",
+    "noProducts": "No products found.",
+    "requestQuote": "Request Quote",
+    "minOrder": "Min. Order",
+    "pieces": "pcs",
+    "material": "Material",
+    "colors": "Available Colors",
+    "relatedProducts": "Related Products"
+  },
+  "About": {
+    "title": "About Us",
+    "subtitle": "Your Trusted Headwear Manufacturing Partner",
+    "story": "Our Story",
+    "storyText": "Founded in 2010, we have grown from a small workshop into one of the leading headwear manufacturers in China. With over a decade of experience, we serve brands and businesses worldwide with premium quality custom headwear.",
+    "capacity": "Production Capacity",
+    "capacityText": "Our state-of-the-art facility spans 20,000m² and houses over 200 skilled workers. Equipped with the latest embroidery machines, cutting equipment, and quality control systems, we can produce over 500,000 pieces per month.",
+    "certifications": "Certifications & Compliance",
+    "certificationsText": "We hold ISO 9001 quality management certification and comply with international standards including BSCI and SEDEX. All our products meet EU and US safety requirements.",
+    "years": "Years Experience",
+    "workers": "Skilled Workers",
+    "monthlyCapacity": "Monthly Capacity",
+    "countries": "Countries Served"
+  },
+  "Custom": {
+    "title": "Custom Orders",
+    "subtitle": "Bring Your Headwear Vision to Life",
+    "intro": "From concept to finished product, we handle every step of the custom manufacturing process. Whether you need 100 or 100,000 pieces, we deliver quality and consistency.",
+    "step1": "Design Consultation",
+    "step1Desc": "Share your ideas, logos, and requirements. Our design team will create mockups and samples for your approval.",
+    "step2": "Material Selection",
+    "step2Desc": "Choose from a wide range of fabrics, colors, and accessories. We source premium materials to match your specifications.",
+    "step3": "Sample Production",
+    "step3Desc": "We produce physical samples for your review before mass production begins. Revisions are included.",
+    "step4": "Mass Production",
+    "step4Desc": "Once approved, we begin full production with strict quality control at every stage.",
+    "step5": "Quality Inspection",
+    "step5Desc": "Every batch undergoes thorough inspection. We provide detailed QC reports with photos.",
+    "step6": "Shipping & Delivery",
+    "step6Desc": "We handle packaging and logistics worldwide. FOB, CIF, and door-to-door options available.",
+    "getStarted": "Start Your Custom Order"
+  },
+  "Contact": {
+    "title": "Contact Us",
+    "subtitle": "Get in Touch — We'd Love to Hear From You",
+    "name": "Your Name",
+    "email": "Email Address",
+    "company": "Company Name",
+    "country": "Country",
+    "product": "Product Interest",
+    "quantity": "Estimated Quantity",
+    "message": "Your Message",
+    "submit": "Send Inquiry",
+    "sending": "Sending...",
+    "success": "Thank you! Your inquiry has been sent. We'll respond within 24 hours.",
+    "error": "Something went wrong. Please try again or email us directly.",
+    "required": "Required",
+    "selectProduct": "Select a product category",
+    "productOptions": {
+      "baseball": "Baseball Caps",
+      "bucket": "Bucket Hats",
+      "snapback": "Snapbacks",
+      "trucker": "Trucker Hats",
+      "beanie": "Beanies",
+      "visor": "Visors",
+      "other": "Other"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

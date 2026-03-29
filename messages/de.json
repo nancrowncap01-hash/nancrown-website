@@ -1,0 +1,122 @@
+{
+  "Nav": {
+    "home": "Startseite",
+    "products": "Produkte",
+    "about": "Über Uns",
+    "custom": "Sonderanfertigungen",
+    "contact": "Kontakt"
+  },
+  "Hero": {
+    "title": "Premium Hersteller für Individuelle Kopfbedeckungen",
+    "subtitle": "Vom Design bis zur Lieferung — Baseballkappen, Fischerhüte, Snapbacks und mehr. Qualitätshandwerk zu wettbewerbsfähigen Fabrikpreisen.",
+    "cta": "Produkte Ansehen",
+    "ctaSecondary": "Angebot Anfordern"
+  },
+  "Features": {
+    "title": "Warum Uns Wählen",
+    "factory": "Eigene Fabrik",
+    "factoryDesc": "20.000m² Produktionsanlage mit über 200 qualifizierten Mitarbeitern und modernster Ausstattung.",
+    "quality": "Qualität Garantiert",
+    "qualityDesc": "ISO 9001 zertifiziert. Strenge Qualitätskontrolle in jeder Produktionsphase.",
+    "custom": "Volle Individualisierung",
+    "customDesc": "Logo-Stickerei, individuelle Stoffe, Farben, Größen — verwirklichen Sie Ihre Vision.",
+    "moq": "Niedrige Mindestbestellmenge",
+    "moqDesc": "Ab 100 Stück pro Stil. Perfekt für Startups und etablierte Marken."
+  },
+  "FeaturedProducts": {
+    "title": "Ausgewählte Produkte",
+    "viewAll": "Alle Produkte Ansehen"
+  },
+  "CTA": {
+    "title": "Bereit, Ihr Kopfbedeckungsprojekt zu Starten?",
+    "subtitle": "Erzählen Sie uns von Ihren Anforderungen und erhalten Sie ein kostenloses Angebot innerhalb von 24 Stunden.",
+    "button": "Angebot Anfordern"
+  },
+  "Footer": {
+    "description": "NanCrown — Professioneller Kopfbedeckungshersteller spezialisiert auf individuelle Baseballkappen, Fischerhüte, Snapbacks und mehr.",
+    "quickLinks": "Schnelllinks",
+    "contactUs": "Kontaktieren Sie Uns",
+    "followUs": "Folgen Sie Uns",
+    "rights": "Alle Rechte vorbehalten.",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "address": "Adresse"
+  },
+  "Products": {
+    "title": "Unsere Produkte",
+    "subtitle": "Entdecken Sie unser vollständiges Sortiment an Premium-Kopfbedeckungen",
+    "search": "Produkte suchen...",
+    "allCategories": "Alle Kategorien",
+    "noProducts": "Keine Produkte gefunden.",
+    "requestQuote": "Angebot Anfordern",
+    "minOrder": "Mindestbestellung",
+    "pieces": "Stk",
+    "material": "Material",
+    "colors": "Verfügbare Farben",
+    "relatedProducts": "Ähnliche Produkte"
+  },
+  "About": {
+    "title": "Über Uns",
+    "subtitle": "Ihr Vertrauenswürdiger Partner für Kopfbedeckungsherstellung",
+    "story": "Unsere Geschichte",
+    "storyText": "Gegründet 2010, sind wir von einer kleinen Werkstatt zu einem der führenden Kopfbedeckungshersteller in China gewachsen. Mit über einem Jahrzehnt Erfahrung bedienen wir Marken weltweit.",
+    "capacity": "Produktionskapazität",
+    "capacityText": "Unsere hochmoderne Anlage umfasst 20.000m² und beschäftigt über 200 qualifizierte Mitarbeiter. Wir können über 500.000 Stück pro Monat produzieren.",
+    "certifications": "Zertifizierungen und Compliance",
+    "certificationsText": "Wir besitzen die ISO 9001 Qualitätsmanagement-Zertifizierung und erfüllen internationale Standards einschließlich BSCI und SEDEX.",
+    "years": "Jahre Erfahrung",
+    "workers": "Qualifizierte Mitarbeiter",
+    "monthlyCapacity": "Monatliche Kapazität",
+    "countries": "Belieferte Länder"
+  },
+  "Custom": {
+    "title": "Sonderanfertigungen",
+    "subtitle": "Verwirklichen Sie Ihre Vision",
+    "intro": "Vom Konzept zum fertigen Produkt — wir betreuen jeden Schritt des individuellen Fertigungsprozesses.",
+    "step1": "Design-Beratung",
+    "step1Desc": "Teilen Sie Ihre Ideen, Logos und Anforderungen. Unser Designteam erstellt Entwürfe zur Genehmigung.",
+    "step2": "Materialauswahl",
+    "step2Desc": "Wählen Sie aus einer breiten Palette von Stoffen, Farben und Zubehör.",
+    "step3": "Musterproduktion",
+    "step3Desc": "Wir produzieren physische Muster zur Überprüfung vor der Massenproduktion.",
+    "step4": "Massenproduktion",
+    "step4Desc": "Nach Genehmigung beginnen wir die volle Produktion mit strenger Qualitätskontrolle.",
+    "step5": "Qualitätsprüfung",
+    "step5Desc": "Jede Charge wird gründlich geprüft mit detaillierten QC-Berichten.",
+    "step6": "Versand und Lieferung",
+    "step6Desc": "Wir übernehmen Verpackung und weltweite Logistik. FOB, CIF und Tür-zu-Tür Optionen.",
+    "getStarted": "Bestellung Starten"
+  },
+  "Contact": {
+    "title": "Kontakt",
+    "subtitle": "Kontaktieren Sie Uns — Wir Freuen Uns auf Ihre Nachricht",
+    "name": "Ihr Name",
+    "email": "E-Mail-Adresse",
+    "company": "Firmenname",
+    "country": "Land",
+    "product": "Produktinteresse",
+    "quantity": "Geschätzte Menge",
+    "message": "Ihre Nachricht",
+    "submit": "Anfrage Senden",
+    "sending": "Wird gesendet...",
+    "success": "Vielen Dank! Ihre Anfrage wurde gesendet. Wir antworten innerhalb von 24 Stunden.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "required": "Erforderlich",
+    "selectProduct": "Kategorie auswählen",
+    "productOptions": {
+      "baseball": "Baseballkappen",
+      "bucket": "Fischerhüte",
+      "snapback": "Snapbacks",
+      "trucker": "Trucker-Kappen",
+      "beanie": "Mützen",
+      "visor": "Schirmmützen",
+      "other": "Sonstiges"
+    }
+  },
+  "LanguageSwitcher": {
+    "en": "English",
+    "es": "Español",
+    "fr": "Français",
+    "de": "Deutsch"
+  }
+}

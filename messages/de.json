@@ -12,6 +12,21 @@
     "cta": "Produkte Ansehen",
     "ctaSecondary": "Angebot Anfordern"
   },
+  "HatStyles": {
+    "title": "Nach Hutart Einkaufen",
+    "baseballCap": "Baseballkappe",
+    "baseballCapDesc": "Klassisch & vielseitig.",
+    "bucketHat": "Fischerhut",
+    "bucketHatDesc": "Trendig & schützend.",
+    "snapback": "Snapback",
+    "snapbackDesc": "Flache Krempe, kühner Look.",
+    "truckerHat": "Trucker-Kappe",
+    "truckerHatDesc": "Atmungsaktives Mesh.",
+    "beanie": "Mütze",
+    "beanieDesc": "Warm & gemütlich.",
+    "visor": "Schirmmütze",
+    "visorDesc": "Sportbereit."
+  },
   "Features": {
     "title": "Warum Uns Wählen",
     "factory": "Eigene Fabrik",

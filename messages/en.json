@@ -12,6 +12,21 @@
     "cta": "View Products",
     "ctaSecondary": "Get a Quote"
   },
+  "HatStyles": {
+    "title": "Shop by Hat Style",
+    "baseballCap": "Baseball Cap",
+    "baseballCapDesc": "Classic & versatile.",
+    "bucketHat": "Bucket Hat",
+    "bucketHatDesc": "Trendy & protective.",
+    "snapback": "Snapback",
+    "snapbackDesc": "Flat brim, bold look.",
+    "truckerHat": "Trucker Hat",
+    "truckerHatDesc": "Breathable mesh back.",
+    "beanie": "Beanie",
+    "beanieDesc": "Warm & cozy.",
+    "visor": "Visor",
+    "visorDesc": "Sport-ready."
+  },
   "Features": {
     "title": "Why Choose Us",
     "factory": "Own Factory",

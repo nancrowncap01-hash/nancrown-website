@@ -12,6 +12,21 @@
     "cta": "Ver Productos",
     "ctaSecondary": "Solicitar Cotización"
   },
+  "HatStyles": {
+    "title": "Comprar por Estilo",
+    "baseballCap": "Gorra de Béisbol",
+    "baseballCapDesc": "Clásica y versátil.",
+    "bucketHat": "Sombrero de Pescador",
+    "bucketHatDesc": "Moderno y protector.",
+    "snapback": "Snapback",
+    "snapbackDesc": "Visera plana, estilo audaz.",
+    "truckerHat": "Gorra Trucker",
+    "truckerHatDesc": "Malla transpirable.",
+    "beanie": "Gorro de Lana",
+    "beanieDesc": "Cálido y cómodo.",
+    "visor": "Visera",
+    "visorDesc": "Para el deporte."
+  },
   "Features": {
     "title": "Por Qué Elegirnos",
     "factory": "Fábrica Propia",

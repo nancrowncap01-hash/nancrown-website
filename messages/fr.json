@@ -12,6 +12,21 @@
     "cta": "Voir les Produits",
     "ctaSecondary": "Demander un Devis"
   },
+  "HatStyles": {
+    "title": "Acheter par Style",
+    "baseballCap": "Casquette de Baseball",
+    "baseballCapDesc": "Classique et polyvalente.",
+    "bucketHat": "Bob",
+    "bucketHatDesc": "Tendance et protecteur.",
+    "snapback": "Snapback",
+    "snapbackDesc": "Visière plate, look audacieux.",
+    "truckerHat": "Casquette Trucker",
+    "truckerHatDesc": "Dos en maille respirant.",
+    "beanie": "Bonnet",
+    "beanieDesc": "Chaud et confortable.",
+    "visor": "Visière",
+    "visorDesc": "Prêt pour le sport."
+  },
   "Features": {
     "title": "Pourquoi Nous Choisir",
     "factory": "Usine Propre",

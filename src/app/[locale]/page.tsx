@@ -5,6 +5,7 @@ import ProductCard from "@/components/products/ProductCard";
 
 export default function HomePage() {
   const t = useTranslations("Hero");
+  const hs = useTranslations("HatStyles");
   const feat = useTranslations("Features");
   const vid = useTranslations("FactoryVideo");
   const fp = useTranslations("FeaturedProducts");
@@ -78,6 +79,81 @@ export default function HomePage() {
                 {t("ctaSecondary")}
               </Link>
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Hat Styles Section */}
+      <section className="py-16 border-b border-gray-100">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-10">
+            {hs("title")}
+          </h2>
+          <div className="grid grid-cols-3 sm:grid-cols-6 gap-6 sm:gap-8">
+            {[
+              { key: "baseballCap", category: "Baseball Caps", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M15 50 C15 30, 65 30, 65 50" strokeLinecap="round" />
+                  <path d="M15 50 C15 55, 65 55, 65 50" strokeLinecap="round" />
+                  <path d="M65 50 C72 52, 78 55, 78 58" strokeLinecap="round" />
+                  <circle cx="40" cy="28" r="3" fill="currentColor" stroke="none" />
+                </svg>
+              )},
+              { key: "bucketHat", category: "Bucket Hats", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M10 55 C10 55, 25 50, 40 50 C55 50, 70 55, 70 55" strokeLinecap="round" />
+                  <path d="M20 50 C20 35, 60 35, 60 50" strokeLinecap="round" />
+                  <path d="M10 55 C10 58, 70 58, 70 55" strokeLinecap="round" />
+                </svg>
+              )},
+              { key: "snapback", category: "Snapbacks", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M15 48 C15 30, 65 30, 65 48" strokeLinecap="round" />
+                  <path d="M15 48 L10 52 L70 52 L65 48" strokeLinecap="round" />
+                  <line x1="40" y1="48" x2="40" y2="52" />
+                  <circle cx="40" cy="27" r="3" fill="currentColor" stroke="none" />
+                </svg>
+              )},
+              { key: "truckerHat", category: "Trucker Hats", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M15 50 C15 30, 65 30, 65 50" strokeLinecap="round" />
+                  <path d="M15 50 C15 55, 65 55, 65 50" strokeLinecap="round" />
+                  <path d="M65 50 C72 52, 78 55, 78 58" strokeLinecap="round" />
+                  <path d="M35 32 L35 48 M45 32 L45 48 M35 40 L45 40" strokeLinecap="round" strokeDasharray="2 3" opacity="0.5" />
+                </svg>
+              )},
+              { key: "beanie", category: "Beanies", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M20 55 C20 35, 60 35, 60 55" strokeLinecap="round" />
+                  <path d="M18 55 C18 60, 62 60, 62 55" strokeLinecap="round" />
+                  <path d="M18 55 C18 52, 62 52, 62 55" strokeLinecap="round" />
+                  <circle cx="40" cy="33" r="2" fill="currentColor" stroke="none" />
+                </svg>
+              )},
+              { key: "visor", category: "Visors", icon: (
+                <svg viewBox="0 0 80 80" className="w-16 h-16 sm:w-20 sm:h-20" fill="none" stroke="currentColor" strokeWidth="2">
+                  <path d="M20 50 C25 45, 55 45, 60 50" strokeLinecap="round" />
+                  <path d="M60 50 C68 52, 75 56, 76 59" strokeLinecap="round" />
+                  <path d="M20 50 C20 52, 60 52, 60 50" strokeLinecap="round" />
+                </svg>
+              )},
+            ].map((style) => (
+              <Link
+                key={style.key}
+                href={`/products?category=${encodeURIComponent(style.category)}`}
+                className="flex flex-col items-center text-center group"
+              >
+                <div className="text-gray-400 group-hover:text-amber-600 transition-colors mb-3">
+                  {style.icon}
+                </div>
+                <span className="text-sm font-semibold text-gray-900 group-hover:text-amber-600 transition-colors">
+                  {hs(style.key)}
+                </span>
+                <span className="text-xs text-gray-500 mt-0.5 hidden sm:block">
+                  {hs(`${style.key}Desc`)}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
       </section>

@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -56,20 +57,15 @@ function ProductDetail({
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Image */}
-            <div className="aspect-square bg-gray-100 rounded-2xl flex items-center justify-center text-gray-400">
-              <svg
-                className="h-24 w-24"
-                fill="none"
-                viewBox="0 0 24 24"
-                strokeWidth="1"
-                stroke="currentColor"
-              >
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909M3.75 21h16.5A2.25 2.25 0 0022.5 18.75V5.25A2.25 2.25 0 0020.25 3H3.75A2.25 2.25 0 001.5 5.25v13.5A2.25 2.25 0 003.75 21z"
-                />
-              </svg>
+            <div className="aspect-square bg-gray-100 rounded-2xl relative overflow-hidden">
+              <Image
+                src={product.image}
+                alt={product.name}
+                fill
+                className="object-cover rounded-2xl"
+                sizes="(max-width: 1024px) 100vw, 50vw"
+                priority
+              />
             </div>
 
             {/* Info */}

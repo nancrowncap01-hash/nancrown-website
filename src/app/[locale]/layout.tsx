@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 
 export default async function LocaleLayout({
   children,
@@ -22,6 +23,9 @@ export default async function LocaleLayout({
 
   return (
     <html lang={locale} className="h-full scroll-smooth">
+      <head>
+        <OrganizationJsonLd />
+      </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900 antialiased">
         <NextIntlClientProvider messages={messages}>
           <Header />

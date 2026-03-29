@@ -4,6 +4,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
+import { ProductJsonLd } from "@/components/seo/JsonLd";
 
 export function generateStaticParams() {
   return sampleProducts.map((p) => ({ slug: p.slug }));
@@ -25,7 +26,12 @@ export default async function ProductDetailPage({
     .filter((p) => p.category === product.category && p.slug !== product.slug)
     .slice(0, 4);
 
-  return <ProductDetail product={product} related={related} />;
+  return (
+    <>
+      <ProductJsonLd product={product} />
+      <ProductDetail product={product} related={related} />
+    </>
+  );
 }
 
 function ProductDetail({

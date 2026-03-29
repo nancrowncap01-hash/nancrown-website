@@ -23,6 +23,13 @@
     "moq": "Low MOQ",
     "moqDesc": "Starting from 100 pieces per style. Perfect for startups and established brands alike."
   },
+  "FactoryVideo": {
+    "title": "See Our Factory in Action",
+    "subtitle": "Step inside our 20,000m² production facility and watch how we craft premium custom headwear — from cutting and sewing to embroidery and quality control.",
+    "highlight1": "200+ Skilled Workers",
+    "highlight2": "Advanced Equipment",
+    "highlight3": "Strict Quality Control"
+  },
   "FeaturedProducts": {
     "title": "Featured Products",
     "viewAll": "View All Products"

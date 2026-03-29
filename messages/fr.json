@@ -23,6 +23,13 @@
     "moq": "MOQ Bas",
     "moqDesc": "À partir de 100 pièces par style. Parfait pour les startups et les marques établies."
   },
+  "FactoryVideo": {
+    "title": "Découvrez Notre Usine en Action",
+    "subtitle": "Visitez nos installations de production de 20 000 m² et découvrez comment nous fabriquons des couvre-chefs personnalisés haut de gamme — de la coupe et couture à la broderie et au contrôle qualité.",
+    "highlight1": "200+ Ouvriers Qualifiés",
+    "highlight2": "Équipements Avancés",
+    "highlight3": "Contrôle Qualité Strict"
+  },
   "FeaturedProducts": {
     "title": "Produits Vedettes",
     "viewAll": "Voir Tous les Produits"

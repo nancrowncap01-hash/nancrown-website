@@ -23,6 +23,13 @@
     "moq": "Pedido Mínimo Bajo",
     "moqDesc": "Desde 100 piezas por estilo. Perfecto para startups y marcas establecidas."
   },
+  "FactoryVideo": {
+    "title": "Vea Nuestra Fábrica en Acción",
+    "subtitle": "Descubra nuestras instalaciones de producción de 20,000m² y vea cómo fabricamos gorras personalizadas premium — desde el corte y la costura hasta el bordado y el control de calidad.",
+    "highlight1": "200+ Trabajadores Cualificados",
+    "highlight2": "Equipos Avanzados",
+    "highlight3": "Control de Calidad Estricto"
+  },
   "FeaturedProducts": {
     "title": "Productos Destacados",
     "viewAll": "Ver Todos los Productos"

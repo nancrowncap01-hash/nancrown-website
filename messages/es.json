@@ -135,6 +135,22 @@
       "other": "Otro"
     }
   },
+  "FAQ": {
+    "title": "FAQ",
+    "subtitle": "Nuestras preguntas más frecuentes",
+    "q1": "¿Cuánto tiempo tarda la producción?",
+    "a1": "Nuestro tiempo de producción estándar es de 15 a 25 días, según la cantidad y la complejidad de la personalización. Se pueden organizar pedidos urgentes — contáctenos para discutir su cronograma.",
+    "q2": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
+    "a2": "Nuestro MOQ comienza desde 100 piezas por estilo por color. Para primeros pedidos, ofrecemos cantidades flexibles para ayudarle a probar el mercado.",
+    "q3": "¿Pueden producir diseños personalizados con nuestro logo?",
+    "a3": "¡Por supuesto! Ofrecemos personalización completa incluyendo bordado, serigrafía, etiquetas tejidas, parches y más. Solo envíenos su logo y requisitos de diseño.",
+    "q4": "¿Qué materiales utilizan?",
+    "a4": "Trabajamos con una amplia gama de materiales incluyendo sarga de algodón, poliéster, nylon, lana, acrílico, pana y telas orgánicas/recicladas. También podemos conseguir materiales específicos según su solicitud.",
+    "q5": "¿Cómo manejan el envío?",
+    "a5": "Ofrecemos opciones de entrega FOB, CIF y puerta a puerta en todo el mundo. Trabajamos con transitarios confiables y podemos enviar por mar, aire o mensajería exprés según sus necesidades.",
+    "q6": "¿Proporcionan muestras antes de la producción?",
+    "a6": "Sí, proporcionamos muestras de preproducción para su aprobación. La producción de muestras toma 5-7 días. Una vez aprobadas, procedemos con la producción en masa."
+  },
   "LanguageSwitcher": {
     "en": "English",
     "es": "Español",

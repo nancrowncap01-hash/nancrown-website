@@ -3,6 +3,7 @@ import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
+import FAQ from "@/components/FAQ";
 
 export default function HomePage() {
   const t = useTranslations("Hero");
@@ -11,6 +12,16 @@ export default function HomePage() {
   const vid = useTranslations("FactoryVideo");
   const fp = useTranslations("FeaturedProducts");
   const cta = useTranslations("CTA");
+  const faq = useTranslations("FAQ");
+
+  const faqItems = [
+    { question: faq("q1"), answer: faq("a1") },
+    { question: faq("q2"), answer: faq("a2") },
+    { question: faq("q3"), answer: faq("a3") },
+    { question: faq("q4"), answer: faq("a4") },
+    { question: faq("q5"), answer: faq("a5") },
+    { question: faq("q6"), answer: faq("a6") },
+  ];
 
   const features = [
     {
@@ -220,6 +231,9 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+      {/* FAQ Section */}
+      <FAQ title={faq("title")} subtitle={faq("subtitle")} items={faqItems} />
 
       {/* CTA Section */}
       <section className="bg-amber-600 py-16">

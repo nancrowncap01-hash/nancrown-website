@@ -135,6 +135,22 @@
       "other": "Autre"
     }
   },
+  "FAQ": {
+    "title": "FAQ",
+    "subtitle": "Nos questions les plus fréquentes",
+    "q1": "Quel est votre délai de production ?",
+    "a1": "Notre délai de production standard est de 15 à 25 jours, selon la quantité et la complexité de la personnalisation. Les commandes urgentes peuvent être organisées — contactez-nous pour discuter de votre calendrier.",
+    "q2": "Quelle est votre quantité minimum de commande (MOQ) ?",
+    "a2": "Notre MOQ commence à partir de 100 pièces par style par couleur. Pour les premières commandes, nous offrons des quantités flexibles pour vous aider à tester le marché.",
+    "q3": "Pouvez-vous produire des designs personnalisés avec notre logo ?",
+    "a3": "Absolument ! Nous offrons une personnalisation complète incluant broderie, sérigraphie, étiquettes tissées, patchs et plus. Envoyez-nous simplement votre logo et vos exigences de design.",
+    "q4": "Quels matériaux utilisez-vous ?",
+    "a4": "Nous travaillons avec une large gamme de matériaux incluant sergé de coton, polyester, nylon, laine, acrylique, velours côtelé et tissus organiques/recyclés. Nous pouvons également sourcer des matériaux spécifiques selon votre demande.",
+    "q5": "Comment gérez-vous l'expédition ?",
+    "a5": "Nous offrons des options de livraison FOB, CIF et porte-à-porte dans le monde entier. Nous travaillons avec des transitaires fiables et pouvons expédier par mer, air ou courrier express selon vos besoins.",
+    "q6": "Fournissez-vous des échantillons avant la production ?",
+    "a6": "Oui, nous fournissons des échantillons de pré-production pour votre approbation. La production d'échantillons prend 5-7 jours. Une fois approuvés, nous procédons à la production en masse."
+  },
   "LanguageSwitcher": {
     "en": "English",
     "es": "Español",

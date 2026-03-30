@@ -135,6 +135,22 @@
       "other": "Other"
     }
   },
+  "FAQ": {
+    "title": "FAQ",
+    "subtitle": "Our most frequently asked questions",
+    "q1": "How long is your production time?",
+    "a1": "Our standard production time is 15–25 days, depending on quantity and customization complexity. Rush orders can be arranged — contact us to discuss your timeline.",
+    "q2": "What is your minimum order quantity (MOQ)?",
+    "a2": "Our MOQ starts from 100 pieces per style per color. For first-time orders, we offer flexible quantities to help you test the market.",
+    "q3": "Can you produce custom designs with our logo?",
+    "a3": "Absolutely! We offer full customization including embroidery, screen printing, woven labels, patches, and more. Just send us your logo and design requirements.",
+    "q4": "What materials do you use?",
+    "a4": "We work with a wide range of materials including cotton twill, polyester, nylon, wool, acrylic, corduroy, and organic/recycled fabrics. We can also source specific materials per your request.",
+    "q5": "How do you handle shipping?",
+    "a5": "We offer FOB, CIF, and door-to-door delivery options worldwide. We work with reliable freight forwarders and can ship by sea, air, or express courier depending on your needs.",
+    "q6": "Do you provide samples before production?",
+    "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 5–7 days. Once approved, we proceed with mass production."
+  },
   "LanguageSwitcher": {
     "en": "English",
     "es": "Español",

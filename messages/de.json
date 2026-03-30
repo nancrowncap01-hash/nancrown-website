@@ -135,6 +135,22 @@
       "other": "Sonstiges"
     }
   },
+  "FAQ": {
+    "title": "FAQ",
+    "subtitle": "Unsere am häufigsten gestellten Fragen",
+    "q1": "Wie lange dauert die Produktion?",
+    "a1": "Unsere Standardproduktionszeit beträgt 15–25 Tage, je nach Menge und Komplexität der Individualisierung. Eilaufträge können organisiert werden — kontaktieren Sie uns, um Ihren Zeitplan zu besprechen.",
+    "q2": "Was ist Ihre Mindestbestellmenge (MOQ)?",
+    "a2": "Unsere MOQ beginnt ab 100 Stück pro Stil pro Farbe. Für Erstbestellungen bieten wir flexible Mengen an, um Ihnen beim Marktest zu helfen.",
+    "q3": "Können Sie individuelle Designs mit unserem Logo produzieren?",
+    "a3": "Selbstverständlich! Wir bieten vollständige Individualisierung einschließlich Stickerei, Siebdruck, gewebte Etiketten, Aufnäher und mehr. Senden Sie uns einfach Ihr Logo und Ihre Designanforderungen.",
+    "q4": "Welche Materialien verwenden Sie?",
+    "a4": "Wir arbeiten mit einer breiten Palette von Materialien einschließlich Baumwolltwill, Polyester, Nylon, Wolle, Acryl, Cord und organischen/recycelten Stoffen. Wir können auch spezifische Materialien nach Ihren Wünschen beschaffen.",
+    "q5": "Wie handhaben Sie den Versand?",
+    "a5": "Wir bieten weltweite Lieferoptionen FOB, CIF und Tür-zu-Tür. Wir arbeiten mit zuverlässigen Spediteuren und können per See, Luft oder Expresskurier versenden.",
+    "q6": "Stellen Sie Muster vor der Produktion bereit?",
+    "a6": "Ja, wir stellen Vorproduktionsmuster zur Genehmigung bereit. Die Musterproduktion dauert 5-7 Tage. Nach Genehmigung beginnen wir mit der Massenproduktion."
+  },
   "LanguageSwitcher": {
     "en": "English",
     "es": "Español",

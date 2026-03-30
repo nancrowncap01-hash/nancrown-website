@@ -21,6 +21,23 @@ export const categories = [
 
 export const sampleProducts: Product[] = [
   {
+    slug: "nancrown-logo-baseball-cap",
+    name: "NanCrown Logo Baseball Cap",
+    category: "Baseball Caps",
+    image: "/images/products/nancrown-logo-cap.jpg",
+    description:
+      "Premium white cotton baseball cap featuring the NanCrown embroidered logo with signature crown icon. Clean, professional design showcasing our brand craftsmanship.",
+    material: "100% Cotton Twill",
+    moq: 100,
+    colors: ["White", "Black", "Navy", "Grey"],
+    features: [
+      "6-panel structured design",
+      "3D embroidered NanCrown logo",
+      "Metal buckle closure",
+      "Pre-curved visor",
+    ],
+  },
+  {
     slug: "embroidered-cotton-baseball-cap",
     name: "Embroidered Cotton Baseball Cap",
     category: "Baseball Caps",

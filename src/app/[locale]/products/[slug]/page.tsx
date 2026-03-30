@@ -6,11 +6,7 @@ import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
 
-export const dynamicParams = true;
-
-export function generateStaticParams() {
-  return sampleProducts.map((p) => ({ slug: p.slug }));
-}
+export const dynamic = "force-dynamic";
 
 export default async function ProductDetailPage({
   params,

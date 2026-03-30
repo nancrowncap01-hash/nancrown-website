@@ -5,15 +5,15 @@ export function OrganizationJsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "NanCrown",
-    legalName: "Dongguan NanCrown Headwear Co., Ltd.",
+    legalName: "Guangzhou Nancrown Cap Co., Ltd.",
     url: "https://nancrown.com",
     logo: "https://nancrown.com/images/logo.png",
     description:
       "Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more.",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "No.64 Liheng Road, Shipai Town",
-      addressLocality: "Dongguan",
+      streetAddress: "Guangzhou",
+      addressLocality: "Guangzhou",
       addressRegion: "Guangdong",
       postalCode: "523000",
       addressCountry: "CN",
@@ -49,7 +49,7 @@ export function ProductJsonLd({ product }: { product: Product }) {
     },
     manufacturer: {
       "@type": "Organization",
-      name: "Dongguan NanCrown Headwear Co., Ltd.",
+      name: "Guangzhou Nancrown Cap Co., Ltd.",
       url: "https://nancrown.com",
     },
     offers: {

@@ -4,6 +4,7 @@ import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
 import FAQ from "@/components/FAQ";
+import VideoPlayer from "@/components/VideoPlayer";
 
 export default function HomePage() {
   const t = useTranslations("Hero");
@@ -174,12 +175,10 @@ export default function HomePage() {
           </div>
           <div className="max-w-4xl mx-auto">
             <div className="rounded-2xl overflow-hidden shadow-2xl aspect-video">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/jfbFFLF1nx8"
+              <VideoPlayer
+                videoId="jfbFFLF1nx8"
+                coverImage="/images/factory-video-cover.jpg"
                 title="NanCrown Headwear Factory - Custom Hat Manufacturing Process"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
               />
             </div>
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-3 gap-6">

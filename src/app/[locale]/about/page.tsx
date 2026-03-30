@@ -1,4 +1,5 @@
 import { useTranslations } from "next-intl";
+import VideoPlayer from "@/components/VideoPlayer";
 
 export default function AboutPage() {
   const t = useTranslations("About");
@@ -47,12 +48,10 @@ export default function AboutPage() {
               <p className="text-gray-600 leading-relaxed">{t("storyText")}</p>
             </div>
             <div className="rounded-2xl overflow-hidden aspect-video">
-              <iframe
-                className="w-full h-full"
-                src="https://www.youtube.com/embed/jfbFFLF1nx8"
+              <VideoPlayer
+                videoId="jfbFFLF1nx8"
+                coverImage="/images/factory-video-cover.jpg"
                 title="NanCrown Headwear Factory - Custom Hat Manufacturing Process"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
               />
             </div>
           </div>

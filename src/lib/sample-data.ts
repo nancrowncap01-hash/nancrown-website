@@ -38,40 +38,6 @@ export const sampleProducts: Product[] = [
     ],
   },
   {
-    slug: "embroidered-cotton-baseball-cap",
-    name: "Embroidered Cotton Baseball Cap",
-    category: "Baseball Caps",
-    image: "/images/products/embroidered-baseball-cap.jpg",
-    description:
-      "Japanese-Korean style casual black cotton baseball cap with custom embroidered logo. A versatile everyday cap perfect for streetwear and lifestyle brands.",
-    material: "100% Cotton",
-    moq: 100,
-    colors: ["Black", "Navy", "White", "Khaki", "Army Green"],
-    features: [
-      "6-panel structured design",
-      "Custom embroidered logo",
-      "Adjustable buckle closure",
-      "Breathable cotton construction",
-    ],
-  },
-  {
-    slug: "metal-buckle-embroidered-baseball-cap",
-    name: "Metal Buckle Embroidered Baseball Cap",
-    category: "Baseball Caps",
-    image: "/images/products/metal-buckle-baseball-cap.jpg",
-    description:
-      "2026 new style black cotton 6-panel baseball cap with metal buckle detail and letter embroidery. Premium construction with a modern minimalist look.",
-    material: "100% Cotton",
-    moq: 100,
-    colors: ["Black", "Dark Green", "Navy", "Brown"],
-    features: [
-      "6-panel construction",
-      "Metal buckle accent",
-      "Letter embroidery",
-      "Adjustable strap closure",
-    ],
-  },
-  {
     slug: "cotton-bucket-hat",
     name: "Cotton Bucket Hat",
     category: "Bucket Hats",

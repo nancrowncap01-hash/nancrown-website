@@ -15,7 +15,7 @@ export function OrganizationJsonLd() {
       streetAddress: "Guangzhou",
       addressLocality: "Guangzhou",
       addressRegion: "Guangdong",
-      postalCode: "523000",
+      postalCode: "510000",
       addressCountry: "CN",
     },
     contactPoint: {
@@ -55,10 +55,54 @@ export function ProductJsonLd({ product }: { product: Product }) {
     offers: {
       "@type": "Offer",
       availability: "https://schema.org/InStock",
+      price: 0,
+      priceCurrency: "USD",
+      priceSpecification: {
+        "@type": "UnitPriceSpecification",
+        priceCurrency: "USD",
+        price: 0,
+        priceType: "https://schema.org/ListPrice",
+        description: "Contact us for pricing. Price varies by quantity and customization.",
+      },
       eligibleQuantity: {
         "@type": "QuantitativeValue",
         minValue: product.moq,
         unitCode: "C62",
+      },
+      hasMerchantReturnPolicy: {
+        "@type": "MerchantReturnPolicy",
+        applicableCountry: "US",
+        returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
+        merchantReturnDays: 0,
+        description: "Custom manufactured products. Contact us for quality issues.",
+      },
+      shippingDetails: {
+        "@type": "OfferShippingDetails",
+        shippingDestination: {
+          "@type": "DefinedRegion",
+          addressCountry: "US",
+        },
+        deliveryTime: {
+          "@type": "ShippingDeliveryTime",
+          handlingTime: {
+            "@type": "QuantitativeValue",
+            minValue: 15,
+            maxValue: 25,
+            unitCode: "d",
+          },
+          transitTime: {
+            "@type": "QuantitativeValue",
+            minValue: 7,
+            maxValue: 30,
+            unitCode: "d",
+          },
+        },
+        shippingRate: {
+          "@type": "MonetaryAmount",
+          value: 0,
+          currency: "USD",
+          description: "Shipping cost varies by order size. Contact for quote.",
+        },
       },
     },
   };

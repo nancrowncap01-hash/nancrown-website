@@ -1,5 +1,22 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import { pageMetadata } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: "/custom",
+    title: "Custom Hat Manufacturing Process",
+    description:
+      "Make custom hats in 6 simple steps: design, sampling, production, QC & shipping. Low MOQ, OEM/ODM welcome. Get a free quote from NanCrown.",
+  });
+}
 
 export default function CustomPage() {
   const t = useTranslations("Custom");

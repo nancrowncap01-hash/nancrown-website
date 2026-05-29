@@ -1,3 +1,4 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
@@ -5,6 +6,23 @@ import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
 import FAQ from "@/components/FAQ";
 import VideoPlayer from "@/components/VideoPlayer";
+import { pageMetadata } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: "",
+    title: "Premium Custom Headwear Manufacturer | NanCrown",
+    description:
+      "China-based custom hat manufacturer — baseball caps, bucket hats, snapbacks & more. Factory-direct pricing, low MOQ, custom logo embroidery, worldwide shipping.",
+    absolute: true,
+  });
+}
 
 export default function HomePage() {
   const t = useTranslations("Hero");

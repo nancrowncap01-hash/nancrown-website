@@ -7,12 +7,11 @@ export function OrganizationJsonLd() {
     name: "NanCrown",
     legalName: "Guangzhou Nancrown Cap Co., Ltd.",
     url: "https://nancrown.com",
-    logo: "https://nancrown.com/images/logo.png",
     description:
       "Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more.",
+    telephone: "+862031235916",
     address: {
       "@type": "PostalAddress",
-      streetAddress: "Guangzhou",
       addressLocality: "Guangzhou",
       addressRegion: "Guangdong",
       postalCode: "510000",
@@ -22,6 +21,8 @@ export function OrganizationJsonLd() {
       "@type": "ContactPoint",
       contactType: "sales",
       email: "info@nancrown.com",
+      telephone: "+862031235916",
+      availableLanguage: ["en", "es", "fr", "de", "zh"],
     },
     sameAs: [],
   };

@@ -5,8 +5,31 @@ import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
+import { pageMetadata } from "@/lib/seo";
+import type { Metadata } from "next";
 
 export const dynamic = "force-dynamic";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string; locale: string }>;
+}): Promise<Metadata> {
+  const { slug, locale } = await params;
+  const product = sampleProducts.find((p) => p.slug === slug);
+  if (!product) return {};
+  return pageMetadata({
+    locale,
+    path: `/products/${slug}`,
+    title: product.name,
+    description:
+      `${product.description} Factory-direct custom ${product.category.toLowerCase()}, low MOQ ${product.moq} pcs, custom colors & logo.`.slice(
+        0,
+        200
+      ),
+    image: product.image,
+  });
+}
 
 export default async function ProductDetailPage({
   params,

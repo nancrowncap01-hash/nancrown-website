@@ -1,5 +1,22 @@
+import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import VideoPlayer from "@/components/VideoPlayer";
+import { pageMetadata } from "@/lib/seo";
+
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}): Promise<Metadata> {
+  const { locale } = await params;
+  return pageMetadata({
+    locale,
+    path: "/about",
+    title: "About Our Hat Factory",
+    description:
+      "15+ years crafting custom headwear for 50+ countries. 200+ skilled workers, 500K+ monthly capacity. Discover NanCrown's hat manufacturing strength.",
+  });
+}
 
 export default function AboutPage() {
   const t = useTranslations("About");

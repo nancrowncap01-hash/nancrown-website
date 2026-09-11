@@ -1,4 +1,5 @@
 import type { Product } from "@/lib/sample-data";
+import { localizeProduct } from "@/lib/product-i18n";
 
 export function OrganizationJsonLd() {
   const data = {
@@ -35,12 +36,21 @@ export function OrganizationJsonLd() {
   );
 }
 
-export function ProductJsonLd({ product }: { product: Product }) {
+export function ProductJsonLd({
+  product,
+  locale,
+}: {
+  product: Product;
+  locale: string;
+}) {
+  // 结构化数据里只本地化 name / description 给谷歌看;
+  // sku(款号)、category、material、colors 等其他字段一律沿用英文原值,不跟着变
+  const { name, description } = localizeProduct(product, locale);
   const data = {
     "@context": "https://schema.org",
     "@type": "Product",
-    name: product.name,
-    description: product.description,
+    name,
+    description,
     image: `https://nancrown.com${product.image}`,
     category: product.category,
     material: product.material,

@@ -77,7 +77,19 @@
     "colors": "Verfügbare Farben",
     "relatedProducts": "Ähnliche Produkte",
     "styleNo": "Modell-Nr. {code}",
-    "renderingNote": "Die Abbildungen sind Design-Renderings und dienen nur zur Orientierung. Das Endprodukt wird durch ein Vorproduktionsmuster bestätigt. Abgebildete Schriftzüge und Logos sind Beispielgrafiken und werden durch Ihr eigenes Branding ersetzt."
+    "renderingNote": "Die Abbildungen sind Design-Renderings und dienen nur zur Orientierung. Das Endprodukt wird durch ein Vorproduktionsmuster bestätigt. Abgebildete Schriftzüge und Logos sind Beispielgrafiken und werden durch Ihr eigenes Branding ersetzt.",
+    "metaSuffix": "Direkt ab Werk: {category}, Mindestbestellmenge {moq} Stück, individuelle Farben und Logo."
+  },
+  "Categories": {
+    "Baseball Caps": "Baseballkappen",
+    "Trucker Hats": "Trucker-Kappen",
+    "Bucket Hats": "Fischerhüte",
+    "Visors": "Schirmmützen",
+    "Camp Caps": "Camp-Kappen",
+    "Running Caps": "Running-Kappen",
+    "Cadet Caps": "Cadet-Kappen",
+    "Outdoor Caps": "Outdoor-Kappen",
+    "Winter Hats": "Wintermützen"
   },
   "About": {
     "title": "Über Uns",
@@ -161,5 +173,17 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "Seo": {
+    "homeTitle": "Hersteller für individuelle Caps | NanCrown",
+    "homeDescription": "Hersteller für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch. Mindestbestellmenge 50 Stück pro Farbe.",
+    "productsTitle": "Individuelle Caps & Hüte — Großhandelskatalog",
+    "productsDescription": "Katalog individueller Caps und Hüte: Baseball, Trucker, Fischerhüte, Schirmmützen und mehr. Direkt ab Werk, Mindestbestellmenge 50 Stück/Farbe, OEM/ODM.",
+    "customTitle": "Individuelle Cap-Fertigung nach Maß",
+    "customDescription": "Individuelle Caps vom Design bis zur Fertigung, eigene Fabrik in Guangzhou. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe.",
+    "aboutTitle": "Über unsere Cap-Fabrik",
+    "aboutDescription": "Fabrik für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch für Großhandelsmarken weltweit.",
+    "contactTitle": "Kontakt — Angebot anfordern",
+    "contactDescription": "Angebot für individuelle Caps anfordern. Fabrik in Guangzhou, China. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe."
   }
 }

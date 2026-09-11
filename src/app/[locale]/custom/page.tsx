@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { pageMetadata } from "@/lib/seo";
 
@@ -9,12 +10,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Seo" });
   return pageMetadata({
     locale,
     path: "/custom",
-    title: "Custom Hat Manufacturing Process",
-    description:
-      "Make custom hats in 6 simple steps: design, sampling, production, QC & shipping. Low MOQ, OEM/ODM welcome. Get a free quote from NanCrown.",
+    title: t("customTitle"),
+    description: t("customDescription"),
   });
 }
 

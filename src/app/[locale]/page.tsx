@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
@@ -14,12 +15,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Seo" });
   return pageMetadata({
     locale,
     path: "",
-    title: "Premium Custom Headwear Manufacturer | NanCrown",
-    description:
-      "China-based custom hat manufacturer — baseball caps, bucket hats, snapbacks & more. Factory-direct pricing, low MOQ, custom logo embroidery, worldwide shipping.",
+    title: t("homeTitle"),
+    description: t("homeDescription"),
     absolute: true,
   });
 }

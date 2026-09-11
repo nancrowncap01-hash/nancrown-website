@@ -41,7 +41,8 @@ export async function POST(request: NextRequest) {
       from: "NanCrown Website <onboarding@resend.dev>",
       to: [notifyEmail],
       replyTo: email,
-      subject: `New Inquiry from ${name} - ${product}`,
+      // 标题前加【官网询盘】,在邮箱里一眼能认出是官网表单来的
+      subject: `【官网询盘】New Inquiry from ${name} - ${product}`,
       html: `
         <h2>New Customer Inquiry</h2>
         <table style="border-collapse: collapse; width: 100%; max-width: 600px;">

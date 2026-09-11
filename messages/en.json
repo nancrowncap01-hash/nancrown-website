@@ -77,7 +77,19 @@
     "colors": "Available Colors",
     "relatedProducts": "Related Products",
     "styleNo": "Style No. {code}",
-    "renderingNote": "Images are design renderings for reference. Final product is confirmed by a pre-production sample. Lettering and logos shown are sample artwork, replaced with your own branding."
+    "renderingNote": "Images are design renderings for reference. Final product is confirmed by a pre-production sample. Lettering and logos shown are sample artwork, replaced with your own branding.",
+    "metaSuffix": "Factory-direct custom {category}, low MOQ {moq} pcs, custom colors & logo."
+  },
+  "Categories": {
+    "Baseball Caps": "Baseball Caps",
+    "Trucker Hats": "Trucker Hats",
+    "Bucket Hats": "Bucket Hats",
+    "Visors": "Visors",
+    "Camp Caps": "Camp Caps",
+    "Running Caps": "Running Caps",
+    "Cadet Caps": "Cadet Caps",
+    "Outdoor Caps": "Outdoor Caps",
+    "Winter Hats": "Winter Hats"
   },
   "About": {
     "title": "About Us",
@@ -161,5 +173,17 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "Seo": {
+    "homeTitle": "Premium Custom Headwear Manufacturer | NanCrown",
+    "homeDescription": "China-based custom hat manufacturer — baseball caps, bucket hats, snapbacks & more. Factory-direct pricing, low MOQ, custom logo embroidery, worldwide shipping.",
+    "productsTitle": "Custom Hats & Caps — Wholesale Catalog",
+    "productsDescription": "Browse NanCrown's custom hat catalog: baseball caps, bucket hats, snapbacks, trucker hats, beanies & visors. Factory-direct, low MOQ, OEM/ODM.",
+    "customTitle": "Custom Hat Manufacturing Process",
+    "customDescription": "Make custom hats in 6 simple steps: design, sampling, production, QC & shipping. Low MOQ, OEM/ODM welcome. Get a free quote from NanCrown.",
+    "aboutTitle": "About Our Hat Factory",
+    "aboutDescription": "15+ years crafting custom headwear for 50+ countries. 200+ skilled workers, 500K+ monthly capacity. Discover NanCrown's hat manufacturing strength.",
+    "contactTitle": "Contact Us — Request a Quote",
+    "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 24 hours. Low MOQ, worldwide shipping."
   }
 }

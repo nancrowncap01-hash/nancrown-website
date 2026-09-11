@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import VideoPlayer from "@/components/VideoPlayer";
 import { pageMetadata } from "@/lib/seo";
 
@@ -9,12 +10,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Seo" });
   return pageMetadata({
     locale,
     path: "/about",
-    title: "About Our Hat Factory",
-    description:
-      "15+ years crafting custom headwear for 50+ countries. 200+ skilled workers, 500K+ monthly capacity. Discover NanCrown's hat manufacturing strength.",
+    title: t("aboutTitle"),
+    description: t("aboutDescription"),
   });
 }
 

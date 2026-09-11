@@ -77,7 +77,19 @@
     "colors": "Couleurs Disponibles",
     "relatedProducts": "Produits Similaires",
     "styleNo": "Réf. {code}",
-    "renderingNote": "Les images sont des rendus de conception fournis à titre de référence. Le produit final est confirmé par un échantillon de pré-production. Les textes et logos présentés sont des visuels d'exemple, remplacés par votre propre marque."
+    "renderingNote": "Les images sont des rendus de conception fournis à titre de référence. Le produit final est confirmé par un échantillon de pré-production. Les textes et logos présentés sont des visuels d'exemple, remplacés par votre propre marque.",
+    "metaSuffix": "Fabricant direct de {category}, MOQ {moq} pièces, coloris et logo personnalisés."
+  },
+  "Categories": {
+    "Baseball Caps": "Casquettes de Baseball",
+    "Trucker Hats": "Casquettes Trucker",
+    "Bucket Hats": "Bobs",
+    "Visors": "Visières",
+    "Camp Caps": "Casquettes Camp",
+    "Running Caps": "Casquettes de Running",
+    "Cadet Caps": "Casquettes Cadet",
+    "Outdoor Caps": "Casquettes Outdoor",
+    "Winter Hats": "Bonnets d'Hiver"
   },
   "About": {
     "title": "À Propos",
@@ -161,5 +173,17 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "Seo": {
+    "homeTitle": "Fabricant de casquettes personnalisées | NanCrown",
+    "homeDescription": "Fabricant de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure. MOQ : 50 pièces par coloris.",
+    "productsTitle": "Casquettes et chapeaux personnalisés en gros",
+    "productsDescription": "Catalogue de casquettes et chapeaux personnalisés : baseball, trucker, bob, visières et plus. Fabricant direct, MOQ 50 pièces/coloris, OEM/ODM.",
+    "customTitle": "Fabrication de casquettes personnalisées",
+    "customDescription": "Casquettes personnalisées du design à la production, usine à Guangzhou. Broderie, sérigraphie et coloris sur mesure. MOQ : 50 pièces par coloris.",
+    "aboutTitle": "À propos de notre usine de casquettes",
+    "aboutDescription": "Usine de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure pour marques du monde entier.",
+    "contactTitle": "Contactez-nous — Demandez un devis",
+    "contactDescription": "Demandez un devis pour vos casquettes personnalisées. Usine à Guangzhou, Chine. Broderie, sérigraphie et coloris sur mesure, MOQ 50 pièces par coloris."
   }
 }

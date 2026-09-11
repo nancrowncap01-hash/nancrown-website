@@ -1,7 +1,9 @@
 import { notFound } from "next/navigation";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
+import { localizeProduct } from "@/lib/product-i18n";
 import ProductCard from "@/components/products/ProductCard";
 import ProductGallery from "@/components/products/ProductGallery";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
@@ -18,15 +20,20 @@ export async function generateMetadata({
   const { slug, locale } = await params;
   const product = sampleProducts.find((p) => p.slug === slug);
   if (!product) return {};
+  const localized = localizeProduct(product, locale);
+  const catT = await getTranslations({ locale, namespace: "Categories" });
+  const metaT = await getTranslations({ locale, namespace: "Products" });
+  // 德语名词任何位置都要大写,不能转小写;西语/法语句中普通名词按原文风格转小写
+  const categoryForMeta =
+    locale === "de" ? catT(product.category) : catT(product.category).toLowerCase();
   return pageMetadata({
     locale,
     path: `/products/${slug}`,
-    title: product.name,
-    description:
-      `${product.description} Factory-direct custom ${product.category.toLowerCase()}, low MOQ ${product.moq} pcs, custom colors & logo.`.slice(
-        0,
-        200
-      ),
+    title: localized.name,
+    description: `${localized.description} ${metaT("metaSuffix", {
+      category: categoryForMeta,
+      moq: product.moq,
+    })}`.slice(0, 200),
     image: product.image,
   });
 }
@@ -36,7 +43,7 @@ export default async function ProductDetailPage({
 }: {
   params: Promise<{ slug: string; locale: string }>;
 }) {
-  const { slug } = await params;
+  const { slug, locale } = await params;
   const product = sampleProducts.find((p) => p.slug === slug);
 
   if (!product) {
@@ -49,7 +56,7 @@ export default async function ProductDetailPage({
 
   return (
     <>
-      <ProductJsonLd product={product} />
+      <ProductJsonLd product={product} locale={locale} />
       <ProductDetail product={product} related={related} />
     </>
   );
@@ -64,6 +71,9 @@ function ProductDetail({
 }) {
   const t = useTranslations("Products");
   const cta = useTranslations("CTA");
+  const catT = useTranslations("Categories");
+  const locale = useLocale();
+  const localized = localizeProduct(product, locale);
 
   return (
     <>
@@ -79,21 +89,21 @@ function ProductDetail({
               Products
             </Link>
             <span className="mx-2">/</span>
-            <span className="text-gray-900">{product.name}</span>
+            <span className="text-gray-900">{localized.name}</span>
           </nav>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Image */}
             <ProductGallery
               images={[product.image, ...(product.gallery ?? [])]}
-              alt={product.name}
+              alt={localized.name}
             />
 
             {/* Info */}
             <div>
               <div className="flex flex-wrap items-center gap-3 mb-4">
                 <span className="inline-block px-3 py-1 bg-amber-50 text-amber-700 text-sm font-medium rounded-full">
-                  {product.category}
+                  {catT(product.category)}
                 </span>
                 {product.code && (
                   <span className="text-sm text-gray-400 font-medium">
@@ -102,10 +112,10 @@ function ProductDetail({
                 )}
               </div>
               <h1 className="text-3xl font-bold text-gray-900">
-                {product.name}
+                {localized.name}
               </h1>
               <p className="mt-4 text-gray-600 leading-relaxed">
-                {product.description}
+                {localized.description}
               </p>
 
               {/* Specs */}
@@ -114,7 +124,7 @@ function ProductDetail({
                   <span className="font-medium text-gray-700 w-32">
                     {t("material")}:
                   </span>
-                  <span className="text-gray-600">{product.material}</span>
+                  <span className="text-gray-600">{localized.material}</span>
                 </div>
                 <div className="flex items-center gap-3 text-sm">
                   <span className="font-medium text-gray-700 w-32">
@@ -129,7 +139,7 @@ function ProductDetail({
                     {t("colors")}:
                   </span>
                   <div className="flex flex-wrap gap-2">
-                    {product.colors.map((color) => (
+                    {localized.colors.map((color) => (
                       <span
                         key={color}
                         className="px-2.5 py-1 bg-gray-100 text-gray-600 rounded-md text-xs"
@@ -144,7 +154,7 @@ function ProductDetail({
               {/* Features */}
               <div className="mt-8">
                 <ul className="space-y-2">
-                  {product.features.map((feat, i) => (
+                  {localized.features.map((feat, i) => (
                     <li key={i} className="flex items-center gap-2 text-sm text-gray-600">
                       <svg
                         className="h-4 w-4 text-amber-500 shrink-0"

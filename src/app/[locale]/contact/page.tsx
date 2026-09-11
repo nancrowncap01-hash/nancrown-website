@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { getTranslations } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
 import ContactForm from "./ContactForm";
 
@@ -8,12 +9,12 @@ export async function generateMetadata({
   params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
   const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: "Seo" });
   return pageMetadata({
     locale,
     path: "/contact",
-    title: "Contact Us — Request a Quote",
-    description:
-      "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 24 hours. Low MOQ, worldwide shipping.",
+    title: t("contactTitle"),
+    description: t("contactDescription"),
   });
 }
 

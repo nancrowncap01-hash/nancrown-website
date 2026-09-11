@@ -1,12 +1,15 @@
 "use client";
 
 import { useState, useMemo, useEffect } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import { sampleProducts, categories } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
+import { localizeProduct } from "@/lib/product-i18n";
 
 export default function ProductsClient() {
   const t = useTranslations("Products");
+  const catT = useTranslations("Categories");
+  const locale = useLocale();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [search, setSearch] = useState("");
 
@@ -24,15 +27,21 @@ export default function ProductsClient() {
   }, []);
 
   const filteredProducts = useMemo(() => {
+    const query = search.trim().toLowerCase();
     return sampleProducts.filter((p) => {
       const matchesCategory = !selectedCategory || p.category === selectedCategory;
+      if (!matchesCategory) return false;
+      if (!query) return true;
+      // 同时匹配英文原文和当前语言本地化后的名称/面料,避免翻译后搜不到
+      const localized = localizeProduct(p, locale);
       const matchesSearch =
-        !search ||
-        p.name.toLowerCase().includes(search.toLowerCase()) ||
-        p.material.toLowerCase().includes(search.toLowerCase());
-      return matchesCategory && matchesSearch;
+        p.name.toLowerCase().includes(query) ||
+        p.material.toLowerCase().includes(query) ||
+        localized.name.toLowerCase().includes(query) ||
+        localized.material.toLowerCase().includes(query);
+      return matchesSearch;
     });
-  }, [selectedCategory, search]);
+  }, [selectedCategory, search, locale]);
 
   return (
     <>
@@ -94,7 +103,7 @@ export default function ProductsClient() {
                       : "bg-gray-100 text-gray-600 hover:bg-gray-200"
                   }`}
                 >
-                  {cat}
+                  {catT(cat)}
                 </button>
               ))}
             </div>

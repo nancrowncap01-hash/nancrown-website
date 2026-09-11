@@ -77,7 +77,19 @@
     "colors": "Colores Disponibles",
     "relatedProducts": "Productos Relacionados",
     "styleNo": "Referencia {code}",
-    "renderingNote": "Las imágenes son renders de diseño con fines de referencia. El producto final se confirma con una muestra de preproducción. El texto y los logotipos que se muestran son artes de muestra y se sustituyen por tu propia marca."
+    "renderingNote": "Las imágenes son renders de diseño con fines de referencia. El producto final se confirma con una muestra de preproducción. El texto y los logotipos que se muestran son artes de muestra y se sustituyen por tu propia marca.",
+    "metaSuffix": "Fabricante directo de {category}, pedido mínimo {moq} uds, colores y logo personalizados."
+  },
+  "Categories": {
+    "Baseball Caps": "Gorras de Béisbol",
+    "Trucker Hats": "Gorras Trucker",
+    "Bucket Hats": "Sombreros de Pescador",
+    "Visors": "Viseras",
+    "Camp Caps": "Gorras Camp",
+    "Running Caps": "Gorras Running",
+    "Cadet Caps": "Gorras Cadete",
+    "Outdoor Caps": "Gorras Outdoor",
+    "Winter Hats": "Gorros de Invierno"
   },
   "About": {
     "title": "Sobre Nosotros",
@@ -161,5 +173,17 @@
     "es": "Español",
     "fr": "Français",
     "de": "Deutsch"
+  },
+  "Seo": {
+    "homeTitle": "Fabricante de gorras personalizadas | NanCrown",
+    "homeDescription": "Fabricante de gorras y sombreros personalizados en Guangzhou, China. Bordado, serigrafía, telas y colores a medida. Pedido mínimo: 50 unidades por color.",
+    "productsTitle": "Gorras y sombreros personalizados al por mayor",
+    "productsDescription": "Catálogo de gorras y sombreros personalizados: béisbol, trucker, pescador, viseras y más. Fabricante directo, pedido mínimo 50 uds/color, OEM/ODM.",
+    "customTitle": "Fabricación de gorras personalizadas a medida",
+    "customDescription": "Gorras personalizadas de diseño a producción, fábrica propia en Guangzhou. Bordado, serigrafía y colores a medida. Pedido mínimo: 50 unidades por color.",
+    "aboutTitle": "Sobre nuestra fábrica de gorras",
+    "aboutDescription": "Fábrica de gorras y sombreros personalizados en Guangzhou, China. Bordado, serigrafía, telas y colores a medida para marcas mayoristas de todo el mundo.",
+    "contactTitle": "Contáctanos — Solicita una cotización",
+    "contactDescription": "Solicita cotización para gorras personalizadas. Fábrica en Guangzhou, China. Bordado, serigrafía y colores a medida. Pedido mínimo: 50 uds/color."
   }
 }

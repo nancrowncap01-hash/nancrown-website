@@ -671,38 +671,4 @@ export const sampleProducts: Product[] = [
       "Size: One size · tie cords",
     ],
   },
-  {
-    slug: "gothic-monogram-baseball-cap",
-    name: "Gothic Monogram Embroidered Baseball Cap",
-    category: "Baseball Caps",
-    image: "/images/products/gothic-monogram-cap.jpg",
-    description:
-      "Black cotton baseball cap with a bold gold gothic monogram and rose embroidery. Vintage-luxe streetwear look, ideal for custom logo branding and small-batch orders.",
-    material: "100% Cotton",
-    moq: 50,
-    colors: ["Black"],
-    features: [
-      "Structured 6-panel design",
-      "3D gold gothic embroidery",
-      "Adjustable strap closure",
-      "Pre-curved brim",
-    ],
-  },
-  {
-    slug: "nancrown-logo-baseball-cap",
-    name: "NanCrown Logo Baseball Cap",
-    category: "Baseball Caps",
-    image: "/images/products/nancrown-logo-cap.jpg",
-    description:
-      "Premium white cotton baseball cap featuring the NanCrown embroidered logo with signature crown icon. Clean, professional design showcasing our brand craftsmanship.",
-    material: "100% Cotton Twill",
-    moq: 100,
-    colors: ["White", "Black", "Navy", "Grey"],
-    features: [
-      "6-panel structured design",
-      "3D embroidered NanCrown logo",
-      "Metal buckle closure",
-      "Pre-curved visor",
-    ],
-  },
 ];

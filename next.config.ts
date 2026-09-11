@@ -12,6 +12,9 @@ const retiredProducts: Record<string, string> = {
   "performance-visor": "/products/sunglass-slot-sport-visor",
   "winter-beanie": "/products",
   "corduroy-baseball-cap": "/products",
+  // 同日老板又下架最早的 2 款样品
+  "gothic-monogram-baseball-cap": "/products/serif-wordmark-washed-cap",
+  "nancrown-logo-baseball-cap": "/products",
 };
 
 const nextConfig: NextConfig = {

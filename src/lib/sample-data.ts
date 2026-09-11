@@ -121,7 +121,6 @@ export const sampleProducts: Product[] = [
     gallery: [
       "/images/products/sunglass-slot-sport-visor-2.jpg",
       "/images/products/sunglass-slot-sport-visor-3.jpg",
-      "/images/products/sunglass-slot-sport-visor-4.jpg",
     ],
     description:
       "A slot at each side holds sunglasses while you run — the detail buyers remember when they pick this one up. Front band and brim side both take your logo.",
@@ -347,35 +346,6 @@ export const sampleProducts: Product[] = [
       "Washed cotton twill with natural tonal fading",
       "Antique metal slider with webbing strap at the back",
       "Size: One size · metal slider",
-    ],
-  },
-  {
-    slug: "mesh-camp-cap",
-    name: "Mesh Camp Cap",
-    code: "W0013",
-    category: "Camp Caps",
-    image: "/images/products/mesh-camp-cap.jpg",
-    gallery: [
-      "/images/products/mesh-camp-cap-2.jpg",
-      "/images/products/mesh-camp-cap-3.jpg",
-      "/images/products/mesh-camp-cap-4.jpg",
-      "/images/products/mesh-camp-cap-5.jpg",
-    ],
-    description:
-      "A workwear oval patch on washed canvas, with coarse black mesh side panels that breathe through a full day outside. The whole badge is replaced with your own brand mark.",
-    material: "Washed cotton-poly canvas, nylon mesh sides",
-    moq: 50,
-    colors: [
-      "Olive with black mesh",
-    ],
-    features: [
-      "Low-profile camp cap, flat brim",
-      "Low soft crown, flat brim",
-      "Oval workwear badge, tonal embroidery",
-      "Coarse nylon mesh side panels",
-      "Webbing strap with metal clip",
-      "Size: One size · metal clip",
-      "Custom colours available on request",
     ],
   },
   {

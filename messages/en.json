@@ -18,12 +18,12 @@
     "baseballCapDesc": "Classic & versatile.",
     "bucketHat": "Bucket Hat",
     "bucketHatDesc": "Trendy & protective.",
-    "snapback": "Snapback",
-    "snapbackDesc": "Flat brim, bold look.",
     "truckerHat": "Trucker Hat",
     "truckerHatDesc": "Breathable mesh back.",
-    "beanie": "Beanie",
-    "beanieDesc": "Warm & cozy.",
+    "campCap": "Camp Cap",
+    "campCapDesc": "Low crown, flat brim.",
+    "winterHat": "Winter Hat",
+    "winterHatDesc": "Warm & cozy.",
     "visor": "Visor",
     "visorDesc": "Sport-ready."
   },
@@ -36,7 +36,7 @@
     "custom": "Full Customization",
     "customDesc": "Logo embroidery, custom fabrics, colors, sizes — bring your vision to life.",
     "moq": "Low MOQ",
-    "moqDesc": "Starting from 100 pieces per style. Perfect for startups and established brands alike."
+    "moqDesc": "Starting from 50 pieces per colour. Perfect for startups and established brands alike."
   },
   "FactoryVideo": {
     "title": "See Our Factory in Action",
@@ -75,7 +75,9 @@
     "pieces": "pcs",
     "material": "Material",
     "colors": "Available Colors",
-    "relatedProducts": "Related Products"
+    "relatedProducts": "Related Products",
+    "styleNo": "Style No. {code}",
+    "renderingNote": "Images are design renderings for reference. Final product is confirmed by a pre-production sample. Lettering and logos shown are sample artwork, replaced with your own branding."
   },
   "About": {
     "title": "About Us",
@@ -141,7 +143,7 @@
     "q1": "How long is your production time?",
     "a1": "Our standard production time is 15–25 days, depending on quantity and customization complexity. Rush orders can be arranged — contact us to discuss your timeline.",
     "q2": "What is your minimum order quantity (MOQ)?",
-    "a2": "Our MOQ starts from 100 pieces per style per color. For first-time orders, we offer flexible quantities to help you test the market.",
+    "a2": "Our MOQ starts from 50 pieces per colour. For first-time orders, we offer flexible quantities to help you test the market.",
     "q3": "Can you produce custom designs with our logo?",
     "a3": "Absolutely! We offer full customization including embroidery, screen printing, woven labels, patches, and more. Just send us your logo and design requirements.",
     "q4": "What materials do you use?",

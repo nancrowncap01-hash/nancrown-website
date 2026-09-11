@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
+import { useState, useMemo, useEffect } from "react";
 import { useTranslations } from "next-intl";
 import { sampleProducts, categories } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
@@ -9,6 +9,19 @@ export default function ProductsClient() {
   const t = useTranslations("Products");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+
+  // 首页帽型卡片带 ?category= 跳转过来时,读网址参数自动筛选
+  // 不用 useSearchParams,避免 Next 16 要求包 Suspense
+  // window 在服务端渲染时不存在,只能挂载后在 effect 里读、再 setState;
+  // 故意不挪成 useState 的惰性初始值写法——那样服务端/客户端首次渲染结果会对不上,导致 hydration 报错
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const cat = params.get("category");
+    if (cat && categories.includes(cat)) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect -- 见上方注释:必须挂载后读 window 才能拿到 category
+      setSelectedCategory(cat);
+    }
+  }, []);
 
   const filteredProducts = useMemo(() => {
     return sampleProducts.filter((p) => {

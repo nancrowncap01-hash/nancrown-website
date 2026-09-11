@@ -18,12 +18,12 @@
     "baseballCapDesc": "Klassisch & vielseitig.",
     "bucketHat": "Fischerhut",
     "bucketHatDesc": "Trendig & schützend.",
-    "snapback": "Snapback",
-    "snapbackDesc": "Flache Krempe, kühner Look.",
     "truckerHat": "Trucker-Kappe",
     "truckerHatDesc": "Atmungsaktives Mesh.",
-    "beanie": "Mütze",
-    "beanieDesc": "Warm & gemütlich.",
+    "campCap": "Camp-Cap",
+    "campCapDesc": "Niedrige Form, flacher Schirm.",
+    "winterHat": "Winter-Mütze",
+    "winterHatDesc": "Warm & gemütlich.",
     "visor": "Schirmmütze",
     "visorDesc": "Sportbereit."
   },
@@ -36,7 +36,7 @@
     "custom": "Volle Individualisierung",
     "customDesc": "Logo-Stickerei, individuelle Stoffe, Farben, Größen — verwirklichen Sie Ihre Vision.",
     "moq": "Niedrige Mindestbestellmenge",
-    "moqDesc": "Ab 100 Stück pro Stil. Perfekt für Startups und etablierte Marken."
+    "moqDesc": "Ab 50 Stück pro Farbe. Perfekt für Startups und etablierte Marken."
   },
   "FactoryVideo": {
     "title": "Unsere Fabrik in Aktion",
@@ -75,7 +75,9 @@
     "pieces": "Stk",
     "material": "Material",
     "colors": "Verfügbare Farben",
-    "relatedProducts": "Ähnliche Produkte"
+    "relatedProducts": "Ähnliche Produkte",
+    "styleNo": "Modell-Nr. {code}",
+    "renderingNote": "Die Abbildungen sind Design-Renderings und dienen nur zur Orientierung. Das Endprodukt wird durch ein Vorproduktionsmuster bestätigt. Abgebildete Schriftzüge und Logos sind Beispielgrafiken und werden durch Ihr eigenes Branding ersetzt."
   },
   "About": {
     "title": "Über Uns",
@@ -141,7 +143,7 @@
     "q1": "Wie lange dauert die Produktion?",
     "a1": "Unsere Standardproduktionszeit beträgt 15–25 Tage, je nach Menge und Komplexität der Individualisierung. Eilaufträge können organisiert werden — kontaktieren Sie uns, um Ihren Zeitplan zu besprechen.",
     "q2": "Was ist Ihre Mindestbestellmenge (MOQ)?",
-    "a2": "Unsere MOQ beginnt ab 100 Stück pro Stil pro Farbe. Für Erstbestellungen bieten wir flexible Mengen an, um Ihnen beim Marktest zu helfen.",
+    "a2": "Unsere MOQ beginnt ab 50 Stück pro Farbe. Für Erstbestellungen bieten wir flexible Mengen an, um Ihnen beim Marktest zu helfen.",
     "q3": "Können Sie individuelle Designs mit unserem Logo produzieren?",
     "a3": "Selbstverständlich! Wir bieten vollständige Individualisierung einschließlich Stickerei, Siebdruck, gewebte Etiketten, Aufnäher und mehr. Senden Sie uns einfach Ihr Logo und Ihre Designanforderungen.",
     "q4": "Welche Materialien verwenden Sie?",

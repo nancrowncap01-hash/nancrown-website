@@ -1,9 +1,9 @@
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
+import ProductGallery from "@/components/products/ProductGallery";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
 import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -84,22 +84,23 @@ function ProductDetail({
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
             {/* Image */}
-            <div className="aspect-square bg-gray-100 rounded-2xl relative overflow-hidden">
-              <Image
-                src={product.image}
-                alt={product.name}
-                fill
-                className="object-cover rounded-2xl"
-                sizes="(max-width: 1024px) 100vw, 50vw"
-                priority
-              />
-            </div>
+            <ProductGallery
+              images={[product.image, ...(product.gallery ?? [])]}
+              alt={product.name}
+            />
 
             {/* Info */}
             <div>
-              <span className="inline-block px-3 py-1 bg-amber-50 text-amber-700 text-sm font-medium rounded-full mb-4">
-                {product.category}
-              </span>
+              <div className="flex flex-wrap items-center gap-3 mb-4">
+                <span className="inline-block px-3 py-1 bg-amber-50 text-amber-700 text-sm font-medium rounded-full">
+                  {product.category}
+                </span>
+                {product.code && (
+                  <span className="text-sm text-gray-400 font-medium">
+                    {t("styleNo", { code: product.code })}
+                  </span>
+                )}
+              </div>
               <h1 className="text-3xl font-bold text-gray-900">
                 {product.name}
               </h1>
@@ -163,6 +164,11 @@ function ProductDetail({
                   ))}
                 </ul>
               </div>
+
+              {/* Rendering disclaimer */}
+              <p className="mt-4 text-xs text-gray-400 leading-relaxed">
+                {t("renderingNote")}
+              </p>
 
               {/* CTA */}
               <div className="mt-10">

@@ -122,12 +122,12 @@ export default function HomePage() {
           </h2>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
             {[
-              { key: "baseballCap", category: "Baseball Caps", img: "/images/styles/baseball-cap.jpg" },
-              { key: "bucketHat", category: "Bucket Hats", img: "/images/styles/bucket-hat.jpg" },
-              { key: "snapback", category: "Snapbacks", img: "/images/styles/snapback.jpg" },
-              { key: "truckerHat", category: "Trucker Hats", img: "/images/styles/trucker-hat.jpg" },
-              { key: "beanie", category: "Beanies", img: "/images/styles/beanie.jpg" },
-              { key: "visor", category: "Visors", img: "/images/styles/visor.jpg" },
+              { key: "baseballCap", category: "Baseball Caps", img: "/images/styles/type-baseball-cap.jpg" },
+              { key: "truckerHat", category: "Trucker Hats", img: "/images/styles/type-trucker-hat.jpg" },
+              { key: "bucketHat", category: "Bucket Hats", img: "/images/styles/type-bucket-hat.jpg" },
+              { key: "visor", category: "Visors", img: "/images/styles/type-visor.jpg" },
+              { key: "campCap", category: "Camp Caps", img: "/images/styles/type-camp-cap.jpg" },
+              { key: "winterHat", category: "Winter Hats", img: "/images/styles/type-winter-hat.jpg" },
             ].map((style) => (
               <Link
                 key={style.key}

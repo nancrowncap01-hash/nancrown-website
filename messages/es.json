@@ -18,12 +18,12 @@
     "baseballCapDesc": "Clásica y versátil.",
     "bucketHat": "Sombrero de Pescador",
     "bucketHatDesc": "Moderno y protector.",
-    "snapback": "Snapback",
-    "snapbackDesc": "Visera plana, estilo audaz.",
     "truckerHat": "Gorra Trucker",
     "truckerHatDesc": "Malla transpirable.",
-    "beanie": "Gorro de Lana",
-    "beanieDesc": "Cálido y cómodo.",
+    "campCap": "Gorra Camp",
+    "campCapDesc": "Copa baja, visera plana.",
+    "winterHat": "Gorro de Invierno",
+    "winterHatDesc": "Cálido y cómodo.",
     "visor": "Visera",
     "visorDesc": "Para el deporte."
   },
@@ -36,7 +36,7 @@
     "custom": "Personalización Total",
     "customDesc": "Bordado de logo, telas personalizadas, colores, tallas — haz realidad tu visión.",
     "moq": "Pedido Mínimo Bajo",
-    "moqDesc": "Desde 100 piezas por estilo. Perfecto para startups y marcas establecidas."
+    "moqDesc": "Desde 50 piezas por color. Perfecto para startups y marcas establecidas."
   },
   "FactoryVideo": {
     "title": "Vea Nuestra Fábrica en Acción",
@@ -75,7 +75,9 @@
     "pieces": "pzs",
     "material": "Material",
     "colors": "Colores Disponibles",
-    "relatedProducts": "Productos Relacionados"
+    "relatedProducts": "Productos Relacionados",
+    "styleNo": "Referencia {code}",
+    "renderingNote": "Las imágenes son renders de diseño con fines de referencia. El producto final se confirma con una muestra de preproducción. El texto y los logotipos que se muestran son artes de muestra y se sustituyen por tu propia marca."
   },
   "About": {
     "title": "Sobre Nosotros",
@@ -141,7 +143,7 @@
     "q1": "¿Cuánto tiempo tarda la producción?",
     "a1": "Nuestro tiempo de producción estándar es de 15 a 25 días, según la cantidad y la complejidad de la personalización. Se pueden organizar pedidos urgentes — contáctenos para discutir su cronograma.",
     "q2": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
-    "a2": "Nuestro MOQ comienza desde 100 piezas por estilo por color. Para primeros pedidos, ofrecemos cantidades flexibles para ayudarle a probar el mercado.",
+    "a2": "Nuestro MOQ comienza desde 50 piezas por color. Para primeros pedidos, ofrecemos cantidades flexibles para ayudarle a probar el mercado.",
     "q3": "¿Pueden producir diseños personalizados con nuestro logo?",
     "a3": "¡Por supuesto! Ofrecemos personalización completa incluyendo bordado, serigrafía, etiquetas tejidas, parches y más. Solo envíenos su logo y requisitos de diseño.",
     "q4": "¿Qué materiales utilizan?",

@@ -18,12 +18,12 @@
     "baseballCapDesc": "Classique et polyvalente.",
     "bucketHat": "Bob",
     "bucketHatDesc": "Tendance et protecteur.",
-    "snapback": "Snapback",
-    "snapbackDesc": "Visière plate, look audacieux.",
     "truckerHat": "Casquette Trucker",
     "truckerHatDesc": "Dos en maille respirant.",
-    "beanie": "Bonnet",
-    "beanieDesc": "Chaud et confortable.",
+    "campCap": "Casquette Camp",
+    "campCapDesc": "Calotte basse, visière plate.",
+    "winterHat": "Bonnet d'Hiver",
+    "winterHatDesc": "Chaud et confortable.",
     "visor": "Visière",
     "visorDesc": "Prêt pour le sport."
   },
@@ -36,7 +36,7 @@
     "custom": "Personnalisation Complète",
     "customDesc": "Broderie de logo, tissus personnalisés, couleurs, tailles — donnez vie à votre vision.",
     "moq": "MOQ Bas",
-    "moqDesc": "À partir de 100 pièces par style. Parfait pour les startups et les marques établies."
+    "moqDesc": "À partir de 50 pièces par couleur. Parfait pour les startups et les marques établies."
   },
   "FactoryVideo": {
     "title": "Découvrez Notre Usine en Action",
@@ -75,7 +75,9 @@
     "pieces": "pcs",
     "material": "Matériau",
     "colors": "Couleurs Disponibles",
-    "relatedProducts": "Produits Similaires"
+    "relatedProducts": "Produits Similaires",
+    "styleNo": "Réf. {code}",
+    "renderingNote": "Les images sont des rendus de conception fournis à titre de référence. Le produit final est confirmé par un échantillon de pré-production. Les textes et logos présentés sont des visuels d'exemple, remplacés par votre propre marque."
   },
   "About": {
     "title": "À Propos",
@@ -141,7 +143,7 @@
     "q1": "Quel est votre délai de production ?",
     "a1": "Notre délai de production standard est de 15 à 25 jours, selon la quantité et la complexité de la personnalisation. Les commandes urgentes peuvent être organisées — contactez-nous pour discuter de votre calendrier.",
     "q2": "Quelle est votre quantité minimum de commande (MOQ) ?",
-    "a2": "Notre MOQ commence à partir de 100 pièces par style par couleur. Pour les premières commandes, nous offrons des quantités flexibles pour vous aider à tester le marché.",
+    "a2": "Notre MOQ commence à partir de 50 pièces par couleur. Pour les premières commandes, nous offrons des quantités flexibles pour vous aider à tester le marché.",
     "q3": "Pouvez-vous produire des designs personnalisés avec notre logo ?",
     "a3": "Absolument ! Nous offrons une personnalisation complète incluant broderie, sérigraphie, étiquettes tissées, patchs et plus. Envoyez-nous simplement votre logo et vos exigences de design.",
     "q4": "Quels matériaux utilisez-vous ?",

@@ -44,6 +44,7 @@ export function ProductJsonLd({ product }: { product: Product }) {
     image: `https://nancrown.com${product.image}`,
     category: product.category,
     material: product.material,
+    ...(product.code ? { sku: product.code } : {}),
     brand: {
       "@type": "Brand",
       name: "NanCrown",

@@ -1,7 +1,9 @@
 import type { Metadata } from "next";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import type { Locale } from "@/i18n/routing";
 import { pageMetadata } from "@/lib/seo";
+import { categoryDefinitions, categoryUi } from "@/lib/category-content";
 
 export async function generateMetadata({
   params,
@@ -20,6 +22,8 @@ export async function generateMetadata({
 
 export default function CustomPage() {
   const t = useTranslations("Custom");
+  const locale = useLocale() as Locale;
+  const ui = categoryUi[locale] ?? categoryUi.en;
 
   const steps = [
     { num: "01", title: t("step1"), desc: t("step1Desc") },
@@ -67,6 +71,29 @@ export default function CustomPage() {
                 </p>
               </div>
             ))}
+          </div>
+        </div>
+      </section>
+
+      {/* 我们做的帽型:链到 9 个「帽型分类落地页」(/custom/[category]) */}
+      <section className="py-16">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-10">
+            {ui.browseByStyleHeading}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {categoryDefinitions.map((cat) => {
+              const catContent = cat.content[locale] ?? cat.content.en;
+              return (
+                <Link
+                  key={cat.slug}
+                  href={`/custom/${cat.slug}`}
+                  className="flex items-center justify-center text-center px-4 py-5 bg-gray-50 rounded-xl border border-gray-100 font-medium text-gray-800 hover:bg-amber-50 hover:border-amber-200 hover:text-amber-700 transition-colors"
+                >
+                  {catContent.name}
+                </Link>
+              );
+            })}
           </div>
         </div>
       </section>

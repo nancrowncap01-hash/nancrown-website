@@ -121,16 +121,16 @@ export default function HomePage() {
           </h2>
           <div className="grid grid-cols-3 sm:grid-cols-6 gap-4 sm:gap-6">
             {[
-              { key: "baseballCap", category: "Baseball Caps", img: "/images/styles/type-baseball-cap.jpg" },
-              { key: "truckerHat", category: "Trucker Hats", img: "/images/styles/type-trucker-hat.jpg" },
-              { key: "bucketHat", category: "Bucket Hats", img: "/images/styles/type-bucket-hat.jpg" },
-              { key: "visor", category: "Visors", img: "/images/styles/type-visor.jpg" },
-              { key: "campCap", category: "Camp Caps", img: "/images/styles/type-camp-cap.jpg" },
-              { key: "winterHat", category: "Winter Hats", img: "/images/styles/type-winter-hat.jpg" },
+              { key: "baseballCap", category: "Baseball Caps", slug: "baseball-caps", img: "/images/styles/type-baseball-cap.jpg" },
+              { key: "truckerHat", category: "Trucker Hats", slug: "trucker-hats", img: "/images/styles/type-trucker-hat.jpg" },
+              { key: "bucketHat", category: "Bucket Hats", slug: "bucket-hats", img: "/images/styles/type-bucket-hat.jpg" },
+              { key: "visor", category: "Visors", slug: "visors", img: "/images/styles/type-visor.jpg" },
+              { key: "campCap", category: "Camp Caps", slug: "camp-caps", img: "/images/styles/type-camp-cap.jpg" },
+              { key: "winterHat", category: "Winter Hats", slug: "winter-hats", img: "/images/styles/type-winter-hat.jpg" },
             ].map((style) => (
               <Link
                 key={style.key}
-                href={`/products?category=${encodeURIComponent(style.category)}`}
+                href={`/custom/${style.slug}`}
                 className="flex flex-col items-center text-center group"
               >
                 <div className="w-24 h-24 sm:w-32 sm:h-32 relative mb-3 group-hover:scale-105 transition-transform duration-300 bg-white">

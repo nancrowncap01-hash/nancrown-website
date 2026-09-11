@@ -22,7 +22,8 @@ export async function POST(request: NextRequest) {
   }
 
   const resendApiKey = process.env.RESEND_API_KEY;
-  const notifyEmail = process.env.NOTIFY_EMAIL || "info@nancrown.com";
+  // 询盘固定发到公司邮箱。Vercel 上的 NOTIFY_EMAIL 填成了 nancrowncap@gmail.com(少了 01,不是在用的邮箱),所以不再读它
+  const notifyEmail = "info@nancrown.com";
 
   // 没配 Resend API Key,邮件根本发不出去,不能再假装发送成功
   if (!resendApiKey) {
@@ -38,8 +39,9 @@ export async function POST(request: NextRequest) {
     const resend = new Resend(resendApiKey);
 
     const { data, error } = await resend.emails.send({
-      // 用自家已验证的 nancrown.com 发信(测试通道 onboarding@resend.dev 只能发给注册 Resend 的那个邮箱,发不到 info@)
-      from: "NanCrown Website <inquiry@nancrown.com>",
+      // 用在 Resend 验证过的子域名 notify.nancrown.com 发信(测试通道 onboarding@resend.dev 只能发给注册 Resend 的那个邮箱)
+      // 用子域名:不碰主域名的收信设置,也不会被公司邮箱当成「冒充本域」拦掉
+      from: "NanCrown Website <inquiry@notify.nancrown.com>",
       to: [notifyEmail],
       replyTo: email,
       // 标题前加【官网询盘】,在邮箱里一眼能认出是官网表单来的

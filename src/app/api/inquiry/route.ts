@@ -38,7 +38,8 @@ export async function POST(request: NextRequest) {
     const resend = new Resend(resendApiKey);
 
     const { data, error } = await resend.emails.send({
-      from: "NanCrown Website <onboarding@resend.dev>",
+      // 用自家已验证的 nancrown.com 发信(测试通道 onboarding@resend.dev 只能发给注册 Resend 的那个邮箱,发不到 info@)
+      from: "NanCrown Website <inquiry@nancrown.com>",
       to: [notifyEmail],
       replyTo: email,
       // 标题前加【官网询盘】,在邮箱里一眼能认出是官网表单来的

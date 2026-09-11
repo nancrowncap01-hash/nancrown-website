@@ -23,9 +23,9 @@ export default function AboutPage() {
   const t = useTranslations("About");
 
   const stats = [
-    { value: "15+", label: t("years") },
-    { value: "200+", label: t("workers") },
-    { value: "500K+", label: t("monthlyCapacity") },
+    { value: "10+", label: t("years") },
+    { value: "30+", label: t("workers") },
+    { value: "100K+", label: t("monthlyCapacity") },
     { value: "50+", label: t("countries") },
   ];
 

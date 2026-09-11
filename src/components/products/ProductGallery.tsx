@@ -26,8 +26,9 @@ export default function ProductGallery({
         />
       </div>
 
+      {/* 固定 5 列:手机上 5 张小图也排成一排,不会最后一张单独掉到第二行 */}
       {images.length > 1 && (
-        <div className="mt-4 flex flex-wrap gap-3">
+        <div className="mt-4 grid grid-cols-5 gap-2 sm:gap-3">
           {images.map((img, i) => (
             <button
               key={img}
@@ -35,7 +36,7 @@ export default function ProductGallery({
               onClick={() => setActive(i)}
               aria-label={`${alt} ${i + 1}`}
               aria-current={i === active}
-              className={`w-16 h-16 sm:w-20 sm:h-20 shrink-0 relative bg-white rounded-lg overflow-hidden border-2 transition-colors ${
+              className={`aspect-square w-full relative bg-white rounded-lg overflow-hidden border-2 transition-colors ${
                 i === active
                   ? "border-amber-500"
                   : "border-gray-200 hover:border-gray-300"
@@ -46,7 +47,7 @@ export default function ProductGallery({
                 alt=""
                 fill
                 className="object-contain"
-                sizes="80px"
+                sizes="(max-width: 1024px) 20vw, 120px"
               />
             </button>
           ))}

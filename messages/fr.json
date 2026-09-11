@@ -124,16 +124,19 @@
     "submit": "Envoyer la Demande",
     "sending": "Envoi en cours...",
     "success": "Merci! Votre demande a été envoyée. Nous répondrons sous 24 heures.",
-    "error": "Une erreur est survenue. Veuillez réessayer ou nous écrire directement.",
+    "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement à info@nancrown.com ou au +86 20-31235916.",
     "required": "Obligatoire",
     "selectProduct": "Sélectionnez une catégorie",
     "productOptions": {
       "baseball": "Casquettes de Baseball",
-      "bucket": "Bobs",
-      "snapback": "Snapbacks",
       "trucker": "Casquettes Trucker",
-      "beanie": "Bonnets",
+      "bucket": "Bobs",
       "visor": "Visières",
+      "camp": "Casquettes Camp",
+      "running": "Casquettes de Running",
+      "cadet": "Casquettes Cadet",
+      "outdoor": "Casquettes Outdoor",
+      "winter": "Bonnets d'Hiver",
       "other": "Autre"
     }
   },

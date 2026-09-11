@@ -34,11 +34,14 @@ export default function ContactForm() {
 
   const productOptions = [
     "baseball",
-    "bucket",
-    "snapback",
     "trucker",
-    "beanie",
+    "bucket",
     "visor",
+    "camp",
+    "running",
+    "cadet",
+    "outdoor",
+    "winter",
     "other",
   ] as const;
 

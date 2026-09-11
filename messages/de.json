@@ -124,16 +124,19 @@
     "submit": "Anfrage Senden",
     "sending": "Wird gesendet...",
     "success": "Vielen Dank! Ihre Anfrage wurde gesendet. Wir antworten innerhalb von 24 Stunden.",
-    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+    "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter info@nancrown.com oder telefonisch unter +86 20-31235916.",
     "required": "Erforderlich",
     "selectProduct": "Kategorie auswählen",
     "productOptions": {
       "baseball": "Baseballkappen",
-      "bucket": "Fischerhüte",
-      "snapback": "Snapbacks",
       "trucker": "Trucker-Kappen",
-      "beanie": "Mützen",
+      "bucket": "Fischerhüte",
       "visor": "Schirmmützen",
+      "camp": "Camp-Kappen",
+      "running": "Running-Kappen",
+      "cadet": "Cadet-Kappen",
+      "outdoor": "Outdoor-Kappen",
+      "winter": "Wintermützen",
       "other": "Sonstiges"
     }
   },

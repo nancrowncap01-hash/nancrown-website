@@ -54,26 +54,6 @@ export function ProductJsonLd({ product }: { product: Product }) {
       name: "Guangzhou Nancrown Cap Co., Ltd.",
       url: "https://nancrown.com",
     },
-    aggregateRating: {
-      "@type": "AggregateRating",
-      ratingValue: "4.8",
-      reviewCount: "56",
-      bestRating: "5",
-      worstRating: "1",
-    },
-    review: {
-      "@type": "Review",
-      reviewRating: {
-        "@type": "Rating",
-        ratingValue: "5",
-        bestRating: "5",
-      },
-      author: {
-        "@type": "Organization",
-        name: "NanCrown Quality Team",
-      },
-      reviewBody: "High quality custom headwear with excellent craftsmanship and on-time delivery.",
-    },
     offers: {
       "@type": "AggregateOffer",
       availability: "https://schema.org/InStock",

@@ -124,16 +124,19 @@
     "submit": "Enviar Consulta",
     "sending": "Enviando...",
     "success": "¡Gracias! Tu consulta ha sido enviada. Responderemos en 24 horas.",
-    "error": "Algo salió mal. Inténtalo de nuevo o envíanos un correo directamente.",
+    "error": "Algo salió mal. Inténtalo de nuevo o contáctanos directamente en info@nancrown.com o al +86 20-31235916.",
     "required": "Obligatorio",
     "selectProduct": "Selecciona una categoría",
     "productOptions": {
       "baseball": "Gorras de Béisbol",
-      "bucket": "Sombreros de Pescador",
-      "snapback": "Snapbacks",
       "trucker": "Gorras Trucker",
-      "beanie": "Gorros",
+      "bucket": "Sombreros de Pescador",
       "visor": "Viseras",
+      "camp": "Gorras Camp",
+      "running": "Gorras Running",
+      "cadet": "Gorras Cadete",
+      "outdoor": "Gorras Outdoor",
+      "winter": "Gorros de Invierno",
       "other": "Otro"
     }
   },

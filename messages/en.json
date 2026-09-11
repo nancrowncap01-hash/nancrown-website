@@ -124,16 +124,19 @@
     "submit": "Send Inquiry",
     "sending": "Sending...",
     "success": "Thank you! Your inquiry has been sent. We'll respond within 24 hours.",
-    "error": "Something went wrong. Please try again or email us directly.",
+    "error": "Something went wrong. Please try again, or reach us directly at info@nancrown.com or +86 20-31235916.",
     "required": "Required",
     "selectProduct": "Select a product category",
     "productOptions": {
       "baseball": "Baseball Caps",
-      "bucket": "Bucket Hats",
-      "snapback": "Snapbacks",
       "trucker": "Trucker Hats",
-      "beanie": "Beanies",
+      "bucket": "Bucket Hats",
       "visor": "Visors",
+      "camp": "Camp Caps",
+      "running": "Running Caps",
+      "cadet": "Cadet Caps",
+      "outdoor": "Outdoor Caps",
+      "winter": "Winter Hats",
       "other": "Other"
     }
   },

@@ -1,6 +1,7 @@
 import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { sampleProducts } from "@/lib/sample-data";
+import { categorySlugs } from "@/lib/category-content";
 import { localizedUrl } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
@@ -14,6 +15,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/custom",
     "/contact",
+    ...categorySlugs.map((slug) => `/custom/${slug}`),
     ...sampleProducts.map((p) => `/products/${p.slug}`),
   ];
 
@@ -28,7 +30,14 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: localizedUrl(routing.defaultLocale, path),
       lastModified: LAST_MODIFIED,
       changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
-      priority: path === "" ? 1 : path.startsWith("/products/") ? 0.6 : 0.8,
+      priority: path === ""
+        ? 1
+        // /custom/<分类> 是这次新做的主力获客落地页,优先级给高一档
+        : path.startsWith("/custom/") && path !== "/custom"
+          ? 0.9
+          : path.startsWith("/products/")
+            ? 0.6
+            : 0.8,
       alternates: { languages },
     };
   });

@@ -6,6 +6,12 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "dev", "--", "-p", "3001"],
       "port": 3001
+    },
+    {
+      "name": "hat-factory-prod",
+      "runtimeExecutable": "npx",
+      "runtimeArgs": ["next", "start", "-p", "3105"],
+      "port": 3105
     }
   ]
 }

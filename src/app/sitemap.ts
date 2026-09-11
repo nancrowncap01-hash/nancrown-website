@@ -4,7 +4,7 @@ import { sampleProducts } from "@/lib/sample-data";
 import { localizedUrl } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
-const LAST_MODIFIED = new Date("2026-05-29");
+const LAST_MODIFIED = new Date("2026-09-11");
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // 所有"逻辑页面"的路径(不带语言前缀)

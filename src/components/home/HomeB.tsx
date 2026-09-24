@@ -1,6 +1,7 @@
 import { Fragment } from "react";
 import Image from "next/image";
-import { Cormorant_Garamond, Inter } from "next/font/google";
+import { Cormorant_Garamond } from "next/font/google";
+import { inter } from "@/lib/fonts";
 import { useLocale, useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts, categories } from "@/lib/sample-data";
@@ -17,12 +18,6 @@ const cormorant = Cormorant_Garamond({
   display: "swap",
 });
 
-const inter = Inter({
-  subsets: ["latin", "latin-ext"],
-  weight: ["300", "400", "500", "600"],
-  variable: "--font-inter",
-  display: "swap",
-});
 
 // 精选系列展示前 9 款(另一个助手往 sampleProducts 加新款时这里会自动跟着显示)
 const PRODUCT_COUNT = 9;

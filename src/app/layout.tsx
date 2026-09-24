@@ -1,11 +1,5 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({
-  variable: "--font-inter",
-  subsets: ["latin"],
-});
 
 export const metadata: Metadata = {
   // 让所有相对 URL(og 图/canonical/hreflang)能自动补全成完整地址

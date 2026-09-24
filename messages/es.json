@@ -185,5 +185,189 @@
     "aboutDescription": "Fábrica de gorras y sombreros personalizados en Guangzhou, China. Bordado, serigrafía, telas y colores a medida para marcas mayoristas de todo el mundo.",
     "contactTitle": "Contáctanos — Solicita una cotización",
     "contactDescription": "Solicita cotización para gorras personalizadas. Fábrica en Guangzhou, China. Bordado, serigrafía y colores a medida. Pedido mínimo: 50 uds/color."
+  },
+  "HomeA": {
+    "eyebrow": "Perfil de fábrica — actualizado en 2026",
+    "titleLine1": "Gorras de marca propia,",
+    "titleLine2": "fabricadas a tu medida.",
+    "lead": "Una fábrica de gorras de 2.000 m² en Guangzhou, China — con nuestras propias líneas de corte, costura y ensamblaje, respaldadas por socios de bordado, estampado y acabado con los que trabajamos desde hace años. Trabajamos directamente con marcas que necesitan un socio de fabricación, no solo un proveedor de catálogo.",
+    "ctaPrimary": "Solicitar Cotización",
+    "ctaSecondary": "Ver Capacidades",
+    "statFoundedValue": "2015",
+    "statFoundedLabel": "Fundada",
+    "statFloorValue": "2.000 m²",
+    "statFloorLabel": "Planta de fábrica",
+    "statWorkersValue": "30+",
+    "statWorkersLabel": "Trabajadores calificados",
+    "statOutputValue": "100.000+",
+    "statOutputLabel": "Piezas / mes",
+    "statCountriesValue": "50+",
+    "statCountriesLabel": "Países atendidos",
+    "capKicker": "Capacidades",
+    "capHeading": "Qué fabricamos, y con qué lo fabricamos",
+    "capDescription": "Las especificaciones se fijan en la muestra y se mantienen durante la producción en volumen. El corte, la costura y el ensamblaje se hacen en nuestro propio taller; el bordado, el estampado y los acabados especiales los realizan talleres socios de larga colaboración, y cada lote vuelve a nosotros para revisión antes de continuar.",
+    "stylesHeading": "Estilos de Gorras",
+    "styleSubs": [
+      "estructuradas y no estructuradas",
+      "espalda de malla",
+      "opción reversible",
+      "deportivas y tejidas",
+      "copa baja, visera plana",
+      "ligeras y transpirables",
+      "inspiración militar",
+      "protección de cuello / visera larga",
+      "lana, sherpa, piel sintética"
+    ],
+    "decorHeading": "Decoración y Detalles",
+    "decor": [
+      {
+        "name": "Bordado",
+        "sub": "plano, 3D puff, chenilla"
+      },
+      {
+        "name": "Estampado serigráfico y térmico",
+        "sub": "1–8 colores"
+      },
+      {
+        "name": "Etiquetas tejidas y de cuero",
+        "sub": "troqueles personalizados"
+      },
+      {
+        "name": "Parches",
+        "sub": "PU, fieltro, chenilla"
+      },
+      {
+        "name": "Acabado lavado / teñido en prenda",
+        "sub": "tacto vintage"
+      },
+      {
+        "name": "Detalles personalizados",
+        "sub": "hebillas, ojales, deslizadores"
+      },
+      {
+        "name": "Abastecimiento de telas",
+        "sub": "sarga, malla, pana, lana"
+      },
+      {
+        "name": "Construcciones reversibles / de dos capas",
+        "sub": "en estilos seleccionados"
+      }
+    ],
+    "specMoqLabel": "MOQ",
+    "specMoqValue": "<b>50 piezas</b> por color — flexible en primeros pedidos mientras pruebas el mercado.",
+    "specSampleLabel": "Tiempo de muestra",
+    "specSampleValue": "<b>5–7 días</b> desde el arte y la tela confirmados, revisiones incluidas.",
+    "specBulkLabel": "Tiempo de producción",
+    "specBulkValue": "<b>15–25 días</b>, según cantidad y complejidad de la decoración.",
+    "specMaterialsLabel": "Materiales",
+    "specMaterialsValue": "Sarga de algodón, poliéster, nailon, lana, acrílico, pana, telas orgánicas y recicladas — abastecidas según especificación bajo pedido.",
+    "specShippingLabel": "Términos de envío",
+    "specShippingValue": "FOB · CIF · puerta a puerta, por mar, aire o mensajería exprés.",
+    "specQcLabel": "Control de calidad",
+    "specQcValue": "Revisiones en línea etapa por etapa durante corte, costura y decoración, más la aprobación de una <b>muestra de preproducción</b> antes de iniciar cualquier lote.",
+    "productsKicker": "Registro de producto",
+    "productsHeading": "Desde el taller",
+    "productsCount": "{shown} de {total}+ estilos en catálogo actual",
+    "skuLabel": "Estilo",
+    "processKicker": "Flujo de trabajo",
+    "processHeading": "Cómo avanza un pedido en la fábrica",
+    "steps": [
+      {
+        "title": "Diseño y consulta",
+        "body": "Envíanos tu logo, referencias y precio objetivo. Te respondemos con una ficha técnica y, si es útil, una maqueta."
+      },
+      {
+        "title": "Selección de material y color",
+        "body": "Elige tela, color y detalles de nuestro stock, o abastecemos un material específico bajo pedido."
+      },
+      {
+        "title": "Producción de muestra",
+        "body": "Una muestra física se corta y cose en 5–7 días. Las revisiones están incluidas antes de tu aprobación."
+      },
+      {
+        "title": "Producción en volumen",
+        "body": "Corte, costura, bordado/estampado y ensamblaje bajo control de calidad por etapas — 15–25 días según el tamaño del pedido."
+      },
+      {
+        "title": "Inspección final",
+        "body": "Cada lote se revisa antes de empacar, con reporte fotográfico de calidad disponible bajo pedido."
+      },
+      {
+        "title": "Envío",
+        "body": "FOB, CIF o puerta a puerta — por mar, aire o exprés, a más de 50 países."
+      }
+    ],
+    "contactKicker": "Solicita una cotización",
+    "contactHeading": "Cuéntanos qué estás creando.",
+    "contactBody": "Envíanos una descripción, la cantidad objetivo y cualquier imagen de referencia — te responderemos con precio y un plazo realista, normalmente en 24 horas.",
+    "contactEmailLabel": "Correo",
+    "contactPhoneLabel": "Teléfono",
+    "contactFactoryLabel": "Fábrica",
+    "contactFactoryValue": "Guangzhou, China"
+  },
+  "HomeB": {
+    "eyebrow": "Guangzhou, China — Fundada en 2015",
+    "titlePrefix": "Gorras,",
+    "titleMid": "hechas a ",
+    "titleEmphasis": "tu",
+    "titleSuffix": " medida.",
+    "lead": "Una fábrica de gorras independiente que produce para marcas a las que les importa cómo se cose una curva y cómo se iguala un color. Nosotros fabricamos; tú diseñas.",
+    "inquireCta": "Consultar sobre producción",
+    "creds": [
+      "10+ Años en Gorras",
+      "Fábrica de 2.000 m²",
+      "30+ Manos Expertas",
+      "100.000+ Piezas al Mes",
+      "Envíos a 50+ Países"
+    ],
+    "capabilityLabel": "Capacidad",
+    "capabilityHeading": "Hecho por gente que conocemos.",
+    "capabilityP1": "El corte, la costura y el ensamblaje ocurren dentro de nuestra propia planta de <b>2.000 m²</b>, a cargo de un equipo de <b>30+</b> manos expertas que llevan años trabajando juntas. El bordado, el estampado y el lavado los realizan talleres socios con los que trabajamos desde hace años, y cada lote vuelve a nosotros para revisión.",
+    "capabilityP2": "Los pedidos parten de <b>50 piezas por color</b>. Una muestra física está lista en <b>5–7 días</b>; un pedido en volumen confirmado se envía en <b>15–25 días</b>. Cada etapa se revisa en el momento, y nada pasa a producción en volumen hasta que apruebes una muestra de preproducción.",
+    "stylesLabel": "Estilos que fabricamos",
+    "collectionLabel": "Colección",
+    "collectionHeadingLine1": "Una pequeña selección",
+    "collectionHeadingLine2": "de la gama actual.",
+    "collectionNote": "Cada pieza mostrada está en producción actual — nada es una simulación.",
+    "processLabel": "Proceso",
+    "processHeading": "Del concepto al contenedor.",
+    "steps": [
+      {
+        "numeral": "I",
+        "title": "Consulta",
+        "body": "Comparte tu logo, referencias y precio objetivo."
+      },
+      {
+        "numeral": "II",
+        "title": "Materiales",
+        "body": "Elige tela, color y detalles — o los abastecemos según especificación."
+      },
+      {
+        "numeral": "III",
+        "title": "Muestra",
+        "body": "Una muestra física en 5–7 días, revisiones incluidas."
+      },
+      {
+        "numeral": "IV",
+        "title": "Producción",
+        "body": "Producción en volumen en 15–25 días, revisada en cada etapa."
+      },
+      {
+        "numeral": "V",
+        "title": "Inspección",
+        "body": "Una revisión final de calidad con reporte fotográfico antes de empacar."
+      },
+      {
+        "numeral": "VI",
+        "title": "Entrega",
+        "body": "FOB, CIF o puerta a puerta, a nivel mundial."
+      }
+    ],
+    "contactHeadingLine1": "Construyamos tu próxima",
+    "contactHeadingLine2": "colección juntos.",
+    "contactCta": "Enviar una consulta",
+    "contactEmail": "info@nancrown.com",
+    "contactPhone": "+86 20-3123 5916",
+    "contactLocation": "Guangzhou, China"
   }
 }

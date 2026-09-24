@@ -20,6 +20,534 @@ export const productTranslations: Record<
   string,
   Partial<Record<TranslatedLocale, ProductTranslation>>
 > = {
+  "souvenir-patch-snapback": {
+    es: {
+      name: "Gorra Snapback con Parche Conmemorativo",
+      description:
+        "Un parche conmemorativo en arco al frente, un cordón dorado trenzado que cruza la visera y una ramita de laurel a cada lado — tres detalles bordados que la convierten en una gorra de recuerdo. Las palabras, el año y el emblema dentro del parche son totalmente tuyos — eventos, aniversarios, clubes.",
+      material: "Sarga de algodón",
+      colors: ["Azul marino", "negro", "blanco roto", "verde oliva"],
+      features: [
+        "Snapback de 5 paneles, visera plana",
+        "Parche conmemorativo en arco, bordado plano",
+        "Cordón dorado trenzado que cruza la visera",
+        "Bordado de laurel a cada lado de la visera",
+        "Cinco paneles sólidos, snapback a juego",
+        "Talla: única · snapback",
+      ],
+    },
+    fr: {
+      name: "Casquette Snapback à Écusson Souvenir",
+      description:
+        "Un écusson souvenir en arc à l'avant, un cordon doré torsadé qui traverse la visière et un brin de laurier de chaque côté — trois détails brodés qui en font une casquette commémorative. Les mots, l'année et l'emblème à l'intérieur de l'écusson sont entièrement les vôtres — événements, anniversaires, clubs.",
+      material: "Sergé de coton",
+      colors: ["Bleu marine", "noir", "blanc cassé", "olive"],
+      features: [
+        "Snapback 5 panneaux, visière plate",
+        "Écusson souvenir en arc, broderie plate",
+        "Cordon doré torsadé traversant la visière",
+        "Broderie de laurier de chaque côté de la visière",
+        "Cinq panneaux unis, snapback assorti",
+        "Taille : unique · snapback",
+      ],
+    },
+    de: {
+      name: "Souvenir-Patch-Snapback",
+      description:
+        "Ein bogenförmiger Souvenir-Patch vorne, eine goldene Kordel quer über dem Schirm und je ein Lorbeerzweig an beiden Seiten — drei gestickte Details, die daraus eine Erinnerungscap machen. Die Schrift, das Jahr und das Emblem im Patch sind ganz Ihre eigenen — für Events, Jubiläen, Vereine.",
+      material: "Baumwoll-Twill",
+      colors: ["Marineblau", "Schwarz", "Gebrochenes Weiß", "Oliv"],
+      features: [
+        "5-Panel-Snapback, flacher Schirm",
+        "Bogenförmiger Souvenir-Patch, flache Stickerei",
+        "Goldene Kordel quer über dem Schirm",
+        "Lorbeer-Stickerei an beiden Seiten des Schirms",
+        "Fünf einfarbige Panels, farblich passender Snapback",
+        "Größe: Einheitsgröße · Snapback",
+      ],
+    },
+  },
+
+  "two-tone-raw-edge-applique-cap": {
+    es: {
+      name: "Gorra Bicolor con Apliques de Borde Vivo",
+      description:
+        "Letras con aplique de borde vivo recorren desde la copa, cruzan la costura y llegan hasta la visera, sobre un cuerpo bicolor — las letras combinan con los paneles laterales para que se lean como una sola pieza. Tanto las letras grandes como la línea en cursiva llevan tus propias palabras.",
+      material: "Sarga de algodón, lavado ligero",
+      colors: ["Verde oliva/piedra", "crudo/negro", "crudo/rojo", "marino/crudo"],
+      features: [
+        "Gorra de 6 paneles, paneles en contraste",
+        "Aplique de borde vivo que cruza la costura copa-visera",
+        "Frente y visera en un color, laterales y trasera en otro",
+        "Bordado fino en cursiva arriba",
+        "Cuatro filas de pespunte en la visera",
+        "Talla: única · hebilla metálica",
+      ],
+    },
+    fr: {
+      name: "Casquette Bicolore à Appliqué Bord Brut",
+      description:
+        "Des lettres en appliqué à bord brut partent de la calotte, traversent la couture et se poursuivent sur la visière, sur un corps bicolore — les lettres reprennent la couleur des panneaux latéraux pour former un seul bloc visuel. Les grandes lettres comme la ligne en script portent vos propres mots.",
+      material: "Sergé de coton, délavage léger",
+      colors: ["Olive/pierre", "écru/noir", "écru/rouge", "marine/écru"],
+      features: [
+        "Casquette 6 panneaux, panneaux contrastés",
+        "Appliqué à bord brut traversant la couture calotte-visière",
+        "Avant et visière dans une couleur, côtés et arrière dans une autre",
+        "Fine broderie script au-dessus",
+        "Quatre rangs de surpiqûre sur la visière",
+        "Taille : unique · coulisseau métallique",
+      ],
+    },
+    de: {
+      name: "Zweifarbige Cap mit Rohkanten-Applikation",
+      description:
+        "Buchstaben als Rohkanten-Applikation laufen vom Kopfteil über die Naht bis auf den Schirm, auf einem zweifarbigen Korpus — die Buchstaben sind farblich auf die Seitenpanels abgestimmt, sodass alles wie aus einem Guss wirkt. Sowohl die großen Buchstaben als auch die Schreibschrift-Zeile tragen Ihren eigenen Text.",
+      material: "Baumwoll-Twill, leicht gewaschen",
+      colors: ["Oliv/Stein", "Ecru/Schwarz", "Ecru/Rot", "Marine/Ecru"],
+      features: [
+        "6-Panel-Cap, Panels in Kontrastfarbe",
+        "Rohkanten-Applikation über die Naht von Kopfteil zu Schirm",
+        "Front und Schirm in einer Farbe, Seiten und Rücken in einer anderen",
+        "Feine Schreibschrift-Stickerei darüber",
+        "Vier Reihen Ziernaht auf dem Schirm",
+        "Größe: Einheitsgröße · Metallschieber",
+      ],
+    },
+  },
+
+  "two-tone-washed-dad-cap": {
+    es: {
+      name: "Gorra Dad Lavada Bicolor",
+      description:
+        "El cuerpo en un color, la visera y el botón en otro, con un wordmark redondeado en minúsculas y contorno en contraste — ese aire relajado de los 90. Tu wordmark, y tú eliges la combinación de los dos colores.",
+      material: "Sarga de algodón lavada",
+      colors: ["Negro/mostaza", "marino/caqui", "verde bosque/crudo"],
+      features: [
+        "Gorra dad lavada de 6 paneles, visera en contraste",
+        "Visera y botón en contraste",
+        "Wordmark redondeado con contorno en contraste",
+        "Copa sin estructura, lavado de prenda",
+        "Correa del mismo tejido, hebilla de latón envejecido",
+        "Talla: única · hebilla de latón envejecido",
+      ],
+    },
+    fr: {
+      name: "Casquette Dad Délavée Bicolore",
+      description:
+        "Le corps dans une couleur, la visière et le bouton dans une autre, avec un wordmark arrondi en minuscules souligné d'un contour contrasté — cette allure décontractée typique des années 90. Votre wordmark, et vous choisissez l'association des deux couleurs.",
+      material: "Sergé de coton délavé",
+      colors: ["Noir/moutarde", "marine/kaki", "vert forêt/écru"],
+      features: [
+        "Casquette dad délavée 6 panneaux, visière contrastée",
+        "Visière et bouton contrastés",
+        "Wordmark arrondi avec contour contrasté",
+        "Calotte non structurée, délavage à la pièce",
+        "Sangle assortie au tissu, boucle laiton vieilli",
+        "Taille : unique · boucle laiton vieilli",
+      ],
+    },
+    de: {
+      name: "Zweifarbige Washed Dad Cap",
+      description:
+        "Der Korpus in einer Farbe, Schirm und Knopf in einer anderen, dazu ein rundlicher Kleinbuchstaben-Schriftzug mit Kontrastumrandung — das entspannte Gefühl der 90er. Ihr Schriftzug, und Sie bestimmen die Kombination der beiden Farben.",
+      material: "Gewaschener Baumwoll-Twill",
+      colors: ["Schwarz/Senf", "Marine/Khaki", "Waldgrün/Ecru"],
+      features: [
+        "Gewaschene 6-Panel-Dad-Cap, Schirm in Kontrastfarbe",
+        "Schirm und Knopf in Kontrastfarbe",
+        "Rundlicher Schriftzug mit Kontrastumrandung",
+        "Unstrukturiertes Kopfteil, garment-washed",
+        "Riemen aus demselben Stoff, Schnalle in Antikmessing",
+        "Größe: Einheitsgröße · Schnalle in Antikmessing",
+      ],
+    },
+  },
+
+  "double-zip-brim-cap": {
+    es: {
+      name: "Gorra con Doble Cremallera en la Visera",
+      description:
+        "Una cremallera metálica inclinada incrustada a cada lado de la visera, dejando ver solo los dientes y un tirador fino — todo en negro y minimalista, con el detalle concentrado en la visera. Los tiradores de las cremalleras y la hebilla trasera pueden llevar tu marca.",
+      material: "Sarga de algodón fina",
+      colors: ["Negro/gris metal", "negro/plata", "crudo/gris metal"],
+      features: [
+        "Gorra estructurada de 6 paneles",
+        "Dos cremalleras incrustadas en la visera",
+        "Tiradores finos y lisos — se pueden grabar",
+        "Copa estructurada de seis paneles",
+        "Laterales limpios, sin marcas",
+        "Talla: única · hebilla metálica",
+      ],
+    },
+    fr: {
+      name: "Casquette à Double Fermeture Éclair sur la Visière",
+      description:
+        "Une fermeture éclair métallique inclinée insérée de chaque côté de la visière, ne laissant apparaître que les dents et un fin tirant — tout en noir et minimaliste, le détail se concentre sur la visière. Les tirants de fermeture et la boucle arrière peuvent tous deux porter votre marque.",
+      material: "Sergé de coton fin",
+      colors: ["Noir/gunmetal", "noir/argent", "écru/gunmetal"],
+      features: [
+        "Casquette structurée 6 panneaux",
+        "Deux fermetures éclair insérées dans la visière",
+        "Tirants fins et unis — gravables",
+        "Calotte structurée à six panneaux",
+        "Côtés nets, sans marquage",
+        "Taille : unique · boucle métallique",
+      ],
+    },
+    de: {
+      name: "Cap mit Doppel-Reißverschluss am Schirm",
+      description:
+        "Auf jeder Seite des Schirms ein schräg eingesetzter Metallreißverschluss, bei dem nur die Zähne und ein schmaler Zipper zu sehen sind — komplett schwarz und minimalistisch, das Detail sitzt am Schirm. Sowohl die Zipper als auch die Schnalle hinten können Ihre Kennzeichnung tragen.",
+      material: "Feiner Baumwoll-Twill",
+      colors: ["Schwarz/Gunmetal", "Schwarz/Silber", "Ecru/Gunmetal"],
+      features: [
+        "Strukturierte 6-Panel-Cap",
+        "Zwei in den Schirm eingesetzte Reißverschlüsse",
+        "Schmale, schlichte Zipper — gravierbar",
+        "Strukturiertes Sechs-Panel-Kopfteil",
+        "Saubere Seiten, ohne Kennzeichnung",
+        "Größe: Einheitsgröße · Metallschnalle",
+      ],
+    },
+  },
+
+  "ripped-piercing-denim-cap": {
+    es: {
+      name: "Gorra de Mezclilla Rasgada con Piercings",
+      description:
+        "Cubierta de herrajes tipo «piercing» — imperdibles, aros, pequeños remaches y una pinza en la visera — junto con paneles rasgados y un borde de visera deshilachado. La palabra al frente es tuya; la posición y cantidad de herrajes se puede ajustar.",
+      material: "Mezclilla lavada",
+      colors: ["Negro lavado", "crudo", "azul", "gris carbón"],
+      features: [
+        "Gorra dad de mezclilla lavada de 6 paneles",
+        "Imperdibles, aros, remaches y pinza en la visera",
+        "Copa rasgada, borde de visera deshilachado",
+        "Negro lavado con desvanecido natural",
+        "Palabra en arco con bordado plano",
+        "Talla: única · hebilla metálica negra",
+      ],
+    },
+    fr: {
+      name: "Casquette en Denim Déchiré à Piercings",
+      description:
+        "Recouverte de quincaillerie façon « piercing » — épingles à nourrice, anneaux, petits clous et une pince sur la visière — avec des panneaux déchirés et un bord de visière effiloché. Le mot à l'avant est le vôtre ; l'emplacement et le nombre de quincailleries peuvent varier.",
+      material: "Denim délavé",
+      colors: ["Noir délavé", "écru", "bleu", "anthracite"],
+      features: [
+        "Casquette dad en denim délavé, 6 panneaux",
+        "Épingles, anneaux, clous et pince sur la visière",
+        "Calotte déchirée, bord de visière effiloché",
+        "Noir délavé à l'usure irrégulière",
+        "Mot en arc brodé à plat",
+        "Taille : unique · coulisseau métallique noir",
+      ],
+    },
+    de: {
+      name: "Zerrissene Denim-Cap mit Piercing-Hardware",
+      description:
+        "Übersät mit „Piercing“-Hardware — Sicherheitsnadeln, Ringe, kleine Spikes und eine Foldback-Klammer am Schirm — dazu zerrissene Panels und ein ausgefranster Schirmrand. Das Wort vorne ist Ihres; Platzierung und Anzahl der Hardware lassen sich anpassen.",
+      material: "Gewaschener Denim",
+      colors: ["Gewaschenes Schwarz", "Ecru", "Blau", "Anthrazit"],
+      features: [
+        "Gewaschene 6-Panel-Denim-Dad-Cap",
+        "Nadeln, Ringe, Spikes und eine Klammer am Schirm",
+        "Zerrissenes Kopfteil, ausgefranster Schirmrand",
+        "Verwaschenes Schwarz mit natürlicher Tonvariation",
+        "Bogenförmiges, flach gesticktes Wort",
+        "Größe: Einheitsgröße · schwarzer Metallschieber",
+      ],
+    },
+  },
+
+  "gradient-bleached-denim-cap": {
+    es: {
+      name: "Gorra de Mezclilla Decolorada en Degradado",
+      description:
+        "Decolorada desde un azul medio en la copa hasta casi blanco en la visera, desgastada en los bordes, con una línea serif blanca bordada al frente. Esa línea frontal se convierte en tu eslogan o nombre.",
+      material: "Mezclilla lavada elástica",
+      colors: ["Azul decolorado en degradado"],
+      features: [
+        "Gorra dad de mezclilla de 6 paneles",
+        "Decolorado en degradado, de la copa a la visera",
+        "Bordes desgastados que dejan ver el hilo blanco",
+        "Bordado serif blanco al frente",
+        "Sin estructura, se ajusta cerca de la cabeza",
+        "Talla: única · hebilla plateada",
+      ],
+    },
+    fr: {
+      name: "Casquette en Denim Délavé Dégradé",
+      description:
+        "Décolorée d'un bleu moyen sur la calotte jusqu'à un blanc presque pur sur la visière, usée sur les bords, avec une ligne serif blanche brodée à l'avant. Cette ligne devient votre slogan ou votre nom.",
+      material: "Denim extensible délavé",
+      colors: ["Bleu délavé dégradé"],
+      features: [
+        "Casquette dad en denim, 6 panneaux",
+        "Décoloration en dégradé, de la calotte à la visière",
+        "Bords usés laissant voir le fil blanc",
+        "Broderie serif blanche à l'avant",
+        "Non structurée, épouse bien la tête",
+        "Taille : unique · coulisseau argenté",
+      ],
+    },
+    de: {
+      name: "Denim-Cap mit Bleach-Verlauf",
+      description:
+        "Von Mittelblau am Kopfteil bis fast Weiß am Schirm gebleicht, an den Kanten durchgescheuert, mit einer weißen Serifenschrift-Zeile vorne. Diese Zeile wird zu Ihrem Slogan oder Namen.",
+      material: "Elastischer, gewaschener Denim",
+      colors: ["Blau, Bleach-Verlauf"],
+      features: [
+        "6-Panel-Denim-Dad-Cap",
+        "Bleach-Verlauf von Kopfteil zu Schirm",
+        "Durchgescheuerte Kanten mit sichtbarem weißen Garn",
+        "Weiße Serifenschrift-Stickerei vorne",
+        "Unstrukturiert, sitzt eng am Kopf",
+        "Größe: Einheitsgröße · Silberschieber",
+      ],
+    },
+  },
+
+  "stripe-over-brim-soft-cap": {
+    es: {
+      name: "Gorra Blanda con Franjas sobre la Visera",
+      description:
+        "Dos franjas blancas en relieve recorren desde la copa hasta la visera, con un parche ovalado en bordado en relieve al frente — un look deportivo y gráfico. El texto del parche es tuyo; el color de las franjas puede cambiar.",
+      material: "Sarga de algodón",
+      colors: ["Negro", "crudo", "marino", "gris carbón"],
+      features: [
+        "Gorra blanda de perfil bajo, 6 paneles",
+        "Franjas en relieve de la copa a la visera",
+        "Parche ovalado en bordado en relieve",
+        "Copa blanda y baja, visera precurvada",
+        "Correa con anilla plateada en D",
+        "Talla: única · anilla plateada en D",
+      ],
+    },
+    fr: {
+      name: "Casquette Souple à Rayures sur la Visière",
+      description:
+        "Deux rayures blanches en relief partent de la calotte et se poursuivent jusque sur la visière, avec un écusson ovale en broderie en relief à l'avant — un look sportif et graphique. Le texte de l'écusson est le vôtre ; la couleur des rayures peut changer.",
+      material: "Sergé de coton",
+      colors: ["Noir", "écru", "marine", "anthracite"],
+      features: [
+        "Casquette souple à profil bas, 6 panneaux",
+        "Rayures en relief de la calotte jusqu'à la visière",
+        "Écusson ovale en broderie en relief",
+        "Calotte souple et basse, visière précourbée",
+        "Sangle avec anneau en D argenté",
+        "Taille : unique · anneau en D argenté",
+      ],
+    },
+    de: {
+      name: "Weiche Cap mit Streifen über den Schirm",
+      description:
+        "Zwei erhabene weiße Streifen verlaufen vom Kopfteil direkt auf den Schirm, dazu ein ovaler Patch in erhabener Stickerei vorne — sportlich und grafisch. Der Text im Patch ist Ihrer; die Streifenfarbe lässt sich ändern.",
+      material: "Baumwoll-Twill",
+      colors: ["Schwarz", "Ecru", "Marine", "Anthrazit"],
+      features: [
+        "Weiche 6-Panel-Cap mit niedrigem Profil",
+        "Erhabene Streifen vom Kopfteil auf den Schirm",
+        "Ovaler Patch in erhabener Stickerei",
+        "Niedriges weiches Kopfteil, vorgebogener Schirm",
+        "Riemen mit silbernem D-Ring",
+        "Größe: Einheitsgröße · silberner D-Ring",
+      ],
+    },
+  },
+
+  "chain-stitch-pillbox-cap": {
+    es: {
+      name: "Gorra Pillbox con Letras en Punto de Cadeneta",
+      description:
+        "Letras estilo universitario de gran tamaño envuelven toda la copa en punto de cadeneta — una silueta baja tipo pillbox con una visera corta, casi plana. La palabra que rodea la copa se convierte en tu nombre.",
+      material: "Sarga de algodón y nylon, lavado ligero",
+      colors: ["Negro", "índigo", "crudo", "verde oliva oscuro"],
+      features: [
+        "Gorra pillbox de copa plana baja, visera corta",
+        "Las letras envuelven toda la copa",
+        "Bordado en punto de cadeneta, con textura",
+        "Copa plana baja, visera corta",
+        "Parte trasera lisa, sin marcas",
+        "Talla: única · correa a presión",
+      ],
+    },
+    fr: {
+      name: "Casquette Pillbox Brodée en Point de Chaînette",
+      description:
+        "D'immenses lettres façon universitaire font le tour complet de la calotte en point de chaînette — une silhouette basse façon pillbox avec une visière courte, presque plate. Le mot qui entoure la calotte devient votre nom.",
+      material: "Sergé coton-nylon, délavage léger",
+      colors: ["Noir", "indigo", "écru", "olive foncé"],
+      features: [
+        "Casquette pillbox à sommet plat bas, visière courte",
+        "Les lettres font le tour complet de la calotte",
+        "Broderie en point de chaînette, texturée",
+        "Sommet plat bas, visière courte",
+        "Arrière uni, sans marquage",
+        "Taille : unique · sangle à pression",
+      ],
+    },
+    de: {
+      name: "Pillbox-Cap mit Kettenstich-Schriftzug",
+      description:
+        "Übergroße Collegeschrift-Buchstaben umlaufen im Kettenstich das gesamte Kopfteil — eine niedrige Pillbox-Form mit kurzem, fast flachem Schirm. Das Wort rund um das Kopfteil wird zu Ihrem Namen.",
+      material: "Baumwoll-Nylon-Twill, leicht gewaschen",
+      colors: ["Schwarz", "Indigo", "Ecru", "Dunkeloliv"],
+      features: [
+        "Niedrige Pillbox-Cap mit flacher Oberseite, kurzer Schirm",
+        "Buchstaben umlaufen das gesamte Kopfteil",
+        "Kettenstich-Stickerei mit Struktur",
+        "Niedrige flache Oberseite, kurzer Schirm",
+        "Schlichter Rücken, ohne Kennzeichnung",
+        "Größe: Einheitsgröße · Druckknopfriemen",
+      ],
+    },
+  },
+
+  "surf-cap-chin-strap": {
+    es: {
+      name: "Gorra de Surf con Correa de Barbilla",
+      description:
+        "Una correa de barbilla en forma de Y de neopreno se abrocha bajo la barbilla, con una visera corta y plana — pensada para aguantar el oleaje, el remo y la natación. El texto lateral es tuyo — ideal para tiendas de surf y clubes acuáticos.",
+      material: "Nylon mate",
+      colors: ["Marino", "caqui", "verde acero", "gris carbón"],
+      features: [
+        "Gorra deportiva acuática de 6 paneles, visera corta",
+        "Correa de barbilla en Y de neopreno",
+        "Visera corta y plana, pespunte de varias filas",
+        "Nylon mate ligero",
+        "Bordado pequeño en el lateral",
+        "Talla: única · hebilla y correa de barbilla",
+      ],
+    },
+    fr: {
+      name: "Casquette de Surf à Jugulaire",
+      description:
+        "Une jugulaire en Y en néoprène se boucle sous le menton, avec une visière courte et plate — conçue pour tenir dans le surf, la pagaie et la nage. Le texte latéral est le vôtre — parfait pour les boutiques de surf et les clubs nautiques.",
+      material: "Nylon mat",
+      colors: ["Marine", "kaki", "vert acier", "anthracite"],
+      features: [
+        "Casquette de sport nautique 6 panneaux, visière courte",
+        "Jugulaire en Y en néoprène",
+        "Visière courte et plate, surpiqûre multi-rangs",
+        "Nylon mat léger",
+        "Petite broderie sur le côté",
+        "Taille : unique · boucle et jugulaire",
+      ],
+    },
+    de: {
+      name: "Surf-Cap mit Kinnriemen",
+      description:
+        "Ein Y-förmiger Kinnriemen aus Neopren schnallt sich unter dem Kinn fest, dazu ein kurzer flacher Schirm — gemacht, um Brandung, Paddeln und Schwimmen zu überstehen. Der Text an der Seite ist Ihrer — passend für Surfshops und Wassersportclubs.",
+      material: "Mattes Nylon",
+      colors: ["Marine", "Khaki", "Stahlgrün", "Anthrazit"],
+      features: [
+        "6-Panel-Wassersport-Cap, kurzer Schirm",
+        "Y-förmiger Kinnriemen aus Neopren",
+        "Kurzer flacher Schirm, mehrreihige Ziernaht",
+        "Leichtes, mattes Nylon",
+        "Kleine Stickerei an der Seite",
+        "Größe: Einheitsgröße · Schnalle und Kinnriemen",
+      ],
+    },
+  },
+
+  "frayed-edge-denim-bucket-hat": {
+    es: {
+      name: "Sombrero de Pescador de Mezclilla con Borde Deshilachado",
+      description:
+        "Un anillo completo de borde deshilachado y desgastado alrededor del ala blanda, con un pequeño bordado en relieve al frente — mezclilla lavada de estilo relajado. Esa pequeña marca frontal se convierte en la tuya.",
+      material: "Mezclilla de algodón lavada",
+      colors: ["Mezclilla azul claro", "negro lavado", "lona cruda"],
+      features: [
+        "Sombrero de pescador de mezclilla, ala ancha",
+        "Borde deshilachado alrededor de toda el ala",
+        "Mismo color por dentro y por fuera",
+        "Pequeño bordado en relieve",
+        "Cordón ajustable en azul marino",
+        "Talla: única · cordón ajustable",
+      ],
+    },
+    fr: {
+      name: "Bob en Denim à Bord Effiloché",
+      description:
+        "Un anneau complet de bord effiloché et éclaté tout autour du bord souple, avec une petite broderie en relief à l'avant — denim délavé, esprit décontracté. Cette petite marque à l'avant devient la vôtre.",
+      material: "Denim de coton délavé",
+      colors: ["Denim bleu clair", "noir délavé", "toile écrue"],
+      features: [
+        "Bob en denim, large bord",
+        "Bord effiloché tout autour",
+        "Même couleur à l'intérieur et à l'extérieur",
+        "Petite broderie en relief",
+        "Cordon ajustable bleu marine",
+        "Taille : unique · cordon ajustable",
+      ],
+    },
+    de: {
+      name: "Denim-Bucket-Hat mit ausgefranster Krempe",
+      description:
+        "Ein vollständiger Ring aus ausgefranster, aufgerissener Kante rund um die weiche Krempe, dazu eine kleine erhabene Stickerei vorne — entspannter gewaschener Denim. Diese kleine Front-Kennzeichnung wird zu Ihrer eigenen.",
+      material: "Gewaschener Baumwoll-Denim",
+      colors: ["Hellblauer Denim", "Gewaschenes Schwarz", "Ecru-Canvas"],
+      features: [
+        "Denim-Bucket-Hat mit breiter Krempe",
+        "Ausgefranste Kante rund um die Krempe",
+        "Innen und außen dieselbe Farbe",
+        "Kleine erhabene Stickerei",
+        "Verstellbare marineblaue Kordel",
+        "Größe: Einheitsgröße · verstellbare Kordel",
+      ],
+    },
+  },
+
+  "teddy-earflap-wool-bucket-hat": {
+    es: {
+      name: "Sombrero de Pescador de Lana con Orejeras Teddy",
+      description:
+        "Forro teddy bajo el ala, dos orejeras de lana forradas en teddy y cintas de ante que se atan en lazo — un sombrero de pescador cálido para invierno. Esa pequeña línea al frente se convierte en la tuya.",
+      material: "Paño de lana mezclada, forro teddy",
+      colors: ["Chocolate", "avena", "gris carbón", "negro"],
+      features: [
+        "Sombrero de pescador de lana con orejeras",
+        "Forro teddy bajo el ala",
+        "Orejeras de lana forradas en teddy",
+        "Cintas de ante que se atan en lazo",
+        "Pequeño bordado plano al frente",
+        "Talla: única · cintas de ante",
+      ],
+    },
+    fr: {
+      name: "Bob en Laine à Oreillettes Teddy",
+      description:
+        "Une doublure teddy sous le bord, deux oreillettes en laine doublées de teddy et des liens en suède qui se nouent en boucle — un bob chaud pour l'hiver. Cette petite ligne à l'avant devient la vôtre.",
+      material: "Feutre laine mélangée, doublure teddy",
+      colors: ["Chocolat", "avoine", "anthracite", "noir"],
+      features: [
+        "Bob en laine à oreillettes",
+        "Doublure teddy sous le bord",
+        "Oreillettes en laine doublées de teddy",
+        "Liens en suède noués en boucle",
+        "Petite broderie plate à l'avant",
+        "Taille : unique · liens en suède",
+      ],
+    },
+    de: {
+      name: "Woll-Bucket-Hat mit Teddy-Ohrenklappen",
+      description:
+        "Teddy-Fleece unter der Krempe, zwei mit Fleece gefütterte Wollohrenklappen und Wildlederbänder, die zur Schleife gebunden werden — ein warmer Winter-Bucket-Hat. Diese kleine Zeile vorne wird zu Ihrer eigenen.",
+      material: "Wollmisch-Filz, Teddy-Fleece",
+      colors: ["Schokolade", "Hafer", "Anthrazit", "Schwarz"],
+      features: [
+        "Woll-Bucket-Hat mit Ohrenklappen",
+        "Teddy-Fleece unter der Krempe",
+        "Mit Fleece gefütterte Wollohrenklappen",
+        "Wildlederbänder, zur Schleife gebunden",
+        "Kleine flache Stickerei vorne",
+        "Größe: Einheitsgröße · Wildlederbänder",
+      ],
+    },
+  },
+
   "serif-wordmark-washed-cap": {
     es: {
       name: "Gorra Lavada con Wordmark Serif",

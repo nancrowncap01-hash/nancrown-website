@@ -12,7 +12,12 @@ function escapeHtml(value: string): string {
 
 export async function POST(request: NextRequest) {
   const body = await request.json();
-  const { name, email, company, country, product, quantity, message } = body;
+  const { name, email, company, country, product, quantity, message, homeVersion } = body;
+
+  // 首页 A/B 测试标记:只认 "a" / "b",别的一律显示 "—"(没经过首页,或单版模式下没写 cookie)
+  const rawHomeVersion = typeof homeVersion === "string" ? homeVersion.toLowerCase() : "";
+  const homeVersionLabel =
+    rawHomeVersion === "a" ? "A" : rawHomeVersion === "b" ? "B" : "—";
 
   if (!name || !email || !product || !message) {
     return NextResponse.json(
@@ -56,6 +61,7 @@ export async function POST(request: NextRequest) {
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Product Interest</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(product)}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Quantity</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(quantity || "N/A")}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Message</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(message)}</td></tr>
+          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Homepage version</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(homeVersionLabel)}</td></tr>
         </table>
       `,
     });

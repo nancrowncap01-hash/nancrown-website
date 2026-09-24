@@ -185,5 +185,189 @@
     "aboutDescription": "10+ years crafting custom headwear for 50+ countries. 30+ skilled workers, 100K+ pieces a month. Discover NanCrown's hat factory in Guangzhou.",
     "contactTitle": "Contact Us — Request a Quote",
     "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 24 hours. Low MOQ, worldwide shipping."
+  },
+  "HomeA": {
+    "eyebrow": "Factory profile — updated 2026",
+    "titleLine1": "Private-label headwear,",
+    "titleLine2": "built to spec.",
+    "lead": "A 2,000 m² cap factory in Guangzhou, China — our own cutting, sewing and assembly lines, backed by long-term embroidery, printing and finishing partners. We work directly with brand owners who need a manufacturing partner, not just a listing.",
+    "ctaPrimary": "Request a Quote",
+    "ctaSecondary": "See Capabilities",
+    "statFoundedValue": "2015",
+    "statFoundedLabel": "Founded",
+    "statFloorValue": "2,000 m²",
+    "statFloorLabel": "Factory floor",
+    "statWorkersValue": "30+",
+    "statWorkersLabel": "Skilled workers",
+    "statOutputValue": "100,000+",
+    "statOutputLabel": "Pieces / month",
+    "statCountriesValue": "50+",
+    "statCountriesLabel": "Countries shipped to",
+    "capKicker": "Capabilities",
+    "capHeading": "What we build, and what we build it with",
+    "capDescription": "Specs are locked at sampling, then held through bulk production. Cutting, sewing and assembly run inside our own workshop; embroidery, printing and specialty finishes are handled by long-term partner workshops, and every batch is checked back in before it moves on.",
+    "stylesHeading": "Hat Styles",
+    "styleSubs": [
+      "structured & unstructured",
+      "mesh back",
+      "reversible option",
+      "sport & woven",
+      "low crown, flat brim",
+      "lightweight, breathable",
+      "military-inspired",
+      "neck shade / long brim",
+      "wool, sherpa, faux fur"
+    ],
+    "decorHeading": "Decoration & Trim",
+    "decor": [
+      {
+        "name": "Embroidery",
+        "sub": "flat, 3D puff, chenille"
+      },
+      {
+        "name": "Screen & heat print",
+        "sub": "1–8 colour"
+      },
+      {
+        "name": "Woven & leather labels",
+        "sub": "custom die shapes"
+      },
+      {
+        "name": "Patches",
+        "sub": "PU, felt, chenille"
+      },
+      {
+        "name": "Washed / garment-dye finish",
+        "sub": "vintage handfeel"
+      },
+      {
+        "name": "Custom trims",
+        "sub": "buckles, eyelets, sliders"
+      },
+      {
+        "name": "Fabric sourcing",
+        "sub": "twill, mesh, corduroy, wool"
+      },
+      {
+        "name": "Reversible / two-layer builds",
+        "sub": "on select styles"
+      }
+    ],
+    "specMoqLabel": "MOQ",
+    "specMoqValue": "<b>50 pieces</b> per colour — flexible on first orders while you test a market.",
+    "specSampleLabel": "Sample lead time",
+    "specSampleValue": "<b>5–7 days</b> from confirmed artwork and fabric, revisions included.",
+    "specBulkLabel": "Bulk lead time",
+    "specBulkValue": "<b>15–25 days</b>, depending on quantity and decoration complexity.",
+    "specMaterialsLabel": "Materials",
+    "specMaterialsValue": "Cotton twill, polyester, nylon, wool, acrylic, corduroy, organic & recycled fabrics — sourced to spec on request.",
+    "specShippingLabel": "Shipping terms",
+    "specShippingValue": "FOB · CIF · door-to-door, by sea, air or express courier.",
+    "specQcLabel": "Quality control",
+    "specQcValue": "Stage-by-stage inline checks during cutting, sewing and decoration, plus a <b>pre-production sample sign-off</b> before any bulk run starts.",
+    "productsKicker": "Product record",
+    "productsHeading": "From the floor",
+    "productsCount": "{shown} of {total}+ styles in current catalogue",
+    "skuLabel": "Style",
+    "processKicker": "Workflow",
+    "processHeading": "How an order moves through the factory",
+    "steps": [
+      {
+        "title": "Design & consultation",
+        "body": "Send your logo, reference styles and target price. We come back with a build sheet and, where useful, a mockup."
+      },
+      {
+        "title": "Material & colour selection",
+        "body": "Pick fabric, colourway and trims from stock, or source a specific material on request."
+      },
+      {
+        "title": "Sample production",
+        "body": "A physical sample is cut and sewn in 5–7 days. Revisions are included before you sign off."
+      },
+      {
+        "title": "Bulk production",
+        "body": "Cutting, sewing, embroidery/print and assembly run under stage-by-stage QC — 15–25 days depending on order size."
+      },
+      {
+        "title": "Final inspection",
+        "body": "Every batch is checked before packing, with a QC photo report available on request."
+      },
+      {
+        "title": "Shipping",
+        "body": "FOB, CIF or door-to-door — by sea, air or express, to over 50 countries."
+      }
+    ],
+    "contactKicker": "Get a quote",
+    "contactHeading": "Tell us what you're building.",
+    "contactBody": "Send a description, target quantity and any reference images — we'll reply with pricing and a realistic timeline, usually within 24 hours.",
+    "contactEmailLabel": "Email",
+    "contactPhoneLabel": "Phone",
+    "contactFactoryLabel": "Factory",
+    "contactFactoryValue": "Guangzhou, China"
+  },
+  "HomeB": {
+    "eyebrow": "Guangzhou, China — Established 2015",
+    "titlePrefix": "Headwear,",
+    "titleMid": "made to ",
+    "titleEmphasis": "your",
+    "titleSuffix": " standard.",
+    "lead": "An independent cap factory producing for brands who care how a curve is stitched and how a colour is matched. We manufacture; you design.",
+    "inquireCta": "Inquire about production",
+    "creds": [
+      "10+ Years in Headwear",
+      "2,000 m² Factory",
+      "30+ Skilled Hands",
+      "100,000+ Pieces Monthly",
+      "Shipping to 50+ Countries"
+    ],
+    "capabilityLabel": "Capability",
+    "capabilityHeading": "Made by people we know.",
+    "capabilityP1": "Cutting, sewing and assembly happen inside our own <b>2,000 m²</b> facility, run by a team of <b>30+</b> skilled hands who have worked together for years. Embroidery, printing and washing are handled by partner workshops we've used for years, and every batch comes back to us for checking.",
+    "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>5–7 days</b>; a confirmed bulk order ships in <b>15–25 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
+    "stylesLabel": "Styles we build",
+    "collectionLabel": "Collection",
+    "collectionHeadingLine1": "A small selection",
+    "collectionHeadingLine2": "from the current range.",
+    "collectionNote": "Every piece shown is in current production — nothing rendered.",
+    "processLabel": "Process",
+    "processHeading": "From concept to container.",
+    "steps": [
+      {
+        "numeral": "I",
+        "title": "Consultation",
+        "body": "Share your logo, references and target price."
+      },
+      {
+        "numeral": "II",
+        "title": "Materials",
+        "body": "Choose fabric, colour and trims — or source to spec."
+      },
+      {
+        "numeral": "III",
+        "title": "Sampling",
+        "body": "A physical sample in 5–7 days, revisions included."
+      },
+      {
+        "numeral": "IV",
+        "title": "Production",
+        "body": "Bulk run in 15–25 days, checked at every stage."
+      },
+      {
+        "numeral": "V",
+        "title": "Inspection",
+        "body": "A final QC pass with photo report before packing."
+      },
+      {
+        "numeral": "VI",
+        "title": "Delivery",
+        "body": "FOB, CIF or door-to-door, worldwide."
+      }
+    ],
+    "contactHeadingLine1": "Let's build your next",
+    "contactHeadingLine2": "collection together.",
+    "contactCta": "Send an inquiry",
+    "contactEmail": "info@nancrown.com",
+    "contactPhone": "+86 20-3123 5916",
+    "contactLocation": "Guangzhou, China"
   }
 }

@@ -185,5 +185,189 @@
     "aboutDescription": "Usine de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure pour marques du monde entier.",
     "contactTitle": "Contactez-nous — Demandez un devis",
     "contactDescription": "Demandez un devis pour vos casquettes personnalisées. Usine à Guangzhou, Chine. Broderie, sérigraphie et coloris sur mesure, MOQ 50 pièces par coloris."
+  },
+  "HomeA": {
+    "eyebrow": "Profil d'usine — mis à jour en 2026",
+    "titleLine1": "Casquettes de marque propre,",
+    "titleLine2": "fabriquées sur mesure.",
+    "lead": "Une usine de casquettes de 2 000 m² à Guangzhou, en Chine — nos propres lignes de coupe, de couture et d'assemblage, appuyées par des partenaires de broderie, d'impression et de finition de longue date. Nous travaillons directement avec des marques qui ont besoin d'un partenaire de fabrication, pas seulement d'un catalogue.",
+    "ctaPrimary": "Demander un Devis",
+    "ctaSecondary": "Voir les Capacités",
+    "statFoundedValue": "2015",
+    "statFoundedLabel": "Fondée en",
+    "statFloorValue": "2 000 m²",
+    "statFloorLabel": "Surface d'usine",
+    "statWorkersValue": "30+",
+    "statWorkersLabel": "Ouvriers qualifiés",
+    "statOutputValue": "100 000+",
+    "statOutputLabel": "Pièces / mois",
+    "statCountriesValue": "50+",
+    "statCountriesLabel": "Pays livrés",
+    "capKicker": "Capacités",
+    "capHeading": "Ce que nous fabriquons, et avec quoi",
+    "capDescription": "Les spécifications sont fixées à l'échantillonnage, puis conservées jusqu'à la production en volume. La coupe, la couture et l'assemblage se font dans notre propre atelier ; la broderie, l'impression et les finitions spéciales sont confiées à des ateliers partenaires de longue date, et chaque lot revient chez nous pour contrôle avant de poursuivre.",
+    "stylesHeading": "Styles de Casquettes",
+    "styleSubs": [
+      "structurées et non structurées",
+      "dos en filet",
+      "option réversible",
+      "sport et tissées",
+      "calotte basse, visière plate",
+      "légères, respirantes",
+      "inspiration militaire",
+      "protection nuque / longue visière",
+      "laine, sherpa, fausse fourrure"
+    ],
+    "decorHeading": "Décoration et Finitions",
+    "decor": [
+      {
+        "name": "Broderie",
+        "sub": "plate, 3D puff, chenille"
+      },
+      {
+        "name": "Impression sérigraphique et thermique",
+        "sub": "1 à 8 couleurs"
+      },
+      {
+        "name": "Étiquettes tissées et en cuir",
+        "sub": "découpes sur mesure"
+      },
+      {
+        "name": "Patchs",
+        "sub": "PU, feutre, chenille"
+      },
+      {
+        "name": "Finition délavée / teinture sur pièce",
+        "sub": "toucher vintage"
+      },
+      {
+        "name": "Finitions personnalisées",
+        "sub": "boucles, œillets, coulisseaux"
+      },
+      {
+        "name": "Approvisionnement en tissus",
+        "sub": "sergé, filet, velours côtelé, laine"
+      },
+      {
+        "name": "Modèles réversibles / deux couches",
+        "sub": "sur styles sélectionnés"
+      }
+    ],
+    "specMoqLabel": "MOQ",
+    "specMoqValue": "<b>50 pièces</b> par couleur — flexible sur les premières commandes le temps de tester un marché.",
+    "specSampleLabel": "Délai d'échantillon",
+    "specSampleValue": "<b>5 à 7 jours</b> à partir du visuel et du tissu confirmés, révisions incluses.",
+    "specBulkLabel": "Délai de production",
+    "specBulkValue": "<b>15 à 25 jours</b>, selon la quantité et la complexité de la décoration.",
+    "specMaterialsLabel": "Matières",
+    "specMaterialsValue": "Sergé de coton, polyester, nylon, laine, acrylique, velours côtelé, tissus bio et recyclés — approvisionnés sur mesure sur demande.",
+    "specShippingLabel": "Conditions d'expédition",
+    "specShippingValue": "FOB · CIF · porte-à-porte, par mer, air ou messagerie express.",
+    "specQcLabel": "Contrôle qualité",
+    "specQcValue": "Contrôles en ligne à chaque étape de la coupe, de la couture et de la décoration, plus la validation d'un <b>échantillon de préproduction</b> avant tout lancement en volume.",
+    "productsKicker": "Registre produits",
+    "productsHeading": "Depuis l'atelier",
+    "productsCount": "{shown} sur {total}+ styles au catalogue actuel",
+    "skuLabel": "Style",
+    "processKicker": "Flux de production",
+    "processHeading": "Comment une commande avance dans l'usine",
+    "steps": [
+      {
+        "title": "Conception et consultation",
+        "body": "Envoyez votre logo, des styles de référence et votre prix cible. Nous revenons avec une fiche technique et, si utile, une maquette."
+      },
+      {
+        "title": "Choix des matières et couleurs",
+        "body": "Choisissez tissu, coloris et finitions en stock, ou nous approvisionnons une matière spécifique sur demande."
+      },
+      {
+        "title": "Production de l'échantillon",
+        "body": "Un échantillon physique est coupé et cousu en 5 à 7 jours. Les révisions sont incluses avant votre validation."
+      },
+      {
+        "title": "Production en volume",
+        "body": "Coupe, couture, broderie/impression et assemblage sous contrôle qualité à chaque étape — 15 à 25 jours selon la taille de la commande."
+      },
+      {
+        "title": "Inspection finale",
+        "body": "Chaque lot est contrôlé avant l'emballage, avec un rapport photo qualité disponible sur demande."
+      },
+      {
+        "title": "Expédition",
+        "body": "FOB, CIF ou porte-à-porte — par mer, air ou express, vers plus de 50 pays."
+      }
+    ],
+    "contactKicker": "Demander un devis",
+    "contactHeading": "Dites-nous ce que vous construisez.",
+    "contactBody": "Envoyez une description, la quantité cible et toute image de référence — nous répondrons avec un prix et un délai réaliste, généralement sous 24 heures.",
+    "contactEmailLabel": "E-mail",
+    "contactPhoneLabel": "Téléphone",
+    "contactFactoryLabel": "Usine",
+    "contactFactoryValue": "Guangzhou, Chine"
+  },
+  "HomeB": {
+    "eyebrow": "Guangzhou, Chine — Fondée en 2015",
+    "titlePrefix": "Des casquettes,",
+    "titleMid": "faites à ",
+    "titleEmphasis": "votre",
+    "titleSuffix": " mesure.",
+    "lead": "Une usine de casquettes indépendante qui produit pour des marques attentives à la façon dont une courbe est cousue et dont une couleur est assortie. Nous fabriquons ; vous concevez.",
+    "inquireCta": "Se renseigner sur la production",
+    "creds": [
+      "10+ Ans dans la Casquette",
+      "Usine de 2 000 m²",
+      "30+ Mains Expertes",
+      "100 000+ Pièces par Mois",
+      "Livraison dans 50+ Pays"
+    ],
+    "capabilityLabel": "Savoir-faire",
+    "capabilityHeading": "Fabriqué par des gens que nous connaissons.",
+    "capabilityP1": "La coupe, la couture et l'assemblage se font dans notre propre atelier de <b>2 000 m²</b>, animé par une équipe de <b>30+</b> mains expertes qui travaillent ensemble depuis des années. La broderie, l'impression et le lavage sont confiés à des ateliers partenaires de longue date, et chaque lot nous revient pour contrôle.",
+    "capabilityP2": "Les commandes démarrent à <b>50 pièces par couleur</b>. Un échantillon physique est prêt en <b>5 à 7 jours</b> ; une commande en volume confirmée est expédiée en <b>15 à 25 jours</b>. Chaque étape est contrôlée au fil de l'eau, et rien ne passe en production en volume avant votre validation d'un échantillon de préproduction.",
+    "stylesLabel": "Styles que nous fabriquons",
+    "collectionLabel": "Collection",
+    "collectionHeadingLine1": "Une petite sélection",
+    "collectionHeadingLine2": "de la gamme actuelle.",
+    "collectionNote": "Chaque pièce présentée est en production actuelle — rien n'est un rendu 3D.",
+    "processLabel": "Processus",
+    "processHeading": "Du concept au conteneur.",
+    "steps": [
+      {
+        "numeral": "I",
+        "title": "Consultation",
+        "body": "Partagez votre logo, vos références et votre prix cible."
+      },
+      {
+        "numeral": "II",
+        "title": "Matières",
+        "body": "Choisissez tissu, couleur et finitions — ou nous les approvisionnons sur mesure."
+      },
+      {
+        "numeral": "III",
+        "title": "Échantillonnage",
+        "body": "Un échantillon physique en 5 à 7 jours, révisions incluses."
+      },
+      {
+        "numeral": "IV",
+        "title": "Production",
+        "body": "Production en volume en 15 à 25 jours, contrôlée à chaque étape."
+      },
+      {
+        "numeral": "V",
+        "title": "Inspection",
+        "body": "Un contrôle qualité final avec rapport photo avant l'emballage."
+      },
+      {
+        "numeral": "VI",
+        "title": "Livraison",
+        "body": "FOB, CIF ou porte-à-porte, dans le monde entier."
+      }
+    ],
+    "contactHeadingLine1": "Construisons ensemble votre",
+    "contactHeadingLine2": "prochaine collection.",
+    "contactCta": "Envoyer une demande",
+    "contactEmail": "info@nancrown.com",
+    "contactPhone": "+86 20-3123 5916",
+    "contactLocation": "Guangzhou, Chine"
   }
 }

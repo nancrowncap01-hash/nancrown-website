@@ -2,8 +2,23 @@
 
 import { useState, type FormEvent } from "react";
 import { useTranslations } from "next-intl";
+import { HOME_AB_COOKIE } from "@/lib/home-ab";
 
-export default function ContactForm() {
+// 读浏览器里的 nc_home cookie(首页 A/B 分流标记),没有就返回 undefined
+function readHomeVariantCookie(): string | undefined {
+  if (typeof document === "undefined") return undefined;
+  const match = document.cookie.match(
+    new RegExp(`(?:^|; )${HOME_AB_COOKIE}=([^;]*)`)
+  );
+  return match ? decodeURIComponent(match[1]) : undefined;
+}
+
+type ContactFormProps = {
+  // "page" = /contact 独立页(带深色大标题头),"embedded" = 嵌进首页某个板块,只出表单本身
+  variant?: "page" | "embedded";
+};
+
+export default function ContactForm({ variant = "page" }: ContactFormProps) {
   const t = useTranslations("Contact");
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
 
@@ -12,7 +27,11 @@ export default function ContactForm() {
     setStatus("sending");
 
     const formData = new FormData(e.currentTarget);
-    const data = Object.fromEntries(formData.entries());
+    const data = {
+      ...Object.fromEntries(formData.entries()),
+      // 标注这条询盘来自首页 A 版还是 B 版,没有 cookie(没经过首页/单版模式)就不带这个字段
+      homeVersion: readHomeVariantCookie(),
+    };
 
     try {
       const res = await fetch("/api/inquiry", {
@@ -47,16 +66,18 @@ export default function ContactForm() {
 
   return (
     <>
-      {/* Header */}
-      <section className="bg-gray-900 text-white py-16">
-        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          <h1 className="text-3xl sm:text-4xl font-bold">{t("title")}</h1>
-          <p className="mt-2 text-gray-400 text-lg">{t("subtitle")}</p>
-        </div>
-      </section>
+      {/* Header —— 嵌进首页时(variant="embedded")不要这段大标题,首页自己有对应板块的标题 */}
+      {variant === "page" && (
+        <section className="bg-gray-900 text-white py-16">
+          <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <h1 className="text-3xl sm:text-4xl font-bold">{t("title")}</h1>
+            <p className="mt-2 text-gray-400 text-lg">{t("subtitle")}</p>
+          </div>
+        </section>
+      )}
 
-      <section className="py-16">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <section className={variant === "page" ? "py-16" : undefined}>
+        <div className={variant === "page" ? "mx-auto max-w-3xl px-4 sm:px-6 lg:px-8" : undefined}>
           {status === "success" ? (
             <div className="bg-green-50 border border-green-200 rounded-xl p-8 text-center">
               <svg

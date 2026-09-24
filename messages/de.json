@@ -185,5 +185,189 @@
     "aboutDescription": "Fabrik für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch für Großhandelsmarken weltweit.",
     "contactTitle": "Kontakt — Angebot anfordern",
     "contactDescription": "Angebot für individuelle Caps anfordern. Fabrik in Guangzhou, China. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe."
+  },
+  "HomeA": {
+    "eyebrow": "Fabrikprofil — aktualisiert 2026",
+    "titleLine1": "Kopfbedeckungen für Ihre Marke,",
+    "titleLine2": "nach Maß gefertigt.",
+    "lead": "Eine 2.000 m² große Kappenfabrik in Guangzhou, China — mit eigenen Zuschnitt-, Näh- und Montagelinien, unterstützt von langjährigen Partnern für Stickerei, Druck und Veredelung. Wir arbeiten direkt mit Markeninhabern zusammen, die einen Fertigungspartner brauchen, nicht nur einen Katalog.",
+    "ctaPrimary": "Angebot Anfordern",
+    "ctaSecondary": "Kompetenzen Ansehen",
+    "statFoundedValue": "2015",
+    "statFoundedLabel": "Gegründet",
+    "statFloorValue": "2.000 m²",
+    "statFloorLabel": "Fabrikfläche",
+    "statWorkersValue": "30+",
+    "statWorkersLabel": "Fachkräfte",
+    "statOutputValue": "100.000+",
+    "statOutputLabel": "Stück / Monat",
+    "statCountriesValue": "50+",
+    "statCountriesLabel": "Belieferte Länder",
+    "capKicker": "Kompetenzen",
+    "capHeading": "Was wir bauen, und womit",
+    "capDescription": "Spezifikationen werden beim Musterentwurf festgelegt und bis zur Großserie beibehalten. Zuschnitt, Nähen und Montage laufen in unserer eigenen Werkstatt; Stickerei, Druck und Sonderveredelungen übernehmen langjährige Partnerwerkstätten, und jede Charge kommt vor dem nächsten Schritt zur Prüfung zurück zu uns.",
+    "stylesHeading": "Kappen-Stile",
+    "styleSubs": [
+      "strukturiert & unstrukturiert",
+      "Netzrücken",
+      "wendbare Option",
+      "Sport & gewebt",
+      "niedrige Krone, flacher Schirm",
+      "leicht, atmungsaktiv",
+      "militärisch inspiriert",
+      "Nackenschutz / langer Schirm",
+      "Wolle, Sherpa, Kunstfell"
+    ],
+    "decorHeading": "Veredelung & Besatz",
+    "decor": [
+      {
+        "name": "Stickerei",
+        "sub": "flach, 3D-Puff, Chenille"
+      },
+      {
+        "name": "Sieb- & Thermodruck",
+        "sub": "1–8 Farben"
+      },
+      {
+        "name": "Webetiketten & Lederlabels",
+        "sub": "individuelle Stanzformen"
+      },
+      {
+        "name": "Patches",
+        "sub": "PU, Filz, Chenille"
+      },
+      {
+        "name": "Waschung / Garment-Dye-Finish",
+        "sub": "Vintage-Griff"
+      },
+      {
+        "name": "Individueller Besatz",
+        "sub": "Schnallen, Ösen, Schieber"
+      },
+      {
+        "name": "Stoffbeschaffung",
+        "sub": "Köper, Netz, Cord, Wolle"
+      },
+      {
+        "name": "Wendbare / zweilagige Modelle",
+        "sub": "bei ausgewählten Stilen"
+      }
+    ],
+    "specMoqLabel": "Mindestbestellmenge",
+    "specMoqValue": "<b>50 Stück</b> pro Farbe — bei Erstbestellungen flexibel, solange Sie den Markt testen.",
+    "specSampleLabel": "Musterlieferzeit",
+    "specSampleValue": "<b>5–7 Tage</b> ab bestätigtem Design und Stoff, Korrekturen inklusive.",
+    "specBulkLabel": "Produktionslieferzeit",
+    "specBulkValue": "<b>15–25 Tage</b>, je nach Menge und Veredelungsaufwand.",
+    "specMaterialsLabel": "Materialien",
+    "specMaterialsValue": "Baumwollköper, Polyester, Nylon, Wolle, Acryl, Cord, Bio- und Recyclingstoffe — auf Anfrage nach Vorgabe beschafft.",
+    "specShippingLabel": "Lieferbedingungen",
+    "specShippingValue": "FOB · CIF · Tür-zu-Tür, per See-, Luft- oder Expressfracht.",
+    "specQcLabel": "Qualitätskontrolle",
+    "specQcValue": "Stufenweise Inline-Kontrollen bei Zuschnitt, Naht und Veredelung, plus Freigabe eines <b>Vorproduktionsmusters</b> vor jedem Großserienstart.",
+    "productsKicker": "Produktakte",
+    "productsHeading": "Aus der Fertigung",
+    "productsCount": "{shown} von {total}+ Stilen im aktuellen Katalog",
+    "skuLabel": "Stil",
+    "processKicker": "Arbeitsablauf",
+    "processHeading": "Wie eine Bestellung durch die Fabrik läuft",
+    "steps": [
+      {
+        "title": "Design & Beratung",
+        "body": "Senden Sie Ihr Logo, Referenzstile und Zielpreis. Wir liefern ein Fertigungsblatt und bei Bedarf ein Mockup."
+      },
+      {
+        "title": "Material- & Farbauswahl",
+        "body": "Wählen Sie Stoff, Farbe und Besatz aus unserem Bestand, oder wir beschaffen ein bestimmtes Material auf Anfrage."
+      },
+      {
+        "title": "Musterproduktion",
+        "body": "Ein physisches Muster wird in 5–7 Tagen zugeschnitten und genäht. Korrekturen sind vor Ihrer Freigabe inklusive."
+      },
+      {
+        "title": "Großserienproduktion",
+        "body": "Zuschnitt, Naht, Stickerei/Druck und Montage unter stufenweiser Qualitätskontrolle — 15–25 Tage je nach Bestellgröße."
+      },
+      {
+        "title": "Endkontrolle",
+        "body": "Jede Charge wird vor dem Verpacken geprüft, ein QC-Fotobericht ist auf Anfrage erhältlich."
+      },
+      {
+        "title": "Versand",
+        "body": "FOB, CIF oder Tür-zu-Tür — per See-, Luft- oder Expressfracht, in über 50 Länder."
+      }
+    ],
+    "contactKicker": "Angebot anfordern",
+    "contactHeading": "Erzählen Sie uns, was Sie planen.",
+    "contactBody": "Senden Sie eine Beschreibung, die Zielmenge und Referenzbilder — wir antworten mit Preis und realistischem Zeitplan, meist innerhalb von 24 Stunden.",
+    "contactEmailLabel": "E-Mail",
+    "contactPhoneLabel": "Telefon",
+    "contactFactoryLabel": "Fabrik",
+    "contactFactoryValue": "Guangzhou, China"
+  },
+  "HomeB": {
+    "eyebrow": "Guangzhou, China — Gegründet 2015",
+    "titlePrefix": "Kopfbedeckungen,",
+    "titleMid": "gefertigt nach ",
+    "titleEmphasis": "Ihrem",
+    "titleSuffix": " Maßstab.",
+    "lead": "Eine unabhängige Kappenfabrik, die für Marken produziert, denen wichtig ist, wie eine Rundung genäht und wie eine Farbe getroffen wird. Wir fertigen; Sie gestalten.",
+    "inquireCta": "Zur Produktion anfragen",
+    "creds": [
+      "10+ Jahre Kappen-Erfahrung",
+      "2.000 m² Fabrik",
+      "30+ Erfahrene Hände",
+      "100.000+ Stück Monatlich",
+      "Versand in 50+ Länder"
+    ],
+    "capabilityLabel": "Kompetenz",
+    "capabilityHeading": "Gefertigt von Menschen, die wir kennen.",
+    "capabilityP1": "Zuschnitt, Naht und Montage finden in unserer eigenen <b>2.000 m²</b> großen Fertigung statt, geführt von einem Team aus <b>30+</b> Fachkräften, die seit Jahren zusammenarbeiten. Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, und jede Charge kommt zur Prüfung zu uns zurück.",
+    "capabilityP2": "Bestellungen starten ab <b>50 Stück pro Farbe</b>. Ein physisches Muster ist in <b>5–7 Tagen</b> fertig; eine bestätigte Großbestellung wird in <b>15–25 Tagen</b> versandt. Jede Stufe wird laufend geprüft, und nichts geht in die Großserie, bevor Sie ein Vorproduktionsmuster freigegeben haben.",
+    "stylesLabel": "Stile, die wir fertigen",
+    "collectionLabel": "Kollektion",
+    "collectionHeadingLine1": "Eine kleine Auswahl",
+    "collectionHeadingLine2": "aus dem aktuellen Sortiment.",
+    "collectionNote": "Jedes gezeigte Stück ist in aktueller Produktion — nichts davon ist gerendert.",
+    "processLabel": "Prozess",
+    "processHeading": "Vom Konzept bis zum Container.",
+    "steps": [
+      {
+        "numeral": "I",
+        "title": "Beratung",
+        "body": "Teilen Sie Logo, Referenzen und Zielpreis mit."
+      },
+      {
+        "numeral": "II",
+        "title": "Materialien",
+        "body": "Wählen Sie Stoff, Farbe und Besatz — oder wir beschaffen nach Vorgabe."
+      },
+      {
+        "numeral": "III",
+        "title": "Musterung",
+        "body": "Ein physisches Muster in 5–7 Tagen, Korrekturen inklusive."
+      },
+      {
+        "numeral": "IV",
+        "title": "Produktion",
+        "body": "Großserie in 15–25 Tagen, bei jeder Stufe geprüft."
+      },
+      {
+        "numeral": "V",
+        "title": "Inspektion",
+        "body": "Eine finale Qualitätskontrolle mit Fotobericht vor dem Verpacken."
+      },
+      {
+        "numeral": "VI",
+        "title": "Lieferung",
+        "body": "FOB, CIF oder Tür-zu-Tür, weltweit."
+      }
+    ],
+    "contactHeadingLine1": "Lassen Sie uns Ihre nächste",
+    "contactHeadingLine2": "Kollektion gemeinsam bauen.",
+    "contactCta": "Anfrage senden",
+    "contactEmail": "info@nancrown.com",
+    "contactPhone": "+86 20-3123 5916",
+    "contactLocation": "Guangzhou, China"
   }
 }

@@ -150,7 +150,24 @@
       "outdoor": "Casquettes Outdoor",
       "winter": "Bonnets d'Hiver",
       "other": "Autre"
-    }
+    },
+    "foundVia": "Comment nous avez-vous trouvés ?",
+    "selectFoundVia": "Sélectionnez une option (facultatif)",
+    "foundViaOptions": {
+      "chatgpt": "ChatGPT",
+      "other_ai": "Autre assistant IA (Perplexity, Gemini, Claude...)",
+      "google": "Recherche Google",
+      "alibaba_1688": "Alibaba ou 1688",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "referral": "Recommandation d'un ami",
+      "other": "Autre"
+    },
+    "attachments": "Fichiers de design (facultatif)",
+    "attachmentsHint": "Jusqu'à 3 fichiers · JPG, PNG, WEBP ou PDF · 4 Mo au total",
+    "attachmentsTooLarge": "Ces fichiers sont trop volumineux. Merci de les envoyer par e-mail à info@nancrown.com.",
+    "attachmentsInvalidType": "Type de fichier non pris en charge. Utilisez JPG, PNG, WEBP ou PDF, ou écrivez-nous à info@nancrown.com.",
+    "attachmentsTooMany": "Vous pouvez joindre jusqu'à 3 fichiers. Merci d'envoyer le reste à info@nancrown.com."
   },
   "FAQ": {
     "title": "FAQ",

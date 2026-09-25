@@ -150,7 +150,24 @@
       "outdoor": "Outdoor Caps",
       "winter": "Winter Hats",
       "other": "Other"
-    }
+    },
+    "foundVia": "How did you find us?",
+    "selectFoundVia": "Select an option (optional)",
+    "foundViaOptions": {
+      "chatgpt": "ChatGPT",
+      "other_ai": "Other AI assistant (Perplexity, Gemini, Claude...)",
+      "google": "Google search",
+      "alibaba_1688": "Alibaba or 1688",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "referral": "Referral from a friend",
+      "other": "Other"
+    },
+    "attachments": "Design files (optional)",
+    "attachmentsHint": "Up to 3 files · JPG, PNG, WEBP or PDF · 4 MB total",
+    "attachmentsTooLarge": "These files are too large. Please email them to info@nancrown.com instead.",
+    "attachmentsInvalidType": "Unsupported file type. Please use JPG, PNG, WEBP or PDF, or email us at info@nancrown.com.",
+    "attachmentsTooMany": "You can attach up to 3 files. Please email the rest to info@nancrown.com."
   },
   "FAQ": {
     "title": "FAQ",

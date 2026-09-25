@@ -150,7 +150,24 @@
       "outdoor": "Outdoor-Kappen",
       "winter": "Wintermützen",
       "other": "Sonstiges"
-    }
+    },
+    "foundVia": "Wie haben Sie uns gefunden?",
+    "selectFoundVia": "Option auswählen (optional)",
+    "foundViaOptions": {
+      "chatgpt": "ChatGPT",
+      "other_ai": "Anderer KI-Assistent (Perplexity, Gemini, Claude...)",
+      "google": "Google-Suche",
+      "alibaba_1688": "Alibaba oder 1688",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "referral": "Empfehlung eines Freundes",
+      "other": "Sonstiges"
+    },
+    "attachments": "Design-Dateien (optional)",
+    "attachmentsHint": "Bis zu 3 Dateien · JPG, PNG, WEBP oder PDF · insgesamt 4 MB",
+    "attachmentsTooLarge": "Diese Dateien sind zu groß. Bitte senden Sie sie per E-Mail an info@nancrown.com.",
+    "attachmentsInvalidType": "Nicht unterstützter Dateityp. Bitte JPG, PNG, WEBP oder PDF verwenden, oder schreiben Sie uns an info@nancrown.com.",
+    "attachmentsTooMany": "Sie können bis zu 3 Dateien anhängen. Bitte senden Sie den Rest an info@nancrown.com."
   },
   "FAQ": {
     "title": "FAQ",

@@ -150,7 +150,24 @@
       "outdoor": "Gorras Outdoor",
       "winter": "Gorros de Invierno",
       "other": "Otro"
-    }
+    },
+    "foundVia": "¿Cómo nos encontraste?",
+    "selectFoundVia": "Selecciona una opción (opcional)",
+    "foundViaOptions": {
+      "chatgpt": "ChatGPT",
+      "other_ai": "Otro asistente de IA (Perplexity, Gemini, Claude...)",
+      "google": "Búsqueda en Google",
+      "alibaba_1688": "Alibaba o 1688",
+      "instagram": "Instagram",
+      "tiktok": "TikTok",
+      "referral": "Recomendación de un amigo",
+      "other": "Otro"
+    },
+    "attachments": "Archivos de diseño (opcional)",
+    "attachmentsHint": "Hasta 3 archivos · JPG, PNG, WEBP o PDF · 4 MB en total",
+    "attachmentsTooLarge": "Estos archivos son demasiado grandes. Envíalos por correo a info@nancrown.com.",
+    "attachmentsInvalidType": "Tipo de archivo no compatible. Usa JPG, PNG, WEBP o PDF, o escríbenos a info@nancrown.com.",
+    "attachmentsTooMany": "Puedes adjuntar hasta 3 archivos. Envía el resto a info@nancrown.com."
   },
   "FAQ": {
     "title": "FAQ",

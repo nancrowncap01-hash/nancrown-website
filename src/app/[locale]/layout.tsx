@@ -7,6 +7,8 @@ import Footer from "@/components/layout/Footer";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 // Vercel 自带的访问统计:不用 cookie、不用弹同意框;要在 Vercel 项目的 Analytics 里点开才开始记数
 import { Analytics } from "@vercel/analytics/next";
+// 访客来源追踪(第一次进站记一笔来源,询盘表单提交时带上;详见 src/lib/source-tracking.ts)
+import SourceTracker from "@/components/analytics/SourceTracker";
 
 export default async function LocaleLayout({
   children,
@@ -34,6 +36,7 @@ export default async function LocaleLayout({
           <main className="flex-1">{children}</main>
           <Footer />
         </NextIntlClientProvider>
+        <SourceTracker />
         <Analytics />
       </body>
     </html>

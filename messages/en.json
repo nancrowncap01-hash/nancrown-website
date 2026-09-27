@@ -173,7 +173,7 @@
     "title": "FAQ",
     "subtitle": "Our most frequently asked questions",
     "q1": "How long is your production time?",
-    "a1": "Our standard production time is 15–25 days, depending on quantity and customization complexity. Rush orders can be arranged — contact us to discuss your timeline.",
+    "a1": "Our standard production time is 25–30 days, depending on quantity and customization complexity. Rush orders can be arranged — contact us to discuss your timeline.",
     "q2": "What is your minimum order quantity (MOQ)?",
     "a2": "Our MOQ starts from 50 pieces per colour. For first-time orders, we offer flexible quantities to help you test the market.",
     "q3": "Can you produce custom designs with our logo?",
@@ -183,7 +183,7 @@
     "q5": "How do you handle shipping?",
     "a5": "We offer FOB, CIF, and door-to-door delivery options worldwide. We work with reliable freight forwarders and can ship by sea, air, or express courier depending on your needs.",
     "q6": "Do you provide samples before production?",
-    "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 5–7 days. Once approved, we proceed with mass production."
+    "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 7–10 days. Once approved, we proceed with mass production."
   },
   "LanguageSwitcher": {
     "en": "English",
@@ -273,9 +273,9 @@
     "specMoqLabel": "MOQ",
     "specMoqValue": "<b>50 pieces</b> per colour — flexible on first orders while you test a market.",
     "specSampleLabel": "Sample lead time",
-    "specSampleValue": "<b>5–7 days</b> from confirmed artwork and fabric, revisions included.",
+    "specSampleValue": "<b>7–10 days</b> from confirmed artwork and fabric, revisions included.",
     "specBulkLabel": "Bulk lead time",
-    "specBulkValue": "<b>15–25 days</b>, depending on quantity and decoration complexity.",
+    "specBulkValue": "<b>25–30 days</b>, depending on quantity and decoration complexity.",
     "specMaterialsLabel": "Materials",
     "specMaterialsValue": "Cotton twill, polyester, nylon, wool, acrylic, corduroy, organic & recycled fabrics — sourced to spec on request.",
     "specShippingLabel": "Shipping terms",
@@ -299,11 +299,11 @@
       },
       {
         "title": "Sample production",
-        "body": "A physical sample is cut and sewn in 5–7 days. Revisions are included before you sign off."
+        "body": "A physical sample is cut and sewn in 7–10 days. Revisions are included before you sign off."
       },
       {
         "title": "Bulk production",
-        "body": "Cutting, sewing, embroidery/print and assembly run under stage-by-stage QC — 15–25 days depending on order size."
+        "body": "Cutting, sewing, embroidery/print and assembly run under stage-by-stage QC — 25–30 days depending on order size."
       },
       {
         "title": "Final inspection",
@@ -340,7 +340,7 @@
     "capabilityLabel": "Capability",
     "capabilityHeading": "Made by people we know.",
     "capabilityP1": "Cutting, sewing and assembly happen inside our own <b>2,000 m²</b> facility, run by a team of <b>30+</b> skilled hands who have worked together for years. Embroidery, printing and washing are handled by partner workshops we've used for years, and every batch comes back to us for checking.",
-    "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>5–7 days</b>; a confirmed bulk order ships in <b>15–25 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
+    "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>7–10 days</b>; a confirmed bulk order ships in <b>25–30 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
     "stylesLabel": "Styles we build",
     "collectionLabel": "Collection",
     "collectionHeadingLine1": "A small selection",
@@ -362,12 +362,12 @@
       {
         "numeral": "III",
         "title": "Sampling",
-        "body": "A physical sample in 5–7 days, revisions included."
+        "body": "A physical sample in 7–10 days, revisions included."
       },
       {
         "numeral": "IV",
         "title": "Production",
-        "body": "Bulk run in 15–25 days, checked at every stage."
+        "body": "Bulk run in 25–30 days, checked at every stage."
       },
       {
         "numeral": "V",

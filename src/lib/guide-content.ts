@@ -811,7 +811,7 @@ const brandEs: GuideLocaleContent = {
 const brandFr: GuideLocaleContent = {
   metaTitle: "Fabricant de casquettes pour nouvelles marques : votre première collection",
   metaDescription:
-    "Vous lancez une marque de casquettes ? Nous fabriquons dès 50 pièces par couleur. Préparez une première collection de 2 à 5 modèles, échantillon en 7 à 10 jours.",
+    "Vous lancez une marque de casquettes ? Fabrication dès 50 pièces par couleur. Préparez une première collection de 2 à 5 modèles, échantillon en 7 à 10 jours.",
   h1: "Fabricant de casquettes pour nouvelles marques : votre première collection",
   lead:
     "Une nouvelle marque de casquettes démarre souvent avec quelques designs, un budget serré et aucune marge pour un premier lot raté. Voici comment nous accompagnons les nouvelles marques de l'idée à la casquette finie, et comment préparer une première commande qui se vend et prépare vos réassorts.",

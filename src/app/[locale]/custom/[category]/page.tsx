@@ -27,10 +27,10 @@ export async function generateMetadata({
   if (!def) return {};
 
   const content = def.content[locale as Locale] ?? def.content.en;
-  // OG 图用该分类第一个产品的主图
-  const firstProduct = sampleProducts.find(
-    (p) => p.category === def.categoryValue
-  );
+  // OG 图用该分类第一个产品的主图(有 productSlugs 就取列表第一个,没有就照旧按 categoryValue 筛)
+  const firstProduct = def.productSlugs
+    ? sampleProducts.find((p) => p.slug === def.productSlugs![0])
+    : sampleProducts.find((p) => p.category === def.categoryValue);
 
   return pageMetadata({
     locale,
@@ -56,10 +56,14 @@ export default async function CategoryPage({
   const content = def.content[locale as Locale] ?? def.content.en;
   const ui = categoryUi[locale as Locale] ?? categoryUi.en;
   const tGuides = await getTranslations({ locale, namespace: "Guides" });
-  const products = sampleProducts.filter(
-    (p) => p.category === def.categoryValue
-  );
-  // 其它 8 个帽型分类,给"看看其他帽型"用
+  // 有 productSlugs 就按这个列表(顺序)取产品;没有就照旧按 categoryValue 筛
+  // (0927 新增的 7 个帽型/工艺细分页用 productSlugs,categoryValue 是空字符串)
+  const products = def.productSlugs
+    ? def.productSlugs
+        .map((slug) => sampleProducts.find((p) => p.slug === slug))
+        .filter((p): p is (typeof sampleProducts)[number] => Boolean(p))
+    : sampleProducts.filter((p) => p.category === def.categoryValue);
+  // 其它帽型分类,给"看看其他帽型"用
   const otherCategories = categoryDefinitions.filter(
     (c) => c.slug !== def.slug
   );

@@ -21,11 +21,20 @@ export async function generateMetadata({
   });
 }
 
+// 第二块"装饰工艺/贴牌"分类,单独分组展示(其余分类都归第一块)
+const DECORATION_SLUGS = new Set(["embroidered-caps", "patch-hats", "private-label-hats"]);
+
 export default function CustomPage() {
   const t = useTranslations("Custom");
   const tGuides = useTranslations("Guides");
   const locale = useLocale() as Locale;
   const ui = categoryUi[locale] ?? categoryUi.en;
+  const styleCategories = categoryDefinitions.filter(
+    (cat) => !DECORATION_SLUGS.has(cat.slug)
+  );
+  const decorationCategories = categoryDefinitions.filter((cat) =>
+    DECORATION_SLUGS.has(cat.slug)
+  );
 
   const steps = [
     { num: "01", title: t("step1"), desc: t("step1Desc") },
@@ -77,20 +86,43 @@ export default function CustomPage() {
         </div>
       </section>
 
-      {/* 我们做的帽型:链到 9 个「帽型分类落地页」(/custom/[category]) */}
+      {/* 我们做的帽型:链到「帽型分类落地页」(/custom/[category]) */}
       <section className="py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-10">
             {ui.browseByStyleHeading}
           </h2>
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
-            {categoryDefinitions.map((cat) => {
+            {styleCategories.map((cat) => {
               const catContent = cat.content[locale] ?? cat.content.en;
               return (
                 <Link
                   key={cat.slug}
                   href={`/custom/${cat.slug}`}
                   className="flex items-center justify-center text-center px-4 py-5 bg-gray-50 rounded-xl border border-gray-100 font-medium text-gray-800 hover:bg-amber-50 hover:border-amber-200 hover:text-amber-700 transition-colors"
+                >
+                  {catContent.name}
+                </Link>
+              );
+            })}
+          </div>
+        </div>
+      </section>
+
+      {/* 装饰工艺/贴牌:第二块,链到 embroidered-caps/patch-hats/private-label-hats */}
+      <section className="py-16 bg-gray-50">
+        <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl sm:text-3xl font-bold text-center text-gray-900 mb-10">
+            {ui.decorationHeading}
+          </h2>
+          <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4">
+            {decorationCategories.map((cat) => {
+              const catContent = cat.content[locale] ?? cat.content.en;
+              return (
+                <Link
+                  key={cat.slug}
+                  href={`/custom/${cat.slug}`}
+                  className="flex items-center justify-center text-center px-4 py-5 bg-white rounded-xl border border-gray-100 font-medium text-gray-800 hover:bg-amber-50 hover:border-amber-200 hover:text-amber-700 transition-colors"
                 >
                   {catContent.name}
                 </Link>

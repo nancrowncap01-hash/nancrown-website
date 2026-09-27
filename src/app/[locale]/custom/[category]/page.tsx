@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
+import { getTranslations } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { sampleProducts } from "@/lib/sample-data";
@@ -54,6 +55,7 @@ export default async function CategoryPage({
 
   const content = def.content[locale as Locale] ?? def.content.en;
   const ui = categoryUi[locale as Locale] ?? categoryUi.en;
+  const tGuides = await getTranslations({ locale, namespace: "Guides" });
   const products = sampleProducts.filter(
     (p) => p.category === def.categoryValue
   );
@@ -107,12 +109,18 @@ export default async function CategoryPage({
               {paragraph}
             </p>
           ))}
-          <div className="mt-8 flex justify-center">
+          <div className="mt-8 flex flex-col items-center gap-3">
             <Link
               href="/contact"
               className="inline-flex items-center px-8 py-3.5 text-base font-semibold bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
             >
               {ui.requestQuote}
+            </Link>
+            <Link
+              href="/pricing"
+              className="text-sm text-amber-700 hover:text-amber-800 hover:underline font-medium"
+            >
+              {tGuides("customToPricing")}
             </Link>
           </div>
         </div>

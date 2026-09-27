@@ -4,6 +4,7 @@
     "products": "Produkte",
     "about": "Über Uns",
     "custom": "Sonderanfertigungen",
+    "pricing": "Preise",
     "contact": "Kontakt"
   },
   "Hero": {
@@ -62,7 +63,8 @@
     "rights": "Alle Rechte vorbehalten.",
     "email": "E-Mail",
     "phone": "Telefon",
-    "address": "Adresse"
+    "address": "Adresse",
+    "forNewBrands": "Für neue Marken"
   },
   "Products": {
     "title": "Unsere Produkte",
@@ -184,6 +186,11 @@
     "a5": "Wir bieten weltweite Lieferoptionen FOB, CIF und Tür-zu-Tür. Wir arbeiten mit zuverlässigen Spediteuren und können per See, Luft oder Expresskurier versenden.",
     "q6": "Stellen Sie Muster vor der Produktion bereit?",
     "a6": "Ja, wir stellen Vorproduktionsmuster zur Genehmigung bereit. Die Musterproduktion dauert 7-10 Tage. Nach Genehmigung beginnen wir mit der Massenproduktion."
+  },
+  "Guides": {
+    "customToPricing": "Preise, Mindestmengen und Lieferzeiten ansehen →",
+    "pricingToBrand": "Sie gründen eine Cap-Marke? Planen Sie Ihre erste Kollektion →",
+    "brandToPricing": "Preistabelle, Mindestmenge und Zahlungsbedingungen ansehen →"
   },
   "LanguageSwitcher": {
     "en": "English",

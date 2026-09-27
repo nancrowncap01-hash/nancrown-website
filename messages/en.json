@@ -4,6 +4,7 @@
     "products": "Products",
     "about": "About Us",
     "custom": "Custom Orders",
+    "pricing": "Pricing",
     "contact": "Contact"
   },
   "Hero": {
@@ -62,7 +63,8 @@
     "rights": "All rights reserved.",
     "email": "Email",
     "phone": "Phone",
-    "address": "Address"
+    "address": "Address",
+    "forNewBrands": "For New Brands"
   },
   "Products": {
     "title": "Our Products",
@@ -184,6 +186,11 @@
     "a5": "We offer FOB, CIF, and door-to-door delivery options worldwide. We work with reliable freight forwarders and can ship by sea, air, or express courier depending on your needs.",
     "q6": "Do you provide samples before production?",
     "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 7–10 days. Once approved, we proceed with mass production."
+  },
+  "Guides": {
+    "customToPricing": "See pricing, MOQ & lead times →",
+    "pricingToBrand": "Launching a new hat brand? Plan your first collection →",
+    "brandToPricing": "See the full price table, MOQ and payment terms →"
   },
   "LanguageSwitcher": {
     "en": "English",

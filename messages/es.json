@@ -4,6 +4,7 @@
     "products": "Productos",
     "about": "Sobre Nosotros",
     "custom": "Pedidos Personalizados",
+    "pricing": "Precios",
     "contact": "Contacto"
   },
   "Hero": {
@@ -62,7 +63,8 @@
     "rights": "Todos los derechos reservados.",
     "email": "Correo",
     "phone": "Teléfono",
-    "address": "Dirección"
+    "address": "Dirección",
+    "forNewBrands": "Para marcas nuevas"
   },
   "Products": {
     "title": "Nuestros Productos",
@@ -184,6 +186,11 @@
     "a5": "Ofrecemos opciones de entrega FOB, CIF y puerta a puerta en todo el mundo. Trabajamos con transitarios confiables y podemos enviar por mar, aire o mensajería exprés según sus necesidades.",
     "q6": "¿Proporcionan muestras antes de la producción?",
     "a6": "Sí, proporcionamos muestras de preproducción para su aprobación. La producción de muestras toma 7-10 días. Una vez aprobadas, procedemos con la producción en masa."
+  },
+  "Guides": {
+    "customToPricing": "Ver precios, pedido mínimo y plazos →",
+    "pricingToBrand": "¿Lanzas una marca de gorras? Planifica tu primera colección →",
+    "brandToPricing": "Ver la tabla de precios, el pedido mínimo y las condiciones de pago →"
   },
   "LanguageSwitcher": {
     "en": "English",

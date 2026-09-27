@@ -14,6 +14,7 @@ export default function Header() {
     { href: "/", label: t("home") },
     { href: "/products", label: t("products") },
     { href: "/custom", label: t("custom") },
+    { href: "/pricing", label: t("pricing") },
     { href: "/about", label: t("about") },
     { href: "/contact", label: t("contact") },
   ];

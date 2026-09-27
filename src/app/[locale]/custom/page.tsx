@@ -23,6 +23,7 @@ export async function generateMetadata({
 
 export default function CustomPage() {
   const t = useTranslations("Custom");
+  const tGuides = useTranslations("Guides");
   const locale = useLocale() as Locale;
   const ui = categoryUi[locale] ?? categoryUi.en;
 
@@ -111,6 +112,14 @@ export default function CustomPage() {
           >
             {t("getStarted")}
           </Link>
+          <p className="mt-4">
+            <Link
+              href="/pricing"
+              className="text-amber-100 hover:text-white hover:underline font-medium"
+            >
+              {tGuides("customToPricing")}
+            </Link>
+          </p>
         </div>
       </section>
     </>

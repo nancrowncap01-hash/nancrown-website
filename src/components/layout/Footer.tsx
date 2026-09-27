@@ -48,6 +48,22 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/pricing"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {nav("pricing")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/start-a-hat-brand"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {t("forNewBrands")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/about"
                   className="hover:text-amber-400 transition-colors"
                 >

@@ -4,6 +4,7 @@
     "products": "Produits",
     "about": "À Propos",
     "custom": "Commandes Sur Mesure",
+    "pricing": "Tarifs",
     "contact": "Contact"
   },
   "Hero": {
@@ -62,7 +63,8 @@
     "rights": "Tous droits réservés.",
     "email": "E-mail",
     "phone": "Téléphone",
-    "address": "Adresse"
+    "address": "Adresse",
+    "forNewBrands": "Nouvelles marques"
   },
   "Products": {
     "title": "Nos Produits",
@@ -184,6 +186,11 @@
     "a5": "Nous offrons des options de livraison FOB, CIF et porte-à-porte dans le monde entier. Nous travaillons avec des transitaires fiables et pouvons expédier par mer, air ou courrier express selon vos besoins.",
     "q6": "Fournissez-vous des échantillons avant la production ?",
     "a6": "Oui, nous fournissons des échantillons de pré-production pour votre approbation. La production d'échantillons prend 7-10 jours. Une fois approuvés, nous procédons à la production en masse."
+  },
+  "Guides": {
+    "customToPricing": "Voir les prix, minimums et délais →",
+    "pricingToBrand": "Vous lancez une marque de casquettes ? Préparez votre première collection →",
+    "brandToPricing": "Voir la grille de prix, le minimum de commande et les conditions de paiement →"
   },
   "LanguageSwitcher": {
     "en": "English",

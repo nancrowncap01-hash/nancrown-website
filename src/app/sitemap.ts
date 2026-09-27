@@ -5,7 +5,10 @@ import { categorySlugs } from "@/lib/category-content";
 import { localizedUrl } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
-const LAST_MODIFIED = new Date("2026-09-24");
+const LAST_MODIFIED = new Date("2026-09-27");
+
+// 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
+const guidePaths = ["/pricing", "/start-a-hat-brand"];
 
 export default function sitemap(): MetadataRoute.Sitemap {
   // 所有"逻辑页面"的路径(不带语言前缀)
@@ -15,6 +18,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/custom",
     "/contact",
+    ...guidePaths,
     ...categorySlugs.map((slug) => `/custom/${slug}`),
     ...sampleProducts.map((p) => `/products/${p.slug}`),
   ];
@@ -32,8 +36,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
       changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
       priority: path === ""
         ? 1
-        // /custom/<分类> 是这次新做的主力获客落地页,优先级给高一档
-        : path.startsWith("/custom/") && path !== "/custom"
+        // /custom/<分类> 和 /pricing、/start-a-hat-brand 都是主力获客落地页,优先级给高一档
+        : (path.startsWith("/custom/") && path !== "/custom") || guidePaths.includes(path)
           ? 0.9
           : path.startsWith("/products/")
             ? 0.6

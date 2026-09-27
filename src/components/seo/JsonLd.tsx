@@ -92,8 +92,9 @@ export function ProductJsonLd({
           "@type": "ShippingDeliveryTime",
           handlingTime: {
             "@type": "QuantitativeValue",
-            minValue: 15,
-            maxValue: 25,
+            // 大货生产 25–30 天(老板 2026-09-27 定的全站统一口径)
+            minValue: 25,
+            maxValue: 30,
             unitCode: "d",
           },
           transitTime: {

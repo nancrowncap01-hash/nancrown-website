@@ -64,7 +64,8 @@
     "email": "Email",
     "phone": "Phone",
     "address": "Address",
-    "forNewBrands": "For New Brands"
+    "forNewBrands": "For New Brands",
+    "workshop": "Our Workshop"
   },
   "Products": {
     "title": "Our Products",
@@ -105,7 +106,8 @@
     "years": "Years Experience",
     "workers": "Skilled Workers",
     "monthlyCapacity": "Monthly Capacity",
-    "countries": "Countries Served"
+    "countries": "Countries Served",
+    "workshopLink": "See the workshop video →"
   },
   "Custom": {
     "title": "Custom Orders",
@@ -209,6 +211,11 @@
     "aboutDescription": "10+ years crafting custom headwear for 50+ countries. 30+ skilled workers, 100K+ pieces a month. Discover NanCrown's hat factory in Guangzhou.",
     "contactTitle": "Contact Us — Request a Quote",
     "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 24 hours. Low MOQ, worldwide shipping."
+  },
+  "Home": {
+    "workshopTeaserHeading": "See inside our workshop",
+    "workshopTeaserText": "73 seconds of real footage: cutting, sewing, steam shaping and packing.",
+    "workshopTeaserButton": "Watch the video"
   },
   "HomeA": {
     "eyebrow": "Factory profile — updated 2026",

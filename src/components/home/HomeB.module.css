@@ -188,6 +188,32 @@
   margin: 0 10px;
 }
 
+/* ---------- workshop teaser(0930 新增,链到 /factory 车间实拍页) ---------- */
+.workshopGrid {
+  display: grid;
+  grid-template-columns: 0.9fr 1.1fr;
+  gap: 70px;
+  align-items: center;
+}
+.workshopPhoto {
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+  background: #efece4;
+  position: relative;
+}
+.workshopPhoto img {
+  object-fit: cover;
+  object-position: 50% 30%;
+}
+.workshopText p {
+  font-size: 15.5px;
+  line-height: 1.85;
+  color: #3d392f;
+  margin: 0 0 30px;
+  font-weight: 300;
+  max-width: 460px;
+}
+
 /* ---------- product collection ---------- */
 .collHead {
   display: flex;
@@ -314,6 +340,10 @@
     padding: 20px 0 60px;
   }
   .capGrid {
+    grid-template-columns: 1fr;
+    gap: 34px;
+  }
+  .workshopGrid {
     grid-template-columns: 1fr;
     gap: 34px;
   }

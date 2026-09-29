@@ -64,7 +64,8 @@
     "email": "E-mail",
     "phone": "Téléphone",
     "address": "Adresse",
-    "forNewBrands": "Nouvelles marques"
+    "forNewBrands": "Nouvelles marques",
+    "workshop": "Notre atelier"
   },
   "Products": {
     "title": "Nos Produits",
@@ -105,7 +106,8 @@
     "years": "Années d'Expérience",
     "workers": "Ouvriers Qualifiés",
     "monthlyCapacity": "Capacité Mensuelle",
-    "countries": "Pays Desservis"
+    "countries": "Pays Desservis",
+    "workshopLink": "Voir la vidéo de l'atelier →"
   },
   "Custom": {
     "title": "Commandes Sur Mesure",
@@ -209,6 +211,11 @@
     "aboutDescription": "Usine de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure pour marques du monde entier.",
     "contactTitle": "Contactez-nous — Demandez un devis",
     "contactDescription": "Demandez un devis pour vos casquettes personnalisées. Usine à Guangzhou, Chine. Broderie, sérigraphie et coloris sur mesure, MOQ 50 pièces par coloris."
+  },
+  "Home": {
+    "workshopTeaserHeading": "Découvrez notre atelier",
+    "workshopTeaserText": "73 secondes d'images réelles : découpe, couture, mise en forme vapeur et emballage.",
+    "workshopTeaserButton": "Voir la vidéo"
   },
   "HomeA": {
     "eyebrow": "Profil d'usine — mis à jour en 2026",

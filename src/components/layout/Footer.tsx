@@ -72,6 +72,14 @@ export default function Footer() {
               </li>
               <li>
                 <Link
+                  href="/factory"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {t("workshop")}
+                </Link>
+              </li>
+              <li>
+                <Link
                   href="/contact"
                   className="hover:text-amber-400 transition-colors"
                 >

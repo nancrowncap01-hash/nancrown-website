@@ -64,12 +64,21 @@ export interface CategoryLocaleContent {
   h1: string;
   // meta 描述(≤155 字符左右)
   metaDescription: string;
-  // 开头介绍,固定两小段
-  intro: [string, string];
-  // 定制选项 4~6 条
+  // 开头介绍,固定两小段(winter-hats 0930 补强成三段,见下面的联合类型)
+  intro: [string, string] | [string, string, string];
+  // 定制选项 4~6 条(winter-hats 0930 补强到 7 条)
   customOptions: string[];
-  // FAQ 固定三条
-  faq: [CategoryFaqItem, CategoryFaqItem, CategoryFaqItem];
+  // FAQ 固定三条(winter-hats 0930 补强到 6 条,见下面的联合类型)
+  faq:
+    | [CategoryFaqItem, CategoryFaqItem, CategoryFaqItem]
+    | [
+        CategoryFaqItem,
+        CategoryFaqItem,
+        CategoryFaqItem,
+        CategoryFaqItem,
+        CategoryFaqItem,
+        CategoryFaqItem,
+      ];
 }
 
 export interface CategoryDefinition {
@@ -1240,10 +1249,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
         name: "Winter Hats",
         h1: "Custom Winter Hats Manufacturer",
         metaDescription:
-          "Custom winter hats from our Guangzhou factory — corduroy, faux fur trim or reversible fleece builds with earflaps. Embroidery/patch, MOQ 50 pcs/colour.",
+          "Custom winter hats from 50 pcs per colour: corduroy, faux fur and fleece earflap caps, plus knitted beanies and earflap hats. Embroidery or patches.",
         intro: [
           "Winter headwear is where NanCrown builds the most texture into a cap: wide-wale corduroy with a quilted sherpa lining, a baseball crown ringed in long-pile faux fur, or a reversible shell that flips from crinkle nylon to fleece depending on the weather. All three styles carry earflaps — some fold up or down, others wrap the back of the head in one piece.",
           "Every winter style is built to take your own branding, whether that's a script embroidered across the front panel or a small mark that sits quietly on a reversible shell. Note that any fur trim we use is faux fur only — no animal fur. We work from your logo and colour references, confirm the build with a pre-production sample, and manufacture factory-direct in Guangzhou with a minimum of 50 pieces per colour — OEM/ODM welcome.",
+          "We also supply knitted winter hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties, branded with a woven label, patch or embroidery. For hats that need to be in shops by December, plan about seven weeks from the first sample to delivery by air: 7–10 days for the sample, 25–30 days for bulk after you approve it, then shipping.",
         ],
         customOptions: [
           "Fabric: wide-wale cotton corduroy with sherpa lining, or a reversible crinkle nylon and fleece shell.",
@@ -1251,6 +1261,8 @@ export const categoryDefinitions: CategoryDefinition[] = [
           "Earflaps: fold-up or fold-down flaps, or a one-piece wraparound earflap ear to ear.",
           "Lining: quilted insulating lining for warmth.",
           "Decoration: embroidery or a woven patch on the front panel or crown, plus custom colourways.",
+          "Knitted hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties.",
+          "Branding on knitted hats: woven label, patch or embroidery.",
         ],
         faq: [
           {
@@ -1265,16 +1277,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "What earflap styles do you offer?",
             a: "Two constructions: flaps that fold up for town or down for cold on a corduroy or faux-fur style, and a one-piece earflap that wraps ear to ear on our reversible trooper-style hat.",
           },
+          {
+            q: "Do you offer knitted beanies and earflap hats?",
+            a: "Yes. Alongside our fabric earflap caps we supply knitted beanies and knitted earflap hats, with or without a pom-pom and braided ties. Send a reference photo and we will confirm the yarn, colours and branding.",
+          },
+          {
+            q: "How much do custom winter hats cost?",
+            a: "Winter hats are quoted per design, because the fabric, lining, trim and branding change the price. The sample is US$60–80 and is refunded once that design reaches 200 pieces in bulk.",
+          },
+          {
+            q: "When should I order winter hats?",
+            a: "Plan about seven weeks from the first sample to delivery by air: 7–10 days for the sample, 25–30 days of bulk production after you approve it, then shipping. Sea freight adds several weeks.",
+          },
         ],
       },
       es: {
         name: "Gorros de Invierno",
         h1: "Fabricante de gorros de invierno personalizados",
         metaDescription:
-          "Gorros de invierno personalizados de fábrica en Guangzhou: pana, ribete de pelo sintético o forro polar reversible con orejeras. Mínimo 50 uds/color.",
+          "Gorros de invierno personalizados desde 50 uds/color: gorras con orejeras de pana, pelo sintético o forro polar, y gorros de punto. Bordado o parches.",
         intro: [
           "Los gorros de invierno son donde NanCrown mete más textura en una gorra: pana de canal ancho con forro sherpa acolchado, una copa de béisbol rodeada de pelo sintético de pelo largo, o un modelo reversible que pasa de nylon crujiente a forro polar según el clima. Los tres modelos llevan orejeras — unas se doblan hacia arriba o abajo, otras envuelven la parte trasera de la cabeza en una sola pieza.",
           "Cada modelo de invierno está pensado para llevar tu propia marca, ya sea un texto bordado en el panel frontal o una marca discreta en un modelo reversible. Ten en cuenta que cualquier ribete de pelo que usamos es pelo sintético únicamente — no usamos pelo de animal. Trabajamos a partir de tu logo y referencias de color, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un mínimo de 50 piezas por color — aceptamos OEM/ODM.",
+          "También suministramos gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados, con tu marca en etiqueta tejida, parche o bordado. Si los gorros tienen que estar en tienda en diciembre, calcula unas siete semanas desde la primera muestra hasta la entrega por avión: 7–10 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío.",
         ],
         customOptions: [
           "Tejido: pana de algodón de canal ancho con forro sherpa, o exterior reversible de nylon crujiente y forro polar.",
@@ -1282,6 +1307,8 @@ export const categoryDefinitions: CategoryDefinition[] = [
           "Orejeras: solapas que se doblan hacia arriba o abajo, o una orejera de una pieza que envuelve de oreja a oreja.",
           "Forro: forro interior acolchado para dar calidez.",
           "Personalización: bordado o parche tejido en el panel frontal o la copa, además de combinaciones de color a medida.",
+          "Gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados.",
+          "Marca en gorros de punto: etiqueta tejida, parche o bordado.",
         ],
         faq: [
           {
@@ -1296,16 +1323,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Qué estilos de orejeras ofrecen?",
             a: "Dos construcciones: solapas que se doblan hacia arriba para la ciudad o hacia abajo para el frío en el modelo de pana o pelo sintético, y una orejera de una pieza que envuelve de oreja a oreja en nuestro gorro reversible estilo trooper.",
           },
+          {
+            q: "¿Ofrecen gorros de punto y gorros con orejeras?",
+            a: "Sí. Además de nuestras gorras de tela con orejeras, suministramos gorros de punto y gorros de punto con orejeras, con o sin pompón y cordones trenzados. Envíanos una foto de referencia y te confirmaremos el hilo, los colores y la marca.",
+          },
+          {
+            q: "¿Cuánto cuestan los gorros de invierno personalizados?",
+            a: "Los gorros de invierno se presupuestan por diseño, porque el tejido, el forro, los ribetes y la marca cambian el precio. La muestra cuesta 60–80 US$ y se reembolsa cuando ese diseño llega a 200 piezas en producción.",
+          },
+          {
+            q: "¿Cuándo debo pedir los gorros de invierno?",
+            a: "Calcula unas siete semanas desde la primera muestra hasta la entrega por avión: 7–10 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío. El transporte marítimo añade varias semanas.",
+          },
         ],
       },
       fr: {
         name: "Bonnets d'Hiver",
         h1: "Fabricant de bonnets d'hiver personnalisés",
         metaDescription:
-          "Bonnets d'hiver personnalisés, fabriqués à Guangzhou : velours côtelé, bordure fausse fourrure ou polaire réversible. Min. 50 pièces/couleur.",
+          "Bonnets d'hiver personnalisés dès 50 pièces/couleur : casquettes à cache-oreilles en velours, fausse fourrure ou polaire, et bonnets tricotés.",
         intro: [
           "Le bonnet d'hiver est là où NanCrown apporte le plus de texture à une casquette : velours côtelé à grosses côtes avec doublure sherpa matelassée, calotte de baseball cerclée de fausse fourrure longue, ou modèle réversible qui passe du nylon froissé à la polaire selon le temps. Les trois modèles ont des cache-oreilles — certains se replient vers le haut ou le bas, d'autres enveloppent l'arrière de la tête en une seule pièce.",
           "Chaque modèle d'hiver est conçu pour porter votre propre marque, qu'il s'agisse d'un texte brodé sur le panneau avant ou d'une petite marque discrète sur un modèle réversible. À noter que toute bordure de fourrure que nous utilisons est en fausse fourrure uniquement — aucune fourrure animale. Nous travaillons à partir de votre logo et de vos références de couleur, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
+          "Nous fournissons aussi des bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés, marqués d'une étiquette tissée, d'un patch ou d'une broderie. Pour des bonnets en boutique en décembre, comptez environ sept semaines entre le premier échantillon et la livraison par avion : 7 à 10 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition.",
         ],
         customOptions: [
           "Tissu : velours côtelé en coton à grosses côtes avec doublure sherpa, ou extérieur réversible nylon froissé et polaire.",
@@ -1313,6 +1353,8 @@ export const categoryDefinitions: CategoryDefinition[] = [
           "Cache-oreilles : rabats repliables vers le haut ou le bas, ou cache-oreilles en une pièce enveloppant d'une oreille à l'autre.",
           "Doublure : doublure matelassée isolante pour la chaleur.",
           "Personnalisation : broderie ou patch tissé sur le panneau avant ou la calotte, plus des coloris personnalisés.",
+          "Bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés.",
+          "Marquage des bonnets tricotés : étiquette tissée, patch ou broderie.",
         ],
         faq: [
           {
@@ -1327,16 +1369,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Quels styles de cache-oreilles proposez-vous ?",
             a: "Deux constructions : des rabats repliables vers le haut en ville ou vers le bas contre le froid sur nos modèles en velours côtelé ou fausse fourrure, et un cache-oreilles en une pièce qui enveloppe d'une oreille à l'autre sur notre bonnet réversible façon trooper.",
           },
+          {
+            q: "Proposez-vous des bonnets tricotés et des bonnets à cache-oreilles ?",
+            a: "Oui. En plus de nos casquettes à cache-oreilles en tissu, nous fournissons des bonnets tricotés et des bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés. Envoyez-nous une photo de référence et nous vous confirmerons le fil, les couleurs et le marquage.",
+          },
+          {
+            q: "Combien coûtent des bonnets d'hiver personnalisés ?",
+            a: "Les bonnets d'hiver sont chiffrés modèle par modèle, car le tissu, la doublure, les finitions et le marquage font varier le prix. L'échantillon coûte 60 à 80 US$ et il est remboursé dès que ce modèle atteint 200 pièces en production.",
+          },
+          {
+            q: "Quand faut-il commander des bonnets d'hiver ?",
+            a: "Comptez environ sept semaines entre le premier échantillon et la livraison par avion : 7 à 10 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition. Le fret maritime ajoute plusieurs semaines.",
+          },
         ],
       },
       de: {
         name: "Wintermützen",
         h1: "Hersteller für individuelle Wintermützen",
         metaDescription:
-          "Individuelle Wintermützen aus unserer Fabrik in Guangzhou — Cord, Kunstfell-Besatz oder wendbares Fleece mit Ohrenklappen. Ab 50 Stk/Farbe.",
+          "Individuelle Wintermützen ab 50 Stk/Farbe: Caps mit Ohrenklappen aus Cord, Kunstfell oder Fleece sowie Strickmützen. Stickerei oder Patches.",
         intro: [
           "Bei Wintermützen steckt NanCrown die meiste Textur in eine Kappe: breitgerippter Cord mit gestepptem Sherpa-Futter, ein Baseball-Kopfteil umrandet von langem Kunstfell, oder eine wendbare Variante, die je nach Wetter von knisterndem Nylon auf Fleece wechselt. Alle drei Modelle haben Ohrenklappen — manche lassen sich hoch- oder herunterklappen, andere umschließen den Hinterkopf in einem Stück.",
           "Jedes Wintermodell ist für Ihr eigenes Branding ausgelegt, ob als Schriftzug quer über das Vorderpanel gestickt oder als kleines, dezentes Zeichen auf einer wendbaren Variante. Jeglicher Fellbesatz, den wir verwenden, ist ausschließlich Kunstfell — kein Tierfell. Wir arbeiten mit Ihrer Logodatei und Ihren Farbvorgaben, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM willkommen.",
+          "Außerdem liefern wir Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder, gebrandet mit Webetikett, Patch oder Stickerei. Sollen die Mützen im Dezember im Laden sein, planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben Wochen: 7–10 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand.",
         ],
         customOptions: [
           "Material: breitgerippter Baumwollcord mit Sherpa-Futter, oder wendbares Obermaterial aus knisterndem Nylon und Fleece.",
@@ -1344,6 +1399,8 @@ export const categoryDefinitions: CategoryDefinition[] = [
           "Ohrenklappen: hoch- oder herunterklappbare Klappen, oder eine einteilige Ohrenklappe von Ohr zu Ohr.",
           "Futter: gestepptes, isolierendes Innenfutter für Wärme.",
           "Veredelung: Stickerei oder gewebter Patch auf Vorderpanel oder Kopfteil, plus individuelle Farbkombinationen.",
+          "Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder.",
+          "Branding auf Strickmützen: Webetikett, Patch oder Stickerei.",
         ],
         faq: [
           {
@@ -1357,6 +1414,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Welche Ohrenklappen-Stile bieten Sie an?",
             a: "Zwei Varianten: hoch- oder herunterklappbare Klappen auf unserem Cord- oder Kunstfell-Modell, und eine einteilige Ohrenklappe, die auf unserer wendbaren Trooper-Mütze von Ohr zu Ohr reicht.",
+          },
+          {
+            q: "Bieten Sie auch Strickmützen und Mützen mit Ohrenklappen an?",
+            a: "Ja. Neben unseren Stoff-Caps mit Ohrenklappen liefern wir Strickmützen und gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder. Schicken Sie uns ein Referenzfoto, dann bestätigen wir Garn, Farben und Branding.",
+          },
+          {
+            q: "Was kosten individuelle Wintermützen?",
+            a: "Wintermützen kalkulieren wir pro Design, weil Material, Futter, Besatz und Branding den Preis verändern. Das Muster kostet 60–80 US$ und wird erstattet, sobald dieses Design 200 Stück in der Produktion erreicht.",
+          },
+          {
+            q: "Wann sollte ich Wintermützen bestellen?",
+            a: "Planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben Wochen: 7–10 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand. Seefracht dauert mehrere Wochen länger.",
           },
         ],
       },

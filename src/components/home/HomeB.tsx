@@ -26,6 +26,7 @@ type Step = { numeral: string; title: string; body: string };
 
 export default function HomeB() {
   const t = useTranslations("HomeB");
+  const homeT = useTranslations("Home");
   const catT = useTranslations("Categories");
   const faqT = useTranslations("FAQ");
   const locale = useLocale();
@@ -113,6 +114,31 @@ export default function HomeB() {
                   ))}
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* 车间实拍入口(链到 /factory 独立车间页) */}
+      <section id="workshop" className={styles.block}>
+        <div className={styles.wrap}>
+          <div className={styles.workshopGrid}>
+            <div className={styles.workshopPhoto}>
+              <Image
+                src="/images/factory/workshop-steam-shaping.jpg"
+                alt=""
+                fill
+                sizes="(max-width: 860px) 100vw, 45vw"
+              />
+            </div>
+            <div className={styles.workshopText}>
+              <h2 className={`${styles.blockTitle} ${styles.serif}`}>
+                {homeT("workshopTeaserHeading")}
+              </h2>
+              <p>{homeT("workshopTeaserText")}</p>
+              <Link href="/factory" className={styles.inquire}>
+                {homeT("workshopTeaserButton")} <span>→</span>
+              </Link>
             </div>
           </div>
         </div>

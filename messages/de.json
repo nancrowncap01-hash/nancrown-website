@@ -64,7 +64,8 @@
     "email": "E-Mail",
     "phone": "Telefon",
     "address": "Adresse",
-    "forNewBrands": "Für neue Marken"
+    "forNewBrands": "Für neue Marken",
+    "workshop": "Unsere Werkstatt"
   },
   "Products": {
     "title": "Unsere Produkte",
@@ -105,7 +106,8 @@
     "years": "Jahre Erfahrung",
     "workers": "Qualifizierte Mitarbeiter",
     "monthlyCapacity": "Monatliche Kapazität",
-    "countries": "Belieferte Länder"
+    "countries": "Belieferte Länder",
+    "workshopLink": "Werkstatt-Video ansehen →"
   },
   "Custom": {
     "title": "Sonderanfertigungen",
@@ -209,6 +211,11 @@
     "aboutDescription": "Fabrik für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch für Großhandelsmarken weltweit.",
     "contactTitle": "Kontakt — Angebot anfordern",
     "contactDescription": "Angebot für individuelle Caps anfordern. Fabrik in Guangzhou, China. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe."
+  },
+  "Home": {
+    "workshopTeaserHeading": "Ein Blick in unsere Werkstatt",
+    "workshopTeaserText": "73 Sekunden echte Aufnahmen: Zuschnitt, Nähen, Dampfformen und Verpacken.",
+    "workshopTeaserButton": "Video ansehen"
   },
   "HomeA": {
     "eyebrow": "Fabrikprofil — aktualisiert 2026",

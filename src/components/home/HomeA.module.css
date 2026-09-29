@@ -297,6 +297,44 @@
   color: var(--ink);
 }
 
+/* ---------- workshop teaser(0930 新增,链到 /factory 车间实拍页) ---------- */
+.workshopSection {
+  padding: 88px 0;
+  background: var(--paper-2);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+.workshopGrid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 56px;
+  align-items: center;
+}
+.workshopPhoto {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  background: var(--white);
+}
+.workshopImg {
+  object-fit: cover;
+}
+.workshopText h2 {
+  font-size: clamp(24px, 2.6vw, 32px);
+  line-height: 1.2;
+  margin: 0 0 14px;
+  font-weight: 700;
+  letter-spacing: -0.01em;
+}
+.workshopText p {
+  font-size: 15.5px;
+  line-height: 1.65;
+  color: #5c5548;
+  margin: 0 0 26px;
+  max-width: 440px;
+}
+
 /* ---------- product grid ---------- */
 .productsSection {
   background: var(--paper-2);
@@ -478,6 +516,10 @@
   .capCol + .capCol {
     border-left: none;
     border-top: 1px solid var(--line);
+  }
+  .workshopGrid {
+    grid-template-columns: 1fr;
+    gap: 28px;
   }
   .specRow {
     grid-template-columns: 1fr;

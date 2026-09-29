@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { useTranslations } from "next-intl";
 import { getTranslations } from "next-intl/server";
+import { Link } from "@/i18n/navigation";
 import VideoPlayer from "@/components/VideoPlayer";
 import { pageMetadata } from "@/lib/seo";
 
@@ -87,6 +88,12 @@ export default function AboutPage() {
               <p className="text-gray-600 leading-relaxed">
                 {t("capacityText")}
               </p>
+              <Link
+                href="/factory"
+                className="mt-4 inline-flex items-center text-amber-700 font-medium hover:text-amber-800 hover:underline"
+              >
+                {t("workshopLink")}
+              </Link>
             </div>
             <div className="bg-white rounded-xl p-8 shadow-sm">
               <h3 className="text-xl font-bold text-gray-900 mb-4">

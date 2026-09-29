@@ -2,7 +2,8 @@ import type { MetadataRoute } from "next";
 import { routing } from "@/i18n/routing";
 import { sampleProducts } from "@/lib/sample-data";
 import { categorySlugs } from "@/lib/category-content";
-import { localizedUrl } from "@/lib/seo";
+import { factoryContent } from "@/lib/factory-content";
+import { localizedUrl, SITE_URL } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
 const LAST_MODIFIED = new Date("2026-09-27");
@@ -18,6 +19,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/custom",
     "/contact",
+    "/factory",
     ...guidePaths,
     ...categorySlugs.map((slug) => `/custom/${slug}`),
     ...sampleProducts.map((p) => `/products/${p.slug}`),
@@ -43,6 +45,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
             ? 0.6
             : 0.8,
       alternates: { languages },
+      // 车间页额外带一条视频记录(Google 视频 sitemap),只有这一条 url 有,用英文版文案
+      ...(path === "/factory"
+        ? {
+            videos: [
+              {
+                title: factoryContent.en.videoName,
+                thumbnail_loc: `${SITE_URL}/images/factory/workshop-poster-2023.jpg`,
+                content_loc: `${SITE_URL}/videos/nancrown-workshop-2023.mp4`,
+                description: factoryContent.en.videoDescription,
+              },
+            ],
+          }
+        : {}),
     };
   });
 }

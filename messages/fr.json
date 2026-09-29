@@ -187,7 +187,7 @@
     "q5": "Comment gérez-vous l'expédition ?",
     "a5": "Nous offrons des options de livraison FOB, CIF et porte-à-porte dans le monde entier. Nous travaillons avec des transitaires fiables et pouvons expédier par mer, air ou courrier express selon vos besoins.",
     "q6": "Fournissez-vous des échantillons avant la production ?",
-    "a6": "Oui, nous fournissons des échantillons de pré-production pour votre approbation. La production d'échantillons prend 7-10 jours. Une fois approuvés, nous procédons à la production en masse."
+    "a6": "Oui, nous fournissons des échantillons de pré-production pour votre approbation. La production d'échantillons prend 7-15 jours. Une fois approuvés, nous procédons à la production en masse."
   },
   "Guides": {
     "customToPricing": "Voir les prix, minimums et délais →",
@@ -287,7 +287,7 @@
     "specMoqLabel": "MOQ",
     "specMoqValue": "<b>50 pièces</b> par couleur — flexible sur les premières commandes le temps de tester un marché.",
     "specSampleLabel": "Délai d'échantillon",
-    "specSampleValue": "<b>7 à 10 jours</b> à partir du visuel et du tissu confirmés, révisions incluses.",
+    "specSampleValue": "<b>7 à 15 jours</b> à partir du visuel et du tissu confirmés, révisions incluses.",
     "specBulkLabel": "Délai de production",
     "specBulkValue": "<b>25 à 30 jours</b>, selon la quantité et la complexité de la décoration.",
     "specMaterialsLabel": "Matières",
@@ -313,7 +313,7 @@
       },
       {
         "title": "Production de l'échantillon",
-        "body": "Un échantillon physique est coupé et cousu en 7 à 10 jours. Les révisions sont incluses avant votre validation."
+        "body": "Un échantillon physique est coupé et cousu en 7 à 15 jours. Les révisions sont incluses avant votre validation."
       },
       {
         "title": "Production en volume",
@@ -354,7 +354,7 @@
     "capabilityLabel": "Savoir-faire",
     "capabilityHeading": "Fabriqué par des gens que nous connaissons.",
     "capabilityP1": "La coupe, la couture et l'assemblage se font dans notre propre atelier de <b>2 000 m²</b>, animé par une équipe de <b>30+</b> mains expertes qui travaillent ensemble depuis des années. La broderie, l'impression et le lavage sont confiés à des ateliers partenaires de longue date, et chaque lot nous revient pour contrôle.",
-    "capabilityP2": "Les commandes démarrent à <b>50 pièces par couleur</b>. Un échantillon physique est prêt en <b>7 à 10 jours</b> ; une commande en volume confirmée est expédiée en <b>25 à 30 jours</b>. Chaque étape est contrôlée au fil de l'eau, et rien ne passe en production en volume avant votre validation d'un échantillon de préproduction.",
+    "capabilityP2": "Les commandes démarrent à <b>50 pièces par couleur</b>. Un échantillon physique est prêt en <b>7 à 15 jours</b> ; une commande en volume confirmée est expédiée en <b>25 à 30 jours</b>. Chaque étape est contrôlée au fil de l'eau, et rien ne passe en production en volume avant votre validation d'un échantillon de préproduction.",
     "stylesLabel": "Styles que nous fabriquons",
     "collectionLabel": "Collection",
     "collectionHeadingLine1": "Une petite sélection",
@@ -376,7 +376,7 @@
       {
         "numeral": "III",
         "title": "Échantillonnage",
-        "body": "Un échantillon physique en 7 à 10 jours, révisions incluses."
+        "body": "Un échantillon physique en 7 à 15 jours, révisions incluses."
       },
       {
         "numeral": "IV",

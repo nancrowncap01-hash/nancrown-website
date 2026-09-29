@@ -2,8 +2,8 @@
 // 目标:让海外 B2B 客户(品牌方/零售商/礼品公司/球队)搜"custom XX manufacturer/factory/wholesale"时能找到对应帽型的落地页
 //
 // 🔴 事实红线:只许用 ~/.claude/projects/-Users-martin-Claude-code/memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版):
-//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $6.2–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
-//   - 样品 7–10 天、$60–80/款(同款大货满 200 顶退);大货样品确认后 25–30 天 + 物流时间;可报 DDP
+//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $6.0–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
+//   - 样品 7–15 天、$60–80/款(同款大货满 1000 顶退);大货样品确认后 25–30 天 + 物流时间;可报 DDP
 //   - 能做的帽型和工艺以那份文件为准;没有任何认证,不许写;不许写 in-house / under one roof / 不外发
 //
 // 命名/大小写约定(参照 messages/*.json 已有译法 + 老板任务里给的示例):
@@ -451,7 +451,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom bucket hats from our Guangzhou factory: cotton, denim, wool or sherpa builds, embroidery and custom inside labels. MOQ 50 pcs per colour, per design.",
         intro: [
           "Bucket hats move fast in streetwear, festival merch and sun-season retail, and NanCrown builds them in several directions: a low flat-top crown with a short brim, a wide gathered-crown sun hat, a frayed-edge denim bucket, and winter buckets in wool with fleece-lined earflaps. Each starts from a blank shell, so the finished hat carries only the branding you add.",
-          "Trim and stitching do the styling work, from sherpa panels and piped contrast brims to rings of topstitching and frayed edges, and every surface is open for embroidery, printing, patches or a small raised logo. Inside, we sew in your own woven label. We confirm fit and construction on a pre-production sample in 7–10 days and produce from 50 pieces per colour, per design.",
+          "Trim and stitching do the styling work, from sherpa panels and piped contrast brims to rings of topstitching and frayed edges, and every surface is open for embroidery, printing, patches or a small raised logo. Inside, we sew in your own woven label. We confirm fit and construction on a pre-production sample in 7–15 days and produce from 50 pieces per colour, per design.",
         ],
         customOptions: [
           "Fabric: cotton twill, washed denim, polyester, wool, or sherpa and fleece trims.",
@@ -481,7 +481,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorros de pescador personalizados hechos en Guangzhou: algodón, denim, lana o sherpa, bordado y etiqueta interior propia. 50 uds. por color y diseño.",
         intro: [
           "Los gorros de pescador se mueven rápido en streetwear, merchandising de festivales y temporada de verano, y en NanCrown los fabricamos en varias líneas: copa baja de tapa plana con ala corta, sombrero de sol de ala ancha con copa fruncida, gorro de denim con bordes deshilachados y gorros de invierno de lana con orejeras forradas de forro polar. Todos parten de una base lisa, así que el gorro terminado solo lleva la marca que añadas.",
-          "Los remates y pespuntes marcan el estilo, desde paneles de sherpa y alas con vivo en contraste hasta anillos de pespunte y bordes deshilachados, y toda la superficie admite bordado, estampado, parches o un pequeño logo en relieve. Por dentro cosemos tu propia etiqueta tejida. Confirmamos el ajuste y la construcción en una muestra de preproducción en 7–10 días y fabricamos desde 50 piezas por color y por diseño.",
+          "Los remates y pespuntes marcan el estilo, desde paneles de sherpa y alas con vivo en contraste hasta anillos de pespunte y bordes deshilachados, y toda la superficie admite bordado, estampado, parches o un pequeño logo en relieve. Por dentro cosemos tu propia etiqueta tejida. Confirmamos el ajuste y la construcción en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color y por diseño.",
         ],
         customOptions: [
           "Tejido: sarga de algodón, denim lavado, poliéster, lana, o remates de sherpa y forro polar.",
@@ -511,7 +511,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Bobs personnalisés fabriqués à Guangzhou : coton, denim, laine ou sherpa, broderie et étiquette intérieure à votre marque. Dès 50 pièces par couleur et design.",
         intro: [
           "Le bob va vite en streetwear, en merch de festival et en saison estivale, et NanCrown le fabrique dans plusieurs directions : calotte basse à dessus plat avec bord court, chapeau de soleil à large bord et calotte froncée, bob en denim à bords effilochés et bobs d'hiver en laine avec oreillettes doublées polaire. Chacun part d'une base vierge, pour que le bob fini ne porte que la marque que vous ajoutez.",
-          "Finitions et surpiqûres font le style, des empiècements sherpa et bords passepoilés contrastés aux cercles de surpiqûres et bords effilochés, et toute la surface accepte broderie, impression, écussons ou petit logo en relief. À l'intérieur, nous cousons votre propre étiquette tissée. Nous validons la tenue et la construction sur un échantillon de pré-production en 7 à 10 jours et produisons dès 50 pièces par couleur et par design.",
+          "Finitions et surpiqûres font le style, des empiècements sherpa et bords passepoilés contrastés aux cercles de surpiqûres et bords effilochés, et toute la surface accepte broderie, impression, écussons ou petit logo en relief. À l'intérieur, nous cousons votre propre étiquette tissée. Nous validons la tenue et la construction sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur et par design.",
         ],
         customOptions: [
           "Tissu : sergé de coton, denim délavé, polyester, laine, ou finitions sherpa et polaire.",
@@ -541,7 +541,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Fischerhüte aus Guangzhou: Baumwolle, Denim, Wolle oder Sherpa, Stickerei und eigenes Innenetikett. Ab 50 Stück pro Farbe und Design.",
         intro: [
           "Fischerhüte laufen schnell in Streetwear, Festival-Merch und Sommersaison, und NanCrown fertigt sie in mehreren Richtungen: niedrige Krone mit flachem Oberteil und kurzer Krempe, breitkrempiger Sonnenhut mit gerafftem Kopfteil, Denim-Fischerhut mit ausgefransten Kanten und Winter-Fischerhüte aus Wolle mit fleecegefütterten Ohrenklappen. Jeder startet als unbedruckte Basis, sodass der fertige Hut nur die Marke trägt, die Sie hinzufügen.",
-          "Besätze und Steppungen prägen den Stil, von Sherpa-Einsätzen und paspelierten Kontrastkrempen bis zu Steppringen und ausgefransten Kanten, und jede Fläche eignet sich für Stickerei, Druck, Patches oder ein kleines erhabenes Logo. Innen nähen wir Ihr eigenes gewebtes Etikett ein. Passform und Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren ab 50 Stück pro Farbe und Design.",
+          "Besätze und Steppungen prägen den Stil, von Sherpa-Einsätzen und paspelierten Kontrastkrempen bis zu Steppringen und ausgefransten Kanten, und jede Fläche eignet sich für Stickerei, Druck, Patches oder ein kleines erhabenes Logo. Innen nähen wir Ihr eigenes gewebtes Etikett ein. Passform und Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe und Design.",
         ],
         customOptions: [
           "Stoff: Baumwoll-Twill, gewaschener Denim, Polyester, Wolle oder Sherpa- und Fleecebesätze.",
@@ -849,7 +849,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom running caps from our Guangzhou factory: quick-dry nylon or stretch woven, 5-panel options, laser-cut vents, reflective logos. MOQ 50 pcs per colour.",
         intro: [
           "A running cap has to disappear on the head: light fabric, a brim that won't fight the wind, and a closure that stays put through a race or a training block. NanCrown builds running caps in stretch woven polyester and quick-dry nylon, from a soft roll-brim style to 5-panel sport caps with a longer brim and side mesh windows that hold a pair of sunglasses.",
-          "Performance details are built in to your spec: laser-cut ventilation holes, mesh panels, reflective prints and trim, and an elastic cord adjuster. Your team crest, race logo or brand mark goes on in embroidery, screen print or a reflective heat-transfer print. We confirm the build on a pre-production sample in 7–10 days and produce factory-direct in Guangzhou from 50 pieces per colour.",
+          "Performance details are built in to your spec: laser-cut ventilation holes, mesh panels, reflective prints and trim, and an elastic cord adjuster. Your team crest, race logo or brand mark goes on in embroidery, screen print or a reflective heat-transfer print. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour.",
         ],
         customOptions: [
           "Fabric: lightweight stretch woven polyester, or quick-dry nylon woven.",
@@ -880,7 +880,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras de running personalizadas hechas en Guangzhou: nailon de secado rápido, 5 paneles, perforación láser y logos reflectantes. 50 uds. por color.",
         intro: [
           "Una gorra de running tiene que desaparecer en la cabeza: tejido ligero, una visera que no pelee con el viento y un cierre que no se mueva en toda una carrera o un bloque de entrenamiento. En NanCrown fabricamos gorras de running en poliéster elástico y nailon de secado rápido, desde un modelo suave de visera flexible hasta gorras deportivas de 5 paneles con visera más larga y ventanas laterales de malla que sujetan unas gafas de sol.",
-          "Los detalles técnicos se hacen a tu medida: perforaciones láser de ventilación, paneles de malla, estampados y ribetes reflectantes, y un cordón elástico de ajuste. El escudo del equipo, el logo de la carrera o tu marca van bordados, serigrafiados o en transfer reflectante. Confirmamos la construcción en una muestra de preproducción en 7–10 días y fabricamos directamente en Guangzhou desde 50 piezas por color.",
+          "Los detalles técnicos se hacen a tu medida: perforaciones láser de ventilación, paneles de malla, estampados y ribetes reflectantes, y un cordón elástico de ajuste. El escudo del equipo, el logo de la carrera o tu marca van bordados, serigrafiados o en transfer reflectante. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color.",
         ],
         customOptions: [
           "Tejido: poliéster elástico ligero o nailon de secado rápido.",
@@ -911,7 +911,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes de running personnalisées fabriquées à Guangzhou : nylon séchage rapide, 5 panneaux, perforations laser, logos réfléchissants. 50 pièces par couleur.",
         intro: [
           "Une casquette de running doit se faire oublier : tissu léger, visière qui ne lutte pas contre le vent et fermeture qui ne bouge pas de toute une course ou d'un bloc d'entraînement. NanCrown fabrique des casquettes de running en polyester tissé extensible et en nylon séchage rapide, du modèle souple à visière qui se roule aux casquettes de sport 5 panneaux à visière plus longue, avec fenêtres latérales en filet pour tenir une paire de lunettes de soleil.",
-          "Les détails techniques se font selon votre cahier des charges : micro-perforations laser d'aération, panneaux en filet, impressions et liserés réfléchissants, et cordon élastique de serrage. Le blason du club, le logo de la course ou votre marque sont brodés, sérigraphiés ou posés en transfert réfléchissant. Nous validons la construction sur un échantillon de pré-production en 7 à 10 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur.",
+          "Les détails techniques se font selon votre cahier des charges : micro-perforations laser d'aération, panneaux en filet, impressions et liserés réfléchissants, et cordon élastique de serrage. Le blason du club, le logo de la course ou votre marque sont brodés, sérigraphiés ou posés en transfert réfléchissant. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur.",
         ],
         customOptions: [
           "Tissu : polyester tissé extensible et léger, ou nylon tissé séchage rapide.",
@@ -942,7 +942,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Running Caps aus Guangzhou: schnell trocknendes Nylon, 5-Panel, Laser-Lüftungslöcher, reflektierende Logos. Ab 50 Stück pro Farbe.",
         intro: [
           "Eine Running Cap soll man beim Laufen vergessen: leichter Stoff, ein Schirm, der nicht gegen den Wind arbeitet, und ein Verschluss, der über ein ganzes Rennen oder einen Trainingsblock hält. NanCrown fertigt Running Caps aus elastischem Polyester-Webstoff und schnell trocknendem Nylon, vom weichen Modell mit rollbarem Schirm bis zu 5-Panel-Sport-Caps mit längerem Schirm und seitlichen Netzfenstern, die eine Sonnenbrille halten.",
-          "Funktionsdetails fertigen wir nach Ihren Vorgaben: Laser-Lüftungslöcher, Netzeinsätze, reflektierende Drucke und Paspeln sowie eine Gummikordel zur Weitenregulierung. Vereinswappen, Rennlogo oder Markenzeichen werden gestickt, im Siebdruck oder als reflektierender Transfer aufgebracht. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe.",
+          "Funktionsdetails fertigen wir nach Ihren Vorgaben: Laser-Lüftungslöcher, Netzeinsätze, reflektierende Drucke und Paspeln sowie eine Gummikordel zur Weitenregulierung. Vereinswappen, Rennlogo oder Markenzeichen werden gestickt, im Siebdruck oder als reflektierender Transfer aufgebracht. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe.",
         ],
         customOptions: [
           "Stoff: leichter, elastischer Polyester-Webstoff oder schnell trocknendes Nylon.",
@@ -1253,7 +1253,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Winter headwear is where NanCrown builds the most texture into a cap: wide-wale corduroy with a quilted sherpa lining, a baseball crown ringed in long-pile faux fur, or a reversible shell that flips from crinkle nylon to fleece depending on the weather. All three styles carry earflaps — some fold up or down, others wrap the back of the head in one piece.",
           "Every winter style is built to take your own branding, whether that's a script embroidered across the front panel or a small mark that sits quietly on a reversible shell. Note that any fur trim we use is faux fur only — no animal fur. We work from your logo and colour references, confirm the build with a pre-production sample, and manufacture factory-direct in Guangzhou with a minimum of 50 pieces per colour — OEM/ODM welcome.",
-          "We also supply knitted winter hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties, branded with a woven label, patch or embroidery. For hats that need to be in shops by December, plan about seven weeks from the first sample to delivery by air: 7–10 days for the sample, 25–30 days for bulk after you approve it, then shipping.",
+          "We also supply knitted winter hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties, branded with a woven label, patch or embroidery. For hats that need to be in shops by December, plan about seven to eight weeks from the first sample to delivery by air: 7–15 days for the sample, 25–30 days for bulk after you approve it, then shipping.",
         ],
         customOptions: [
           "Fabric: wide-wale cotton corduroy with sherpa lining, or a reversible crinkle nylon and fleece shell.",
@@ -1283,11 +1283,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much do custom winter hats cost?",
-            a: "Winter hats are quoted per design, because the fabric, lining, trim and branding change the price. The sample is US$60–80 and is refunded once that design reaches 200 pieces in bulk.",
+            a: "Winter hats are quoted per design, because the fabric, lining, trim and branding change the price. The sample is US$60–80 and is refunded once that design reaches 1,000 pieces in bulk.",
           },
           {
             q: "When should I order winter hats?",
-            a: "Plan about seven weeks from the first sample to delivery by air: 7–10 days for the sample, 25–30 days of bulk production after you approve it, then shipping. Sea freight adds several weeks.",
+            a: "Plan about seven to eight weeks from the first sample to delivery by air: 7–15 days for the sample, 25–30 days of bulk production after you approve it, then shipping. Sea freight adds several weeks.",
           },
         ],
       },
@@ -1299,7 +1299,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Los gorros de invierno son donde NanCrown mete más textura en una gorra: pana de canal ancho con forro sherpa acolchado, una copa de béisbol rodeada de pelo sintético de pelo largo, o un modelo reversible que pasa de nylon crujiente a forro polar según el clima. Los tres modelos llevan orejeras — unas se doblan hacia arriba o abajo, otras envuelven la parte trasera de la cabeza en una sola pieza.",
           "Cada modelo de invierno está pensado para llevar tu propia marca, ya sea un texto bordado en el panel frontal o una marca discreta en un modelo reversible. Ten en cuenta que cualquier ribete de pelo que usamos es pelo sintético únicamente — no usamos pelo de animal. Trabajamos a partir de tu logo y referencias de color, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un mínimo de 50 piezas por color — aceptamos OEM/ODM.",
-          "También suministramos gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados, con tu marca en etiqueta tejida, parche o bordado. Si los gorros tienen que estar en tienda en diciembre, calcula unas siete semanas desde la primera muestra hasta la entrega por avión: 7–10 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío.",
+          "También suministramos gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados, con tu marca en etiqueta tejida, parche o bordado. Si los gorros tienen que estar en tienda en diciembre, calcula unas siete u ocho semanas desde la primera muestra hasta la entrega por avión: 7–15 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío.",
         ],
         customOptions: [
           "Tejido: pana de algodón de canal ancho con forro sherpa, o exterior reversible de nylon crujiente y forro polar.",
@@ -1329,11 +1329,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuestan los gorros de invierno personalizados?",
-            a: "Los gorros de invierno se presupuestan por diseño, porque el tejido, el forro, los ribetes y la marca cambian el precio. La muestra cuesta 60–80 US$ y se reembolsa cuando ese diseño llega a 200 piezas en producción.",
+            a: "Los gorros de invierno se presupuestan por diseño, porque el tejido, el forro, los ribetes y la marca cambian el precio. La muestra cuesta 60–80 US$ y se reembolsa cuando ese diseño llega a 1.000 piezas en producción.",
           },
           {
             q: "¿Cuándo debo pedir los gorros de invierno?",
-            a: "Calcula unas siete semanas desde la primera muestra hasta la entrega por avión: 7–10 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío. El transporte marítimo añade varias semanas.",
+            a: "Calcula unas siete u ocho semanas desde la primera muestra hasta la entrega por avión: 7–15 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío. El transporte marítimo añade varias semanas.",
           },
         ],
       },
@@ -1345,7 +1345,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Le bonnet d'hiver est là où NanCrown apporte le plus de texture à une casquette : velours côtelé à grosses côtes avec doublure sherpa matelassée, calotte de baseball cerclée de fausse fourrure longue, ou modèle réversible qui passe du nylon froissé à la polaire selon le temps. Les trois modèles ont des cache-oreilles — certains se replient vers le haut ou le bas, d'autres enveloppent l'arrière de la tête en une seule pièce.",
           "Chaque modèle d'hiver est conçu pour porter votre propre marque, qu'il s'agisse d'un texte brodé sur le panneau avant ou d'une petite marque discrète sur un modèle réversible. À noter que toute bordure de fourrure que nous utilisons est en fausse fourrure uniquement — aucune fourrure animale. Nous travaillons à partir de votre logo et de vos références de couleur, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
-          "Nous fournissons aussi des bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés, marqués d'une étiquette tissée, d'un patch ou d'une broderie. Pour des bonnets en boutique en décembre, comptez environ sept semaines entre le premier échantillon et la livraison par avion : 7 à 10 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition.",
+          "Nous fournissons aussi des bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés, marqués d'une étiquette tissée, d'un patch ou d'une broderie. Pour des bonnets en boutique en décembre, comptez environ sept à huit semaines entre le premier échantillon et la livraison par avion : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition.",
         ],
         customOptions: [
           "Tissu : velours côtelé en coton à grosses côtes avec doublure sherpa, ou extérieur réversible nylon froissé et polaire.",
@@ -1375,11 +1375,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûtent des bonnets d'hiver personnalisés ?",
-            a: "Les bonnets d'hiver sont chiffrés modèle par modèle, car le tissu, la doublure, les finitions et le marquage font varier le prix. L'échantillon coûte 60 à 80 US$ et il est remboursé dès que ce modèle atteint 200 pièces en production.",
+            a: "Les bonnets d'hiver sont chiffrés modèle par modèle, car le tissu, la doublure, les finitions et le marquage font varier le prix. L'échantillon coûte 60 à 80 US$ et il est remboursé dès que ce modèle atteint 1 000 pièces en production.",
           },
           {
             q: "Quand faut-il commander des bonnets d'hiver ?",
-            a: "Comptez environ sept semaines entre le premier échantillon et la livraison par avion : 7 à 10 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition. Le fret maritime ajoute plusieurs semaines.",
+            a: "Comptez environ sept à huit semaines entre le premier échantillon et la livraison par avion : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition. Le fret maritime ajoute plusieurs semaines.",
           },
         ],
       },
@@ -1391,7 +1391,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Bei Wintermützen steckt NanCrown die meiste Textur in eine Kappe: breitgerippter Cord mit gestepptem Sherpa-Futter, ein Baseball-Kopfteil umrandet von langem Kunstfell, oder eine wendbare Variante, die je nach Wetter von knisterndem Nylon auf Fleece wechselt. Alle drei Modelle haben Ohrenklappen — manche lassen sich hoch- oder herunterklappen, andere umschließen den Hinterkopf in einem Stück.",
           "Jedes Wintermodell ist für Ihr eigenes Branding ausgelegt, ob als Schriftzug quer über das Vorderpanel gestickt oder als kleines, dezentes Zeichen auf einer wendbaren Variante. Jeglicher Fellbesatz, den wir verwenden, ist ausschließlich Kunstfell — kein Tierfell. Wir arbeiten mit Ihrer Logodatei und Ihren Farbvorgaben, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM willkommen.",
-          "Außerdem liefern wir Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder, gebrandet mit Webetikett, Patch oder Stickerei. Sollen die Mützen im Dezember im Laden sein, planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben Wochen: 7–10 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand.",
+          "Außerdem liefern wir Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder, gebrandet mit Webetikett, Patch oder Stickerei. Sollen die Mützen im Dezember im Laden sein, planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben bis acht Wochen: 7–15 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand.",
         ],
         customOptions: [
           "Material: breitgerippter Baumwollcord mit Sherpa-Futter, oder wendbares Obermaterial aus knisterndem Nylon und Fleece.",
@@ -1421,11 +1421,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kosten individuelle Wintermützen?",
-            a: "Wintermützen kalkulieren wir pro Design, weil Material, Futter, Besatz und Branding den Preis verändern. Das Muster kostet 60–80 US$ und wird erstattet, sobald dieses Design 200 Stück in der Produktion erreicht.",
+            a: "Wintermützen kalkulieren wir pro Design, weil Material, Futter, Besatz und Branding den Preis verändern. Das Muster kostet 60–80 US$ und wird erstattet, sobald dieses Design 1.000 Stück in der Produktion erreicht.",
           },
           {
             q: "Wann sollte ich Wintermützen bestellen?",
-            a: "Planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben Wochen: 7–10 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand. Seefracht dauert mehrere Wochen länger.",
+            a: "Planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben bis acht Wochen: 7–15 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand. Seefracht dauert mehrere Wochen länger.",
           },
         ],
       },
@@ -1452,10 +1452,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Dad Hats",
         h1: "Custom Dad Hats Manufacturer",
-        metaDescription: "Custom dad hats from our Guangzhou factory: unstructured 6-panel, washed cotton or denim, embroidered logos. 50 pcs per colour, samples in 7–10 days.",
+        metaDescription: "Custom dad hats from our Guangzhou factory: unstructured 6-panel, washed cotton or denim, embroidered logos. 50 pcs per colour, samples in 7–15 days.",
         intro: [
           "A dad hat lives or dies on its shape: an unstructured six-panel crown that sits low and soft, a curved brim, and a fabric that already looks broken in. NanCrown builds dad hats in garment-washed cotton twill, pigment-dyed cotton and washed denim, with finishes from a clean tonal wash to worn brim edges, gradient bleach and piping around the crown.",
-          "Your logo goes on as satin-stitch, outline or 3D puff embroidery, raw-edge appliqué or a small patch, and the strap closes with an antique brass or silver slider in your finish. We confirm fit and wash on a pre-production sample in 7–10 days, then produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after sample approval.",
+          "Your logo goes on as satin-stitch, outline or 3D puff embroidery, raw-edge appliqué or a small patch, and the strap closes with an antique brass or silver slider in your finish. We confirm fit and wash on a pre-production sample in 7–15 days, then produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after sample approval.",
         ],
         customOptions: [
           "Crown: unstructured 6-panel, low or mid profile, with a curved or near-flat brim.",
@@ -1471,7 +1471,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much does a custom dad hat cost?",
-            a: "A standard 6-panel cotton cap with a flat embroidered logo is $6.2–7.7 per cap at 50–99 pieces and $4.5–5.2 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
+            a: "A standard 6-panel cotton cap with a flat embroidered logo is $6.0–7.7 per cap at 50–99 pieces and $4.5–5.2 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
           },
           {
             q: "Can you match a vintage washed look?",
@@ -1482,10 +1482,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       es: {
         name: "Dad Caps",
         h1: "Fabricante de dad caps personalizadas",
-        metaDescription: "Dad caps personalizadas hechas en Guangzhou: 6 paneles sin estructura, algodón lavado o denim, logos bordados. 50 uds. por color, muestra en 7–10 días.",
+        metaDescription: "Dad caps personalizadas hechas en Guangzhou: 6 paneles sin estructura, algodón lavado o denim, logos bordados. 50 uds. por color, muestra en 7–15 días.",
         intro: [
           "Una dad cap depende de su forma: una copa de seis paneles sin estructura que queda baja y suave, una visera curva y un tejido que ya parece usado. En NanCrown fabricamos dad caps en sarga de algodón lavada, algodón teñido en pigmento y denim lavado, con acabados que van de un lavado tono sobre tono a bordes de visera gastados, degradados con lejía y vivos alrededor de la copa.",
-          "Tu logo puede ir en bordado de satén, de contorno o 3D (puff), en aplicación de bordes crudos o en un parche pequeño, y la tira se cierra con una hebilla de latón envejecido o plateada. Confirmamos el ajuste y el lavado en una muestra de preproducción en 7–10 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra.",
+          "Tu logo puede ir en bordado de satén, de contorno o 3D (puff), en aplicación de bordes crudos o en un parche pequeño, y la tira se cierra con una hebilla de latón envejecido o plateada. Confirmamos el ajuste y el lavado en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra.",
         ],
         customOptions: [
           "Copa: 6 paneles sin estructura, perfil bajo o medio, con visera curva o casi plana.",
@@ -1501,7 +1501,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuesta una dad cap personalizada?",
-            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 6,2–7,7 USD por unidad en 50–99 piezas y 4,5–5,2 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
+            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 6,0–7,7 USD por unidad en 50–99 piezas y 4,5–5,2 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
           },
           {
             q: "¿Podéis conseguir un aspecto vintage lavado?",
@@ -1512,10 +1512,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       fr: {
         name: "Dad Caps",
         h1: "Fabricant de dad caps personnalisées",
-        metaDescription: "Dad caps personnalisées fabriquées à Guangzhou : 6 panneaux souples, coton délavé ou denim, logos brodés. 50 pièces par couleur, échantillon en 7 à 10 jours.",
+        metaDescription: "Dad caps personnalisées fabriquées à Guangzhou : 6 panneaux souples, coton délavé ou denim, logos brodés. 50 pièces par couleur, échantillon en 7 à 15 jours.",
         intro: [
           "Une dad cap tient tout à sa forme : une calotte six panneaux non structurée, basse et souple, une visière courbe et un tissu qui a déjà l'air porté. NanCrown fabrique des dad caps en sergé de coton délavé, en coton teint pigment et en denim délavé, avec des finitions allant du délavage ton sur ton aux bords de visière usés, en passant par le dégradé à la javel et le passepoil autour de la calotte.",
-          "Votre logo peut être brodé au point lancé, en contour ou en 3D (puff), appliqué en bords bruts ou posé en petit écusson, et la sangle se ferme par une boucle en laiton vieilli ou argentée. Nous validons la tenue et le délavage sur un échantillon de pré-production en 7 à 10 jours, puis nous produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon.",
+          "Votre logo peut être brodé au point lancé, en contour ou en 3D (puff), appliqué en bords bruts ou posé en petit écusson, et la sangle se ferme par une boucle en laiton vieilli ou argentée. Nous validons la tenue et le délavage sur un échantillon de pré-production en 7 à 15 jours, puis nous produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon.",
         ],
         customOptions: [
           "Calotte : 6 panneaux non structurée, profil bas ou moyen, visière courbe ou presque plate.",
@@ -1531,7 +1531,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûte une dad cap personnalisée ?",
-            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 6,2–7,7 USD pièce pour 50–99 pièces et 4,5–5,2 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
+            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 6,0–7,7 USD pièce pour 50–99 pièces et 4,5–5,2 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
           },
           {
             q: "Pouvez-vous reproduire un aspect vintage délavé ?",
@@ -1542,10 +1542,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       de: {
         name: "Dad Caps",
         h1: "Hersteller für individuelle Dad Caps",
-        metaDescription: "Individuelle Dad Caps aus Guangzhou: unstrukturierte 6-Panel, gewaschene Baumwolle oder Denim, gestickte Logos. 50 Stück pro Farbe, Muster in 7–10 Tagen.",
+        metaDescription: "Individuelle Dad Caps aus Guangzhou: unstrukturierte 6-Panel, gewaschene Baumwolle oder Denim, gestickte Logos. 50 Stück pro Farbe, Muster in 7–15 Tagen.",
         intro: [
           "Bei einer Dad Cap kommt es auf die Form an: eine unstrukturierte Sechs-Panel-Krone, die tief und weich sitzt, ein gebogener Schirm und ein Stoff, der schon getragen wirkt. NanCrown fertigt Dad Caps aus garment-gewaschenem Baumwoll-Twill, pigmentgefärbter Baumwolle und gewaschenem Denim, mit Finishes von der Ton-in-Ton-Waschung über abgenutzte Schirmkanten und Bleichverläufe bis zu Paspeln rund um die Krone.",
-          "Ihr Logo kommt als Satinstich-, Kontur- oder 3D-Puff-Stickerei, als Applikation mit offenen Kanten oder als kleiner Patch aufs Cap, und das Band schließt mit einer Schnalle in Altmessing oder Silber. Passform und Waschung bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren dann direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Musterfreigabe.",
+          "Ihr Logo kommt als Satinstich-, Kontur- oder 3D-Puff-Stickerei, als Applikation mit offenen Kanten oder als kleiner Patch aufs Cap, und das Band schließt mit einer Schnalle in Altmessing oder Silber. Passform und Waschung bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren dann direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Musterfreigabe.",
         ],
         customOptions: [
           "Krone: unstrukturiertes 6-Panel, niedriges oder mittleres Profil, gebogener oder fast flacher Schirm.",
@@ -1561,7 +1561,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kostet eine individuelle Dad Cap?",
-            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 6,2–7,7 USD pro Stück bei 50–99 Stück und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
+            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 6,0–7,7 USD pro Stück bei 50–99 Stück und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
           },
           {
             q: "Können Sie einen gewaschenen Vintage-Look treffen?",
@@ -1589,7 +1589,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom snapback hats from our Guangzhou factory: structured crowns, flat or curved brims, 3D puff embroidery or patches, snap closure. From 50 pcs per colour.",
         intro: [
           "Snapbacks are built to hold their shape: a structured front, a flat or lightly curved brim and an adjustable plastic snap at the back. NanCrown makes snapbacks as 5-panel and 6-panel caps and as mesh-back truckers, with multi-row brim topstitching and snaps colour-matched to the cap.",
-          "The front panel is where your brand does the talking: 3D puff or flat embroidery, woven, leather or PVC patches, printed artwork, or a souvenir-style patch with a rope across the brim. We confirm the build on a pre-production sample in 7–10 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "The front panel is where your brand does the talking: 3D puff or flat embroidery, woven, leather or PVC patches, printed artwork, or a souvenir-style patch with a rope across the brim. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
         ],
         customOptions: [
           "Construction: structured 5-panel or 6-panel crown, or a trucker build with a mesh back.",
@@ -1609,7 +1609,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How long does a custom snapback order take?",
-            a: "About 7–10 days for the sample and 25–30 days for bulk production after you approve it, plus shipping time.",
+            a: "About 7–15 days for the sample and 25–30 days for bulk production after you approve it, plus shipping time.",
           },
         ],
       },
@@ -1619,7 +1619,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras snapback personalizadas hechas en Guangzhou: copa estructurada, visera plana o curva, bordado 3D o parches. Desde 50 uds. por color.",
         intro: [
           "Las snapbacks están hechas para mantener la forma: frontal estructurado, visera plana o ligeramente curva y un broche de plástico ajustable detrás. En NanCrown fabricamos snapbacks de 5 y 6 paneles y truckers con malla trasera, con pespuntes en varias filas en la visera y broches del mismo color que la gorra.",
-          "El frontal es donde habla tu marca: bordado 3D (puff) o plano, parches tejidos, de cuero o de PVC, estampados o un parche tipo souvenir con cordón sobre la visera. Confirmamos la construcción en una muestra de preproducción en 7–10 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "El frontal es donde habla tu marca: bordado 3D (puff) o plano, parches tejidos, de cuero o de PVC, estampados o un parche tipo souvenir con cordón sobre la visera. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
         ],
         customOptions: [
           "Construcción: copa estructurada de 5 o 6 paneles, o trucker con malla trasera.",
@@ -1639,7 +1639,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto tarda un pedido de snapbacks personalizadas?",
-            a: "Unos 7–10 días para la muestra y 25–30 días de producción después de tu aprobación, más el tiempo de envío.",
+            a: "Unos 7–15 días para la muestra y 25–30 días de producción después de tu aprobación, más el tiempo de envío.",
           },
         ],
       },
@@ -1649,7 +1649,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes snapback personnalisées fabriquées à Guangzhou : calotte structurée, visière plate ou courbe, broderie 3D ou écussons. Dès 50 pièces par couleur.",
         intro: [
           "Les snapbacks sont faites pour garder leur forme : un devant structuré, une visière plate ou légèrement courbe et une fermeture à pression réglable à l'arrière. NanCrown fabrique des snapbacks 5 et 6 panneaux ainsi que des truckers à dos en filet, avec des surpiqûres multiples sur la visière et des pressions assorties à la casquette.",
-          "Le devant, c'est là que votre marque s'exprime : broderie 3D (puff) ou à plat, écussons tissés, en cuir ou en PVC, impression, ou écusson façon souvenir avec une cordelette sur la visière. Nous validons la construction sur un échantillon de pré-production en 7 à 10 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Le devant, c'est là que votre marque s'exprime : broderie 3D (puff) ou à plat, écussons tissés, en cuir ou en PVC, impression, ou écusson façon souvenir avec une cordelette sur la visière. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
         ],
         customOptions: [
           "Construction : calotte structurée 5 ou 6 panneaux, ou trucker à dos en filet.",
@@ -1669,7 +1669,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien de temps prend une commande de snapbacks personnalisées ?",
-            a: "Environ 7 à 10 jours pour l'échantillon et 25 à 30 jours de production après votre validation, plus le délai de transport.",
+            a: "Environ 7 à 15 jours pour l'échantillon et 25 à 30 jours de production après votre validation, plus le délai de transport.",
           },
         ],
       },
@@ -1679,7 +1679,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Snapback Caps aus Guangzhou: strukturierte Krone, flacher oder gebogener Schirm, 3D-Stickerei oder Patches. Ab 50 Stück pro Farbe.",
         intro: [
           "Snapbacks sind dafür gemacht, ihre Form zu halten: eine strukturierte Front, ein flacher oder leicht gebogener Schirm und ein verstellbarer Kunststoff-Druckverschluss hinten. NanCrown fertigt Snapbacks als 5- und 6-Panel-Caps und als Trucker mit Netzrücken, mit mehrreihiger Schirmsteppung und farblich passendem Verschluss.",
-          "Auf der Front spricht Ihre Marke: 3D-Puff- oder Flachstickerei, gewebte, Leder- oder PVC-Patches, Druck oder ein Souvenir-Patch mit Kordel über dem Schirm. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Auf der Front spricht Ihre Marke: 3D-Puff- oder Flachstickerei, gewebte, Leder- oder PVC-Patches, Druck oder ein Souvenir-Patch mit Kordel über dem Schirm. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
         ],
         customOptions: [
           "Aufbau: strukturierte 5- oder 6-Panel-Krone oder Trucker mit Netzrücken.",
@@ -1699,7 +1699,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Wie lange dauert eine Snapback-Bestellung?",
-            a: "Etwa 7–10 Tage für das Muster und 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
+            a: "Etwa 7–15 Tage für das Muster und 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
           },
         ],
       },
@@ -1724,7 +1724,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom 5-panel caps made in Guangzhou: camp, snapback and sport styles in cotton, nylon or quick-dry fabric. Embroidery or patches, from 50 pcs per colour.",
         intro: [
           "A 5-panel cap has one wide front panel with no centre seam, which makes it a favourite for logos, patches and clean graphics. NanCrown builds 5-panel caps as low camp caps with a flat brim, as structured snapbacks, and as lightweight sport caps in quick-dry nylon with side mesh and a long brim.",
-          "Choose the fabric, brim and closure, and we build around your branding: flat or 3D puff embroidery, woven or leather patches, printing, or details such as a front flap pocket. We confirm the build on a pre-production sample in 7–10 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Choose the fabric, brim and closure, and we build around your branding: flat or 3D puff embroidery, woven or leather patches, printing, or details such as a front flap pocket. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
         ],
         customOptions: [
           "Style: low-profile camp cap, structured snapback or lightweight sport cap.",
@@ -1754,7 +1754,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras de 5 paneles personalizadas hechas en Guangzhou: camp, snapback o deportivas en algodón, nailon o tejido técnico. Desde 50 uds. por color.",
         intro: [
           "Una gorra de 5 paneles tiene un frontal ancho sin costura central, por eso es la favorita para logos, parches y gráficos limpios. En NanCrown fabricamos gorras de 5 paneles como camp caps de perfil bajo con visera plana, como snapbacks estructuradas y como gorras deportivas ligeras en nailon de secado rápido con malla lateral y visera larga.",
-          "Elige tejido, visera y cierre, y construimos la gorra alrededor de tu marca: bordado plano o 3D (puff), parches tejidos o de cuero, estampados o detalles como un bolsillo con solapa en el frontal. Confirmamos la construcción en una muestra de preproducción en 7–10 días y fabricamos en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Elige tejido, visera y cierre, y construimos la gorra alrededor de tu marca: bordado plano o 3D (puff), parches tejidos o de cuero, estampados o detalles como un bolsillo con solapa en el frontal. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
         ],
         customOptions: [
           "Estilo: camp cap de perfil bajo, snapback estructurada o gorra deportiva ligera.",
@@ -1784,7 +1784,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes 5 panneaux personnalisées fabriquées à Guangzhou : camp, snapback ou sport, en coton, nylon ou tissu technique. Dès 50 pièces par couleur.",
         intro: [
           "Une casquette 5 panneaux a un large panneau avant sans couture centrale, ce qui en fait la favorite pour les logos, les écussons et les graphismes nets. NanCrown fabrique des casquettes 5 panneaux en camp cap à profil bas et visière plate, en snapback structurée et en casquette de sport légère en nylon séchage rapide avec filet latéral et longue visière.",
-          "Choisissez le tissu, la visière et la fermeture, et nous construisons la casquette autour de votre marque : broderie à plat ou 3D (puff), écussons tissés ou en cuir, impression, ou détails comme une poche à rabat sur le devant. Nous validons la construction sur un échantillon de pré-production en 7 à 10 jours et produisons à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Choisissez le tissu, la visière et la fermeture, et nous construisons la casquette autour de votre marque : broderie à plat ou 3D (puff), écussons tissés ou en cuir, impression, ou détails comme une poche à rabat sur le devant. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
         ],
         customOptions: [
           "Style : camp cap à profil bas, snapback structurée ou casquette de sport légère.",
@@ -1814,7 +1814,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle 5-Panel Caps aus Guangzhou: Camp-, Snapback- und Sport-Styles aus Baumwolle, Nylon oder Funktionsstoff. Ab 50 Stück pro Farbe.",
         intro: [
           "Eine 5-Panel Cap hat ein breites Frontteil ohne Mittelnaht und ist deshalb erste Wahl für Logos, Patches und klare Grafiken. NanCrown fertigt 5-Panel Caps als flache Camp Caps mit geradem Schirm, als strukturierte Snapbacks und als leichte Sport-Caps aus schnell trocknendem Nylon mit Seitennetz und langem Schirm.",
-          "Wählen Sie Stoff, Schirm und Verschluss, und wir bauen die Cap um Ihre Marke herum: Flach- oder 3D-Puff-Stickerei, gewebte oder Leder-Patches, Druck oder Details wie eine Pattentasche vorne. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Wählen Sie Stoff, Schirm und Verschluss, und wir bauen die Cap um Ihre Marke herum: Flach- oder 3D-Puff-Stickerei, gewebte oder Leder-Patches, Druck oder Details wie eine Pattentasche vorne. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
         ],
         customOptions: [
           "Style: flache Camp Cap, strukturierte Snapback oder leichte Sport-Cap.",
@@ -1860,7 +1860,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom golf caps and visors made in Guangzhou: lightweight performance fabrics, flat or 3D embroidery, reflective or printed logos. From 50 pcs per colour.",
         intro: [
           "A golf cap has to look sharp on the course and stay comfortable through a long round in the sun: light fabric, a secure fit and a clean logo. NanCrown makes golf caps and visors for golf brands, clubs and events, in quick-dry nylon and stretch woven performance fabrics, with structured or soft crowns and curved brims.",
-          "Branding can be flat or 3D puff embroidery or printed and reflective logos, and laser-cut ventilation holes can be added to the crown. Visors come with an open crown, a wide band and a hook-and-loop or elastic closure. We confirm the build on a pre-production sample in 7–10 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Branding can be flat or 3D puff embroidery or printed and reflective logos, and laser-cut ventilation holes can be added to the crown. Visors come with an open crown, a wide band and a hook-and-loop or elastic closure. We confirm the build on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
         ],
         customOptions: [
           "Style: 6-panel or 5-panel golf cap, or an open-crown visor.",
@@ -1890,7 +1890,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras y viseras de golf personalizadas hechas en Guangzhou: tejidos técnicos ligeros, bordado plano o 3D, logos reflectantes. Desde 50 uds. por color.",
         intro: [
           "Una gorra de golf tiene que verse impecable en el campo y ser cómoda durante una larga vuelta al sol: tejido ligero, buen ajuste y un logo limpio. En NanCrown fabricamos gorras y viseras de golf para marcas, clubes y eventos, en nailon de secado rápido y tejidos técnicos elásticos, con copa estructurada o suave y visera curva.",
-          "El logo puede ir bordado en plano o en 3D (puff), estampado o reflectante, y podemos añadir perforaciones láser de ventilación en la copa. Las viseras llevan la copa abierta, una banda ancha y cierre de velcro o elástico. Confirmamos la construcción en una muestra de preproducción en 7–10 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "El logo puede ir bordado en plano o en 3D (puff), estampado o reflectante, y podemos añadir perforaciones láser de ventilación en la copa. Las viseras llevan la copa abierta, una banda ancha y cierre de velcro o elástico. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
         ],
         customOptions: [
           "Estilo: gorra de golf de 6 o 5 paneles, o visera de copa abierta.",
@@ -1920,7 +1920,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes et visières de golf personnalisées fabriquées à Guangzhou : tissus techniques légers, broderie à plat ou 3D, logos réfléchissants. Dès 50 pièces.",
         intro: [
           "Une casquette de golf doit avoir de l'allure sur le parcours et rester confortable pendant un long parcours au soleil : tissu léger, bon maintien et logo net. NanCrown fabrique des casquettes et visières de golf pour les marques, les clubs et les événements, en nylon séchage rapide et en tissus techniques extensibles, avec calotte structurée ou souple et visière courbe.",
-          "Le logo peut être brodé à plat ou en 3D (puff), imprimé ou réfléchissant, et des micro-perforations laser d'aération peuvent être ajoutées sur la calotte. Les visières ont une calotte ouverte, un large bandeau et une fermeture auto-agrippante ou élastique. Nous validons la construction sur un échantillon de pré-production en 7 à 10 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Le logo peut être brodé à plat ou en 3D (puff), imprimé ou réfléchissant, et des micro-perforations laser d'aération peuvent être ajoutées sur la calotte. Les visières ont une calotte ouverte, un large bandeau et une fermeture auto-agrippante ou élastique. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
         ],
         customOptions: [
           "Style : casquette de golf 6 ou 5 panneaux, ou visière à calotte ouverte.",
@@ -1950,7 +1950,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Golf Caps und Visors aus Guangzhou: leichte Funktionsstoffe, Flach- oder 3D-Stickerei, reflektierende Logos. Ab 50 Stück pro Farbe.",
         intro: [
           "Eine Golf Cap soll auf dem Platz gut aussehen und eine lange Runde in der Sonne bequem bleiben: leichter Stoff, sicherer Sitz und ein sauberes Logo. NanCrown fertigt Golf Caps und Visors für Golfmarken, Clubs und Events, aus schnell trocknendem Nylon und elastischen Funktionsstoffen, mit strukturierter oder weicher Krone und gebogenem Schirm.",
-          "Das Logo kann flach oder als 3D-Puff gestickt, gedruckt oder reflektierend sein, und Laser-Lüftungslöcher lassen sich in die Krone einarbeiten. Visors haben eine offene Krone, ein breites Band und einen Klett- oder Gummizugverschluss. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Das Logo kann flach oder als 3D-Puff gestickt, gedruckt oder reflektierend sein, und Laser-Lüftungslöcher lassen sich in die Krone einarbeiten. Visors haben eine offene Krone, ein breites Band und einen Klett- oder Gummizugverschluss. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
         ],
         customOptions: [
           "Style: 6- oder 5-Panel Golf Cap oder Visor mit offener Krone.",
@@ -1996,10 +1996,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Embroidered Caps",
         h1: "Custom Embroidered Caps: 3D Puff, Flat & Chain-Stitch",
-        metaDescription: "Custom embroidered caps with 3D puff, satin-stitch, outline or chain-stitch embroidery. Factory-direct from Guangzhou, 50 pcs per colour, samples in 7–10 days.",
+        metaDescription: "Custom embroidered caps with 3D puff, satin-stitch, outline or chain-stitch embroidery. Factory-direct from Guangzhou, 50 pcs per colour, samples in 7–15 days.",
         intro: [
           "Embroidery is the most common way to put a brand on a cap, and the stitch style changes the whole look. NanCrown embroiders caps in raised 3D puff for bold streetwear logos, flat satin-stitch for clean wordmarks, open outline embroidery that lets the fabric show through, chain-stitch for a textured vintage feel, and appliqué for large letters.",
-          "We digitise your artwork, stitch it on a pre-production sample in 7–10 days, and adjust thread colours and density with you before bulk. Logos can go on the front, sides, back and brim of any of our cap styles, from 50 pieces per colour.",
+          "We digitise your artwork, stitch it on a pre-production sample in 7–15 days, and adjust thread colours and density with you before bulk. Logos can go on the front, sides, back and brim of any of our cap styles, from 50 pieces per colour.",
         ],
         customOptions: [
           "3D puff embroidery: raised lettering and logos on structured fronts.",
@@ -2026,10 +2026,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       es: {
         name: "Gorras Bordadas",
         h1: "Gorras bordadas personalizadas: bordado 3D, plano y de cadeneta",
-        metaDescription: "Gorras bordadas personalizadas: bordado 3D (puff), de satén, de contorno o de cadeneta. Directo de fábrica, 50 uds. por color, muestra en 7–10 días.",
+        metaDescription: "Gorras bordadas personalizadas: bordado 3D (puff), de satén, de contorno o de cadeneta. Directo de fábrica, 50 uds. por color, muestra en 7–15 días.",
         intro: [
           "El bordado es la forma más habitual de poner una marca en una gorra, y el tipo de puntada cambia todo el aspecto. En NanCrown bordamos gorras en 3D (puff) en relieve para logos streetwear contundentes, en satén plano para logotipos limpios, en contorno abierto que deja ver el tejido, en cadeneta para un toque vintage con textura, y en aplicación para letras grandes.",
-          "Digitalizamos tu diseño, lo bordamos en una muestra de preproducción en 7–10 días y ajustamos contigo los colores del hilo y la densidad antes de producir. Los logos pueden ir en el frontal, los laterales, la parte trasera y la visera de cualquiera de nuestros modelos, desde 50 piezas por color.",
+          "Digitalizamos tu diseño, lo bordamos en una muestra de preproducción en 7–15 días y ajustamos contigo los colores del hilo y la densidad antes de producir. Los logos pueden ir en el frontal, los laterales, la parte trasera y la visera de cualquiera de nuestros modelos, desde 50 piezas por color.",
         ],
         customOptions: [
           "Bordado 3D (puff): letras y logos en relieve sobre frontales estructurados.",
@@ -2056,10 +2056,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       fr: {
         name: "Casquettes Brodées",
         h1: "Casquettes brodées personnalisées : broderie 3D, à plat et au point de chaînette",
-        metaDescription: "Casquettes brodées personnalisées : broderie 3D (puff), à plat, en contour ou chaînette. Direct usine, dès 50 pièces par couleur, échantillon en 7 à 10 jours.",
+        metaDescription: "Casquettes brodées personnalisées : broderie 3D (puff), à plat, en contour ou chaînette. Direct usine, dès 50 pièces par couleur, échantillon en 7 à 15 jours.",
         intro: [
           "La broderie est la façon la plus courante de mettre une marque sur une casquette, et le type de point change tout. NanCrown brode des casquettes en 3D (puff) en relief pour des logos streetwear affirmés, au point lancé à plat pour des logotypes nets, en contour ouvert qui laisse voir le tissu, au point de chaînette pour un rendu vintage texturé, et en appliqué pour les grandes lettres.",
-          "Nous numérisons votre visuel, le brodons sur un échantillon de pré-production en 7 à 10 jours et ajustons avec vous les couleurs de fil et la densité avant la série. Les logos peuvent être placés devant, sur les côtés, à l'arrière et sur la visière de tous nos modèles, dès 50 pièces par couleur.",
+          "Nous numérisons votre visuel, le brodons sur un échantillon de pré-production en 7 à 15 jours et ajustons avec vous les couleurs de fil et la densité avant la série. Les logos peuvent être placés devant, sur les côtés, à l'arrière et sur la visière de tous nos modèles, dès 50 pièces par couleur.",
         ],
         customOptions: [
           "Broderie 3D (puff) : lettres et logos en relief sur les devants structurés.",
@@ -2086,10 +2086,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       de: {
         name: "Bestickte Caps",
         h1: "Individuell bestickte Caps: 3D-Puff-, Flach- und Kettstich",
-        metaDescription: "Individuell bestickte Caps mit 3D-Puff-, Satinstich-, Kontur- oder Kettstich-Stickerei. Direkt ab Fabrik in Guangzhou, 50 Stück pro Farbe, Muster in 7–10 Tagen.",
+        metaDescription: "Individuell bestickte Caps mit 3D-Puff-, Satinstich-, Kontur- oder Kettstich-Stickerei. Direkt ab Fabrik in Guangzhou, 50 Stück pro Farbe, Muster in 7–15 Tagen.",
         intro: [
           "Stickerei ist der häufigste Weg, eine Marke auf eine Cap zu bringen, und die Stichart verändert den ganzen Look. NanCrown bestickt Caps mit erhabener 3D-Puff-Stickerei für kräftige Streetwear-Logos, flachem Satinstich für klare Schriftzüge, offener Konturstickerei, durch die der Stoff sichtbar bleibt, Kettstich für einen strukturierten Vintage-Look und Applikationen für große Buchstaben.",
-          "Wir digitalisieren Ihr Motiv, sticken es in 7–10 Tagen auf ein Vorproduktionsmuster und stimmen Garnfarben und Stichdichte vor der Serie mit Ihnen ab. Logos sind vorne, seitlich, hinten und auf dem Schirm all unserer Cap-Modelle möglich, ab 50 Stück pro Farbe.",
+          "Wir digitalisieren Ihr Motiv, sticken es in 7–15 Tagen auf ein Vorproduktionsmuster und stimmen Garnfarben und Stichdichte vor der Serie mit Ihnen ab. Logos sind vorne, seitlich, hinten und auf dem Schirm all unserer Cap-Modelle möglich, ab 50 Stück pro Farbe.",
         ],
         customOptions: [
           "3D-Puff-Stickerei: erhabene Schriftzüge und Logos auf strukturierten Fronten.",
@@ -2137,7 +2137,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom patch hats from our Guangzhou factory: leather, PU, PVC, woven, embroidered and felt patches on caps, truckers and bucket hats. From 50 pcs per colour.",
         intro: [
           "A patch gives a cap a finished, retail look and keeps fine detail sharp. NanCrown makes patch hats with leather and PU leather patches, rubbery PVC patches, fine-detail woven patches, embroidered patches and felt or fabric appliqué letters.",
-          "Patches can be sewn onto trucker hats, baseball and dad caps, snapbacks and bucket hats, in the shape, size and colours of your design. We confirm the patch and its position on a pre-production sample in 7–10 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Patches can be sewn onto trucker hats, baseball and dad caps, snapbacks and bucket hats, in the shape, size and colours of your design. We confirm the patch and its position on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
         ],
         customOptions: [
           "Leather and PU leather patches in your shape and colour.",
@@ -2167,7 +2167,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras con parche personalizadas hechas en Guangzhou: parches de cuero, PU, PVC, tejidos, bordados y de fieltro. Desde 50 uds. por color.",
         intro: [
           "Un parche da a la gorra un acabado de tienda y mantiene nítidos los detalles finos. En NanCrown fabricamos gorras con parches de cuero y de cuero PU, parches de PVC con tacto de goma, parches tejidos de alta definición, parches bordados y letras aplicadas en fieltro o tela.",
-          "Los parches se cosen en truckers, gorras de béisbol y dad caps, snapbacks y gorros de pescador, con la forma, el tamaño y los colores de tu diseño. Confirmamos el parche y su posición en una muestra de preproducción en 7–10 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Los parches se cosen en truckers, gorras de béisbol y dad caps, snapbacks y gorros de pescador, con la forma, el tamaño y los colores de tu diseño. Confirmamos el parche y su posición en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
         ],
         customOptions: [
           "Parches de cuero y de cuero PU con tu forma y color.",
@@ -2197,7 +2197,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes à écusson personnalisées fabriquées à Guangzhou : écussons cuir, PU, PVC, tissés, brodés ou feutre. Dès 50 pièces par couleur.",
         intro: [
           "Un écusson donne à la casquette une finition boutique et garde les détails fins bien nets. NanCrown fabrique des casquettes avec écussons en cuir et en cuir PU, écussons en PVC au toucher caoutchouc, écussons tissés haute définition, écussons brodés et lettres appliquées en feutre ou en tissu.",
-          "Les écussons se cousent sur les truckers, les casquettes baseball et dad caps, les snapbacks et les bobs, à la forme, à la taille et aux couleurs de votre design. Nous validons l'écusson et son emplacement sur un échantillon de pré-production en 7 à 10 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Les écussons se cousent sur les truckers, les casquettes baseball et dad caps, les snapbacks et les bobs, à la forme, à la taille et aux couleurs de votre design. Nous validons l'écusson et son emplacement sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
         ],
         customOptions: [
           "Écussons en cuir et en cuir PU, à votre forme et à votre couleur.",
@@ -2227,7 +2227,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Patch Caps aus Guangzhou: Leder-, PU-, PVC-, Web-, Stick- und Filz-Patches auf Caps, Truckern und Fischerhüten. Ab 50 Stück pro Farbe.",
         intro: [
           "Ein Patch gibt einer Cap ein fertiges Retail-Finish und hält feine Details scharf. NanCrown fertigt Patch Caps mit Leder- und PU-Leder-Patches, gummiartigen PVC-Patches, detailgenauen Web-Patches, Stick-Patches sowie applizierten Buchstaben aus Filz oder Stoff.",
-          "Patches werden auf Trucker Caps, Baseball und Dad Caps, Snapbacks und Fischerhüte genäht, in Form, Größe und Farben Ihres Designs. Patch und Position bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Patches werden auf Trucker Caps, Baseball und Dad Caps, Snapbacks und Fischerhüte genäht, in Form, Größe und Farben Ihres Designs. Patch und Position bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
         ],
         customOptions: [
           "Leder- und PU-Leder-Patches in Ihrer Form und Farbe.",
@@ -2275,7 +2275,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Private label caps and hats made in our Guangzhou factory: your logo, woven labels, printed inside taping, hangtags and packaging. From 50 pcs per colour.",
         intro: [
           "Private label means the finished hat carries only your brand: your logo on the outside and your details on the inside, with no factory marks. NanCrown builds private label caps and hats from your own design or from one of our base styles, in the fabric, colours and decoration you choose.",
-          "Inside and out, the branding is yours: woven labels, printed inside taping, custom hardware, hangtags and packaging. We confirm every detail on a pre-production sample in 7–10 days, produce from 50 pieces per colour, and can quote DDP delivery so you know your landed cost up front.",
+          "Inside and out, the branding is yours: woven labels, printed inside taping, custom hardware, hangtags and packaging. We confirm every detail on a pre-production sample in 7–15 days, produce from 50 pieces per colour, and can quote DDP delivery so you know your landed cost up front.",
         ],
         customOptions: [
           "Outside: embroidery, patches, printing or appliqué in your artwork.",
@@ -2305,7 +2305,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras de marca propia fabricadas en Guangzhou: tu logo, etiquetas tejidas, cinta interior estampada, etiquetas colgantes y embalaje. Desde 50 uds. por color.",
         intro: [
           "Marca propia significa que la gorra terminada lleva solo tu marca: tu logo por fuera y tus detalles por dentro, sin marcas de fábrica. En NanCrown fabricamos gorras y gorros de marca propia a partir de tu diseño o de uno de nuestros modelos base, en el tejido, los colores y la decoración que elijas.",
-          "Por dentro y por fuera, la marca es tuya: etiquetas tejidas, cinta interior estampada, herrajes personalizados, etiquetas colgantes y embalaje. Confirmamos cada detalle en una muestra de preproducción en 7–10 días, fabricamos desde 50 piezas por color y podemos cotizar la entrega DDP para que conozcas el coste final desde el principio.",
+          "Por dentro y por fuera, la marca es tuya: etiquetas tejidas, cinta interior estampada, herrajes personalizados, etiquetas colgantes y embalaje. Confirmamos cada detalle en una muestra de preproducción en 7–15 días, fabricamos desde 50 piezas por color y podemos cotizar la entrega DDP para que conozcas el coste final desde el principio.",
         ],
         customOptions: [
           "Exterior: bordado, parches, estampado o aplicaciones con tu diseño.",
@@ -2335,7 +2335,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes en marque propre fabriquées à Guangzhou : votre logo, étiquettes tissées, ganse imprimée, étiquettes volantes, emballage. Dès 50 pièces par couleur.",
         intro: [
           "Marque propre signifie que la casquette finie ne porte que votre marque : votre logo à l'extérieur, vos détails à l'intérieur, sans aucune marque d'usine. NanCrown fabrique des casquettes et bonnets en marque propre à partir de votre design ou de l'un de nos modèles de base, dans le tissu, les couleurs et la décoration de votre choix.",
-          "Dedans comme dehors, la marque est la vôtre : étiquettes tissées, ganse intérieure imprimée, accessoires personnalisés, étiquettes volantes et emballage. Nous validons chaque détail sur un échantillon de pré-production en 7 à 10 jours, produisons dès 50 pièces par couleur et pouvons chiffrer une livraison DDP pour que vous connaissiez votre coût rendu dès le départ.",
+          "Dedans comme dehors, la marque est la vôtre : étiquettes tissées, ganse intérieure imprimée, accessoires personnalisés, étiquettes volantes et emballage. Nous validons chaque détail sur un échantillon de pré-production en 7 à 15 jours, produisons dès 50 pièces par couleur et pouvons chiffrer une livraison DDP pour que vous connaissiez votre coût rendu dès le départ.",
         ],
         customOptions: [
           "Extérieur : broderie, écussons, impression ou appliqué selon votre visuel.",
@@ -2365,7 +2365,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Private-Label-Caps aus unserer Fabrik in Guangzhou: Ihr Logo, gewebte Etiketten, bedrucktes Innenband, Hängeetiketten und Verpackung. Ab 50 Stück pro Farbe.",
         intro: [
           "Private Label heißt: Die fertige Cap trägt nur Ihre Marke, Ihr Logo außen und Ihre Details innen, ohne Herstellerkennzeichen. NanCrown fertigt Private-Label-Caps und -Mützen nach Ihrem eigenen Design oder auf Basis eines unserer Grundmodelle, in Stoff, Farben und Veredelung Ihrer Wahl.",
-          "Innen wie außen gehört das Branding Ihnen: gewebte Etiketten, bedrucktes Innenband, individuelle Metallteile, Hängeetiketten und Verpackung. Jedes Detail bestätigen wir an einem Vorproduktionsmuster in 7–10 Tagen, produzieren ab 50 Stück pro Farbe und kalkulieren auf Wunsch die DDP-Lieferung, damit Sie Ihre Gesamtkosten von Anfang an kennen.",
+          "Innen wie außen gehört das Branding Ihnen: gewebte Etiketten, bedrucktes Innenband, individuelle Metallteile, Hängeetiketten und Verpackung. Jedes Detail bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen, produzieren ab 50 Stück pro Farbe und kalkulieren auf Wunsch die DDP-Lieferung, damit Sie Ihre Gesamtkosten von Anfang an kennen.",
         ],
         customOptions: [
           "Außen: Stickerei, Patches, Druck oder Applikation nach Ihrer Vorlage.",

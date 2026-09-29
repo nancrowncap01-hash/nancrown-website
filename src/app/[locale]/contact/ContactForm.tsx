@@ -1,7 +1,7 @@
 "use client";
 
 import { useRef, useState, type ChangeEvent, type FormEvent } from "react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { HOME_AB_COOKIE } from "@/lib/home-ab";
 import { readStoredSource } from "@/lib/source-tracking";
 
@@ -31,6 +31,7 @@ type ContactFormProps = {
 
 export default function ContactForm({ variant = "page" }: ContactFormProps) {
   const t = useTranslations("Contact");
+  const locale = useLocale();
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [attachmentFiles, setAttachmentFiles] = useState<File[]>([]);
   const [attachmentErrorKey, setAttachmentErrorKey] = useState<string | null>(null);
@@ -83,6 +84,8 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
     const formData = new FormData(e.currentTarget);
     // 标注这条询盘来自首页 A 版还是 B 版,没有 cookie(没经过首页/单版模式)就带空字符串
     formData.set("homeVersion", readHomeVariantCookie() ?? "");
+    // 带上当前页面语言,接口那边用它来决定客户确认信发哪种语言(只认 en/es/fr/de,别的当 en)
+    formData.set("locale", locale);
 
     // 带上"访客第一次从哪来"的记录(选填,读不到就不带)
     const source = readStoredSource();

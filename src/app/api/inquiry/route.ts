@@ -56,6 +56,165 @@ function formatBytes(bytes: number): string {
   return `${(bytes / 1024).toFixed(0)} KB`;
 }
 
+// ============ 客户自动回执(询盘确认信)============
+// 支持的语言;表单带上来的 locale 不在这四个里就一律当 en
+type ConfirmLocale = "en" | "es" | "fr" | "de";
+const SUPPORTED_LOCALES: readonly ConfirmLocale[] = ["en", "es", "fr", "de"];
+
+function resolveConfirmLocale(raw: string): ConfirmLocale {
+  const v = raw.trim().toLowerCase();
+  return (SUPPORTED_LOCALES as readonly string[]).includes(v) ? (v as ConfirmLocale) : "en";
+}
+
+// 报价页链接按语言分开
+const PRICING_URLS: Record<ConfirmLocale, string> = {
+  en: "https://nancrown.com/pricing",
+  es: "https://nancrown.com/es/pricing",
+  fr: "https://nancrown.com/fr/pricing",
+  de: "https://nancrown.com/de/pricing",
+};
+
+// 确认信标题(四语言,老板给的文案原样)
+const CONFIRMATION_SUBJECTS: Record<ConfirmLocale, string> = {
+  en: "We received your inquiry – NanCrown Caps",
+  es: "Hemos recibido su consulta – NanCrown Caps",
+  fr: "Nous avons bien reçu votre demande – NanCrown Caps",
+  de: "Wir haben Ihre Anfrage erhalten – NanCrown Caps",
+};
+
+type ConfirmationBodyParams = {
+  name: string;
+  product: string;
+  quantity: string;
+  pricingUrl: string;
+};
+
+// 确认信正文(四语言,老板给的文案原样,一字不改,只替换占位符)
+const CONFIRMATION_BODY_TEMPLATES: Record<ConfirmLocale, (p: ConfirmationBodyParams) => string> = {
+  en: ({ name, product, quantity, pricingUrl }) => `Hi ${name},
+
+Thank you for contacting NanCrown. This is an automatic confirmation that your inquiry has reached our sales team.
+
+Carrie from our sales team will reply personally within one business day (Guangzhou time, GMT+8) with questions or a quote.
+
+To get an accurate quote faster, you can reply to this email with:
+- your logo or design file (AI, PDF or PNG)
+- the quantity per style and per colour
+- the colours you need
+- your delivery country
+
+Indicative prices, minimum order and lead times: ${pricingUrl}
+
+Your inquiry:
+Product: ${product}
+Quantity: ${quantity}
+
+Best regards,
+NanCrown Caps
+Guangzhou, China
+info@nancrown.com`,
+  es: ({ name, product, quantity, pricingUrl }) => `Hola, ${name}:
+
+Gracias por contactar con NanCrown. Este es un mensaje automático para confirmarle que su consulta ha llegado a nuestro equipo de ventas.
+
+Carrie, de nuestro equipo de ventas, le responderá personalmente en un plazo de un día laborable (hora de Cantón, GMT+8) con preguntas o un presupuesto.
+
+Para recibir un presupuesto exacto más rápido, puede responder a este correo con:
+- el archivo de su logo o diseño (AI, PDF o PNG)
+- la cantidad por modelo y por color
+- los colores que necesita
+- el país de entrega
+
+Precios orientativos, pedido mínimo y plazos: ${pricingUrl}
+
+Su consulta:
+Producto: ${product}
+Cantidad: ${quantity}
+
+Saludos cordiales,
+NanCrown Caps
+Cantón (Guangzhou), China
+info@nancrown.com`,
+  fr: ({ name, product, quantity, pricingUrl }) => `Bonjour ${name},
+
+Merci d'avoir contacté NanCrown. Ceci est une confirmation automatique : votre demande est bien arrivée à notre équipe commerciale.
+
+Carrie, de notre équipe commerciale, vous répondra personnellement sous un jour ouvré (heure de Canton, GMT+8) avec ses questions ou un devis.
+
+Pour obtenir un devis précis plus rapidement, vous pouvez répondre à cet e-mail en joignant :
+- votre logo ou fichier de design (AI, PDF ou PNG)
+- la quantité par modèle et par couleur
+- les couleurs souhaitées
+- le pays de livraison
+
+Prix indicatifs, minimum de commande et délais : ${pricingUrl}
+
+Votre demande :
+Produit : ${product}
+Quantité : ${quantity}
+
+Cordialement,
+NanCrown Caps
+Canton (Guangzhou), Chine
+info@nancrown.com`,
+  de: ({ name, product, quantity, pricingUrl }) => `Hallo ${name},
+
+vielen Dank für Ihre Anfrage bei NanCrown. Dies ist eine automatische Bestätigung: Ihre Anfrage ist bei unserem Vertriebsteam angekommen.
+
+Carrie aus unserem Vertriebsteam antwortet Ihnen persönlich innerhalb eines Werktags (Ortszeit Guangzhou, GMT+8) mit Rückfragen oder einem Angebot.
+
+Für ein genaues Angebot können Sie einfach auf diese E-Mail antworten und Folgendes mitschicken:
+- Ihr Logo oder Ihre Designdatei (AI, PDF oder PNG)
+- die Menge pro Modell und pro Farbe
+- die gewünschten Farben
+- das Lieferland
+
+Richtpreise, Mindestmenge und Lieferzeiten: ${pricingUrl}
+
+Ihre Anfrage:
+Produkt: ${product}
+Menge: ${quantity}
+
+Mit freundlichen Grüßen
+NanCrown Caps
+Guangzhou, China
+info@nancrown.com`,
+};
+
+// 客户输入拼进确认信正文前:去换行(防止伪造出新的一行/字段)+ 限长
+function sanitizeForBody(value: string, maxLength: number): string {
+  return truncate(value.replace(/[\r\n]+/g, " ").trim(), maxLength);
+}
+
+// 产品下拉值 → 该语言里给客户看的显示名(messages/<locale>.json 的 Contact.productOptions);找不到就用原样
+async function resolveProductLabel(locale: ConfirmLocale, product: string): Promise<string> {
+  try {
+    const messages = (await import(`../../../../messages/${locale}.json`)).default as {
+      Contact?: { productOptions?: Record<string, string> };
+    };
+    const label = messages?.Contact?.productOptions?.[product];
+    return typeof label === "string" && label ? label : product;
+  } catch {
+    return product;
+  }
+}
+
+// 纯文本转成"最简单"的 HTML 版本:转义 + 链接可点 + 换行变 <br>,不做花样排版
+function textToSimpleHtml(text: string): string {
+  const escaped = escapeHtml(text);
+  const linked = escaped.replace(/(https?:\/\/[^\s<]+)/g, (url) => `<a href="${url}">${url}</a>`);
+  return linked.replace(/\n/g, "<br>\n");
+}
+
+// 简单校验邮箱格式(不追求完美,够用来挡明显打错的地址)
+const EMAIL_FORMAT_RE = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+
+// 判断是不是我们自己测试用的内部地址(nancrown.com 或其子域名)
+function isInternalNancrownEmail(email: string): boolean {
+  const domain = email.trim().toLowerCase().split("@")[1] ?? "";
+  return domain === "nancrown.com" || domain.endsWith(".nancrown.com");
+}
+
 export async function POST(request: NextRequest) {
   let formData: FormData;
   try {
@@ -79,6 +238,7 @@ export async function POST(request: NextRequest) {
   const message = strField("message");
   const homeVersion = strField("homeVersion");
   const foundVia = strField("foundVia");
+  const localeField = strField("locale");
   // 防机器人暗格:真人看不见也点不到,正常情况下应该一直是空的
   const honeypotValue = strField("nc_hp");
 
@@ -175,6 +335,52 @@ export async function POST(request: NextRequest) {
     ? "⚠️ hidden field was filled — possibly a spam bot, please check"
     : "passed";
 
+  // ---- 客户自动回执:先判断要不要发、发哪种语言,再(如果要发)把内容备好 ----
+  const confirmLocale = resolveConfirmLocale(localeField);
+  const trimmedEmail = email.trim();
+  const isValidEmailFormat = EMAIL_FORMAT_RE.test(trimmedEmail);
+  const isInternalEmail = isValidEmailFormat && isInternalNancrownEmail(trimmedEmail);
+
+  // 三种不发确认信的情况,按顺序判断,只留一个理由
+  type ConfirmSkipReason = "bot" | "invalid_email" | "internal_email" | null;
+  const confirmSkipReason: ConfirmSkipReason = isBotSuspect
+    ? "bot"
+    : !isValidEmailFormat
+      ? "invalid_email"
+      : isInternalEmail
+        ? "internal_email"
+        : null;
+
+  const CONFIRM_SKIP_LABELS: Record<Exclude<ConfirmSkipReason, null>, string> = {
+    bot: "Not sent (possible bot)",
+    invalid_email: "Not sent (invalid email)",
+    internal_email: "Not sent (internal address)",
+  };
+
+  let confirmationEmail: { subject: string; text: string; html: string } | null = null;
+  if (confirmSkipReason === null) {
+    const productLabel = await resolveProductLabel(confirmLocale, product);
+    const bodyParams: ConfirmationBodyParams = {
+      name: sanitizeForBody(name, 80),
+      product: sanitizeForBody(productLabel, 60),
+      quantity: sanitizeForBody(quantity, 60) || "—",
+      pricingUrl: PRICING_URLS[confirmLocale],
+    };
+    const confirmationSubject = CONFIRMATION_SUBJECTS[confirmLocale];
+    const confirmationText = CONFIRMATION_BODY_TEMPLATES[confirmLocale](bodyParams);
+    confirmationEmail = {
+      subject: confirmationSubject,
+      text: confirmationText,
+      html: textToSimpleHtml(confirmationText),
+    };
+  }
+
+  // 通知信表格里这一行只反映"准备发"的状态:通知信本来就先发出去,不等确认信真的发完才写表格
+  const autoConfirmDisplay =
+    confirmSkipReason === null
+      ? `Sent to customer (${confirmLocale.toUpperCase()})`
+      : CONFIRM_SKIP_LABELS[confirmSkipReason];
+
   const resendApiKey = process.env.RESEND_API_KEY;
   // 询盘固定发到公司邮箱。Vercel 上的 NOTIFY_EMAIL 填成了 nancrowncap@gmail.com(少了 01,不是在用的邮箱),所以不再读它
   const notifyEmail = "info@nancrown.com";
@@ -203,6 +409,7 @@ export async function POST(request: NextRequest) {
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">First visit</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(srcFirstVisit) || "N/A")}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Bot check</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(botCheckDisplay)}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Homepage version</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(homeVersionLabel)}</td></tr>
+          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Auto-confirmation</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(autoConfirmDisplay)}</td></tr>
         </table>
       `;
 
@@ -217,6 +424,18 @@ export async function POST(request: NextRequest) {
         html,
         attachments: attachmentSummaries,
       },
+      wouldSendConfirmation: confirmationEmail
+        ? {
+            to: trimmedEmail,
+            subject: confirmationEmail.subject,
+            text: confirmationEmail.text,
+          }
+        : {
+            to: null,
+            subject: null,
+            text: null,
+            reason: confirmSkipReason ? CONFIRM_SKIP_LABELS[confirmSkipReason] : null,
+          },
     });
   }
 
@@ -259,6 +478,25 @@ export async function POST(request: NextRequest) {
         { error: "send_failed", code: error.name },
         { status: 502 }
       );
+    }
+
+    // 通知信发出去之后,再发客户确认信(不影响接口返回成功;失败只记日志)
+    if (confirmationEmail) {
+      try {
+        const { error: confirmError } = await resend.emails.send({
+          from: "NanCrown Caps <inquiry@notify.nancrown.com>",
+          to: [trimmedEmail],
+          replyTo: "info@nancrown.com",
+          subject: confirmationEmail.subject,
+          text: confirmationEmail.text,
+          html: confirmationEmail.html,
+        });
+        if (confirmError) {
+          console.error("Failed to send inquiry auto-confirmation email:", confirmError);
+        }
+      } catch (confirmException) {
+        console.error("Unexpected error sending inquiry auto-confirmation email:", confirmException);
+      }
     }
 
     return NextResponse.json({ success: true, id: data?.id });

@@ -5,8 +5,8 @@
 //   /start-a-hat-brand  新品牌第一批系列:怎么规划首单、预算示例、流程
 //
 // 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版):
-//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $6.2–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
-//   - 起订 50 顶/色/款;同款可混色凑档;样品 $60–80/款、7–10 天,同款大货满 200 顶退样品费
+//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $6.0–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
+//   - 起订 50 顶/色/款;同款可混色凑档;样品 $60–80/款、7–15 天,同款大货满 1000 顶退样品费
 //   - 大货:样品确认后 25–30 天,另加物流时间;付款 50% 定金 + 验货通过后付尾款;可帮问 DDP;接受第三方验货;可视频看车间
 //   - 2015 年成立、约 2,000 m²、30+ 员工、月产 10 万+、客户 50+ 国家
 //   - 裁剪车缝组装自己做;刺绣/印花/水洗交长期合作工序厂、每批回厂检查(🔴 不许写 in-house / under one roof / 不外发)
@@ -45,7 +45,7 @@ export interface GuideLocaleContent {
 const pricingEn: GuideLocaleContent = {
   metaTitle: "Custom Hat Pricing, MOQ & Lead Times",
   metaDescription:
-    "Factory-direct custom cap prices from 50 pieces per colour: $6.2–7.7 per cap at 50, $4.5–5.2 at 500+. Samples in 7–10 days, bulk in 25–30 days.",
+    "Factory-direct custom cap prices from 50 pieces per colour: $6.0–7.7 per cap at 50, $4.5–5.2 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
   h1: "Custom Hat Pricing, MOQ & Lead Times",
   lead:
     "Straight answers to what every brand asks before ordering custom caps: what a cap costs at 50, 100, 300 or 500 pieces, how samples work, how long production takes and how you pay. Prices below are indicative for our standard build. Send us your design and we will confirm an exact quote.",
@@ -59,7 +59,7 @@ const pricingEn: GuideLocaleContent = {
       type: "table",
       head: ["Quantity per style", "Price per cap (USD)", "Good for"],
       rows: [
-        ["50–99 (min. 50 per colour)", "<b>$6.2 – 7.7</b>", "Testing a design or a first drop"],
+        ["50–99 (min. 50 per colour)", "<b>$6.0 – 7.7</b>", "Testing a design or a first drop"],
         ["100–299", "<b>$5.5 – 6.7</b>", "A first collection"],
         ["300–499", "<b>$4.9 – 5.8</b>", "Core styles and reorders"],
         ["500+", "<b>$4.5 – 5.2</b>", "Best-sellers and wholesale"],
@@ -92,8 +92,8 @@ const pricingEn: GuideLocaleContent = {
       type: "list",
       items: [
         "Sample fee: <b>$60–80 per design</b>, depending on construction and decoration.",
-        "Sample time: <b>7–10 days</b> after we confirm your artwork and fabric.",
-        "The sample fee is <b>refunded</b> when you order 200 pieces or more of that design.",
+        "Sample time: <b>7–15 days</b> after we confirm your artwork and fabric.",
+        "The sample fee is <b>refunded</b> when you order 1,000 pieces or more of that design.",
         "Revisions are made before you approve. Bulk production only starts after your sign-off.",
       ],
     },
@@ -101,7 +101,7 @@ const pricingEn: GuideLocaleContent = {
     {
       type: "steps",
       items: [
-        { title: "Sample", text: "7–10 days from confirmed artwork and fabric." },
+        { title: "Sample", text: "7–15 days from confirmed artwork and fabric." },
         { title: "Bulk production", text: "25–30 days after you approve the pre-production sample." },
         {
           title: "Shipping",
@@ -155,11 +155,11 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "How much does a custom cap cost?",
-      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $6.2–7.7 per cap at 50–99 pieces, $5.5–6.7 at 100–299, $4.9–5.8 at 300–499 and $4.5–5.2 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
+      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $6.0–7.7 per cap at 50–99 pieces, $5.5–6.7 at 100–299, $4.9–5.8 at 300–499 and $4.5–5.2 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
     },
     {
       q: "How much is a sample, and is it refundable?",
-      a: "$60–80 per design, ready in 7–10 days. The fee is refunded when you order 200 pieces or more of that design.",
+      a: "$60–80 per design, ready in 7–15 days. The fee is refunded when you order 1,000 pieces or more of that design.",
     },
     {
       q: "How long does production take?",
@@ -188,7 +188,7 @@ const pricingEn: GuideLocaleContent = {
 const pricingEs: GuideLocaleContent = {
   metaTitle: "Precios de gorras personalizadas, pedido mínimo y plazos",
   metaDescription:
-    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 6,2–7,7 USD por gorra en 50 y 4,5–5,2 USD desde 500. Muestras en 7–10 días.",
+    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 6,0–7,7 USD por gorra en 50 y 4,5–5,2 USD desde 500. Muestras en 7–15 días.",
   h1: "Precios de gorras personalizadas, pedido mínimo y plazos",
   lead:
     "Respuestas claras a lo que toda marca pregunta antes de encargar gorras personalizadas: cuánto cuesta una gorra en 50, 100, 300 o 500 piezas, cómo funcionan las muestras, cuánto tarda la producción y cómo se paga. Los precios son orientativos para nuestro modelo estándar. Envíanos tu diseño y te confirmamos un presupuesto exacto.",
@@ -202,7 +202,7 @@ const pricingEs: GuideLocaleContent = {
       type: "table",
       head: ["Cantidad por modelo", "Precio por gorra (USD)", "Ideal para"],
       rows: [
-        ["50–99 (mín. 50 por color)", "<b>6,2 – 7,7</b>", "Probar un diseño o un primer lanzamiento"],
+        ["50–99 (mín. 50 por color)", "<b>6,0 – 7,7</b>", "Probar un diseño o un primer lanzamiento"],
         ["100–299", "<b>5,5 – 6,7</b>", "Una primera colección"],
         ["300–499", "<b>4,9 – 5,8</b>", "Modelos principales y reposiciones"],
         ["500+", "<b>4,5 – 5,2</b>", "Superventas y venta al por mayor"],
@@ -235,8 +235,8 @@ const pricingEs: GuideLocaleContent = {
       type: "list",
       items: [
         "Coste de la muestra: <b>60–80 USD por diseño</b>, según la construcción y la decoración.",
-        "Plazo de la muestra: <b>7–10 días</b> desde que confirmamos arte y tejido.",
-        "El coste de la muestra se <b>devuelve</b> si pides 200 piezas o más de ese diseño.",
+        "Plazo de la muestra: <b>7–15 días</b> desde que confirmamos arte y tejido.",
+        "El coste de la muestra se <b>devuelve</b> si pides 1.000 piezas o más de ese diseño.",
         "Las correcciones se hacen antes de tu aprobación. La producción solo empieza cuando das el visto bueno.",
       ],
     },
@@ -244,7 +244,7 @@ const pricingEs: GuideLocaleContent = {
     {
       type: "steps",
       items: [
-        { title: "Muestra", text: "7–10 días desde el arte y el tejido confirmados." },
+        { title: "Muestra", text: "7–15 días desde el arte y el tejido confirmados." },
         { title: "Producción en volumen", text: "25–30 días después de aprobar la muestra de preproducción." },
         {
           title: "Envío",
@@ -298,11 +298,11 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto cuesta una gorra personalizada?",
-      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 6,2–7,7 USD por gorra en 50–99 piezas, 5,5–6,7 USD en 100–299, 4,9–5,8 USD en 300–499 y 4,5–5,2 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
+      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 6,0–7,7 USD por gorra en 50–99 piezas, 5,5–6,7 USD en 100–299, 4,9–5,8 USD en 300–499 y 4,5–5,2 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
     },
     {
       q: "¿Cuánto cuesta una muestra y se devuelve?",
-      a: "60–80 USD por diseño, lista en 7–10 días. Se devuelve si pides 200 piezas o más de ese diseño.",
+      a: "60–80 USD por diseño, lista en 7–15 días. Se devuelve si pides 1.000 piezas o más de ese diseño.",
     },
     {
       q: "¿Cuánto tarda la producción?",
@@ -331,7 +331,7 @@ const pricingEs: GuideLocaleContent = {
 const pricingFr: GuideLocaleContent = {
   metaTitle: "Prix des casquettes personnalisées, minimum de commande et délais",
   metaDescription:
-    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 6,2–7,7 USD la casquette à 50, 4,5–5,2 USD dès 500. Échantillon en 7 à 10 jours.",
+    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 6,0–7,7 USD la casquette à 50, 4,5–5,2 USD dès 500. Échantillon en 7 à 15 jours.",
   h1: "Prix des casquettes personnalisées, minimum de commande et délais",
   lead:
     "Des réponses claires à ce que chaque marque demande avant de commander des casquettes personnalisées : le prix d'une casquette à 50, 100, 300 ou 500 pièces, le fonctionnement des échantillons, la durée de production et le paiement. Les prix sont indicatifs pour notre modèle standard. Envoyez-nous votre design et nous vous confirmons un devis exact.",
@@ -345,7 +345,7 @@ const pricingFr: GuideLocaleContent = {
       type: "table",
       head: ["Quantité par modèle", "Prix par casquette (USD)", "Idéal pour"],
       rows: [
-        ["50–99 (min. 50 par couleur)", "<b>6,2 – 7,7</b>", "Tester un design ou un premier drop"],
+        ["50–99 (min. 50 par couleur)", "<b>6,0 – 7,7</b>", "Tester un design ou un premier drop"],
         ["100–299", "<b>5,5 – 6,7</b>", "Une première collection"],
         ["300–499", "<b>4,9 – 5,8</b>", "Modèles phares et réassorts"],
         ["500+", "<b>4,5 – 5,2</b>", "Best-sellers et vente en gros"],
@@ -378,8 +378,8 @@ const pricingFr: GuideLocaleContent = {
       type: "list",
       items: [
         "Prix de l'échantillon : <b>60–80 USD par design</b>, selon la construction et la décoration.",
-        "Délai de l'échantillon : <b>7 à 10 jours</b> après validation du visuel et du tissu.",
-        "Le prix de l'échantillon est <b>remboursé</b> si vous commandez 200 pièces ou plus de ce design.",
+        "Délai de l'échantillon : <b>7 à 15 jours</b> après validation du visuel et du tissu.",
+        "Le prix de l'échantillon est <b>remboursé</b> si vous commandez 1 000 pièces ou plus de ce design.",
         "Les corrections sont faites avant votre validation. La production ne démarre qu'après votre accord.",
       ],
     },
@@ -387,7 +387,7 @@ const pricingFr: GuideLocaleContent = {
     {
       type: "steps",
       items: [
-        { title: "Échantillon", text: "7 à 10 jours après validation du visuel et du tissu." },
+        { title: "Échantillon", text: "7 à 15 jours après validation du visuel et du tissu." },
         { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon de pré-production." },
         {
           title: "Expédition",
@@ -441,11 +441,11 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Combien coûte une casquette personnalisée ?",
-      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 6,2–7,7 USD la casquette pour 50–99 pièces, 5,5–6,7 USD pour 100–299, 4,9–5,8 USD pour 300–499 et 4,5–5,2 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
+      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 6,0–7,7 USD la casquette pour 50–99 pièces, 5,5–6,7 USD pour 100–299, 4,9–5,8 USD pour 300–499 et 4,5–5,2 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
     },
     {
       q: "Combien coûte un échantillon, et est-il remboursé ?",
-      a: "60–80 USD par design, prêt en 7 à 10 jours. Il est remboursé si vous commandez 200 pièces ou plus de ce design.",
+      a: "60–80 USD par design, prêt en 7 à 15 jours. Il est remboursé si vous commandez 1 000 pièces ou plus de ce design.",
     },
     {
       q: "Combien de temps dure la production ?",
@@ -474,7 +474,7 @@ const pricingFr: GuideLocaleContent = {
 const pricingDe: GuideLocaleContent = {
   metaTitle: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   metaDescription:
-    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 6,2–7,7 USD pro Cap bei 50, 4,5–5,2 USD ab 500. Muster in 7–10 Tagen, Serie in 25–30 Tagen.",
+    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 6,0–7,7 USD pro Cap bei 50, 4,5–5,2 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
   h1: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   lead:
     "Klare Antworten auf das, was jede Marke vor der Bestellung individueller Caps wissen will: was eine Cap bei 50, 100, 300 oder 500 Stück kostet, wie Muster funktionieren, wie lange die Produktion dauert und wie Sie bezahlen. Die Preise sind Richtwerte für unser Standardmodell. Schicken Sie uns Ihr Design, und wir bestätigen Ihnen ein genaues Angebot.",
@@ -488,7 +488,7 @@ const pricingDe: GuideLocaleContent = {
       type: "table",
       head: ["Menge pro Modell", "Preis pro Cap (USD)", "Geeignet für"],
       rows: [
-        ["50–99 (mind. 50 pro Farbe)", "<b>6,2 – 7,7</b>", "Ein Design testen oder einen ersten Drop"],
+        ["50–99 (mind. 50 pro Farbe)", "<b>6,0 – 7,7</b>", "Ein Design testen oder einen ersten Drop"],
         ["100–299", "<b>5,5 – 6,7</b>", "Eine erste Kollektion"],
         ["300–499", "<b>4,9 – 5,8</b>", "Kernmodelle und Nachbestellungen"],
         ["500+", "<b>4,5 – 5,2</b>", "Bestseller und Großhandel"],
@@ -521,8 +521,8 @@ const pricingDe: GuideLocaleContent = {
       type: "list",
       items: [
         "Musterkosten: <b>60–80 USD pro Design</b>, je nach Konstruktion und Veredelung.",
-        "Musterzeit: <b>7–10 Tage</b>, nachdem Vorlage und Stoff bestätigt sind.",
-        "Die Musterkosten werden <b>erstattet</b>, wenn Sie 200 Stück oder mehr von diesem Design bestellen.",
+        "Musterzeit: <b>7–15 Tage</b>, nachdem Vorlage und Stoff bestätigt sind.",
+        "Die Musterkosten werden <b>erstattet</b>, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
         "Korrekturen erfolgen vor Ihrer Freigabe. Die Serienproduktion startet erst nach Ihrem Okay.",
       ],
     },
@@ -530,7 +530,7 @@ const pricingDe: GuideLocaleContent = {
     {
       type: "steps",
       items: [
-        { title: "Muster", text: "7–10 Tage ab bestätigter Vorlage und bestätigtem Stoff." },
+        { title: "Muster", text: "7–15 Tage ab bestätigter Vorlage und bestätigtem Stoff." },
         { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Vorproduktionsmusters." },
         {
           title: "Versand",
@@ -584,11 +584,11 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Was kostet eine individuelle Cap?",
-      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 6,2–7,7 USD pro Cap für 50–99 Stück, 5,5–6,7 USD für 100–299, 4,9–5,8 USD für 300–499 und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
+      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 6,0–7,7 USD pro Cap für 50–99 Stück, 5,5–6,7 USD für 100–299, 4,9–5,8 USD für 300–499 und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
     },
     {
       q: "Was kostet ein Muster, und wird es erstattet?",
-      a: "60–80 USD pro Design, fertig in 7–10 Tagen. Die Kosten werden erstattet, wenn Sie 200 Stück oder mehr von diesem Design bestellen.",
+      a: "60–80 USD pro Design, fertig in 7–15 Tagen. Die Kosten werden erstattet, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
     },
     {
       q: "Wie lange dauert die Produktion?",
@@ -619,7 +619,7 @@ const pricingDe: GuideLocaleContent = {
 const brandEn: GuideLocaleContent = {
   metaTitle: "Hat Manufacturer for New Brands: Your First Collection",
   metaDescription:
-    "Launching a hat brand? We make custom caps and hats from 50 pieces per colour. Plan a first collection of 2–5 styles, samples in 7–10 days, bulk in 25–30 days.",
+    "Launching a hat brand? We make custom caps and hats from 50 pieces per colour. Plan a first collection of 2–5 styles, samples in 7–15 days, bulk in 25–30 days.",
   h1: "Hat Manufacturer for New Brands: Your First Collection",
   lead:
     "A new hat brand usually starts with a few designs, a limited budget and no room for a bad first batch. Here is how we take new brands from an idea to finished caps, and how to plan a first order that sells through and sets you up for reorders.",
@@ -645,7 +645,7 @@ const brandEn: GuideLocaleContent = {
         ["Core range: 2 styles", "2 × 300 = 600 pcs", "<b>$2,940 – 3,480</b>"],
       ],
       caption:
-        "*Standard build (6-panel cotton twill, flat embroidered logo, woven label), ex-works Guangzhou. Price tiers apply per style. Samples ($60–80 per design), special decorations and shipping are extra; the sample fee is refunded when you order 200+ pieces of a design.",
+        "*Standard build (6-panel cotton twill, flat embroidered logo, woven label), ex-works Guangzhou. Price tiers apply per style. Samples ($60–80 per design), special decorations and shipping are extra; the sample fee is refunded when you order 1,000+ pieces of a design.",
     },
     { type: "h2", text: "From idea to delivery" },
     {
@@ -657,7 +657,7 @@ const brandEn: GuideLocaleContent = {
         },
         {
           title: "Quote and sample",
-          text: "We confirm materials, decoration and price, then make a physical sample in 7–10 days. Revisions are included before you approve.",
+          text: "We confirm materials, decoration and price, then make a physical sample in 7–15 days. Revisions are included before you approve.",
         },
         { title: "Bulk production", text: "25–30 days after sample approval, with checks at every stage." },
         {
@@ -698,7 +698,7 @@ const brandEn: GuideLocaleContent = {
     },
     {
       q: "How long until I have finished hats?",
-      a: "About 7–10 days for the sample, then 25–30 days for bulk production after you approve it, plus shipping time.",
+      a: "About 7–15 days for the sample, then 25–30 days for bulk production after you approve it, plus shipping time.",
     },
     {
       q: "Can you help with labels and packaging?",
@@ -715,7 +715,7 @@ const brandEn: GuideLocaleContent = {
 const brandEs: GuideLocaleContent = {
   metaTitle: "Fabricante de gorras para marcas nuevas: tu primera colección",
   metaDescription:
-    "¿Lanzas una marca de gorras? Fabricamos gorras personalizadas desde 50 piezas por color. Planifica una colección de 2–5 modelos, muestras en 7–10 días.",
+    "¿Lanzas una marca de gorras? Fabricamos gorras personalizadas desde 50 piezas por color. Planifica una colección de 2–5 modelos, muestras en 7–15 días.",
   h1: "Fabricante de gorras para marcas nuevas: tu primera colección",
   lead:
     "Una marca de gorras nueva suele empezar con pocos diseños, un presupuesto ajustado y ningún margen para un primer lote fallido. Así acompañamos a las marcas nuevas desde la idea hasta la gorra terminada, y así puedes planificar un primer pedido que se venda y te prepare para reponer.",
@@ -741,7 +741,7 @@ const brandEs: GuideLocaleContent = {
         ["Gama principal: 2 modelos", "2 × 300 = 600 uds.", "<b>2.940 – 3.480 USD</b>"],
       ],
       caption:
-        "*Modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), en fábrica Guangzhou. Los tramos de precio se aplican por modelo. Las muestras (60–80 USD por diseño), las decoraciones especiales y el envío van aparte; la muestra se devuelve si pides 200 piezas o más de un diseño.",
+        "*Modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), en fábrica Guangzhou. Los tramos de precio se aplican por modelo. Las muestras (60–80 USD por diseño), las decoraciones especiales y el envío van aparte; la muestra se devuelve si pides 1.000 piezas o más de un diseño.",
     },
     { type: "h2", text: "De la idea a la entrega" },
     {
@@ -753,7 +753,7 @@ const brandEs: GuideLocaleContent = {
         },
         {
           title: "Presupuesto y muestra",
-          text: "Confirmamos materiales, decoración y precio, y hacemos una muestra física en 7–10 días. Las correcciones están incluidas antes de tu aprobación.",
+          text: "Confirmamos materiales, decoración y precio, y hacemos una muestra física en 7–15 días. Las correcciones están incluidas antes de tu aprobación.",
         },
         { title: "Producción", text: "25–30 días después de aprobar la muestra, con controles en cada etapa." },
         {
@@ -794,7 +794,7 @@ const brandEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto tardaré en tener las gorras terminadas?",
-      a: "Unos 7–10 días para la muestra y luego 25–30 días de producción tras tu aprobación, más el tiempo de envío.",
+      a: "Unos 7–15 días para la muestra y luego 25–30 días de producción tras tu aprobación, más el tiempo de envío.",
     },
     {
       q: "¿Podéis ayudar con etiquetas y embalaje?",
@@ -811,7 +811,7 @@ const brandEs: GuideLocaleContent = {
 const brandFr: GuideLocaleContent = {
   metaTitle: "Fabricant de casquettes pour nouvelles marques : votre première collection",
   metaDescription:
-    "Vous lancez une marque de casquettes ? Fabrication dès 50 pièces par couleur. Préparez une première collection de 2 à 5 modèles, échantillon en 7 à 10 jours.",
+    "Vous lancez une marque de casquettes ? Fabrication dès 50 pièces par couleur. Préparez une première collection de 2 à 5 modèles, échantillon en 7 à 15 jours.",
   h1: "Fabricant de casquettes pour nouvelles marques : votre première collection",
   lead:
     "Une nouvelle marque de casquettes démarre souvent avec quelques designs, un budget serré et aucune marge pour un premier lot raté. Voici comment nous accompagnons les nouvelles marques de l'idée à la casquette finie, et comment préparer une première commande qui se vend et prépare vos réassorts.",
@@ -837,7 +837,7 @@ const brandFr: GuideLocaleContent = {
         ["Gamme principale : 2 modèles", "2 × 300 = 600 pcs", "<b>2 940 – 3 480 USD</b>"],
       ],
       caption:
-        "*Modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), départ usine Guangzhou. Les paliers de prix s'appliquent par modèle. Échantillons (60–80 USD par design), décorations spéciales et transport en sus ; l'échantillon est remboursé dès 200 pièces commandées d'un même design.",
+        "*Modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), départ usine Guangzhou. Les paliers de prix s'appliquent par modèle. Échantillons (60–80 USD par design), décorations spéciales et transport en sus ; l'échantillon est remboursé dès 1 000 pièces commandées d'un même design.",
     },
     { type: "h2", text: "De l'idée à la livraison" },
     {
@@ -849,7 +849,7 @@ const brandFr: GuideLocaleContent = {
         },
         {
           title: "Devis et échantillon",
-          text: "Nous validons matières, décoration et prix, puis réalisons un échantillon physique en 7 à 10 jours. Les corrections sont incluses avant votre validation.",
+          text: "Nous validons matières, décoration et prix, puis réalisons un échantillon physique en 7 à 15 jours. Les corrections sont incluses avant votre validation.",
         },
         { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon, avec des contrôles à chaque étape." },
         {
@@ -890,7 +890,7 @@ const brandFr: GuideLocaleContent = {
     },
     {
       q: "Dans combien de temps aurai-je mes casquettes ?",
-      a: "Environ 7 à 10 jours pour l'échantillon, puis 25 à 30 jours de production après votre validation, plus le délai de transport.",
+      a: "Environ 7 à 15 jours pour l'échantillon, puis 25 à 30 jours de production après votre validation, plus le délai de transport.",
     },
     {
       q: "Pouvez-vous m'aider pour les étiquettes et l'emballage ?",
@@ -907,7 +907,7 @@ const brandFr: GuideLocaleContent = {
 const brandDe: GuideLocaleContent = {
   metaTitle: "Cap-Hersteller für neue Marken: Ihre erste Kollektion",
   metaDescription:
-    "Sie gründen eine Cap-Marke? Wir fertigen individuelle Caps ab 50 Stück pro Farbe. Planen Sie eine erste Kollektion mit 2–5 Modellen, Muster in 7–10 Tagen.",
+    "Sie gründen eine Cap-Marke? Wir fertigen individuelle Caps ab 50 Stück pro Farbe. Planen Sie eine erste Kollektion mit 2–5 Modellen, Muster in 7–15 Tagen.",
   h1: "Cap-Hersteller für neue Marken: Ihre erste Kollektion",
   lead:
     "Eine neue Cap-Marke startet meist mit wenigen Designs, einem knappen Budget und keinem Spielraum für eine missglückte erste Charge. So begleiten wir neue Marken von der Idee bis zur fertigen Cap, und so planen Sie eine erste Bestellung, die sich verkauft und den Weg für Nachbestellungen ebnet.",
@@ -933,7 +933,7 @@ const brandDe: GuideLocaleContent = {
         ["Kernsortiment: 2 Modelle", "2 × 300 = 600 Stk.", "<b>2.940 – 3.480 USD</b>"],
       ],
       caption:
-        "*Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett), ab Werk Guangzhou. Die Preisstufen gelten pro Modell. Muster (60–80 USD pro Design), Sonderveredelungen und Versand kommen hinzu; die Musterkosten werden ab 200 Stück eines Designs erstattet.",
+        "*Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett), ab Werk Guangzhou. Die Preisstufen gelten pro Modell. Muster (60–80 USD pro Design), Sonderveredelungen und Versand kommen hinzu; die Musterkosten werden ab 1.000 Stück eines Designs erstattet.",
     },
     { type: "h2", text: "Von der Idee bis zur Lieferung" },
     {
@@ -945,7 +945,7 @@ const brandDe: GuideLocaleContent = {
         },
         {
           title: "Angebot und Muster",
-          text: "Wir klären Material, Veredelung und Preis und fertigen in 7–10 Tagen ein physisches Muster. Korrekturen vor Ihrer Freigabe sind inklusive.",
+          text: "Wir klären Material, Veredelung und Preis und fertigen in 7–15 Tagen ein physisches Muster. Korrekturen vor Ihrer Freigabe sind inklusive.",
         },
         { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Musters, mit Kontrollen bei jedem Schritt." },
         {
@@ -986,7 +986,7 @@ const brandDe: GuideLocaleContent = {
     },
     {
       q: "Wann habe ich die fertigen Caps?",
-      a: "Etwa 7–10 Tage für das Muster, danach 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
+      a: "Etwa 7–15 Tage für das Muster, danach 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
     },
     {
       q: "Helfen Sie bei Etiketten und Verpackung?",

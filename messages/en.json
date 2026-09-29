@@ -187,7 +187,7 @@
     "q5": "How do you handle shipping?",
     "a5": "We offer FOB, CIF, and door-to-door delivery options worldwide. We work with reliable freight forwarders and can ship by sea, air, or express courier depending on your needs.",
     "q6": "Do you provide samples before production?",
-    "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 7–10 days. Once approved, we proceed with mass production."
+    "a6": "Yes, we provide pre-production samples for your approval. Sample production takes 7–15 days. Once approved, we proceed with mass production."
   },
   "Guides": {
     "customToPricing": "See pricing, MOQ & lead times →",
@@ -287,7 +287,7 @@
     "specMoqLabel": "MOQ",
     "specMoqValue": "<b>50 pieces</b> per colour — flexible on first orders while you test a market.",
     "specSampleLabel": "Sample lead time",
-    "specSampleValue": "<b>7–10 days</b> from confirmed artwork and fabric, revisions included.",
+    "specSampleValue": "<b>7–15 days</b> from confirmed artwork and fabric, revisions included.",
     "specBulkLabel": "Bulk lead time",
     "specBulkValue": "<b>25–30 days</b>, depending on quantity and decoration complexity.",
     "specMaterialsLabel": "Materials",
@@ -313,7 +313,7 @@
       },
       {
         "title": "Sample production",
-        "body": "A physical sample is cut and sewn in 7–10 days. Revisions are included before you sign off."
+        "body": "A physical sample is cut and sewn in 7–15 days. Revisions are included before you sign off."
       },
       {
         "title": "Bulk production",
@@ -354,7 +354,7 @@
     "capabilityLabel": "Capability",
     "capabilityHeading": "Made by people we know.",
     "capabilityP1": "Cutting, sewing and assembly happen inside our own <b>2,000 m²</b> facility, run by a team of <b>30+</b> skilled hands who have worked together for years. Embroidery, printing and washing are handled by partner workshops we've used for years, and every batch comes back to us for checking.",
-    "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>7–10 days</b>; a confirmed bulk order ships in <b>25–30 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
+    "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>7–15 days</b>; a confirmed bulk order ships in <b>25–30 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
     "stylesLabel": "Styles we build",
     "collectionLabel": "Collection",
     "collectionHeadingLine1": "A small selection",
@@ -376,7 +376,7 @@
       {
         "numeral": "III",
         "title": "Sampling",
-        "body": "A physical sample in 7–10 days, revisions included."
+        "body": "A physical sample in 7–15 days, revisions included."
       },
       {
         "numeral": "IV",

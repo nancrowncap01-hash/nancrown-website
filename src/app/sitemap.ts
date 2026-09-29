@@ -6,7 +6,7 @@ import { factoryContent } from "@/lib/factory-content";
 import { localizedUrl, SITE_URL } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
-const LAST_MODIFIED = new Date("2026-09-27");
+const LAST_MODIFIED = new Date("2026-09-30");
 
 // 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
 const guidePaths = ["/pricing", "/start-a-hat-brand"];

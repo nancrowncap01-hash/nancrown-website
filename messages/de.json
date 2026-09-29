@@ -187,7 +187,7 @@
     "q5": "Wie handhaben Sie den Versand?",
     "a5": "Wir bieten weltweite Lieferoptionen FOB, CIF und Tür-zu-Tür. Wir arbeiten mit zuverlässigen Spediteuren und können per See, Luft oder Expresskurier versenden.",
     "q6": "Stellen Sie Muster vor der Produktion bereit?",
-    "a6": "Ja, wir stellen Vorproduktionsmuster zur Genehmigung bereit. Die Musterproduktion dauert 7-10 Tage. Nach Genehmigung beginnen wir mit der Massenproduktion."
+    "a6": "Ja, wir stellen Vorproduktionsmuster zur Genehmigung bereit. Die Musterproduktion dauert 7-15 Tage. Nach Genehmigung beginnen wir mit der Massenproduktion."
   },
   "Guides": {
     "customToPricing": "Preise, Mindestmengen und Lieferzeiten ansehen →",
@@ -287,7 +287,7 @@
     "specMoqLabel": "Mindestbestellmenge",
     "specMoqValue": "<b>50 Stück</b> pro Farbe — bei Erstbestellungen flexibel, solange Sie den Markt testen.",
     "specSampleLabel": "Musterlieferzeit",
-    "specSampleValue": "<b>7–10 Tage</b> ab bestätigtem Design und Stoff, Korrekturen inklusive.",
+    "specSampleValue": "<b>7–15 Tage</b> ab bestätigtem Design und Stoff, Korrekturen inklusive.",
     "specBulkLabel": "Produktionslieferzeit",
     "specBulkValue": "<b>25–30 Tage</b>, je nach Menge und Veredelungsaufwand.",
     "specMaterialsLabel": "Materialien",
@@ -313,7 +313,7 @@
       },
       {
         "title": "Musterproduktion",
-        "body": "Ein physisches Muster wird in 7–10 Tagen zugeschnitten und genäht. Korrekturen sind vor Ihrer Freigabe inklusive."
+        "body": "Ein physisches Muster wird in 7–15 Tagen zugeschnitten und genäht. Korrekturen sind vor Ihrer Freigabe inklusive."
       },
       {
         "title": "Großserienproduktion",
@@ -354,7 +354,7 @@
     "capabilityLabel": "Kompetenz",
     "capabilityHeading": "Gefertigt von Menschen, die wir kennen.",
     "capabilityP1": "Zuschnitt, Naht und Montage finden in unserer eigenen <b>2.000 m²</b> großen Fertigung statt, geführt von einem Team aus <b>30+</b> Fachkräften, die seit Jahren zusammenarbeiten. Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, und jede Charge kommt zur Prüfung zu uns zurück.",
-    "capabilityP2": "Bestellungen starten ab <b>50 Stück pro Farbe</b>. Ein physisches Muster ist in <b>7–10 Tagen</b> fertig; eine bestätigte Großbestellung wird in <b>25–30 Tagen</b> versandt. Jede Stufe wird laufend geprüft, und nichts geht in die Großserie, bevor Sie ein Vorproduktionsmuster freigegeben haben.",
+    "capabilityP2": "Bestellungen starten ab <b>50 Stück pro Farbe</b>. Ein physisches Muster ist in <b>7–15 Tagen</b> fertig; eine bestätigte Großbestellung wird in <b>25–30 Tagen</b> versandt. Jede Stufe wird laufend geprüft, und nichts geht in die Großserie, bevor Sie ein Vorproduktionsmuster freigegeben haben.",
     "stylesLabel": "Stile, die wir fertigen",
     "collectionLabel": "Kollektion",
     "collectionHeadingLine1": "Eine kleine Auswahl",
@@ -376,7 +376,7 @@
       {
         "numeral": "III",
         "title": "Musterung",
-        "body": "Ein physisches Muster in 7–10 Tagen, Korrekturen inklusive."
+        "body": "Ein physisches Muster in 7–15 Tagen, Korrekturen inklusive."
       },
       {
         "numeral": "IV",

@@ -187,7 +187,7 @@
     "q5": "¿Cómo manejan el envío?",
     "a5": "Ofrecemos opciones de entrega FOB, CIF y puerta a puerta en todo el mundo. Trabajamos con transitarios confiables y podemos enviar por mar, aire o mensajería exprés según sus necesidades.",
     "q6": "¿Proporcionan muestras antes de la producción?",
-    "a6": "Sí, proporcionamos muestras de preproducción para su aprobación. La producción de muestras toma 7-10 días. Una vez aprobadas, procedemos con la producción en masa."
+    "a6": "Sí, proporcionamos muestras de preproducción para su aprobación. La producción de muestras toma 7-15 días. Una vez aprobadas, procedemos con la producción en masa."
   },
   "Guides": {
     "customToPricing": "Ver precios, pedido mínimo y plazos →",
@@ -287,7 +287,7 @@
     "specMoqLabel": "MOQ",
     "specMoqValue": "<b>50 piezas</b> por color — flexible en primeros pedidos mientras pruebas el mercado.",
     "specSampleLabel": "Tiempo de muestra",
-    "specSampleValue": "<b>7–10 días</b> desde el arte y la tela confirmados, revisiones incluidas.",
+    "specSampleValue": "<b>7–15 días</b> desde el arte y la tela confirmados, revisiones incluidas.",
     "specBulkLabel": "Tiempo de producción",
     "specBulkValue": "<b>25–30 días</b>, según cantidad y complejidad de la decoración.",
     "specMaterialsLabel": "Materiales",
@@ -313,7 +313,7 @@
       },
       {
         "title": "Producción de muestra",
-        "body": "Una muestra física se corta y cose en 7–10 días. Las revisiones están incluidas antes de tu aprobación."
+        "body": "Una muestra física se corta y cose en 7–15 días. Las revisiones están incluidas antes de tu aprobación."
       },
       {
         "title": "Producción en volumen",
@@ -354,7 +354,7 @@
     "capabilityLabel": "Capacidad",
     "capabilityHeading": "Hecho por gente que conocemos.",
     "capabilityP1": "El corte, la costura y el ensamblaje ocurren dentro de nuestra propia planta de <b>2.000 m²</b>, a cargo de un equipo de <b>30+</b> manos expertas que llevan años trabajando juntas. El bordado, el estampado y el lavado los realizan talleres socios con los que trabajamos desde hace años, y cada lote vuelve a nosotros para revisión.",
-    "capabilityP2": "Los pedidos parten de <b>50 piezas por color</b>. Una muestra física está lista en <b>7–10 días</b>; un pedido en volumen confirmado se envía en <b>25–30 días</b>. Cada etapa se revisa en el momento, y nada pasa a producción en volumen hasta que apruebes una muestra de preproducción.",
+    "capabilityP2": "Los pedidos parten de <b>50 piezas por color</b>. Una muestra física está lista en <b>7–15 días</b>; un pedido en volumen confirmado se envía en <b>25–30 días</b>. Cada etapa se revisa en el momento, y nada pasa a producción en volumen hasta que apruebes una muestra de preproducción.",
     "stylesLabel": "Estilos que fabricamos",
     "collectionLabel": "Colección",
     "collectionHeadingLine1": "Una pequeña selección",
@@ -376,7 +376,7 @@
       {
         "numeral": "III",
         "title": "Muestra",
-        "body": "Una muestra física en 7–10 días, revisiones incluidas."
+        "body": "Una muestra física en 7–15 días, revisiones incluidas."
       },
       {
         "numeral": "IV",

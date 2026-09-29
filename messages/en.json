@@ -52,7 +52,7 @@
   },
   "CTA": {
     "title": "Ready to Start Your Custom Headwear Project?",
-    "subtitle": "Tell us about your needs and get a free quote within 24 hours.",
+    "subtitle": "Tell us about your needs and get a free quote within 1–2 business days.",
     "button": "Request a Quote"
   },
   "Footer": {
@@ -139,7 +139,7 @@
     "message": "Your Message",
     "submit": "Send Inquiry",
     "sending": "Sending...",
-    "success": "Thank you! Your inquiry has been sent. We'll respond within 24 hours.",
+    "success": "Thank you! Your inquiry has been sent. We'll respond within 1–2 business days.",
     "error": "Something went wrong. Please try again, or reach us directly at info@nancrown.com or +86 20-31235916.",
     "required": "Required",
     "selectProduct": "Select a product category",
@@ -210,7 +210,7 @@
     "aboutTitle": "About Our Hat Factory",
     "aboutDescription": "10+ years crafting custom headwear for 50+ countries. 30+ skilled workers, 100K+ pieces a month. Discover NanCrown's hat factory in Guangzhou.",
     "contactTitle": "Contact Us — Request a Quote",
-    "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 24 hours. Low MOQ, worldwide shipping."
+    "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 1–2 business days. Low MOQ, worldwide shipping."
   },
   "Home": {
     "workshopTeaserHeading": "See inside our workshop",
@@ -330,7 +330,7 @@
     ],
     "contactKicker": "Get a quote",
     "contactHeading": "Tell us what you're building.",
-    "contactBody": "Send a description, target quantity and any reference images — we'll reply with pricing and a realistic timeline, usually within 24 hours.",
+    "contactBody": "Send a description, target quantity and any reference images — we'll reply with pricing and a realistic timeline, usually within 1–2 business days.",
     "contactEmailLabel": "Email",
     "contactPhoneLabel": "Phone",
     "contactFactoryLabel": "Factory",

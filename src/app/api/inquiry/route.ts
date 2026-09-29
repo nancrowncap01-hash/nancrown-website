@@ -95,7 +95,7 @@ const CONFIRMATION_BODY_TEMPLATES: Record<ConfirmLocale, (p: ConfirmationBodyPar
 
 Thank you for contacting NanCrown. This is an automatic confirmation that your inquiry has reached our sales team.
 
-Carrie from our sales team will reply personally within one business day (Guangzhou time, GMT+8) with questions or a quote.
+Carrie from our sales team will reply personally within 1–2 business days (Guangzhou time, GMT+8) with questions or a quote.
 
 To get an accurate quote faster, you can reply to this email with:
 - your logo or design file (AI, PDF or PNG)
@@ -117,7 +117,7 @@ info@nancrown.com`,
 
 Gracias por contactar con NanCrown. Este es un mensaje automático para confirmarle que su consulta ha llegado a nuestro equipo de ventas.
 
-Carrie, de nuestro equipo de ventas, le responderá personalmente en un plazo de un día laborable (hora de Cantón, GMT+8) con preguntas o un presupuesto.
+Carrie, de nuestro equipo de ventas, le responderá personalmente en un plazo de 1 a 2 días laborables (hora de Cantón, GMT+8) con preguntas o un presupuesto.
 
 Para recibir un presupuesto exacto más rápido, puede responder a este correo con:
 - el archivo de su logo o diseño (AI, PDF o PNG)
@@ -139,7 +139,7 @@ info@nancrown.com`,
 
 Merci d'avoir contacté NanCrown. Ceci est une confirmation automatique : votre demande est bien arrivée à notre équipe commerciale.
 
-Carrie, de notre équipe commerciale, vous répondra personnellement sous un jour ouvré (heure de Canton, GMT+8) avec ses questions ou un devis.
+Carrie, de notre équipe commerciale, vous répondra personnellement sous 1 à 2 jours ouvrés (heure de Canton, GMT+8) avec ses questions ou un devis.
 
 Pour obtenir un devis précis plus rapidement, vous pouvez répondre à cet e-mail en joignant :
 - votre logo ou fichier de design (AI, PDF ou PNG)
@@ -161,7 +161,7 @@ info@nancrown.com`,
 
 vielen Dank für Ihre Anfrage bei NanCrown. Dies ist eine automatische Bestätigung: Ihre Anfrage ist bei unserem Vertriebsteam angekommen.
 
-Carrie aus unserem Vertriebsteam antwortet Ihnen persönlich innerhalb eines Werktags (Ortszeit Guangzhou, GMT+8) mit Rückfragen oder einem Angebot.
+Carrie aus unserem Vertriebsteam antwortet Ihnen persönlich innerhalb von 1–2 Werktagen (Ortszeit Guangzhou, GMT+8) mit Rückfragen oder einem Angebot.
 
 Für ein genaues Angebot können Sie einfach auf diese E-Mail antworten und Folgendes mitschicken:
 - Ihr Logo oder Ihre Designdatei (AI, PDF oder PNG)

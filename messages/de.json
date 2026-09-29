@@ -52,7 +52,7 @@
   },
   "CTA": {
     "title": "Bereit, Ihr Kopfbedeckungsprojekt zu Starten?",
-    "subtitle": "Erzählen Sie uns von Ihren Anforderungen und erhalten Sie ein kostenloses Angebot innerhalb von 24 Stunden.",
+    "subtitle": "Erzählen Sie uns von Ihren Anforderungen und erhalten Sie ein kostenloses Angebot innerhalb von 1–2 Werktagen.",
     "button": "Angebot Anfordern"
   },
   "Footer": {
@@ -139,7 +139,7 @@
     "message": "Ihre Nachricht",
     "submit": "Anfrage Senden",
     "sending": "Wird gesendet...",
-    "success": "Vielen Dank! Ihre Anfrage wurde gesendet. Wir antworten innerhalb von 24 Stunden.",
+    "success": "Vielen Dank! Ihre Anfrage wurde gesendet. Wir antworten innerhalb von 1–2 Werktagen.",
     "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut oder kontaktieren Sie uns direkt unter info@nancrown.com oder telefonisch unter +86 20-31235916.",
     "required": "Erforderlich",
     "selectProduct": "Kategorie auswählen",
@@ -330,7 +330,7 @@
     ],
     "contactKicker": "Angebot anfordern",
     "contactHeading": "Erzählen Sie uns, was Sie planen.",
-    "contactBody": "Senden Sie eine Beschreibung, die Zielmenge und Referenzbilder — wir antworten mit Preis und realistischem Zeitplan, meist innerhalb von 24 Stunden.",
+    "contactBody": "Senden Sie eine Beschreibung, die Zielmenge und Referenzbilder — wir antworten mit Preis und realistischem Zeitplan, meist innerhalb von 1–2 Werktagen.",
     "contactEmailLabel": "E-Mail",
     "contactPhoneLabel": "Telefon",
     "contactFactoryLabel": "Fabrik",

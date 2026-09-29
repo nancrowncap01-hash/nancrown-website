@@ -187,7 +187,7 @@ export default function HomeA() {
           <div className={styles.workshopGrid}>
             <div className={styles.workshopPhoto}>
               <Image
-                src="/images/factory/workshop-poster-2023.jpg"
+                src="/images/factory/workshop-die-cutting-press.jpg"
                 alt=""
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"

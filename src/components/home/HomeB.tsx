@@ -125,7 +125,7 @@ export default function HomeB() {
           <div className={styles.workshopGrid}>
             <div className={styles.workshopPhoto}>
               <Image
-                src="/images/factory/workshop-poster-2023.jpg"
+                src="/images/factory/workshop-steam-shaping.jpg"
                 alt=""
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"

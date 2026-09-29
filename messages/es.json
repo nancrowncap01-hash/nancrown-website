@@ -52,7 +52,7 @@
   },
   "CTA": {
     "title": "¿Listo para Iniciar tu Proyecto de Gorras Personalizadas?",
-    "subtitle": "Cuéntanos tus necesidades y recibe una cotización gratuita en 24 horas.",
+    "subtitle": "Cuéntanos tus necesidades y recibe una cotización gratuita en 1 a 2 días laborables.",
     "button": "Solicitar Cotización"
   },
   "Footer": {
@@ -139,7 +139,7 @@
     "message": "Tu Mensaje",
     "submit": "Enviar Consulta",
     "sending": "Enviando...",
-    "success": "¡Gracias! Tu consulta ha sido enviada. Responderemos en 24 horas.",
+    "success": "¡Gracias! Tu consulta ha sido enviada. Responderemos en 1 a 2 días laborables.",
     "error": "Algo salió mal. Inténtalo de nuevo o contáctanos directamente en info@nancrown.com o al +86 20-31235916.",
     "required": "Obligatorio",
     "selectProduct": "Selecciona una categoría",
@@ -330,7 +330,7 @@
     ],
     "contactKicker": "Solicita una cotización",
     "contactHeading": "Cuéntanos qué estás creando.",
-    "contactBody": "Envíanos una descripción, la cantidad objetivo y cualquier imagen de referencia — te responderemos con precio y un plazo realista, normalmente en 24 horas.",
+    "contactBody": "Envíanos una descripción, la cantidad objetivo y cualquier imagen de referencia — te responderemos con precio y un plazo realista, normalmente en 1 a 2 días laborables.",
     "contactEmailLabel": "Correo",
     "contactPhoneLabel": "Teléfono",
     "contactFactoryLabel": "Fábrica",

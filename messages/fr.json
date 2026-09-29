@@ -52,7 +52,7 @@
   },
   "CTA": {
     "title": "Prêt à Démarrer Votre Projet de Casquettes?",
-    "subtitle": "Parlez-nous de vos besoins et recevez un devis gratuit sous 24 heures.",
+    "subtitle": "Parlez-nous de vos besoins et recevez un devis gratuit sous 1 à 2 jours ouvrés.",
     "button": "Demander un Devis"
   },
   "Footer": {
@@ -139,7 +139,7 @@
     "message": "Votre Message",
     "submit": "Envoyer la Demande",
     "sending": "Envoi en cours...",
-    "success": "Merci! Votre demande a été envoyée. Nous répondrons sous 24 heures.",
+    "success": "Merci! Votre demande a été envoyée. Nous répondrons sous 1 à 2 jours ouvrés.",
     "error": "Une erreur est survenue. Veuillez réessayer ou nous contacter directement à info@nancrown.com ou au +86 20-31235916.",
     "required": "Obligatoire",
     "selectProduct": "Sélectionnez une catégorie",
@@ -330,7 +330,7 @@
     ],
     "contactKicker": "Demander un devis",
     "contactHeading": "Dites-nous ce que vous construisez.",
-    "contactBody": "Envoyez une description, la quantité cible et toute image de référence — nous répondrons avec un prix et un délai réaliste, généralement sous 24 heures.",
+    "contactBody": "Envoyez une description, la quantité cible et toute image de référence — nous répondrons avec un prix et un délai réaliste, généralement sous 1 à 2 jours ouvrés.",
     "contactEmailLabel": "E-mail",
     "contactPhoneLabel": "Téléphone",
     "contactFactoryLabel": "Usine",

@@ -1439,6 +1439,8 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "dad-hats",
     categoryValue: "",
     productSlugs: [
+      "contrast-piping-outline-letter-cap",
+      "chenille-letter-tile-cap",
       "two-tone-washed-dad-cap",
       "double-piping-washed-cap",
       "serif-wordmark-washed-cap",
@@ -1713,6 +1715,9 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "5-panel-caps",
     categoryValue: "",
     productSlugs: [
+      "crinkle-5-panel-running-cap",
+      "mesh-top-trail-running-cap",
+      "earflap-surf-camp-cap",
       "utility-pocket-camp-cap",
       "souvenir-patch-snapback",
       "sunglass-slot-long-brim-sport-cap",
@@ -1848,6 +1853,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "golf-caps",
     categoryValue: "",
     productSlugs: [
+      "laser-perforated-running-cap",
       "sunglass-slot-long-brim-sport-cap",
       "lightweight-running-cap",
       "stretch-woven-visor",
@@ -1984,6 +1990,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "embroidered-caps",
     categoryValue: "",
     productSlugs: [
+      "chenille-letter-tile-cap",
+      "side-script-embroidered-cap",
+      "contrast-piping-outline-letter-cap",
+      "vertical-logo-ball-cap",
       "stripe-over-brim-soft-cap",
       "chain-stitch-pillbox-cap",
       "serif-wordmark-washed-cap",

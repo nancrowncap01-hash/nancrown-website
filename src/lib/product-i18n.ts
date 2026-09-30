@@ -1,6 +1,6 @@
 import type { Product } from "./sample-data";
 
-// 22 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
+// 41 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
 // 只存需要翻译的字段(名称/描述/面料/特点/颜色);
 // 款号(code)、分类(category)、图片、起订量(moq)等字段不进这张表,始终沿用英文原值。
 type ProductTranslation = {
@@ -20,6 +20,390 @@ export const productTranslations: Record<
   string,
   Partial<Record<TranslatedLocale, ProductTranslation>>
 > = {
+  "mesh-top-trail-running-cap": {
+    es: {
+      name: "Gorra de Trail Running con Malla Superior",
+      description:
+        "Una gorra de running blanda de 5 paneles con nailon ripstop en el frente y malla abierta en la parte superior y trasera, para que el calor salga mientras corres. El logo frontal es un estampado reflectante plano, hay una pequeña línea de texto en el lateral para el nombre de tu club y un cordón elástico atrás ajusta la talla. Los dos estampados, el frontal y el lateral, llevan tu propio logo.",
+      material: "Nailon ripstop, malla de poliéster",
+      colors: ["Gris azulado con malla negra", "gris claro con malla blanca", "negro"],
+      features: [
+        "Gorra de running de 5 paneles sin estructura, visera corta y blanda",
+        "Frente de nailon ripstop, parte superior de malla perforada",
+        "Logo estampado reflectante en el frente",
+        "Pequeña línea estampada en el lateral",
+        "Ajuste con cordón elástico atrás",
+        "Talla: única · cordón elástico",
+      ],
+    },
+    fr: {
+      name: "Casquette de Trail à Dessus en Mesh",
+      description:
+        "Une casquette de running souple à 5 panneaux, en nylon ripstop à l'avant et en mesh ouvert sur le dessus et l'arrière, pour évacuer la chaleur pendant la course. Le logo avant est un imprimé réfléchissant plat, une petite ligne de texte sur le côté peut accueillir le nom d'un club, et un cordon élastique à l'arrière règle la taille. Les imprimés avant et latéral reçoivent votre propre logo.",
+      material: "Nylon ripstop, mesh polyester",
+      colors: ["Gris-bleu avec mesh noir", "gris clair avec mesh blanc", "noir"],
+      features: [
+        "Casquette de running 5 panneaux non structurée, visière courte et souple",
+        "Avant en nylon ripstop, dessus en mesh perforé",
+        "Logo imprimé réfléchissant à l'avant",
+        "Petite ligne imprimée sur le côté",
+        "Réglage par cordon élastique à l'arrière",
+        "Taille : unique · cordon élastique",
+      ],
+    },
+    de: {
+      name: "Trailrunning-Cap mit Mesh-Oberteil",
+      description:
+        "Eine weiche 5-Panel-Laufcap mit Ripstop-Nylon vorne und offenem Mesh oben und hinten, damit die Wärme beim Laufen entweicht. Das Frontlogo ist ein flacher Reflexdruck, eine kleine Textzeile an der Seite bietet Platz für einen Vereinsnamen, und eine elastische Kordel hinten regelt die Weite. Front- und Seitendruck tragen beide Ihr eigenes Logo.",
+      material: "Ripstop-Nylon, Polyester-Mesh",
+      colors: ["Blaugrau mit schwarzem Mesh", "Hellgrau mit weißem Mesh", "Schwarz"],
+      features: [
+        "Unstrukturierte 5-Panel-Laufcap, kurzer weicher Schirm",
+        "Front aus Ripstop-Nylon, Oberteil aus perforiertem Mesh",
+        "Reflektierendes gedrucktes Logo vorne",
+        "Kleine Druckzeile an der Seite",
+        "Elastische Kordel zum Verstellen hinten",
+        "Größe: Einheitsgröße · elastische Kordel",
+      ],
+    },
+  },
+
+  "laser-perforated-running-cap": {
+    es: {
+      name: "Gorra de Running Perforada con Láser",
+      description:
+        "Una gorra de running de copa baja y blanda, con una franja de agujeros cortados con láser que va del frente a los laterales y un forro de malla por dentro. El logo va estampado con tinta reflectante plateada en el centro de la franja perforada: discreto de día, brillante bajo los faros. Tu logo se estampa en el mismo sitio.",
+      material: "Poliéster ligero, forro de malla",
+      colors: ["Negro", "blanco", "azul marino"],
+      features: [
+        "Gorra de running sin estructura, copa baja, visera curva",
+        "Franja perforada con láser del frente a los laterales",
+        "Logo estampado reflectante",
+        "Forro de malla transpirable",
+        "Cinta con pasador de plástico",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette de Running Perforée au Laser",
+      description:
+        "Une casquette de running à calotte basse et souple, avec une bande de trous découpés au laser qui va de l'avant jusqu'aux côtés, et une doublure en mesh à l'intérieur. Le logo est imprimé à l'encre réfléchissante argentée au centre de la bande perforée : discret le jour, lumineux dans les phares. Votre logo s'imprime au même endroit.",
+      material: "Polyester léger, doublure en mesh",
+      colors: ["Noir", "blanc", "bleu marine"],
+      features: [
+        "Casquette de running non structurée, calotte basse, visière incurvée",
+        "Bande perforée au laser de l'avant aux côtés",
+        "Logo imprimé réfléchissant",
+        "Doublure en mesh respirante",
+        "Sangle avec boucle coulissante en plastique",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "Laufcap mit Laserperforation",
+      description:
+        "Eine Laufcap mit flachem, weichem Kopfteil, einem lasergeschnittenen Lochband von vorne bis zu den Seiten und Mesh-Futter innen. Das Logo ist mit silberner Reflexfarbe mittig auf das Lochband gedruckt: tagsüber dezent, im Scheinwerferlicht hell. Ihr Logo wird an derselben Stelle gedruckt.",
+      material: "Leichtes Polyester, Mesh-Futter",
+      colors: ["Schwarz", "Weiß", "Marineblau"],
+      features: [
+        "Unstrukturierte Laufcap, flaches Kopfteil, gebogener Schirm",
+        "Laserperforiertes Band von vorne bis zu den Seiten",
+        "Reflektierendes gedrucktes Logo",
+        "Atmungsaktives Mesh-Futter",
+        "Gurtband mit Kunststoffschieber",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
+  "vertical-logo-ball-cap": {
+    es: {
+      name: "Gorra con Logo Vertical",
+      description:
+        "Una sola columna estrecha de bordado fino recorre la costura delantera, y el resto de la gorra queda liso. Letras pequeñas, bien espaciadas y rectas a lo largo de la costura: un bordado que pide precisión. En la columna va el nombre de tu marca.",
+      material: "Sarga de algodón",
+      colors: ["Negro", "crudo", "azul marino", "moca"],
+      features: [
+        "Gorra de béisbol estructurada de 6 paneles, visera curva",
+        "Bordado fino vertical a lo largo de la costura delantera",
+        "Visera con pespunte de varias filas",
+        "Trasera lisa con hebilla metálica plateada",
+        "Botón superior forrado del mismo color",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette à Logo Vertical",
+      description:
+        "Une seule colonne étroite de broderie fine descend le long de la couture avant, et le reste de la casquette reste uni. Des lettres petites, régulièrement espacées et bien droites le long de la couture : une broderie qui demande de la précision. La colonne accueille le nom de votre marque.",
+      material: "Sergé de coton",
+      colors: ["Noir", "écru", "bleu marine", "moka"],
+      features: [
+        "Casquette de baseball structurée 6 panneaux, visière incurvée",
+        "Broderie fine verticale le long de la couture avant",
+        "Visière surpiquée sur plusieurs rangs",
+        "Arrière uni, boucle métallique argentée",
+        "Bouton du dessus recouvert ton sur ton",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "Ballcap mit vertikalem Logo",
+      description:
+        "Eine einzige schmale Spalte feiner Stickerei läuft entlang der vorderen Naht, der Rest der Cap bleibt schlicht. Kleine, gleichmäßig verteilte Buchstaben, die gerade an der Naht entlanglaufen, verlangen saubere Stickarbeit. In die Spalte kommt Ihr Markenname.",
+      material: "Baumwoll-Twill",
+      colors: ["Schwarz", "Creme", "Marineblau", "Mokka"],
+      features: [
+        "Strukturierte 6-Panel-Ballcap, gebogener Schirm",
+        "Vertikale Feinstickerei entlang der vorderen Naht",
+        "Mehrfach abgesteppter Schirm",
+        "Schlichte Rückseite mit silberner Metallschnalle",
+        "Bezogener Knopf in Ton-in-Ton",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
+  "crinkle-5-panel-running-cap": {
+    es: {
+      name: "Gorra de Running de 5 Paneles Arrugada",
+      description:
+        "Una gorra de running ultraligera de 5 paneles en tejido de textura arrugada, sin refuerzo, que apenas se nota en la cabeza. Letras de silicona en relieve cruzan el panel delantero de una sola pieza, y dos pequeñas líneas en el lateral sirven para el nombre de un club o una carrera. Tu logo sustituye al nuestro en el frente y en el lateral.",
+      material: "Poliéster de textura arrugada",
+      colors: ["Verde salvia", "azul marino", "blanco", "arena"],
+      features: [
+        "Gorra de running de 5 paneles sin estructura, visera plana y blanda",
+        "Estampado de silicona en relieve sobre un frente sin costura",
+        "Dos pequeñas líneas estampadas en el lateral",
+        "Hebilla de cierre rápido, cinta del mismo color",
+        "Cuatro ojales del mismo tono",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette de Running 5 Panneaux Froissée",
+      description:
+        "Une casquette de running ultralégère à 5 panneaux, en tissu à effet froissé et sans renfort, qui se fait oublier sur la tête. Des lettres en silicone en relief traversent le panneau avant d'une seule pièce, et deux petites lignes sur le côté accueillent le nom d'un club ou d'une course. Votre logo remplace le nôtre à l'avant et sur le côté.",
+      material: "Polyester à effet froissé",
+      colors: ["Vert sauge", "bleu marine", "blanc", "sable"],
+      features: [
+        "Casquette de running 5 panneaux non structurée, visière plate et souple",
+        "Impression silicone en relief sur un avant sans couture",
+        "Deux petites lignes imprimées sur le côté",
+        "Boucle à clip rapide, sangle assortie",
+        "Quatre œillets ton sur ton",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "5-Panel-Laufcap in Crinkle-Optik",
+      description:
+        "Eine ultraleichte 5-Panel-Laufcap aus Stoff in Crinkle-Optik, ohne Versteifung, die kaum auf dem Kopf zu spüren ist. Erhabene Silikonbuchstaben laufen über das einteilige Vorderpanel, zwei kleine Zeilen an der Seite bieten Platz für einen Vereins- oder Laufnamen. Ihr Logo ersetzt unseres vorne und an der Seite.",
+      material: "Polyester in Crinkle-Optik",
+      colors: ["Salbeigrün", "Marineblau", "Weiß", "Sand"],
+      features: [
+        "Unstrukturierte 5-Panel-Laufcap, flacher weicher Schirm",
+        "Erhabener Silikondruck auf nahtlosem Vorderpanel",
+        "Zwei kleine Druckzeilen an der Seite",
+        "Steckschnalle, Gurtband in Farbe der Cap",
+        "Vier Ton-in-Ton-Ösen",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
+  "earflap-surf-camp-cap": {
+    es: {
+      name: "Gorra de Surf Tipo Camp con Orejeras",
+      description:
+        "Una gorra camp baja de 5 paneles con orejeras de neopreno y una correa de barbilla de cierre rápido, para que no se mueva entre olas y remadas. Una abertura con forro de malla a cada lado deja salir el calor. El logo estampado en recuadro del frente es para tu marca, y los colores del ribete y del estampado cambian con la gorra.",
+      material: "Nailon, orejeras de neopreno",
+      colors: ["Verde azulado", "negro con rosa", "coral", "azul marino con amarillo"],
+      features: [
+        "Gorra camp de 5 paneles, visera corta y curva",
+        "Orejeras de neopreno con bordes ribeteados",
+        "Correa de barbilla de cierre rápido",
+        "Aberturas con forro de malla a ambos lados",
+        "Logo estampado en recuadro en el frente",
+        "Talla: única · cordón elástico",
+      ],
+    },
+    fr: {
+      name: "Casquette Camp de Surf à Cache-Oreilles",
+      description:
+        "Une casquette camp basse à 5 panneaux avec cache-oreilles en néoprène et jugulaire à clip rapide, pour qu'elle tienne dans les vagues et à la rame. Une aération doublée de mesh de chaque côté laisse sortir la chaleur. Le logo imprimé dans un cadre à l'avant reçoit votre marque, et les couleurs du passepoil et de l'impression changent avec la casquette.",
+      material: "Nylon, cache-oreilles en néoprène",
+      colors: ["Bleu canard", "noir et rose", "corail", "marine et jaune"],
+      features: [
+        "Casquette camp 5 panneaux, visière courte incurvée",
+        "Cache-oreilles en néoprène à bords gansés",
+        "Jugulaire à clip rapide",
+        "Aérations doublées de mesh des deux côtés",
+        "Logo imprimé dans un cadre à l'avant",
+        "Taille : unique · cordon élastique",
+      ],
+    },
+    de: {
+      name: "Surf-Campcap mit Ohrenklappen",
+      description:
+        "Eine flache 5-Panel-Campcap mit Neopren-Ohrenklappen und Kinnriemen mit Schnellverschluss, damit sie in den Wellen und beim Paddeln sitzt. Eine mit Mesh gefütterte Lüftung auf jeder Seite lässt die Wärme heraus. Das gedruckte Kastenlogo vorne ist für Ihre Marke gedacht, und die Farben von Einfassung und Druck wechseln mit der Cap.",
+      material: "Nylon, Neopren-Ohrenklappen",
+      colors: ["Petrol", "Schwarz mit Pink", "Koralle", "Marineblau mit Gelb"],
+      features: [
+        "5-Panel-Campcap, kurzer gebogener Schirm",
+        "Neopren-Ohrenklappen mit eingefassten Kanten",
+        "Kinnriemen mit Schnellverschluss",
+        "Mesh-gefütterte Lüftungen auf beiden Seiten",
+        "Gedrucktes Kastenlogo vorne",
+        "Größe: Einheitsgröße · elastische Kordel",
+      ],
+    },
+  },
+
+  "contrast-piping-outline-letter-cap": {
+    es: {
+      name: "Gorra con Ribete en Contraste y Letras Contorneadas",
+      description:
+        "Dos letras bordadas solo en contorno, con el color de la gorra a la vista, se sitúan a cada lado de la costura delantera, y un ribete en contraste rodea todo el borde de la visera en una línea continua. Una línea en cursiva sobre la tira trasera te da un segundo lugar para tu nombre. Las letras, el ribete y el texto trasero cambian a tus colores.",
+      material: "Sarga de algodón",
+      colors: ["Negro con rojo", "azul marino con blanco", "crudo con negro", "verde bosque con crema"],
+      features: [
+        "Gorra dad hat de 6 paneles, visera precurvada",
+        "Letras bordadas en contorno en el frente",
+        "Ribete en contraste por todo el borde de la visera",
+        "Bordado en cursiva sobre la abertura trasera",
+        "Hebilla metálica plateada",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette à Liseré Contrasté et Lettres Contour",
+      description:
+        "Deux lettres brodées en contour, qui laissent voir la couleur de la casquette, encadrent la couture avant, et un biais contrasté fait tout le tour de la visière d'une seule ligne. Une ligne en italique au-dessus de la patte arrière vous offre un second emplacement pour votre nom. Lettres, biais et texte arrière changent selon vos couleurs.",
+      material: "Sergé de coton",
+      colors: ["Noir et rouge", "marine et blanc", "écru et noir", "vert forêt et crème"],
+      features: [
+        "Dad cap 6 panneaux, visière pré-incurvée",
+        "Lettres brodées en contour à l'avant",
+        "Biais contrasté sur tout le bord de la visière",
+        "Broderie en italique au-dessus de l'ouverture arrière",
+        "Boucle métallique argentée",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "Cap mit Kontrasteinfassung und Umriss-Buchstaben",
+      description:
+        "Zwei nur im Umriss gestickte Buchstaben, durch die die Farbe der Cap scheint, sitzen links und rechts der vorderen Naht, und eine Kontrasteinfassung läuft ohne Unterbrechung um den ganzen Schirmrand. Eine kursive Zeile über dem hinteren Riegel bietet einen zweiten Platz für Ihren Namen. Buchstaben, Einfassung und hinterer Text wechseln in Ihre Farben.",
+      material: "Baumwoll-Twill",
+      colors: ["Schwarz mit Rot", "Marineblau mit Weiß", "Creme mit Schwarz", "Waldgrün mit Creme"],
+      features: [
+        "6-Panel-Dad-Cap, vorgebogener Schirm",
+        "Umriss-Stickbuchstaben vorne",
+        "Kontrasteinfassung am ganzen Schirmrand",
+        "Kursive Stickerei über der hinteren Öffnung",
+        "Silberne Metallschnalle",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
+  "side-script-embroidered-cap": {
+    es: {
+      name: "Gorra con Palabra Bordada en el Lateral",
+      description:
+        "Una palabra en letra de pincel, con bordado en relieve, rodea el lateral de la copa siguiendo su curva, y una pequeña firma se repite en la visera. El frente queda liso, así que la gorra se ve limpia de frente y enseña el nombre al girar la cabeza. La palabra lateral y la firma de la visera llevan tu propio nombre.",
+      material: "Sarga de algodón",
+      colors: ["Negro", "verde oliva", "azul marino", "crudo"],
+      features: [
+        "Gorra de béisbol estructurada de 6 paneles, visera precurvada",
+        "Bordado en relieve en letra de pincel que rodea el lateral",
+        "Pequeña firma bordada en la visera",
+        "Frente liso con costura central",
+        "Hebilla metálica plateada, tira negra",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette à Mot Brodé sur le Côté",
+      description:
+        "Un mot en écriture pinceau, brodé en relief, épouse le côté de la calotte en suivant sa courbe, et une petite signature se répète sur la visière. L'avant reste uni : la casquette paraît sobre de face et montre le nom quand on tourne la tête. Le mot du côté et la signature de la visière reçoivent votre propre nom.",
+      material: "Sergé de coton",
+      colors: ["Noir", "olive", "bleu marine", "écru"],
+      features: [
+        "Casquette de baseball structurée 6 panneaux, visière pré-incurvée",
+        "Broderie en relief en écriture pinceau autour du côté",
+        "Petite signature brodée sur la visière",
+        "Avant uni avec couture centrale",
+        "Boucle métallique argentée, sangle noire",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "Cap mit seitlichem Schriftzug",
+      description:
+        "Ein Wort in Pinselschrift, erhaben gestickt, läuft entlang der Rundung seitlich um das Kopfteil, und eine kleine Signatur wiederholt sich auf dem Schirm. Die Front bleibt schlicht: Von vorne wirkt die Cap klar, beim Drehen des Kopfes zeigt sie den Namen. Seitlicher Schriftzug und Schirmsignatur tragen Ihren eigenen Namen.",
+      material: "Baumwoll-Twill",
+      colors: ["Schwarz", "Oliv", "Marineblau", "Creme"],
+      features: [
+        "Strukturierte 6-Panel-Ballcap, vorgebogener Schirm",
+        "Erhabene Schriftzug-Stickerei um die Seite",
+        "Kleine gestickte Signatur auf dem Schirm",
+        "Schlichte Front mit Mittelnaht",
+        "Silberne Metallschnalle, schwarzer Riegel",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
+  "chenille-letter-tile-cap": {
+    es: {
+      name: "Gorra con Letras en Bordado Chenilla",
+      description:
+        "Cinco piezas bordadas en chenilla, una letra cada una, se colocan algo desniveladas en el frente para que la palabra parezca un collage recortado. Tres líneas de bordado plano en el lateral y una sobre la abertura trasera te dan más sitio para el nombre de una colección, una ciudad o un año. Las letras, los colores de las piezas y cada línea de texto son tuyos.",
+      material: "Sarga de algodón de alta densidad",
+      colors: ["Negro", "crema", "azul marino", "gris carbón"],
+      features: [
+        "Gorra de béisbol de 6 paneles de copa blanda, visera precurvada",
+        "Cinco piezas de letras en chenilla con borde de fieltro",
+        "Tres líneas de bordado plano en el lateral",
+        "Línea bordada sobre la abertura trasera",
+        "Hebilla cuadrada de níquel mate",
+        "Talla: única · ajustable",
+      ],
+    },
+    fr: {
+      name: "Casquette à Lettres en Broderie Chenille",
+      description:
+        "Cinq carrés brodés en chenille, une lettre chacun, sont posés légèrement de travers à l'avant pour que le mot ressemble à un collage découpé. Trois lignes de broderie plate sur le côté et une au-dessus de l'ouverture arrière laissent de la place pour un nom de collection, une ville ou une année. Les lettres, les couleurs des carrés et chaque ligne de texte sont à vous.",
+      material: "Sergé de coton haute densité",
+      colors: ["Noir", "crème", "bleu marine", "anthracite"],
+      features: [
+        "Casquette de baseball 6 panneaux à calotte souple, visière pré-incurvée",
+        "Cinq carrés de lettres en chenille bordés de feutre",
+        "Trois lignes de broderie plate sur le côté",
+        "Ligne brodée au-dessus de l'ouverture arrière",
+        "Boucle carrée en nickel mat",
+        "Taille : unique · réglable",
+      ],
+    },
+    de: {
+      name: "Cap mit Chenille-Buchstabenkacheln",
+      description:
+        "Fünf in Chenille gestickte Kacheln, je ein Buchstabe, sitzen leicht versetzt auf der Front, sodass das Wort wie eine ausgeschnittene Collage wirkt. Drei Zeilen Flachstickerei an der Seite und eine über der hinteren Öffnung bieten Platz für einen Kollektionsnamen, eine Stadt oder eine Jahreszahl. Buchstaben, Kachelfarben und jede Textzeile bestimmen Sie.",
+      material: "Dichter Baumwoll-Twill",
+      colors: ["Schwarz", "Creme", "Marineblau", "Anthrazit"],
+      features: [
+        "6-Panel-Ballcap mit weichem Kopfteil, vorgebogener Schirm",
+        "Fünf Chenille-Buchstabenkacheln mit Filzrand",
+        "Drei Zeilen Flachstickerei an der Seite",
+        "Gestickte Zeile über der hinteren Öffnung",
+        "Mattnickel-Vierkantschnalle",
+        "Größe: Einheitsgröße · verstellbar",
+      ],
+    },
+  },
+
   "souvenir-patch-snapback": {
     es: {
       name: "Gorra Snapback con Parche Conmemorativo",

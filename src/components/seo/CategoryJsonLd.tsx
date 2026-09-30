@@ -1,7 +1,7 @@
 import type { Product } from "@/lib/sample-data";
 import { localizedUrl } from "@/lib/seo";
 
-// 分类落地页的结构化数据:面包屑(BreadcrumbList) + 该分类下的产品列表(ItemList)
+// 分类落地页的结构化数据:面包屑(BreadcrumbList) + 该分类下的产品列表(ItemList) + 页面上的常见问题(FAQPage,0930 加)
 // 面包屑文案用调用方传进来的本地化文字(home/custom/categoryName),不在这里写死英文
 interface CategoryJsonLdProps {
   locale: string;
@@ -10,6 +10,8 @@ interface CategoryJsonLdProps {
   homeLabel: string;
   customLabel: string;
   products: Product[];
+  // 页面上显示的那几条问答,原样标给搜索引擎/AI(没有就不输出 FAQPage)
+  faq?: { q: string; a: string }[];
 }
 
 export function CategoryJsonLd({
@@ -19,6 +21,7 @@ export function CategoryJsonLd({
   homeLabel,
   customLabel,
   products,
+  faq = [],
 }: CategoryJsonLdProps) {
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -57,6 +60,19 @@ export function CategoryJsonLd({
     })),
   };
 
+  const faqData =
+    faq.length > 0
+      ? {
+          "@context": "https://schema.org",
+          "@type": "FAQPage",
+          mainEntity: faq.map((item) => ({
+            "@type": "Question",
+            name: item.q,
+            acceptedAnswer: { "@type": "Answer", text: item.a },
+          })),
+        }
+      : null;
+
   return (
     <>
       <script
@@ -67,6 +83,12 @@ export function CategoryJsonLd({
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(itemListData) }}
       />
+      {faqData && (
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(faqData) }}
+        />
+      )}
     </>
   );
 }

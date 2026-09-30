@@ -1,9 +1,11 @@
 import type { ReactNode } from "react";
 import { Link } from "@/i18n/navigation";
 import type { GuideBlock, GuideLocaleContent } from "@/lib/guide-content";
+import { sampleProducts } from "@/lib/sample-data";
+import ProductCard from "@/components/products/ProductCard";
 
-// 「指南类」页面(/pricing、/start-a-hat-brand)的共用渲染组件。
-// 文案全部来自 src/lib/guide-content.ts,这里只管排版,不新增/修改/润色任何一个字。
+// 「指南类」页面(/pricing、/start-a-hat-brand、/solutions/<slug>)的共用渲染组件。
+// 文案全部来自 src/lib/guide-content.ts / src/lib/solutions-content.ts,这里只管排版,不新增/修改/润色任何一个字。
 //
 // guide-content.ts 里 p / list / 表格单元格允许出现 <b>…</b> 加粗,别的尖括号一律当纯文字。
 // 用 parseBold() 把 <b>…</b> 拆成 React 节点(<strong>),不用 dangerouslySetInnerHTML。
@@ -122,6 +124,59 @@ function renderBlock(block: GuideBlock, i: number) {
   }
 }
 
+// 产品卡片网格(products block):按 slug 从 sample-data 里找产品,找不到的 slug 跳过不报错。
+// 内容比其它 block 宽,单独用 max-w-7xl 撑开,不挤在正文的 max-w-3xl 容器里。
+function ProductsBlock({ slugs }: { slugs: string[] }) {
+  const products = slugs
+    .map((slug) => sampleProducts.find((p) => p.slug === slug))
+    .filter((p): p is (typeof sampleProducts)[number] => Boolean(p));
+
+  if (products.length === 0) return null;
+
+  return (
+    <section className="py-10 bg-gray-50">
+      <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+        <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-5 gap-4 sm:gap-6">
+          {products.map((product) => (
+            <ProductCard key={product.slug} product={product} />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+}
+
+// 正文 blocks 按 products 类型切段:普通 block 连续段落放进 max-w-3xl 容器(跟以前一样),
+// products 段单独渲染成 max-w-7xl 的整宽 section。pricing/start-a-hat-brand 没有 products
+// block,永远只有一段,渲染结果跟改动前完全一样。
+type BlockSegment =
+  | { kind: "normal"; blocks: GuideBlock[]; startIndex: number }
+  | { kind: "products"; slugs: string[]; key: number };
+
+function segmentBlocks(blocks: GuideBlock[]): BlockSegment[] {
+  const segments: BlockSegment[] = [];
+  let current: GuideBlock[] = [];
+  let currentStart = 0;
+
+  blocks.forEach((block, i) => {
+    if (block.type === "products") {
+      if (current.length > 0) {
+        segments.push({ kind: "normal", blocks: current, startIndex: currentStart });
+        current = [];
+      }
+      segments.push({ kind: "products", slugs: block.slugs, key: i });
+      currentStart = i + 1;
+    } else {
+      if (current.length === 0) currentStart = i;
+      current.push(block);
+    }
+  });
+  if (current.length > 0) {
+    segments.push({ kind: "normal", blocks: current, startIndex: currentStart });
+  }
+  return segments;
+}
+
 export interface GuidePageProps {
   content: GuideLocaleContent;
   // 面包屑:首页文字 + 当前页短名(不是完整 h1,面包屑放不下)
@@ -160,12 +215,18 @@ export default function GuidePage({
         </div>
       </section>
 
-      {/* 正文 blocks */}
-      <section className="py-10">
-        <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-6">
-          {content.blocks.map((block, i) => renderBlock(block, i))}
-        </div>
-      </section>
+      {/* 正文 blocks(遇到 products block 单独切成整宽段,其余照旧放进 max-w-3xl 容器) */}
+      {segmentBlocks(content.blocks).map((segment) =>
+        segment.kind === "products" ? (
+          <ProductsBlock key={`products-${segment.key}`} slugs={segment.slugs} />
+        ) : (
+          <section key={`normal-${segment.startIndex}`} className="py-10">
+            <div className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8 space-y-6">
+              {segment.blocks.map((block, i) => renderBlock(block, segment.startIndex + i))}
+            </div>
+          </section>
+        )
+      )}
 
       {/* FAQ:用原生 <details>/<summary>,答案文字始终在 HTML 里,方便搜索引擎直接读到 */}
       <section className="py-16 bg-gray-50">

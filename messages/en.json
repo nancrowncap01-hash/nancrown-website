@@ -96,18 +96,152 @@
   },
   "About": {
     "title": "About Us",
-    "subtitle": "Your Trusted Headwear Manufacturing Partner",
+    "subtitle": "A custom cap and hat factory in Guangzhou, China, making caps for brands since 2015.",
     "story": "Our Story",
-    "storyText": "Founded in 2015, we have grown from a small workshop into one of the leading headwear manufacturers in China. With over a decade of experience, we serve brands and businesses worldwide with premium quality custom headwear.",
+    "storyText": "NanCrown started in 2015 as a small cap workshop in Guangzhou, China. Today we are a 2,000 m² factory with a team of more than 30 people, making over 100,000 caps a month for brands in more than 50 countries.",
     "capacity": "Production Capacity",
-    "capacityText": "Our state-of-the-art facility spans 2,000m² and houses over 30 skilled workers. Equipped with the latest embroidery machines, cutting equipment, and quality control systems, we can produce over 100,000 pieces per month.",
+    "capacityText": "Our workshop covers about 2,000 m² with a team of more than 30 people. With cutting, sewing and assembly on our own floor, and long-term partners for embroidery and printing, we make over 100,000 caps a month, so we can take a 50-piece trial and a large repeat order alike.",
     "certifications": "Quality Control",
-    "certificationsText": "Every order is checked at each stage of production, and we confirm every detail with a pre-production sample before bulk production begins.",
+    "certificationsText": "Every order is checked at each stage of production, and bulk only starts after you approve a pre-production sample. Before you pay the balance, you can check the finished order by photos and video, on a live video call, or through a third-party inspector.",
     "years": "Years Experience",
     "workers": "Skilled Workers",
     "monthlyCapacity": "Monthly Capacity",
     "countries": "Countries Served",
-    "workshopLink": "See the workshop video →"
+    "workshopLink": "See the workshop video →",
+    "storyText2": "We work directly with the people who own the brand: clothing and streetwear labels, running and outdoor brands, surf shops, companies and event organisers. You send the idea and the logo; we turn it into a sample, and once you approve it, we make the order to match.",
+    "glanceHeading": "NanCrown at a glance",
+    "glanceRows": [
+      [
+        "What we are",
+        "A cap and hat factory (manufacturer), not a trading company"
+      ],
+      [
+        "Location",
+        "Guangzhou, Guangdong Province, China"
+      ],
+      [
+        "Founded",
+        "2015"
+      ],
+      [
+        "Factory floor",
+        "About 2,000 m²"
+      ],
+      [
+        "Team",
+        "30+ skilled workers"
+      ],
+      [
+        "Output",
+        "100,000+ caps a month"
+      ],
+      [
+        "Markets",
+        "Customers in 50+ countries"
+      ],
+      [
+        "Minimum order",
+        "50 pieces per colour, per style"
+      ],
+      [
+        "Samples",
+        "7–15 days; US$60–80 per design, refunded when you order 1,000+ pieces of that design"
+      ],
+      [
+        "Bulk production",
+        "25–30 days after sample approval, plus shipping"
+      ],
+      [
+        "Price guide",
+        "US$6.0–7.7 per cap at 50–99 pieces, down to US$4.5–5.2 at 500+ (standard build, ex-works Guangzhou)"
+      ],
+      [
+        "Payment",
+        "50% deposit, 50% after the order passes inspection"
+      ],
+      [
+        "Shipping",
+        "Courier, air or sea freight; DDP quotes through our forwarders"
+      ],
+      [
+        "Contact",
+        "info@nancrown.com — we reply within 1–2 business days"
+      ]
+    ],
+    "splitHeading": "What we make ourselves, and who helps us",
+    "splitIntro": "Here is how the work is split, so you know who makes your caps.",
+    "ownHeading": "On our own floor",
+    "ownItems": [
+      "Pattern room: patterns and sample development for every new style",
+      "Cutting and sewing",
+      "Assembly, shaping and finishing",
+      "Checking and packing"
+    ],
+    "partnerHeading": "With long-term partner workshops",
+    "partnerItems": [
+      "Embroidery, including 3D puff and chenille",
+      "Screen, heat-transfer and reflective printing",
+      "Washing and garment dyeing",
+      "Laser cutting and other specialty work"
+    ],
+    "splitNote": "Partner work comes back to our floor, where it is checked before the cap moves to the next step.",
+    "whoHeading": "Who we make caps for",
+    "whoItems": [
+      {
+        "title": "Clothing and streetwear brands",
+        "text": "Private-label caps with your logo, labels and packaging, from a first 50-piece run to repeat bulk orders.",
+        "href": "/start-a-hat-brand"
+      },
+      {
+        "title": "Run clubs and running brands",
+        "text": "Light, quick-dry running caps with reflective or embroidered logos.",
+        "href": "/solutions/run-clubs"
+      },
+      {
+        "title": "Surf shops and water sports brands",
+        "text": "Surf caps with chin straps, ear flaps and quick-dry nylon.",
+        "href": "/solutions/surf-shops"
+      },
+      {
+        "title": "Companies and events",
+        "text": "Staff caps, giveaways and sponsor caps, from 50 pieces to several thousand.",
+        "href": "/solutions/corporate-events"
+      },
+      {
+        "title": "Festivals, bands and merch",
+        "text": "Bucket hats, trucker caps and 5-panel caps for your event merch.",
+        "href": "/solutions/festival-merch"
+      }
+    ],
+    "seeHeading": "See us before you order",
+    "seeText": "Watch our workshop video to see the cutting, sewing and shaping floor, or ask for a live video call and we will walk you through the workshop and your sample.",
+    "seeVideoLink": "Watch the workshop video →",
+    "faqHeading": "Questions about NanCrown",
+    "faq": [
+      {
+        "q": "Are you a factory or a trading company?",
+        "a": "A factory. Pattern making, cutting, sewing and assembly are done on our own floor in Guangzhou, China, and we work directly with brand owners. Embroidery, printing and washing are done by long-term partner workshops and checked by us."
+      },
+      {
+        "q": "Where is your factory?",
+        "a": "In Guangzhou, Guangdong Province, China. We ship to customers in more than 50 countries by courier, air or sea freight."
+      },
+      {
+        "q": "Can I see the factory before I order?",
+        "a": "Yes. You can watch our workshop video on this site, or ask for a live video call and we will show you the floor. You can also send a third-party inspector to check your order before you pay the balance."
+      },
+      {
+        "q": "What is the smallest order you take?",
+        "a": "50 pieces per colour, per style. Two colours of one style can be combined to reach the 100-piece price tier."
+      },
+      {
+        "q": "How fast do you reply?",
+        "a": "Carrie from our sales team answers every inquiry personally, usually within 1–2 business days (Guangzhou time, GMT+8)."
+      }
+    ],
+    "ctaTitle": "Tell us about your cap",
+    "ctaText": "Send your logo, the styles you have in mind and the quantity. We will reply with a price and a sample plan within 1–2 business days.",
+    "ctaButton": "Get a quote"
   },
   "Custom": {
     "title": "Custom Orders",
@@ -201,14 +335,14 @@
     "de": "Deutsch"
   },
   "Seo": {
-    "homeTitle": "Premium Custom Headwear Manufacturer | NanCrown",
-    "homeDescription": "China-based custom hat manufacturer — baseball caps, bucket hats, snapbacks & more. Factory-direct pricing, low MOQ, custom logo embroidery, worldwide shipping.",
+    "homeTitle": "Custom Cap & Hat Factory in China | NanCrown",
+    "homeDescription": "Custom cap and hat factory in Guangzhou, China, since 2015: baseball caps, trucker hats, bucket hats, running caps and more. From 50 pieces per colour, samples in 7–15 days, factory-direct prices.",
     "productsTitle": "Custom Hats & Caps — Wholesale Catalog",
     "productsDescription": "Browse NanCrown's custom hat catalog: baseball caps, trucker hats, bucket hats, visors, camp caps & winter hats. Factory-direct, low MOQ, OEM/ODM.",
     "customTitle": "Custom Hat Manufacturing Process",
     "customDescription": "Make custom hats in 6 simple steps: design, sampling, production, QC & shipping. Low MOQ, OEM/ODM welcome. Get a free quote from NanCrown.",
-    "aboutTitle": "About Our Hat Factory",
-    "aboutDescription": "10+ years crafting custom headwear for 50+ countries. 30+ skilled workers, 100K+ pieces a month. Discover NanCrown's hat factory in Guangzhou.",
+    "aboutTitle": "About Our Cap Factory in Guangzhou, China",
+    "aboutDescription": "NanCrown is a custom cap and hat factory in Guangzhou, China, since 2015: about 2,000 m², 30+ workers, 100,000+ caps a month, customers in 50+ countries. From 50 pieces per colour.",
     "contactTitle": "Contact Us — Request a Quote",
     "contactDescription": "Get a free quote for custom hats. Tell us your style, quantity & logo — NanCrown replies within 1–2 business days. Low MOQ, worldwide shipping."
   },
@@ -218,7 +352,7 @@
     "workshopTeaserButton": "Watch the video"
   },
   "HomeA": {
-    "eyebrow": "Factory profile — updated 2026",
+    "eyebrow": "Cap factory in Guangzhou, China — since 2015",
     "titleLine1": "Private-label headwear,",
     "titleLine2": "built to spec.",
     "lead": "A 2,000 m² cap factory in Guangzhou, China — our own cutting, sewing and assembly lines, backed by long-term embroidery, printing and finishing partners. We work directly with brand owners who need a manufacturing partner, not just a listing.",
@@ -337,7 +471,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Guangzhou, China — Established 2015",
+    "eyebrow": "Cap factory in Guangzhou, China — since 2015",
     "titlePrefix": "Headwear,",
     "titleMid": "made to ",
     "titleEmphasis": "your",
@@ -400,5 +534,12 @@
     "contactEmail": "info@nancrown.com",
     "contactPhone": "+86 20-3123 5916",
     "contactLocation": "Guangzhou, China"
+  },
+  "Solutions": {
+    "heading": "Who we make caps for",
+    "run-clubs": "Run clubs",
+    "surf-shops": "Surf shops",
+    "corporate-events": "Companies & events",
+    "festival-merch": "Festivals & merch"
   }
 }

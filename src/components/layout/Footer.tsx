@@ -1,16 +1,25 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
+// 新增一栏的 4 个链接,顺序跟 messages 的 Solutions namespace(run-clubs / surf-shops / corporate-events / festival-merch)一一对应
+const solutionsLinks = [
+  { href: "/solutions/run-clubs" as const, key: "run-clubs" as const },
+  { href: "/solutions/surf-shops" as const, key: "surf-shops" as const },
+  { href: "/solutions/corporate-events" as const, key: "corporate-events" as const },
+  { href: "/solutions/festival-merch" as const, key: "festival-merch" as const },
+];
+
 export default function Footer() {
   const t = useTranslations("Footer");
   const nav = useTranslations("Nav");
+  const solutionsT = useTranslations("Solutions");
 
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
           {/* Brand */}
-          <div className="md:col-span-2">
+          <div className="sm:col-span-2 md:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-600 text-white font-bold text-lg">
                 N
@@ -86,6 +95,25 @@ export default function Footer() {
                   {nav("contact")}
                 </Link>
               </li>
+            </ul>
+          </div>
+
+          {/* Solutions(按买家身份分的 4 个落地页,0930 新增) */}
+          <div>
+            <h3 className="text-white font-semibold mb-4">
+              {solutionsT("heading")}
+            </h3>
+            <ul className="space-y-2">
+              {solutionsLinks.map((item) => (
+                <li key={item.href}>
+                  <Link
+                    href={item.href}
+                    className="hover:text-amber-400 transition-colors"
+                  >
+                    {solutionsT(item.key)}
+                  </Link>
+                </li>
+              ))}
             </ul>
           </div>
 

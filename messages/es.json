@@ -96,18 +96,152 @@
   },
   "About": {
     "title": "Sobre Nosotros",
-    "subtitle": "Tu Socio de Confianza en Fabricación de Gorras",
+    "subtitle": "Fábrica de gorras y sombreros personalizados en Guangzhou, China, fabricando para marcas desde 2015.",
     "story": "Nuestra Historia",
-    "storyText": "Fundada en 2015, hemos crecido de un pequeño taller a uno de los principales fabricantes de gorras en China. Con más de una década de experiencia, servimos a marcas y empresas en todo el mundo con gorras personalizadas de primera calidad.",
+    "storyText": "NanCrown empezó en 2015 como un pequeño taller de gorras en Guangzhou, China. Hoy somos una fábrica de 2.000 m² con un equipo de más de 30 personas, y fabricamos más de 100.000 gorras al mes para marcas de más de 50 países.",
     "capacity": "Capacidad de Producción",
-    "capacityText": "Nuestras instalaciones de última generación abarcan 2,000m² y albergan más de 30 trabajadores cualificados. Equipados con las últimas máquinas de bordado y sistemas de control de calidad, podemos producir más de 100,000 piezas al mes.",
+    "capacityText": "Nuestro taller ocupa unos 2.000 m² y tiene un equipo de más de 30 personas. Con el corte, la costura y el montaje en nuestro propio taller, y colaboradores de largo plazo para el bordado y el estampado, fabricamos más de 100.000 gorras al mes, así que atendemos tanto una prueba de 50 piezas como un pedido grande y repetido.",
     "certifications": "Control de Calidad",
-    "certificationsText": "Cada pedido se revisa en cada etapa de producción, y confirmamos todos los detalles con una muestra de preproducción antes de iniciar la producción en serie.",
+    "certificationsText": "Cada pedido se revisa en cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes de pagar el resto, puedes revisar el pedido terminado con fotos y vídeo, en una videollamada o mediante un inspector externo.",
     "years": "Años de Experiencia",
     "workers": "Trabajadores",
     "monthlyCapacity": "Capacidad Mensual",
     "countries": "Países Atendidos",
-    "workshopLink": "Ver el vídeo del taller →"
+    "workshopLink": "Ver el vídeo del taller →",
+    "storyText2": "Trabajamos directamente con quien es dueño de la marca: marcas de ropa y streetwear, marcas de running y outdoor, tiendas de surf, empresas y organizadores de eventos. Tú nos envías la idea y el logo; nosotros hacemos una muestra y, cuando la apruebas, fabricamos el pedido igual.",
+    "glanceHeading": "NanCrown en cifras",
+    "glanceRows": [
+      [
+        "Qué somos",
+        "Fábrica de gorras y sombreros (fabricante), no una empresa comercializadora"
+      ],
+      [
+        "Ubicación",
+        "Guangzhou, provincia de Guangdong, China"
+      ],
+      [
+        "Fundación",
+        "2015"
+      ],
+      [
+        "Superficie",
+        "Unos 2.000 m²"
+      ],
+      [
+        "Equipo",
+        "Más de 30 trabajadores cualificados"
+      ],
+      [
+        "Producción",
+        "Más de 100.000 gorras al mes"
+      ],
+      [
+        "Mercados",
+        "Clientes en más de 50 países"
+      ],
+      [
+        "Pedido mínimo",
+        "50 piezas por color y por modelo"
+      ],
+      [
+        "Muestras",
+        "7–15 días; 60–80 USD por diseño, se devuelven al pedir 1.000 piezas o más de ese diseño"
+      ],
+      [
+        "Producción en serie",
+        "25–30 días tras aprobar la muestra, más el envío"
+      ],
+      [
+        "Precios orientativos",
+        "6,0–7,7 USD por gorra en 50–99 piezas, hasta 4,5–5,2 USD desde 500 (modelo estándar, en fábrica Guangzhou)"
+      ],
+      [
+        "Pago",
+        "50% de anticipo y 50% cuando el pedido pasa la inspección"
+      ],
+      [
+        "Envío",
+        "Mensajería, aéreo o marítimo; presupuestos DDP a través de nuestros transitarios"
+      ],
+      [
+        "Contacto",
+        "info@nancrown.com — respondemos en 1–2 días laborables"
+      ]
+    ],
+    "splitHeading": "Qué hacemos nosotros y quién nos ayuda",
+    "splitIntro": "Así se reparte el trabajo, para que sepas quién fabrica tus gorras.",
+    "ownHeading": "En nuestro taller",
+    "ownItems": [
+      "Sala de patronaje: patrones y desarrollo de muestras para cada modelo nuevo",
+      "Corte y costura",
+      "Montaje, conformado y acabado",
+      "Control y embalaje"
+    ],
+    "partnerHeading": "Con talleres colaboradores de largo plazo",
+    "partnerItems": [
+      "Bordado, incluidos el bordado 3D (puff) y el de chenilla",
+      "Serigrafía, transfer y estampado reflectante",
+      "Lavado y teñido en prenda",
+      "Corte láser y otros trabajos especiales"
+    ],
+    "splitNote": "Lo que hacen los colaboradores vuelve a nuestro taller y se revisa antes de que la gorra pase al siguiente paso.",
+    "whoHeading": "Para quién fabricamos gorras",
+    "whoItems": [
+      {
+        "title": "Marcas de ropa y streetwear",
+        "text": "Gorras de marca propia con tu logo, etiquetas y embalaje, desde una primera tirada de 50 piezas hasta pedidos repetidos.",
+        "href": "/start-a-hat-brand"
+      },
+      {
+        "title": "Clubs y marcas de running",
+        "text": "Gorras de running ligeras y de secado rápido, con logo reflectante o bordado.",
+        "href": "/solutions/run-clubs"
+      },
+      {
+        "title": "Tiendas de surf y marcas de deportes acuáticos",
+        "text": "Gorras de surf con barboquejo, orejeras y nailon de secado rápido.",
+        "href": "/solutions/surf-shops"
+      },
+      {
+        "title": "Empresas y eventos",
+        "text": "Gorras para el personal, regalos y patrocinadores, desde 50 piezas hasta varios miles.",
+        "href": "/solutions/corporate-events"
+      },
+      {
+        "title": "Festivales, bandas y merch",
+        "text": "Gorros bucket, gorras trucker y de 5 paneles para el merch de tu evento.",
+        "href": "/solutions/festival-merch"
+      }
+    ],
+    "seeHeading": "Conócenos antes de hacer el pedido",
+    "seeText": "Mira el vídeo de nuestro taller para ver el corte, la costura y el conformado, o pide una videollamada y te enseñamos el taller y tu muestra.",
+    "seeVideoLink": "Ver el vídeo del taller →",
+    "faqHeading": "Preguntas sobre NanCrown",
+    "faq": [
+      {
+        "q": "¿Sois fábrica o empresa comercializadora?",
+        "a": "Fábrica. El patronaje, el corte, la costura y el montaje se hacen en nuestro propio taller en Guangzhou, China, y trabajamos directamente con los dueños de las marcas. El bordado, el estampado y el lavado los hacen talleres colaboradores de largo plazo y los revisamos nosotros."
+      },
+      {
+        "q": "¿Dónde está la fábrica?",
+        "a": "En Guangzhou, provincia de Guangdong, China. Enviamos a clientes de más de 50 países por mensajería, avión o barco."
+      },
+      {
+        "q": "¿Puedo ver la fábrica antes de hacer el pedido?",
+        "a": "Sí. Puedes ver el vídeo de nuestro taller en esta web o pedir una videollamada y te enseñamos el taller. También puedes enviar un inspector externo a revisar tu pedido antes de pagar el resto."
+      },
+      {
+        "q": "¿Cuál es el pedido más pequeño que aceptáis?",
+        "a": "50 piezas por color y por modelo. Dos colores de un mismo modelo se pueden sumar para llegar al tramo de 100 piezas."
+      },
+      {
+        "q": "¿Cuánto tardáis en responder?",
+        "a": "Carrie, de nuestro equipo comercial, responde personalmente cada consulta, normalmente en 1–2 días laborables (hora de Guangzhou, GMT+8). Respondemos en inglés, y las consultas en español son bienvenidas."
+      }
+    ],
+    "ctaTitle": "Cuéntanos cómo es tu gorra",
+    "ctaText": "Envía tu logo, los modelos que tienes en mente y la cantidad. Te respondemos con precio y plan de muestra en 1–2 días laborables.",
+    "ctaButton": "Pedir presupuesto"
   },
   "Custom": {
     "title": "Pedidos Personalizados",
@@ -201,14 +335,14 @@
     "de": "Deutsch"
   },
   "Seo": {
-    "homeTitle": "Fabricante de gorras personalizadas | NanCrown",
-    "homeDescription": "Fabricante de gorras y sombreros personalizados en Guangzhou, China. Bordado, serigrafía, telas y colores a medida. Pedido mínimo: 50 unidades por color.",
+    "homeTitle": "Fábrica de gorras personalizadas en China | NanCrown",
+    "homeDescription": "Fábrica de gorras y sombreros personalizados en Guangzhou, China, desde 2015. Bordado, estampado, telas y colores a medida. Desde 50 piezas por color y muestra en 7–15 días.",
     "productsTitle": "Gorras y sombreros personalizados al por mayor",
     "productsDescription": "Catálogo de gorras y sombreros personalizados: béisbol, trucker, pescador, viseras y más. Fabricante directo, pedido mínimo 50 uds/color, OEM/ODM.",
     "customTitle": "Fabricación de gorras personalizadas a medida",
     "customDescription": "Gorras personalizadas de diseño a producción, fábrica propia en Guangzhou. Bordado, serigrafía y colores a medida. Pedido mínimo: 50 unidades por color.",
-    "aboutTitle": "Sobre nuestra fábrica de gorras",
-    "aboutDescription": "Fábrica de gorras y sombreros personalizados en Guangzhou, China. Bordado, serigrafía, telas y colores a medida para marcas mayoristas de todo el mundo.",
+    "aboutTitle": "Sobre nuestra fábrica de gorras en Guangzhou, China",
+    "aboutDescription": "NanCrown es una fábrica de gorras y sombreros personalizados en Guangzhou, China, desde 2015: unos 2.000 m², más de 30 trabajadores, más de 100.000 gorras al mes y clientes en más de 50 países. Desde 50 piezas por color.",
     "contactTitle": "Contáctanos — Solicita una cotización",
     "contactDescription": "Solicita cotización para gorras personalizadas. Fábrica en Guangzhou, China. Bordado, serigrafía y colores a medida. Pedido mínimo: 50 uds/color."
   },
@@ -218,9 +352,9 @@
     "workshopTeaserButton": "Ver el vídeo"
   },
   "HomeA": {
-    "eyebrow": "Perfil de fábrica — actualizado en 2026",
-    "titleLine1": "Gorras de marca propia,",
-    "titleLine2": "fabricadas a tu medida.",
+    "eyebrow": "Fábrica de gorras en Guangzhou, China — desde 2015",
+    "titleLine1": "Fábrica de gorras personalizadas",
+    "titleLine2": "en China, desde 50 piezas.",
     "lead": "Una fábrica de gorras de 2.000 m² en Guangzhou, China — con nuestras propias líneas de corte, costura y ensamblaje, respaldadas por socios de bordado, estampado y acabado con los que trabajamos desde hace años. Trabajamos directamente con marcas que necesitan un socio de fabricación, no solo un proveedor de catálogo.",
     "ctaPrimary": "Solicitar Cotización",
     "ctaSecondary": "Ver Capacidades",
@@ -337,7 +471,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Guangzhou, China — Fundada en 2015",
+    "eyebrow": "Fábrica de gorras en Guangzhou, China — desde 2015",
     "titlePrefix": "Gorras,",
     "titleMid": "hechas a ",
     "titleEmphasis": "tu",
@@ -400,5 +534,12 @@
     "contactEmail": "info@nancrown.com",
     "contactPhone": "+86 20-3123 5916",
     "contactLocation": "Guangzhou, China"
+  },
+  "Solutions": {
+    "heading": "Para quién fabricamos",
+    "run-clubs": "Clubs de running",
+    "surf-shops": "Tiendas de surf",
+    "corporate-events": "Empresas y eventos",
+    "festival-merch": "Festivales y merch"
   }
 }

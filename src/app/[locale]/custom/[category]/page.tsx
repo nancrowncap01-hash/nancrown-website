@@ -77,6 +77,7 @@ export default async function CategoryPage({
         homeLabel={ui.home}
         customLabel={ui.custom}
         products={products}
+        faq={content.faq}
       />
 
       {/* 深色标题区 + 面包屑(风格照 /custom、/products 页) */}

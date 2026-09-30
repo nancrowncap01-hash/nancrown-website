@@ -96,18 +96,152 @@
   },
   "About": {
     "title": "À Propos",
-    "subtitle": "Votre Partenaire de Confiance en Fabrication de Casquettes",
+    "subtitle": "Usine de casquettes et chapeaux personnalisés à Guangzhou, en Chine, au service des marques depuis 2015.",
     "story": "Notre Histoire",
-    "storyText": "Fondée en 2015, nous sommes passés d'un petit atelier à l'un des principaux fabricants de casquettes en Chine. Avec plus d'une décennie d'expérience, nous servons des marques du monde entier.",
+    "storyText": "NanCrown a commencé en 2015 comme un petit atelier de casquettes à Guangzhou, en Chine. Aujourd'hui, nous sommes une usine de 2 000 m² avec une équipe de plus de 30 personnes, et nous fabriquons plus de 100 000 casquettes par mois pour des marques de plus de 50 pays.",
     "capacity": "Capacité de Production",
-    "capacityText": "Notre usine de pointe couvre 2 000m² et emploie plus de 30 ouvriers qualifiés. Nous pouvons produire plus de 100 000 pièces par mois.",
+    "capacityText": "Notre atelier fait environ 2 000 m² avec une équipe de plus de 30 personnes. Avec la coupe, la couture et l'assemblage dans notre propre atelier, et des partenaires de longue date pour la broderie et l'impression, nous fabriquons plus de 100 000 casquettes par mois : un essai de 50 pièces comme une grosse commande récurrente.",
     "certifications": "Contrôle Qualité",
-    "certificationsText": "Chaque commande est contrôlée à chaque étape de la production, et nous validons chaque détail avec un échantillon de pré-production avant le lancement de la production en série.",
+    "certificationsText": "Chaque commande est contrôlée à chaque étape de production, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant de payer le solde, vous pouvez vérifier la commande terminée en photos et vidéo, en appel vidéo ou via un inspecteur indépendant.",
     "years": "Années d'Expérience",
     "workers": "Ouvriers Qualifiés",
     "monthlyCapacity": "Capacité Mensuelle",
     "countries": "Pays Desservis",
-    "workshopLink": "Voir la vidéo de l'atelier →"
+    "workshopLink": "Voir la vidéo de l'atelier →",
+    "storyText2": "Nous travaillons directement avec les personnes à qui appartient la marque : marques de vêtements et de streetwear, marques de running et d'outdoor, surf shops, entreprises et organisateurs d'événements. Vous nous envoyez l'idée et le logo ; nous en faisons un échantillon et, une fois validé, nous fabriquons la commande à l'identique.",
+    "glanceHeading": "NanCrown en bref",
+    "glanceRows": [
+      [
+        "Ce que nous sommes",
+        "Une usine de casquettes et chapeaux (fabricant), pas une société de négoce"
+      ],
+      [
+        "Localisation",
+        "Guangzhou, province du Guangdong, Chine"
+      ],
+      [
+        "Création",
+        "2015"
+      ],
+      [
+        "Surface",
+        "Environ 2 000 m²"
+      ],
+      [
+        "Équipe",
+        "Plus de 30 ouvriers qualifiés"
+      ],
+      [
+        "Production",
+        "Plus de 100 000 casquettes par mois"
+      ],
+      [
+        "Marchés",
+        "Des clients dans plus de 50 pays"
+      ],
+      [
+        "Minimum de commande",
+        "50 pièces par couleur et par modèle"
+      ],
+      [
+        "Échantillons",
+        "7 à 15 jours ; 60–80 USD par design, remboursés dès 1 000 pièces commandées de ce design"
+      ],
+      [
+        "Production en série",
+        "25 à 30 jours après validation de l'échantillon, plus le transport"
+      ],
+      [
+        "Repères de prix",
+        "6,0–7,7 USD par casquette de 50 à 99 pièces, jusqu'à 4,5–5,2 USD dès 500 (modèle standard, départ usine Guangzhou)"
+      ],
+      [
+        "Paiement",
+        "50 % d'acompte, 50 % après inspection de la commande"
+      ],
+      [
+        "Expédition",
+        "Express, fret aérien ou maritime ; devis DDP via nos transitaires"
+      ],
+      [
+        "Contact",
+        "info@nancrown.com — réponse sous 1 à 2 jours ouvrés"
+      ]
+    ],
+    "splitHeading": "Ce que nous faisons nous-mêmes, et qui nous aide",
+    "splitIntro": "Voici comment le travail est réparti, pour que vous sachiez qui fabrique vos casquettes.",
+    "ownHeading": "Dans notre atelier",
+    "ownItems": [
+      "Salle de patronage : patrons et développement des échantillons pour chaque nouveau modèle",
+      "Coupe et couture",
+      "Assemblage, mise en forme et finition",
+      "Contrôle et emballage"
+    ],
+    "partnerHeading": "Avec des ateliers partenaires de longue date",
+    "partnerItems": [
+      "Broderie, y compris la broderie 3D (puff) et chenille",
+      "Sérigraphie, transfert et impression réfléchissante",
+      "Délavage et teinture en pièce",
+      "Découpe laser et autres travaux spéciaux"
+    ],
+    "splitNote": "Le travail des partenaires revient dans notre atelier, où il est contrôlé avant que la casquette passe à l'étape suivante.",
+    "whoHeading": "Pour qui nous fabriquons",
+    "whoItems": [
+      {
+        "title": "Marques de vêtements et de streetwear",
+        "text": "Casquettes à votre marque avec votre logo, vos étiquettes et votre emballage, d'une première série de 50 pièces jusqu'aux réassorts.",
+        "href": "/start-a-hat-brand"
+      },
+      {
+        "title": "Clubs et marques de running",
+        "text": "Casquettes de running légères à séchage rapide, avec logo réfléchissant ou brodé.",
+        "href": "/solutions/run-clubs"
+      },
+      {
+        "title": "Surf shops et marques de sports nautiques",
+        "text": "Casquettes de surf avec jugulaire, cache-oreilles et nylon à séchage rapide.",
+        "href": "/solutions/surf-shops"
+      },
+      {
+        "title": "Entreprises et événements",
+        "text": "Casquettes pour le personnel, cadeaux et sponsors, de 50 pièces à plusieurs milliers.",
+        "href": "/solutions/corporate-events"
+      },
+      {
+        "title": "Festivals, groupes et merch",
+        "text": "Bobs, casquettes trucker et 5 panneaux pour le merch de votre événement.",
+        "href": "/solutions/festival-merch"
+      }
+    ],
+    "seeHeading": "Voyez-nous avant de commander",
+    "seeText": "Regardez la vidéo de notre atelier pour voir la coupe, la couture et la mise en forme, ou demandez un appel vidéo : nous vous montrons l'atelier et votre échantillon.",
+    "seeVideoLink": "Voir la vidéo de l'atelier →",
+    "faqHeading": "Questions sur NanCrown",
+    "faq": [
+      {
+        "q": "Êtes-vous une usine ou une société de négoce ?",
+        "a": "Une usine. Le patronage, la coupe, la couture et l'assemblage sont faits dans notre propre atelier à Guangzhou, en Chine, et nous travaillons directement avec les propriétaires de marques. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires de longue date et contrôlés par nous."
+      },
+      {
+        "q": "Où se trouve votre usine ?",
+        "a": "À Guangzhou, dans la province du Guangdong, en Chine. Nous expédions vers des clients dans plus de 50 pays, en express, par avion ou par bateau."
+      },
+      {
+        "q": "Puis-je voir l'usine avant de commander ?",
+        "a": "Oui. Vous pouvez regarder la vidéo de notre atelier sur ce site, ou demander un appel vidéo pour visiter l'atelier. Vous pouvez aussi envoyer un inspecteur indépendant contrôler votre commande avant de payer le solde."
+      },
+      {
+        "q": "Quelle est la plus petite commande acceptée ?",
+        "a": "50 pièces par couleur et par modèle. Deux couleurs d'un même modèle peuvent s'additionner pour atteindre le palier de 100 pièces."
+      },
+      {
+        "q": "En combien de temps répondez-vous ?",
+        "a": "Carrie, de notre équipe commerciale, répond personnellement à chaque demande, en général sous 1 à 2 jours ouvrés (heure de Guangzhou, GMT+8). Nous répondons en anglais, et les demandes en français sont les bienvenues."
+      }
+    ],
+    "ctaTitle": "Parlez-nous de votre casquette",
+    "ctaText": "Envoyez votre logo, les modèles envisagés et la quantité. Nous répondons avec un prix et un plan d'échantillon sous 1 à 2 jours ouvrés.",
+    "ctaButton": "Demander un devis"
   },
   "Custom": {
     "title": "Commandes Sur Mesure",
@@ -201,14 +335,14 @@
     "de": "Deutsch"
   },
   "Seo": {
-    "homeTitle": "Fabricant de casquettes personnalisées | NanCrown",
-    "homeDescription": "Fabricant de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure. MOQ : 50 pièces par coloris.",
+    "homeTitle": "Fabricant de casquettes personnalisées en Chine | NanCrown",
+    "homeDescription": "Usine de casquettes et chapeaux personnalisés à Guangzhou, en Chine, depuis 2015. Broderie, impression, tissus et coloris sur mesure. Dès 50 pièces par couleur, échantillon en 7 à 15 jours.",
     "productsTitle": "Casquettes et chapeaux personnalisés en gros",
     "productsDescription": "Catalogue de casquettes et chapeaux personnalisés : baseball, trucker, bob, visières et plus. Fabricant direct, MOQ 50 pièces/coloris, OEM/ODM.",
     "customTitle": "Fabrication de casquettes personnalisées",
     "customDescription": "Casquettes personnalisées du design à la production, usine à Guangzhou. Broderie, sérigraphie et coloris sur mesure. MOQ : 50 pièces par coloris.",
-    "aboutTitle": "À propos de notre usine de casquettes",
-    "aboutDescription": "Usine de casquettes et chapeaux personnalisés à Guangzhou, Chine. Broderie, sérigraphie, tissus et coloris sur mesure pour marques du monde entier.",
+    "aboutTitle": "Notre usine de casquettes à Guangzhou, en Chine",
+    "aboutDescription": "NanCrown est une usine de casquettes et chapeaux personnalisés à Guangzhou, en Chine, depuis 2015 : environ 2 000 m², plus de 30 ouvriers, plus de 100 000 casquettes par mois, des clients dans plus de 50 pays. Dès 50 pièces par couleur.",
     "contactTitle": "Contactez-nous — Demandez un devis",
     "contactDescription": "Demandez un devis pour vos casquettes personnalisées. Usine à Guangzhou, Chine. Broderie, sérigraphie et coloris sur mesure, MOQ 50 pièces par coloris."
   },
@@ -218,9 +352,9 @@
     "workshopTeaserButton": "Voir la vidéo"
   },
   "HomeA": {
-    "eyebrow": "Profil d'usine — mis à jour en 2026",
-    "titleLine1": "Casquettes de marque propre,",
-    "titleLine2": "fabriquées sur mesure.",
+    "eyebrow": "Usine de casquettes à Guangzhou, Chine — depuis 2015",
+    "titleLine1": "Fabricant de casquettes personnalisées",
+    "titleLine2": "en Chine, dès 50 pièces.",
     "lead": "Une usine de casquettes de 2 000 m² à Guangzhou, en Chine — nos propres lignes de coupe, de couture et d'assemblage, appuyées par des partenaires de broderie, d'impression et de finition de longue date. Nous travaillons directement avec des marques qui ont besoin d'un partenaire de fabrication, pas seulement d'un catalogue.",
     "ctaPrimary": "Demander un Devis",
     "ctaSecondary": "Voir les Capacités",
@@ -337,7 +471,7 @@
     "contactFactoryValue": "Guangzhou, Chine"
   },
   "HomeB": {
-    "eyebrow": "Guangzhou, Chine — Fondée en 2015",
+    "eyebrow": "Usine de casquettes à Guangzhou, Chine — depuis 2015",
     "titlePrefix": "Des casquettes,",
     "titleMid": "faites à ",
     "titleEmphasis": "votre",
@@ -400,5 +534,12 @@
     "contactEmail": "info@nancrown.com",
     "contactPhone": "+86 20-3123 5916",
     "contactLocation": "Guangzhou, Chine"
+  },
+  "Solutions": {
+    "heading": "Pour qui nous fabriquons",
+    "run-clubs": "Clubs de running",
+    "surf-shops": "Surf shops",
+    "corporate-events": "Entreprises et événements",
+    "festival-merch": "Festivals et merch"
   }
 }

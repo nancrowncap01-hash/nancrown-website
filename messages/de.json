@@ -96,18 +96,152 @@
   },
   "About": {
     "title": "Über Uns",
-    "subtitle": "Ihr Vertrauenswürdiger Partner für Kopfbedeckungsherstellung",
+    "subtitle": "Fabrik für individuelle Caps und Hüte in Guangzhou, China – seit 2015 für Marken tätig.",
     "story": "Unsere Geschichte",
-    "storyText": "Gegründet 2015, sind wir von einer kleinen Werkstatt zu einem der führenden Kopfbedeckungshersteller in China gewachsen. Mit über einem Jahrzehnt Erfahrung bedienen wir Marken weltweit.",
+    "storyText": "NanCrown begann 2015 als kleine Cap-Werkstatt in Guangzhou, China. Heute sind wir eine Fabrik mit 2.000 m² und einem Team von über 30 Leuten und fertigen mehr als 100.000 Caps im Monat für Marken in über 50 Ländern.",
     "capacity": "Produktionskapazität",
-    "capacityText": "Unsere hochmoderne Anlage umfasst 2.000m² und beschäftigt über 30 qualifizierte Mitarbeiter. Wir können über 100.000 Stück pro Monat produzieren.",
+    "capacityText": "Unsere Werkstatt hat etwa 2.000 m² und ein Team von über 30 Leuten. Mit Zuschnitt, Nähen und Montage in der eigenen Werkstatt und langjährigen Partnern für Stickerei und Druck fertigen wir über 100.000 Caps im Monat – für einen Test mit 50 Stück ebenso wie für große Nachbestellungen.",
     "certifications": "Qualitätskontrolle",
-    "certificationsText": "Jeder Auftrag wird in jeder Produktionsphase geprüft, und wir stimmen jedes Detail vor Beginn der Serienfertigung mit einem Vorproduktionsmuster ab.",
+    "certificationsText": "Jeder Auftrag wird in jedem Produktionsschritt geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor der Restzahlung können Sie die fertige Ware per Foto und Video, im Videocall oder durch einen unabhängigen Prüfer kontrollieren.",
     "years": "Jahre Erfahrung",
     "workers": "Qualifizierte Mitarbeiter",
     "monthlyCapacity": "Monatliche Kapazität",
     "countries": "Belieferte Länder",
-    "workshopLink": "Werkstatt-Video ansehen →"
+    "workshopLink": "Werkstatt-Video ansehen →",
+    "storyText2": "Wir arbeiten direkt mit den Menschen, denen die Marke gehört: Mode- und Streetwear-Labels, Lauf- und Outdoormarken, Surfshops, Firmen und Veranstalter. Sie schicken Idee und Logo; wir machen daraus ein Muster und fertigen nach Ihrer Freigabe den Auftrag genau so.",
+    "glanceHeading": "NanCrown auf einen Blick",
+    "glanceRows": [
+      [
+        "Was wir sind",
+        "Eine Fabrik für Caps und Hüte (Hersteller), kein Handelsunternehmen"
+      ],
+      [
+        "Standort",
+        "Guangzhou, Provinz Guangdong, China"
+      ],
+      [
+        "Gegründet",
+        "2015"
+      ],
+      [
+        "Fläche",
+        "Etwa 2.000 m²"
+      ],
+      [
+        "Team",
+        "Über 30 Fachkräfte"
+      ],
+      [
+        "Produktion",
+        "Über 100.000 Caps im Monat"
+      ],
+      [
+        "Märkte",
+        "Kunden in über 50 Ländern"
+      ],
+      [
+        "Mindestmenge",
+        "50 Stück pro Farbe und Modell"
+      ],
+      [
+        "Muster",
+        "7–15 Tage; 60–80 USD pro Design, erstattet ab 1.000 bestellten Stück dieses Designs"
+      ],
+      [
+        "Serienproduktion",
+        "25–30 Tage nach Musterfreigabe, dazu der Versand"
+      ],
+      [
+        "Preisorientierung",
+        "6,0–7,7 USD pro Cap bei 50–99 Stück, bis 4,5–5,2 USD ab 500 (Standardmodell, ab Werk Guangzhou)"
+      ],
+      [
+        "Zahlung",
+        "50 % Anzahlung, 50 % nach bestandener Prüfung"
+      ],
+      [
+        "Versand",
+        "Kurier, Luft- oder Seefracht; DDP-Angebote über unsere Spediteure"
+      ],
+      [
+        "Kontakt",
+        "info@nancrown.com — Antwort innerhalb von 1–2 Werktagen"
+      ]
+    ],
+    "splitHeading": "Was wir selbst machen – und wer uns hilft",
+    "splitIntro": "So ist die Arbeit aufgeteilt, damit Sie wissen, wer Ihre Caps fertigt.",
+    "ownHeading": "In unserer eigenen Werkstatt",
+    "ownItems": [
+      "Schnittabteilung: Schnitte und Musterentwicklung für jedes neue Modell",
+      "Zuschnitt und Nähen",
+      "Montage, Formgebung und Finish",
+      "Kontrolle und Verpackung"
+    ],
+    "partnerHeading": "Mit langjährigen Partnerwerkstätten",
+    "partnerItems": [
+      "Stickerei, auch 3D-Puff und Chenille",
+      "Sieb-, Transfer- und Reflexdruck",
+      "Waschung und Stückfärbung",
+      "Laserschnitt und andere Spezialarbeiten"
+    ],
+    "splitNote": "Arbeiten der Partner kommen in unsere Werkstatt zurück und werden geprüft, bevor die Cap zum nächsten Schritt geht.",
+    "whoHeading": "Für wen wir Caps fertigen",
+    "whoItems": [
+      {
+        "title": "Mode- und Streetwear-Marken",
+        "text": "Private-Label-Caps mit Ihrem Logo, Etiketten und Verpackung, vom ersten 50-Stück-Lauf bis zur Nachbestellung.",
+        "href": "/start-a-hat-brand"
+      },
+      {
+        "title": "Laufgruppen und Laufmarken",
+        "text": "Leichte, schnell trocknende Laufcaps mit reflektierendem oder gesticktem Logo.",
+        "href": "/solutions/run-clubs"
+      },
+      {
+        "title": "Surfshops und Wassersportmarken",
+        "text": "Surf-Caps mit Kinnriemen, Ohrenklappen und schnell trocknendem Nylon.",
+        "href": "/solutions/surf-shops"
+      },
+      {
+        "title": "Firmen und Events",
+        "text": "Mitarbeiter-Caps, Giveaways und Sponsoren-Caps, von 50 Stück bis zu mehreren Tausend.",
+        "href": "/solutions/corporate-events"
+      },
+      {
+        "title": "Festivals, Bands und Merch",
+        "text": "Bucket Hats, Trucker- und 5-Panel-Caps für Ihr Event-Merch.",
+        "href": "/solutions/festival-merch"
+      }
+    ],
+    "seeHeading": "Lernen Sie uns vor der Bestellung kennen",
+    "seeText": "Sehen Sie sich das Video unserer Werkstatt an – Zuschnitt, Nähen und Formgebung – oder vereinbaren Sie einen Videocall, in dem wir Ihnen die Werkstatt und Ihr Muster zeigen.",
+    "seeVideoLink": "Werkstattvideo ansehen →",
+    "faqHeading": "Fragen zu NanCrown",
+    "faq": [
+      {
+        "q": "Sind Sie Hersteller oder Händler?",
+        "a": "Hersteller. Schnitt, Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt in Guangzhou, China, und wir arbeiten direkt mit Markeninhabern. Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, geprüft von uns."
+      },
+      {
+        "q": "Wo ist Ihre Fabrik?",
+        "a": "In Guangzhou, Provinz Guangdong, China. Wir liefern an Kunden in über 50 Ländern per Kurier, Luft- oder Seefracht."
+      },
+      {
+        "q": "Kann ich die Fabrik vor der Bestellung sehen?",
+        "a": "Ja. Sie können das Video unserer Werkstatt auf dieser Website ansehen oder einen Videocall vereinbaren, in dem wir Ihnen die Werkstatt zeigen. Sie können auch einen unabhängigen Prüfer schicken, bevor Sie den Rest bezahlen."
+      },
+      {
+        "q": "Was ist die kleinste Bestellung?",
+        "a": "50 Stück pro Farbe und Modell. Zwei Farben eines Modells lassen sich zur 100-Stück-Preisstufe zusammenrechnen."
+      },
+      {
+        "q": "Wie schnell antworten Sie?",
+        "a": "Carrie aus unserem Vertrieb beantwortet jede Anfrage persönlich, meist innerhalb von 1–2 Werktagen (Zeit in Guangzhou, GMT+8). Wir antworten auf Englisch, Anfragen auf Deutsch sind willkommen."
+      }
+    ],
+    "ctaTitle": "Erzählen Sie uns von Ihrer Cap",
+    "ctaText": "Schicken Sie Ihr Logo, die gewünschten Modelle und die Menge. Wir antworten innerhalb von 1–2 Werktagen mit Preis und Musterplan.",
+    "ctaButton": "Angebot anfordern"
   },
   "Custom": {
     "title": "Sonderanfertigungen",
@@ -201,14 +335,14 @@
     "de": "Deutsch"
   },
   "Seo": {
-    "homeTitle": "Hersteller für individuelle Caps | NanCrown",
-    "homeDescription": "Hersteller für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch. Mindestbestellmenge 50 Stück pro Farbe.",
+    "homeTitle": "Hersteller für individuelle Caps in China | NanCrown",
+    "homeDescription": "Fabrik für individuelle Caps und Hüte in Guangzhou, China, seit 2015. Stickerei, Druck, Stoffe und Farben nach Wunsch. Ab 50 Stück pro Farbe, Muster in 7–15 Tagen.",
     "productsTitle": "Individuelle Caps & Hüte — Großhandelskatalog",
     "productsDescription": "Katalog individueller Caps und Hüte: Baseball, Trucker, Fischerhüte, Schirmmützen und mehr. Direkt ab Werk, Mindestbestellmenge 50 Stück/Farbe, OEM/ODM.",
     "customTitle": "Individuelle Cap-Fertigung nach Maß",
     "customDescription": "Individuelle Caps vom Design bis zur Fertigung, eigene Fabrik in Guangzhou. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe.",
-    "aboutTitle": "Über unsere Cap-Fabrik",
-    "aboutDescription": "Fabrik für individuelle Caps und Hüte in Guangzhou, China. Stickerei, Siebdruck, Stoffe und Farben nach Wunsch für Großhandelsmarken weltweit.",
+    "aboutTitle": "Unsere Cap-Fabrik in Guangzhou, China",
+    "aboutDescription": "NanCrown ist eine Fabrik für individuelle Caps und Hüte in Guangzhou, China, seit 2015: etwa 2.000 m², über 30 Fachkräfte, über 100.000 Caps im Monat, Kunden in über 50 Ländern. Ab 50 Stück pro Farbe.",
     "contactTitle": "Kontakt — Angebot anfordern",
     "contactDescription": "Angebot für individuelle Caps anfordern. Fabrik in Guangzhou, China. Stickerei, Siebdruck, Farben nach Wunsch, Mindestbestellmenge 50 Stück/Farbe."
   },
@@ -218,9 +352,9 @@
     "workshopTeaserButton": "Video ansehen"
   },
   "HomeA": {
-    "eyebrow": "Fabrikprofil — aktualisiert 2026",
-    "titleLine1": "Kopfbedeckungen für Ihre Marke,",
-    "titleLine2": "nach Maß gefertigt.",
+    "eyebrow": "Cap-Fabrik in Guangzhou, China — seit 2015",
+    "titleLine1": "Hersteller für individuelle Caps",
+    "titleLine2": "in China, ab 50 Stück.",
     "lead": "Eine 2.000 m² große Kappenfabrik in Guangzhou, China — mit eigenen Zuschnitt-, Näh- und Montagelinien, unterstützt von langjährigen Partnern für Stickerei, Druck und Veredelung. Wir arbeiten direkt mit Markeninhabern zusammen, die einen Fertigungspartner brauchen, nicht nur einen Katalog.",
     "ctaPrimary": "Angebot Anfordern",
     "ctaSecondary": "Kompetenzen Ansehen",
@@ -337,7 +471,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Guangzhou, China — Gegründet 2015",
+    "eyebrow": "Cap-Fabrik in Guangzhou, China — seit 2015",
     "titlePrefix": "Kopfbedeckungen,",
     "titleMid": "gefertigt nach ",
     "titleEmphasis": "Ihrem",
@@ -400,5 +534,12 @@
     "contactEmail": "info@nancrown.com",
     "contactPhone": "+86 20-3123 5916",
     "contactLocation": "Guangzhou, China"
+  },
+  "Solutions": {
+    "heading": "Für wen wir fertigen",
+    "run-clubs": "Laufgruppen",
+    "surf-shops": "Surfshops",
+    "corporate-events": "Firmen und Events",
+    "festival-merch": "Festivals und Merch"
   }
 }

@@ -26,7 +26,9 @@ export type GuideBlock =
   | { type: "p"; text: string }
   | { type: "list"; items: string[] }
   | { type: "table"; head: string[]; rows: string[][]; caption?: string }
-  | { type: "steps"; items: { title: string; text: string }[] };
+  | { type: "steps"; items: { title: string; text: string }[] }
+  // 产品卡片网格(0930 新增,给 /solutions/<slug> 用):按 slug 从 sample-data 找产品渲染
+  | { type: "products"; slugs: string[] };
 
 export interface GuideLocaleContent {
   // meta 标题(不要手动加 "| NanCrown",根布局模板会自动补)
@@ -171,7 +173,19 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "Can you ship DDP?",
-      a: "Yes. We quote ex-works Guangzhou and can get you a DDP quote through our forwarders, so duties and delivery are covered to your door.",
+      a: "Yes. We quote ex-works Guangzhou and can get you a DDP quote through our forwarders, so duties and delivery are covered to your door. As a guide, for about 100 standard caps to the US, DDP shipping usually adds US$2–3 or more per cap, depending on weight and speed.",
+    },
+    {
+      q: "Is my own woven label included?",
+      a: "In the sample, yes: one custom woven label is included. In bulk, a larger order includes it in the standard price. On a very small order of around 50 pieces, the label has a minimum setup cost that works out to about US$0.4–0.6 per cap.",
+    },
+    {
+      q: "Do performance fabrics cost more?",
+      a: "Yes. Quick-dry and breathable performance fabrics, such as those used for running caps, add about US$0.5–1 per cap compared with standard cotton twill, at 50–100 pieces of one style.",
+    },
+    {
+      q: "How are the caps packed?",
+      a: "As standard, each cap goes in its own poly bag, 25 caps to an inner box and 100 caps to a carton. Custom packaging, such as branded boxes or hangtags, is quoted separately.",
     },
     {
       q: "Are you a factory or a trading company?",
@@ -314,7 +328,19 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Podéis enviar en DDP?",
-      a: "Sí. Cotizamos en fábrica Guangzhou y podemos conseguirte una cotización DDP a través de nuestros transitarios, con impuestos y entrega incluidos hasta tu puerta.",
+      a: "Sí. Cotizamos en fábrica Guangzhou y podemos conseguirte una cotización DDP a través de nuestros transitarios, con impuestos y entrega incluidos hasta tu puerta. Como referencia, para unas 100 gorras estándar a Estados Unidos, el envío DDP suele sumar 2–3 USD o más por gorra, según el peso y la rapidez.",
+    },
+    {
+      q: "¿Mi etiqueta tejida está incluida?",
+      a: "En la muestra, sí: incluye una etiqueta tejida personalizada. En producción, un pedido grande la incluye en el precio estándar. En un pedido muy pequeño, de unas 50 piezas, la etiqueta tiene un coste mínimo de preparación que sale a unos 0,4–0,6 USD por gorra.",
+    },
+    {
+      q: "¿Los tejidos técnicos cuestan más?",
+      a: "Sí. Los tejidos técnicos de secado rápido y transpirables, como los de las gorras de running, suman unos 0,5–1 USD por gorra frente a la sarga de algodón estándar, en 50–100 piezas de un modelo.",
+    },
+    {
+      q: "¿Cómo se embalan las gorras?",
+      a: "De serie, cada gorra va en su propia bolsa de plástico, 25 gorras por caja interior y 100 por caja de cartón. El embalaje personalizado, como cajas con tu marca o etiquetas colgantes, se presupuesta aparte.",
     },
     {
       q: "¿Sois fábrica o empresa comercializadora?",
@@ -457,7 +483,19 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Pouvez-vous expédier en DDP ?",
-      a: "Oui. Nous chiffrons départ usine Guangzhou et pouvons obtenir un devis DDP auprès de nos transitaires, droits et livraison compris jusqu'à votre porte.",
+      a: "Oui. Nous chiffrons départ usine Guangzhou et pouvons obtenir un devis DDP auprès de nos transitaires, droits et livraison compris jusqu'à votre porte. À titre indicatif, pour environ 100 casquettes standard vers les États-Unis, le transport DDP ajoute en général 2 à 3 USD ou plus par casquette, selon le poids et le délai.",
+    },
+    {
+      q: "Mon étiquette tissée est-elle comprise ?",
+      a: "Dans l'échantillon, oui : une étiquette tissée personnalisée est comprise. En production, une grande commande l'inclut dans le prix standard. Sur une très petite commande, autour de 50 pièces, l'étiquette a un coût minimum de mise en route d'environ 0,4 à 0,6 USD par casquette.",
+    },
+    {
+      q: "Les tissus techniques coûtent-ils plus cher ?",
+      a: "Oui. Les tissus techniques à séchage rapide et respirants, comme ceux des casquettes de running, ajoutent environ 0,5 à 1 USD par casquette par rapport au sergé de coton standard, pour 50 à 100 pièces d'un modèle.",
+    },
+    {
+      q: "Comment les casquettes sont-elles emballées ?",
+      a: "En standard, chaque casquette est dans son sachet plastique, 25 casquettes par boîte intérieure et 100 par carton. Un emballage personnalisé, comme des boîtes à votre marque ou des étiquettes volantes, est chiffré à part.",
     },
     {
       q: "Êtes-vous une usine ou une société de négoce ?",
@@ -600,7 +638,19 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Liefern Sie auch DDP?",
-      a: "Ja. Wir kalkulieren ab Werk Guangzhou und besorgen über unsere Spediteure ein DDP-Angebot, bei dem Zoll und Zustellung bis zu Ihrer Tür enthalten sind.",
+      a: "Ja. Wir kalkulieren ab Werk Guangzhou und besorgen über unsere Spediteure ein DDP-Angebot, bei dem Zoll und Zustellung bis zu Ihrer Tür enthalten sind. Als Richtwert: Für etwa 100 Standard-Caps in die USA kommen beim DDP-Versand meist 2–3 USD oder mehr pro Cap hinzu, je nach Gewicht und Tempo.",
+    },
+    {
+      q: "Ist mein eigenes Webetikett enthalten?",
+      a: "Im Muster ja: Ein individuelles Webetikett ist enthalten. In der Serie ist es bei größeren Mengen im Standardpreis enthalten. Bei sehr kleinen Aufträgen um 50 Stück hat das Etikett Mindestrüstkosten von umgerechnet etwa 0,4–0,6 USD pro Cap.",
+    },
+    {
+      q: "Kosten Funktionsstoffe mehr?",
+      a: "Ja. Schnell trocknende, atmungsaktive Funktionsstoffe, wie sie für Laufcaps verwendet werden, kosten etwa 0,5–1 USD mehr pro Cap als Standard-Baumwoll-Twill, bei 50–100 Stück eines Modells.",
+    },
+    {
+      q: "Wie werden die Caps verpackt?",
+      a: "Standardmäßig kommt jede Cap in einen eigenen Polybeutel, 25 Caps in einen Innenkarton und 100 in einen Versandkarton. Individuelle Verpackung wie Markenboxen oder Hängeetiketten wird separat kalkuliert.",
     },
     {
       q: "Sind Sie Hersteller oder Händler?",
@@ -702,7 +752,7 @@ const brandEn: GuideLocaleContent = {
     },
     {
       q: "Can you help with labels and packaging?",
-      a: "Yes. Woven labels, printed inside taping, hangtags and packaging can all carry your brand.",
+      a: "Yes. Woven labels, printed inside taping, hangtags and packaging can all carry your brand. One custom woven label is included in your sample; on very small bulk orders (around 50 pieces) the label adds about US$0.4–0.6 per cap.",
     },
   ],
   cta: {
@@ -798,7 +848,7 @@ const brandEs: GuideLocaleContent = {
     },
     {
       q: "¿Podéis ayudar con etiquetas y embalaje?",
-      a: "Sí. Las etiquetas tejidas, la cinta interior estampada, las etiquetas colgantes y el embalaje pueden llevar tu marca.",
+      a: "Sí. Las etiquetas tejidas, la cinta interior estampada, las etiquetas colgantes y el embalaje pueden llevar tu marca. La muestra incluye una etiqueta tejida personalizada; en pedidos muy pequeños (unas 50 piezas) la etiqueta suma unos 0,4–0,6 USD por gorra.",
     },
   ],
   cta: {
@@ -894,7 +944,7 @@ const brandFr: GuideLocaleContent = {
     },
     {
       q: "Pouvez-vous m'aider pour les étiquettes et l'emballage ?",
-      a: "Oui. Étiquettes tissées, ganse intérieure imprimée, étiquettes volantes et emballage peuvent tous porter votre marque.",
+      a: "Oui. Étiquettes tissées, ganse intérieure imprimée, étiquettes volantes et emballage peuvent tous porter votre marque. Une étiquette tissée personnalisée est comprise dans l'échantillon ; sur les très petites séries (autour de 50 pièces), l'étiquette ajoute environ 0,4 à 0,6 USD par casquette.",
     },
   ],
   cta: {
@@ -990,7 +1040,7 @@ const brandDe: GuideLocaleContent = {
     },
     {
       q: "Helfen Sie bei Etiketten und Verpackung?",
-      a: "Ja. Gewebte Etiketten, bedrucktes Innenband, Hängeetiketten und Verpackung können Ihre Marke tragen.",
+      a: "Ja. Gewebte Etiketten, bedrucktes Innenband, Hängeetiketten und Verpackung können Ihre Marke tragen. Ein individuelles Webetikett ist im Muster enthalten; bei sehr kleinen Serien (um 50 Stück) kommt das Etikett auf etwa 0,4–0,6 USD pro Cap.",
     },
   ],
   cta: {

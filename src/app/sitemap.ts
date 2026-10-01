@@ -10,7 +10,8 @@ import { localizedUrl, SITE_URL } from "@/lib/seo";
 const LAST_MODIFIED = new Date("2026-09-30");
 
 // 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
-const guidePaths = ["/pricing", "/start-a-hat-brand"];
+// 1001 新增 /choose-a-hat-factory,同一批对待
+const guidePaths = ["/pricing", "/start-a-hat-brand", "/choose-a-hat-factory"];
 
 // 0930 新增的 4 个「按买家身份」独立页面,优先级跟 guidePaths 一样
 const solutionPaths = solutionSlugs.map((slug) => `/solutions/${slug}`);

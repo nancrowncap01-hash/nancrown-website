@@ -326,7 +326,8 @@
   "Guides": {
     "customToPricing": "See pricing, MOQ & lead times →",
     "pricingToBrand": "Launching a new hat brand? Plan your first collection →",
-    "brandToPricing": "See the full price table, MOQ and payment terms →"
+    "brandToPricing": "See the full price table, MOQ and payment terms →",
+    "chooseFactoryName": "Choosing a factory"
   },
   "LanguageSwitcher": {
     "en": "English",

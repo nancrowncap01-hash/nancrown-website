@@ -326,7 +326,8 @@
   "Guides": {
     "customToPricing": "Preise, Mindestmengen und Lieferzeiten ansehen →",
     "pricingToBrand": "Sie gründen eine Cap-Marke? Planen Sie Ihre erste Kollektion →",
-    "brandToPricing": "Preistabelle, Mindestmenge und Zahlungsbedingungen ansehen →"
+    "brandToPricing": "Preistabelle, Mindestmenge und Zahlungsbedingungen ansehen →",
+    "chooseFactoryName": "Fabrik auswählen"
   },
   "LanguageSwitcher": {
     "en": "English",

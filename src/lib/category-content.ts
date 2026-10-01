@@ -579,10 +579,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
         name: "Visors",
         h1: "Custom Visors Manufacturer",
         metaDescription:
-          "Custom sport visors from our Guangzhou factory — mesh knit or stretch woven builds, open crown, embroidered or printed logos. MOQ 50 pcs per colour.",
+          "Custom visors for tennis, pickleball, golf and running brands: mesh knit or stretch woven, open crown, embroidered or printed logo. MOQ 50 pcs per colour.",
         intro: [
           "A visor keeps the shade of a cap without the crown, which is exactly why golf, tennis, running and event-merch buyers ask for them: cooler on the head, and the whole front band is open real estate for a logo. NanCrown builds visors in mesh knit and stretch woven fabrics, from a simple open-crown band to a sport style with a side slot that holds a pair of sunglasses.",
           "Because there's no crown to compete with your artwork, the front band and brim take embroidery or print cleanly, and we can colour-match the mesh interior and rear closure to your palette. We work from your logo file, confirm the build with a pre-production sample, and produce factory-direct in Guangzhou with a 50-piece-per-colour minimum — OEM/ODM orders welcome.",
+          "Tennis and pickleball brands, clubs and coaches order visors for the same reasons runners do: a visor stays cool through a long match and leaves room for a ponytail. Most start with one style in one or two colours, from 50 pieces per colour, and an order of around 200 visors fits our normal schedule: a sample in 7–15 days, then bulk 25–30 days after you approve it. Visors are quoted per design, based on fabric, closure and logo.",
         ],
         customOptions: [
           "Fabric: mesh knit, or a stretch woven blend of recycled polyester and elastane.",
@@ -604,16 +605,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Why choose a visor instead of a full cap?",
             a: "A visor's open crown keeps the head cooler than a full cap, and the closure — hook-and-loop or a dual elastic loop — adjusts easily, which is why they're popular for golf, tennis and running.",
           },
+          {
+            q: "Do you make visors for tennis and pickleball brands?",
+            a: "Yes. Our open-crown visors in mesh knit or stretch woven fabric suit tennis and pickleball: they stay cool on court, and the front band takes your embroidered or printed logo. Club and brand orders start at 50 pieces per colour.",
+          },
+          {
+            q: "How long does an order of about 200 visors take?",
+            a: "A physical sample takes 7–15 days. After you approve it, bulk production takes 25–30 days, plus shipping time.",
+          },
+          {
+            q: "How much does a custom visor cost?",
+            a: "Visors are quoted per design, based on fabric, closure and logo. Send your logo and quantity and we will reply with a price, usually within 1–2 business days. For reference, our standard embroidered cap is US$5.5–6.7 each at 100–299 pieces, ex-works Guangzhou.",
+          },
         ],
       },
       es: {
         name: "Viseras",
         h1: "Fabricante de viseras personalizadas",
         metaDescription:
-          "Viseras deportivas personalizadas de fábrica en Guangzhou: malla o tejido elástico, copa abierta, logo bordado o estampado. Pedido mínimo 50 uds/color.",
+          "Viseras personalizadas para marcas de tenis, pickleball, golf y running: malla o tejido elástico, logo bordado o estampado. Pedido mínimo 50 uds/color.",
         intro: [
           "Una visera da la sombra de una gorra sin la copa, por eso la piden tanto en golf, tenis, running como en merchandising de eventos: la cabeza va más fresca y toda la banda frontal queda libre para un logo. En NanCrown fabricamos viseras en malla o tejido elástico, desde una banda simple de copa abierta hasta un modelo deportivo con una ranura lateral para sujetar unas gafas de sol.",
           "Al no haber copa que compita con tu diseño, la banda frontal y la visera admiten bordado o estampado con buen acabado, y podemos ajustar el color de la malla interior y el cierre trasero a tu paleta. Trabajamos a partir de tu logo, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un pedido mínimo de 50 piezas por color — aceptamos OEM/ODM.",
+          "Las marcas, clubs y entrenadores de tenis y pickleball piden viseras por lo mismo que los corredores: la visera se mantiene fresca durante un partido largo y deja sitio para una coleta. La mayoría empieza con un modelo en uno o dos colores, desde 50 piezas por color, y un pedido de unas 200 viseras entra en nuestro plazo normal: muestra en 7–15 días y producción 25–30 días después de aprobarla. Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo.",
         ],
         customOptions: [
           "Tejido: malla, o mezcla elástica de poliéster reciclado y elastano.",
@@ -635,16 +649,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Por qué elegir una visera en vez de una gorra completa?",
             a: "La copa abierta de la visera mantiene la cabeza más fresca que una gorra completa, y el cierre — velcro o doble lazo elástico — se ajusta con facilidad, por eso son populares en golf, tenis y running.",
           },
+          {
+            q: "¿Hacéis viseras para marcas de tenis y pickleball?",
+            a: "Sí. Nuestras viseras de copa abierta en malla o tejido elástico van muy bien para tenis y pickleball: se mantienen frescas en la pista y la banda frontal admite tu logo bordado o estampado. Los pedidos de clubs y marcas empiezan en 50 piezas por color.",
+          },
+          {
+            q: "¿Cuánto tarda un pedido de unas 200 viseras?",
+            a: "La muestra física tarda 7–15 días. Después de aprobarla, la producción tarda 25–30 días, más el tiempo de envío.",
+          },
+          {
+            q: "¿Cuánto cuesta una visera personalizada?",
+            a: "Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo. Envíanos tu logo y la cantidad y te respondemos con un precio, normalmente en 1–2 días laborables. Como referencia, nuestra gorra bordada estándar cuesta 5,5–6,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou.",
+          },
         ],
       },
       fr: {
         name: "Visières",
         h1: "Fabricant de visières personnalisées",
         metaDescription:
-          "Visières de sport personnalisées, fabriquées à Guangzhou : maille ou tissu stretch, calotte ouverte. Commande min. 50 pièces/couleur.",
+          "Visières personnalisées pour marques de tennis, pickleball, golf et running : maille ou tissu stretch, logo brodé ou imprimé. Minimum 50 pièces par couleur.",
         intro: [
           "Une visière apporte l'ombre d'une casquette sans la calotte, c'est pourquoi le golf, le tennis, le running et le merchandising événementiel en redemandent : la tête reste plus fraîche, et toute la bande avant devient un espace libre pour un logo. NanCrown fabrique des visières en maille ou en tissu stretch, du modèle simple à calotte ouverte au modèle sport avec une fente latérale pour glisser des lunettes de soleil.",
           "Sans calotte pour concurrencer votre visuel, la bande avant et la visière accueillent broderie ou impression avec un rendu net, et nous pouvons assortir la maille intérieure et la fermeture arrière à votre palette. Nous travaillons à partir de votre logo, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
+          "Les marques, clubs et coachs de tennis et de pickleball commandent des visières pour les mêmes raisons que les coureurs : une visière reste fraîche pendant un long match et laisse de la place pour une queue de cheval. La plupart commencent avec un modèle en une ou deux couleurs, dès 50 pièces par couleur, et une commande d'environ 200 visières entre dans notre planning habituel : échantillon en 7 à 15 jours, puis production 25 à 30 jours après validation. Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo.",
         ],
         customOptions: [
           "Tissu : maille, ou mélange stretch de polyester recyclé et d'élasthanne.",
@@ -666,16 +693,29 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Pourquoi choisir une visière plutôt qu'une casquette complète ?",
             a: "La calotte ouverte de la visière garde la tête plus fraîche qu'une casquette complète, et la fermeture — auto-agrippante ou double boucle élastique — s'ajuste facilement, ce qui en fait un choix populaire au golf, au tennis et en running.",
           },
+          {
+            q: "Faites-vous des visières pour les marques de tennis et de pickleball ?",
+            a: "Oui. Nos visières à calotte ouverte en maille ou en tissu stretch conviennent au tennis et au pickleball : elles restent fraîches sur le court, et la bande avant accueille votre logo brodé ou imprimé. Les commandes de clubs et de marques commencent à 50 pièces par couleur.",
+          },
+          {
+            q: "Combien de temps prend une commande d'environ 200 visières ?",
+            a: "L'échantillon physique prend 7 à 15 jours. Après validation, la production prend 25 à 30 jours, plus le transport.",
+          },
+          {
+            q: "Combien coûte une visière personnalisée ?",
+            a: "Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo. Envoyez-nous votre logo et la quantité, nous répondons avec un prix, en général sous 1 à 2 jours ouvrés. À titre indicatif, notre casquette brodée standard coûte 5,5–6,7 USD pièce de 100 à 299 pièces, départ usine Guangzhou.",
+          },
         ],
       },
       de: {
         name: "Schirmmützen",
         h1: "Hersteller für individuelle Schirmmützen",
         metaDescription:
-          "Individuelle Schirmmützen aus unserer Fabrik in Guangzhou — Mesh oder Stretch-Gewebe, offenes Kopfteil, Logo gestickt oder gedruckt. Ab 50 Stk pro Farbe.",
+          "Individuelle Schirmmützen für Tennis-, Pickleball-, Golf- und Laufmarken: Mesh oder Stretch-Gewebe, Logo gestickt oder gedruckt. Ab 50 Stk pro Farbe.",
         intro: [
           "Eine Schirmmütze spendet Schatten wie eine Kappe, aber ohne geschlossenes Kopfteil — deshalb greifen Golf, Tennis, Laufsport und Event-Merchandise gerne darauf zurück: der Kopf bleibt kühler, und das gesamte Stirnband ist freie Fläche für ein Logo. Der Verschluss — Klettband oder eine doppelte Gummischlaufe — passt sich unterwegs schnell an unterschiedliche Kopfgrößen an. NanCrown fertigt Schirmmützen aus Mesh oder Stretch-Gewebe, vom einfachen offenen Band bis zum Sportmodell mit seitlichem Schlitz für eine Sonnenbrille.",
           "Da kein Kopfteil mit Ihrem Design konkurriert, nehmen Stirnband und Schirm Stickerei oder Druck sauber auf, und wir stimmen Mesh-Innenfutter und rückwärtigen Verschluss auf Ihre Farbpalette ab. Wir arbeiten mit Ihrer Logodatei, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM-Aufträge willkommen.",
+          "Tennis- und Pickleball-Marken, Vereine und Trainer bestellen Schirmmützen aus denselben Gründen wie Läufer: Eine Schirmmütze bleibt auch im langen Match kühl und lässt Platz für einen Pferdeschwanz. Die meisten starten mit einem Modell in ein oder zwei Farben, ab 50 Stück pro Farbe, und ein Auftrag über etwa 200 Schirmmützen passt in unseren normalen Ablauf: Muster in 7–15 Tagen, danach Produktion 25–30 Tage nach der Freigabe. Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo.",
         ],
         customOptions: [
           "Material: Mesh, oder Stretch-Mix aus recyceltem Polyester und Elasthan.",
@@ -696,6 +736,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Warum eine Schirmmütze statt einer vollen Kappe wählen?",
             a: "Das offene Kopfteil der Schirmmütze hält den Kopf kühler als eine volle Kappe, und der Verschluss — Klett oder doppelte Gummischlaufe — lässt sich leicht anpassen, weshalb sie bei Golf, Tennis und Laufsport beliebt ist.",
+          },
+          {
+            q: "Fertigen Sie Schirmmützen für Tennis- und Pickleball-Marken?",
+            a: "Ja. Unsere Schirmmützen mit offenem Kopfteil aus Mesh oder Stretch-Gewebe passen gut zu Tennis und Pickleball: Sie bleiben auf dem Platz kühl, und das Stirnband trägt Ihr gesticktes oder gedrucktes Logo. Aufträge von Vereinen und Marken starten bei 50 Stück pro Farbe.",
+          },
+          {
+            q: "Wie lange dauert ein Auftrag über etwa 200 Schirmmützen?",
+            a: "Ein echtes Muster dauert 7–15 Tage. Nach der Freigabe dauert die Produktion 25–30 Tage, dazu kommt der Versand.",
+          },
+          {
+            q: "Was kostet eine individuelle Schirmmütze?",
+            a: "Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo. Schicken Sie uns Logo und Menge, wir antworten mit einem Preis, meist innerhalb von 1–2 Werktagen. Als Richtwert: Unsere bestickte Standardcap kostet 5,5–6,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou.",
           },
         ],
       },
@@ -2409,3 +2461,88 @@ export function getCategoryDefinition(
 ): CategoryDefinition | undefined {
   return categoryDefinitions.find((c) => c.slug === slug);
 }
+
+// 帽型页 → 身份页(/solutions/<slug>)的小链接(1001 新增)。
+// 只给下面列出的 8 个分类配,别的分类不配(页面侧据此判断渲不渲染提示框)。
+// 文字一字不改照抄老板给的 copy(只认 <b>,这里没有加粗,原样纯文本)。
+export interface CategorySolutionLink {
+  href: string;
+  label: Record<Locale, string>;
+}
+
+export const categorySolutionLinks: Partial<
+  Record<CategorySlug, CategorySolutionLink>
+> = {
+  "running-caps": {
+    href: "/solutions/run-clubs",
+    label: {
+      en: "Ordering for a run club or a race? See how we make club caps →",
+      es: "¿Pedido para un club de running o una carrera? Mira cómo hacemos gorras de club →",
+      fr: "Une commande pour un club de running ou une course ? Voyez comment nous faisons les casquettes de club →",
+      de: "Bestellung für eine Laufgruppe oder einen Lauf? So fertigen wir Vereinscaps →",
+    },
+  },
+  "camp-caps": {
+    href: "/solutions/surf-shops",
+    label: {
+      en: "Selling caps in a surf shop? See our surf caps with chin straps →",
+      es: "¿Vendes gorras en una tienda de surf? Mira nuestras gorras de surf con barboquejo →",
+      fr: "Vous vendez des casquettes en surf shop ? Voyez nos casquettes de surf à jugulaire →",
+      de: "Sie verkaufen Caps im Surfshop? Hier sind unsere Surf-Caps mit Kinnriemen →",
+    },
+  },
+  "bucket-hats": {
+    href: "/solutions/festival-merch",
+    label: {
+      en: "Making merch for a festival or a band? See our merch caps and bucket hats →",
+      es: "¿Haces merch para un festival o una banda? Mira nuestras gorras y gorros bucket de merch →",
+      fr: "Vous préparez le merch d'un festival ou d'un groupe ? Voyez nos casquettes et bobs merch →",
+      de: "Merch für ein Festival oder eine Band? Hier sind unsere Merch-Caps und Bucket Hats →",
+    },
+  },
+  "5-panel-caps": {
+    href: "/solutions/festival-merch",
+    label: {
+      en: "Making merch for a festival or a band? See our merch caps and bucket hats →",
+      es: "¿Haces merch para un festival o una banda? Mira nuestras gorras y gorros bucket de merch →",
+      fr: "Vous préparez le merch d'un festival ou d'un groupe ? Voyez nos casquettes et bobs merch →",
+      de: "Merch für ein Festival oder eine Band? Hier sind unsere Merch-Caps und Bucket Hats →",
+    },
+  },
+  "trucker-hats": {
+    href: "/solutions/corporate-events",
+    label: {
+      en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
+      es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",
+      fr: "Des casquettes pour votre équipe, un événement ou une promotion ? Voyez les prix pour les grandes commandes →",
+      de: "Caps für Ihr Team, ein Event oder eine Werbeaktion? Hier sind die Preise für größere Aufträge →",
+    },
+  },
+  "baseball-caps": {
+    href: "/solutions/corporate-events",
+    label: {
+      en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
+      es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",
+      fr: "Des casquettes pour votre équipe, un événement ou une promotion ? Voyez les prix pour les grandes commandes →",
+      de: "Caps für Ihr Team, ein Event oder eine Werbeaktion? Hier sind die Preise für größere Aufträge →",
+    },
+  },
+  "dad-hats": {
+    href: "/solutions/corporate-events",
+    label: {
+      en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
+      es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",
+      fr: "Des casquettes pour votre équipe, un événement ou une promotion ? Voyez les prix pour les grandes commandes →",
+      de: "Caps für Ihr Team, ein Event oder eine Werbeaktion? Hier sind die Preise für größere Aufträge →",
+    },
+  },
+  "golf-caps": {
+    href: "/solutions/corporate-events",
+    label: {
+      en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
+      es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",
+      fr: "Des casquettes pour votre équipe, un événement ou une promotion ? Voyez les prix pour les grandes commandes →",
+      de: "Caps für Ihr Team, ein Event oder eine Werbeaktion? Hier sind die Preise für größere Aufträge →",
+    },
+  },
+};

@@ -13,6 +13,7 @@ export default function Footer() {
   const t = useTranslations("Footer");
   const nav = useTranslations("Nav");
   const solutionsT = useTranslations("Solutions");
+  const guidesT = useTranslations("Guides");
 
   return (
     <footer className="bg-gray-900 text-gray-300">
@@ -69,6 +70,14 @@ export default function Footer() {
                   className="hover:text-amber-400 transition-colors"
                 >
                   {t("forNewBrands")}
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href="/choose-a-hat-factory"
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {guidesT("chooseFactoryName")}
                 </Link>
               </li>
               <li>

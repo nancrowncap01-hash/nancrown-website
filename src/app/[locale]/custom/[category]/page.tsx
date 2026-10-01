@@ -9,6 +9,7 @@ import { CategoryJsonLd } from "@/components/seo/CategoryJsonLd";
 import { pageMetadata } from "@/lib/seo";
 import {
   categoryDefinitions,
+  categorySolutionLinks,
   categoryUi,
   getCategoryDefinition,
 } from "@/lib/category-content";
@@ -67,6 +68,8 @@ export default async function CategoryPage({
   const otherCategories = categoryDefinitions.filter(
     (c) => c.slug !== def.slug
   );
+  // 帽型页 → 身份页(/solutions/<slug>)的小提示框,只有 8 个分类配了才有(1001 新增)
+  const solutionLink = categorySolutionLinks[def.slug];
 
   return (
     <>
@@ -114,6 +117,14 @@ export default async function CategoryPage({
               {paragraph}
             </p>
           ))}
+          {solutionLink && (
+            <Link
+              href={solutionLink.href}
+              className="mt-6 block rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-sm font-medium text-amber-800 leading-relaxed hover:border-amber-300 hover:bg-amber-100 transition-colors"
+            >
+              {solutionLink.label[locale as Locale] ?? solutionLink.label.en}
+            </Link>
+          )}
           <div className="mt-8 flex flex-col items-center gap-3">
             <Link
               href="/contact"

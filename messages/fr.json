@@ -326,7 +326,8 @@
   "Guides": {
     "customToPricing": "Voir les prix, minimums et délais →",
     "pricingToBrand": "Vous lancez une marque de casquettes ? Préparez votre première collection →",
-    "brandToPricing": "Voir la grille de prix, le minimum de commande et les conditions de paiement →"
+    "brandToPricing": "Voir la grille de prix, le minimum de commande et les conditions de paiement →",
+    "chooseFactoryName": "Choisir une usine"
   },
   "LanguageSwitcher": {
     "en": "English",

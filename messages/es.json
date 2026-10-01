@@ -326,7 +326,8 @@
   "Guides": {
     "customToPricing": "Ver precios, pedido mínimo y plazos →",
     "pricingToBrand": "¿Lanzas una marca de gorras? Planifica tu primera colección →",
-    "brandToPricing": "Ver la tabla de precios, el pedido mínimo y las condiciones de pago →"
+    "brandToPricing": "Ver la tabla de precios, el pedido mínimo y las condiciones de pago →",
+    "chooseFactoryName": "Elegir una fábrica"
   },
   "LanguageSwitcher": {
     "en": "English",

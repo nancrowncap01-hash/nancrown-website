@@ -100,7 +100,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
       "Pattern making, cutting, sewing, shaping and packing happen in our own workshop. Embroidery, printing and washing are done by partner workshops we have worked with for years, and every batch is checked when it comes back to us.",
     liveHeading: "See your own order",
     liveText:
-      "We do live video calls of the workshop on request, so you can see your caps on the line. Third-party inspection is welcome before the balance is paid.",
+      "We do live video calls of the workshop on request, so you can see your caps on the line. Third-party inspection is welcome before the order ships.",
     ctaQuote: "Get a quote",
     ctaPricing: "See prices and lead times",
     videoName: "Inside NanCrown's cap workshop",
@@ -153,7 +153,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
       "El patronaje, el corte, la costura, el moldeado y el embalaje se hacen en nuestro propio taller. El bordado, la estampación y el lavado los hacen talleres asociados con los que trabajamos desde hace años, y cada lote se revisa cuando vuelve a nosotros.",
     liveHeading: "Vea su propio pedido",
     liveText:
-      "Si lo solicita, hacemos videollamadas en directo desde el taller para que vea sus gorras en la línea de producción. Se aceptan inspecciones de terceros antes del pago final.",
+      "Si lo solicita, hacemos videollamadas en directo desde el taller para que vea sus gorras en la línea de producción. Se aceptan inspecciones de terceros antes del envío.",
     ctaQuote: "Pedir presupuesto",
     ctaPricing: "Ver precios y plazos",
     videoName: "Dentro del taller de gorras de NanCrown",
@@ -206,7 +206,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
       "Le patronage, la découpe, la couture, la mise en forme et l'emballage se font dans notre propre atelier. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires avec qui nous travaillons depuis des années, et chaque lot est contrôlé à son retour chez nous.",
     liveHeading: "Voir votre propre commande",
     liveText:
-      "Nous faisons des appels vidéo en direct depuis l'atelier sur demande, pour que vous voyiez vos casquettes en production. Les inspections par un tiers sont les bienvenues avant le paiement du solde.",
+      "Nous faisons des appels vidéo en direct depuis l'atelier sur demande, pour que vous voyiez vos casquettes en production. Les inspections par un tiers sont les bienvenues avant l'expédition.",
     ctaQuote: "Demander un devis",
     ctaPricing: "Voir les prix et délais",
     videoName: "Dans l'atelier de casquettes NanCrown",
@@ -259,7 +259,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
       "Schnittmuster, Zuschnitt, Nähen, Formen und Verpacken erledigen wir in unserer eigenen Werkstatt. Stickerei, Druck und Waschung übernehmen Partnerwerkstätten, mit denen wir seit Jahren arbeiten, und jede Charge wird geprüft, wenn sie zu uns zurückkommt.",
     liveHeading: "Ihren eigenen Auftrag sehen",
     liveText:
-      "Auf Wunsch machen wir Live-Videocalls aus der Werkstatt, damit Sie Ihre Caps in der Produktion sehen. Eine Prüfung durch Dritte vor der Restzahlung ist willkommen.",
+      "Auf Wunsch machen wir Live-Videocalls aus der Werkstatt, damit Sie Ihre Caps in der Produktion sehen. Eine Prüfung durch Dritte vor dem Versand ist willkommen.",
     ctaQuote: "Angebot anfordern",
     ctaPricing: "Preise und Lieferzeiten ansehen",
     videoName: "Einblick in die Cap-Werkstatt von NanCrown",

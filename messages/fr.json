@@ -102,7 +102,7 @@
     "capacity": "Capacité de Production",
     "capacityText": "Notre atelier fait environ 2 000 m² avec une équipe de plus de 30 personnes. Avec la coupe, la couture et l'assemblage dans notre propre atelier, et des partenaires de longue date pour la broderie et l'impression, nous fabriquons plus de 100 000 casquettes par mois : un essai de 50 pièces comme une grosse commande récurrente.",
     "certifications": "Contrôle Qualité",
-    "certificationsText": "Chaque commande est contrôlée à chaque étape de production, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant de payer le solde, vous pouvez vérifier la commande terminée en photos et vidéo, en appel vidéo ou via un inspecteur indépendant.",
+    "certificationsText": "Chaque commande est contrôlée à chaque étape de production, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant l'expédition, nous vous envoyons des photos des casquettes terminées, et vous pouvez aussi les vérifier en appel vidéo ou via un inspecteur indépendant.",
     "years": "Années d'Expérience",
     "workers": "Ouvriers Qualifiés",
     "monthlyCapacity": "Capacité Mensuelle",
@@ -145,7 +145,7 @@
       ],
       [
         "Échantillons",
-        "7 à 15 jours ; 60–80 USD par design, remboursés dès 1 000 pièces commandées de ce design"
+        "7 à 15 jours ; 50 USD l'échantillon pour un design standard (hors frais d'envoi), designs complexes chiffrés à part ; échantillon remboursé dès 1 000 pièces commandées de ce design"
       ],
       [
         "Production en série",
@@ -153,11 +153,11 @@
       ],
       [
         "Repères de prix",
-        "6,0–7,7 USD par casquette de 50 à 99 pièces, jusqu'à 4,5–5,2 USD dès 500 (modèle standard, départ usine Guangzhou)"
+        "6,0–7,7 USD par casquette de 50 à 99 pièces, jusqu'à 2,9–3,6 USD dès 500 (modèle standard, départ usine Guangzhou)"
       ],
       [
         "Paiement",
-        "50 % d'acompte, 50 % après inspection de la commande"
+        "50 % d'acompte, solde de 50 % avant l'expédition ; nous envoyons d'abord des photos de la commande terminée"
       ],
       [
         "Expédition",
@@ -228,7 +228,7 @@
       },
       {
         "q": "Puis-je voir l'usine avant de commander ?",
-        "a": "Oui. Vous pouvez regarder la vidéo de notre atelier sur ce site, ou demander un appel vidéo pour visiter l'atelier. Vous pouvez aussi envoyer un inspecteur indépendant contrôler votre commande avant de payer le solde."
+        "a": "Oui. Vous pouvez regarder la vidéo de notre atelier sur ce site, ou demander un appel vidéo pour visiter l'atelier. Vous pouvez aussi envoyer un inspecteur indépendant contrôler votre commande avant son expédition."
       },
       {
         "q": "Quelle est la plus petite commande acceptée ?",

@@ -1,9 +1,9 @@
 // 9 个「帽型分类落地页」(/custom/[category])的四语言文案数据源
 // 目标:让海外 B2B 客户(品牌方/零售商/礼品公司/球队)搜"custom XX manufacturer/factory/wholesale"时能找到对应帽型的落地页
 //
-// 🔴 事实红线:只许用 ~/.claude/projects/-Users-martin-Claude-code/memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版):
-//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $6.0–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
-//   - 样品 7–15 天、$60–80/款(同款大货满 1000 顶退);大货样品确认后 25–30 天 + 物流时间;可报 DDP
+// 🔴 事实红线:只许用 ~/.claude/projects/-Users-martin-Claude-code/memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版;阶梯价/样品费/付款按 2026-10-02 晚新口径):
+//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $6.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
+//   - 样品 7–15 天、普通款 $50/个不含运费、复杂款另报(同款大货满 1000 顶退);付款 50% 定金+发货前付清尾款(先发大货照片);大货样品确认后 25–30 天 + 物流时间;可报 DDP
 //   - 能做的帽型和工艺以那份文件为准;没有任何认证,不许写;不许写 in-house / under one roof / 不外发
 //
 // 命名/大小写约定(参照 messages/*.json 已有译法 + 老板任务里给的示例):
@@ -615,7 +615,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much does a custom visor cost?",
-            a: "Visors are quoted per design, based on fabric, closure and logo. Send your logo and quantity and we will reply with a price, usually within 1–2 business days. For reference, our standard embroidered cap is US$5.5–6.7 each at 100–299 pieces, ex-works Guangzhou.",
+            a: "Visors are quoted per design, based on fabric, closure and logo. Send your logo and quantity and we will reply with a price, usually within 1–2 business days. For reference, our standard embroidered cap is US$4.3–5.7 each at 100–299 pieces, ex-works Guangzhou.",
           },
         ],
       },
@@ -659,7 +659,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuesta una visera personalizada?",
-            a: "Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo. Envíanos tu logo y la cantidad y te respondemos con un precio, normalmente en 1–2 días laborables. Como referencia, nuestra gorra bordada estándar cuesta 5,5–6,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou.",
+            a: "Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo. Envíanos tu logo y la cantidad y te respondemos con un precio, normalmente en 1–2 días laborables. Como referencia, nuestra gorra bordada estándar cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou.",
           },
         ],
       },
@@ -703,7 +703,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûte une visière personnalisée ?",
-            a: "Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo. Envoyez-nous votre logo et la quantité, nous répondons avec un prix, en général sous 1 à 2 jours ouvrés. À titre indicatif, notre casquette brodée standard coûte 5,5–6,7 USD pièce de 100 à 299 pièces, départ usine Guangzhou.",
+            a: "Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo. Envoyez-nous votre logo et la quantité, nous répondons avec un prix, en général sous 1 à 2 jours ouvrés. À titre indicatif, notre casquette brodée standard coûte 4,3–5,7 USD pièce de 100 à 299 pièces, départ usine Guangzhou.",
           },
         ],
       },
@@ -747,7 +747,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kostet eine individuelle Schirmmütze?",
-            a: "Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo. Schicken Sie uns Logo und Menge, wir antworten mit einem Preis, meist innerhalb von 1–2 Werktagen. Als Richtwert: Unsere bestickte Standardcap kostet 5,5–6,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou.",
+            a: "Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo. Schicken Sie uns Logo und Menge, wir antworten mit einem Preis, meist innerhalb von 1–2 Werktagen. Als Richtwert: Unsere bestickte Standardcap kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou.",
           },
         ],
       },
@@ -1335,7 +1335,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much do custom winter hats cost?",
-            a: "Winter hats are quoted per design, because the fabric, lining, trim and branding change the price. The sample is US$60–80 and is refunded once that design reaches 1,000 pieces in bulk.",
+            a: "Winter hats are quoted per design, because the fabric, lining, trim and branding change the price. A sample of a standard design is US$50, not including shipping; complex designs are quoted separately. The fee is refunded once that design reaches 1,000 pieces in bulk.",
           },
           {
             q: "When should I order winter hats?",
@@ -1381,7 +1381,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuestan los gorros de invierno personalizados?",
-            a: "Los gorros de invierno se presupuestan por diseño, porque el tejido, el forro, los ribetes y la marca cambian el precio. La muestra cuesta 60–80 US$ y se reembolsa cuando ese diseño llega a 1.000 piezas en producción.",
+            a: "Los gorros de invierno se presupuestan por diseño, porque el tejido, el forro, los ribetes y la marca cambian el precio. La muestra de un diseño estándar cuesta 50 US$, sin incluir el envío; los diseños complejos se presupuestan aparte. El importe se reembolsa cuando ese diseño llega a 1.000 piezas en producción.",
           },
           {
             q: "¿Cuándo debo pedir los gorros de invierno?",
@@ -1427,7 +1427,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûtent des bonnets d'hiver personnalisés ?",
-            a: "Les bonnets d'hiver sont chiffrés modèle par modèle, car le tissu, la doublure, les finitions et le marquage font varier le prix. L'échantillon coûte 60 à 80 US$ et il est remboursé dès que ce modèle atteint 1 000 pièces en production.",
+            a: "Les bonnets d'hiver sont chiffrés modèle par modèle, car le tissu, la doublure, les finitions et le marquage font varier le prix. L'échantillon d'un modèle standard coûte 50 US$, hors frais d'envoi ; les modèles complexes sont chiffrés à part. L'échantillon est remboursé dès que ce modèle atteint 1 000 pièces en production.",
           },
           {
             q: "Quand faut-il commander des bonnets d'hiver ?",
@@ -1473,7 +1473,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kosten individuelle Wintermützen?",
-            a: "Wintermützen kalkulieren wir pro Design, weil Material, Futter, Besatz und Branding den Preis verändern. Das Muster kostet 60–80 US$ und wird erstattet, sobald dieses Design 1.000 Stück in der Produktion erreicht.",
+            a: "Wintermützen kalkulieren wir pro Design, weil Material, Futter, Besatz und Branding den Preis verändern. Ein Muster für ein Standarddesign kostet 50 US$, zuzüglich Versand; aufwendige Designs kalkulieren wir separat. Der Betrag wird erstattet, sobald dieses Design 1.000 Stück in der Produktion erreicht.",
           },
           {
             q: "Wann sollte ich Wintermützen bestellen?",
@@ -1525,7 +1525,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much does a custom dad hat cost?",
-            a: "A standard 6-panel cotton cap with a flat embroidered logo is $6.0–7.7 per cap at 50–99 pieces and $4.5–5.2 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
+            a: "A standard 6-panel cotton cap with a flat embroidered logo is $6.0–7.7 per cap at 50–99 pieces and $2.9–3.6 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
           },
           {
             q: "Can you match a vintage washed look?",
@@ -1555,7 +1555,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuesta una dad cap personalizada?",
-            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 6,0–7,7 USD por unidad en 50–99 piezas y 4,5–5,2 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
+            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 6,0–7,7 USD por unidad en 50–99 piezas y 2,9–3,6 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
           },
           {
             q: "¿Podéis conseguir un aspecto vintage lavado?",
@@ -1585,7 +1585,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûte une dad cap personnalisée ?",
-            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 6,0–7,7 USD pièce pour 50–99 pièces et 4,5–5,2 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
+            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 6,0–7,7 USD pièce pour 50–99 pièces et 2,9–3,6 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
           },
           {
             q: "Pouvez-vous reproduire un aspect vintage délavé ?",
@@ -1615,7 +1615,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kostet eine individuelle Dad Cap?",
-            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 6,0–7,7 USD pro Stück bei 50–99 Stück und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
+            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 6,0–7,7 USD pro Stück bei 50–99 Stück und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
           },
           {
             q: "Können Sie einen gewaschenen Vintage-Look treffen?",

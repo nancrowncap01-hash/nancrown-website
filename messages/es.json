@@ -102,7 +102,7 @@
     "capacity": "Capacidad de Producción",
     "capacityText": "Nuestro taller ocupa unos 2.000 m² y tiene un equipo de más de 30 personas. Con el corte, la costura y el montaje en nuestro propio taller, y colaboradores de largo plazo para el bordado y el estampado, fabricamos más de 100.000 gorras al mes, así que atendemos tanto una prueba de 50 piezas como un pedido grande y repetido.",
     "certifications": "Control de Calidad",
-    "certificationsText": "Cada pedido se revisa en cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes de pagar el resto, puedes revisar el pedido terminado con fotos y vídeo, en una videollamada o mediante un inspector externo.",
+    "certificationsText": "Cada pedido se revisa en cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes del envío te mandamos fotos de las gorras terminadas, y también puedes revisarlas en una videollamada o mediante un inspector externo.",
     "years": "Años de Experiencia",
     "workers": "Trabajadores",
     "monthlyCapacity": "Capacidad Mensual",
@@ -145,7 +145,7 @@
       ],
       [
         "Muestras",
-        "7–15 días; 60–80 USD por diseño, se devuelven al pedir 1.000 piezas o más de ese diseño"
+        "7–15 días; 50 USD por muestra para un diseño estándar (envío no incluido), los diseños complejos se cotizan aparte; el importe se devuelve al pedir 1.000 piezas o más de ese diseño"
       ],
       [
         "Producción en serie",
@@ -153,11 +153,11 @@
       ],
       [
         "Precios orientativos",
-        "6,0–7,7 USD por gorra en 50–99 piezas, hasta 4,5–5,2 USD desde 500 (modelo estándar, en fábrica Guangzhou)"
+        "6,0–7,7 USD por gorra en 50–99 piezas, hasta 2,9–3,6 USD desde 500 (modelo estándar, en fábrica Guangzhou)"
       ],
       [
         "Pago",
-        "50% de anticipo y 50% cuando el pedido pasa la inspección"
+        "50% de anticipo y 50% restante antes del envío; primero te mandamos fotos del pedido terminado"
       ],
       [
         "Envío",
@@ -228,7 +228,7 @@
       },
       {
         "q": "¿Puedo ver la fábrica antes de hacer el pedido?",
-        "a": "Sí. Puedes ver el vídeo de nuestro taller en esta web o pedir una videollamada y te enseñamos el taller. También puedes enviar un inspector externo a revisar tu pedido antes de pagar el resto."
+        "a": "Sí. Puedes ver el vídeo de nuestro taller en esta web o pedir una videollamada y te enseñamos el taller. También puedes enviar un inspector externo a revisar tu pedido antes del envío."
       },
       {
         "q": "¿Cuál es el pedido más pequeño que aceptáis?",

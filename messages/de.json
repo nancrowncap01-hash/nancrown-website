@@ -102,7 +102,7 @@
     "capacity": "Produktionskapazität",
     "capacityText": "Unsere Werkstatt hat etwa 2.000 m² und ein Team von über 30 Leuten. Mit Zuschnitt, Nähen und Montage in der eigenen Werkstatt und langjährigen Partnern für Stickerei und Druck fertigen wir über 100.000 Caps im Monat – für einen Test mit 50 Stück ebenso wie für große Nachbestellungen.",
     "certifications": "Qualitätskontrolle",
-    "certificationsText": "Jeder Auftrag wird in jedem Produktionsschritt geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor der Restzahlung können Sie die fertige Ware per Foto und Video, im Videocall oder durch einen unabhängigen Prüfer kontrollieren.",
+    "certificationsText": "Jeder Auftrag wird in jedem Produktionsschritt geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor dem Versand schicken wir Ihnen Fotos der fertigen Caps, und Sie können die Ware auch im Videocall oder durch einen unabhängigen Prüfer kontrollieren.",
     "years": "Jahre Erfahrung",
     "workers": "Qualifizierte Mitarbeiter",
     "monthlyCapacity": "Monatliche Kapazität",
@@ -145,7 +145,7 @@
       ],
       [
         "Muster",
-        "7–15 Tage; 60–80 USD pro Design, erstattet ab 1.000 bestellten Stück dieses Designs"
+        "7–15 Tage; 50 USD pro Muster bei einem Standarddesign (zuzüglich Versand), aufwendige Designs separat kalkuliert; Musterkosten erstattet ab 1.000 bestellten Stück dieses Designs"
       ],
       [
         "Serienproduktion",
@@ -153,11 +153,11 @@
       ],
       [
         "Preisorientierung",
-        "6,0–7,7 USD pro Cap bei 50–99 Stück, bis 4,5–5,2 USD ab 500 (Standardmodell, ab Werk Guangzhou)"
+        "6,0–7,7 USD pro Cap bei 50–99 Stück, bis 2,9–3,6 USD ab 500 (Standardmodell, ab Werk Guangzhou)"
       ],
       [
         "Zahlung",
-        "50 % Anzahlung, 50 % nach bestandener Prüfung"
+        "50 % Anzahlung, restliche 50 % vor dem Versand; vorher schicken wir Fotos der fertigen Bestellung"
       ],
       [
         "Versand",
@@ -228,7 +228,7 @@
       },
       {
         "q": "Kann ich die Fabrik vor der Bestellung sehen?",
-        "a": "Ja. Sie können das Video unserer Werkstatt auf dieser Website ansehen oder einen Videocall vereinbaren, in dem wir Ihnen die Werkstatt zeigen. Sie können auch einen unabhängigen Prüfer schicken, bevor Sie den Rest bezahlen."
+        "a": "Ja. Sie können das Video unserer Werkstatt auf dieser Website ansehen oder einen Videocall vereinbaren, in dem wir Ihnen die Werkstatt zeigen. Sie können auch einen unabhängigen Prüfer schicken, bevor die Bestellung verschickt wird."
       },
       {
         "q": "Was ist die kleinste Bestellung?",

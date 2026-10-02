@@ -4,10 +4,10 @@
 //   /pricing            报价须知:阶梯价、起订量、样品、交期、付款、运输、质检、工厂实况
 //   /start-a-hat-brand  新品牌第一批系列:怎么规划首单、预算示例、流程
 //
-// 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版):
-//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $6.0–7.7 / 100–299 $5.5–6.7 / 300–499 $4.9–5.8 / 500+ $4.5–5.2
-//   - 起订 50 顶/色/款;同款可混色凑档;样品 $60–80/款、7–15 天,同款大货满 1000 顶退样品费
-//   - 大货:样品确认后 25–30 天,另加物流时间;付款 50% 定金 + 验货通过后付尾款;可帮问 DDP;接受第三方验货;可视频看车间
+// 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版;阶梯价/样品费/付款按 2026-10-02 晚新口径):
+//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $6.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
+//   - 起订 50 顶/色/款;同款可混色凑档;样品普通款 $50/个(不含运费)、复杂款另报,7–15 天,同款大货满 1000 顶退样品费
+//   - 大货:样品确认后 25–30 天,另加物流时间;付款 50% 定金 + 发货前付清尾款(发货前先发大货照片;🔴 不许再写「验货通过后才付尾款」);可帮问 DDP;接受第三方验货;可视频看车间
 //   - 2015 年成立、约 2,000 m²、30+ 员工、月产 10 万+、客户 50+ 国家
 //   - 裁剪车缝组装自己做;刺绣/印花/水洗交长期合作工序厂、每批回厂检查(🔴 不许写 in-house / under one roof / 不外发)
 //   - 没有任何认证,一个字都不许写
@@ -51,7 +51,7 @@ export interface GuideLocaleContent {
 const pricingEn: GuideLocaleContent = {
   metaTitle: "Custom Hat Pricing, MOQ & Lead Times",
   metaDescription:
-    "Factory-direct custom cap prices from 50 pieces per colour: $6.0–7.7 per cap at 50, $4.5–5.2 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
+    "Factory-direct custom cap prices from 50 pieces per colour: $6.0–7.7 per cap at 50, $2.9–3.6 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
   h1: "Custom Hat Pricing, MOQ & Lead Times",
   lead:
     "Straight answers to what every brand asks before ordering custom caps: what a cap costs at 50, 100, 300 or 500 pieces, how samples work, how long production takes and how you pay. Prices below are indicative for our standard build. Send us your design and we will confirm an exact quote.",
@@ -66,9 +66,9 @@ const pricingEn: GuideLocaleContent = {
       head: ["Quantity per style", "Price per cap (USD)", "Good for"],
       rows: [
         ["50–99 (min. 50 per colour)", "<b>$6.0 – 7.7</b>", "Testing a design or a first drop"],
-        ["100–299", "<b>$5.5 – 6.7</b>", "A first collection"],
-        ["300–499", "<b>$4.9 – 5.8</b>", "Core styles and reorders"],
-        ["500+", "<b>$4.5 – 5.2</b>", "Best-sellers and wholesale"],
+        ["100–299", "<b>$4.3 – 5.7</b>", "A first collection"],
+        ["300–499", "<b>$3.6 – 4.3</b>", "Core styles and reorders"],
+        ["500+", "<b>$2.9 – 3.6</b>", "Best-sellers and wholesale"],
       ],
       caption:
         "Colours can be mixed within one style to reach a tier: 2 colours × 50 pieces are priced at the 100-piece tier.",
@@ -97,7 +97,7 @@ const pricingEn: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Sample fee: <b>$60–80 per design</b>, depending on construction and decoration.",
+        "Sample fee: <b>$50 per sample</b> for a standard design, shipping not included. Complex designs are quoted separately.",
         "Sample time: <b>7–15 days</b> after we confirm your artwork and fabric.",
         "The sample fee is <b>refunded</b> when you order 1,000 pieces or more of that design.",
         "Revisions are made before you approve. Bulk production only starts after your sign-off.",
@@ -118,7 +118,7 @@ const pricingEn: GuideLocaleContent = {
     { type: "h2", text: "Payment terms" },
     {
       type: "p",
-      text: "<b>50% deposit</b> to start bulk production. The <b>50% balance</b> is paid after the order passes inspection, before it ships.",
+      text: "<b>50% deposit</b> to start bulk production. The <b>50% balance</b> is paid before the order ships. We send you photos of the finished order first.",
     },
     { type: "h2", text: "Shipping and landed cost" },
     {
@@ -130,7 +130,7 @@ const pricingEn: GuideLocaleContent = {
       type: "list",
       items: [
         "Every production stage is checked, and bulk only starts after you approve a pre-production sample.",
-        "You check the finished order before paying the balance: by photos and video, on a live video call, or through a third-party inspector.",
+        "Before shipping, we send you photos of the finished order. You can also check it on a live video call or through a third-party inspector.",
         "Third-party inspection is welcome.",
         "Want to see the workshop? We are happy to do a live video call.",
       ],
@@ -161,11 +161,11 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "How much does a custom cap cost?",
-      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $6.0–7.7 per cap at 50–99 pieces, $5.5–6.7 at 100–299, $4.9–5.8 at 300–499 and $4.5–5.2 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
+      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $6.0–7.7 per cap at 50–99 pieces, $4.3–5.7 at 100–299, $3.6–4.3 at 300–499 and $2.9–3.6 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
     },
     {
       q: "How much is a sample, and is it refundable?",
-      a: "$60–80 per design, ready in 7–15 days. The fee is refunded when you order 1,000 pieces or more of that design.",
+      a: "$50 per sample for a standard design, not including shipping, ready in 7–15 days. Complex designs are quoted separately. The fee is refunded when you order 1,000 pieces or more of that design.",
     },
     {
       q: "How long does production take?",
@@ -173,7 +173,7 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "What are your payment terms?",
-      a: "A 50% deposit to start production, and the 50% balance after the order passes inspection, before shipping.",
+      a: "A 50% deposit to start production, and the 50% balance before shipping. We send you photos of the finished caps first.",
     },
     {
       q: "Can you ship DDP?",
@@ -206,7 +206,7 @@ const pricingEn: GuideLocaleContent = {
 const pricingEs: GuideLocaleContent = {
   metaTitle: "Precios de gorras personalizadas, pedido mínimo y plazos",
   metaDescription:
-    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 6,0–7,7 USD por gorra en 50 y 4,5–5,2 USD desde 500. Muestras en 7–15 días.",
+    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 6,0–7,7 USD por gorra en 50 y 2,9–3,6 USD desde 500. Muestras en 7–15 días.",
   h1: "Precios de gorras personalizadas, pedido mínimo y plazos",
   lead:
     "Respuestas claras a lo que toda marca pregunta antes de encargar gorras personalizadas: cuánto cuesta una gorra en 50, 100, 300 o 500 piezas, cómo funcionan las muestras, cuánto tarda la producción y cómo se paga. Los precios son orientativos para nuestro modelo estándar. Envíanos tu diseño y te confirmamos un presupuesto exacto.",
@@ -221,9 +221,9 @@ const pricingEs: GuideLocaleContent = {
       head: ["Cantidad por modelo", "Precio por gorra (USD)", "Ideal para"],
       rows: [
         ["50–99 (mín. 50 por color)", "<b>6,0 – 7,7</b>", "Probar un diseño o un primer lanzamiento"],
-        ["100–299", "<b>5,5 – 6,7</b>", "Una primera colección"],
-        ["300–499", "<b>4,9 – 5,8</b>", "Modelos principales y reposiciones"],
-        ["500+", "<b>4,5 – 5,2</b>", "Superventas y venta al por mayor"],
+        ["100–299", "<b>4,3 – 5,7</b>", "Una primera colección"],
+        ["300–499", "<b>3,6 – 4,3</b>", "Modelos principales y reposiciones"],
+        ["500+", "<b>2,9 – 3,6</b>", "Superventas y venta al por mayor"],
       ],
       caption:
         "Puedes combinar colores dentro de un mismo modelo para alcanzar un tramo: 2 colores × 50 piezas se cotizan al precio de 100 piezas.",
@@ -252,7 +252,7 @@ const pricingEs: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Coste de la muestra: <b>60–80 USD por diseño</b>, según la construcción y la decoración.",
+        "Coste de la muestra: <b>50 USD por muestra</b> para un diseño estándar, envío no incluido. Los diseños complejos se cotizan aparte.",
         "Plazo de la muestra: <b>7–15 días</b> desde que confirmamos arte y tejido.",
         "El coste de la muestra se <b>devuelve</b> si pides 1.000 piezas o más de ese diseño.",
         "Las correcciones se hacen antes de tu aprobación. La producción solo empieza cuando das el visto bueno.",
@@ -273,7 +273,7 @@ const pricingEs: GuideLocaleContent = {
     { type: "h2", text: "Condiciones de pago" },
     {
       type: "p",
-      text: "<b>50 % de anticipo</b> para iniciar la producción. El <b>50 % restante</b> se paga cuando el pedido supera la inspección, antes del envío.",
+      text: "<b>50 % de anticipo</b> para iniciar la producción. El <b>50 % restante</b> se paga antes del envío. Primero te mandamos fotos del pedido terminado.",
     },
     { type: "h2", text: "Envío y coste final" },
     {
@@ -285,7 +285,7 @@ const pricingEs: GuideLocaleContent = {
       type: "list",
       items: [
         "Revisamos cada etapa de producción, y la producción en volumen solo empieza cuando apruebas la muestra de preproducción.",
-        "Revisas el pedido terminado antes de pagar el resto: con fotos y vídeo, en una videollamada o mediante un inspector externo.",
+        "Antes del envío te mandamos fotos del pedido terminado. También puedes revisarlo en una videollamada o mediante un inspector externo.",
         "Aceptamos inspecciones de terceros.",
         "¿Quieres ver el taller? Hacemos una videollamada en directo encantados.",
       ],
@@ -316,11 +316,11 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto cuesta una gorra personalizada?",
-      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 6,0–7,7 USD por gorra en 50–99 piezas, 5,5–6,7 USD en 100–299, 4,9–5,8 USD en 300–499 y 4,5–5,2 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
+      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 6,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
     },
     {
       q: "¿Cuánto cuesta una muestra y se devuelve?",
-      a: "60–80 USD por diseño, lista en 7–15 días. Se devuelve si pides 1.000 piezas o más de ese diseño.",
+      a: "50 USD por muestra para un diseño estándar, sin incluir el envío; la muestra está lista en 7–15 días. Los diseños complejos se cotizan aparte. El importe se devuelve si pides 1.000 piezas o más de ese diseño.",
     },
     {
       q: "¿Cuánto tarda la producción?",
@@ -328,7 +328,7 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuáles son las condiciones de pago?",
-      a: "Un 50 % de anticipo para iniciar la producción y el 50 % restante cuando el pedido supera la inspección, antes del envío.",
+      a: "Un 50 % de anticipo para iniciar la producción y el 50 % restante antes del envío. Primero te mandamos fotos de las gorras terminadas.",
     },
     {
       q: "¿Podéis enviar en DDP?",
@@ -361,7 +361,7 @@ const pricingEs: GuideLocaleContent = {
 const pricingFr: GuideLocaleContent = {
   metaTitle: "Prix des casquettes personnalisées, minimum de commande et délais",
   metaDescription:
-    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 6,0–7,7 USD la casquette à 50, 4,5–5,2 USD dès 500. Échantillon en 7 à 15 jours.",
+    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 6,0–7,7 USD la casquette à 50, 2,9–3,6 USD dès 500. Échantillon en 7 à 15 jours.",
   h1: "Prix des casquettes personnalisées, minimum de commande et délais",
   lead:
     "Des réponses claires à ce que chaque marque demande avant de commander des casquettes personnalisées : le prix d'une casquette à 50, 100, 300 ou 500 pièces, le fonctionnement des échantillons, la durée de production et le paiement. Les prix sont indicatifs pour notre modèle standard. Envoyez-nous votre design et nous vous confirmons un devis exact.",
@@ -376,9 +376,9 @@ const pricingFr: GuideLocaleContent = {
       head: ["Quantité par modèle", "Prix par casquette (USD)", "Idéal pour"],
       rows: [
         ["50–99 (min. 50 par couleur)", "<b>6,0 – 7,7</b>", "Tester un design ou un premier drop"],
-        ["100–299", "<b>5,5 – 6,7</b>", "Une première collection"],
-        ["300–499", "<b>4,9 – 5,8</b>", "Modèles phares et réassorts"],
-        ["500+", "<b>4,5 – 5,2</b>", "Best-sellers et vente en gros"],
+        ["100–299", "<b>4,3 – 5,7</b>", "Une première collection"],
+        ["300–499", "<b>3,6 – 4,3</b>", "Modèles phares et réassorts"],
+        ["500+", "<b>2,9 – 3,6</b>", "Best-sellers et vente en gros"],
       ],
       caption:
         "Vous pouvez mélanger les couleurs d'un même modèle pour atteindre un palier : 2 couleurs × 50 pièces sont facturées au prix du palier de 100 pièces.",
@@ -407,7 +407,7 @@ const pricingFr: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Prix de l'échantillon : <b>60–80 USD par design</b>, selon la construction et la décoration.",
+        "Prix de l'échantillon : <b>50 USD pièce</b> pour un design standard, hors frais d'envoi. Les designs complexes sont chiffrés à part.",
         "Délai de l'échantillon : <b>7 à 15 jours</b> après validation du visuel et du tissu.",
         "Le prix de l'échantillon est <b>remboursé</b> si vous commandez 1 000 pièces ou plus de ce design.",
         "Les corrections sont faites avant votre validation. La production ne démarre qu'après votre accord.",
@@ -428,7 +428,7 @@ const pricingFr: GuideLocaleContent = {
     { type: "h2", text: "Conditions de paiement" },
     {
       type: "p",
-      text: "<b>50 % d'acompte</b> pour lancer la production. Le <b>solde de 50 %</b> est réglé une fois la commande contrôlée, avant l'expédition.",
+      text: "<b>50 % d'acompte</b> pour lancer la production. Le <b>solde de 50 %</b> est réglé avant l'expédition. Nous vous envoyons d'abord des photos de la commande terminée.",
     },
     { type: "h2", text: "Expédition et coût rendu" },
     {
@@ -440,7 +440,7 @@ const pricingFr: GuideLocaleContent = {
       type: "list",
       items: [
         "Chaque étape de production est contrôlée, et la série ne démarre qu'après validation de l'échantillon de pré-production.",
-        "Vous vérifiez la commande terminée avant de payer le solde : en photos et vidéo, en appel vidéo ou via un inspecteur indépendant.",
+        "Avant l'expédition, nous vous envoyons des photos de la commande terminée. Vous pouvez aussi la vérifier en appel vidéo ou via un inspecteur indépendant.",
         "Les inspections par un tiers sont les bienvenues.",
         "Envie de voir l'atelier ? Nous organisons volontiers un appel vidéo en direct.",
       ],
@@ -471,11 +471,11 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Combien coûte une casquette personnalisée ?",
-      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 6,0–7,7 USD la casquette pour 50–99 pièces, 5,5–6,7 USD pour 100–299, 4,9–5,8 USD pour 300–499 et 4,5–5,2 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
+      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 6,0–7,7 USD la casquette pour 50–99 pièces, 4,3–5,7 USD pour 100–299, 3,6–4,3 USD pour 300–499 et 2,9–3,6 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
     },
     {
       q: "Combien coûte un échantillon, et est-il remboursé ?",
-      a: "60–80 USD par design, prêt en 7 à 15 jours. Il est remboursé si vous commandez 1 000 pièces ou plus de ce design.",
+      a: "50 USD l'échantillon pour un design standard, hors frais d'envoi, prêt en 7 à 15 jours. Les designs complexes sont chiffrés à part. L'échantillon est remboursé si vous commandez 1 000 pièces ou plus de ce design.",
     },
     {
       q: "Combien de temps dure la production ?",
@@ -483,7 +483,7 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Quelles sont vos conditions de paiement ?",
-      a: "50 % d'acompte pour lancer la production, et le solde de 50 % une fois la commande contrôlée, avant l'expédition.",
+      a: "50 % d'acompte pour lancer la production, et le solde de 50 % avant l'expédition. Nous vous envoyons d'abord des photos des casquettes terminées.",
     },
     {
       q: "Pouvez-vous expédier en DDP ?",
@@ -516,7 +516,7 @@ const pricingFr: GuideLocaleContent = {
 const pricingDe: GuideLocaleContent = {
   metaTitle: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   metaDescription:
-    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 6,0–7,7 USD pro Cap bei 50, 4,5–5,2 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
+    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 6,0–7,7 USD pro Cap bei 50, 2,9–3,6 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
   h1: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   lead:
     "Klare Antworten auf das, was jede Marke vor der Bestellung individueller Caps wissen will: was eine Cap bei 50, 100, 300 oder 500 Stück kostet, wie Muster funktionieren, wie lange die Produktion dauert und wie Sie bezahlen. Die Preise sind Richtwerte für unser Standardmodell. Schicken Sie uns Ihr Design, und wir bestätigen Ihnen ein genaues Angebot.",
@@ -531,9 +531,9 @@ const pricingDe: GuideLocaleContent = {
       head: ["Menge pro Modell", "Preis pro Cap (USD)", "Geeignet für"],
       rows: [
         ["50–99 (mind. 50 pro Farbe)", "<b>6,0 – 7,7</b>", "Ein Design testen oder einen ersten Drop"],
-        ["100–299", "<b>5,5 – 6,7</b>", "Eine erste Kollektion"],
-        ["300–499", "<b>4,9 – 5,8</b>", "Kernmodelle und Nachbestellungen"],
-        ["500+", "<b>4,5 – 5,2</b>", "Bestseller und Großhandel"],
+        ["100–299", "<b>4,3 – 5,7</b>", "Eine erste Kollektion"],
+        ["300–499", "<b>3,6 – 4,3</b>", "Kernmodelle und Nachbestellungen"],
+        ["500+", "<b>2,9 – 3,6</b>", "Bestseller und Großhandel"],
       ],
       caption:
         "Farben innerhalb eines Modells lassen sich kombinieren, um eine Preisstufe zu erreichen: 2 Farben × 50 Stück werden zum Preis der 100-Stück-Stufe berechnet.",
@@ -562,7 +562,7 @@ const pricingDe: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Musterkosten: <b>60–80 USD pro Design</b>, je nach Konstruktion und Veredelung.",
+        "Musterkosten: <b>50 USD pro Muster</b> bei einem Standarddesign, zuzüglich Versand. Aufwendige Designs kalkulieren wir separat.",
         "Musterzeit: <b>7–15 Tage</b>, nachdem Vorlage und Stoff bestätigt sind.",
         "Die Musterkosten werden <b>erstattet</b>, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
         "Korrekturen erfolgen vor Ihrer Freigabe. Die Serienproduktion startet erst nach Ihrem Okay.",
@@ -583,7 +583,7 @@ const pricingDe: GuideLocaleContent = {
     { type: "h2", text: "Zahlungsbedingungen" },
     {
       type: "p",
-      text: "<b>50 % Anzahlung</b> zum Start der Produktion. Die <b>restlichen 50 %</b> werden fällig, wenn die Bestellung die Prüfung bestanden hat, vor dem Versand.",
+      text: "<b>50 % Anzahlung</b> zum Start der Produktion. Die <b>restlichen 50 %</b> werden vor dem Versand fällig. Vorab schicken wir Ihnen Fotos der fertigen Bestellung.",
     },
     { type: "h2", text: "Versand und Gesamtkosten" },
     {
@@ -595,7 +595,7 @@ const pricingDe: GuideLocaleContent = {
       type: "list",
       items: [
         "Jeder Produktionsschritt wird geprüft, und die Serie startet erst nach Freigabe des Vorproduktionsmusters.",
-        "Sie prüfen die fertige Bestellung, bevor Sie den Rest bezahlen: per Fotos und Video, im Live-Videocall oder durch einen externen Prüfer.",
+        "Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung. Sie können sie auch im Live-Videocall oder durch einen externen Prüfer kontrollieren.",
         "Prüfungen durch Dritte sind willkommen.",
         "Sie möchten die Werkstatt sehen? Gerne per Live-Videocall.",
       ],
@@ -626,11 +626,11 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Was kostet eine individuelle Cap?",
-      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 6,0–7,7 USD pro Cap für 50–99 Stück, 5,5–6,7 USD für 100–299, 4,9–5,8 USD für 300–499 und 4,5–5,2 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
+      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 6,0–7,7 USD pro Cap für 50–99 Stück, 4,3–5,7 USD für 100–299, 3,6–4,3 USD für 300–499 und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
     },
     {
       q: "Was kostet ein Muster, und wird es erstattet?",
-      a: "60–80 USD pro Design, fertig in 7–15 Tagen. Die Kosten werden erstattet, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
+      a: "50 USD pro Muster bei einem Standarddesign, zuzüglich Versand, fertig in 7–15 Tagen. Aufwendige Designs kalkulieren wir separat. Die Kosten werden erstattet, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
     },
     {
       q: "Wie lange dauert die Produktion?",
@@ -638,7 +638,7 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Wie sind Ihre Zahlungsbedingungen?",
-      a: "50 % Anzahlung zum Produktionsstart und die restlichen 50 %, wenn die Bestellung die Prüfung bestanden hat, vor dem Versand.",
+      a: "50 % Anzahlung zum Produktionsstart und die restlichen 50 % vor dem Versand. Vorab senden wir Ihnen Fotos der fertigen Caps.",
     },
     {
       q: "Liefern Sie auch DDP?",
@@ -694,12 +694,12 @@ const brandEn: GuideLocaleContent = {
       type: "table",
       head: ["Plan", "Quantity", "Indicative cap cost*"],
       rows: [
-        ["Test drop: 1 style in 2 colours", "2 × 50 = 100 pcs", "<b>$550 – 670</b>"],
-        ["First collection: 3 styles", "3 × 100 = 300 pcs", "<b>$1,650 – 2,010</b>"],
-        ["Core range: 2 styles", "2 × 300 = 600 pcs", "<b>$2,940 – 3,480</b>"],
+        ["Test drop: 1 style in 2 colours", "2 × 50 = 100 pcs", "<b>$430 – 570</b>"],
+        ["First collection: 3 styles", "3 × 100 = 300 pcs", "<b>$1,290 – 1,710</b>"],
+        ["Core range: 2 styles", "2 × 300 = 600 pcs", "<b>$2,160 – 2,580</b>"],
       ],
       caption:
-        "*Standard build (6-panel cotton twill, flat embroidered logo, woven label), ex-works Guangzhou. Price tiers apply per style. Samples ($60–80 per design), special decorations and shipping are extra; the sample fee is refunded when you order 1,000+ pieces of a design.",
+        "*Standard build (6-panel cotton twill, flat embroidered logo, woven label), ex-works Guangzhou. Price tiers apply per style. Samples ($50 each for a standard design; complex designs are quoted separately), special decorations and shipping are extra; the sample fee is refunded when you order 1,000+ pieces of a design.",
     },
     { type: "h2", text: "From idea to delivery" },
     {
@@ -716,7 +716,7 @@ const brandEn: GuideLocaleContent = {
         { title: "Bulk production", text: "25–30 days after sample approval, with checks at every stage." },
         {
           title: "Inspection and shipping",
-          text: "You check the finished order by photos, video call or a third-party inspector, pay the balance, and we ship to your door.",
+          text: "We send you photos of the finished order before shipping; a video call or a third-party inspector is welcome too. You pay the balance, and we ship to your door.",
         },
       ],
     },
@@ -790,12 +790,12 @@ const brandEs: GuideLocaleContent = {
       type: "table",
       head: ["Plan", "Cantidad", "Coste orientativo de las gorras*"],
       rows: [
-        ["Lanzamiento de prueba: 1 modelo en 2 colores", "2 × 50 = 100 uds.", "<b>550 – 670 USD</b>"],
-        ["Primera colección: 3 modelos", "3 × 100 = 300 uds.", "<b>1.650 – 2.010 USD</b>"],
-        ["Gama principal: 2 modelos", "2 × 300 = 600 uds.", "<b>2.940 – 3.480 USD</b>"],
+        ["Lanzamiento de prueba: 1 modelo en 2 colores", "2 × 50 = 100 uds.", "<b>430 – 570 USD</b>"],
+        ["Primera colección: 3 modelos", "3 × 100 = 300 uds.", "<b>1.290 – 1.710 USD</b>"],
+        ["Gama principal: 2 modelos", "2 × 300 = 600 uds.", "<b>2.160 – 2.580 USD</b>"],
       ],
       caption:
-        "*Modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), en fábrica Guangzhou. Los tramos de precio se aplican por modelo. Las muestras (60–80 USD por diseño), las decoraciones especiales y el envío van aparte; la muestra se devuelve si pides 1.000 piezas o más de un diseño.",
+        "*Modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), en fábrica Guangzhou. Los tramos de precio se aplican por modelo. Las muestras (50 USD cada una para un diseño estándar; los diseños complejos se cotizan por separado), las decoraciones especiales y el envío van aparte; la muestra se devuelve si pides 1.000 piezas o más de un diseño.",
     },
     { type: "h2", text: "De la idea a la entrega" },
     {
@@ -812,7 +812,7 @@ const brandEs: GuideLocaleContent = {
         { title: "Producción", text: "25–30 días después de aprobar la muestra, con controles en cada etapa." },
         {
           title: "Inspección y envío",
-          text: "Revisas el pedido terminado con fotos, videollamada o un inspector externo, pagas el resto y te lo enviamos a la puerta.",
+          text: "Antes del envío te mandamos fotos del pedido terminado; también puedes verlo por videollamada o enviar un inspector externo. Pagas el resto y te lo enviamos a la puerta.",
         },
       ],
     },
@@ -886,12 +886,12 @@ const brandFr: GuideLocaleContent = {
       type: "table",
       head: ["Projet", "Quantité", "Coût indicatif des casquettes*"],
       rows: [
-        ["Drop test : 1 modèle en 2 couleurs", "2 × 50 = 100 pcs", "<b>550 – 670 USD</b>"],
-        ["Première collection : 3 modèles", "3 × 100 = 300 pcs", "<b>1 650 – 2 010 USD</b>"],
-        ["Gamme principale : 2 modèles", "2 × 300 = 600 pcs", "<b>2 940 – 3 480 USD</b>"],
+        ["Drop test : 1 modèle en 2 couleurs", "2 × 50 = 100 pcs", "<b>430 – 570 USD</b>"],
+        ["Première collection : 3 modèles", "3 × 100 = 300 pcs", "<b>1 290 – 1 710 USD</b>"],
+        ["Gamme principale : 2 modèles", "2 × 300 = 600 pcs", "<b>2 160 – 2 580 USD</b>"],
       ],
       caption:
-        "*Modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), départ usine Guangzhou. Les paliers de prix s'appliquent par modèle. Échantillons (60–80 USD par design), décorations spéciales et transport en sus ; l'échantillon est remboursé dès 1 000 pièces commandées d'un même design.",
+        "*Modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), départ usine Guangzhou. Les paliers de prix s'appliquent par modèle. Échantillons (50 USD pièce pour un design standard ; designs complexes chiffrés à part), décorations spéciales et transport en sus ; l'échantillon est remboursé dès 1 000 pièces commandées d'un même design.",
     },
     { type: "h2", text: "De l'idée à la livraison" },
     {
@@ -908,7 +908,7 @@ const brandFr: GuideLocaleContent = {
         { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon, avec des contrôles à chaque étape." },
         {
           title: "Inspection et expédition",
-          text: "Vous vérifiez la commande terminée en photos, en appel vidéo ou via un inspecteur indépendant, vous réglez le solde, et nous livrons à votre porte.",
+          text: "Avant l'expédition, nous vous envoyons des photos de la commande terminée ; vous pouvez aussi demander un appel vidéo ou mandater un inspecteur indépendant. Vous réglez le solde, et nous livrons à votre porte.",
         },
       ],
     },
@@ -982,12 +982,12 @@ const brandDe: GuideLocaleContent = {
       type: "table",
       head: ["Plan", "Menge", "Richtwert Cap-Kosten*"],
       rows: [
-        ["Test-Drop: 1 Modell in 2 Farben", "2 × 50 = 100 Stk.", "<b>550 – 670 USD</b>"],
-        ["Erste Kollektion: 3 Modelle", "3 × 100 = 300 Stk.", "<b>1.650 – 2.010 USD</b>"],
-        ["Kernsortiment: 2 Modelle", "2 × 300 = 600 Stk.", "<b>2.940 – 3.480 USD</b>"],
+        ["Test-Drop: 1 Modell in 2 Farben", "2 × 50 = 100 Stk.", "<b>430 – 570 USD</b>"],
+        ["Erste Kollektion: 3 Modelle", "3 × 100 = 300 Stk.", "<b>1.290 – 1.710 USD</b>"],
+        ["Kernsortiment: 2 Modelle", "2 × 300 = 600 Stk.", "<b>2.160 – 2.580 USD</b>"],
       ],
       caption:
-        "*Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett), ab Werk Guangzhou. Die Preisstufen gelten pro Modell. Muster (60–80 USD pro Design), Sonderveredelungen und Versand kommen hinzu; die Musterkosten werden ab 1.000 Stück eines Designs erstattet.",
+        "*Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett), ab Werk Guangzhou. Die Preisstufen gelten pro Modell. Muster (50 USD pro Stück bei einem Standarddesign; aufwendige Designs kalkulieren wir separat), Sonderveredelungen und Versand kommen hinzu; die Musterkosten werden ab 1.000 Stück eines Designs erstattet.",
     },
     { type: "h2", text: "Von der Idee bis zur Lieferung" },
     {
@@ -1004,7 +1004,7 @@ const brandDe: GuideLocaleContent = {
         { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Musters, mit Kontrollen bei jedem Schritt." },
         {
           title: "Prüfung und Versand",
-          text: "Sie prüfen die fertige Bestellung per Fotos, Videocall oder externem Prüfer, zahlen den Rest, und wir liefern bis zu Ihnen.",
+          text: "Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung; ein Videocall oder ein externer Prüfer ist ebenfalls möglich. Sie zahlen den Rest, und wir liefern bis zu Ihnen.",
         },
       ],
     },
@@ -1093,7 +1093,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> yes. Our standard build (6-panel cotton twill, flat embroidered logo, one woven label, ex-works Guangzhou) is US$6.0–7.7 per cap at 50–99 pieces, US$5.5–6.7 at 100–299, US$4.9–5.8 at 300–499 and US$4.5–5.2 at 500+. Full details are on our pricing page."
+      "text": "<b>Our answer:</b> yes. Our standard build (6-panel cotton twill, flat embroidered logo, one woven label, ex-works Guangzhou) is US$6.0–7.7 per cap at 50–99 pieces, US$4.3–5.7 at 100–299, US$3.6–4.3 at 300–499 and US$2.9–3.6 at 500+. Full details are on our pricing page."
     },
     {
       "type": "h2",
@@ -1105,7 +1105,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> US$60–80 per design, ready in 7–15 days. The fee is refunded when you order 1,000 pieces or more of that design."
+      "text": "<b>Our answer:</b> US$50 per sample for a standard design, not including shipping, ready in 7–15 days. Complex designs are quoted separately. The fee is refunded when you order 1,000 pieces or more of that design."
     },
     {
       "type": "h2",
@@ -1149,11 +1149,11 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Why it matters:</b> ask what is checked during production, not only at the end, and whether you can inspect before paying the balance."
+      "text": "<b>Why it matters:</b> ask what is checked during production, not only at the end, and whether you can see the finished order before it ships."
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> every production stage is checked, and bulk only starts after you approve a pre-production sample. Before you pay the balance, you can check the finished order by photos, video, a live call or a third-party inspector."
+      "text": "<b>Our answer:</b> every production stage is checked, and bulk only starts after you approve a pre-production sample. Before the order ships, we send you photos of the finished caps, and you can also check them on a live call or through a third-party inspector."
     },
     {
       "type": "h2",
@@ -1165,7 +1165,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> a 50% deposit to start production, and the 50% balance after the order passes inspection, before shipping."
+      "text": "<b>Our answer:</b> a 50% deposit to start production, and the 50% balance before shipping. We send you photos of the finished caps first."
     },
     {
       "type": "h2",
@@ -1277,7 +1277,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> sí. Nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, una etiqueta tejida, en fábrica Guangzhou) cuesta 6,0–7,7 USD por gorra en 50–99 piezas, 5,5–6,7 USD en 100–299, 4,9–5,8 USD en 300–499 y 4,5–5,2 USD desde 500. Todos los detalles están en nuestra página de precios."
+      "text": "<b>Nuestra respuesta:</b> sí. Nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, una etiqueta tejida, en fábrica Guangzhou) cuesta 6,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500. Todos los detalles están en nuestra página de precios."
     },
     {
       "type": "h2",
@@ -1289,7 +1289,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> 60–80 USD por diseño, lista en 7–15 días. Se devuelve cuando pides 1.000 piezas o más de ese diseño."
+      "text": "<b>Nuestra respuesta:</b> 50 USD por muestra para un diseño estándar, sin incluir el envío; la muestra está lista en 7–15 días. Los diseños complejos se cotizan aparte. El importe se devuelve cuando pides 1.000 piezas o más de ese diseño."
     },
     {
       "type": "h2",
@@ -1333,11 +1333,11 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Por qué importa:</b> pregunta qué se revisa durante la producción, no solo al final, y si puedes inspeccionar antes de pagar el resto."
+      "text": "<b>Por qué importa:</b> pregunta qué se revisa durante la producción, no solo al final, y si puedes ver el pedido terminado antes de que se envíe."
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> se revisa cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes de pagar el resto puedes revisar el pedido terminado con fotos, vídeo, una videollamada o un inspector externo."
+      "text": "<b>Nuestra respuesta:</b> se revisa cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes del envío te mandamos fotos de las gorras terminadas, y también puedes revisarlas en una videollamada o mediante un inspector externo."
     },
     {
       "type": "h2",
@@ -1349,7 +1349,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> un 50% de anticipo para empezar la producción y el 50% restante cuando el pedido pasa la inspección, antes del envío."
+      "text": "<b>Nuestra respuesta:</b> un 50% de anticipo para empezar la producción y el 50% restante antes del envío. Primero te mandamos fotos de las gorras terminadas."
     },
     {
       "type": "h2",
@@ -1461,7 +1461,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> oui. Notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, une étiquette tissée, départ usine Guangzhou) coûte 6,0–7,7 USD par casquette de 50 à 99 pièces, 5,5–6,7 USD de 100 à 299, 4,9–5,8 USD de 300 à 499 et 4,5–5,2 USD dès 500. Tous les détails sont sur notre page tarifs."
+      "text": "<b>Notre réponse :</b> oui. Notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, une étiquette tissée, départ usine Guangzhou) coûte 6,0–7,7 USD par casquette de 50 à 99 pièces, 4,3–5,7 USD de 100 à 299, 3,6–4,3 USD de 300 à 499 et 2,9–3,6 USD dès 500. Tous les détails sont sur notre page tarifs."
     },
     {
       "type": "h2",
@@ -1473,7 +1473,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> 60–80 USD par design, prêt en 7 à 15 jours. Le montant est remboursé dès 1 000 pièces commandées de ce design."
+      "text": "<b>Notre réponse :</b> 50 USD l'échantillon pour un design standard, hors frais d'envoi, prêt en 7 à 15 jours. Les designs complexes sont chiffrés à part. Le montant est remboursé dès 1 000 pièces commandées de ce design."
     },
     {
       "type": "h2",
@@ -1517,11 +1517,11 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Pourquoi c'est important :</b> demandez ce qui est contrôlé pendant la production, pas seulement à la fin, et si vous pouvez inspecter avant de payer le solde."
+      "text": "<b>Pourquoi c'est important :</b> demandez ce qui est contrôlé pendant la production, pas seulement à la fin, et si vous pouvez voir la commande terminée avant son expédition."
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> chaque étape de production est contrôlée, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant de payer le solde, vous pouvez vérifier la commande terminée en photos, en vidéo, en appel vidéo ou via un inspecteur indépendant."
+      "text": "<b>Notre réponse :</b> chaque étape de production est contrôlée, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant l'expédition, nous vous envoyons des photos des casquettes terminées, et vous pouvez aussi les vérifier en appel vidéo ou via un inspecteur indépendant."
     },
     {
       "type": "h2",
@@ -1533,7 +1533,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> 50 % d'acompte pour lancer la production, et le solde de 50 % après inspection de la commande, avant l'expédition."
+      "text": "<b>Notre réponse :</b> 50 % d'acompte pour lancer la production, et le solde de 50 % avant l'expédition. Nous vous envoyons d'abord des photos des casquettes terminées."
     },
     {
       "type": "h2",
@@ -1645,7 +1645,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Ja. Unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, ein Webetikett, ab Werk Guangzhou) kostet 6,0–7,7 USD pro Cap bei 50–99 Stück, 5,5–6,7 USD bei 100–299, 4,9–5,8 USD bei 300–499 und 4,5–5,2 USD ab 500. Alle Details stehen auf unserer Preisseite."
+      "text": "<b>Unsere Antwort:</b> Ja. Unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, ein Webetikett, ab Werk Guangzhou) kostet 6,0–7,7 USD pro Cap bei 50–99 Stück, 4,3–5,7 USD bei 100–299, 3,6–4,3 USD bei 300–499 und 2,9–3,6 USD ab 500. Alle Details stehen auf unserer Preisseite."
     },
     {
       "type": "h2",
@@ -1657,7 +1657,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> 60–80 USD pro Design, fertig in 7–15 Tagen. Der Betrag wird erstattet, wenn Sie 1.000 Stück oder mehr dieses Designs bestellen."
+      "text": "<b>Unsere Antwort:</b> 50 USD pro Muster bei einem Standarddesign, zuzüglich Versand, fertig in 7–15 Tagen. Aufwendige Designs kalkulieren wir separat. Der Betrag wird erstattet, wenn Sie 1.000 Stück oder mehr dieses Designs bestellen."
     },
     {
       "type": "h2",
@@ -1701,11 +1701,11 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Warum das wichtig ist:</b> Fragen Sie, was während der Produktion geprüft wird, nicht nur am Ende, und ob Sie vor der Restzahlung prüfen können."
+      "text": "<b>Warum das wichtig ist:</b> Fragen Sie, was während der Produktion geprüft wird, nicht nur am Ende, und ob Sie die fertige Ware vor dem Versand sehen können."
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Jeder Produktionsschritt wird geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor der Restzahlung können Sie die fertige Ware per Foto, Video, Videocall oder durch einen unabhängigen Prüfer kontrollieren."
+      "text": "<b>Unsere Antwort:</b> Jeder Produktionsschritt wird geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor dem Versand schicken wir Ihnen Fotos der fertigen Caps, und Sie können die Ware auch im Videocall oder durch einen unabhängigen Prüfer kontrollieren."
     },
     {
       "type": "h2",
@@ -1717,7 +1717,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> 50 % Anzahlung zum Produktionsstart, die restlichen 50 % nach bestandener Prüfung und vor dem Versand."
+      "text": "<b>Unsere Antwort:</b> 50 % Anzahlung zum Produktionsstart, die restlichen 50 % vor dem Versand. Vorab senden wir Ihnen Fotos der fertigen Caps."
     },
     {
       "type": "h2",

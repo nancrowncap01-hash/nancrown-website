@@ -102,7 +102,7 @@
     "capacity": "Production Capacity",
     "capacityText": "Our workshop covers about 2,000 m² with a team of more than 30 people. With cutting, sewing and assembly on our own floor, and long-term partners for embroidery and printing, we make over 100,000 caps a month, so we can take a 50-piece trial and a large repeat order alike.",
     "certifications": "Quality Control",
-    "certificationsText": "Every order is checked at each stage of production, and bulk only starts after you approve a pre-production sample. Before you pay the balance, you can check the finished order by photos and video, on a live video call, or through a third-party inspector.",
+    "certificationsText": "Every order is checked at each stage of production, and bulk only starts after you approve a pre-production sample. Before the order ships, we send you photos of the finished caps, and you can also check them on a live video call or through a third-party inspector.",
     "years": "Years Experience",
     "workers": "Skilled Workers",
     "monthlyCapacity": "Monthly Capacity",
@@ -145,7 +145,7 @@
       ],
       [
         "Samples",
-        "7–15 days; US$60–80 per design, refunded when you order 1,000+ pieces of that design"
+        "7–15 days; US$50 per sample for a standard design (shipping not included), complex designs quoted separately; sample fee refunded when you order 1,000+ pieces of that design"
       ],
       [
         "Bulk production",
@@ -153,11 +153,11 @@
       ],
       [
         "Price guide",
-        "US$6.0–7.7 per cap at 50–99 pieces, down to US$4.5–5.2 at 500+ (standard build, ex-works Guangzhou)"
+        "US$6.0–7.7 per cap at 50–99 pieces, down to US$2.9–3.6 at 500+ (standard build, ex-works Guangzhou)"
       ],
       [
         "Payment",
-        "50% deposit, 50% after the order passes inspection"
+        "50% deposit, 50% balance before shipping; we send photos of the finished order first"
       ],
       [
         "Shipping",
@@ -228,7 +228,7 @@
       },
       {
         "q": "Can I see the factory before I order?",
-        "a": "Yes. You can watch our workshop video on this site, or ask for a live video call and we will show you the floor. You can also send a third-party inspector to check your order before you pay the balance."
+        "a": "Yes. You can watch our workshop video on this site, or ask for a live video call and we will show you the floor. You can also send a third-party inspector to check your order before it ships."
       },
       {
         "q": "What is the smallest order you take?",

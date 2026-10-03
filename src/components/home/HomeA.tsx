@@ -278,7 +278,8 @@ export default function HomeA() {
               <h2>{t("contactHeading")}</h2>
               <p>{t("contactBody")}</p>
               <div className={styles.contactLines}>
-                <b>{t("contactEmailLabel")}</b> — info@nancrown.com
+                <b>{t("contactEmailLabel")}</b> —{" "}
+                <a href="mailto:info@nancrown.com">info@nancrown.com</a>
                 <br />
                 <b>{t("contactPhoneLabel")}</b> — +86 20-3123 5916
                 <br />

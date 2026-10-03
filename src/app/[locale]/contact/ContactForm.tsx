@@ -149,6 +149,19 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
             <h1 className="text-3xl sm:text-4xl font-bold">{t("title")}</h1>
             <p className="mt-2 text-gray-400 text-lg">{t("subtitle")}</p>
+            {/* 1003:也欢迎直接发邮件(客户先发信,我们的回信更容易进对方收件箱) */}
+            <p className="mt-3 text-sm text-gray-300">
+              {t.rich("preferEmail", {
+                email: (chunks) => (
+                  <a
+                    href="mailto:info@nancrown.com"
+                    className="font-medium text-amber-400 underline underline-offset-2 hover:text-amber-300"
+                  >
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
           </div>
         </section>
       )}

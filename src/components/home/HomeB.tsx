@@ -213,7 +213,9 @@ export default function HomeB() {
             {t("contactCta")} <span>→</span>
           </Link>
           <div className={styles.contactMeta}>
-            <div>{t("contactEmail")}</div>
+            <div>
+              <a href={`mailto:${t("contactEmail")}`}>{t("contactEmail")}</a>
+            </div>
             <div>{t("contactPhone")}</div>
             <div>{t("contactLocation")}</div>
           </div>

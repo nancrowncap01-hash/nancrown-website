@@ -17,6 +17,16 @@ function truncate(value: string, maxLength = 300): string {
   return v.length > maxLength ? `${v.slice(0, maxLength)}…` : v;
 }
 
+// 内部记录(来源/推广标记/机器人检测/首页版本…)放进邮件头 X-NC-*,不再放进正文表格:
+// 业务员在邮件软件里点「回复」时,软件会把正文整张表引用给客户,但引用不到邮件头,内部记录就不会被带出去。
+// 值先去换行(防伪造出新的邮件头)+ 限长,再做百分号编码(邮件头只能放英文字符;我们自己的收信程序会解回来)
+function metaHeaderValue(value: string): string {
+  const cleaned = (value ?? "").replace(/[\r\n]+/g, " ").trim();
+  let encoded = encodeURIComponent(cleaned.length > 200 ? cleaned.slice(0, 200) : cleaned || "N/A");
+  if (encoded.length > 600) encoded = encoded.slice(0, 600).replace(/%[0-9A-Fa-f]?$/, "");
+  return encoded;
+}
+
 // "怎么找到我们的"下拉选项 → 邮件里显示的英文文案(邮件固定英文,跟表格其它行一致)
 const FOUND_VIA_LABELS: Record<string, string> = {
   chatgpt: "ChatGPT",
@@ -390,6 +400,19 @@ export async function POST(request: NextRequest) {
   const subjectPart = (v: string, n: number) => truncate(v.replace(/[\r\n]+/g, " ").trim(), n);
   const subject = `【官网询盘】New Inquiry from ${subjectPart(name, 80)} - ${subjectPart(product, 40)}${isBotSuspect ? " (possible bot)" : ""}`;
 
+  // 只给我们自己看的内部记录:走邮件头,不进正文(见 metaHeaderValue 上面的说明)。
+  // 值的写法跟以前表格里那 8 行完全一样,收信程序按老格式接回去,仪表台的来源统计不用改
+  const metaHeaders: Record<string, string> = {
+    "X-NC-Came-From": metaHeaderValue(cameFromDisplay),
+    "X-NC-Referrer": metaHeaderValue(srcReferrer || "N/A"),
+    "X-NC-UTM": metaHeaderValue(utmDisplay),
+    "X-NC-Landing-Page": metaHeaderValue(srcLandingPage || "N/A"),
+    "X-NC-First-Visit": metaHeaderValue(srcFirstVisit || "N/A"),
+    "X-NC-Bot-Check": metaHeaderValue(botCheckDisplay),
+    "X-NC-Home-Version": metaHeaderValue(homeVersionLabel),
+    "X-NC-Auto-Confirm": metaHeaderValue(autoConfirmDisplay),
+  };
+
   const html = `
         <h2>New Customer Inquiry</h2>
         <table style="border-collapse: collapse; width: 100%; max-width: 600px;">
@@ -399,17 +422,9 @@ export async function POST(request: NextRequest) {
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Country</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(country) || "N/A")}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Product Interest</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(product))}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Quantity</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(quantity) || "N/A")}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Message</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(message, 20000))}</td></tr>
+          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Message</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(message, 20000)).replace(/\r\n|\r|\n/g, "<br>")}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Told us they found us via</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(foundViaDisplay)}</td></tr>
           <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Attachments</td><td style="padding: 8px; border: 1px solid #ddd;">${attachmentsDisplay}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Came from</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(cameFromDisplay))}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Referrer</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(srcReferrer) || "N/A")}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">UTM</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(utmDisplay))}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">First landing page</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(srcLandingPage) || "N/A")}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">First visit</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(truncate(srcFirstVisit) || "N/A")}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Bot check</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(botCheckDisplay)}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Homepage version</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(homeVersionLabel)}</td></tr>
-          <tr><td style="padding: 8px; border: 1px solid #ddd; font-weight: bold;">Auto-confirmation</td><td style="padding: 8px; border: 1px solid #ddd;">${escapeHtml(autoConfirmDisplay)}</td></tr>
         </table>
       `;
 
@@ -422,6 +437,7 @@ export async function POST(request: NextRequest) {
         to: notifyEmail,
         subject,
         html,
+        headers: metaHeaders,
         attachments: attachmentSummaries,
       },
       wouldSendConfirmation: confirmationEmail
@@ -469,6 +485,7 @@ export async function POST(request: NextRequest) {
       replyTo: email,
       subject,
       html,
+      headers: metaHeaders,
       attachments,
     });
 

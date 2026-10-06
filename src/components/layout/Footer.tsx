@@ -19,9 +19,10 @@ export default function Footer() {
   return (
     <footer className="bg-gray-900 text-gray-300">
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 py-12">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-5 gap-8">
+        {/* 5 栏并排要 1024 以上;平板竖屏(768)每栏只有 118px,邮箱那栏放不下会把整页撑宽 */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {/* Brand */}
-          <div className="sm:col-span-2 md:col-span-2">
+          <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
             <div className="flex items-center gap-2 mb-4">
               <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-600 text-white font-bold text-lg">
                 N

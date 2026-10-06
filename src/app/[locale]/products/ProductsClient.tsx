@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useMemo, useEffect } from "react";
+import { useState, useMemo, useEffect, useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { sampleProducts, categories } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
@@ -12,6 +12,7 @@ export default function ProductsClient() {
   const locale = useLocale();
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [search, setSearch] = useState("");
+  const chipsRef = useRef<HTMLDivElement>(null);
 
   // 首页帽型卡片带 ?category= 跳转过来时,读网址参数自动筛选
   // 不用 useSearchParams,避免 Next 16 要求包 Suspense
@@ -25,6 +26,18 @@ export default function ProductsClient() {
       setSelectedCategory(cat);
     }
   }, []);
+
+  // 手机上帽型按钮是一条可左右滑的横排:选中的那个(比如带 ?category= 进来、排在最后的冬帽)要滑到看得见的位置
+  // 电脑上按钮自动换行、容器不能滑,这段不起作用
+  useEffect(() => {
+    const box = chipsRef.current;
+    const active = box?.querySelector<HTMLElement>('[aria-pressed="true"]');
+    if (!box || !active) return;
+    box.scrollTo({
+      left: active.offsetLeft - (box.clientWidth - active.offsetWidth) / 2,
+      behavior: "smooth",
+    });
+  }, [selectedCategory]);
 
   const filteredProducts = useMemo(() => {
     const query = search.trim().toLowerCase();
@@ -55,10 +68,12 @@ export default function ProductsClient() {
 
       <section className="py-12">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
-          {/* Filters */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-8">
+          {/* Filters:搜索框单独占一行,帽型按钮排在下面。
+              以前两者并排,帽型加到 9 个后按钮把搜索框挤成 58px 的小方块、放大镜也跟着错位。
+              手机上按钮排成一行左右滑(原来换成 4–5 行,产品被挤到一屏以外),平板/电脑照常换行 */}
+          <div className="flex flex-col gap-4 mb-8">
             {/* Search */}
-            <div className="relative flex-1 max-w-md">
+            <div className="relative w-full max-w-md">
               <svg
                 className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-gray-400"
                 fill="none"
@@ -73,7 +88,8 @@ export default function ProductsClient() {
                 />
               </svg>
               <input
-                type="text"
+                type="search"
+                aria-label={t("search")}
                 placeholder={t("search")}
                 value={search}
                 onChange={(e) => setSearch(e.target.value)}
@@ -82,10 +98,14 @@ export default function ProductsClient() {
             </div>
 
             {/* Category Filter */}
-            <div className="flex flex-wrap gap-2">
+            <div
+              ref={chipsRef}
+              className="relative -mx-4 px-4 flex gap-2 overflow-x-auto [scrollbar-width:none] [&::-webkit-scrollbar]:hidden sm:mx-0 sm:px-0 sm:flex-wrap sm:overflow-visible"
+            >
               <button
                 onClick={() => setSelectedCategory(null)}
-                className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
+                aria-pressed={!selectedCategory}
+                className={`shrink-0 whitespace-nowrap px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
                   !selectedCategory
                     ? "bg-amber-600 text-white"
                     : "bg-gray-100 text-gray-600 hover:bg-gray-200"
@@ -97,7 +117,8 @@ export default function ProductsClient() {
                 <button
                   key={cat}
                   onClick={() => setSelectedCategory(cat)}
-                  className={`px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
+                  aria-pressed={selectedCategory === cat}
+                  className={`shrink-0 whitespace-nowrap px-4 py-2 text-sm font-medium rounded-lg transition-colors ${
                     selectedCategory === cat
                       ? "bg-amber-600 text-white"
                       : "bg-gray-100 text-gray-600 hover:bg-gray-200"

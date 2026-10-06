@@ -33,8 +33,9 @@ export default function Header() {
             </span>
           </Link>
 
-          {/* Desktop Nav */}
-          <nav className="hidden md:flex items-center gap-1">
+          {/* Desktop Nav:1024 以上才横排。原来 768 就横排,平板竖屏(768–840)放不下,
+              右边的报价按钮被顶出屏幕,整页都能左右晃 */}
+          <nav className="hidden lg:flex items-center gap-1">
             {navLinks.map((link) => (
               <Link
                 key={link.href}
@@ -63,7 +64,7 @@ export default function Header() {
             {/* Mobile menu button */}
             <button
               type="button"
-              className="md:hidden p-2 text-gray-600 hover:text-gray-900"
+              className="lg:hidden p-2 text-gray-600 hover:text-gray-900"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
             >
               <svg
@@ -93,7 +94,7 @@ export default function Header() {
 
         {/* Mobile menu */}
         {mobileMenuOpen && (
-          <nav className="md:hidden py-4 border-t border-gray-100">
+          <nav className="lg:hidden py-4 border-t border-gray-100">
             {navLinks.map((link) => (
               <Link
                 key={link.href}

@@ -1871,6 +1871,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "5-panel-caps",
     categoryValue: "",
     productSlugs: [
+      "tonal-embroidery-ripstop-camp-cap",
       "crinkle-5-panel-running-cap",
       "mesh-top-trail-running-cap",
       "earflap-surf-camp-cap",
@@ -2198,6 +2199,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
     slug: "embroidered-caps",
     categoryValue: "",
     productSlugs: [
+      "tonal-embroidery-ripstop-camp-cap",
       "chenille-letter-tile-cap",
       "side-script-embroidered-cap",
       "contrast-piping-outline-letter-cap",

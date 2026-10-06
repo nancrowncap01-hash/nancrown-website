@@ -26,6 +26,37 @@ export const categories = [
 
 export const sampleProducts: Product[] = [
   {
+    slug: "tonal-embroidery-ripstop-camp-cap",
+    name: "Tonal Embroidery Ripstop Camp Cap",
+    code: "M0055",
+    category: "Camp Caps",
+    image: "/images/products/tonal-embroidery-ripstop-camp-cap.jpg",
+    gallery: [
+      "/images/products/tonal-embroidery-ripstop-camp-cap-2.jpg",
+      "/images/products/tonal-embroidery-ripstop-camp-cap-3.jpg",
+      "/images/products/tonal-embroidery-ripstop-camp-cap-4.jpg",
+      "/images/products/tonal-embroidery-ripstop-camp-cap-5.jpg",
+    ],
+    description:
+      "A soft 5-panel camp cap in lightweight ripstop nylon, with a mid-low crown and a gently curved brim. The front wordmark is flat embroidery in a thread one shade lighter than the cap, so it reads clean from a distance and textured up close. Two stitched eyelets on each side let heat out, an elastic cord at the back sets the fit, and the embroidery takes your own brand name.",
+    material: "Ripstop nylon",
+    moq: 50,
+    colors: [
+      "Dusty mauve",
+      "black",
+      "olive",
+      "sand",
+    ],
+    features: [
+      "5-panel unstructured camp cap, curved brim",
+      "Lightweight ripstop nylon",
+      "Tonal flat embroidery on a seamless front panel",
+      "Two embroidered eyelets on each side",
+      "Elastic cord adjuster at the back",
+      "Size: One size · elastic cord",
+    ],
+  },
+  {
     slug: "mesh-top-trail-running-cap",
     name: "Mesh-Top Trail Running Cap",
     code: "M0054",

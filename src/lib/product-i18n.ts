@@ -1,6 +1,6 @@
 import type { Product } from "./sample-data";
 
-// 41 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
+// 42 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
 // 只存需要翻译的字段(名称/描述/面料/特点/颜色);
 // 款号(code)、分类(category)、图片、起订量(moq)等字段不进这张表,始终沿用英文原值。
 type ProductTranslation = {
@@ -20,6 +20,54 @@ export const productTranslations: Record<
   string,
   Partial<Record<TranslatedLocale, ProductTranslation>>
 > = {
+  "tonal-embroidery-ripstop-camp-cap": {
+    es: {
+      name: "Gorra Camp de Ripstop con Bordado Tono sobre Tono",
+      description:
+        "Una gorra camp blanda de 5 paneles en nailon ripstop ligero, de copa media-baja y visera ligeramente curva. La palabra del frente es un bordado plano con un hilo un tono más claro que la gorra: limpio de lejos y con textura de cerca. Dos ojales bordados a cada lado dejan salir el calor, un cordón elástico atrás ajusta la talla y el bordado lleva el nombre de tu marca.",
+      material: "Nailon ripstop",
+      colors: ["Malva empolvado", "negro", "verde oliva", "arena"],
+      features: [
+        "Gorra camp de 5 paneles sin estructura, visera curva",
+        "Nailon ripstop ligero",
+        "Bordado plano tono sobre tono en un panel frontal sin costura",
+        "Dos ojales bordados a cada lado",
+        "Ajuste con cordón elástico atrás",
+        "Talla: única · cordón elástico",
+      ],
+    },
+    fr: {
+      name: "Casquette Camp en Ripstop à Broderie Ton sur Ton",
+      description:
+        "Une casquette camp souple à 5 panneaux en nylon ripstop léger, à calotte mi-basse et visière légèrement incurvée. Le mot à l'avant est une broderie plate dans un fil d'un ton plus clair que la casquette : net de loin, texturé de près. Deux œillets brodés de chaque côté laissent sortir la chaleur, un cordon élastique à l'arrière règle la taille, et la broderie reçoit le nom de votre marque.",
+      material: "Nylon ripstop",
+      colors: ["Mauve poudré", "noir", "olive", "sable"],
+      features: [
+        "Casquette camp 5 panneaux non structurée, visière incurvée",
+        "Nylon ripstop léger",
+        "Broderie plate ton sur ton sur un panneau avant sans couture",
+        "Deux œillets brodés de chaque côté",
+        "Réglage par cordon élastique à l'arrière",
+        "Taille : unique · cordon élastique",
+      ],
+    },
+    de: {
+      name: "Ripstop-Campcap mit Ton-in-Ton-Stickerei",
+      description:
+        "Eine weiche 5-Panel-Campcap aus leichtem Ripstop-Nylon, mit mittelflachem Kopfteil und leicht gebogenem Schirm. Der Schriftzug vorne ist eine Flachstickerei in einem Garn, das einen Ton heller ist als die Cap: aus der Ferne klar, aus der Nähe mit Struktur. Zwei gestickte Ösen auf jeder Seite lassen die Wärme heraus, eine elastische Kordel hinten regelt die Weite, und die Stickerei trägt Ihren eigenen Markennamen.",
+      material: "Ripstop-Nylon",
+      colors: ["Altmauve", "Schwarz", "Oliv", "Sand"],
+      features: [
+        "Unstrukturierte 5-Panel-Campcap, gebogener Schirm",
+        "Leichtes Ripstop-Nylon",
+        "Ton-in-Ton-Flachstickerei auf nahtlosem Frontpanel",
+        "Zwei gestickte Ösen auf jeder Seite",
+        "Elastische Kordel zum Verstellen hinten",
+        "Größe: Einheitsgröße · elastische Kordel",
+      ],
+    },
+  },
+
   "mesh-top-trail-running-cap": {
     es: {
       name: "Gorra de Trail Running con Malla Superior",

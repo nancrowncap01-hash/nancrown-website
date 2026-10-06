@@ -7,7 +7,7 @@ import { solutionSlugs } from "@/lib/solutions-content";
 import { localizedUrl, SITE_URL } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
-const LAST_MODIFIED = new Date("2026-10-02");
+const LAST_MODIFIED = new Date("2026-10-06");
 
 // 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
 // 1001 新增 /choose-a-hat-factory,同一批对待

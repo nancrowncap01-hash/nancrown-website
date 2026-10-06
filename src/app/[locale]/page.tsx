@@ -1,17 +1,11 @@
 import type { Metadata } from "next";
-import { cookies, headers } from "next/headers";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
-import {
-  HOME_AB_MODE,
-  HOME_AB_HEADER,
-  HOME_AB_COOKIE,
-  isHomeVariant,
-  type HomeVariant,
-} from "@/lib/home-ab";
+import { HOME_AB_MODE } from "@/lib/home-ab";
 
 // 首页 A/B 两版共用同一套 SEO 元数据(canonical、标题、描述完全一样,
 // 不让搜索引擎因为随机分流看到两份不同内容)
+// ⚠️ [locale]/home-b/page.tsx 里有一份一模一样的,改这里要同步改那边
 export async function generateMetadata({
   params,
 }: {
@@ -28,33 +22,21 @@ export async function generateMetadata({
   });
 }
 
-// 决定这次请求渲染 A 版还是 B 版:
-// 1. 总开关锁定单版本(HOME_AB_MODE !== "split")时,不看请求头/cookie,直接用锁定的那版。
-// 2. 否则优先看 middleware 写进请求头的结果(保证第一次访问、cookie 还没生效时也对)。
-// 3. 请求头缺失时兜底看 cookie(理论上不会走到,matcher 已覆盖所有页面路径)。
-async function resolveHomeVariant(): Promise<HomeVariant> {
-  if (HOME_AB_MODE !== "split") {
-    return HOME_AB_MODE;
-  }
-  const headerList = await headers();
-  const headerVariant = headerList.get(HOME_AB_HEADER);
-  if (isHomeVariant(headerVariant)) {
-    return headerVariant;
-  }
-  const cookieStore = await cookies();
-  const cookieVariant = cookieStore.get(HOME_AB_COOKIE)?.value;
-  if (isHomeVariant(cookieVariant)) {
-    return cookieVariant;
-  }
-  return "a";
-}
+// 本页是纯静态页(构建时预渲染),不再读请求头/cookie。
+// 谁看 A 版谁看 B 版由 src/proxy.ts 分流:分到 B 的请求会被内部改写到 [locale]/home-b(另一张静态页),
+// 其余请求(分到 A、或总开关锁定为 "a")都落在这里渲染 A 版。
+// 只有总开关 HOME_AB_MODE 锁定为 "b" 时,本页才渲染 B 版(此时代理层不改写)。
+export default async function HomePage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = await params;
+  setRequestLocale(locale);
 
-export default async function HomePage() {
-  const variant = await resolveHomeVariant();
-
-  // 动态 import:只加载这次要渲染的那版组件(含它自己的字体),
-  // 不会把 A、B 两版的字体/代码一起塞进同一个响应里。
-  if (variant === "b") {
+  // 动态 import:只加载要渲染的那版组件(含它自己的字体),
+  // 不会把 A、B 两版的字体/代码一起塞进同一个页面里。
+  if (HOME_AB_MODE === "b") {
     const { default: HomeB } = await import("@/components/home/HomeB");
     return <HomeB />;
   }

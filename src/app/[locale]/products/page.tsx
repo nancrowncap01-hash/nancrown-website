@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { use } from "react";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
 import ProductsClient from "./ProductsClient";
 
@@ -18,6 +19,12 @@ export async function generateMetadata({
   });
 }
 
-export default function ProductsPage() {
+export default function ProductsPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  const { locale } = use(params);
+  setRequestLocale(locale);
   return <ProductsClient />;
 }

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { sampleProducts } from "@/lib/sample-data";
@@ -14,9 +14,13 @@ import {
   getCategoryDefinition,
 } from "@/lib/category-content";
 
-// 和 products/[slug]/page.tsx 一样:next-intl + 动态路由在这个 Next 版本下用静态生成会踩坑,
-// 统一改成请求时渲染
-export const dynamic = "force-dynamic";
+// 构建时把全部帽型页 × 四种语言预渲染成静态页(语言那一层由 [locale]/layout.tsx 的 generateStaticParams 提供);
+// 不在列表里的 category 直接 404
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return categoryDefinitions.map((def) => ({ category: def.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -48,6 +52,7 @@ export default async function CategoryPage({
   params: Promise<{ category: string; locale: string }>;
 }) {
   const { category, locale } = await params;
+  setRequestLocale(locale);
   const def = getCategoryDefinition(category);
 
   if (!def) {

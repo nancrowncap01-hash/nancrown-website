@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { use } from "react";
 import { useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import VideoPlayer from "@/components/VideoPlayer";
 import { pageMetadata } from "@/lib/seo";
@@ -35,7 +36,14 @@ function CheckIcon() {
   );
 }
 
-export default function AboutPage() {
+export default function AboutPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  // 同步组件里用 use() 取语言,先 setRequestLocale 再用 useTranslations(静态渲染必需)
+  const { locale } = use(params);
+  setRequestLocale(locale);
   const t = useTranslations("About");
 
   const stats = [

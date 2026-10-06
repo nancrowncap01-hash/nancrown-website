@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { guides } from "@/lib/guide-content";
 import { pageMetadata } from "@/lib/seo";
@@ -28,6 +28,7 @@ export default async function StartAHatBrandPage({
   params: Promise<{ locale: string }>;
 }) {
   const { locale } = await params;
+  setRequestLocale(locale);
   const content = guides["start-a-hat-brand"][locale as Locale] ?? guides["start-a-hat-brand"].en;
 
   const tNav = await getTranslations({ locale, namespace: "Nav" });

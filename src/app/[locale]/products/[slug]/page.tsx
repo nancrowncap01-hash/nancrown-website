@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
@@ -10,7 +10,13 @@ import { ProductJsonLd } from "@/components/seo/JsonLd";
 import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
 
-export const dynamic = "force-dynamic";
+// 构建时把全部产品 × 四种语言预渲染成静态页(语言那一层由 [locale]/layout.tsx 的 generateStaticParams 提供)。
+// 不在列表里的 slug 直接 404;下架产品的 301 跳转在 next.config.ts 里,先于页面生效
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return sampleProducts.map((p) => ({ slug: p.slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -44,6 +50,7 @@ export default async function ProductDetailPage({
   params: Promise<{ slug: string; locale: string }>;
 }) {
   const { slug, locale } = await params;
+  setRequestLocale(locale);
   const product = sampleProducts.find((p) => p.slug === slug);
 
   if (!product) {

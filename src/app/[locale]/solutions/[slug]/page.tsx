@@ -1,15 +1,19 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
-import { solutions, isSolutionSlug } from "@/lib/solutions-content";
+import { solutions, solutionSlugs, isSolutionSlug } from "@/lib/solutions-content";
 import { pageMetadata } from "@/lib/seo";
 import GuidePage from "@/components/guide/GuidePage";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
 
-// 和 /custom/[category]、/products/[slug] 一样:next-intl + 动态路由在这个 Next 版本下
-// 用静态生成会踩坑,统一改成请求时渲染
-export const dynamic = "force-dynamic";
+// 构建时把全部身份页 × 四种语言预渲染成静态页(语言那一层由 [locale]/layout.tsx 的 generateStaticParams 提供);
+// 不在列表里的 slug 直接 404
+export const dynamicParams = false;
+
+export function generateStaticParams() {
+  return solutionSlugs.map((slug) => ({ slug }));
+}
 
 export async function generateMetadata({
   params,
@@ -35,6 +39,7 @@ export default async function SolutionPage({
   params: Promise<{ slug: string; locale: string }>;
 }) {
   const { slug, locale } = await params;
+  setRequestLocale(locale);
 
   if (!isSolutionSlug(slug)) {
     notFound();

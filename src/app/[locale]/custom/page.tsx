@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
+import { use } from "react";
 import { useTranslations, useLocale } from "next-intl";
-import { getTranslations } from "next-intl/server";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { pageMetadata } from "@/lib/seo";
@@ -24,7 +25,14 @@ export async function generateMetadata({
 // 第二块"装饰工艺/贴牌"分类,单独分组展示(其余分类都归第一块)
 const DECORATION_SLUGS = new Set(["embroidered-caps", "patch-hats", "private-label-hats"]);
 
-export default function CustomPage() {
+export default function CustomPage({
+  params,
+}: {
+  params: Promise<{ locale: string }>;
+}) {
+  // 同步组件里用 use() 取语言,先 setRequestLocale 再用 useTranslations(静态渲染必需)
+  const { locale: routeLocale } = use(params);
+  setRequestLocale(routeLocale);
   const t = useTranslations("Custom");
   const tGuides = useTranslations("Guides");
   const locale = useLocale() as Locale;

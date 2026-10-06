@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
-import { HOME_AB_MODE } from "@/lib/home-ab";
+import HomeA from "@/components/home/HomeA";
 
 // 首页 A/B 两版共用同一套 SEO 元数据(canonical、标题、描述完全一样,
 // 不让搜索引擎因为随机分流看到两份不同内容)
@@ -24,8 +24,9 @@ export async function generateMetadata({
 
 // 本页是纯静态页(构建时预渲染),不再读请求头/cookie。
 // 谁看 A 版谁看 B 版由 src/proxy.ts 分流:分到 B 的请求会被内部改写到 [locale]/home-b(另一张静态页),
-// 其余请求(分到 A、或总开关锁定为 "a")都落在这里渲染 A 版。
-// 只有总开关 HOME_AB_MODE 锁定为 "b" 时,本页才渲染 B 版(此时代理层不改写)。
+// 其余请求(分到 A、或总开关锁定为 "a")都落在这里渲染 A 版;总开关锁定为 "b" 时代理层把所有首页请求都改写走。
+// 🔴 本页只许 import A 版:哪怕是动态 import B 版,B 版的 5 个字体也会被算进本页的预加载
+//    (改之前 A 版首页一上来抢着下 13 个字体 309KB,比首屏大图还重几倍)。
 export default async function HomePage({
   params,
 }: {
@@ -34,12 +35,5 @@ export default async function HomePage({
   const { locale } = await params;
   setRequestLocale(locale);
 
-  // 动态 import:只加载要渲染的那版组件(含它自己的字体),
-  // 不会把 A、B 两版的字体/代码一起塞进同一个页面里。
-  if (HOME_AB_MODE === "b") {
-    const { default: HomeB } = await import("@/components/home/HomeB");
-    return <HomeB />;
-  }
-  const { default: HomeA } = await import("@/components/home/HomeA");
   return <HomeA />;
 }

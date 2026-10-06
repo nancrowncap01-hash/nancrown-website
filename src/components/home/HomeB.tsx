@@ -10,8 +10,9 @@ import FAQ from "@/components/FAQ";
 import styles from "./HomeB.module.css";
 
 // B 版「品牌画册」用到的两款字体,只在这个组件里生效(不影响全站)
+// subsets 只留 latin:理由同 HomeA.tsx(latin-ext 用到才下,不抢首屏)
 const cormorant = Cormorant_Garamond({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   weight: ["300", "400", "500"],
   style: ["normal", "italic"],
   variable: "--font-cormorant",

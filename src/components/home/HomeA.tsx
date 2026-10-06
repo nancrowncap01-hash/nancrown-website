@@ -9,15 +9,17 @@ import ContactForm from "@/app/[locale]/contact/ContactForm";
 import styles from "./HomeA.module.css";
 
 // A 版「工厂档案」用到的两款字体,只在这个组件里生效(不影响全站)
+// subsets 写谁就抢先下载谁:只留 latin(英/西/法/德的重音字母、ß、œ、€ 都在 latin 里)。
+// latin-ext(中东欧字母)的规则仍在样式表里,页面真用到才会去下——不再跟首屏大图抢带宽
 const plexMono = IBM_Plex_Mono({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   weight: ["400", "500", "600"],
   variable: "--font-plex-mono",
   display: "swap",
 });
 
 const plexSans = IBM_Plex_Sans({
-  subsets: ["latin", "latin-ext"],
+  subsets: ["latin"],
   weight: ["400", "500", "600", "700"],
   variable: "--font-plex-sans",
   display: "swap",

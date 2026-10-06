@@ -73,9 +73,10 @@ export function proxy(request: NextRequest) {
   let response: NextResponse = intlResponse;
 
   // 是跳转(如 /en → /、带 Accept-Language 的 / → /es)就原样返回,不改写;
-  // 否则分到 B 的请求内部改写到 B 版静态页(浏览器地址栏不变),分到 A 的不动,直接落在 A 版静态页
+  // 否则分到 B 的请求内部改写到 B 版静态页(浏览器地址栏不变),分到 A 的不动,直接落在 A 版静态页。
+  // 总开关锁定为 "b" 时 variant 恒为 "b",所有首页请求都走这条改写(A 版页面本身不带 B 版代码)
   const isRedirect = intlResponse.headers.has("location");
-  if (!isRedirect && variant === "b" && HOME_AB_MODE === "split") {
+  if (!isRedirect && variant === "b") {
     // 走到这里的只有两种路径:"/"(默认语言,next-intl 内部改写到 /en)和已带前缀的 /es /fr /de
     const locale = HOME_PATH_RE.exec(pathname)?.[1] ?? routing.defaultLocale;
     const target = request.nextUrl.clone();

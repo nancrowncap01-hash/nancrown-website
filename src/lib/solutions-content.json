@@ -1538,6 +1538,592 @@
           "button": "Angebot anfordern"
         }
       }
+    },
+    {
+      "slug": "bulk-orders",
+      "products": [
+        "contrast-piping-outline-letter-cap",
+        "tire-stripe-mesh-trucker",
+        "vertical-logo-ball-cap",
+        "frayed-edge-denim-bucket-hat",
+        "double-piping-washed-cap"
+      ],
+      "en": {
+        "metaTitle": "Bulk Custom Caps from a China Factory: 1,000 to 5,000+ Pieces",
+        "metaDescription": "Factory-direct bulk custom caps from Guangzhou, China: over 100,000 caps a month, one approved sample for every batch, volume quotes for 1,000 pieces and up.",
+        "h1": "Bulk Custom Caps: 1,000 to 5,000+ Pieces per Order",
+        "lead": "For retail ranges, corporate programmes and repeat brand orders, we make custom caps in bulk at our workshop in Guangzhou, China. We make over 100,000 caps a month, so an order of several thousand caps fits alongside our regular work, and every batch is made to the same approved sample.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Prices for larger orders"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Pieces per style",
+              "Standard cap (per cap)"
+            ],
+            "rows": [
+              [
+                "100–299",
+                "<b>US$4.3–5.7</b>"
+              ],
+              [
+                "300–499",
+                "<b>US$3.6–4.3</b>"
+              ],
+              [
+                "500–999",
+                "<b>US$2.9–3.6</b>"
+              ],
+              [
+                "1,000+",
+                "Volume quote on your quantity"
+              ]
+            ],
+            "caption": "Standard build: 6-panel cotton twill, flat embroidered logo, one woven label, ex-works Guangzhou, not including shipping. Special fabrics, 3D puff embroidery, patches and custom packaging are quoted per design."
+          },
+          {
+            "type": "h2",
+            "text": "Lead times"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Sample:</b> 7–15 days.",
+              "<b>Bulk:</b> 25–30 days after sample approval is our standard. For larger or multi-style orders we confirm the schedule with your quote, based on quantity, styles and decoration.",
+              "<b>Shipping:</b> add sea, air or courier time. We can quote DDP (delivered duties paid) to your door."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "How we keep every batch the same"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>One approved sample:</b> bulk starts only after you sign off a pre-production sample, and every batch is made to that sample.",
+              "<b>Spec on file:</b> we keep your pattern, fabric, colours and logo positions, so a reorder months later matches the first run.",
+              "<b>Checks at every stage:</b> cutting, sewing, decoration and finished caps are checked before they move on.",
+              "<b>Colour control:</b> fabric is ordered as soon as colours are confirmed. If the bulk dye lot differs slightly in shade from the sample fabric, we show you photos first.",
+              "<b>Photos before shipping:</b> we send photos of the finished order before it ships, and you are welcome to inspect it yourself or send a third-party inspector."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Who orders in bulk from us"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Clothing and streetwear brands ordering 1,000+ pieces per style, or several styles at 500 pieces each.",
+              "Retail chains and wholesalers stocking trucker hats, baseball caps and bucket hats.",
+              "Companies and event organisers ordering promotional caps by the thousand.",
+              "Festivals and merch brands ordering bucket hats and trucker caps ahead of the season."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Send your specs",
+                "text": "Send the styles, quantity per style and colour, your logo and the delivery date."
+              },
+              {
+                "title": "Approve a sample",
+                "text": "We make a physical sample in 7–15 days. You approve fit, fabric and logo before bulk."
+              },
+              {
+                "title": "Bulk production",
+                "text": "Every batch is made to the approved sample, with checks at each stage."
+              },
+              {
+                "title": "Photos and shipping",
+                "text": "We send photos of the finished order, then ship by sea, air or courier."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Packing"
+          },
+          {
+            "type": "p",
+            "text": "As standard, each cap goes in its own poly bag, 25 caps to an inner box and 100 caps to a carton. Custom packaging, such as branded boxes or hangtags, is quoted separately."
+          },
+          {
+            "type": "h2",
+            "text": "Styles often ordered in bulk"
+          },
+          {
+            "type": "products",
+            "slugs": [
+              "contrast-piping-outline-letter-cap",
+              "tire-stripe-mesh-trucker",
+              "vertical-logo-ball-cap",
+              "frayed-edge-denim-bucket-hat",
+              "double-piping-washed-cap"
+            ]
+          }
+        ],
+        "faqHeading": "Questions about bulk orders",
+        "faq": [
+          {
+            "q": "Can you produce 5,000 caps in one order?",
+            "a": "Yes. We make over 100,000 caps a month, so a 5,000-piece order fits alongside our regular production. Send the styles, quantity per colour and your delivery date, and we will confirm the schedule with your quote."
+          },
+          {
+            "q": "Do you offer lower prices for larger quantities?",
+            "a": "Yes. Our published price for a standard cap is US$2.9–3.6 per cap at 500 pieces and up, ex-works Guangzhou. For 1,000 pieces or more, send your quantity and design and we will quote a volume price."
+          },
+          {
+            "q": "Can we split a large order across several styles and colours?",
+            "a": "Yes. Price tiers are per style, and each colour needs at least 50 pieces. Send the breakdown by style and colour and we will quote each line."
+          },
+          {
+            "q": "How do you keep quality consistent across a large order?",
+            "a": "Bulk starts only after you approve a pre-production sample, every batch is made to that sample, and each production stage is checked. We send photos of the finished order before it ships, and third-party inspection is welcome."
+          }
+        ],
+        "cta": {
+          "title": "Planning a bulk order?",
+          "text": "Send your quantity per style, the colours and your delivery date. We will reply with a price and a production schedule, usually within 1–2 business days.",
+          "button": "Get a quote"
+        }
+      },
+      "es": {
+        "metaTitle": "Gorras personalizadas al por mayor de fábrica en China: 1.000 a 5.000+ piezas",
+        "metaDescription": "Gorras personalizadas al por mayor directas de fábrica en Guangzhou, China: más de 100.000 gorras al mes, una muestra aprobada para cada lote y precio por volumen desde 1.000 piezas.",
+        "h1": "Gorras personalizadas al por mayor: de 1.000 a más de 5.000 piezas",
+        "lead": "Para colecciones de tienda, programas de empresa y pedidos repetidos de marca, fabricamos gorras personalizadas al por mayor en nuestro taller de Guangzhou, China. Fabricamos más de 100.000 gorras al mes, así que un pedido de varios miles entra junto a nuestro trabajo habitual, y cada lote se hace igual que la muestra aprobada.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Precios para pedidos grandes"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Piezas por modelo",
+              "Gorra estándar (por unidad)"
+            ],
+            "rows": [
+              [
+                "100–299",
+                "<b>4,3–5,7 USD</b>"
+              ],
+              [
+                "300–499",
+                "<b>3,6–4,3 USD</b>"
+              ],
+              [
+                "500–999",
+                "<b>2,9–3,6 USD</b>"
+              ],
+              [
+                "1.000+",
+                "Precio por volumen según tu cantidad"
+              ]
+            ],
+            "caption": "Modelo estándar: 6 paneles en sarga de algodón, logo bordado plano, una etiqueta tejida, en fábrica Guangzhou, sin incluir el envío. Los tejidos especiales, el bordado 3D, los parches y el embalaje personalizado se cotizan según el diseño."
+          },
+          {
+            "type": "h2",
+            "text": "Plazos"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Muestra:</b> 7–15 días.",
+              "<b>Producción:</b> nuestro plazo estándar es de 25–30 días tras aprobar la muestra. En pedidos grandes o con varios modelos confirmamos el calendario con tu presupuesto, según la cantidad, los modelos y la decoración.",
+              "<b>Envío:</b> suma el tiempo de barco, avión o mensajería. Podemos cotizar DDP (entrega con aranceles pagados) hasta tu puerta."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Cómo conseguimos que cada lote sea igual"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Una muestra aprobada:</b> la producción solo empieza cuando apruebas una muestra de preproducción, y cada lote se hace igual que esa muestra.",
+              "<b>Especificación guardada:</b> guardamos tu patrón, tejido, colores y posiciones del logo, así que una reposición meses después es igual a la primera tirada.",
+              "<b>Controles en cada etapa:</b> el corte, la costura, la decoración y las gorras terminadas se revisan antes de pasar al siguiente paso.",
+              "<b>Control del color:</b> el tejido se pide en cuanto se confirman los colores. Si el lote de tinte de la producción difiere ligeramente del tejido de la muestra, primero te enseñamos fotos.",
+              "<b>Fotos antes del envío:</b> te enviamos fotos del pedido terminado antes de que salga, y puedes inspeccionarlo tú mismo o enviar un inspector externo."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Quién nos hace pedidos grandes"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Marcas de ropa y streetwear con 1.000 piezas o más por modelo, o varios modelos de 500 piezas cada uno.",
+              "Cadenas de tiendas y mayoristas que venden gorras trucker, gorras de béisbol y gorros bucket.",
+              "Empresas y organizadores de eventos que piden gorras promocionales por miles.",
+              "Festivales y marcas de merch que piden gorros bucket y gorras trucker antes de la temporada."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Envía tus especificaciones",
+                "text": "Envía los modelos, la cantidad por modelo y color, tu logo y la fecha de entrega."
+              },
+              {
+                "title": "Aprueba una muestra",
+                "text": "Hacemos una muestra física en 7–15 días. Apruebas el ajuste, el tejido y el logo antes de producir."
+              },
+              {
+                "title": "Producción",
+                "text": "Cada lote se hace igual que la muestra aprobada, con controles en cada etapa."
+              },
+              {
+                "title": "Fotos y envío",
+                "text": "Te enviamos fotos del pedido terminado y luego lo enviamos por barco, avión o mensajería."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Embalaje"
+          },
+          {
+            "type": "p",
+            "text": "De serie, cada gorra va en su propia bolsa de plástico, 25 gorras por caja interior y 100 por caja de cartón. El embalaje personalizado, como cajas con tu marca o etiquetas colgantes, se cotiza aparte."
+          },
+          {
+            "type": "h2",
+            "text": "Modelos que se suelen pedir al por mayor"
+          },
+          {
+            "type": "products",
+            "slugs": [
+              "contrast-piping-outline-letter-cap",
+              "tire-stripe-mesh-trucker",
+              "vertical-logo-ball-cap",
+              "frayed-edge-denim-bucket-hat",
+              "double-piping-washed-cap"
+            ]
+          }
+        ],
+        "faqHeading": "Preguntas sobre pedidos grandes",
+        "faq": [
+          {
+            "q": "¿Podéis fabricar 5.000 gorras en un solo pedido?",
+            "a": "Sí. Fabricamos más de 100.000 gorras al mes, así que un pedido de 5.000 piezas entra junto a nuestra producción habitual. Envíanos los modelos, la cantidad por color y la fecha de entrega, y confirmamos el calendario con tu presupuesto."
+          },
+          {
+            "q": "¿Hay precios más bajos para cantidades grandes?",
+            "a": "Sí. Nuestro precio publicado para una gorra estándar es de 2,9–3,6 USD por unidad desde 500 piezas, en fábrica Guangzhou. Para 1.000 piezas o más, envíanos la cantidad y el diseño y te damos un precio por volumen."
+          },
+          {
+            "q": "¿Podemos repartir un pedido grande en varios modelos y colores?",
+            "a": "Sí. Los tramos de precio son por modelo, y cada color necesita al menos 50 piezas. Envíanos el reparto por modelo y color y cotizamos cada línea."
+          },
+          {
+            "q": "¿Cómo mantenéis la misma calidad en un pedido grande?",
+            "a": "La producción solo empieza cuando apruebas una muestra de preproducción, cada lote se hace igual que esa muestra y se revisa cada etapa. Te enviamos fotos del pedido terminado antes del envío, y la inspección de terceros es bienvenida."
+          }
+        ],
+        "cta": {
+          "title": "¿Preparando un pedido grande?",
+          "text": "Envíanos la cantidad por modelo, los colores y la fecha de entrega. Te respondemos con precio y calendario de producción, normalmente en 1–2 días laborables.",
+          "button": "Pedir presupuesto"
+        }
+      },
+      "fr": {
+        "metaTitle": "Casquettes personnalisées en gros, usine en Chine : 1 000 à 5 000+ pièces",
+        "metaDescription": "Casquettes personnalisées en gros, en direct d'usine à Guangzhou, Chine : plus de 100 000 casquettes par mois, un échantillon validé pour chaque lot, prix volume dès 1 000 pièces.",
+        "h1": "Casquettes personnalisées en gros : de 1 000 à plus de 5 000 pièces",
+        "lead": "Pour les gammes en magasin, les programmes d'entreprise et les réassorts de marque, nous fabriquons des casquettes personnalisées en gros dans notre atelier de Guangzhou, en Chine. Nous produisons plus de 100 000 casquettes par mois : une commande de plusieurs milliers s'intègre à notre travail courant, et chaque lot est fait selon le même échantillon validé.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Prix pour les grandes commandes"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Pièces par modèle",
+              "Casquette standard (par pièce)"
+            ],
+            "rows": [
+              [
+                "100–299",
+                "<b>4,3–5,7 USD</b>"
+              ],
+              [
+                "300–499",
+                "<b>3,6–4,3 USD</b>"
+              ],
+              [
+                "500–999",
+                "<b>2,9–3,6 USD</b>"
+              ],
+              [
+                "1 000+",
+                "Prix volume selon votre quantité"
+              ]
+            ],
+            "caption": "Modèle standard : 6 panneaux en sergé de coton, logo brodé à plat, une étiquette tissée, départ usine Guangzhou, hors transport. Les tissus spéciaux, la broderie 3D, les écussons et l'emballage personnalisé sont chiffrés selon le design."
+          },
+          {
+            "type": "h2",
+            "text": "Délais"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Échantillon :</b> 7 à 15 jours.",
+              "<b>Production :</b> notre délai standard est de 25 à 30 jours après validation de l'échantillon. Pour les commandes importantes ou à plusieurs modèles, nous confirmons le planning avec votre devis, selon la quantité, les modèles et le marquage.",
+              "<b>Transport :</b> ajoutez le délai maritime, aérien ou express. Nous pouvons chiffrer en DDP (rendu droits acquittés) jusqu'à votre porte."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Comment chaque lot reste identique"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Un échantillon validé :</b> la production ne démarre qu'après validation d'un échantillon de pré-production, et chaque lot est fait selon cet échantillon.",
+              "<b>Fiche conservée :</b> nous gardons votre patron, votre tissu, vos couleurs et l'emplacement des logos, pour qu'un réassort des mois plus tard soit identique à la première série.",
+              "<b>Contrôles à chaque étape :</b> la coupe, la couture, le marquage et les casquettes finies sont contrôlés avant l'étape suivante.",
+              "<b>Maîtrise de la couleur :</b> le tissu est commandé dès que les couleurs sont confirmées. Si le bain de teinture de la production diffère légèrement du tissu de l'échantillon, nous vous montrons d'abord des photos.",
+              "<b>Photos avant expédition :</b> nous envoyons des photos de la commande terminée avant son départ, et vous pouvez la contrôler vous-même ou envoyer un inspecteur indépendant."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Qui nous passe de grandes commandes"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Des marques de vêtements et de streetwear à 1 000 pièces ou plus par modèle, ou plusieurs modèles à 500 pièces chacun.",
+              "Des chaînes de magasins et des grossistes qui vendent des casquettes trucker, baseball et des bobs.",
+              "Des entreprises et des organisateurs d'événements qui commandent des casquettes promotionnelles par milliers.",
+              "Des festivals et des marques de merch qui commandent des bobs et des casquettes trucker avant la saison."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Envoyez vos spécifications",
+                "text": "Envoyez les modèles, la quantité par modèle et par couleur, votre logo et la date de livraison."
+              },
+              {
+                "title": "Validez un échantillon",
+                "text": "Nous réalisons un échantillon physique en 7 à 15 jours. Vous validez la taille, le tissu et le logo avant la production."
+              },
+              {
+                "title": "Production",
+                "text": "Chaque lot est fait selon l'échantillon validé, avec des contrôles à chaque étape."
+              },
+              {
+                "title": "Photos et expédition",
+                "text": "Nous envoyons des photos de la commande terminée, puis nous expédions par bateau, avion ou express."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Emballage"
+          },
+          {
+            "type": "p",
+            "text": "En standard, chaque casquette est dans son sachet plastique, 25 casquettes par boîte intérieure et 100 par carton. Un emballage personnalisé, comme des boîtes à votre marque ou des étiquettes volantes, est chiffré à part."
+          },
+          {
+            "type": "h2",
+            "text": "Modèles souvent commandés en gros"
+          },
+          {
+            "type": "products",
+            "slugs": [
+              "contrast-piping-outline-letter-cap",
+              "tire-stripe-mesh-trucker",
+              "vertical-logo-ball-cap",
+              "frayed-edge-denim-bucket-hat",
+              "double-piping-washed-cap"
+            ]
+          }
+        ],
+        "faqHeading": "Questions sur les grandes commandes",
+        "faq": [
+          {
+            "q": "Pouvez-vous produire 5 000 casquettes en une commande ?",
+            "a": "Oui. Nous produisons plus de 100 000 casquettes par mois : une commande de 5 000 pièces s'intègre à notre production courante. Envoyez-nous les modèles, la quantité par couleur et votre date de livraison, nous confirmons le planning avec votre devis."
+          },
+          {
+            "q": "Les prix baissent-ils pour les grandes quantités ?",
+            "a": "Oui. Notre prix publié pour une casquette standard est de 2,9–3,6 USD pièce dès 500 pièces, départ usine Guangzhou. À partir de 1 000 pièces, envoyez-nous la quantité et le design et nous vous donnons un prix volume."
+          },
+          {
+            "q": "Peut-on répartir une grande commande sur plusieurs modèles et couleurs ?",
+            "a": "Oui. Les paliers de prix sont par modèle, et chaque couleur demande au moins 50 pièces. Envoyez-nous la répartition par modèle et par couleur, nous chiffrons chaque ligne."
+          },
+          {
+            "q": "Comment gardez-vous la même qualité sur une grande commande ?",
+            "a": "La production ne démarre qu'après validation d'un échantillon de pré-production, chaque lot est fait selon cet échantillon et chaque étape est contrôlée. Nous envoyons des photos de la commande terminée avant l'expédition, et l'inspection par un tiers est la bienvenue."
+          }
+        ],
+        "cta": {
+          "title": "Vous préparez une grande commande ?",
+          "text": "Envoyez-nous la quantité par modèle, les couleurs et la date de livraison. Nous répondons avec un prix et un planning de production, en général sous 1 à 2 jours ouvrés.",
+          "button": "Demander un devis"
+        }
+      },
+      "de": {
+        "metaTitle": "Individuelle Caps in großen Mengen ab Fabrik in China: 1.000 bis 5.000+ Stück",
+        "metaDescription": "Individuelle Caps in großen Mengen direkt ab Fabrik in Guangzhou, China: über 100.000 Caps im Monat, ein freigegebenes Muster für jede Charge, Mengenpreise ab 1.000 Stück.",
+        "h1": "Individuelle Caps in großen Mengen: 1.000 bis über 5.000 Stück pro Auftrag",
+        "lead": "Für Handelssortimente, Firmenprogramme und Nachbestellungen von Marken fertigen wir individuelle Caps in großen Mengen in unserer Werkstatt in Guangzhou, China. Wir fertigen über 100.000 Caps im Monat, ein Auftrag über mehrere Tausend Stück passt also neben unsere laufende Arbeit, und jede Charge entsteht nach demselben freigegebenen Muster.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Preise für größere Aufträge"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Stück pro Modell",
+              "Standardcap (pro Stück)"
+            ],
+            "rows": [
+              [
+                "100–299",
+                "<b>4,3–5,7 USD</b>"
+              ],
+              [
+                "300–499",
+                "<b>3,6–4,3 USD</b>"
+              ],
+              [
+                "500–999",
+                "<b>2,9–3,6 USD</b>"
+              ],
+              [
+                "1.000+",
+                "Mengenpreis nach Ihrer Stückzahl"
+              ]
+            ],
+            "caption": "Standardmodell: 6-Panel aus Baumwoll-Twill, flach gesticktes Logo, ein Webetikett, ab Werk Guangzhou, ohne Versand. Sonderstoffe, 3D-Puff-Stickerei, Patches und individuelle Verpackung werden je Design kalkuliert."
+          },
+          {
+            "type": "h2",
+            "text": "Lieferzeiten"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Muster:</b> 7–15 Tage.",
+              "<b>Produktion:</b> Unser Standard sind 25–30 Tage nach der Musterfreigabe. Bei größeren Aufträgen oder mehreren Modellen bestätigen wir den Zeitplan mit Ihrem Angebot, je nach Menge, Modellen und Veredelung.",
+              "<b>Versand:</b> dazu kommt die Zeit für See-, Luftfracht oder Kurier. Wir können DDP (geliefert verzollt) bis zu Ihrer Tür anbieten."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "So bleibt jede Charge gleich"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Ein freigegebenes Muster:</b> Die Produktion startet erst nach Freigabe eines Vorproduktionsmusters, und jede Charge wird nach diesem Muster gefertigt.",
+              "<b>Spezifikation gespeichert:</b> Wir bewahren Schnitt, Stoff, Farben und Logo-Positionen auf, damit eine Nachbestellung Monate später der ersten Serie gleicht.",
+              "<b>Prüfung in jedem Schritt:</b> Zuschnitt, Nähen, Veredelung und fertige Caps werden geprüft, bevor es weitergeht.",
+              "<b>Farbkontrolle:</b> Der Stoff wird bestellt, sobald die Farben bestätigt sind. Weicht die Färbepartie der Serie leicht vom Musterstoff ab, zeigen wir Ihnen zuerst Fotos.",
+              "<b>Fotos vor dem Versand:</b> Wir schicken Fotos der fertigen Ware, bevor sie rausgeht, und Sie können sie selbst prüfen oder einen unabhängigen Prüfer schicken."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Wer bei uns große Mengen bestellt"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Mode- und Streetwear-Marken mit 1.000 Stück oder mehr pro Modell oder mehreren Modellen zu je 500 Stück.",
+              "Handelsketten und Großhändler, die Trucker-Caps, Baseballcaps und Bucket Hats führen.",
+              "Firmen und Veranstalter, die Werbe-Caps zu Tausenden bestellen.",
+              "Festivals und Merch-Marken, die Bucket Hats und Trucker-Caps vor der Saison bestellen."
+            ]
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Spezifikation schicken",
+                "text": "Schicken Sie Modelle, Menge pro Modell und Farbe, Ihr Logo und den Liefertermin."
+              },
+              {
+                "title": "Muster freigeben",
+                "text": "Wir fertigen in 7–15 Tagen ein echtes Muster. Sie geben Passform, Stoff und Logo vor der Serie frei."
+              },
+              {
+                "title": "Produktion",
+                "text": "Jede Charge entsteht nach dem freigegebenen Muster, mit Prüfung in jedem Schritt."
+              },
+              {
+                "title": "Fotos und Versand",
+                "text": "Wir schicken Fotos der fertigen Ware und versenden dann per See-, Luftfracht oder Kurier."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Verpackung"
+          },
+          {
+            "type": "p",
+            "text": "Standardmäßig kommt jede Cap in einen eigenen Polybeutel, 25 Caps in einen Innenkarton und 100 in einen Versandkarton. Individuelle Verpackung wie Markenboxen oder Hängeetiketten wird separat kalkuliert."
+          },
+          {
+            "type": "h2",
+            "text": "Modelle, die oft in großen Mengen bestellt werden"
+          },
+          {
+            "type": "products",
+            "slugs": [
+              "contrast-piping-outline-letter-cap",
+              "tire-stripe-mesh-trucker",
+              "vertical-logo-ball-cap",
+              "frayed-edge-denim-bucket-hat",
+              "double-piping-washed-cap"
+            ]
+          }
+        ],
+        "faqHeading": "Fragen zu Großaufträgen",
+        "faq": [
+          {
+            "q": "Können Sie 5.000 Caps in einem Auftrag fertigen?",
+            "a": "Ja. Wir fertigen über 100.000 Caps im Monat, ein Auftrag über 5.000 Stück passt also neben unsere laufende Produktion. Schicken Sie uns Modelle, Menge pro Farbe und Ihren Liefertermin, und wir bestätigen den Zeitplan mit Ihrem Angebot."
+          },
+          {
+            "q": "Gibt es günstigere Preise für größere Mengen?",
+            "a": "Ja. Unser veröffentlichter Preis für eine Standardcap liegt bei 2,9–3,6 USD pro Stück ab 500 Stück, ab Werk Guangzhou. Ab 1.000 Stück schicken Sie uns Menge und Design, und wir nennen Ihnen einen Mengenpreis."
+          },
+          {
+            "q": "Können wir einen Großauftrag auf mehrere Modelle und Farben aufteilen?",
+            "a": "Ja. Die Preisstufen gelten pro Modell, und jede Farbe braucht mindestens 50 Stück. Schicken Sie uns die Aufteilung nach Modell und Farbe, wir kalkulieren jede Position."
+          },
+          {
+            "q": "Wie halten Sie die Qualität bei einem Großauftrag gleich?",
+            "a": "Die Produktion startet erst nach Freigabe eines Vorproduktionsmusters, jede Charge wird nach diesem Muster gefertigt, und jeder Produktionsschritt wird geprüft. Wir schicken Fotos der fertigen Ware vor dem Versand, und eine Prüfung durch Dritte ist willkommen."
+          }
+        ],
+        "cta": {
+          "title": "Sie planen einen Großauftrag?",
+          "text": "Schicken Sie uns Menge pro Modell, Farben und Liefertermin. Wir antworten mit Preis und Produktionsplan, meist innerhalb von 1–2 Werktagen.",
+          "button": "Angebot anfordern"
+        }
+      }
     }
   ]
 }

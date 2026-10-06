@@ -1,12 +1,13 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 
-// 新增一栏的 4 个链接,顺序跟 messages 的 Solutions namespace(run-clubs / surf-shops / corporate-events / festival-merch)一一对应
+// 新增一栏的 5 个链接,顺序跟 messages 的 Solutions namespace(run-clubs / surf-shops / corporate-events / festival-merch / bulk-orders)一一对应
 const solutionsLinks = [
   { href: "/solutions/run-clubs" as const, key: "run-clubs" as const },
   { href: "/solutions/surf-shops" as const, key: "surf-shops" as const },
   { href: "/solutions/corporate-events" as const, key: "corporate-events" as const },
   { href: "/solutions/festival-merch" as const, key: "festival-merch" as const },
+  { href: "/solutions/bulk-orders" as const, key: "bulk-orders" as const },
 ];
 
 export default function Footer() {

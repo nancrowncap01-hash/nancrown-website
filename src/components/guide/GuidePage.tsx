@@ -72,11 +72,17 @@ function renderBlock(block: GuideBlock, i: number) {
         <div key={i}>
           {/* 手机上表格在自己的容器里左右滑,不撑破整页 */}
           <div className="overflow-x-auto rounded-xl border border-gray-200">
-            <table className="w-full min-w-[560px] text-sm text-left">
+            {/* 三列及以上才强制最小宽度+表头不换行(窄屏左右滑);两列表格手机上直接收进屏宽,表头和第二列长句自动换行 */}
+            <table
+              className={`w-full ${block.head.length > 2 ? "min-w-[560px]" : ""} text-sm text-left`}
+            >
               <thead className="bg-gray-50 text-gray-700">
                 <tr>
                   {block.head.map((h, hi) => (
-                    <th key={hi} className="px-4 py-3 font-semibold whitespace-nowrap">
+                    <th
+                      key={hi}
+                      className={`px-4 py-3 font-semibold ${block.head.length > 2 ? "whitespace-nowrap" : ""}`}
+                    >
                       {h}
                     </th>
                   ))}

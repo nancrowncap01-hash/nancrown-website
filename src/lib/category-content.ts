@@ -1510,6 +1510,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "A dad hat lives or dies on its shape: an unstructured six-panel crown that sits low and soft, a curved brim, and a fabric that already looks broken in. NanCrown builds dad hats in garment-washed cotton twill, pigment-dyed cotton and washed denim, with finishes from a clean tonal wash to worn brim edges, gradient bleach and piping around the crown.",
           "Your logo goes on as satin-stitch, outline or 3D puff embroidery, raw-edge appliqué or a small patch, and the strap closes with an antique brass or silver slider in your finish. We confirm fit and wash on a pre-production sample in 7–15 days, then produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after sample approval.",
+          "Most dad hat orders we see are a brand's first cap: one washed style in two or three colours, 50 to 100 pieces per colour, with a small embroidered logo on the front and a woven label. Before sampling we ask one question that changes the result: do you want a light wash that just softens the cotton, or a heavy wash with visible fading? Colours for small runs come from in-stock fabric colour cards, and we send photos if the bulk dye lot differs from your sample.",
         ],
         customOptions: [
           "Crown: unstructured 6-panel, low or mid profile, with a curved or near-flat brim.",
@@ -1531,6 +1532,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Can you match a vintage washed look?",
             a: "Send us a reference photo and we will develop the wash, colour and brim wear on a pre-production sample for you to approve before bulk production.",
           },
+          {
+            q: "How much do washed dad hats cost at 100 pieces?",
+            a: "Our standard cotton cap with one flat embroidered logo and one woven label is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou. A garment wash is quoted on top per design, and we confirm the exact price after seeing your logo and wash reference.",
+          },
+          {
+            q: "How much is a dad hat sample, and how long does it take?",
+            a: "A standard sample is US$50, not including shipping, and takes 7–15 days; washed samples are usually at the longer end. The sample fee is refunded when you order 1,000 pieces or more of that style.",
+          },
+          {
+            q: "Can you match my brand colour exactly?",
+            a: "For small runs we pick the closest shade from in-stock fabric colour cards, and custom dyeing depends on quantity. Washing changes the shade, so you approve the colour on the washed sample, and we tell you with photos if the bulk dye lot differs.",
+          },
         ],
       },
       es: {
@@ -1540,6 +1553,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Una dad cap depende de su forma: una copa de seis paneles sin estructura que queda baja y suave, una visera curva y un tejido que ya parece usado. En NanCrown fabricamos dad caps en sarga de algodón lavada, algodón teñido en pigmento y denim lavado, con acabados que van de un lavado tono sobre tono a bordes de visera gastados, degradados con lejía y vivos alrededor de la copa.",
           "Tu logo puede ir en bordado de satén, de contorno o 3D (puff), en aplicación de bordes crudos o en un parche pequeño, y la tira se cierra con una hebilla de latón envejecido o plateada. Confirmamos el ajuste y el lavado en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra.",
+          "La mayoría de los pedidos de dad caps que recibimos son la primera gorra de una marca: un modelo lavado en dos o tres colores, de 50 a 100 piezas por color, con un logo bordado pequeño al frente y una etiqueta tejida. Antes de hacer la muestra preguntamos algo que cambia el resultado: ¿quieres un lavado suave, que solo ablanda el algodón, o un lavado fuerte con desgaste visible? En tiradas pequeñas los colores se eligen de las cartas de color de tejido en stock, y te enviamos fotos si el lote de tinte de la producción difiere de tu muestra.",
         ],
         customOptions: [
           "Copa: 6 paneles sin estructura, perfil bajo o medio, con visera curva o casi plana.",
@@ -1561,6 +1575,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Podéis conseguir un aspecto vintage lavado?",
             a: "Envíanos una foto de referencia y desarrollaremos el lavado, el color y el desgaste de la visera en una muestra de preproducción para que la apruebes antes de producir.",
           },
+          {
+            q: "¿Cuánto cuestan las dad caps lavadas en 100 piezas?",
+            a: "Nuestra gorra estándar de algodón con un logo bordado plano y una etiqueta tejida cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou. El lavado en prenda se cotiza aparte según el diseño, y confirmamos el precio exacto cuando vemos tu logo y tu referencia de lavado.",
+          },
+          {
+            q: "¿Cuánto cuesta una muestra de dad cap y cuánto tarda?",
+            a: "Una muestra estándar cuesta 50 USD, sin incluir el envío, y tarda 7–15 días; las muestras lavadas suelen estar en la parte larga del plazo. El importe de la muestra se devuelve cuando pides 1.000 piezas o más de ese modelo.",
+          },
+          {
+            q: "¿Podéis igualar exactamente el color de mi marca?",
+            a: "En tiradas pequeñas elegimos el tono más cercano de las cartas de color de tejido en stock, y el teñido a medida depende de la cantidad. El lavado cambia el tono, así que apruebas el color sobre la muestra ya lavada, y te avisamos con fotos si el lote de tinte de la producción difiere.",
+          },
         ],
       },
       fr: {
@@ -1570,6 +1596,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Une dad cap tient tout à sa forme : une calotte six panneaux non structurée, basse et souple, une visière courbe et un tissu qui a déjà l'air porté. NanCrown fabrique des dad caps en sergé de coton délavé, en coton teint pigment et en denim délavé, avec des finitions allant du délavage ton sur ton aux bords de visière usés, en passant par le dégradé à la javel et le passepoil autour de la calotte.",
           "Votre logo peut être brodé au point lancé, en contour ou en 3D (puff), appliqué en bords bruts ou posé en petit écusson, et la sangle se ferme par une boucle en laiton vieilli ou argentée. Nous validons la tenue et le délavage sur un échantillon de pré-production en 7 à 15 jours, puis nous produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon.",
+          "La plupart des commandes de dad caps que nous recevons sont la première casquette d'une marque : un modèle délavé en deux ou trois couleurs, 50 à 100 pièces par couleur, avec un petit logo brodé devant et une étiquette tissée. Avant l'échantillon, nous posons une question qui change le résultat : voulez-vous un délavage léger, qui assouplit simplement le coton, ou un délavage marqué avec une décoloration visible ? Pour les petites séries, les couleurs se choisissent sur les nuanciers de tissus en stock, et nous envoyons des photos si le bain de teinture de la production diffère de votre échantillon.",
         ],
         customOptions: [
           "Calotte : 6 panneaux non structurée, profil bas ou moyen, visière courbe ou presque plate.",
@@ -1591,6 +1618,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Pouvez-vous reproduire un aspect vintage délavé ?",
             a: "Envoyez-nous une photo de référence : nous développons le délavage, la couleur et l'usure de la visière sur un échantillon de pré-production à valider avant la série.",
           },
+          {
+            q: "Combien coûtent des dad caps délavées pour 100 pièces ?",
+            a: "Notre casquette coton standard avec un logo brodé à plat et une étiquette tissée coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou. Le délavage se chiffre en plus selon le design, et nous confirmons le prix exact après avoir vu votre logo et votre référence de délavage.",
+          },
+          {
+            q: "Combien coûte un échantillon de dad cap, et en combien de temps ?",
+            a: "Un échantillon standard coûte 50 USD, hors transport, et prend 7 à 15 jours ; les échantillons délavés sont en général dans le haut de la fourchette. Le montant est remboursé dès 1 000 pièces commandées de ce modèle.",
+          },
+          {
+            q: "Pouvez-vous reproduire exactement la couleur de ma marque ?",
+            a: "Pour les petites séries, nous prenons la nuance la plus proche sur les nuanciers de tissus en stock, et la teinture sur mesure dépend de la quantité. Le délavage modifie la nuance : vous validez donc la couleur sur l'échantillon délavé, et nous vous prévenons en photos si le bain de teinture de la production diffère.",
+          },
         ],
       },
       de: {
@@ -1600,6 +1639,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Bei einer Dad Cap kommt es auf die Form an: eine unstrukturierte Sechs-Panel-Krone, die tief und weich sitzt, ein gebogener Schirm und ein Stoff, der schon getragen wirkt. NanCrown fertigt Dad Caps aus garment-gewaschenem Baumwoll-Twill, pigmentgefärbter Baumwolle und gewaschenem Denim, mit Finishes von der Ton-in-Ton-Waschung über abgenutzte Schirmkanten und Bleichverläufe bis zu Paspeln rund um die Krone.",
           "Ihr Logo kommt als Satinstich-, Kontur- oder 3D-Puff-Stickerei, als Applikation mit offenen Kanten oder als kleiner Patch aufs Cap, und das Band schließt mit einer Schnalle in Altmessing oder Silber. Passform und Waschung bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren dann direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Musterfreigabe.",
+          "Die meisten Dad-Cap-Aufträge, die wir sehen, sind die erste Cap einer Marke: ein gewaschenes Modell in zwei oder drei Farben, 50 bis 100 Stück pro Farbe, mit kleinem gesticktem Logo vorne und einem Webetikett. Vor dem Muster stellen wir eine Frage, die das Ergebnis verändert: Möchten Sie eine leichte Waschung, die die Baumwolle nur weicher macht, oder eine starke Waschung mit sichtbarem Ausbleichen? Bei kleinen Auflagen kommen die Farben von Farbkarten lagernder Stoffe, und wir schicken Fotos, falls die Färbepartie der Serie von Ihrem Muster abweicht.",
         ],
         customOptions: [
           "Krone: unstrukturiertes 6-Panel, niedriges oder mittleres Profil, gebogener oder fast flacher Schirm.",
@@ -1620,6 +1660,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Können Sie einen gewaschenen Vintage-Look treffen?",
             a: "Schicken Sie uns ein Referenzfoto: Wir entwickeln Waschung, Farbe und Schirmabnutzung an einem Vorproduktionsmuster, das Sie vor der Serie freigeben.",
+          },
+          {
+            q: "Was kosten gewaschene Dad Caps bei 100 Stück?",
+            a: "Unsere Standard-Baumwollcap mit einem flach gestickten Logo und einem Webetikett kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou. Die Garment-Waschung wird je Design zusätzlich kalkuliert, und wir bestätigen den genauen Preis, sobald wir Ihr Logo und Ihre Wasch-Referenz gesehen haben.",
+          },
+          {
+            q: "Was kostet ein Dad-Cap-Muster, und wie lange dauert es?",
+            a: "Ein Standardmuster kostet 50 USD ohne Versand und dauert 7–15 Tage; gewaschene Muster liegen meist am oberen Ende. Die Mustergebühr wird erstattet, wenn Sie 1.000 Stück oder mehr dieses Modells bestellen.",
+          },
+          {
+            q: "Können Sie meine Markenfarbe exakt treffen?",
+            a: "Bei kleinen Auflagen wählen wir den nächstliegenden Ton von Farbkarten lagernder Stoffe; eine Sonderfärbung hängt von der Menge ab. Die Waschung verändert den Farbton, deshalb geben Sie die Farbe am gewaschenen Muster frei, und wir informieren Sie mit Fotos, falls die Färbepartie der Serie abweicht.",
           },
         ],
       },
@@ -1644,6 +1696,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Snapbacks are built to hold their shape: a structured front, a flat or lightly curved brim and an adjustable plastic snap at the back. NanCrown makes snapbacks as 5-panel and 6-panel caps and as mesh-back truckers, with multi-row brim topstitching and snaps colour-matched to the cap.",
           "The front panel is where your brand does the talking: 3D puff or flat embroidery, woven, leather or PVC patches, printed artwork, or a souvenir-style patch with a rope across the brim. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Streetwear brands usually order flat-brim snapbacks at 100 to 300 pieces per style, with a raised 3D puff logo on the front and smaller flat embroidery on the side or back. Two things are worth knowing before you design. For 3D puff, the thinnest part of the logo should be at least 2 mm wide. And on trucker-style snapbacks the mesh is polyester, so it can be matched closely to a cotton front but never exactly.",
         ],
         customOptions: [
           "Construction: structured 5-panel or 6-panel crown, or a trucker build with a mesh back.",
@@ -1665,6 +1718,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "How long does a custom snapback order take?",
             a: "About 7–15 days for the sample and 25–30 days for bulk production after you approve it, plus shipping time.",
           },
+          {
+            q: "How much do custom snapbacks cost at 100–300 pieces?",
+            a: "Our standard cap with a flat embroidered logo and one woven label is US$4.3–5.7 per cap at 100–299 pieces and US$3.6–4.3 at 300–499, ex-works Guangzhou. 3D puff embroidery and patches are quoted per design.",
+          },
+          {
+            q: "What size should the logo on the back be?",
+            a: "For a small logo on the back, about 3 cm wide reads better than 2.5 cm. For the front, send your artwork and we will suggest a size that fits the panel.",
+          },
+          {
+            q: "How much is a snapback sample?",
+            a: "US$50 for a standard sample, not including shipping; samples with several logo positions or complex details are quoted separately. It takes 7–15 days, and the fee is refunded when you order 1,000 pieces or more of that style.",
+          },
         ],
       },
       es: {
@@ -1674,6 +1739,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Las snapbacks están hechas para mantener la forma: frontal estructurado, visera plana o ligeramente curva y un broche de plástico ajustable detrás. En NanCrown fabricamos snapbacks de 5 y 6 paneles y truckers con malla trasera, con pespuntes en varias filas en la visera y broches del mismo color que la gorra.",
           "El frontal es donde habla tu marca: bordado 3D (puff) o plano, parches tejidos, de cuero o de PVC, estampados o un parche tipo souvenir con cordón sobre la visera. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Las marcas de streetwear suelen pedir snapbacks de visera plana en 100 a 300 piezas por modelo, con un logo en bordado 3D al frente y un bordado plano más pequeño en el lateral o detrás. Hay dos cosas que conviene saber antes de diseñar. En el bordado 3D, la parte más fina del logo debe medir al menos 2 mm de ancho. Y en las snapbacks tipo trucker la malla es de poliéster, así que se puede acercar mucho al color de un frente de algodón, pero nunca será idéntica.",
         ],
         customOptions: [
           "Construcción: copa estructurada de 5 o 6 paneles, o trucker con malla trasera.",
@@ -1695,6 +1761,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Cuánto tarda un pedido de snapbacks personalizadas?",
             a: "Unos 7–15 días para la muestra y 25–30 días de producción después de tu aprobación, más el tiempo de envío.",
           },
+          {
+            q: "¿Cuánto cuestan las snapbacks personalizadas en 100–300 piezas?",
+            a: "Nuestra gorra estándar con un logo bordado plano y una etiqueta tejida cuesta 4,3–5,7 USD por unidad en 100–299 piezas y 3,6–4,3 USD en 300–499, en fábrica Guangzhou. El bordado 3D y los parches se cotizan según el diseño.",
+          },
+          {
+            q: "¿Qué tamaño debe tener el logo de detrás?",
+            a: "Para un logo pequeño detrás, unos 3 cm de ancho se leen mejor que 2,5 cm. Para el frente, envíanos tu diseño y te proponemos un tamaño que encaje en el panel.",
+          },
+          {
+            q: "¿Cuánto cuesta una muestra de snapback?",
+            a: "50 USD por una muestra estándar, sin incluir el envío; las muestras con varios logos o detalles complejos se cotizan aparte. Tarda 7–15 días, y el importe se devuelve cuando pides 1.000 piezas o más de ese modelo.",
+          },
         ],
       },
       fr: {
@@ -1704,6 +1782,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Les snapbacks sont faites pour garder leur forme : un devant structuré, une visière plate ou légèrement courbe et une fermeture à pression réglable à l'arrière. NanCrown fabrique des snapbacks 5 et 6 panneaux ainsi que des truckers à dos en filet, avec des surpiqûres multiples sur la visière et des pressions assorties à la casquette.",
           "Le devant, c'est là que votre marque s'exprime : broderie 3D (puff) ou à plat, écussons tissés, en cuir ou en PVC, impression, ou écusson façon souvenir avec une cordelette sur la visière. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Les marques streetwear commandent en général leurs snapbacks à visière plate par 100 à 300 pièces par modèle, avec un logo en broderie 3D devant et une broderie à plat plus petite sur le côté ou à l'arrière. Deux choses sont bonnes à savoir avant de dessiner. En broderie 3D, la partie la plus fine du logo doit faire au moins 2 mm de large. Et sur les snapbacks façon trucker, le filet est en polyester : on peut l'approcher de très près de la couleur d'un devant en coton, mais jamais à l'identique.",
         ],
         customOptions: [
           "Construction : calotte structurée 5 ou 6 panneaux, ou trucker à dos en filet.",
@@ -1725,6 +1804,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Combien de temps prend une commande de snapbacks personnalisées ?",
             a: "Environ 7 à 15 jours pour l'échantillon et 25 à 30 jours de production après votre validation, plus le délai de transport.",
           },
+          {
+            q: "Combien coûtent des snapbacks personnalisées pour 100 à 300 pièces ?",
+            a: "Notre casquette standard avec un logo brodé à plat et une étiquette tissée coûte 4,3–5,7 USD pièce pour 100–299 pièces et 3,6–4,3 USD pour 300–499, départ usine Guangzhou. La broderie 3D et les écussons sont chiffrés selon le design.",
+          },
+          {
+            q: "Quelle taille pour le logo à l'arrière ?",
+            a: "Pour un petit logo à l'arrière, environ 3 cm de large se lit mieux que 2,5 cm. Pour le devant, envoyez votre visuel et nous vous proposons une taille adaptée au panneau.",
+          },
+          {
+            q: "Combien coûte un échantillon de snapback ?",
+            a: "50 USD pour un échantillon standard, hors transport ; les échantillons avec plusieurs emplacements de logo ou des détails complexes sont chiffrés à part. Il prend 7 à 15 jours, et le montant est remboursé dès 1 000 pièces commandées de ce modèle.",
+          },
         ],
       },
       de: {
@@ -1734,6 +1825,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Snapbacks sind dafür gemacht, ihre Form zu halten: eine strukturierte Front, ein flacher oder leicht gebogener Schirm und ein verstellbarer Kunststoff-Druckverschluss hinten. NanCrown fertigt Snapbacks als 5- und 6-Panel-Caps und als Trucker mit Netzrücken, mit mehrreihiger Schirmsteppung und farblich passendem Verschluss.",
           "Auf der Front spricht Ihre Marke: 3D-Puff- oder Flachstickerei, gewebte, Leder- oder PVC-Patches, Druck oder ein Souvenir-Patch mit Kordel über dem Schirm. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Streetwear-Marken bestellen Snapbacks mit flachem Schirm meist in 100 bis 300 Stück pro Modell, mit erhabenem 3D-Puff-Logo vorne und kleinerer Flachstickerei an der Seite oder hinten. Zwei Dinge sollten Sie vor dem Entwurf wissen. Bei 3D-Puff sollte die dünnste Stelle des Logos mindestens 2 mm breit sein. Und bei Snapbacks im Trucker-Stil ist das Mesh aus Polyester: Es lässt sich sehr nah an eine Baumwollfront angleichen, aber nie ganz exakt.",
         ],
         customOptions: [
           "Aufbau: strukturierte 5- oder 6-Panel-Krone oder Trucker mit Netzrücken.",
@@ -1754,6 +1846,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Wie lange dauert eine Snapback-Bestellung?",
             a: "Etwa 7–15 Tage für das Muster und 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
+          },
+          {
+            q: "Was kosten individuelle Snapbacks bei 100–300 Stück?",
+            a: "Unsere Standardcap mit flach gesticktem Logo und einem Webetikett kostet 4,3–5,7 USD pro Stück bei 100–299 Stück und 3,6–4,3 USD bei 300–499, ab Werk Guangzhou. 3D-Puff-Stickerei und Patches werden je Design kalkuliert.",
+          },
+          {
+            q: "Wie groß sollte das Logo hinten sein?",
+            a: "Ein kleines Logo hinten liest sich mit etwa 3 cm Breite besser als mit 2,5 cm. Für vorne schicken Sie uns Ihr Motiv, und wir schlagen eine Größe vor, die zum Panel passt.",
+          },
+          {
+            q: "Was kostet ein Snapback-Muster?",
+            a: "50 USD für ein Standardmuster ohne Versand; Muster mit mehreren Logo-Positionen oder aufwendigen Details werden separat kalkuliert. Es dauert 7–15 Tage, und die Gebühr wird erstattet, wenn Sie 1.000 Stück oder mehr dieses Modells bestellen.",
           },
         ],
       },
@@ -1782,6 +1886,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "A 5-panel cap has one wide front panel with no centre seam, which makes it a favourite for logos, patches and clean graphics. NanCrown builds 5-panel caps as low camp caps with a flat brim, as structured snapbacks, and as lightweight sport caps in quick-dry nylon with side mesh and a long brim.",
           "Choose the fabric, brim and closure, and we build around your branding: flat or 3D puff embroidery, woven or leather patches, printing, or details such as a front flap pocket. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "For outdoor brands, the nylon camp cap is the usual starting point: a low 5-panel crown, a flat or short curved brim, and a webbing strap with a buckle or an elastic cord at the back. We also work with functional fabrics, including cooling, UPF sun-protective and water-repellent fabrics, with a quick-dry sweatband inside. On water-repellent caps the back panels can be laser-perforated for airflow.",
         ],
         customOptions: [
           "Style: low-profile camp cap, structured snapback or lightweight sport cap.",
@@ -1803,6 +1908,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "What decoration works best on a 5-panel cap?",
             a: "The seamless front panel suits patches, flat or 3D puff embroidery and printed logos, because the artwork is not split by a centre seam.",
           },
+          {
+            q: "What is the MOQ and price for nylon camp caps?",
+            a: "50 pieces per colour, per style. As a guide, our standard cotton cap is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou; quick-dry and other performance fabrics add about US$0.5–1 per cap. We confirm the exact price from your fabric and logo.",
+          },
+          {
+            q: "What is the difference between a 5-panel and a 6-panel cap?",
+            a: "A 6-panel cap has a seam down the middle of the front. A 5-panel cap has one seamless front panel, so a wide logo, patch or print sits on a flat surface.",
+          },
+          {
+            q: "Can you use recycled or organic fabrics?",
+            a: "Yes. We have colour cards for organic cotton in about 140 gsm and 200 gsm, and for recycled polyester (RPET). Tell us what you need and we will send photos of the available colours.",
+          },
         ],
       },
       es: {
@@ -1812,6 +1929,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Una gorra de 5 paneles tiene un frontal ancho sin costura central, por eso es la favorita para logos, parches y gráficos limpios. En NanCrown fabricamos gorras de 5 paneles como camp caps de perfil bajo con visera plana, como snapbacks estructuradas y como gorras deportivas ligeras en nailon de secado rápido con malla lateral y visera larga.",
           "Elige tejido, visera y cierre, y construimos la gorra alrededor de tu marca: bordado plano o 3D (puff), parches tejidos o de cuero, estampados o detalles como un bolsillo con solapa en el frontal. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Para las marcas outdoor, la camp cap de nailon es el punto de partida habitual: copa baja de 5 paneles, visera plana o corta y curva, y cinta con hebilla o cordón elástico detrás. También trabajamos con tejidos funcionales: efecto frío, protección solar UPF y repelentes al agua, con una banda interior de secado rápido. En las gorras repelentes al agua, los paneles traseros pueden llevar perforaciones láser para ventilar.",
         ],
         customOptions: [
           "Estilo: camp cap de perfil bajo, snapback estructurada o gorra deportiva ligera.",
@@ -1833,6 +1951,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Qué decoración funciona mejor en una gorra de 5 paneles?",
             a: "El frontal sin costura central es ideal para parches, bordado plano o 3D y logos estampados, porque el diseño no queda partido por una costura.",
           },
+          {
+            q: "¿Cuál es el pedido mínimo y el precio de las camp caps de nailon?",
+            a: "50 piezas por color y por modelo. Como referencia, nuestra gorra estándar de algodón cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou; los tejidos de secado rápido y otros tejidos técnicos suman unos 0,5–1 USD por gorra. Confirmamos el precio exacto según tu tejido y tu logo.",
+          },
+          {
+            q: "¿Qué diferencia hay entre una gorra de 5 paneles y una de 6?",
+            a: "La gorra de 6 paneles tiene una costura en el centro del frente. La de 5 paneles tiene un panel frontal sin costura, así que un logo ancho, un parche o un estampado quedan sobre una superficie plana.",
+          },
+          {
+            q: "¿Podéis usar tejidos reciclados u orgánicos?",
+            a: "Sí. Tenemos cartas de color de algodón orgánico de unos 140 g/m² y 200 g/m², y de poliéster reciclado (RPET). Dinos qué necesitas y te enviamos fotos de los colores disponibles.",
+          },
         ],
       },
       fr: {
@@ -1842,6 +1972,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Une casquette 5 panneaux a un large panneau avant sans couture centrale, ce qui en fait la favorite pour les logos, les écussons et les graphismes nets. NanCrown fabrique des casquettes 5 panneaux en camp cap à profil bas et visière plate, en snapback structurée et en casquette de sport légère en nylon séchage rapide avec filet latéral et longue visière.",
           "Choisissez le tissu, la visière et la fermeture, et nous construisons la casquette autour de votre marque : broderie à plat ou 3D (puff), écussons tissés ou en cuir, impression, ou détails comme une poche à rabat sur le devant. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Pour les marques outdoor, la camp cap en nylon est le point de départ habituel : une calotte basse à 5 panneaux, une visière plate ou courte et incurvée, et une sangle à boucle ou un cordon élastique à l'arrière. Nous travaillons aussi des tissus fonctionnels : effet frais, protection solaire UPF et déperlants, avec un bandeau intérieur à séchage rapide. Sur les casquettes déperlantes, les panneaux arrière peuvent être perforés au laser pour l'aération.",
         ],
         customOptions: [
           "Style : camp cap à profil bas, snapback structurée ou casquette de sport légère.",
@@ -1863,6 +1994,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Quelle décoration convient le mieux à une casquette 5 panneaux ?",
             a: "Le panneau avant sans couture centrale se prête aux écussons, à la broderie à plat ou 3D et aux logos imprimés, car le visuel n'est pas coupé par une couture.",
           },
+          {
+            q: "Quel minimum et quel prix pour des camp caps en nylon ?",
+            a: "50 pièces par couleur et par modèle. À titre indicatif, notre casquette coton standard coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou ; les tissus à séchage rapide et autres tissus techniques ajoutent environ 0,5 à 1 USD par casquette. Nous confirmons le prix exact selon votre tissu et votre logo.",
+          },
+          {
+            q: "Quelle différence entre une casquette 5 panneaux et une 6 panneaux ?",
+            a: "Une 6 panneaux a une couture au milieu du devant. Une 5 panneaux a un panneau avant sans couture : un logo large, un écusson ou une impression repose sur une surface plane.",
+          },
+          {
+            q: "Pouvez-vous utiliser des tissus recyclés ou biologiques ?",
+            a: "Oui. Nous avons des nuanciers de coton biologique en 140 g/m² et 200 g/m² environ, et de polyester recyclé (RPET). Dites-nous ce qu'il vous faut et nous vous envoyons des photos des coloris disponibles.",
+          },
         ],
       },
       de: {
@@ -1872,6 +2015,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Eine 5-Panel Cap hat ein breites Frontteil ohne Mittelnaht und ist deshalb erste Wahl für Logos, Patches und klare Grafiken. NanCrown fertigt 5-Panel Caps als flache Camp Caps mit geradem Schirm, als strukturierte Snapbacks und als leichte Sport-Caps aus schnell trocknendem Nylon mit Seitennetz und langem Schirm.",
           "Wählen Sie Stoff, Schirm und Verschluss, und wir bauen die Cap um Ihre Marke herum: Flach- oder 3D-Puff-Stickerei, gewebte oder Leder-Patches, Druck oder Details wie eine Pattentasche vorne. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Für Outdoormarken ist die Camp Cap aus Nylon der übliche Einstieg: ein flaches 5-Panel-Kopfteil, ein flacher oder kurzer gebogener Schirm und hinten ein Gurtband mit Schnalle oder eine elastische Kordel. Wir arbeiten auch mit Funktionsstoffen: kühlend, mit UPF-Sonnenschutz und wasserabweisend, innen mit schnell trocknendem Schweißband. Bei wasserabweisenden Caps lassen sich die hinteren Panels zur Belüftung laserperforieren.",
         ],
         customOptions: [
           "Style: flache Camp Cap, strukturierte Snapback oder leichte Sport-Cap.",
@@ -1892,6 +2036,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Welche Veredelung passt am besten zu einer 5-Panel Cap?",
             a: "Das Frontteil ohne Mittelnaht eignet sich für Patches, Flach- oder 3D-Stickerei und gedruckte Logos, weil das Motiv nicht von einer Naht geteilt wird.",
+          },
+          {
+            q: "Wie hoch sind Mindestmenge und Preis für Camp Caps aus Nylon?",
+            a: "50 Stück pro Farbe und Modell. Als Richtwert: Unsere Standard-Baumwollcap kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou; schnell trocknende und andere Funktionsstoffe kosten etwa 0,5–1 USD mehr pro Cap. Den genauen Preis bestätigen wir anhand von Stoff und Logo.",
+          },
+          {
+            q: "Was ist der Unterschied zwischen einer 5-Panel- und einer 6-Panel-Cap?",
+            a: "Eine 6-Panel-Cap hat vorne in der Mitte eine Naht. Eine 5-Panel-Cap hat ein nahtloses Vorderteil, sodass ein breites Logo, ein Patch oder ein Druck auf einer glatten Fläche sitzt.",
+          },
+          {
+            q: "Können Sie recycelte oder Bio-Stoffe verwenden?",
+            a: "Ja. Wir haben Farbkarten für Bio-Baumwolle in etwa 140 g/m² und 200 g/m² sowie für recyceltes Polyester (RPET). Sagen Sie uns, was Sie brauchen, und wir schicken Fotos der verfügbaren Farben.",
           },
         ],
       },
@@ -2062,6 +2218,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Embroidery is the most common way to put a brand on a cap, and the stitch style changes the whole look. NanCrown embroiders caps in raised 3D puff for bold streetwear logos, flat satin-stitch for clean wordmarks, open outline embroidery that lets the fabric show through, chain-stitch for a textured vintage feel, and appliqué for large letters.",
           "We digitise your artwork, stitch it on a pre-production sample in 7–15 days, and adjust thread colours and density with you before bulk. Logos can go on the front, sides, back and brim of any of our cap styles, from 50 pieces per colour.",
+          "3D puff embroidery has one technical limit worth knowing before you design: the thinnest part of the logo should be at least 2 mm wide, apart from the pointed ends of strokes. Thinner lines are stitched flat, or we suggest enlarging or simplifying the logo. A common build is a large raised wordmark with a small flat line of text under it. Gradients and very fine detail do not stitch well, so for those we recommend a heat-transfer print instead.",
         ],
         customOptions: [
           "3D puff embroidery: raised lettering and logos on structured fronts.",
@@ -2083,6 +2240,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Is embroidery included in the price?",
             a: "Our price tiers include one flat embroidered logo on the front. 3D puff, extra positions and large stitch counts are quoted per design.",
           },
+          {
+            q: "How small can 3D puff embroidery go?",
+            a: "The thinnest part of the design should be at least 2 mm wide, apart from pointed stroke ends. Whether your logo is long enough to raise depends on the artwork, so send it and we will tell you honestly whether to stitch it raised, flat, or part of each.",
+          },
+          {
+            q: "How much do 3D puff embroidered caps cost at 100 pieces?",
+            a: "Our standard cap with a flat embroidered logo is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou. 3D puff is quoted per design on top of that, depending on size and stitch count. A standard sample is US$50, not including shipping.",
+          },
+          {
+            q: "Will the embroidery colour match my label and print exactly?",
+            a: "It will be close, not identical. Embroidery thread, woven labels and prints are three different processes with their own colour systems, so the same yellow cannot be matched perfectly across them. We match the thread as closely as possible, and print colours are best chosen from the Pantone C guide. Embroidery position can also vary by about 2 mm from cap to cap.",
+          },
         ],
       },
       es: {
@@ -2092,6 +2261,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "El bordado es la forma más habitual de poner una marca en una gorra, y el tipo de puntada cambia todo el aspecto. En NanCrown bordamos gorras en 3D (puff) en relieve para logos streetwear contundentes, en satén plano para logotipos limpios, en contorno abierto que deja ver el tejido, en cadeneta para un toque vintage con textura, y en aplicación para letras grandes.",
           "Digitalizamos tu diseño, lo bordamos en una muestra de preproducción en 7–15 días y ajustamos contigo los colores del hilo y la densidad antes de producir. Los logos pueden ir en el frontal, los laterales, la parte trasera y la visera de cualquiera de nuestros modelos, desde 50 piezas por color.",
+          "El bordado 3D (puff) tiene un límite técnico que conviene conocer antes de diseñar: la parte más fina del logo debe medir al menos 2 mm de ancho, salvo las puntas de los trazos. Las líneas más finas se bordan en plano, o proponemos agrandar o simplificar el logo. Una combinación habitual es una palabra grande en relieve con una línea pequeña de texto en plano debajo. Los degradados y los detalles muy finos no se bordan bien; para esos casos recomendamos un estampado por transferencia térmica.",
         ],
         customOptions: [
           "Bordado 3D (puff): letras y logos en relieve sobre frontales estructurados.",
@@ -2113,6 +2283,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿El bordado está incluido en el precio?",
             a: "Nuestros tramos de precio incluyen un logo bordado plano en el frontal. El bordado 3D, las posiciones adicionales y los bordados muy grandes se cotizan según el diseño.",
           },
+          {
+            q: "¿Qué tamaño mínimo admite el bordado 3D (puff)?",
+            a: "La parte más fina del diseño debe medir al menos 2 mm de ancho, salvo las puntas de los trazos. Que tu logo sea lo bastante largo para hacerlo en relieve depende del dibujo: envíanoslo y te diremos con sinceridad si conviene bordarlo en relieve, en plano o una parte de cada forma.",
+          },
+          {
+            q: "¿Cuánto cuestan las gorras con bordado 3D en 100 piezas?",
+            a: "Nuestra gorra estándar con un logo bordado plano cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou. El bordado 3D se cotiza aparte según el diseño, en función del tamaño y del número de puntadas. Una muestra estándar cuesta 50 USD, sin incluir el envío.",
+          },
+          {
+            q: "¿El color del bordado será exactamente igual al de mi etiqueta y mi estampado?",
+            a: "Será parecido, no idéntico. El hilo de bordar, las etiquetas tejidas y los estampados son tres procesos distintos con sus propias cartas de color, así que el mismo amarillo no se puede igualar del todo entre ellos. Igualamos el hilo lo más posible, y los colores de estampado conviene elegirlos de la guía Pantone C. La posición del bordado también puede variar unos 2 mm de una gorra a otra.",
+          },
         ],
       },
       fr: {
@@ -2122,6 +2304,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "La broderie est la façon la plus courante de mettre une marque sur une casquette, et le type de point change tout. NanCrown brode des casquettes en 3D (puff) en relief pour des logos streetwear affirmés, au point lancé à plat pour des logotypes nets, en contour ouvert qui laisse voir le tissu, au point de chaînette pour un rendu vintage texturé, et en appliqué pour les grandes lettres.",
           "Nous numérisons votre visuel, le brodons sur un échantillon de pré-production en 7 à 15 jours et ajustons avec vous les couleurs de fil et la densité avant la série. Les logos peuvent être placés devant, sur les côtés, à l'arrière et sur la visière de tous nos modèles, dès 50 pièces par couleur.",
+          "La broderie 3D (puff) a une limite technique à connaître avant de dessiner : la partie la plus fine du logo doit faire au moins 2 mm de large, hormis les pointes des traits. Les lignes plus fines sont brodées à plat, ou nous proposons d'agrandir ou de simplifier le logo. Une combinaison courante est un grand mot en relief avec une petite ligne de texte à plat en dessous. Les dégradés et les détails très fins se brodent mal : dans ce cas, nous conseillons plutôt un transfert à chaud.",
         ],
         customOptions: [
           "Broderie 3D (puff) : lettres et logos en relief sur les devants structurés.",
@@ -2143,6 +2326,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "La broderie est-elle comprise dans le prix ?",
             a: "Nos paliers de prix comprennent un logo brodé à plat sur le devant. La broderie 3D, les emplacements supplémentaires et les grandes broderies sont chiffrés selon le design.",
           },
+          {
+            q: "Jusqu'à quelle finesse peut aller la broderie 3D (puff) ?",
+            a: "La partie la plus fine du motif doit faire au moins 2 mm de large, hormis les pointes des traits. Savoir si votre logo est assez long pour être mis en relief dépend du dessin : envoyez-le et nous vous dirons honnêtement s'il vaut mieux le broder en relief, à plat, ou un peu des deux.",
+          },
+          {
+            q: "Combien coûtent des casquettes en broderie 3D pour 100 pièces ?",
+            a: "Notre casquette standard avec un logo brodé à plat coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou. La broderie 3D se chiffre en plus selon le design, en fonction de la taille et du nombre de points. Un échantillon standard coûte 50 USD, hors transport.",
+          },
+          {
+            q: "La couleur de la broderie sera-t-elle exactement celle de mon étiquette et de mon impression ?",
+            a: "Elle sera proche, pas identique. Le fil à broder, les étiquettes tissées et l'impression sont trois procédés différents, chacun avec son propre nuancier : le même jaune ne peut pas être parfaitement identique de l'un à l'autre. Nous rapprochons le fil au plus près, et les couleurs d'impression se choisissent de préférence dans le nuancier Pantone C. La position de la broderie peut aussi varier d'environ 2 mm d'une casquette à l'autre.",
+          },
         ],
       },
       de: {
@@ -2152,6 +2347,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Stickerei ist der häufigste Weg, eine Marke auf eine Cap zu bringen, und die Stichart verändert den ganzen Look. NanCrown bestickt Caps mit erhabener 3D-Puff-Stickerei für kräftige Streetwear-Logos, flachem Satinstich für klare Schriftzüge, offener Konturstickerei, durch die der Stoff sichtbar bleibt, Kettstich für einen strukturierten Vintage-Look und Applikationen für große Buchstaben.",
           "Wir digitalisieren Ihr Motiv, sticken es in 7–15 Tagen auf ein Vorproduktionsmuster und stimmen Garnfarben und Stichdichte vor der Serie mit Ihnen ab. Logos sind vorne, seitlich, hinten und auf dem Schirm all unserer Cap-Modelle möglich, ab 50 Stück pro Farbe.",
+          "3D-Puff-Stickerei hat eine technische Grenze, die Sie vor dem Entwurf kennen sollten: Die dünnste Stelle des Logos sollte mindestens 2 mm breit sein, ausgenommen die spitzen Enden von Strichen. Dünnere Linien werden flach gestickt, oder wir schlagen vor, das Logo zu vergrößern oder zu vereinfachen. Üblich ist ein großer erhabener Schriftzug mit einer kleinen flach gestickten Textzeile darunter. Farbverläufe und sehr feine Details lassen sich schlecht sticken; dafür empfehlen wir einen Transferdruck.",
         ],
         customOptions: [
           "3D-Puff-Stickerei: erhabene Schriftzüge und Logos auf strukturierten Fronten.",
@@ -2172,6 +2368,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Ist die Stickerei im Preis enthalten?",
             a: "Unsere Preisstufen enthalten ein flach gesticktes Logo vorne. 3D-Puff, weitere Positionen und große Stichzahlen kalkulieren wir je Design.",
+          },
+          {
+            q: "Wie fein kann 3D-Puff-Stickerei sein?",
+            a: "Die dünnste Stelle des Motivs sollte mindestens 2 mm breit sein, ausgenommen spitze Strichenden. Ob Ihr Logo lang genug für eine erhabene Stickerei ist, hängt vom Motiv ab: Schicken Sie es uns, und wir sagen Ihnen ehrlich, ob wir es erhaben, flach oder gemischt sticken würden.",
+          },
+          {
+            q: "Was kosten Caps mit 3D-Puff-Stickerei bei 100 Stück?",
+            a: "Unsere Standardcap mit flach gesticktem Logo kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou. 3D-Puff wird je Design nach Größe und Stichzahl zusätzlich kalkuliert. Ein Standardmuster kostet 50 USD ohne Versand.",
+          },
+          {
+            q: "Passt die Stickfarbe genau zu meinem Etikett und meinem Druck?",
+            a: "Sie wird sehr ähnlich sein, aber nicht identisch. Stickgarn, Webetiketten und Druck sind drei verschiedene Verfahren mit eigenen Farbsystemen, dasselbe Gelb lässt sich zwischen ihnen nicht exakt treffen. Wir gleichen das Garn so nah wie möglich an, und Druckfarben wählen Sie am besten aus dem Pantone-C-Fächer. Die Stickposition kann außerdem von Cap zu Cap um etwa 2 mm abweichen.",
           },
         ],
       },
@@ -2200,6 +2408,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "A patch gives a cap a finished, retail look and keeps fine detail sharp. NanCrown makes patch hats with leather and PU leather patches, rubbery PVC patches, fine-detail woven patches, embroidered patches and felt or fabric appliqué letters.",
           "Patches can be sewn onto trucker hats, baseball and dad caps, snapbacks and bucket hats, in the shape, size and colours of your design. We confirm the patch and its position on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "A leather patch is the classic choice: your logo debossed into leather or PU leather and sewn onto the front of a trucker, a washed cap or a 5-panel. PU leather can also be embossed with your own pattern, and rubber patches suit water-repellent and outdoor caps. On samples a rubber patch is positioned by hand; for bulk we make a positioning mould so the placement is the same on every cap.",
         ],
         customOptions: [
           "Leather and PU leather patches in your shape and colour.",
@@ -2221,6 +2430,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Can you put a patch on a trucker hat?",
             a: "Yes. A patch on a structured trucker front with a mesh back is a classic combination, and we can match the patch colours to your cap.",
           },
+          {
+            q: "Can you make leather patch hats at around 100 pieces?",
+            a: "Yes. Our minimum is 50 pieces per colour, per style, so 100 pieces can be one colour or two. The patch is debossed with your logo in leather or PU leather, in your shape and size.",
+          },
+          {
+            q: "How much do custom patch hats cost?",
+            a: "Our standard cap is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou. That price includes a flat embroidered logo; a leather, PVC or woven patch is quoted per design, depending on type and size. A standard sample is US$50, not including shipping, and is ready in 7–15 days.",
+          },
+          {
+            q: "Leather or PU leather: which should I choose?",
+            a: "Genuine leather ages and darkens with wear. PU leather keeps a more even colour, usually costs less and can be embossed with a custom pattern. Both can be debossed with your logo. Tell us the look you want and we will sample the one that fits.",
+          },
         ],
       },
       es: {
@@ -2230,6 +2451,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Un parche da a la gorra un acabado de tienda y mantiene nítidos los detalles finos. En NanCrown fabricamos gorras con parches de cuero y de cuero PU, parches de PVC con tacto de goma, parches tejidos de alta definición, parches bordados y letras aplicadas en fieltro o tela.",
           "Los parches se cosen en truckers, gorras de béisbol y dad caps, snapbacks y gorros de pescador, con la forma, el tamaño y los colores de tu diseño. Confirmamos el parche y su posición en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "El parche de cuero es la opción clásica: tu logo grabado en bajorrelieve sobre cuero o cuero PU y cosido al frente de una trucker, una gorra lavada o una de 5 paneles. El cuero PU también puede llevar grabado tu propio dibujo, y los parches de goma van bien en gorras repelentes al agua y de exterior. En las muestras el parche de goma se coloca a mano; para la producción hacemos un molde de posición para que quede igual en todas las gorras.",
         ],
         customOptions: [
           "Parches de cuero y de cuero PU con tu forma y color.",
@@ -2251,6 +2473,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Podéis poner un parche en una trucker?",
             a: "Sí. Un parche sobre el frontal estructurado de una trucker con malla trasera es una combinación clásica, y podemos igualar los colores del parche con los de la gorra.",
           },
+          {
+            q: "¿Podéis hacer gorras con parche de cuero en unas 100 piezas?",
+            a: "Sí. Nuestro mínimo es de 50 piezas por color y por modelo, así que 100 piezas pueden ser uno o dos colores. El parche lleva tu logo grabado en cuero o cuero PU, con la forma y el tamaño que elijas.",
+          },
+          {
+            q: "¿Cuánto cuestan las gorras con parche personalizadas?",
+            a: "Nuestra gorra estándar cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou. Ese precio incluye un logo bordado plano; el parche de cuero, PVC o tejido se cotiza según el diseño, en función del tipo y del tamaño. Una muestra estándar cuesta 50 USD, sin incluir el envío, y está lista en 7–15 días.",
+          },
+          {
+            q: "¿Cuero o cuero PU: cuál me conviene?",
+            a: "El cuero natural envejece y se oscurece con el uso. El cuero PU mantiene un color más uniforme, suele costar menos y puede llevar grabado un dibujo propio. En los dos se puede grabar tu logo. Dinos el aspecto que buscas y hacemos la muestra con el que mejor encaje.",
+          },
         ],
       },
       fr: {
@@ -2260,6 +2494,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Un écusson donne à la casquette une finition boutique et garde les détails fins bien nets. NanCrown fabrique des casquettes avec écussons en cuir et en cuir PU, écussons en PVC au toucher caoutchouc, écussons tissés haute définition, écussons brodés et lettres appliquées en feutre ou en tissu.",
           "Les écussons se cousent sur les truckers, les casquettes baseball et dad caps, les snapbacks et les bobs, à la forme, à la taille et aux couleurs de votre design. Nous validons l'écusson et son emplacement sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "L'écusson en cuir est le choix classique : votre logo marqué en creux dans du cuir ou du cuir PU et cousu sur le devant d'une trucker, d'une casquette délavée ou d'une 5 panneaux. Le cuir PU peut aussi être gaufré avec votre propre motif, et les écussons en caoutchouc conviennent aux casquettes déperlantes et outdoor. Sur les échantillons, l'écusson en caoutchouc est positionné à la main ; pour la production, nous fabriquons un gabarit de positionnement pour que l'emplacement soit identique sur chaque casquette.",
         ],
         customOptions: [
           "Écussons en cuir et en cuir PU, à votre forme et à votre couleur.",
@@ -2281,6 +2516,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Pouvez-vous poser un écusson sur une trucker ?",
             a: "Oui. Un écusson sur le devant structuré d'une trucker à dos en filet est une combinaison classique, et nous pouvons assortir les couleurs de l'écusson à la casquette.",
           },
+          {
+            q: "Pouvez-vous faire des casquettes à écusson cuir pour environ 100 pièces ?",
+            a: "Oui. Notre minimum est de 50 pièces par couleur et par modèle : 100 pièces peuvent donc se faire en une ou deux couleurs. L'écusson est marqué en creux à votre logo, en cuir ou en cuir PU, à la forme et à la taille de votre choix.",
+          },
+          {
+            q: "Combien coûtent des casquettes à écusson personnalisées ?",
+            a: "Notre casquette standard coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou. Ce prix comprend un logo brodé à plat ; l'écusson cuir, PVC ou tissé est chiffré selon le design, en fonction du type et de la taille. Un échantillon standard coûte 50 USD, hors transport, et est prêt en 7 à 15 jours.",
+          },
+          {
+            q: "Cuir ou cuir PU : lequel choisir ?",
+            a: "Le cuir véritable se patine et fonce avec le temps. Le cuir PU garde une couleur plus régulière, coûte en général moins cher et peut être gaufré avec un motif sur mesure. Les deux peuvent être marqués en creux à votre logo. Dites-nous le rendu recherché et nous ferons l'échantillon avec celui qui convient.",
+          },
         ],
       },
       de: {
@@ -2290,6 +2537,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Ein Patch gibt einer Cap ein fertiges Retail-Finish und hält feine Details scharf. NanCrown fertigt Patch Caps mit Leder- und PU-Leder-Patches, gummiartigen PVC-Patches, detailgenauen Web-Patches, Stick-Patches sowie applizierten Buchstaben aus Filz oder Stoff.",
           "Patches werden auf Trucker Caps, Baseball und Dad Caps, Snapbacks und Fischerhüte genäht, in Form, Größe und Farben Ihres Designs. Patch und Position bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Ein Leder-Patch ist der Klassiker: Ihr Logo wird in Leder oder PU-Leder geprägt und vorne auf eine Trucker-Cap, eine gewaschene Cap oder eine 5-Panel-Cap genäht. PU-Leder lässt sich auch mit Ihrem eigenen Muster prägen, und Gummi-Patches passen zu wasserabweisenden und Outdoor-Caps. Beim Muster wird ein Gummi-Patch von Hand positioniert; für die Serie fertigen wir eine Positionierform, damit er auf jeder Cap an derselben Stelle sitzt.",
         ],
         customOptions: [
           "Leder- und PU-Leder-Patches in Ihrer Form und Farbe.",
@@ -2310,6 +2558,18 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Können Sie einen Patch auf eine Trucker Cap setzen?",
             a: "Ja. Ein Patch auf der strukturierten Front einer Trucker Cap mit Netzrücken ist eine klassische Kombination, und wir stimmen die Patchfarben auf die Cap ab.",
+          },
+          {
+            q: "Können Sie Leder-Patch-Caps bei etwa 100 Stück fertigen?",
+            a: "Ja. Unsere Mindestmenge liegt bei 50 Stück pro Farbe und Modell, 100 Stück können also eine oder zwei Farben sein. Der Patch wird mit Ihrem Logo in Leder oder PU-Leder geprägt, in der Form und Größe Ihrer Wahl.",
+          },
+          {
+            q: "Was kosten individuelle Patch Caps?",
+            a: "Unsere Standardcap kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou. Dieser Preis enthält ein flach gesticktes Logo; ein Leder-, PVC- oder Web-Patch wird je Design nach Art und Größe kalkuliert. Ein Standardmuster kostet 50 USD ohne Versand und ist in 7–15 Tagen fertig.",
+          },
+          {
+            q: "Leder oder PU-Leder: was soll ich wählen?",
+            a: "Echtes Leder bekommt mit der Zeit Patina und dunkelt nach. PU-Leder behält eine gleichmäßigere Farbe, kostet meist weniger und lässt sich mit einem eigenen Muster prägen. Beide können mit Ihrem Logo geprägt werden. Sagen Sie uns, welchen Look Sie möchten, und wir bemustern die passende Variante.",
           },
         ],
       },
@@ -2510,7 +2770,7 @@ export const categorySolutionLinks: Partial<
     },
   },
   "trucker-hats": {
-    href: "/solutions/corporate-events",
+    href: "/solutions/bulk-orders",
     label: {
       en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
       es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",
@@ -2519,7 +2779,7 @@ export const categorySolutionLinks: Partial<
     },
   },
   "baseball-caps": {
-    href: "/solutions/corporate-events",
+    href: "/solutions/bulk-orders",
     label: {
       en: "Caps for your staff, an event or a promotion? See prices for larger orders →",
       es: "¿Gorras para tu equipo, un evento o una promoción? Mira los precios para pedidos grandes →",

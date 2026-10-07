@@ -1,6 +1,6 @@
 import type { Product } from "./sample-data";
 
-// 42 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
+// 43 款产品的西班牙语/法语/德语翻译(按 slug 索引)。
 // 只存需要翻译的字段(名称/描述/面料/特点/颜色);
 // 款号(code)、分类(category)、图片、起订量(moq)等字段不进这张表,始终沿用英文原值。
 type ProductTranslation = {
@@ -20,6 +20,53 @@ export const productTranslations: Record<
   string,
   Partial<Record<TranslatedLocale, ProductTranslation>>
 > = {
+  "reflective-print-running-cap": {
+    es: {
+      name: "Gorra Running de Nylon con Impresión Reflectante",
+      description:
+        "Una gorra running de 5 paneles ultraligera en nailon arrugado repelente al agua, con la forma de una gorra camp: copa blanda sin estructura y visera ligeramente curva con el reverso negro para cortar el reflejo. En el frente lleva una línea de impresión reflectante en gris plateado — discreta de día, brillante bajo los faros — y admite el nombre de tu marca. Un cordón elástico trasero ajusta la talla, y el tejido es lo bastante ligero para secarse rápido tras una tirada larga.",
+      material: "Nailon arrugado repelente al agua",
+      colors: ["Azul brumoso", "blanco roto", "negro"],
+      features: [
+        "Gorra de 5 paneles sin estructura, copa blanda y visera ligeramente curva",
+        "Nailon arrugado repelente al agua, ligero y de secado rápido",
+        "Impresión reflectante en el panel frontal, con el nombre de tu marca",
+        "Reverso de la visera en negro para reducir el reflejo",
+        "Cordón elástico de ajuste en la parte trasera",
+        "Talla: única · cordón elástico",
+      ],
+    },
+    fr: {
+      name: "Casquette Running en Nylon à Impression Réfléchissante",
+      description:
+        "Une casquette running 5 panneaux ultra-légère en nylon froissé déperlant, sur la forme d'une casquette camp : calotte souple sans structure et visière légèrement courbée dont le dessous est noir pour couper les reflets. L'avant reçoit une ligne d'impression réfléchissante gris argenté — discrète le jour, brillante sous les phares — et accepte le nom de votre marque. Un cordon élastique à l'arrière règle la taille, et le tissu est assez léger pour sécher vite après une longue sortie.",
+      material: "Nylon froissé déperlant",
+      colors: ["Bleu brumeux", "blanc cassé", "noir"],
+      features: [
+        "Casquette 5 panneaux sans structure, calotte souple et visière légèrement courbée",
+        "Nylon froissé déperlant, léger et à séchage rapide",
+        "Impression réfléchissante sur le panneau avant, au nom de votre marque",
+        "Dessous de visière noir pour réduire les reflets",
+        "Cordon élastique de réglage à l'arrière",
+        "Taille : unique · cordon élastique",
+      ],
+    },
+    de: {
+      name: "Laufcap aus Nylon mit reflektierendem Druck",
+      description:
+        "Eine ultraleichte 5-Panel-Laufcap aus wasserabweisendem, geknittertem Nylon in Camp-Cap-Form: weiche, unstrukturierte Krone und leicht gebogene Schirm mit schwarzer Unterseite gegen Blendung. Vorne sitzt eine Linie reflektierender Silbergrau-Druck — tagsüber zurückhaltend, im Scheinwerferlicht hell — und nimmt Ihren Markennamen auf. Ein elastischer Kordelzug hinten reguliert die Passform, und der Stoff ist leicht genug, um nach einem langen Lauf schnell zu trocknen.",
+      material: "Wasserabweisendes geknittertes Nylon",
+      colors: ["Nebliges Blau", "Off-White", "Schwarz"],
+      features: [
+        "5-Panel-Cap ohne Struktur, weiche Krone und leicht gebogene Schirm",
+        "Wasserabweisendes geknittertes Nylon, leicht und schnell trocknend",
+        "Reflektierender Druck auf dem Vorderteil, mit Ihrem Markennamen",
+        "Schwarze Schirmunterseite gegen Blendung",
+        "Elastischer Kordelzug zur Größenregulierung hinten",
+        "Größe: Einheitsgröße · elastischer Kordelzug",
+      ],
+    },
+  },
   "tonal-embroidery-ripstop-camp-cap": {
     es: {
       name: "Gorra Camp de Ripstop con Bordado Tono sobre Tono",

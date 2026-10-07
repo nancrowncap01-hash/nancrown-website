@@ -26,6 +26,36 @@ export const categories = [
 
 export const sampleProducts: Product[] = [
   {
+    slug: "reflective-print-running-cap",
+    name: "Reflective Print Nylon Running Cap",
+    code: "M0056",
+    category: "Running Caps",
+    image: "/images/products/reflective-print-running-cap.jpg",
+    gallery: [
+      "/images/products/reflective-print-running-cap-2.jpg",
+      "/images/products/reflective-print-running-cap-3.jpg",
+      "/images/products/reflective-print-running-cap-4.jpg",
+      "/images/products/reflective-print-running-cap-5.jpg",
+    ],
+    description:
+      "A featherweight 5-panel running cap in water-repellent crinkled nylon, cut on the camp-cap shape with a soft unstructured crown and a gently curved brim whose underside is black to cut glare. The front carries one line of reflective silver-grey print — low-key in daylight, bright under headlights — and it takes your own brand name. An elastic cord at the back sets the fit, and the fabric is light enough to dry fast after a long run.",
+    material: "Water-repellent crinkled nylon",
+    moq: 50,
+    colors: [
+      "Misty blue",
+      "off-white",
+      "black",
+    ],
+    features: [
+      "5-panel unstructured soft crown, gently curved brim",
+      "Water-repellent crinkled nylon, lightweight and quick-drying",
+      "Reflective print across the front panel, in your brand name",
+      "Black brim underside to reduce glare",
+      "Elastic cord adjuster at the back",
+      "Size: One size · elastic cord",
+    ],
+  },
+  {
     slug: "tonal-embroidery-ripstop-camp-cap",
     name: "Tonal Embroidery Ripstop Camp Cap",
     code: "M0055",

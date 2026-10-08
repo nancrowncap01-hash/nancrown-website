@@ -5,6 +5,8 @@ import { Link } from "@/i18n/navigation";
 import { sampleProducts, categories } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
 import FAQ from "@/components/FAQ";
+import CategoryDiscovery from "@/components/CategoryDiscovery";
+import { getPrimaryCategory } from "@/lib/category-content";
 import ContactForm from "@/app/[locale]/contact/ContactForm";
 import styles from "./HomeA.module.css";
 
@@ -126,7 +128,9 @@ export default function HomeA() {
                 {categories.map((category, i) => (
                   <li key={category}>
                     <span className={styles.capIdx}>{String(i + 1).padStart(2, "0")}</span>
-                    <span className={styles.capName}>{catT(category)}</span>
+                    <Link href={`/custom/${getPrimaryCategory(category)!.slug}`} className={`${styles.capName} underline decoration-stone-300 underline-offset-4 hover:text-amber-700`}>
+                      {catT(category)}
+                    </Link>
                     <span className={styles.capSub}>{styleSubs[i]}</span>
                   </li>
                 ))}
@@ -180,6 +184,7 @@ export default function HomeA() {
               </div>
             </div>
           </div>
+          <CategoryDiscovery variant="decoration" slugs={["embroidered-caps", "patch-hats", "private-label-hats"]} />
         </div>
       </section>
 

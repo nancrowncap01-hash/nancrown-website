@@ -8,6 +8,8 @@ import { localizedUrl, SITE_URL } from "@/lib/seo";
 
 // 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
 const LAST_MODIFIED = new Date("2026-10-07");
+// 仅本轮实际增加导航内容的页面更新时间;其余页面保留原日期。
+const DISCOVERY_UPDATED = new Date("2026-10-08");
 
 // 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
 // 1001 新增 /choose-a-hat-factory,同一批对待
@@ -31,16 +33,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...sampleProducts.map((p) => `/products/${p.slug}`),
   ];
 
-  return paths.map((path) => {
+  return paths.flatMap((path) => {
     // 每个页面把四语言版本用 hreflang 关联起来(多语言互链)
     const languages: Record<string, string> = {};
     for (const l of routing.locales) {
       languages[l] = localizedUrl(l, path);
     }
 
-    return {
-      url: localizedUrl(routing.defaultLocale, path),
-      lastModified: LAST_MODIFIED,
+    languages["x-default"] = localizedUrl(routing.defaultLocale, path);
+
+    // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
+    return routing.locales.map((locale) => ({
+      url: localizedUrl(locale, path),
+      lastModified: path === "" || path === "/products" || path.startsWith("/products/")
+        ? DISCOVERY_UPDATED
+        : LAST_MODIFIED,
       changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
       priority: path === ""
         ? 1
@@ -53,19 +60,19 @@ export default function sitemap(): MetadataRoute.Sitemap {
             ? 0.6
             : 0.8,
       alternates: { languages },
-      // 车间页额外带一条视频记录(Google 视频 sitemap),只有这一条 url 有,用英文版文案
+      // 各语言车间页保留视频记录,文案与对应页面语言一致
       ...(path === "/factory"
         ? {
             videos: [
               {
-                title: factoryContent.en.videoName,
+                title: factoryContent[locale].videoName,
                 thumbnail_loc: `${SITE_URL}/images/factory/workshop-poster-2023.jpg`,
                 content_loc: `${SITE_URL}/videos/nancrown-workshop-2023.mp4`,
-                description: factoryContent.en.videoDescription,
+                description: factoryContent[locale].videoDescription,
               },
             ],
           }
         : {}),
-    };
+    }));
   });
 }

@@ -544,5 +544,10 @@
     "corporate-events": "Empresas y eventos",
     "festival-merch": "Festivales y merch",
     "bulk-orders": "Pedidos grandes"
+  },
+  "Discovery": {
+    "title": "Explora gorras y sombreros personalizados por estilo",
+    "description": "Compara formas, opciones de logotipo y detalles de pedido para tu próxima colección.",
+    "productTitle": "Opciones de personalización para este estilo"
   }
 }

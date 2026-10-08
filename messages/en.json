@@ -544,5 +544,10 @@
     "corporate-events": "Companies & events",
     "festival-merch": "Festivals & merch",
     "bulk-orders": "Bulk orders"
+  },
+  "Discovery": {
+    "title": "Explore custom hats by style",
+    "description": "Compare hat shapes, logo options and ordering details for your next collection.",
+    "productTitle": "Customization options for this style"
   }
 }

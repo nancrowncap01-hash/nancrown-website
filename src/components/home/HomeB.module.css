@@ -157,6 +157,9 @@
   object-fit: cover;
   object-position: 50% 30%;
 }
+.capText {
+  min-width: 0;
+}
 .capText p {
   font-size: 15.5px;
   line-height: 1.85;

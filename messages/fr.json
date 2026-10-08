@@ -544,5 +544,10 @@
     "corporate-events": "Entreprises et événements",
     "festival-merch": "Festivals et merch",
     "bulk-orders": "Grandes commandes"
+  },
+  "Discovery": {
+    "title": "Découvrez nos modèles de casquettes et chapeaux personnalisés",
+    "description": "Comparez les formes, les options de logo et les modalités de commande pour votre prochaine collection.",
+    "productTitle": "Options de personnalisation pour ce modèle"
   }
 }

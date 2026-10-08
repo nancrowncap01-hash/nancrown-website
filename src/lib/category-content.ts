@@ -2808,3 +2808,18 @@ export const categorySolutionLinks: Partial<
     },
   },
 };
+
+// The primary product categories are the nine definitions without curated
+// productSlugs. Resolve by value so adding/reordering a category cannot mislink it.
+export function getPrimaryCategory(categoryValue: string) {
+  return categoryDefinitions.find((category) =>
+    !category.productSlugs && category.categoryValue === categoryValue
+  );
+}
+
+export function getProductCategorySlugs(product: { slug: string; category: string }): CategorySlug[] {
+  return categoryDefinitions.filter((category) => category.productSlugs
+    ? category.productSlugs.includes(product.slug)
+    : category.categoryValue === product.category
+  ).map((category) => category.slug);
+}

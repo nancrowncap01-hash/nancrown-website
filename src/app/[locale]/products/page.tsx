@@ -3,6 +3,7 @@ import { use } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
 import ProductsClient from "./ProductsClient";
+import CategoryDiscovery from "@/components/CategoryDiscovery";
 
 export async function generateMetadata({
   params,
@@ -26,5 +27,12 @@ export default function ProductsPage({
 }) {
   const { locale } = use(params);
   setRequestLocale(locale);
-  return <ProductsClient />;
+  return (
+    <>
+      <ProductsClient />
+      <section className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+        <CategoryDiscovery />
+      </section>
+    </>
+  );
 }

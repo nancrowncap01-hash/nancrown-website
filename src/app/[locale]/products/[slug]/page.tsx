@@ -6,6 +6,9 @@ import { sampleProducts } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
 import ProductCard from "@/components/products/ProductCard";
 import ProductGallery from "@/components/products/ProductGallery";
+import CategoryDiscovery from "@/components/CategoryDiscovery";
+import { getPrimaryCategory, getProductCategorySlugs, categoryUi } from "@/lib/category-content";
+import type { Locale } from "@/i18n/routing";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
 import { pageMetadata } from "@/lib/seo";
 import type { Metadata } from "next";
@@ -77,9 +80,8 @@ function ProductDetail({
   related: typeof sampleProducts;
 }) {
   const t = useTranslations("Products");
-  const cta = useTranslations("CTA");
   const catT = useTranslations("Categories");
-  const locale = useLocale();
+  const locale = useLocale() as Locale;
   const localized = localizeProduct(product, locale);
 
   return (
@@ -89,11 +91,11 @@ function ProductDetail({
           {/* Breadcrumb */}
           <nav className="mb-8 text-sm text-gray-500">
             <Link href="/" className="hover:text-amber-600">
-              Home
+              {categoryUi[locale].home}
             </Link>
             <span className="mx-2">/</span>
             <Link href="/products" className="hover:text-amber-600">
-              Products
+              {t("title")}
             </Link>
             <span className="mx-2">/</span>
             <span className="text-gray-900">{localized.name}</span>
@@ -109,9 +111,9 @@ function ProductDetail({
             {/* Info */}
             <div>
               <div className="flex flex-wrap items-center gap-3 mb-4">
-                <span className="inline-block px-3 py-1 bg-amber-50 text-amber-700 text-sm font-medium rounded-full">
+                <Link href={`/custom/${getPrimaryCategory(product.category)!.slug}`} className="inline-block px-3 py-1 bg-amber-50 text-amber-700 text-sm font-medium rounded-full underline underline-offset-4 hover:bg-amber-100">
                   {catT(product.category)}
-                </span>
+                </Link>
                 {product.code && (
                   <span className="text-sm text-gray-400 font-medium">
                     {t("styleNo", { code: product.code })}
@@ -181,6 +183,8 @@ function ProductDetail({
                   ))}
                 </ul>
               </div>
+
+              <CategoryDiscovery variant="product" slugs={getProductCategorySlugs(product)} />
 
               {/* Rendering disclaimer */}
               <p className="mt-4 text-xs text-gray-400 leading-relaxed">

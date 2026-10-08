@@ -7,6 +7,8 @@ import { Link } from "@/i18n/navigation";
 import { sampleProducts, categories } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
 import FAQ from "@/components/FAQ";
+import CategoryDiscovery from "@/components/CategoryDiscovery";
+import { getPrimaryCategory } from "@/lib/category-content";
 import styles from "./HomeB.module.css";
 
 // B 版「品牌画册」用到的两款字体,只在这个组件里生效(不影响全站)
@@ -34,7 +36,6 @@ export default function HomeB() {
 
   const creds = t.raw("creds") as string[];
   const steps = t.raw("steps") as Step[];
-  const stylesList = categories.map((c) => catT(c));
 
   const faqItems = [1, 2, 3, 4, 5, 6].map((n) => ({
     question: faqT(`q${n}`),
@@ -107,14 +108,17 @@ export default function HomeB() {
               <div className={styles.styleTags}>
                 <span className={styles.sc}>{t("stylesLabel")}</span>
                 <div className={`${styles.styleTagsList} ${styles.serif}`}>
-                  {stylesList.map((name, i) => (
-                    <Fragment key={name}>
-                      {name}
-                      {i < stylesList.length - 1 && <span className={styles.styleTagsDot}>·</span>}
+                  {categories.map((category, i) => (
+                    <Fragment key={category}>
+                      <Link href={`/custom/${getPrimaryCategory(category)!.slug}`} className="inline-block underline decoration-stone-300 underline-offset-4 hover:text-amber-700">
+                        {catT(category)}
+                      </Link>
+                      {i < categories.length - 1 && <span className={styles.styleTagsDot}>·</span>}
                     </Fragment>
                   ))}
                 </div>
               </div>
+              <CategoryDiscovery variant="decoration" slugs={["embroidered-caps", "patch-hats", "private-label-hats"]} />
             </div>
           </div>
         </div>

@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link, usePathname } from "@/i18n/navigation";
 import LanguageSwitcher from "./LanguageSwitcher";
+import BrandLogo from "./BrandLogo";
 
 export default function Header() {
   const t = useTranslations("Nav");
@@ -24,13 +25,8 @@ export default function Header() {
       <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
         <div className="flex h-16 items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2">
-            <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-600 text-white font-bold text-lg">
-              N
-            </div>
-            <span className="text-xl font-bold text-gray-900">
-              Nan<span className="text-amber-600">Crown</span>
-            </span>
+          <Link href="/" className="flex shrink-0 items-center" aria-label="NanCrown">
+            <BrandLogo className="w-[170px] sm:w-[190px]" preload />
           </Link>
 
           {/* Desktop Nav:1024 以上才横排。原来 768 就横排,平板竖屏(768–840)放不下,

@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import BrandLogo from "./BrandLogo";
 
 // 新增一栏的 5 个链接,顺序跟 messages 的 Solutions namespace(run-clubs / surf-shops / corporate-events / festival-merch / bulk-orders)一一对应
 const solutionsLinks = [
@@ -23,14 +24,10 @@ export default function Footer() {
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8">
           {/* Brand */}
           <div className="sm:col-span-2 md:col-span-3 lg:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div className="flex h-9 w-9 items-center justify-center rounded-lg bg-amber-600 text-white font-bold text-lg">
-                N
-              </div>
-              <span className="text-xl font-bold text-white">
-                Nan<span className="text-amber-500">Crown</span>
-              </span>
-            </div>
+            <Link href="/" className="mb-4 inline-flex" aria-label="NanCrown">
+              <BrandLogo className="w-[220px] brightness-0 invert" />
+            </Link>
+
             <p className="text-gray-400 max-w-md leading-relaxed">
               {t("description")}
             </p>

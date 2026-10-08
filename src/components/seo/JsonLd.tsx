@@ -8,6 +8,7 @@ export function OrganizationJsonLd() {
     name: "NanCrown",
     legalName: "Guangzhou Nancrown Cap Co., Ltd.",
     url: "https://nancrown.com",
+    logo: "https://nancrown.com/images/brand/nancrown-logo-20261009.png",
     description:
       "Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more.",
     telephone: "+862031235916",

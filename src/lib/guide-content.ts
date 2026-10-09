@@ -5,7 +5,7 @@
 //   /start-a-hat-brand  新品牌第一批系列:怎么规划首单、预算示例、流程
 //
 // 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版;阶梯价/样品费/付款按 2026-10-02 晚新口径):
-//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $6.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
+//   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $7.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
 //   - 起订 50 顶/色/款;同款可混色凑档;样品普通款 $50/个(不含运费)、复杂款另报,7–15 天,同款大货满 1000 顶退样品费
 //   - 大货:样品确认后 25–30 天,另加物流时间;付款 50% 定金 + 发货前付清尾款(发货前先发大货照片;🔴 不许再写「验货通过后才付尾款」);可帮问 DDP;接受第三方验货;可视频看车间
 //   - 2015 年成立、约 2,000 m²、30+ 员工、月产 10 万+、客户 50+ 国家
@@ -51,7 +51,7 @@ export interface GuideLocaleContent {
 const pricingEn: GuideLocaleContent = {
   metaTitle: "Custom Hat Pricing, MOQ & Lead Times",
   metaDescription:
-    "Factory-direct custom cap prices from 50 pieces per colour: $6.0–7.7 per cap at 50, $2.9–3.6 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
+    "Factory-direct custom cap prices from 50 pieces per colour: $7.0–7.7 per cap at 50, $2.9–3.6 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
   h1: "Custom Hat Pricing, MOQ & Lead Times",
   lead:
     "Straight answers to what every brand asks before ordering custom caps: what a cap costs at 50, 100, 300 or 500 pieces, how samples work, how long production takes and how you pay. Prices below are indicative for our standard build. Send us your design and we will confirm an exact quote.",
@@ -65,7 +65,7 @@ const pricingEn: GuideLocaleContent = {
       type: "table",
       head: ["Quantity per style", "Price per cap (USD)", "Good for"],
       rows: [
-        ["50–99 (min. 50 per colour)", "<b>$6.0 – 7.7</b>", "Testing a design or a first drop"],
+        ["50–99 (min. 50 per colour)", "<b>$7.0 – 7.7</b>", "Testing a design or a first drop"],
         ["100–299", "<b>$4.3 – 5.7</b>", "A first collection"],
         ["300–499", "<b>$3.6 – 4.3</b>", "Core styles and reorders"],
         ["500+", "<b>$2.9 – 3.6</b>", "Best-sellers and wholesale"],
@@ -161,7 +161,7 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "How much does a custom cap cost?",
-      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $6.0–7.7 per cap at 50–99 pieces, $4.3–5.7 at 100–299, $3.6–4.3 at 300–499 and $2.9–3.6 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
+      a: "For our standard build (6-panel cotton twill, flat embroidered logo, woven label), indicative prices are $7.0–7.7 per cap at 50–99 pieces, $4.3–5.7 at 100–299, $3.6–4.3 at 300–499 and $2.9–3.6 at 500+, ex-works Guangzhou. Special fabrics and decorations are quoted per design.",
     },
     {
       q: "How much is a sample, and is it refundable?",
@@ -206,7 +206,7 @@ const pricingEn: GuideLocaleContent = {
 const pricingEs: GuideLocaleContent = {
   metaTitle: "Precios de gorras personalizadas, pedido mínimo y plazos",
   metaDescription:
-    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 6,0–7,7 USD por gorra en 50 y 2,9–3,6 USD desde 500. Muestras en 7–15 días.",
+    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 7,0–7,7 USD por gorra en 50 y 2,9–3,6 USD desde 500. Muestras en 7–15 días.",
   h1: "Precios de gorras personalizadas, pedido mínimo y plazos",
   lead:
     "Respuestas claras a lo que toda marca pregunta antes de encargar gorras personalizadas: cuánto cuesta una gorra en 50, 100, 300 o 500 piezas, cómo funcionan las muestras, cuánto tarda la producción y cómo se paga. Los precios son orientativos para nuestro modelo estándar. Envíanos tu diseño y te confirmamos un presupuesto exacto.",
@@ -220,7 +220,7 @@ const pricingEs: GuideLocaleContent = {
       type: "table",
       head: ["Cantidad por modelo", "Precio por gorra (USD)", "Ideal para"],
       rows: [
-        ["50–99 (mín. 50 por color)", "<b>6,0 – 7,7</b>", "Probar un diseño o un primer lanzamiento"],
+        ["50–99 (mín. 50 por color)", "<b>7,0 – 7,7</b>", "Probar un diseño o un primer lanzamiento"],
         ["100–299", "<b>4,3 – 5,7</b>", "Una primera colección"],
         ["300–499", "<b>3,6 – 4,3</b>", "Modelos principales y reposiciones"],
         ["500+", "<b>2,9 – 3,6</b>", "Superventas y venta al por mayor"],
@@ -316,7 +316,7 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto cuesta una gorra personalizada?",
-      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 6,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
+      a: "Para nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, etiqueta tejida), los precios orientativos son 7,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500, en fábrica Guangzhou. Los tejidos y decoraciones especiales se cotizan según el diseño.",
     },
     {
       q: "¿Cuánto cuesta una muestra y se devuelve?",
@@ -361,7 +361,7 @@ const pricingEs: GuideLocaleContent = {
 const pricingFr: GuideLocaleContent = {
   metaTitle: "Prix des casquettes personnalisées, minimum de commande et délais",
   metaDescription:
-    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 6,0–7,7 USD la casquette à 50, 2,9–3,6 USD dès 500. Échantillon en 7 à 15 jours.",
+    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 7,0–7,7 USD la casquette à 50, 2,9–3,6 USD dès 500. Échantillon en 7 à 15 jours.",
   h1: "Prix des casquettes personnalisées, minimum de commande et délais",
   lead:
     "Des réponses claires à ce que chaque marque demande avant de commander des casquettes personnalisées : le prix d'une casquette à 50, 100, 300 ou 500 pièces, le fonctionnement des échantillons, la durée de production et le paiement. Les prix sont indicatifs pour notre modèle standard. Envoyez-nous votre design et nous vous confirmons un devis exact.",
@@ -375,7 +375,7 @@ const pricingFr: GuideLocaleContent = {
       type: "table",
       head: ["Quantité par modèle", "Prix par casquette (USD)", "Idéal pour"],
       rows: [
-        ["50–99 (min. 50 par couleur)", "<b>6,0 – 7,7</b>", "Tester un design ou un premier drop"],
+        ["50–99 (min. 50 par couleur)", "<b>7,0 – 7,7</b>", "Tester un design ou un premier drop"],
         ["100–299", "<b>4,3 – 5,7</b>", "Une première collection"],
         ["300–499", "<b>3,6 – 4,3</b>", "Modèles phares et réassorts"],
         ["500+", "<b>2,9 – 3,6</b>", "Best-sellers et vente en gros"],
@@ -471,7 +471,7 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Combien coûte une casquette personnalisée ?",
-      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 6,0–7,7 USD la casquette pour 50–99 pièces, 4,3–5,7 USD pour 100–299, 3,6–4,3 USD pour 300–499 et 2,9–3,6 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
+      a: "Pour notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, étiquette tissée), les prix indicatifs sont de 7,0–7,7 USD la casquette pour 50–99 pièces, 4,3–5,7 USD pour 100–299, 3,6–4,3 USD pour 300–499 et 2,9–3,6 USD dès 500, départ usine Guangzhou. Les tissus et décorations spéciaux sont chiffrés selon le design.",
     },
     {
       q: "Combien coûte un échantillon, et est-il remboursé ?",
@@ -516,7 +516,7 @@ const pricingFr: GuideLocaleContent = {
 const pricingDe: GuideLocaleContent = {
   metaTitle: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   metaDescription:
-    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 6,0–7,7 USD pro Cap bei 50, 2,9–3,6 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
+    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 7,0–7,7 USD pro Cap bei 50, 2,9–3,6 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
   h1: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   lead:
     "Klare Antworten auf das, was jede Marke vor der Bestellung individueller Caps wissen will: was eine Cap bei 50, 100, 300 oder 500 Stück kostet, wie Muster funktionieren, wie lange die Produktion dauert und wie Sie bezahlen. Die Preise sind Richtwerte für unser Standardmodell. Schicken Sie uns Ihr Design, und wir bestätigen Ihnen ein genaues Angebot.",
@@ -530,7 +530,7 @@ const pricingDe: GuideLocaleContent = {
       type: "table",
       head: ["Menge pro Modell", "Preis pro Cap (USD)", "Geeignet für"],
       rows: [
-        ["50–99 (mind. 50 pro Farbe)", "<b>6,0 – 7,7</b>", "Ein Design testen oder einen ersten Drop"],
+        ["50–99 (mind. 50 pro Farbe)", "<b>7,0 – 7,7</b>", "Ein Design testen oder einen ersten Drop"],
         ["100–299", "<b>4,3 – 5,7</b>", "Eine erste Kollektion"],
         ["300–499", "<b>3,6 – 4,3</b>", "Kernmodelle und Nachbestellungen"],
         ["500+", "<b>2,9 – 3,6</b>", "Bestseller und Großhandel"],
@@ -626,7 +626,7 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Was kostet eine individuelle Cap?",
-      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 6,0–7,7 USD pro Cap für 50–99 Stück, 4,3–5,7 USD für 100–299, 3,6–4,3 USD für 300–499 und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
+      a: "Für unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, gewebtes Etikett) liegen die Richtpreise bei 7,0–7,7 USD pro Cap für 50–99 Stück, 4,3–5,7 USD für 100–299, 3,6–4,3 USD für 300–499 und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Spezialstoffe und Veredelungen kalkulieren wir je Design.",
     },
     {
       q: "Was kostet ein Muster, und wird es erstattet?",
@@ -1093,7 +1093,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> yes. Our standard build (6-panel cotton twill, flat embroidered logo, one woven label, ex-works Guangzhou) is US$6.0–7.7 per cap at 50–99 pieces, US$4.3–5.7 at 100–299, US$3.6–4.3 at 300–499 and US$2.9–3.6 at 500+. Full details are on our pricing page."
+      "text": "<b>Our answer:</b> yes. Our standard build (6-panel cotton twill, flat embroidered logo, one woven label, ex-works Guangzhou) is US$7.0–7.7 per cap at 50–99 pieces, US$4.3–5.7 at 100–299, US$3.6–4.3 at 300–499 and US$2.9–3.6 at 500+. Full details are on our pricing page."
     },
     {
       "type": "h2",
@@ -1277,7 +1277,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> sí. Nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, una etiqueta tejida, en fábrica Guangzhou) cuesta 6,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500. Todos los detalles están en nuestra página de precios."
+      "text": "<b>Nuestra respuesta:</b> sí. Nuestro modelo estándar (6 paneles en sarga de algodón, logo bordado plano, una etiqueta tejida, en fábrica Guangzhou) cuesta 7,0–7,7 USD por gorra en 50–99 piezas, 4,3–5,7 USD en 100–299, 3,6–4,3 USD en 300–499 y 2,9–3,6 USD desde 500. Todos los detalles están en nuestra página de precios."
     },
     {
       "type": "h2",
@@ -1461,7 +1461,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> oui. Notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, une étiquette tissée, départ usine Guangzhou) coûte 6,0–7,7 USD par casquette de 50 à 99 pièces, 4,3–5,7 USD de 100 à 299, 3,6–4,3 USD de 300 à 499 et 2,9–3,6 USD dès 500. Tous les détails sont sur notre page tarifs."
+      "text": "<b>Notre réponse :</b> oui. Notre modèle standard (6 panneaux en sergé de coton, logo brodé à plat, une étiquette tissée, départ usine Guangzhou) coûte 7,0–7,7 USD par casquette de 50 à 99 pièces, 4,3–5,7 USD de 100 à 299, 3,6–4,3 USD de 300 à 499 et 2,9–3,6 USD dès 500. Tous les détails sont sur notre page tarifs."
     },
     {
       "type": "h2",
@@ -1645,7 +1645,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Ja. Unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, ein Webetikett, ab Werk Guangzhou) kostet 6,0–7,7 USD pro Cap bei 50–99 Stück, 4,3–5,7 USD bei 100–299, 3,6–4,3 USD bei 300–499 und 2,9–3,6 USD ab 500. Alle Details stehen auf unserer Preisseite."
+      "text": "<b>Unsere Antwort:</b> Ja. Unser Standardmodell (6-Panel aus Baumwoll-Twill, flach gesticktes Logo, ein Webetikett, ab Werk Guangzhou) kostet 7,0–7,7 USD pro Cap bei 50–99 Stück, 4,3–5,7 USD bei 100–299, 3,6–4,3 USD bei 300–499 und 2,9–3,6 USD ab 500. Alle Details stehen auf unserer Preisseite."
     },
     {
       "type": "h2",

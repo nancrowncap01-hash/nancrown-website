@@ -2,7 +2,7 @@
 // 目标:让海外 B2B 客户(品牌方/零售商/礼品公司/球队)搜"custom XX manufacturer/factory/wholesale"时能找到对应帽型的落地页
 //
 // 🔴 事实红线:只许用 ~/.claude/projects/-Users-martin-Claude-code/memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版;阶梯价/样品费/付款按 2026-10-02 晚新口径):
-//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $6.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
+//   - 起订 50 顶/色/款,同款可混色凑价格档;阶梯价(标准款 EXW 广州):50–99 $7.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
 //   - 样品 7–15 天、普通款 $50/个不含运费、复杂款另报(同款大货满 1000 顶退);付款 50% 定金+发货前付清尾款(先发大货照片);大货样品确认后 25–30 天 + 物流时间;可报 DDP
 //   - 能做的帽型和工艺以那份文件为准;没有任何认证,不许写;不许写 in-house / under one roof / 不外发
 //
@@ -1526,7 +1526,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much does a custom dad hat cost?",
-            a: "A standard 6-panel cotton cap with a flat embroidered logo is $6.0–7.7 per cap at 50–99 pieces and $2.9–3.6 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
+            a: "A standard 6-panel cotton cap with a flat embroidered logo is $7.0–7.7 per cap at 50–99 pieces and $2.9–3.6 at 500+, ex-works Guangzhou. Garment washing and special finishes are quoted per design.",
           },
           {
             q: "Can you match a vintage washed look?",
@@ -1569,7 +1569,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuesta una dad cap personalizada?",
-            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 6,0–7,7 USD por unidad en 50–99 piezas y 2,9–3,6 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
+            a: "Una gorra estándar de 6 paneles en algodón con logo bordado plano cuesta 7,0–7,7 USD por unidad en 50–99 piezas y 2,9–3,6 USD desde 500, en fábrica Guangzhou. El lavado de prenda y los acabados especiales se cotizan según el diseño.",
           },
           {
             q: "¿Podéis conseguir un aspecto vintage lavado?",
@@ -1612,7 +1612,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûte une dad cap personnalisée ?",
-            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 6,0–7,7 USD pièce pour 50–99 pièces et 2,9–3,6 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
+            a: "Une casquette standard 6 panneaux en coton avec un logo brodé à plat coûte 7,0–7,7 USD pièce pour 50–99 pièces et 2,9–3,6 USD dès 500, départ usine Guangzhou. Le délavage et les finitions spéciales sont chiffrés selon le design.",
           },
           {
             q: "Pouvez-vous reproduire un aspect vintage délavé ?",
@@ -1655,7 +1655,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kostet eine individuelle Dad Cap?",
-            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 6,0–7,7 USD pro Stück bei 50–99 Stück und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
+            a: "Eine Standard-6-Panel-Cap aus Baumwolle mit flach gesticktem Logo kostet 7,0–7,7 USD pro Stück bei 50–99 Stück und 2,9–3,6 USD ab 500, ab Werk Guangzhou. Garment-Waschung und Sonderfinishes kalkulieren wir je Design.",
           },
           {
             q: "Können Sie einen gewaschenen Vintage-Look treffen?",

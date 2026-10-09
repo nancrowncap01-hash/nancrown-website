@@ -1,6 +1,6 @@
 # NanCrown
 
-Last updated: 2026-10-06
+Last updated: 2026-10-09
 
 > NanCrown is a custom cap and hat manufacturer in Guangzhou, China. We make private-label caps and hats for brands, from 50 pieces per colour, with samples in 7–15 days and bulk production in 25–30 days.
 
@@ -10,7 +10,7 @@ Last updated: 2026-10-06
 - Production: cutting, sewing and assembly in our own workshop. Embroidery, printing and washing are done by long-term partner workshops, and every batch is checked by us.
 - Minimum order: 50 pieces per colour, per style. Colours can be mixed within one style to reach a price tier.
 - Indicative price per cap, standard build (6-panel cotton twill, flat embroidered logo, one woven label), one style, ex-works Guangzhou:
-  - 50–99 pieces: US$6.0–7.7
+  - 50–99 pieces: US$7.0–7.7
   - 100–299 pieces: US$4.3–5.7
   - 300–499 pieces: US$3.6–4.3
   - 500+ pieces: US$2.9–3.6

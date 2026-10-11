@@ -314,7 +314,7 @@
     "q1": "¿Cuánto tiempo tarda la producción?",
     "a1": "Nuestro tiempo de producción estándar es de 25 a 30 días, según la cantidad y la complejidad de la personalización. Se pueden organizar pedidos urgentes — contáctenos para discutir su cronograma.",
     "q2": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
-    "a2": "Nuestro MOQ comienza desde 50 piezas por color. Para primeros pedidos, ofrecemos cantidades flexibles para ayudarle a probar el mercado.",
+    "a2": "Mínimo 50 piezas por modelo, color y talla. Los colores del mismo modelo pueden sumarse para alcanzar un tramo, con al menos 50 en cada color/talla. Los modelos distintos se cotizan aparte.",
     "q3": "¿Pueden producir diseños personalizados con nuestro logo?",
     "a3": "¡Por supuesto! Ofrecemos personalización completa incluyendo bordado, serigrafía, etiquetas tejidas, parches y más. Solo envíenos su logo y requisitos de diseño.",
     "q4": "¿Qué materiales utilizan?",
@@ -421,7 +421,7 @@
       }
     ],
     "specMoqLabel": "MOQ",
-    "specMoqValue": "<b>50 piezas</b> por color — flexible en primeros pedidos mientras pruebas el mercado.",
+    "specMoqValue": "Mínimo 50 piezas por modelo, color y talla. Los colores del mismo modelo pueden sumarse para alcanzar un tramo, con al menos 50 en cada color/talla. Los modelos distintos se cotizan aparte.",
     "specSampleLabel": "Tiempo de muestra",
     "specSampleValue": "<b>7–15 días</b> desde el arte y la tela confirmados, revisiones incluidas.",
     "specBulkLabel": "Tiempo de producción",

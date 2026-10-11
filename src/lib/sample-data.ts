@@ -336,7 +336,7 @@ export const sampleProducts: Product[] = [
     slug: "souvenir-patch-snapback",
     name: "Souvenir Patch Snapback",
     code: "B0036",
-    category: "Trucker Hats",
+    category: "Baseball Caps",
     image: "/images/products/souvenir-patch-snapback.jpg",
     gallery: [
       "/images/products/souvenir-patch-snapback-2.jpg",

@@ -13,6 +13,7 @@
 //     会自动在结尾补上"| NanCrown",这里不能再手动拼一次,不然会变成"...| NanCrown | NanCrown"
 
 import type { Locale } from "@/i18n/routing";
+import truckerBuyingContent from "@/lib/trucker-buying-content.json";
 
 // 分类页 slug(和 sample-data.ts 里 categories 数组的 9 个值一一对应)
 export type CategorySlug =
@@ -68,17 +69,8 @@ export interface CategoryLocaleContent {
   intro: [string, string] | [string, string, string];
   // 定制选项 4~6 条(winter-hats 0930 补强到 7 条)
   customOptions: string[];
-  // FAQ 固定三条(winter-hats 0930 补强到 6 条,见下面的联合类型)
-  faq:
-    | [CategoryFaqItem, CategoryFaqItem, CategoryFaqItem]
-    | [
-        CategoryFaqItem,
-        CategoryFaqItem,
-        CategoryFaqItem,
-        CategoryFaqItem,
-        CategoryFaqItem,
-        CategoryFaqItem,
-      ];
+  // FAQ 与可见问答和 JSON-LD 共用数据,允许分类按采购需要补充
+  faq: CategoryFaqItem[];
 }
 
 export interface CategoryDefinition {
@@ -315,7 +307,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         name: "Trucker Hats",
         h1: "Custom Trucker Hats Manufacturer",
         metaDescription:
-          "Custom trucker hats factory-direct from Guangzhou — structured front panel, mesh back, colour-matched snapback. Embroidery/print, MOQ 50 pcs/colour.",
+          "Custom trucker hats: front panels, mesh, logo placement and RFQ checklists for 300 or 5,000 pieces. MOQ 50 per style/colour/size; EXW quote per build.",
         intro: [
           "Trucker hats are the easiest style for a brand to wear every day — a structured front panel for your logo and an open hex-mesh back that keeps the build light. NanCrown makes trucker hats for streetwear labels, event merch and team stores that want a cap people actually reach for, not a giveaway that sits in a drawer.",
           "The front panel is where your artwork lives: embroidery or screen print on a structured shell, with the mesh back and snapback closure colour-matched to your palette. We work from your logo file, confirm the build with a pre-production sample, and produce from our own factory in Guangzhou with a minimum order of 50 pieces per colour — OEM and ODM orders both welcome.",
@@ -330,7 +322,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "What is the minimum order for custom trucker hats?",
-            a: "Our MOQ is 50 pieces per colour, so you can order a manageable first run and reorder once you know what sells.",
+            a: "MOQ is 50 pieces per style, per colour and per size. Same-style colours may be combined for a quantity tier, but each colour/size must meet the minimum. Different styles are quoted separately; trucker prices depend on the specification.",
           },
           {
             q: "Can you embroider or print our logo on the front panel?",
@@ -340,13 +332,14 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "What makes a trucker hat different from a baseball cap?",
             a: "A trucker hat pairs a structured front panel with a breathable hex-mesh back and a snapback closure, while a baseball cap is usually one fabric all the way round with a strap or slider.",
           },
+          ...truckerBuyingContent.en.faq,
         ],
       },
       es: {
         name: "Gorras Trucker",
         h1: "Fabricante de gorras trucker personalizadas",
         metaDescription:
-          "Gorras trucker personalizadas de fábrica en Guangzhou: panel frontal estructurado, malla trasera y snapback a juego. Mínimo 50 uds/color.",
+          "Gorras trucker: panel frontal, malla, logo y listas para pedir 300 o 5.000 piezas. Mínimo 50 por modelo/color/talla; presupuesto EXW según diseño.",
         intro: [
           "Las gorras trucker son el estilo que una marca puede llevar todos los días: un panel frontal estructurado para tu logo y una parte trasera de malla hexagonal abierta que mantiene la gorra ligera. En NanCrown fabricamos gorras trucker para marcas urbanas, merchandising de eventos y equipos deportivos que buscan una gorra que la gente realmente use, no un regalo que termine en un cajón.",
           "El panel frontal es donde va tu diseño: bordado o serigrafía sobre una estructura firme, con la malla trasera y el cierre snapback a juego con tu paleta de colores. Trabajamos a partir de tu logo, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica en Guangzhou, con un pedido mínimo de 50 piezas por color — aceptamos pedidos OEM y ODM.",
@@ -361,7 +354,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "¿Cuál es el pedido mínimo para gorras trucker personalizadas?",
-            a: "Nuestro pedido mínimo es de 50 piezas por color, así puedes empezar con una primera producción manejable y repetir pedido cuando sepas qué funciona.",
+            a: "El mínimo es 50 piezas por modelo, color y talla. Los colores del mismo modelo pueden sumarse para un tramo, pero cada color/talla debe cumplir el mínimo. Los modelos diferentes se cotizan aparte; el precio trucker depende de sus especificaciones.",
           },
           {
             q: "¿Pueden bordar o imprimir nuestro logo en el panel frontal?",
@@ -371,13 +364,14 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "¿Qué diferencia una gorra trucker de una gorra de béisbol?",
             a: "La gorra trucker combina un panel frontal estructurado con una malla trasera transpirable y cierre snapback, mientras que la gorra de béisbol suele ser de una sola tela con correa ajustable o hebilla metálica.",
           },
+          ...truckerBuyingContent.es.faq,
         ],
       },
       fr: {
         name: "Casquettes Trucker",
         h1: "Fabricant de casquettes trucker personnalisées",
         metaDescription:
-          "Casquettes trucker personnalisées, fabriquées à Guangzhou : panneau avant structuré, dos en maille, snapback assorti. Min. 50 pièces/couleur.",
+          "Casquettes trucker : devant, maille, logo et listes pour 300 ou 5 000 pièces. Minimum 50 par modèle/couleur/taille ; devis EXW selon construction.",
         intro: [
           "La casquette trucker est le modèle qu'une marque peut porter au quotidien : un panneau avant structuré prêt pour votre logo et un dos en maille hexagonale ajourée qui garde la casquette légère. NanCrown fabrique des casquettes trucker pour les marques streetwear, le merchandising événementiel et les équipes sportives qui veulent une casquette que l'on porte vraiment, pas un goodie oublié dans un tiroir.",
           "Le panneau avant accueille votre visuel : broderie ou sérigraphie sur une structure rigide, avec le dos en maille et le bouton-pression assortis à votre palette. Nous travaillons à partir de votre logo, validons le modèle avec un échantillon de pré-production et fabriquons dans notre propre usine à Guangzhou, avec une commande minimale de 50 pièces par couleur — commandes OEM et ODM bienvenues.",
@@ -392,7 +386,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Quelle est la commande minimale pour des casquettes trucker personnalisées ?",
-            a: "Notre commande minimale est de 50 pièces par couleur, pour démarrer avec une première production raisonnable avant de recommander selon les ventes.",
+            a: "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent se cumuler pour un palier, mais chaque couleur/taille doit respecter le minimum. Les modèles différents sont chiffrés séparément ; le prix trucker dépend des spécifications.",
           },
           {
             q: "Pouvez-vous broder ou imprimer notre logo sur le panneau avant ?",
@@ -402,13 +396,14 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Quelle est la différence entre une casquette trucker et une casquette de baseball ?",
             a: "La casquette trucker associe un panneau avant structuré à un dos en maille respirante et une fermeture bouton-pression, alors que la casquette de baseball est généralement dans un seul tissu avec une sangle réglable ou une boucle métallique.",
           },
+          ...truckerBuyingContent.fr.faq,
         ],
       },
       de: {
         name: "Trucker-Kappen",
         h1: "Hersteller für individuelle Trucker-Kappen",
         metaDescription:
-          "Individuelle Trucker-Kappen direkt ab Fabrik in Guangzhou — stabiles Vorderteil, Mesh-Rücken, farblich passender Snapback. Ab 50 Stk/Farbe.",
+          "Trucker-Caps: Front, Mesh, Logo und Anfragelisten für 300 oder 5.000 Stück. Ab 50 pro Modell/Farbe/Größe; EXW-Angebot je Konstruktion.",
         intro: [
           "Die Trucker-Kappe ist der Stil, den eine Marke jeden Tag tragen kann — ein stabiles Vorderteil für Ihr Logo und ein luftiger Netzrücken aus Hex-Mesh, der die Kappe leicht hält. Der gebogene Schirm mit mehrreihiger Steppnaht rundet die Silhouette ab, ohne vom Logo auf der Vorderseite abzulenken. NanCrown fertigt Trucker-Kappen für Streetwear-Marken, Event-Merchandise und Sportteams, die eine Kappe wollen, die wirklich getragen wird — kein Werbegeschenk, das in der Schublade landet.",
           "Das Vorderteil trägt Ihr Design: Stickerei oder Siebdruck auf stabilem Material, mit farblich abgestimmtem Mesh-Rücken und Snapback-Verschluss. Wir arbeiten mit Ihrer Logo-Datei, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM- und ODM-Aufträge willkommen.",
@@ -423,7 +418,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Wie hoch ist die Mindestbestellmenge für individuelle Trucker-Kappen?",
-            a: "Unsere Mindestbestellmenge liegt bei 50 Stück pro Farbe — so starten Sie mit einer überschaubaren ersten Charge und bestellen nach, sobald Sie wissen, was sich verkauft.",
+            a: "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Mengenstufe kombiniert werden, jede Farbe/Größe muss das Minimum erfüllen. Verschiedene Modelle werden separat kalkuliert; Trucker-Preise richten sich nach der Spezifikation.",
           },
           {
             q: "Können Sie unser Logo auf das Vorderteil sticken oder drucken?",
@@ -433,6 +428,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Was unterscheidet eine Trucker-Kappe von einer Baseballkappe?",
             a: "Die Trucker-Kappe kombiniert ein stabiles Vorderteil mit einem atmungsaktiven Mesh-Rücken und Snapback-Verschluss, während die Baseballkappe meist durchgehend aus einem Material mit verstellbarem Riemen oder Metallschnalle besteht.",
           },
+          ...truckerBuyingContent.de.faq,
         ],
       },
     },

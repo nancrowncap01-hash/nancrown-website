@@ -1,4 +1,6 @@
 import type { Metadata } from "next";
+import TruckerBuyingGuide from "@/components/TruckerBuyingGuide";
+import truckerBuyingContent from "@/lib/trucker-buying-content.json";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -178,6 +180,17 @@ export default async function CategoryPage({
           </div>
         </div>
       </section>
+
+      {def.slug === "trucker-hats" && <TruckerBuyingGuide locale={locale as Locale} />}
+      {["5-panel-caps", "patch-hats"].includes(def.slug) && (
+        <section className="py-8">
+          <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
+            <Link href="/custom/trucker-hats#order-checklists" className="block rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-800 font-medium leading-relaxed hover:bg-amber-100">
+              {(truckerBuyingContent[locale as Locale] ?? truckerBuyingContent.en).quote}
+            </Link>
+          </div>
+        </section>
+      )}
 
       {/* 该分类下的产品网格,直接用现成的 ProductCard */}
       {products.length > 0 && (

@@ -27,6 +27,7 @@ export const guideSlugs: GuideSlug[] = [
 
 export type GuideBlock =
   | { type: "h2"; text: string }
+  | { type: "link"; href: string; text: string }
   | { type: "p"; text: string }
   | { type: "list"; items: string[] }
   | { type: "table"; head: string[]; rows: string[][]; caption?: string }
@@ -51,11 +52,12 @@ export interface GuideLocaleContent {
 const pricingEn: GuideLocaleContent = {
   metaTitle: "Custom Hat Pricing, MOQ & Lead Times",
   metaDescription:
-    "Factory-direct custom cap prices from 50 pieces per colour: $7.0–7.7 per cap at 50, $2.9–3.6 at 500+. Samples in 7–15 days, bulk in 25–30 days.",
+    "Standard cotton twill baseball cap prices: $7.0–7.7 at 50, $2.9–3.6 at 500+. Front flat embroidery and one custom woven label included. EXW, shipping extra.",
   h1: "Custom Hat Pricing, MOQ & Lead Times",
   lead:
     "Straight answers to what every brand asks before ordering custom caps: what a cap costs at 50, 100, 300 or 500 pieces, how samples work, how long production takes and how you pay. Prices below are indicative for our standard build. Send us your design and we will confirm an exact quote.",
   blocks: [
+    {"type": "p", "text": "Reference prices effective 9 October 2026; standard-label inclusion clarified 11 October 2026. These are indicative EXW Guangzhou prices, excluding shipping. Special processes are quoted separately. This table applies only to the standard cotton twill baseball cap, not trucker hats or running caps."},
     { type: "h2", text: "Price per cap by quantity" },
     {
       type: "p",
@@ -73,6 +75,10 @@ const pricingEn: GuideLocaleContent = {
       caption:
         "Colours can be mixed within one style to reach a tier: 2 colours × 50 pieces are priced at the 100-piece tier.",
     },
+    {"type": "p", "text": "One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification."},
+    {"type": "h2", "text": "Standard baseball cap: four budget examples"},
+    {"type": "table", "head": ["Quantity and calculation", "Indicative EXW cap total (USD)"], "rows": [["50 × US$7.0–7.7", "US$350–385"], ["100 × US$4.3–5.7", "US$430–570"], ["300 × US$3.6–4.3", "US$1,080–1,290"], ["500 × US$2.9–3.6", "US$1,450–1,800"]], "caption": "Each example is one style with 6-panel cotton twill, one front flat embroidered logo and one custom woven label included. Shipping and samples are excluded; special fabrics, processes and custom packaging are quoted separately. These are budget ranges, not confirmed order quotations."},
+    {"type": "link", "href": "/custom/trucker-hats#order-checklists", "text": "Ordering mesh-back trucker hats? Prepare a 300-piece trial or 5,000-piece retail RFQ →"},
     { type: "h2", text: "What changes the price" },
     {
       type: "list",
@@ -91,7 +97,7 @@ const pricingEn: GuideLocaleContent = {
     { type: "h2", text: "Minimum order (MOQ)" },
     {
       type: "p",
-      text: "Our minimum is <b>50 pieces per colour, per style</b>. You can mix colours within one style to reach the next price tier, and one order can include several styles.",
+      text: "Minimum 50 pieces per style, per colour and per size. Colours of the same style can be combined to reach a price tier, provided every colour/size meets the minimum. For example, 2 colours × 50 = 100 pieces; 100 pieces cannot be split into 3 colours. Different styles do not combine for a price tier.",
     },
     { type: "h2", text: "Samples" },
     {
@@ -157,7 +163,7 @@ const pricingEn: GuideLocaleContent = {
   faq: [
     {
       q: "What is your minimum order quantity?",
-      a: "50 pieces per colour, per style. You can mix colours within one style to reach a higher price tier, for example 2 colours × 50 pieces priced at the 100-piece tier.",
+      a: "Minimum 50 pieces per style, per colour and per size. Colours of the same style can be combined to reach a price tier, provided every colour/size meets the minimum. For example, 2 colours × 50 = 100 pieces; 100 pieces cannot be split into 3 colours. Different styles do not combine for a price tier.",
     },
     {
       q: "How much does a custom cap cost?",
@@ -181,7 +187,7 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "Is my own woven label included?",
-      a: "In the sample, yes: one custom woven label is included. In bulk, a larger order includes it in the standard price. On a very small order of around 50 pieces, the label has a minimum setup cost that works out to about US$0.4–0.6 per cap.",
+      a: "One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification.",
     },
     {
       q: "Do performance fabrics cost more?",
@@ -206,11 +212,12 @@ const pricingEn: GuideLocaleContent = {
 const pricingEs: GuideLocaleContent = {
   metaTitle: "Precios de gorras personalizadas, pedido mínimo y plazos",
   metaDescription:
-    "Precios de fábrica para gorras personalizadas desde 50 piezas por color: 7,0–7,7 USD por gorra en 50 y 2,9–3,6 USD desde 500. Muestras en 7–15 días.",
+    "Gorra de béisbol estándar: 7,0–7,7 USD en 50 piezas; 2,9–3,6 desde 500. Bordado plano y una etiqueta tejida incluidos. EXW, transporte aparte.",
   h1: "Precios de gorras personalizadas, pedido mínimo y plazos",
   lead:
     "Respuestas claras a lo que toda marca pregunta antes de encargar gorras personalizadas: cuánto cuesta una gorra en 50, 100, 300 o 500 piezas, cómo funcionan las muestras, cuánto tarda la producción y cómo se paga. Los precios son orientativos para nuestro modelo estándar. Envíanos tu diseño y te confirmamos un presupuesto exacto.",
   blocks: [
+    {"type": "p", "text": "Precios orientativos vigentes desde el 9 de octubre de 2026; inclusión de la etiqueta estándar aclarada el 11 de octubre de 2026. Precios EXW Guangzhou, sin transporte. Los procesos especiales se cotizan aparte. La tabla solo corresponde a la gorra de béisbol estándar de sarga de algodón, no a gorras trucker ni de running."},
     { type: "h2", text: "Precio por gorra según cantidad" },
     {
       type: "p",
@@ -228,6 +235,10 @@ const pricingEs: GuideLocaleContent = {
       caption:
         "Puedes combinar colores dentro de un mismo modelo para alcanzar un tramo: 2 colores × 50 piezas se cotizan al precio de 100 piezas.",
     },
+    {"type": "p", "text": "El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones."},
+    {"type": "h2", "text": "Gorra de béisbol estándar: cuatro ejemplos de presupuesto"},
+    {"type": "table", "head": ["Cantidad y cálculo", "Total orientativo EXW (USD)"], "rows": [["50 × US$7,0–7,7", "US$350–385"], ["100 × US$4,3–5,7", "US$430–570"], ["300 × US$3,6–4,3", "US$1.080–1.290"], ["500 × US$2,9–3,6", "US$1.450–1.800"]], "caption": "Cada ejemplo es un solo modelo de 6 paneles en sarga de algodón, un logo bordado plano frontal y una etiqueta tejida personalizada incluida. Transporte y muestras no incluidos; tejidos, procesos y embalajes especiales se cotizan aparte. Son rangos para planificar, no presupuestos confirmados."},
+    {"type": "link", "href": "/custom/trucker-hats#order-checklists", "text": "¿Buscas gorras trucker de malla? Prepara una consulta de 300 o 5.000 piezas →"},
     { type: "h2", text: "Qué hace variar el precio" },
     {
       type: "list",
@@ -246,7 +257,7 @@ const pricingEs: GuideLocaleContent = {
     { type: "h2", text: "Pedido mínimo (MOQ)" },
     {
       type: "p",
-      text: "Nuestro mínimo es de <b>50 piezas por color y por modelo</b>. Puedes combinar colores dentro de un modelo para llegar al siguiente tramo de precio, y un pedido puede incluir varios modelos.",
+      text: "Mínimo 50 piezas por modelo, color y talla. Los colores de un mismo modelo pueden sumarse para alcanzar un tramo, siempre que cada color/talla cumpla el mínimo. Ejemplo: 2 colores × 50 = 100 piezas; 100 piezas no se pueden repartir en 3 colores. Los modelos diferentes no se suman para alcanzar un tramo.",
     },
     { type: "h2", text: "Muestras" },
     {
@@ -312,7 +323,7 @@ const pricingEs: GuideLocaleContent = {
   faq: [
     {
       q: "¿Cuál es vuestro pedido mínimo?",
-      a: "50 piezas por color y por modelo. Puedes combinar colores dentro de un modelo para alcanzar un tramo de precio mejor; por ejemplo, 2 colores × 50 piezas se cotizan al precio de 100 piezas.",
+      a: "Mínimo 50 piezas por modelo, color y talla. Los colores de un mismo modelo pueden sumarse para alcanzar un tramo, siempre que cada color/talla cumpla el mínimo. Ejemplo: 2 colores × 50 = 100 piezas; 100 piezas no se pueden repartir en 3 colores. Los modelos diferentes no se suman para alcanzar un tramo.",
     },
     {
       q: "¿Cuánto cuesta una gorra personalizada?",
@@ -336,7 +347,7 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Mi etiqueta tejida está incluida?",
-      a: "En la muestra, sí: incluye una etiqueta tejida personalizada. En producción, un pedido grande la incluye en el precio estándar. En un pedido muy pequeño, de unas 50 piezas, la etiqueta tiene un coste mínimo de preparación que sale a unos 0,4–0,6 USD por gorra.",
+      a: "El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones.",
     },
     {
       q: "¿Los tejidos técnicos cuestan más?",
@@ -361,11 +372,12 @@ const pricingEs: GuideLocaleContent = {
 const pricingFr: GuideLocaleContent = {
   metaTitle: "Prix des casquettes personnalisées, minimum de commande et délais",
   metaDescription:
-    "Prix usine des casquettes personnalisées dès 50 pièces par couleur : 7,0–7,7 USD la casquette à 50, 2,9–3,6 USD dès 500. Échantillon en 7 à 15 jours.",
+    "Casquette de baseball standard : 7,0–7,7 USD à 50 pièces, 2,9–3,6 dès 500. Broderie à plat et une étiquette tissée incluses. EXW, transport exclu.",
   h1: "Prix des casquettes personnalisées, minimum de commande et délais",
   lead:
     "Des réponses claires à ce que chaque marque demande avant de commander des casquettes personnalisées : le prix d'une casquette à 50, 100, 300 ou 500 pièces, le fonctionnement des échantillons, la durée de production et le paiement. Les prix sont indicatifs pour notre modèle standard. Envoyez-nous votre design et nous vous confirmons un devis exact.",
   blocks: [
+    {"type": "p", "text": "Prix indicatifs applicables depuis le 9 octobre 2026 ; inclusion de l’étiquette standard clarifiée le 11 octobre 2026. Prix EXW Guangzhou, transport exclu. Les procédés spéciaux sont chiffrés séparément. Ce tableau concerne uniquement la casquette de baseball standard en sergé de coton, pas les casquettes trucker ou de running."},
     { type: "h2", text: "Prix par casquette selon la quantité" },
     {
       type: "p",
@@ -383,6 +395,10 @@ const pricingFr: GuideLocaleContent = {
       caption:
         "Vous pouvez mélanger les couleurs d'un même modèle pour atteindre un palier : 2 couleurs × 50 pièces sont facturées au prix du palier de 100 pièces.",
     },
+    {"type": "p", "text": "Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications."},
+    {"type": "h2", "text": "Casquette de baseball standard : quatre exemples de budget"},
+    {"type": "table", "head": ["Quantité et calcul", "Total indicatif EXW (USD)"], "rows": [["50 × US$7,0–7,7", "US$350–385"], ["100 × US$4,3–5,7", "US$430–570"], ["300 × US$3,6–4,3", "US$1 080–1 290"], ["500 × US$2,9–3,6", "US$1 450–1 800"]], "caption": "Chaque exemple porte sur un seul modèle à 6 panneaux en sergé de coton, avec un logo brodé à plat devant et une étiquette tissée personnalisée incluse. Transport et échantillons exclus ; tissus, procédés et emballages spéciaux chiffrés séparément. Ce sont des fourchettes budgétaires, pas des devis confirmés."},
+    {"type": "link", "href": "/custom/trucker-hats#order-checklists", "text": "Casquettes trucker à dos en maille ? Préparez une demande de 300 ou 5 000 pièces →"},
     { type: "h2", text: "Ce qui fait varier le prix" },
     {
       type: "list",
@@ -401,7 +417,7 @@ const pricingFr: GuideLocaleContent = {
     { type: "h2", text: "Minimum de commande (MOQ)" },
     {
       type: "p",
-      text: "Notre minimum est de <b>50 pièces par couleur et par modèle</b>. Vous pouvez mélanger les couleurs d'un modèle pour atteindre le palier de prix suivant, et une commande peut comprendre plusieurs modèles.",
+      text: "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent être cumulées pour atteindre un palier, si chaque couleur/taille respecte le minimum. Exemple : 2 couleurs × 50 = 100 pièces ; 100 pièces ne peuvent pas être réparties en 3 couleurs. Des modèles différents ne sont pas cumulés pour un palier.",
     },
     { type: "h2", text: "Échantillons" },
     {
@@ -467,7 +483,7 @@ const pricingFr: GuideLocaleContent = {
   faq: [
     {
       q: "Quel est votre minimum de commande ?",
-      a: "50 pièces par couleur et par modèle. Vous pouvez mélanger les couleurs d'un modèle pour atteindre un meilleur palier de prix : par exemple, 2 couleurs × 50 pièces sont facturées au palier de 100 pièces.",
+      a: "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent être cumulées pour atteindre un palier, si chaque couleur/taille respecte le minimum. Exemple : 2 couleurs × 50 = 100 pièces ; 100 pièces ne peuvent pas être réparties en 3 couleurs. Des modèles différents ne sont pas cumulés pour un palier.",
     },
     {
       q: "Combien coûte une casquette personnalisée ?",
@@ -491,7 +507,7 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Mon étiquette tissée est-elle comprise ?",
-      a: "Dans l'échantillon, oui : une étiquette tissée personnalisée est comprise. En production, une grande commande l'inclut dans le prix standard. Sur une très petite commande, autour de 50 pièces, l'étiquette a un coût minimum de mise en route d'environ 0,4 à 0,6 USD par casquette.",
+      a: "Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications.",
     },
     {
       q: "Les tissus techniques coûtent-ils plus cher ?",
@@ -516,11 +532,12 @@ const pricingFr: GuideLocaleContent = {
 const pricingDe: GuideLocaleContent = {
   metaTitle: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   metaDescription:
-    "Fabrikpreise für individuelle Caps ab 50 Stück pro Farbe: 7,0–7,7 USD pro Cap bei 50, 2,9–3,6 USD ab 500. Muster in 7–15 Tagen, Serie in 25–30 Tagen.",
+    "Standard-Baseballcap: 7,0–7,7 USD bei 50 Stück, 2,9–3,6 ab 500. Flaches Frontlogo und ein Webetikett enthalten. EXW, Versand extra.",
   h1: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   lead:
     "Klare Antworten auf das, was jede Marke vor der Bestellung individueller Caps wissen will: was eine Cap bei 50, 100, 300 oder 500 Stück kostet, wie Muster funktionieren, wie lange die Produktion dauert und wie Sie bezahlen. Die Preise sind Richtwerte für unser Standardmodell. Schicken Sie uns Ihr Design, und wir bestätigen Ihnen ein genaues Angebot.",
   blocks: [
+    {"type": "p", "text": "Richtpreise gültig seit 9. Oktober 2026; Einbeziehung des Standardetiketts am 11. Oktober 2026 klargestellt. EXW Guangzhou, ohne Versand. Sonderverfahren werden separat kalkuliert. Die Tabelle gilt nur für die Standard-Baseballcap aus Baumwoll-Twill, nicht für Trucker- oder Laufcaps."},
     { type: "h2", text: "Preis pro Cap nach Menge" },
     {
       type: "p",
@@ -538,6 +555,10 @@ const pricingDe: GuideLocaleContent = {
       caption:
         "Farben innerhalb eines Modells lassen sich kombinieren, um eine Preisstufe zu erreichen: 2 Farben × 50 Stück werden zum Preis der 100-Stück-Stufe berechnet.",
     },
+    {"type": "p", "text": "Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert."},
+    {"type": "h2", "text": "Standard-Baseballcap: vier Budgetbeispiele"},
+    {"type": "table", "head": ["Menge und Berechnung", "EXW-Richtbetrag gesamt (USD)"], "rows": [["50 × US$7,0–7,7", "US$350–385"], ["100 × US$4,3–5,7", "US$430–570"], ["300 × US$3,6–4,3", "US$1.080–1.290"], ["500 × US$2,9–3,6", "US$1.450–1.800"]], "caption": "Jedes Beispiel gilt für ein Modell mit 6 Panels aus Baumwoll-Twill, einem flach gestickten Frontlogo und einem enthaltenen individuellen Webetikett. Versand und Muster sind nicht enthalten; Sonderstoffe, Verfahren und Verpackungen werden separat kalkuliert. Dies sind Budgetspannen, keine bestätigten Auftragsangebote."},
+    {"type": "link", "href": "/custom/trucker-hats#order-checklists", "text": "Trucker-Caps mit Mesh-Rücken? Anfrage für 300 oder 5.000 Stück vorbereiten →"},
     { type: "h2", text: "Was den Preis verändert" },
     {
       type: "list",
@@ -556,7 +577,7 @@ const pricingDe: GuideLocaleContent = {
     { type: "h2", text: "Mindestbestellmenge (MOQ)" },
     {
       type: "p",
-      text: "Unsere Mindestmenge liegt bei <b>50 Stück pro Farbe und Modell</b>. Sie können Farben innerhalb eines Modells kombinieren, um die nächste Preisstufe zu erreichen, und eine Bestellung kann mehrere Modelle umfassen.",
+      text: "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe zusammengezählt werden, sofern jede Farbe/Größe die Mindestmenge erfüllt. Beispiel: 2 Farben × 50 = 100 Stück; 100 Stück können nicht auf 3 Farben aufgeteilt werden. Verschiedene Modelle werden für eine Preisstufe nicht zusammengezählt.",
     },
     { type: "h2", text: "Muster" },
     {
@@ -622,7 +643,7 @@ const pricingDe: GuideLocaleContent = {
   faq: [
     {
       q: "Wie hoch ist Ihre Mindestbestellmenge?",
-      a: "50 Stück pro Farbe und Modell. Sie können Farben innerhalb eines Modells kombinieren, um eine bessere Preisstufe zu erreichen, zum Beispiel 2 Farben × 50 Stück zum Preis der 100-Stück-Stufe.",
+      a: "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe zusammengezählt werden, sofern jede Farbe/Größe die Mindestmenge erfüllt. Beispiel: 2 Farben × 50 = 100 Stück; 100 Stück können nicht auf 3 Farben aufgeteilt werden. Verschiedene Modelle werden für eine Preisstufe nicht zusammengezählt.",
     },
     {
       q: "Was kostet eine individuelle Cap?",
@@ -646,7 +667,7 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Ist mein eigenes Webetikett enthalten?",
-      a: "Im Muster ja: Ein individuelles Webetikett ist enthalten. In der Serie ist es bei größeren Mengen im Standardpreis enthalten. Bei sehr kleinen Aufträgen um 50 Stück hat das Etikett Mindestrüstkosten von umgerechnet etwa 0,4–0,6 USD pro Cap.",
+      a: "Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert.",
     },
     {
       q: "Kosten Funktionsstoffe mehr?",
@@ -756,7 +777,7 @@ const brandEn: GuideLocaleContent = {
     },
     {
       q: "Can you help with labels and packaging?",
-      a: "Yes. Woven labels, printed inside taping, hangtags and packaging can all carry your brand. One custom woven label is included in your sample; on very small bulk orders (around 50 pieces) the label adds about US$0.4–0.6 per cap.",
+      a: "One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification.",
     },
   ],
   cta: {
@@ -852,7 +873,7 @@ const brandEs: GuideLocaleContent = {
     },
     {
       q: "¿Podéis ayudar con etiquetas y embalaje?",
-      a: "Sí. Las etiquetas tejidas, la cinta interior estampada, las etiquetas colgantes y el embalaje pueden llevar tu marca. La muestra incluye una etiqueta tejida personalizada; en pedidos muy pequeños (unas 50 piezas) la etiqueta suma unos 0,4–0,6 USD por gorra.",
+      a: "El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones.",
     },
   ],
   cta: {
@@ -948,7 +969,7 @@ const brandFr: GuideLocaleContent = {
     },
     {
       q: "Pouvez-vous m'aider pour les étiquettes et l'emballage ?",
-      a: "Oui. Étiquettes tissées, ganse intérieure imprimée, étiquettes volantes et emballage peuvent tous porter votre marque. Une étiquette tissée personnalisée est comprise dans l'échantillon ; sur les très petites séries (autour de 50 pièces), l'étiquette ajoute environ 0,4 à 0,6 USD par casquette.",
+      a: "Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications.",
     },
   ],
   cta: {
@@ -1044,7 +1065,7 @@ const brandDe: GuideLocaleContent = {
     },
     {
       q: "Helfen Sie bei Etiketten und Verpackung?",
-      a: "Ja. Gewebte Etiketten, bedrucktes Innenband, Hängeetiketten und Verpackung können Ihre Marke tragen. Ein individuelles Webetikett ist im Muster enthalten; bei sehr kleinen Serien (um 50 Stück) kommt das Etikett auf etwa 0,4–0,6 USD pro Cap.",
+      a: "Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert.",
     },
   ],
   cta: {
@@ -1177,7 +1198,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> one custom woven label is included in the sample, and in the standard price on larger orders. On very small orders of around 50 pieces, the label has a minimum setup cost of about US$0.4–0.6 per cap. As standard, each cap goes in its own poly bag, 25 to an inner box and 100 to a carton; custom packaging is quoted separately."
+      "text": "<b>Our answer:</b> One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification. Standard packing: one poly bag per cap, 25 caps per inner box and 100 per carton."
     },
     {
       "type": "h2",
@@ -1361,7 +1382,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> la muestra incluye una etiqueta tejida personalizada, y en pedidos grandes va incluida en el precio estándar. En pedidos muy pequeños, de unas 50 piezas, la etiqueta tiene un coste mínimo de preparación de unos 0,4–0,6 USD por gorra. De serie, cada gorra va en su propia bolsa de plástico, 25 por caja interior y 100 por caja de cartón; el embalaje personalizado se presupuesta aparte."
+      "text": "<b>Nuestra respuesta:</b> El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones. Embalaje estándar: una bolsa por gorra, 25 por caja interior y 100 por caja de cartón."
     },
     {
       "type": "h2",
@@ -1545,7 +1566,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> une étiquette tissée personnalisée est comprise dans l'échantillon, et dans le prix standard sur les grandes commandes. Sur les très petites commandes, autour de 50 pièces, l'étiquette a un coût minimum de mise en route d'environ 0,4 à 0,6 USD par casquette. En standard, chaque casquette est dans son sachet plastique, 25 par boîte intérieure et 100 par carton ; l'emballage personnalisé est chiffré à part."
+      "text": "<b>Notre réponse :</b> Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications. Emballage standard : un sachet par casquette, 25 par boîte intérieure et 100 par carton."
     },
     {
       "type": "h2",
@@ -1729,7 +1750,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Ein individuelles Webetikett ist im Muster enthalten und bei größeren Aufträgen im Standardpreis. Bei sehr kleinen Aufträgen um 50 Stück hat das Etikett Mindestrüstkosten von etwa 0,4–0,6 USD pro Cap. Standardmäßig kommt jede Cap in einen eigenen Polybeutel, 25 in einen Innenkarton und 100 in einen Versandkarton; individuelle Verpackung wird separat kalkuliert."
+      "text": "<b>Unsere Antwort:</b> Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert. Standardverpackung: ein Polybeutel pro Cap, 25 pro Innenkarton und 100 pro Versandkarton."
     },
     {
       "type": "h2",

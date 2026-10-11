@@ -41,6 +41,12 @@ function CheckIcon() {
 
 function renderBlock(block: GuideBlock, i: number) {
   switch (block.type) {
+    case "link":
+      return (
+        <Link key={i} href={block.href} className="block rounded-xl border border-amber-200 bg-amber-50 px-5 py-4 text-amber-800 font-medium leading-relaxed hover:bg-amber-100">
+          {block.text}
+        </Link>
+      );
     case "h2":
       return (
         <h2 key={i} className="text-2xl sm:text-3xl font-bold text-gray-900 pt-2">

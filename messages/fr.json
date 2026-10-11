@@ -314,7 +314,7 @@
     "q1": "Quel est votre délai de production ?",
     "a1": "Notre délai de production standard est de 25 à 30 jours, selon la quantité et la complexité de la personnalisation. Les commandes urgentes peuvent être organisées — contactez-nous pour discuter de votre calendrier.",
     "q2": "Quelle est votre quantité minimum de commande (MOQ) ?",
-    "a2": "Notre MOQ commence à partir de 50 pièces par couleur. Pour les premières commandes, nous offrons des quantités flexibles pour vous aider à tester le marché.",
+    "a2": "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent se cumuler pour un palier, avec au moins 50 dans chaque couleur/taille. Les modèles différents sont chiffrés séparément.",
     "q3": "Pouvez-vous produire des designs personnalisés avec notre logo ?",
     "a3": "Absolument ! Nous offrons une personnalisation complète incluant broderie, sérigraphie, étiquettes tissées, patchs et plus. Envoyez-nous simplement votre logo et vos exigences de design.",
     "q4": "Quels matériaux utilisez-vous ?",
@@ -421,7 +421,7 @@
       }
     ],
     "specMoqLabel": "MOQ",
-    "specMoqValue": "<b>50 pièces</b> par couleur — flexible sur les premières commandes le temps de tester un marché.",
+    "specMoqValue": "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent se cumuler pour un palier, avec au moins 50 dans chaque couleur/taille. Les modèles différents sont chiffrés séparément.",
     "specSampleLabel": "Délai d'échantillon",
     "specSampleValue": "<b>7 à 15 jours</b> à partir du visuel et du tissu confirmés, révisions incluses.",
     "specBulkLabel": "Délai de production",

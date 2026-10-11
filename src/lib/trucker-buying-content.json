@@ -1,0 +1,350 @@
+{
+  "en": {
+    "heading": "Choose the structure before placing the logo",
+    "lead": "Start with the front panel and the logo artwork, then confirm the mesh and closure on a pre-production sample. Panel count alone does not specify fabric, fit or decoration.",
+    "structures": [
+      {
+        "title": "5 panels or 6 panels",
+        "text": "A five-panel shape can provide one uninterrupted front area; a six-panel shape usually has a centre-front seam. Check the actual pattern before centring a logo. Our catalogue shows a mesh-back trucker and a solid five-panel snapback; a five-panel mesh variant needs its own build confirmation."
+      },
+      {
+        "title": "Woven or foam front",
+        "text": "Woven front panels give a fabric face; foam fronts give a padded face. Both are listed among our trucker customization options. Specify the chosen front material and firmness, then confirm it with the sample. Decoration suitability depends on that material and your artwork."
+      },
+      {
+        "title": "Mesh and colour matching",
+        "text": "Specify mesh colour alongside the front fabric and snapback. Our trucker reference uses hex mesh; polyester mesh and cotton twill use different colour systems, so do not assume an identical colour match. Check the actual combination under the same light on the sample."
+      },
+      {
+        "title": "Seams, artwork and decoration",
+        "text": "For a centre-front seam, check whether fine lettering or a printed area crosses it. Send logo size, position and method: flat embroidery, screen print or a patch. Confirm alignment, small lettering and patch edges on the sample; do not approve from a flat mock-up alone."
+      }
+    ],
+    "ordersHeading": "Prepare a 300-piece trial or a 5,000-piece retail RFQ",
+    "ordersLead": "These are purchasing scenarios, not past customer orders. MOQ is 50 pieces per style, colour and size. The published standard baseball cap price table is not a trucker hat quotation.",
+    "orders": [
+      {
+        "title": "300-piece trial order",
+        "items": [
+          "Quantity: list pieces for every style, colour and size; for example one style in 3 colours × 100 pieces. Different styles are quoted separately.",
+          "Materials: choose woven or foam front, mesh colour, brim and closure; attach a reference or tech pack.",
+          "Logo: attach artwork, dimensions, positions and decoration method; flag lettering or artwork that crosses a seam.",
+          "Labels and packing: specify woven labels, hangtags and any retail packaging; ask the quotation to list the included items.",
+          "Sample: confirm front shape, fit, colour combination and decoration before bulk approval.",
+          "Timing: samples normally take 7–15 days after artwork and fabric confirmation; bulk normally takes 25–30 days after sample approval. Confirm the schedule for this build.",
+          "Destination: send country, postcode and full delivery address for a separate freight quote; give the required arrival date, allowing for transit."
+        ]
+      },
+      {
+        "title": "5,000-piece retail order",
+        "items": [
+          "Quantity: provide a style/colour/size breakdown, for example one style in 5 colours × 1,000 pieces, and identify any separate retail SKUs.",
+          "Materials: specify front fabric or foam, mesh colour and construction, brim and snapback; confirm the final combination on the sample.",
+          "Logo: provide production artwork with dimensions and positions for embroidery, printing or patches; confirm detail across the front seam.",
+          "Labels and packing: supply label artwork, placement, hangtags, barcode requirements and carton/retail packing instructions for quotation and feasibility review.",
+          "Sample: approve a pre-production sample and the final specification for each distinct build; use them as the batch-checking reference.",
+          "Timing: 25–30 days after sample approval is the normal bulk reference; the 5,000-piece schedule, multiple styles and any staged dispatch must be confirmed in the quotation.",
+          "Destination: send the full destination and required arrival date; request an EXW cap price and a separate freight or DDP quote from the forwarder."
+        ]
+      }
+    ],
+    "priceHeading": "What determines a trucker hat quote?",
+    "priceText": "Front material, mesh, panel construction, colour splits, logo method and size, additional positions, labels and packing all affect the quote. We do not publish an unverified trucker price range. Send the specification and quantities to receive an EXW quote with shipping separately confirmed; special processes are quoted per design.",
+    "samplesHeading": "Existing catalogue references: front and back details",
+    "samplesNote": "The catalogue images are design renderings for reference, not workshop photographs or evidence of a customer order. Only one mesh-back trucker design is available in the current catalogue; the second reference below is a solid-cap comparison. Final construction is confirmed by a physical sample.",
+    "samples": [
+      {
+        "title": "B0024 · Woven front, mesh back",
+        "text": "The Tire Stripe Mesh Trucker reference shows a woven front, hex-mesh back and plastic snapback. Check front logo position against the panel seam and stripe artwork. The rear view helps specify mesh joins, the back opening and closure; it does not show the inside finish.",
+        "captions": [
+          "Front: logo and stripe placement",
+          "Back: mesh, opening and snapback"
+        ]
+      },
+      {
+        "title": "B0036 · Solid five-panel comparison",
+        "text": "Souvenir Patch Snapback has five solid cotton-twill panels, not a mesh back. Use its uninterrupted front and arched embroidered patch as a logo-layout comparison. Check patch alignment, edge attachment, rope position and brim embroidery on the sample. This is not a second trucker sample.",
+        "captions": [
+          "Front: patch, rope and brim decoration",
+          "Side: solid panel construction"
+        ]
+      }
+    ],
+    "quote": "Send your trucker specification for a quote →",
+    "faq": [
+      {
+        "q": "How do I request a price for 300 trucker hats?",
+        "a": "Send style/colour/size quantities, front material and mesh, logo artwork and positions, labels and packing, sample requirements, required arrival date and destination. MOQ is 50 per style, colour and size. We quote the trucker specification separately; standard cotton baseball cap tiers do not apply."
+      },
+      {
+        "q": "What should a 5,000-piece retail order confirm?",
+        "a": "Confirm the SKU quantity breakdown, materials, logo methods, labels and retail packing, the approved pre-production sample, and destination. Normal bulk production is 25–30 days after sample approval, plus transit; the specific 5,000-piece schedule and any staged dispatch are confirmed with the quote."
+      },
+      {
+        "q": "Does a centre-front seam affect my logo?",
+        "a": "It can affect fine lettering, printing and alignment. Send the artwork dimensions and position before choosing the pattern or decoration method. Confirm the result on the pre-production sample."
+      }
+    ]
+  },
+  "es": {
+    "heading": "Elige la estructura antes de colocar el logo",
+    "lead": "Empieza por el panel frontal y el diseño del logo; después confirma la malla y el cierre en una muestra de preproducción. El número de paneles no define por sí solo el tejido, el ajuste ni la decoración.",
+    "structures": [
+      {
+        "title": "5 o 6 paneles",
+        "text": "Una forma de cinco paneles puede ofrecer un frente continuo; una de seis suele tener una costura central delante. Revisa el patrón antes de centrar el logo. El catálogo muestra una trucker con malla y una snapback de cinco paneles de tela; una variante de cinco paneles con malla requiere confirmar su construcción."
+      },
+      {
+        "title": "Frente de tejido o espuma",
+        "text": "El tejido aporta una superficie textil y la espuma una superficie acolchada. Ambos figuran entre las opciones de personalización trucker. Especifica el material y la firmeza y confírmalos en la muestra. La técnica del logo depende del material y del diseño."
+      },
+      {
+        "title": "Malla y combinación de colores",
+        "text": "Indica el color de la malla junto al tejido frontal y el snapback. La referencia trucker usa malla hexagonal; la malla de poliéster y la sarga de algodón tienen sistemas de color distintos, por lo que no hay que suponer una coincidencia exacta. Revisa la combinación real bajo la misma luz."
+      },
+      {
+        "title": "Costuras, diseño y decoración",
+        "text": "Si hay costura central, revisa si las letras pequeñas o el área impresa la cruzan. Envía tamaño, posición y técnica: bordado plano, serigrafía o parche. Confirma alineación, letras y bordes del parche en la muestra; una imagen plana no basta para aprobar."
+      }
+    ],
+    "ordersHeading": "Prepara una consulta de 300 piezas o un pedido de tienda de 5.000",
+    "ordersLead": "Son escenarios de compra, no pedidos de clientes anteriores. Mínimo 50 piezas por modelo, color y talla. La tabla de precios de béisbol estándar no es un presupuesto trucker.",
+    "orders": [
+      {
+        "title": "Prueba de 300 piezas",
+        "items": [
+          "Cantidad: desglosa cada modelo, color y talla; por ejemplo un modelo en 3 colores × 100 piezas. Los modelos distintos se cotizan aparte.",
+          "Materiales: frente de tejido o espuma, color de malla, visera y cierre; adjunta una referencia o ficha técnica.",
+          "Logo: adjunta el diseño, dimensiones, posiciones y técnica; señala si cruza alguna costura.",
+          "Etiquetas y embalaje: indica etiquetas tejidas, colgantes y embalaje de tienda; pide que el presupuesto detalle lo incluido.",
+          "Muestra: confirma forma frontal, ajuste, combinación de colores y decoración antes de aprobar producción.",
+          "Plazos: muestra normalmente en 7–15 días tras confirmar diseño y tejido; producción normalmente en 25–30 días tras aprobar la muestra. Confirma el calendario del modelo.",
+          "Destino: país, código postal y dirección completa para cotizar transporte aparte; indica fecha de llegada y contempla el tránsito."
+        ]
+      },
+      {
+        "title": "Pedido de tienda de 5.000 piezas",
+        "items": [
+          "Cantidad: desglosa modelos, colores y tallas, por ejemplo un modelo en 5 colores × 1.000 piezas, e identifica los SKU de tienda.",
+          "Materiales: tejido frontal o espuma, color y estructura de malla, visera y snapback; confirma la combinación en la muestra.",
+          "Logo: diseño de producción, medidas y posiciones de bordado, impresión o parches; confirma detalles sobre la costura frontal.",
+          "Etiquetas y embalaje: diseño y ubicación de etiquetas, colgantes, requisitos de códigos de barras y cajas para revisión de viabilidad y presupuesto.",
+          "Muestra: aprueba una muestra de preproducción y la ficha final de cada construcción distinta como referencia de control de lote.",
+          "Plazos: la referencia normal es 25–30 días desde la aprobación; el calendario de 5.000 piezas, varios modelos y envíos parciales se confirma en el presupuesto.",
+          "Destino: dirección y fecha de llegada; pide precio EXW de las gorras y transporte o DDP por separado con el transitario."
+        ]
+      }
+    ],
+    "priceHeading": "¿Qué determina el presupuesto trucker?",
+    "priceText": "Material frontal, malla, paneles, reparto de colores, técnica y tamaño de logo, posiciones extra, etiquetas y embalaje influyen en el precio. No publicamos un rango trucker sin verificar. Envía especificaciones y cantidades para un presupuesto EXW, con transporte confirmado aparte; procesos especiales según diseño.",
+    "samplesHeading": "Referencias del catálogo: detalles delanteros y traseros",
+    "samplesNote": "Las imágenes del catálogo son renders de diseño, no fotos de taller ni pruebas de pedidos de clientes. Solo hay un diseño trucker con malla en el catálogo actual; la segunda referencia es una comparación de tela. La construcción final se confirma con una muestra física.",
+    "samples": [
+      {
+        "title": "B0024 · Frente de tejido y espalda de malla",
+        "text": "Tire Stripe Mesh Trucker muestra un frente tejido, malla hexagonal y snapback plástico. Revisa la posición del logo frente a la costura y las rayas. La vista trasera ayuda a definir uniones de malla, abertura y cierre; no muestra el acabado interior.",
+        "captions": [
+          "Frente: posición de logo y rayas",
+          "Espalda: malla, abertura y snapback"
+        ]
+      },
+      {
+        "title": "B0036 · Comparación de cinco paneles de tela",
+        "text": "Souvenir Patch Snapback tiene cinco paneles de sarga de algodón, no malla trasera. Su frente continuo y parche bordado arqueado sirven para comparar la disposición del logo. Revisa alineación y fijación del parche, cuerda y bordado de visera en la muestra. No es una segunda muestra trucker.",
+        "captions": [
+          "Frente: parche, cuerda y visera",
+          "Lateral: paneles de tela"
+        ]
+      }
+    ],
+    "quote": "Envía tus especificaciones trucker para cotizar →",
+    "faq": [
+      {
+        "q": "¿Cómo pido precio para 300 gorras trucker?",
+        "a": "Envía cantidades por modelo, color y talla, material frontal y malla, logo y posiciones, etiquetas y embalaje, requisitos de muestra, fecha de llegada y destino. Mínimo 50 por modelo, color y talla. Cotizamos la trucker por separado; no se aplican los tramos de béisbol estándar."
+      },
+      {
+        "q": "¿Qué debe confirmar un pedido de tienda de 5.000 piezas?",
+        "a": "Desglose de SKU, materiales, técnicas de logo, etiquetas y embalaje, muestra de preproducción aprobada y destino. La referencia normal es 25–30 días tras aprobar la muestra, más tránsito; el calendario concreto de 5.000 piezas y los envíos parciales se confirman con el presupuesto."
+      },
+      {
+        "q": "¿La costura frontal central afecta al logo?",
+        "a": "Puede afectar a letras pequeñas, impresión y alineación. Envía dimensiones y posición del diseño antes de elegir patrón y técnica. Confirma el resultado en la muestra de preproducción."
+      }
+    ]
+  },
+  "fr": {
+    "heading": "Choisir la structure avant de placer le logo",
+    "lead": "Commencez par le panneau avant et le logo, puis validez la maille et la fermeture sur un échantillon de pré-production. Le nombre de panneaux ne définit pas à lui seul le tissu, le porté ou la décoration.",
+    "structures": [
+      {
+        "title": "5 ou 6 panneaux",
+        "text": "Une forme à cinq panneaux peut offrir un devant continu ; une forme à six panneaux présente généralement une couture centrale devant. Vérifiez le patron avant de centrer le logo. Le catalogue montre une trucker à dos en maille et une snapback à cinq panneaux pleins ; une variante à cinq panneaux en maille demande sa propre validation de construction."
+      },
+      {
+        "title": "Devant tissé ou en mousse",
+        "text": "Le tissu offre une surface textile, la mousse une surface rembourrée. Les deux figurent dans nos options trucker. Précisez matière et rigidité, puis validez-les sur l’échantillon. La compatibilité de la décoration dépend du matériau et du visuel."
+      },
+      {
+        "title": "Maille et harmonie des couleurs",
+        "text": "Précisez la couleur de la maille, du tissu avant et du snapback. La référence trucker utilise une maille hexagonale ; polyester et sergé de coton ont des systèmes de couleur différents, donc une correspondance exacte ne doit pas être présumée. Vérifiez l’ensemble réel sous le même éclairage."
+      },
+      {
+        "title": "Coutures, visuel et décoration",
+        "text": "En présence d’une couture centrale, vérifiez si les petites lettres ou la zone imprimée la traversent. Envoyez dimensions, emplacement et procédé : broderie à plat, sérigraphie ou patch. Validez alignement, petites lettres et bords du patch sur l’échantillon ; une maquette à plat ne suffit pas."
+      }
+    ],
+    "ordersHeading": "Préparer un essai de 300 pièces ou une commande boutique de 5 000",
+    "ordersLead": "Ce sont des scénarios d’achat, pas des commandes de clients passées. Minimum 50 pièces par modèle, couleur et taille. Le tableau baseball standard n’est pas un devis trucker.",
+    "orders": [
+      {
+        "title": "Essai de 300 pièces",
+        "items": [
+          "Quantités : détail par modèle, couleur et taille ; par exemple un modèle en 3 couleurs × 100 pièces. Les modèles différents sont chiffrés séparément.",
+          "Matières : devant tissé ou mousse, couleur de maille, visière et fermeture ; joindre référence ou dossier technique.",
+          "Logo : visuel, dimensions, positions et procédé ; signaler les détails qui traversent une couture.",
+          "Étiquettes et emballage : étiquettes tissées, volantes et emballage boutique ; faire préciser les éléments inclus au devis.",
+          "Échantillon : valider forme du devant, porté, couleurs et décoration avant la production.",
+          "Délais : échantillon normalement en 7–15 jours après confirmation du visuel et du tissu ; série normalement en 25–30 jours après approbation. Confirmer le calendrier du modèle.",
+          "Destination : pays, code postal et adresse complète pour le transport séparé ; indiquer date d’arrivée requise et temps de transit."
+        ]
+      },
+      {
+        "title": "Commande boutique de 5 000 pièces",
+        "items": [
+          "Quantités : détail modèle/couleur/taille, par exemple un modèle en 5 couleurs × 1 000 pièces ; identifier les SKU de vente.",
+          "Matières : tissu avant ou mousse, couleur et structure de maille, visière et snapback ; valider l’ensemble sur l’échantillon.",
+          "Logo : fichiers de production, dimensions et positions de broderie, impression ou patchs ; valider les détails sur la couture avant.",
+          "Étiquettes et emballage : visuels, emplacements, étiquettes volantes, exigences de codes-barres et cartons pour devis et étude de faisabilité.",
+          "Échantillon : approuver un échantillon de pré-production et la fiche finale de chaque construction distincte, comme référence de contrôle des lots.",
+          "Délais : 25–30 jours après approbation est la référence normale ; le calendrier de 5 000 pièces, les modèles multiples et expéditions échelonnées sont confirmés au devis.",
+          "Destination : adresse complète et date d’arrivée ; demander prix EXW des casquettes et devis transport ou DDP séparé via le transitaire."
+        ]
+      }
+    ],
+    "priceHeading": "Quels éléments déterminent le devis trucker ?",
+    "priceText": "Matière avant, maille, panneaux, répartition des couleurs, procédé et taille du logo, positions supplémentaires, étiquettes et emballage influencent le prix. Nous ne publions pas de fourchette trucker non vérifiée. Envoyez spécifications et quantités pour un devis EXW, transport confirmé séparément ; procédés spéciaux selon le design.",
+    "samplesHeading": "Références du catalogue : détails avant et arrière",
+    "samplesNote": "Les images du catalogue sont des rendus de conception, pas des photos d’atelier ni des preuves de commandes clients. Un seul design trucker à dos en maille est disponible ; la deuxième référence est une comparaison en tissu plein. La construction finale est confirmée par un échantillon physique.",
+    "samples": [
+      {
+        "title": "B0024 · Devant tissé, dos en maille",
+        "text": "Tire Stripe Mesh Trucker montre un devant tissé, un dos en maille hexagonale et un snapback plastique. Vérifiez le placement du logo par rapport à la couture et aux rayures. La vue arrière aide à préciser jonctions de maille, ouverture et fermeture ; elle ne montre pas la finition intérieure.",
+        "captions": [
+          "Avant : placement du logo et des rayures",
+          "Arrière : maille, ouverture et snapback"
+        ]
+      },
+      {
+        "title": "B0036 · Comparaison à cinq panneaux pleins",
+        "text": "Souvenir Patch Snapback possède cinq panneaux en sergé de coton, sans dos en maille. Son devant continu et son patch brodé arqué servent de comparaison pour le logo. Vérifiez alignement et fixation du patch, corde et broderie de visière sur l’échantillon. Ce n’est pas un deuxième échantillon trucker.",
+        "captions": [
+          "Avant : patch, corde et visière",
+          "Côté : construction en tissu plein"
+        ]
+      }
+    ],
+    "quote": "Envoyez vos spécifications trucker pour un devis →",
+    "faq": [
+      {
+        "q": "Comment demander un prix pour 300 casquettes trucker ?",
+        "a": "Envoyez quantités par modèle/couleur/taille, matière avant et maille, logo et positions, étiquettes et emballage, exigences d’échantillon, date d’arrivée et destination. Minimum 50 par modèle, couleur et taille. La trucker est chiffrée séparément ; les paliers baseball standard ne s’appliquent pas."
+      },
+      {
+        "q": "Que confirmer pour une commande boutique de 5 000 pièces ?",
+        "a": "Détail des SKU, matières, procédés de logo, étiquettes et emballage, échantillon de pré-production approuvé et destination. La référence normale est 25–30 jours après approbation, plus transit ; le calendrier concret de 5 000 pièces et les expéditions échelonnées sont confirmés au devis."
+      },
+      {
+        "q": "La couture centrale avant affecte-t-elle le logo ?",
+        "a": "Elle peut affecter petites lettres, impression et alignement. Envoyez dimensions et position avant de choisir patron et procédé. Validez le résultat sur l’échantillon de pré-production."
+      }
+    ]
+  },
+  "de": {
+    "heading": "Erst die Konstruktion wählen, dann das Logo platzieren",
+    "lead": "Beginnen Sie mit Vorderteil und Logo, bestätigen Sie anschließend Mesh und Verschluss am Vorproduktionsmuster. Die Panelzahl allein bestimmt weder Stoff noch Passform oder Veredelung.",
+    "structures": [
+      {
+        "title": "5 oder 6 Panels",
+        "text": "Eine Form mit fünf Panels kann eine durchgehende Frontfläche bieten; sechs Panels haben meist eine vordere Mittelnaht. Prüfen Sie den Schnitt vor der Logoplatzierung. Der Katalog zeigt eine Trucker-Cap mit Mesh-Rücken und eine Snapback mit fünf geschlossenen Panels; eine Mesh-Variante mit fünf Panels braucht eine eigene Konstruktionsbestätigung."
+      },
+      {
+        "title": "Gewebe- oder Schaumstofffront",
+        "text": "Gewebe bietet eine textile Oberfläche, Schaumstoff eine gepolsterte. Beide stehen in unseren Trucker-Optionen. Geben Sie Material und Festigkeit an und bestätigen Sie sie am Muster. Ob die Veredelung passt, hängt von Material und Motiv ab."
+      },
+      {
+        "title": "Mesh und Farbabstimmung",
+        "text": "Geben Sie Mesh-Farbe, Frontstoff und Snapback an. Unsere Trucker-Referenz verwendet Hex-Mesh; Polyestermesh und Baumwoll-Twill haben unterschiedliche Farbsysteme, daher ist keine identische Farbübereinstimmung vorauszusetzen. Prüfen Sie die reale Kombination unter demselben Licht."
+      },
+      {
+        "title": "Nähte, Motiv und Veredelung",
+        "text": "Bei einer vorderen Mittelnaht prüfen Sie, ob kleine Schrift oder Druckflächen darüber verlaufen. Senden Sie Logomaße, Positionen und Verfahren: Flachstickerei, Siebdruck oder Patch. Bestätigen Sie Ausrichtung, Schrift und Patchkanten am Muster; ein flaches Mock-up allein genügt nicht."
+      }
+    ],
+    "ordersHeading": "Anfrage für 300 Stück oder 5.000 Stück für den Einzelhandel vorbereiten",
+    "ordersLead": "Dies sind Einkaufsszenarien, keine früheren Kundenaufträge. Mindestens 50 Stück pro Modell, Farbe und Größe. Die Standard-Baseballcap-Preistabelle ist kein Trucker-Angebot.",
+    "orders": [
+      {
+        "title": "Testbestellung mit 300 Stück",
+        "items": [
+          "Menge: nach Modell, Farbe und Größe aufteilen; zum Beispiel ein Modell in 3 Farben × 100 Stück. Verschiedene Modelle werden separat kalkuliert.",
+          "Material: Gewebe- oder Schaumstofffront, Mesh-Farbe, Schirm und Verschluss; Referenz oder Tech-Pack beifügen.",
+          "Logo: Datei, Maße, Positionen und Verfahren angeben; Motive über einer Naht kennzeichnen.",
+          "Etiketten und Verpackung: Webetiketten, Hängeetiketten und Verkaufsverpackung nennen; enthaltene Leistungen im Angebot auflisten lassen.",
+          "Muster: Frontform, Passform, Farbkombination und Veredelung vor Serienfreigabe bestätigen.",
+          "Zeit: Muster normalerweise 7–15 Tage nach Bestätigung von Motiv und Stoff; Serie normalerweise 25–30 Tage nach Musterfreigabe. Den Modellterminplan bestätigen lassen.",
+          "Ziel: Land, Postleitzahl und vollständige Adresse für ein separates Frachtangebot; gewünschten Ankunftstermin mit Transportzeit angeben."
+        ]
+      },
+      {
+        "title": "Einzelhandelsauftrag mit 5.000 Stück",
+        "items": [
+          "Menge: Modell/Farbe/Größe aufteilen, etwa ein Modell in 5 Farben × 1.000 Stück; Einzelhandels-SKUs kennzeichnen.",
+          "Material: Frontstoff oder Schaumstoff, Mesh-Farbe und Aufbau, Schirm und Snapback; endgültige Kombination am Muster bestätigen.",
+          "Logo: Produktionsdateien, Maße und Positionen für Stickerei, Druck oder Patches; Details über der Frontnaht bestätigen.",
+          "Etiketten und Verpackung: Vorlagen, Positionen, Hängeetiketten, Barcodeanforderungen und Karton-/Verkaufsverpackung zur Machbarkeitsprüfung und Kalkulation senden.",
+          "Muster: Vorproduktionsmuster und endgültige Spezifikation für jede unterschiedliche Konstruktion als Referenz zur Chargenprüfung freigeben.",
+          "Zeit: 25–30 Tage nach Musterfreigabe ist die normale Referenz; Terminplan für 5.000 Stück, mehrere Modelle und Teillieferungen im Angebot bestätigen lassen.",
+          "Ziel: vollständige Adresse und Ankunftstermin; EXW-Cappreis und separates Fracht- oder DDP-Angebot des Spediteurs anfragen."
+        ]
+      }
+    ],
+    "priceHeading": "Was bestimmt den Preis einer Trucker-Cap?",
+    "priceText": "Frontmaterial, Mesh, Panels, Farbaufteilung, Logoverfahren und -größe, zusätzliche Positionen, Etiketten und Verpackung beeinflussen den Preis. Wir veröffentlichen keine ungeprüfte Trucker-Preisspanne. Senden Sie Spezifikation und Mengen für ein EXW-Angebot mit separat bestätigtem Versand; Sonderverfahren werden je Design kalkuliert.",
+    "samplesHeading": "Vorhandene Katalogreferenzen: Front- und Rückendetails",
+    "samplesNote": "Die Katalogbilder sind Design-Renderings, keine Werkstattfotos oder Nachweise für Kundenaufträge. Im aktuellen Katalog ist nur ein Trucker-Design mit Mesh-Rücken verfügbar; die zweite Referenz ist ein Vergleich mit geschlossenen Stoffpanels. Die endgültige Konstruktion wird am physischen Muster bestätigt.",
+    "samples": [
+      {
+        "title": "B0024 · Gewebefront und Mesh-Rücken",
+        "text": "Tire Stripe Mesh Trucker zeigt Gewebefront, Hex-Mesh-Rücken und Kunststoff-Snapback. Prüfen Sie die Logoposition gegenüber Panelnaht und Streifenmotiv. Die Rückansicht hilft bei Mesh-Verbindungen, Öffnung und Verschluss; die Innenverarbeitung ist nicht sichtbar.",
+        "captions": [
+          "Front: Logo- und Streifenposition",
+          "Rücken: Mesh, Öffnung und Snapback"
+        ]
+      },
+      {
+        "title": "B0036 · Vergleich mit fünf geschlossenen Panels",
+        "text": "Souvenir Patch Snapback hat fünf geschlossene Baumwoll-Twill-Panels, keinen Mesh-Rücken. Durchgehende Front und bogenförmiger Stickpatch dienen als Vergleich für das Logolayout. Patchausrichtung und Befestigung, Kordel und Schirmstickerei am Muster prüfen. Dies ist kein zweites Trucker-Muster.",
+        "captions": [
+          "Front: Patch, Kordel und Schirm",
+          "Seite: geschlossene Stoffpanels"
+        ]
+      }
+    ],
+    "quote": "Trucker-Spezifikation für ein Angebot senden →",
+    "faq": [
+      {
+        "q": "Wie frage ich einen Preis für 300 Trucker-Caps an?",
+        "a": "Senden Sie Modell-/Farb-/Größenmengen, Frontmaterial und Mesh, Logo und Positionen, Etiketten und Verpackung, Musteranforderungen, Ankunftstermin und Ziel. Mindestens 50 pro Modell, Farbe und Größe. Trucker-Caps werden separat angeboten; Standard-Baseballcap-Preisstaffeln gelten dafür nicht."
+      },
+      {
+        "q": "Was muss ein Einzelhandelsauftrag mit 5.000 Stück bestätigen?",
+        "a": "SKU-Aufteilung, Materialien, Logoverfahren, Etiketten und Verkaufsverpackung, freigegebenes Vorproduktionsmuster und Ziel. Normal sind 25–30 Tage nach Musterfreigabe plus Transport; der konkrete Plan für 5.000 Stück und Teillieferungen wird im Angebot bestätigt."
+      },
+      {
+        "q": "Beeinflusst die vordere Mittelnaht mein Logo?",
+        "a": "Sie kann kleine Schrift, Druck und Ausrichtung beeinflussen. Senden Sie Motivmaße und Position vor der Wahl von Schnitt und Verfahren. Bestätigen Sie das Ergebnis am Vorproduktionsmuster."
+      }
+    ]
+  }
+}

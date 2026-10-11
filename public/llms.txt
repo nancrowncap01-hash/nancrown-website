@@ -1,6 +1,6 @@
 # NanCrown
 
-Last updated: 2026-10-09
+Last updated: 2026-10-11
 
 > NanCrown is a custom cap and hat manufacturer in Guangzhou, China. We make private-label caps and hats for brands, from 50 pieces per colour, with samples in 7–15 days and bulk production in 25–30 days.
 
@@ -8,7 +8,8 @@ Last updated: 2026-10-09
 
 - Founded 2015; about 2,000 m² facility; 30+ skilled workers; capacity 100,000+ caps per month; customers in 50+ countries.
 - Production: cutting, sewing and assembly in our own workshop. Embroidery, printing and washing are done by long-term partner workshops, and every batch is checked by us.
-- Minimum order: 50 pieces per colour, per style. Colours can be mixed within one style to reach a price tier.
+- Minimum order: 50 pieces per style, per colour and per size. Same-style colours may reach a price tier together, but each colour/size still needs 50; 100 pieces cannot be split into 3 colours. Different styles do not combine for a tier.
+- Reference prices effective 2026-10-09; label inclusion clarified 2026-10-11. These tiers apply only to standard cotton twill baseball caps, not trucker hats or running caps. Shipping is excluded; special processes are quoted separately.
 - Indicative price per cap, standard build (6-panel cotton twill, flat embroidered logo, one woven label), one style, ex-works Guangzhou:
   - 50–99 pieces: US$7.0–7.7
   - 100–299 pieces: US$4.3–5.7
@@ -17,13 +18,16 @@ Last updated: 2026-10-09
   - 3D puff embroidery, patches, washing, special fabrics, custom hardware and packaging are quoted per design.
 - Larger orders: capacity is 100,000+ caps a month; published price for a standard cap is US$2.9–3.6 at 500+ pieces, and orders of 1,000 pieces or more get a volume quote. Every batch is made to one approved pre-production sample.
 - Samples: US$50 per sample for a standard design, shipping not included; complex designs are quoted separately. Ready in 7–15 days; the fee is refunded when 1,000+ pieces of that design are ordered.
-- Custom woven label: one is included in the sample. In bulk it is included in the standard price when the quantity is large enough; on very small orders (around 50 pieces) it has a minimum setup cost of about US$0.4–0.6 per cap.
+- Custom woven label: One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification.
 - Performance fabrics (quick-dry, breathable, e.g. for running caps): about US$0.5–1 more per cap than standard cotton twill.
 - Packing: each cap in a poly bag, 25 per inner box, 100 per carton; custom packaging quoted separately.
 - Bulk production: 25–30 days after pre-production sample approval, plus shipping time.
 - Payment: 50% deposit; 50% balance before shipping. Before the order ships, we send the customer photos of the finished order.
 - Shipping: ex-works Guangzhou; courier or freight to the door; DDP (delivered duties paid) quotes available through our forwarders. As a guide, DDP for about 100 standard caps to the US adds US$2–3 or more per cap, depending on weight and speed.
 - Quality: every production stage is checked; bulk starts only after the customer approves a pre-production sample; third-party inspection is welcome; live video calls of the workshop on request.
+
+- Standard baseball cap budget examples (one style, EXW, one front flat embroidered logo and one custom woven label included; samples and shipping excluded): 50 × US$7.0–7.7 = US$350–385; 100 × US$4.3–5.7 = US$430–570; 300 × US$3.6–4.3 = US$1,080–1,290; 500 × US$2.9–3.6 = US$1,450–1,800.
+- Trucker hats: send style/colour/size quantities, front fabric and mesh, logo method/position, labels/packing, sample approval, required arrival date and destination. For 300-piece trials or 5,000-piece retail orders, see /custom/trucker-hats#order-checklists. There is no verified published trucker price range; quote each build.
 
 ## What we make
 

@@ -314,7 +314,7 @@
     "q1": "Wie lange dauert die Produktion?",
     "a1": "Unsere Standardproduktionszeit beträgt 25–30 Tage, je nach Menge und Komplexität der Individualisierung. Eilaufträge können organisiert werden — kontaktieren Sie uns, um Ihren Zeitplan zu besprechen.",
     "q2": "Was ist Ihre Mindestbestellmenge (MOQ)?",
-    "a2": "Unsere MOQ beginnt ab 50 Stück pro Farbe. Für Erstbestellungen bieten wir flexible Mengen an, um Ihnen beim Marktest zu helfen.",
+    "a2": "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe kombiniert werden, mit mindestens 50 je Farbe/Größe. Verschiedene Modelle werden separat kalkuliert.",
     "q3": "Können Sie individuelle Designs mit unserem Logo produzieren?",
     "a3": "Selbstverständlich! Wir bieten vollständige Individualisierung einschließlich Stickerei, Siebdruck, gewebte Etiketten, Aufnäher und mehr. Senden Sie uns einfach Ihr Logo und Ihre Designanforderungen.",
     "q4": "Welche Materialien verwenden Sie?",
@@ -421,7 +421,7 @@
       }
     ],
     "specMoqLabel": "Mindestbestellmenge",
-    "specMoqValue": "<b>50 Stück</b> pro Farbe — bei Erstbestellungen flexibel, solange Sie den Markt testen.",
+    "specMoqValue": "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe kombiniert werden, mit mindestens 50 je Farbe/Größe. Verschiedene Modelle werden separat kalkuliert.",
     "specSampleLabel": "Musterlieferzeit",
     "specSampleValue": "<b>7–15 Tage</b> ab bestätigtem Design und Stoff, Korrekturen inklusive.",
     "specBulkLabel": "Produktionslieferzeit",

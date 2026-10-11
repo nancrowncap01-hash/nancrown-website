@@ -196,6 +196,7 @@ export interface GuidePageProps {
   breadcrumbLabel: string;
   // CTA 上方的跳转链接(pricing↔start-a-hat-brand 互链),两页都传,可选
   crossLink?: { href: string; label: string };
+  children?: ReactNode;
 }
 
 export default function GuidePage({
@@ -203,6 +204,7 @@ export default function GuidePage({
   homeLabel,
   breadcrumbLabel,
   crossLink,
+  children,
 }: GuidePageProps) {
   return (
     <>
@@ -239,6 +241,8 @@ export default function GuidePage({
           </section>
         )
       )}
+
+      {children}
 
       {/* FAQ:用原生 <details>/<summary>,答案文字始终在 HTML 里,方便搜索引擎直接读到 */}
       <section className="py-16 bg-gray-50">

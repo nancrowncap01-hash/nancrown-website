@@ -5,6 +5,7 @@ import { guides } from "@/lib/guide-content";
 import { pageMetadata } from "@/lib/seo";
 import GuidePage from "@/components/guide/GuidePage";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
+import BrandBuyingGuide from "@/components/BrandBuyingGuide";
 
 export async function generateMetadata({
   params,
@@ -49,7 +50,9 @@ export default async function StartAHatBrandPage({
         homeLabel={tNav("home")}
         breadcrumbLabel={tFooter("forNewBrands")}
         crossLink={{ href: "/pricing", label: tGuides("brandToPricing") }}
-      />
+      >
+        <BrandBuyingGuide locale={locale as Locale} />
+      </GuidePage>
     </>
   );
 }

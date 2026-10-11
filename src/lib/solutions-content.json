@@ -911,7 +911,7 @@
           },
           {
             "type": "p",
-            "text": "Work back from your event: allow 7–15 days for the sample, 25–30 days for bulk production after you approve it, then shipping time. Sea freight takes longer than air, so tell us your delivery date early and we will plan the schedule with you. Our workshop makes <b>over 100,000 caps a month</b>."
+            "text": "Work back from your event: allow 7–15 days for the sample, 25–30 days for bulk production after you approve it and we receive the agreed payment, then shipping time. Sea freight takes longer than air, so tell us your delivery date early and we will plan the schedule with you. Our workshop makes <b>over 100,000 caps a month</b>."
           },
           {
             "type": "h2",
@@ -944,7 +944,7 @@
           },
           {
             "q": "How do we pay?",
-            "a": "A 50% deposit starts production, and the 50% balance is paid before shipping. We send you photos of the finished caps first."
+            "a": "Payment is based on the total order quantity: up to 200 pieces are paid in full before production; 201–500 pieces require 50% before production and 50% before shipment; over 500 pieces require 30% before production and 70% before shipment. We send photos of the finished order before shipment."
           }
         ],
         "cta": {
@@ -1008,7 +1008,7 @@
           },
           {
             "type": "p",
-            "text": "Cuenta hacia atrás desde el evento: 7–15 días para la muestra, 25–30 días de producción después de aprobarla y luego el envío. El transporte marítimo tarda más que el aéreo, así que dinos pronto la fecha de entrega y planificamos el calendario contigo. Nuestro taller fabrica <b>más de 100.000 gorras al mes</b>."
+            "text": "Cuenta hacia atrás desde el evento: 7–15 días para la muestra, 25–30 días de producción después de aprobarla y recibir el pago acordado, y luego el envío. El transporte marítimo tarda más que el aéreo, así que dinos pronto la fecha de entrega y planificamos el calendario contigo. Nuestro taller fabrica <b>más de 100.000 gorras al mes</b>."
           },
           {
             "type": "h2",
@@ -1041,7 +1041,7 @@
           },
           {
             "q": "¿Cómo se paga?",
-            "a": "Un 50% de anticipo para empezar la producción y el 50% restante antes del envío. Primero te mandamos fotos de las gorras terminadas."
+            "a": "El pago se determina según la cantidad total del pedido: hasta 200 piezas se pagan completas antes de producir; de 201 a 500 piezas se paga un 50 % antes de producir y un 50 % antes del envío; más de 500 piezas requieren un 30 % antes de producir y un 70 % antes del envío. Enviamos fotos del pedido terminado antes del envío."
           }
         ],
         "cta": {
@@ -1105,7 +1105,7 @@
           },
           {
             "type": "p",
-            "text": "Comptez à rebours depuis l'événement : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après validation, puis le transport. Le fret maritime est plus long que l'aérien : donnez-nous tôt votre date de livraison et nous planifions avec vous. Notre atelier produit <b>plus de 100 000 casquettes par mois</b>."
+            "text": "Comptez à rebours depuis l'événement : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après validation et réception du paiement convenu, puis le transport. Le fret maritime est plus long que l'aérien : donnez-nous tôt votre date de livraison et nous planifions avec vous. Notre atelier produit <b>plus de 100 000 casquettes par mois</b>."
           },
           {
             "type": "h2",
@@ -1138,7 +1138,7 @@
           },
           {
             "q": "Comment se passe le paiement ?",
-            "a": "Un acompte de 50 % lance la production, et le solde de 50 % est payé avant l'expédition. Nous vous envoyons d'abord des photos des casquettes terminées."
+            "a": "Le paiement dépend de la quantité totale de la commande : jusqu'à 200 pièces, le montant total est dû avant la production ; de 201 à 500 pièces, 50 % sont dus avant la production et 50 % avant l'expédition ; au-delà de 500 pièces, 30 % sont dus avant la production et 70 % avant l'expédition. Nous envoyons des photos de la commande terminée avant l'expédition."
           }
         ],
         "cta": {
@@ -1202,7 +1202,7 @@
           },
           {
             "type": "p",
-            "text": "Rechnen Sie vom Event zurück: 7–15 Tage für das Muster, 25–30 Tage Produktion nach der Freigabe, danach der Versand. Seefracht dauert länger als Luftfracht, nennen Sie uns den Liefertermin also früh, dann planen wir den Ablauf mit Ihnen. Unsere Werkstatt fertigt <b>über 100.000 Caps im Monat</b>."
+            "text": "Rechnen Sie vom Event zurück: 7–15 Tage für das Muster, 25–30 Tage Produktion nach der Freigabe und Eingang der vereinbarten Zahlung, danach der Versand. Seefracht dauert länger als Luftfracht, nennen Sie uns den Liefertermin also früh, dann planen wir den Ablauf mit Ihnen. Unsere Werkstatt fertigt <b>über 100.000 Caps im Monat</b>."
           },
           {
             "type": "h2",
@@ -1235,7 +1235,7 @@
           },
           {
             "q": "Wie läuft die Zahlung?",
-            "a": "50 % Anzahlung starten die Produktion, die restlichen 50 % werden vor dem Versand bezahlt. Vorab senden wir Ihnen Fotos der fertigen Caps."
+            "a": "Die Zahlung richtet sich nach der Gesamtbestellmenge: bis 200 Stück wird der Gesamtbetrag vor Produktionsbeginn bezahlt; bei 201–500 Stück sind 50 % vor Produktionsbeginn und 50 % vor dem Versand fällig; bei mehr als 500 Stück sind 30 % vor Produktionsbeginn und 70 % vor dem Versand fällig. Vor dem Versand senden wir Fotos der fertigen Bestellung."
           }
         ],
         "cta": {

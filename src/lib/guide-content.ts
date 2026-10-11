@@ -4,10 +4,10 @@
 //   /pricing            报价须知:阶梯价、起订量、样品、交期、付款、运输、质检、工厂实况
 //   /start-a-hat-brand  新品牌第一批系列:怎么规划首单、预算示例、流程
 //
-// 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(2026-09-27 版;阶梯价/样品费/付款按 2026-10-02 晚新口径):
+// 🔴 事实红线:只许用 ~/.claude/.../memory/reference_company_true_facts.md 里老板确认过的数据(阶梯价按 2026-10-09,织唛包含按 2026-10-11,付款按 2026-10-03):
 //   - 阶梯价(标准款=6 片全棉斜纹+帽前平绣+1 个织唛,EXW 广州,同一款):50–99 $7.0–7.7 / 100–299 $4.3–5.7 / 300–499 $3.6–4.3 / 500+ $2.9–3.6
 //   - 起订 50 顶/色/款;同款可混色凑档;样品普通款 $50/个(不含运费)、复杂款另报,7–15 天,同款大货满 1000 顶退样品费
-//   - 大货:样品确认后 25–30 天,另加物流时间;付款 50% 定金 + 发货前付清尾款(发货前先发大货照片;🔴 不许再写「验货通过后才付尾款」);可帮问 DDP;接受第三方验货;可视频看车间
+//   - 大货:样品确认并收到约定款项后 25–30 天,另加物流时间;付款按整单总量分档:≤200 全款生产前,201–500 50/50,>500 30/70(后两档尾款发货前;发货前先发大货照片)
 //   - 2015 年成立、约 2,000 m²、30+ 员工、月产 10 万+、客户 50+ 国家
 //   - 裁剪车缝组装自己做;刺绣/印花/水洗交长期合作工序厂、每批回厂检查(🔴 不许写 in-house / under one roof / 不外发)
 //   - 没有任何认证,一个字都不许写
@@ -106,7 +106,7 @@ const pricingEn: GuideLocaleContent = {
         "Sample fee: <b>$50 per sample</b> for a standard design, shipping not included. Complex designs are quoted separately.",
         "Sample time: <b>7–15 days</b> after we confirm your artwork and fabric.",
         "The sample fee is <b>refunded</b> when you order 1,000 pieces or more of that design.",
-        "Revisions are made before you approve. Bulk production only starts after your sign-off.",
+        "Revisions are made before you approve. Bulk production starts after your sample sign-off and receipt of the agreed payment; see payment terms below.",
       ],
     },
     { type: "h2", text: "Lead times" },
@@ -114,7 +114,7 @@ const pricingEn: GuideLocaleContent = {
       type: "steps",
       items: [
         { title: "Sample", text: "7–15 days from confirmed artwork and fabric." },
-        { title: "Bulk production", text: "25–30 days after you approve the pre-production sample." },
+        { title: "Bulk production", text: "25–30 days after you approve the pre-production sample and we receive the agreed payment." },
         {
           title: "Shipping",
           text: "Transit time depends on destination and shipping method. We confirm it together with your quote.",
@@ -124,7 +124,7 @@ const pricingEn: GuideLocaleContent = {
     { type: "h2", text: "Payment terms" },
     {
       type: "p",
-      text: "<b>50% deposit</b> to start bulk production. The <b>50% balance</b> is paid before the order ships. We send you photos of the finished order first.",
+      text: "Payment is based on the <b>total order quantity</b>: up to 200 pieces, full payment is due before production; 201–500 pieces, 50% is due before production and 50% before shipment; over 500 pieces, 30% is due before production and 70% before shipment. We send photos of the finished order before shipment.",
     },
     { type: "h2", text: "Shipping and landed cost" },
     {
@@ -175,11 +175,11 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "How long does production take?",
-      a: "Bulk production takes 25–30 days after you approve the pre-production sample, plus shipping time.",
+      a: "Bulk production takes 25–30 days after you approve the pre-production sample and we receive the agreed payment, plus shipping time.",
     },
     {
       q: "What are your payment terms?",
-      a: "A 50% deposit to start production, and the 50% balance before shipping. We send you photos of the finished caps first.",
+      a: "Payment is based on the total order quantity: up to 200 pieces, full payment is due before production; 201–500 pieces, 50% is due before production and 50% before shipment; over 500 pieces, 30% is due before production and 70% before shipment. We send photos of the finished order before shipment.",
     },
     {
       q: "Can you ship DDP?",
@@ -274,7 +274,7 @@ const pricingEs: GuideLocaleContent = {
       type: "steps",
       items: [
         { title: "Muestra", text: "7–15 días desde el arte y el tejido confirmados." },
-        { title: "Producción en volumen", text: "25–30 días después de aprobar la muestra de preproducción." },
+        { title: "Producción en volumen", text: "25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado." },
         {
           title: "Envío",
           text: "El tiempo de tránsito depende del destino y del método de envío. Te lo confirmamos junto con el presupuesto.",
@@ -284,7 +284,7 @@ const pricingEs: GuideLocaleContent = {
     { type: "h2", text: "Condiciones de pago" },
     {
       type: "p",
-      text: "<b>50 % de anticipo</b> para iniciar la producción. El <b>50 % restante</b> se paga antes del envío. Primero te mandamos fotos del pedido terminado.",
+      text: "El pago se determina según la <b>cantidad total del pedido</b>: hasta 200 piezas, el pago completo se realiza antes de producir; de 201 a 500 piezas, se paga el 50 % antes de producir y el 50 % restante antes del envío; más de 500 piezas, se paga el 30 % antes de producir y el 70 % restante antes del envío. Enviamos fotos del pedido terminado antes del envío.",
     },
     { type: "h2", text: "Envío y coste final" },
     {
@@ -295,7 +295,7 @@ const pricingEs: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Revisamos cada etapa de producción, y la producción en volumen solo empieza cuando apruebas la muestra de preproducción.",
+        "Revisamos cada etapa de producción, y la producción en volumen empieza después de que apruebas la muestra de preproducción y recibimos el pago acordado; consulta las condiciones de pago.",
         "Antes del envío te mandamos fotos del pedido terminado. También puedes revisarlo en una videollamada o mediante un inspector externo.",
         "Aceptamos inspecciones de terceros.",
         "¿Quieres ver el taller? Hacemos una videollamada en directo encantados.",
@@ -335,11 +335,11 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto tarda la producción?",
-      a: "La producción en volumen tarda 25–30 días después de aprobar la muestra de preproducción, más el tiempo de envío.",
+      a: "La producción en volumen tarda 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío.",
     },
     {
       q: "¿Cuáles son las condiciones de pago?",
-      a: "Un 50 % de anticipo para iniciar la producción y el 50 % restante antes del envío. Primero te mandamos fotos de las gorras terminadas.",
+      a: "El pago se determina según la cantidad total del pedido: hasta 200 piezas, el pago completo se realiza antes de producir; de 201 a 500 piezas, se paga el 50 % antes de producir y el 50 % restante antes del envío; más de 500 piezas, se paga el 30 % antes de producir y el 70 % restante antes del envío. Enviamos fotos de las gorras terminadas antes del envío.",
     },
     {
       q: "¿Podéis enviar en DDP?",
@@ -434,7 +434,7 @@ const pricingFr: GuideLocaleContent = {
       type: "steps",
       items: [
         { title: "Échantillon", text: "7 à 15 jours après validation du visuel et du tissu." },
-        { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon de pré-production." },
+        { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon de pré-production et réception du paiement convenu." },
         {
           title: "Expédition",
           text: "Le délai de transport dépend de la destination et du mode d'envoi. Nous le confirmons avec votre devis.",
@@ -444,7 +444,7 @@ const pricingFr: GuideLocaleContent = {
     { type: "h2", text: "Conditions de paiement" },
     {
       type: "p",
-      text: "<b>50 % d'acompte</b> pour lancer la production. Le <b>solde de 50 %</b> est réglé avant l'expédition. Nous vous envoyons d'abord des photos de la commande terminée.",
+      text: "Le paiement dépend de la <b>quantité totale de la commande</b> : jusqu'à 200 pièces, le paiement intégral est dû avant la production ; de 201 à 500 pièces, 50 % sont dus avant la production et les 50 % restants avant l'expédition ; au-delà de 500 pièces, 30 % sont dus avant la production et les 70 % restants avant l'expédition. Nous envoyons des photos de la commande terminée avant l'expédition.",
     },
     { type: "h2", text: "Expédition et coût rendu" },
     {
@@ -455,7 +455,7 @@ const pricingFr: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Chaque étape de production est contrôlée, et la série ne démarre qu'après validation de l'échantillon de pré-production.",
+        "Chaque étape de production est contrôlée, et la série démarre après validation de l'échantillon de pré-production et réception du paiement convenu ; consultez les conditions de paiement.",
         "Avant l'expédition, nous vous envoyons des photos de la commande terminée. Vous pouvez aussi la vérifier en appel vidéo ou via un inspecteur indépendant.",
         "Les inspections par un tiers sont les bienvenues.",
         "Envie de voir l'atelier ? Nous organisons volontiers un appel vidéo en direct.",
@@ -495,11 +495,11 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Combien de temps dure la production ?",
-      a: "La production en série prend 25 à 30 jours après validation de l'échantillon de pré-production, plus le délai de transport.",
+      a: "La production en série prend 25 à 30 jours après validation de l'échantillon de pré-production et réception du paiement convenu, plus le délai de transport.",
     },
     {
       q: "Quelles sont vos conditions de paiement ?",
-      a: "50 % d'acompte pour lancer la production, et le solde de 50 % avant l'expédition. Nous vous envoyons d'abord des photos des casquettes terminées.",
+      a: "Le paiement dépend de la quantité totale de la commande : jusqu'à 200 pièces, le paiement intégral est dû avant la production ; de 201 à 500 pièces, 50 % sont dus avant la production et les 50 % restants avant l'expédition ; au-delà de 500 pièces, 30 % sont dus avant la production et les 70 % restants avant l'expédition. Nous envoyons des photos des casquettes terminées avant l'expédition.",
     },
     {
       q: "Pouvez-vous expédier en DDP ?",
@@ -594,7 +594,7 @@ const pricingDe: GuideLocaleContent = {
       type: "steps",
       items: [
         { title: "Muster", text: "7–15 Tage ab bestätigter Vorlage und bestätigtem Stoff." },
-        { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Vorproduktionsmusters." },
+        { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung." },
         {
           title: "Versand",
           text: "Die Transportzeit hängt von Zielort und Versandart ab. Wir bestätigen sie zusammen mit Ihrem Angebot.",
@@ -604,7 +604,7 @@ const pricingDe: GuideLocaleContent = {
     { type: "h2", text: "Zahlungsbedingungen" },
     {
       type: "p",
-      text: "<b>50 % Anzahlung</b> zum Start der Produktion. Die <b>restlichen 50 %</b> werden vor dem Versand fällig. Vorab schicken wir Ihnen Fotos der fertigen Bestellung.",
+      text: "Die Zahlung richtet sich nach der <b>Gesamtbestellmenge</b>: bis 200 Stück ist der Gesamtbetrag vor Produktionsbeginn fällig; bei 201–500 Stück sind 50 % vor Produktionsbeginn und die restlichen 50 % vor dem Versand fällig; bei mehr als 500 Stück sind 30 % vor Produktionsbeginn und die restlichen 70 % vor dem Versand fällig. Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung.",
     },
     { type: "h2", text: "Versand und Gesamtkosten" },
     {
@@ -615,7 +615,7 @@ const pricingDe: GuideLocaleContent = {
     {
       type: "list",
       items: [
-        "Jeder Produktionsschritt wird geprüft, und die Serie startet erst nach Freigabe des Vorproduktionsmusters.",
+        "Jeder Produktionsschritt wird geprüft. Die Serie startet nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung; siehe Zahlungsbedingungen.",
         "Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung. Sie können sie auch im Live-Videocall oder durch einen externen Prüfer kontrollieren.",
         "Prüfungen durch Dritte sind willkommen.",
         "Sie möchten die Werkstatt sehen? Gerne per Live-Videocall.",
@@ -655,11 +655,11 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Wie lange dauert die Produktion?",
-      a: "Die Serienproduktion dauert 25–30 Tage nach Freigabe des Vorproduktionsmusters, zuzüglich Transportzeit.",
+      a: "Die Serienproduktion dauert 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Transportzeit.",
     },
     {
       q: "Wie sind Ihre Zahlungsbedingungen?",
-      a: "50 % Anzahlung zum Produktionsstart und die restlichen 50 % vor dem Versand. Vorab senden wir Ihnen Fotos der fertigen Caps.",
+      a: "Die Zahlung richtet sich nach der Gesamtbestellmenge: bis 200 Stück ist der Gesamtbetrag vor Produktionsbeginn fällig; bei 201–500 Stück sind 50 % vor Produktionsbeginn und die restlichen 50 % vor dem Versand fällig; bei mehr als 500 Stück sind 30 % vor Produktionsbeginn und die restlichen 70 % vor dem Versand fällig. Vor dem Versand senden wir Ihnen Fotos der fertigen Caps.",
     },
     {
       q: "Liefern Sie auch DDP?",
@@ -734,10 +734,10 @@ const brandEn: GuideLocaleContent = {
           title: "Quote and sample",
           text: "We confirm materials, decoration and price, then make a physical sample in 7–15 days. Revisions are included before you approve.",
         },
-        { title: "Bulk production", text: "25–30 days after sample approval, with checks at every stage." },
+        { title: "Bulk production", text: "25–30 days after sample approval and receipt of the agreed payment, with checks at every stage." },
         {
           title: "Inspection and shipping",
-          text: "We send you photos of the finished order before shipping; a video call or a third-party inspector is welcome too. You pay the balance, and we ship to your door.",
+          text: "We send photos of the finished order before shipping; a video call or a third-party inspector is welcome too. Any balance due under the agreed payment terms is paid before shipment, then we ship to your door.",
         },
       ],
     },
@@ -773,7 +773,7 @@ const brandEn: GuideLocaleContent = {
     },
     {
       q: "How long until I have finished hats?",
-      a: "About 7–15 days for the sample, then 25–30 days for bulk production after you approve it, plus shipping time.",
+      a: "Allow about 7–15 days for the sample, then 25–30 days for bulk production after you approve it and we receive the agreed payment, plus shipping time.",
     },
     {
       q: "Can you help with labels and packaging?",
@@ -830,10 +830,10 @@ const brandEs: GuideLocaleContent = {
           title: "Presupuesto y muestra",
           text: "Confirmamos materiales, decoración y precio, y hacemos una muestra física en 7–15 días. Las correcciones están incluidas antes de tu aprobación.",
         },
-        { title: "Producción", text: "25–30 días después de aprobar la muestra, con controles en cada etapa." },
+        { title: "Producción", text: "25–30 días después de aprobar la muestra y recibir el pago acordado, con controles en cada etapa." },
         {
           title: "Inspección y envío",
-          text: "Antes del envío te mandamos fotos del pedido terminado; también puedes verlo por videollamada o enviar un inspector externo. Pagas el resto y te lo enviamos a la puerta.",
+          text: "Antes del envío te mandamos fotos del pedido terminado; también puedes verlo por videollamada o enviar un inspector externo. Cualquier saldo pendiente según las condiciones acordadas se paga antes del envío y luego te lo enviamos a la puerta.",
         },
       ],
     },
@@ -869,7 +869,7 @@ const brandEs: GuideLocaleContent = {
     },
     {
       q: "¿Cuánto tardaré en tener las gorras terminadas?",
-      a: "Unos 7–15 días para la muestra y luego 25–30 días de producción tras tu aprobación, más el tiempo de envío.",
+      a: "Calcula unos 7–15 días para la muestra y luego 25–30 días de producción tras tu aprobación y el pago acordado, más el tiempo de envío.",
     },
     {
       q: "¿Podéis ayudar con etiquetas y embalaje?",
@@ -926,10 +926,10 @@ const brandFr: GuideLocaleContent = {
           title: "Devis et échantillon",
           text: "Nous validons matières, décoration et prix, puis réalisons un échantillon physique en 7 à 15 jours. Les corrections sont incluses avant votre validation.",
         },
-        { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon, avec des contrôles à chaque étape." },
+        { title: "Production en série", text: "25 à 30 jours après validation de l'échantillon et réception du paiement convenu, avec des contrôles à chaque étape." },
         {
           title: "Inspection et expédition",
-          text: "Avant l'expédition, nous vous envoyons des photos de la commande terminée ; vous pouvez aussi demander un appel vidéo ou mandater un inspecteur indépendant. Vous réglez le solde, et nous livrons à votre porte.",
+          text: "Avant l'expédition, nous vous envoyons des photos de la commande terminée ; vous pouvez aussi demander un appel vidéo ou mandater un inspecteur indépendant. Tout solde restant dû selon les conditions convenues est réglé avant l'expédition, puis nous livrons à votre porte.",
         },
       ],
     },
@@ -965,7 +965,7 @@ const brandFr: GuideLocaleContent = {
     },
     {
       q: "Dans combien de temps aurai-je mes casquettes ?",
-      a: "Environ 7 à 15 jours pour l'échantillon, puis 25 à 30 jours de production après votre validation, plus le délai de transport.",
+      a: "Comptez environ 7 à 15 jours pour l'échantillon, puis 25 à 30 jours de production après votre validation et réception du paiement convenu, plus le délai de transport.",
     },
     {
       q: "Pouvez-vous m'aider pour les étiquettes et l'emballage ?",
@@ -1022,10 +1022,10 @@ const brandDe: GuideLocaleContent = {
           title: "Angebot und Muster",
           text: "Wir klären Material, Veredelung und Preis und fertigen in 7–15 Tagen ein physisches Muster. Korrekturen vor Ihrer Freigabe sind inklusive.",
         },
-        { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Musters, mit Kontrollen bei jedem Schritt." },
+        { title: "Serienproduktion", text: "25–30 Tage nach Freigabe des Musters und Eingang der vereinbarten Zahlung, mit Kontrollen bei jedem Schritt." },
         {
           title: "Prüfung und Versand",
-          text: "Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung; ein Videocall oder ein externer Prüfer ist ebenfalls möglich. Sie zahlen den Rest, und wir liefern bis zu Ihnen.",
+          text: "Vor dem Versand schicken wir Ihnen Fotos der fertigen Bestellung; ein Videocall oder ein externer Prüfer ist ebenfalls möglich. Ein laut vereinbarten Zahlungsbedingungen noch offener Betrag wird vor dem Versand bezahlt, danach liefern wir bis zu Ihnen.",
         },
       ],
     },
@@ -1061,7 +1061,7 @@ const brandDe: GuideLocaleContent = {
     },
     {
       q: "Wann habe ich die fertigen Caps?",
-      a: "Etwa 7–15 Tage für das Muster, danach 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
+      a: "Planen Sie etwa 7–15 Tage für das Muster und danach 25–30 Tage Serienproduktion nach Ihrer Freigabe und Eingang der vereinbarten Zahlung ein, zuzüglich Transportzeit.",
     },
     {
       q: "Helfen Sie bei Etiketten und Verpackung?",
@@ -1138,7 +1138,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> 25–30 days after you approve the sample, plus shipping time."
+      "text": "<b>Our answer:</b> 25–30 days after you approve the sample and we receive the agreed payment, plus shipping time."
     },
     {
       "type": "h2",
@@ -1182,11 +1182,11 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Why it matters:</b> a deposit before production is normal. Be careful with suppliers who ask for 100% up front on a first order."
+      "text": "<b>Why it matters:</b> the payment schedule should be clear in writing and match the order size. Confirm each amount and due date before production starts."
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> a 50% deposit to start production, and the 50% balance before shipping. We send you photos of the finished caps first."
+      "text": "<b>Our answer:</b> payment is based on the total order quantity: up to 200 pieces are paid in full before production; 201–500 pieces require 50% before production and 50% before shipment; over 500 pieces require 30% before production and 70% before shipment. We send photos of the finished order before shipment."
     },
     {
       "type": "h2",
@@ -1222,7 +1222,7 @@ const factoryEn: GuideLocaleContent = {
         "Prices far below everyone else's, with no detail about fabric, logo method or labels.",
         "No physical sample before bulk, or a sample made in a different workshop from your bulk order.",
         "A minimum quoted per style that turns out to be per colour.",
-        "100% payment up front on a first order.",
+        "A supplier who will not put the payment schedule in writing or whose requested payment differs from the agreed order terms.",
         "No way to see the workshop, not even on a video call.",
         "Certificates or awards that the supplier cannot show you when you ask."
       ]
@@ -1322,7 +1322,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> 25–30 días después de aprobar la muestra, más el tiempo de envío."
+      "text": "<b>Nuestra respuesta:</b> 25–30 días después de aprobar la muestra y recibir el pago acordado, más el tiempo de envío."
     },
     {
       "type": "h2",
@@ -1366,11 +1366,11 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Por qué importa:</b> un anticipo antes de producir es lo normal. Ten cuidado con proveedores que piden el 100% por adelantado en un primer pedido."
+      "text": "<b>Por qué importa:</b> las condiciones de pago deben quedar claras por escrito y corresponder al tamaño del pedido. Confirma cada importe y vencimiento antes de iniciar la producción."
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> un 50% de anticipo para empezar la producción y el 50% restante antes del envío. Primero te mandamos fotos de las gorras terminadas."
+      "text": "<b>Nuestra respuesta:</b> el pago se determina según la cantidad total del pedido: hasta 200 piezas se pagan completas antes de producir; de 201 a 500 piezas se paga un 50 % antes de producir y un 50 % antes del envío; más de 500 piezas requieren un 30 % antes de producir y un 70 % antes del envío. Enviamos fotos del pedido terminado antes del envío."
     },
     {
       "type": "h2",
@@ -1506,7 +1506,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> 25 à 30 jours après la validation de l'échantillon, plus le transport."
+      "text": "<b>Notre réponse :</b> 25 à 30 jours après validation de l'échantillon et réception du paiement convenu, plus le transport."
     },
     {
       "type": "h2",
@@ -1550,11 +1550,11 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Pourquoi c'est important :</b> un acompte avant production est normal. Méfiez-vous des fournisseurs qui demandent 100 % d'avance sur une première commande."
+      "text": "<b>Pourquoi c'est important :</b> les modalités de paiement doivent être claires par écrit et correspondre au volume de la commande. Confirmez chaque montant et chaque échéance avant le début de la production."
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> 50 % d'acompte pour lancer la production, et le solde de 50 % avant l'expédition. Nous vous envoyons d'abord des photos des casquettes terminées."
+      "text": "<b>Notre réponse :</b> le paiement dépend de la quantité totale de la commande : jusqu'à 200 pièces, le montant total est dû avant la production ; de 201 à 500 pièces, 50 % sont dus avant la production et 50 % avant l'expédition ; au-delà de 500 pièces, 30 % sont dus avant la production et 70 % avant l'expédition. Nous envoyons des photos de la commande terminée avant l'expédition."
     },
     {
       "type": "h2",
@@ -1590,7 +1590,7 @@ const factoryFr: GuideLocaleContent = {
         "Des prix très en dessous de tous les autres, sans détail sur le tissu, le type de logo ou les étiquettes.",
         "Aucun échantillon physique avant la production, ou un échantillon fait dans un autre atelier que votre commande.",
         "Un minimum annoncé par modèle qui s'avère être par couleur.",
-        "100 % de paiement d'avance sur une première commande.",
+        "Un fournisseur qui refuse de confirmer par écrit les modalités de paiement ou demande un paiement différent des conditions convenues.",
         "Aucun moyen de voir l'atelier, même en appel vidéo.",
         "Des certificats ou des récompenses que le fournisseur ne peut pas vous montrer quand vous les demandez."
       ]
@@ -1690,7 +1690,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> 25–30 Tage nach der Musterfreigabe, dazu kommt der Versand."
+      "text": "<b>Unsere Antwort:</b> 25–30 Tage nach Freigabe des Musters und Eingang der vereinbarten Zahlung, dazu kommt der Versand."
     },
     {
       "type": "h2",
@@ -1734,11 +1734,11 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Warum das wichtig ist:</b> Eine Anzahlung vor der Produktion ist normal. Vorsicht bei Lieferanten, die bei einer ersten Bestellung 100 % im Voraus verlangen."
+      "text": "<b>Warum das wichtig ist:</b> Die Zahlungsbedingungen sollten schriftlich festgehalten werden und zur Bestellmenge passen. Klären Sie jeden Betrag und Fälligkeitstermin vor Produktionsbeginn."
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> 50 % Anzahlung zum Produktionsstart, die restlichen 50 % vor dem Versand. Vorab senden wir Ihnen Fotos der fertigen Caps."
+      "text": "<b>Unsere Antwort:</b> Die Zahlung richtet sich nach der Gesamtbestellmenge: bis 200 Stück wird der Gesamtbetrag vor Produktionsbeginn bezahlt; bei 201–500 Stück sind 50 % vor Produktionsbeginn und 50 % vor dem Versand fällig; bei mehr als 500 Stück sind 30 % vor Produktionsbeginn und 70 % vor dem Versand fällig. Vor dem Versand schicken wir Fotos der fertigen Bestellung."
     },
     {
       "type": "h2",
@@ -1774,7 +1774,7 @@ const factoryDe: GuideLocaleContent = {
         "Preise weit unter allen anderen, ohne Angaben zu Stoff, Logo-Technik oder Etiketten.",
         "Kein echtes Muster vor der Produktion, oder ein Muster aus einer anderen Werkstatt als Ihr Auftrag.",
         "Eine Mindestmenge pro Modell, die sich dann als pro Farbe herausstellt.",
-        "100 % Vorauszahlung bei einer ersten Bestellung.",
+        "Ein Lieferant, der die Zahlungsbedingungen nicht schriftlich bestätigt oder eine Zahlung verlangt, die von der Vereinbarung abweicht.",
         "Keine Möglichkeit, die Werkstatt zu sehen, nicht einmal im Videocall.",
         "Zertifikate oder Auszeichnungen, die der Lieferant Ihnen auf Nachfrage nicht zeigen kann."
       ]

@@ -65,53 +65,6 @@ export function ProductJsonLd({
       name: "Guangzhou Nancrown Cap Co., Ltd.",
       url: "https://nancrown.com",
     },
-    offers: {
-      "@type": "AggregateOffer",
-      availability: "https://schema.org/InStock",
-      priceCurrency: "USD",
-      lowPrice: "2.50",
-      highPrice: "15.00",
-      offerCount: product.colors.length,
-      eligibleQuantity: {
-        "@type": "QuantitativeValue",
-        minValue: product.moq,
-        unitCode: "C62",
-      },
-      hasMerchantReturnPolicy: {
-        "@type": "MerchantReturnPolicy",
-        applicableCountry: "US",
-        returnPolicyCategory: "https://schema.org/MerchantReturnNotPermitted",
-        merchantReturnDays: 0,
-      },
-      shippingDetails: {
-        "@type": "OfferShippingDetails",
-        shippingDestination: {
-          "@type": "DefinedRegion",
-          addressCountry: "US",
-        },
-        deliveryTime: {
-          "@type": "ShippingDeliveryTime",
-          handlingTime: {
-            "@type": "QuantitativeValue",
-            // 大货生产 25–30 天(老板 2026-09-27 定的全站统一口径)
-            minValue: 25,
-            maxValue: 30,
-            unitCode: "d",
-          },
-          transitTime: {
-            "@type": "QuantitativeValue",
-            minValue: 7,
-            maxValue: 30,
-            unitCode: "d",
-          },
-        },
-        shippingRate: {
-          "@type": "MonetaryAmount",
-          value: 0,
-          currency: "USD",
-        },
-      },
-    },
   };
 
   return (

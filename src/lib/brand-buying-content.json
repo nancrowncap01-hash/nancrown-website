@@ -1,0 +1,122 @@
+{
+  "en": {
+    "heading": "Plan a multi-style hat order",
+    "lead": "Start with a clear quantity split. Each style is quoted on its own specification and quantity; different styles do not combine into one price tier.",
+    "exampleTitle": "Illustrative planning example",
+    "example": "500 pieces × 5 styles = 2,500 pieces in total. If each style is 500 pieces, each style is priced at its own 500-piece quantity. This is a planning example, not a customer order or confirmed quotation.",
+    "minimumTitle": "How the minimum works",
+    "minimum": "The minimum is 50 pieces for each style / colour / size combination. Adult and child sizes count separately. Colours of the same style can count together toward that style’s quantity tier, provided each combination has at least 50 pieces. Different styles cannot be combined for pricing.",
+    "scopeTitle": "Prices depend on the hat build",
+    "scope": "The published price tiers apply only to the listed standard cotton twill baseball cap. Trucker hats, running caps and other specifications need their own quotation. If styles use the same fabric or labels, include this in your RFQ so we can check compatibility and setup costs for each style.",
+    "checklistTitle": "What to include in your RFQ",
+    "checklist": [
+      "A reference photo, product link or sketch for each style",
+      "Quantity by style, colour and size, including adult or child sizing",
+      "Fabric, closure and any construction details you already know",
+      "Logo artwork, placement and process for each position",
+      "Label, hangtag and packaging requirements",
+      "Destination country or postcode and your target delivery date"
+    ],
+    "sampleNote": "We quote the product, sample and freight separately. Starting with a sample lets you review the shape, materials and logo execution before bulk production.",
+    "linksTitle": "Explore styles and pricing",
+    "links": {
+      "pricing": "See standard baseball cap pricing",
+      "baseball": "Browse custom baseball caps",
+      "trucker": "Explore trucker hat options",
+      "running": "Explore running cap options",
+      "products": "Browse product references",
+      "contact": "Send your specifications for a quote",
+      "factory": "See our factory and production process"
+    }
+  },
+  "es": {
+    "heading": "Planifica un pedido de varios modelos",
+    "lead": "Empieza con un desglose claro de cantidades. Cada modelo se cotiza según sus propias especificaciones y cantidad; los modelos distintos no se suman para alcanzar un mismo tramo de precio.",
+    "exampleTitle": "Ejemplo orientativo de planificación",
+    "example": "500 piezas × 5 modelos = 2.500 piezas en total. Si cada modelo tiene 500 piezas, cada uno se cotiza según su propia cantidad de 500. Es un ejemplo de planificación, no un pedido de cliente ni una cotización confirmada.",
+    "minimumTitle": "Cómo se calcula el mínimo",
+    "minimum": "El mínimo es de 50 piezas por cada combinación de modelo, color y talla. Las tallas de adulto y niño se cuentan por separado. Los colores de un mismo modelo pueden sumarse para alcanzar su tramo de cantidad, siempre que cada combinación tenga al menos 50 piezas. Los modelos distintos no se combinan para calcular el precio.",
+    "scopeTitle": "El precio depende de la construcción de la gorra",
+    "scope": "Los tramos de precio publicados solo se aplican a la gorra estándar de béisbol de sarga de algodón indicada. Las gorras trucker, de running y otras especificaciones requieren una cotización propia. Si varios modelos usan el mismo tejido o etiquetas, indícalo en tu solicitud para que podamos revisar la compatibilidad y los costes de preparación de cada modelo.",
+    "checklistTitle": "Qué incluir en tu solicitud de cotización",
+    "checklist": [
+      "Una foto de referencia, enlace de producto o boceto de cada modelo",
+      "Cantidad por modelo, color y talla, indicando adulto o niño",
+      "Tejido, cierre y detalles de construcción que ya conozcas",
+      "Diseño del logo, ubicación y técnica para cada posición",
+      "Requisitos de etiquetas, hangtags y embalaje",
+      "País o código postal de destino y fecha de entrega deseada"
+    ],
+    "sampleNote": "Cotizamos por separado el producto, la muestra y el transporte. Empezar con una muestra te permite revisar la forma, los materiales y la ejecución del logo antes de la producción en serie.",
+    "linksTitle": "Descubre modelos y precios",
+    "links": {
+      "pricing": "Ver precios estándar de gorras de béisbol",
+      "baseball": "Ver gorras de béisbol personalizadas",
+      "trucker": "Explorar opciones de gorras trucker",
+      "running": "Explorar opciones de gorras de running",
+      "products": "Ver modelos de referencia",
+      "contact": "Enviar especificaciones para cotizar",
+      "factory": "Ver nuestra fábrica y proceso de producción"
+    }
+  },
+  "fr": {
+    "heading": "Préparer une commande de plusieurs modèles",
+    "lead": "Commencez par répartir clairement les quantités. Chaque modèle est chiffré selon ses propres spécifications et sa quantité ; des modèles différents ne se regroupent pas pour atteindre un même tarif dégressif.",
+    "exampleTitle": "Exemple indicatif de planification",
+    "example": "500 pièces × 5 modèles = 2 500 pièces au total. Si chaque modèle compte 500 pièces, chacun est chiffré séparément sur la base de 500 pièces. Il s'agit d'un exemple de planification, pas d'une commande client ni d'un devis confirmé.",
+    "minimumTitle": "Calcul de la quantité minimale",
+    "minimum": "Le minimum est de 50 pièces pour chaque combinaison de modèle, couleur et taille. Les tailles adulte et enfant sont comptées séparément. Les couleurs d’un même modèle peuvent être additionnées pour atteindre son palier de quantité, à condition que chaque combinaison compte au moins 50 pièces. Des modèles différents ne peuvent pas être regroupés pour le calcul du prix.",
+    "scopeTitle": "Le prix dépend de la construction de la casquette",
+    "scope": "Les tarifs publiés s’appliquent uniquement à la casquette de baseball standard indiquée, en sergé de coton. Les trucker, casquettes de running et autres spécifications nécessitent un devis distinct. Si plusieurs modèles utilisent le même tissu ou les mêmes étiquettes, précisez-le dans votre demande afin que nous puissions vérifier la compatibilité et les frais de mise en route de chaque modèle.",
+    "checklistTitle": "Éléments à inclure dans votre demande de devis",
+    "checklist": [
+      "Une photo de référence, un lien produit ou un croquis pour chaque modèle",
+      "La quantité par modèle, couleur et taille, en précisant adulte ou enfant",
+      "Le tissu, la fermeture et les détails de construction déjà définis",
+      "Le fichier du logo, son emplacement et la technique pour chaque position",
+      "Les besoins en étiquettes, hangtags et emballage",
+      "Le pays ou code postal de destination et la date de livraison souhaitée"
+    ],
+    "sampleNote": "Le produit, l'échantillon et le transport sont chiffrés séparément. Commencer par un échantillon permet de vérifier la forme, les matières et le rendu du logo avant la production en série.",
+    "linksTitle": "Découvrir les modèles et les tarifs",
+    "links": {
+      "pricing": "Voir les tarifs des casquettes de baseball standard",
+      "baseball": "Découvrir les casquettes de baseball personnalisées",
+      "trucker": "Découvrir les casquettes trucker",
+      "running": "Découvrir les casquettes de running",
+      "products": "Parcourir les modèles de référence",
+      "contact": "Envoyer vos spécifications pour un devis",
+      "factory": "Voir notre usine et le processus de production"
+    }
+  },
+  "de": {
+    "heading": "Eine Bestellung mit mehreren Modellen planen",
+    "lead": "Beginnen Sie mit einer klaren Mengenaufteilung. Jedes Modell wird nach seinen eigenen Spezifikationen und seiner eigenen Menge kalkuliert; unterschiedliche Modelle werden nicht für eine gemeinsame Preisstaffel zusammengerechnet.",
+    "exampleTitle": "Unverbindliches Planungsbeispiel",
+    "example": "500 Stück × 5 Modelle = insgesamt 2.500 Stück. Wenn jedes Modell 500 Stück umfasst, wird jedes Modell einzeln auf Basis seiner Menge von 500 Stück kalkuliert. Dies ist ein Planungsbeispiel, keine Kundenbestellung und kein bestätigtes Angebot.",
+    "minimumTitle": "So wird die Mindestmenge berechnet",
+    "minimum": "Die Mindestmenge beträgt 50 Stück pro Kombination aus Modell, Farbe und Größe. Erwachsenen- und Kindergrößen werden getrennt gezählt. Farben desselben Modells können für dessen Mengenstaffel zusammengerechnet werden, sofern jede Kombination mindestens 50 Stück umfasst. Unterschiedliche Modelle können bei der Preisberechnung nicht zusammengelegt werden.",
+    "scopeTitle": "Der Preis hängt von der Ausführung der Kappe ab",
+    "scope": "Die veröffentlichten Preisstaffeln gelten nur für die angegebene Standard-Baseballkappe aus Baumwollköper. Trucker Caps, Laufkappen und andere Spezifikationen benötigen ein eigenes Angebot. Wenn mehrere Modelle denselben Stoff oder dieselben Etiketten verwenden, geben Sie dies in Ihrer Anfrage an, damit wir Kompatibilität und Einrichtungskosten je Modell prüfen können.",
+    "checklistTitle": "Diese Angaben gehören in Ihre Angebotsanfrage",
+    "checklist": [
+      "Ein Referenzfoto, ein Produktlink oder eine Skizze für jedes Modell",
+      "Menge je Modell, Farbe und Größe, mit Angabe von Erwachsenen- oder Kindergrößen",
+      "Stoff, Verschluss und bereits bekannte Konstruktionsdetails",
+      "Logodatei, Position und Verfahren für jede Platzierung",
+      "Vorgaben zu Etiketten, Hangtags und Verpackung",
+      "Zielland oder Postleitzahl und gewünschter Liefertermin"
+    ],
+    "sampleNote": "Produkt, Muster und Fracht werden getrennt angeboten. Mit einem Muster können Sie Form, Materialien und Logoausführung vor der Serienproduktion prüfen.",
+    "linksTitle": "Modelle und Preise ansehen",
+    "links": {
+      "pricing": "Standardpreise für Baseballkappen ansehen",
+      "baseball": "Individuelle Baseballkappen ansehen",
+      "trucker": "Trucker-Cap-Optionen ansehen",
+      "running": "Laufkappen-Optionen ansehen",
+      "products": "Produktreferenzen ansehen",
+      "contact": "Spezifikationen für ein Angebot senden",
+      "factory": "Unser Werk und den Produktionsablauf ansehen"
+    }
+  }
+}

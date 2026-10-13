@@ -6,10 +6,30 @@ import { factoryContent } from "@/lib/factory-content";
 import { solutionSlugs } from "@/lib/solutions-content";
 import { localizedUrl, SITE_URL } from "@/lib/seo";
 
-// 固定的"最后更新日期",避免每次构建都标成当前时间(Google 会不信任假时间戳)
+// 固定真实内容更新时间，避免每次构建都标成当前时间。
 const LAST_MODIFIED = new Date("2026-10-07");
-// 仅本轮实际增加导航内容的页面更新时间;其余页面保留原日期。
 const DISCOVERY_UPDATED = new Date("2026-10-08");
+const CONTENT_UPDATED_2026_10_11 = new Date("2026-10-11");
+const CONTENT_UPDATED_2026_10_13 = new Date("2026-10-13");
+// 10/11 实际改正文的主力页面；首页 FAQ 也在该轮更新。
+const UPDATED_2026_10_11_PATHS = new Set([
+  "",
+  "/pricing",
+  "/start-a-hat-brand",
+  "/choose-a-hat-factory",
+  "/custom/trucker-hats",
+  "/custom/private-label-hats",
+  "/solutions/run-clubs",
+  "/solutions/festival-merch",
+]);
+// 本轮新建的两页及有正文上下文链接更新的既有方案页。
+const UPDATED_2026_10_13_PATHS = new Set([
+  "/solutions/embroidery-artwork",
+  "/solutions/sample-approval",
+  "/solutions/corporate-events",
+  "/solutions/festival-merch",
+  "/solutions/bulk-orders",
+]);
 
 // 0927 新增的两个「指南类」独立页面,跟 /custom/<分类> 一样是主力获客落地页,优先级 0.9
 // 1001 新增 /choose-a-hat-factory,同一批对待
@@ -45,9 +65,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
     return routing.locales.map((locale) => ({
       url: localizedUrl(locale, path),
-      lastModified: path === "" || path === "/products" || path.startsWith("/products/")
-        ? DISCOVERY_UPDATED
-        : LAST_MODIFIED,
+      lastModified: UPDATED_2026_10_13_PATHS.has(path)
+        ? CONTENT_UPDATED_2026_10_13
+        : UPDATED_2026_10_11_PATHS.has(path)
+          ? CONTENT_UPDATED_2026_10_11
+          : path === "" || path === "/products" || path.startsWith("/products/")
+            ? DISCOVERY_UPDATED
+          : LAST_MODIFIED,
       changeFrequency: path === "" ? ("weekly" as const) : ("monthly" as const),
       priority: path === ""
         ? 1

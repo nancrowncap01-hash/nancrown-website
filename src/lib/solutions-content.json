@@ -926,6 +926,11 @@
               "double-piping-washed-cap",
               "souvenir-patch-snapback"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Need a sample before ordering event caps? Use this approval checklist to confirm artwork, placement and fit before production →"
           }
         ],
         "faqHeading": "Questions from companies and event organisers",
@@ -1023,6 +1028,11 @@
               "double-piping-washed-cap",
               "souvenir-patch-snapback"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "¿Necesitas aprobar una muestra antes de pedir gorras para un evento? Usa esta lista para confirmar el logo, su ubicación y el ajuste antes de producir →"
           }
         ],
         "faqHeading": "Preguntas de empresas y organizadores de eventos",
@@ -1120,6 +1130,11 @@
               "double-piping-washed-cap",
               "souvenir-patch-snapback"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Besoin de valider un échantillon avant une commande pour un événement ? Utilisez cette liste pour confirmer le logo, son emplacement et la coupe avant la production →"
           }
         ],
         "faqHeading": "Questions des entreprises et organisateurs d'événements",
@@ -1217,6 +1232,11 @@
               "double-piping-washed-cap",
               "souvenir-patch-snapback"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Möchten Sie Event-Caps vor der Bestellung bemustern? Mit dieser Prüfliste bestätigen Sie Motiv, Platzierung und Passform vor der Produktion →"
           }
         ],
         "faqHeading": "Fragen von Firmen und Veranstaltern",
@@ -1298,6 +1318,11 @@
               "tire-stripe-mesh-trucker",
               "chenille-letter-tile-cap"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Choosing between embroidery and a patch for festival merch? Prepare artwork and sample notes with this guide →"
           }
         ],
         "faqHeading": "Questions about merch caps",
@@ -1369,6 +1394,11 @@
               "tire-stripe-mesh-trucker",
               "chenille-letter-tile-cap"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "¿Dudas entre bordado y parche para merchandising de un festival? Prepara el diseño y las notas para la muestra con esta guía →"
           }
         ],
         "faqHeading": "Preguntas sobre gorras de merch",
@@ -1440,6 +1470,11 @@
               "tire-stripe-mesh-trucker",
               "chenille-letter-tile-cap"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Vous hésitez entre broderie et écusson pour un merchandising de festival ? Préparez le visuel et les remarques d’échantillon avec ce guide →"
           }
         ],
         "faqHeading": "Questions sur les casquettes merch",
@@ -1511,6 +1546,11 @@
               "tire-stripe-mesh-trucker",
               "chenille-letter-tile-cap"
             ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Sie überlegen, ob Festival-Merch bestickt oder mit einem Patch versehen werden soll? Bereiten Sie Motiv und Musterhinweise mit diesem Leitfaden vor →"
           }
         ],
         "faqHeading": "Fragen zu Merch-Caps",
@@ -1670,6 +1710,11 @@
             "type": "link",
             "href": "/custom/trucker-hats#order-checklists",
             "text": "Ordering mesh-back trucker hats? Prepare a 300-piece trial or 5,000-piece retail RFQ →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Before a large cap run, agree on the sample and production start point. See the sample approval steps →"
           }
         ],
         "faqHeading": "Questions about bulk orders",
@@ -1819,6 +1864,11 @@
             "type": "link",
             "href": "/custom/trucker-hats#order-checklists",
             "text": "¿Buscas gorras trucker de malla? Prepara una consulta de 300 o 5.000 piezas →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Antes de producir un gran pedido de gorras, acuerda la muestra y cuándo empieza la producción. Consulta los pasos de aprobación →"
           }
         ],
         "faqHeading": "Preguntas sobre pedidos grandes",
@@ -1968,6 +2018,11 @@
             "type": "link",
             "href": "/custom/trucker-hats#order-checklists",
             "text": "Casquettes trucker à dos en maille ? Préparez une demande de 300 ou 5 000 pièces →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Avant une grande série de casquettes, validez l’échantillon et le point de départ de la production. Consultez les étapes d’approbation →"
           }
         ],
         "faqHeading": "Questions sur les grandes commandes",
@@ -2117,6 +2172,11 @@
             "type": "link",
             "href": "/custom/trucker-hats#order-checklists",
             "text": "Trucker-Caps mit Mesh-Rücken? Anfrage für 300 oder 5.000 Stück vorbereiten →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Klären Sie vor einer großen Cap-Auflage das Muster und den Produktionsbeginn. Lesen Sie die Schritte zur Musterfreigabe →"
           }
         ],
         "faqHeading": "Fragen zu Großaufträgen",
@@ -2142,6 +2202,934 @@
           "title": "Sie planen einen Großauftrag?",
           "text": "Schicken Sie uns Menge pro Modell, Farben und Liefertermin. Wir antworten mit Preis und Produktionsplan, meist innerhalb von 1–2 Werktagen.",
           "button": "Angebot anfordern"
+        }
+      }
+    },
+    {
+      "slug": "embroidery-artwork",
+      "products": [],
+      "en": {
+        "metaTitle": "Embroidery Artwork for Custom Caps: Flat, 3D or Patch",
+        "metaDescription": "Choose flat embroidery, 3D puff or a patch for a custom cap. Prepare artwork, placement and colour notes, then review the physical sample.",
+        "h1": "Prepare Embroidery Artwork for a Custom Cap",
+        "lead": "The decoration choice affects how your logo reads on a curved cap panel. This guide helps you choose between flat embroidery, 3D puff and a patch, send the details a maker needs, and review the sample before approving bulk production.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Choose the decoration for the artwork"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Option",
+              "A practical fit",
+              "Check before sampling"
+            ],
+            "rows": [
+              [
+                "Flat embroidery",
+                "Wordmarks, outlines and logos that need a flatter finish.",
+                "Look at small letters and narrow gaps at the final size; share the intended width and height."
+              ],
+              [
+                "3D puff embroidery",
+                "Bold, simple shapes or lettering that should stand above the cap panel.",
+                "The thinnest part should be at least <b>2 mm</b>, except pointed stroke endings. Very fine text may need to be enlarged, simplified or kept flat."
+              ],
+              [
+                "Patch",
+                "Artwork that benefits from a defined edge, material texture or small details that are hard to show as stitches.",
+                "Choose the patch type and its edge, then confirm the patch size and position on the cap."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "There is no one best method for every logo. If you are unsure, send the original artwork and ask us to compare a suitable flat, raised or patch treatment in the quote or sample plan."
+          },
+          {
+            "type": "h2",
+            "text": "What to send with your artwork"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>The clearest source file you have</b>: a vector file is useful; if you only have an image, send the largest clean version and tell us whether the design can be simplified.",
+              "<b>Finished decoration size</b>: give the intended width and height in millimetres, rather than only saying “small” or “large.”",
+              "<b>Placement</b>: mark front, side or back, and say whether the logo should be centred on a panel or positioned relative to a seam.",
+              "<b>Colour and finish notes</b>: identify thread or patch colours, which parts should be raised, and any elements that must stay flat.",
+              "<b>The cap reference</b>: include the style or product link, fabric and colour if known. A curved or seamed panel can change how the artwork sits."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Review the physical sample"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Check the dimensions and position",
+                "text": "Compare the logo width, height and distance from seams with the approved artwork or marked-up reference."
+              },
+              {
+                "title": "Check the details at wearing distance",
+                "text": "Look for open gaps, legible small lettering, clean edges and the intended raised or flat areas. For a patch, check its outline and how it sits on the panel."
+              },
+              {
+                "title": "Check colour and overall balance",
+                "text": "Review the thread or patch beside the cap fabric in normal light. Digital previews are a guide; approve the physical sample for the actual combination."
+              },
+              {
+                "title": "Send one clear revision list",
+                "text": "Mark each requested change on a photo or drawing, with measurements where possible. State which points are required before approval."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Keep the approved artwork and sample together as the reference for bulk. For technique examples, see our <b>embroidered cap</b> and <b>patch hat</b> pages."
+          },
+          {
+            "type": "link",
+            "href": "/custom/embroidered-caps",
+            "text": "Compare embroidery treatments for custom caps →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/patch-hats",
+            "text": "See patch materials and cap styles →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Review sample fees, minimums and lead times →"
+          }
+        ],
+        "faqHeading": "Embroidery artwork questions",
+        "faq": [
+          {
+            "q": "What is the minimum line width for 3D puff embroidery?",
+            "a": "The thinnest part should be at least 2 mm, except for pointed stroke endings. If artwork is finer, we can discuss enlarging it, simplifying it or using flat embroidery for that detail."
+          },
+          {
+            "q": "What artwork file should I send?",
+            "a": "Send the clearest source file available, plus the final decoration size, placement and colour notes. If you only have an image, send a clean high-resolution version."
+          },
+          {
+            "q": "Can a patch show details better than embroidery?",
+            "a": "It depends on the logo and patch type. A woven patch can suit fine lines or small text, while other patch materials give a different surface and edge. Share the artwork so the option can be confirmed."
+          },
+          {
+            "q": "How do I approve the logo sample?",
+            "a": "Check size, placement, lettering, edges and colour on the physical cap. Send any corrections in one marked-up list, then confirm approval before bulk production."
+          }
+        ],
+        "cta": {
+          "title": "Have artwork ready?",
+          "text": "Send the cap style, logo file, finished size, placement and preferred treatment. We can confirm the sample plan and quote.",
+          "button": "Ask about your artwork"
+        }
+      },
+      "es": {
+        "metaTitle": "Diseño para gorras bordadas: bordado plano, 3D o parche",
+        "metaDescription": "Elige bordado plano, bordado 3D o parche para una gorra personalizada. Prepara el diseño y revisa la muestra física antes de aprobar la producción.",
+        "h1": "Prepara el diseño de bordado para una gorra",
+        "lead": "La técnica cambia cómo se ve un logo sobre el panel curvo de una gorra. Esta guía te ayuda a elegir entre bordado plano, 3D y parche, enviar los datos necesarios y revisar la muestra antes de aprobar el pedido.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Elige la técnica según el diseño"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Opción",
+              "Cuándo puede encajar",
+              "Qué revisar antes de la muestra"
+            ],
+            "rows": [
+              [
+                "Bordado plano",
+                "Logotipos con texto, contornos o que necesitan un acabado más liso.",
+                "Revisa las letras pequeñas y los espacios estrechos al tamaño final; indica ancho y alto."
+              ],
+              [
+                "Bordado 3D",
+                "Formas o letras sencillas y marcadas que deben sobresalir del panel.",
+                "La parte más fina debe medir al menos <b>2 mm</b>, salvo las puntas finales de los trazos. El texto muy fino puede requerir ampliación, simplificación o bordado plano."
+              ],
+              [
+                "Parche",
+                "Diseños que necesitan un borde definido, otra textura o detalles difíciles de representar con puntadas.",
+                "Elige el tipo y el borde del parche, y confirma tamaño y posición en la gorra."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "No hay una técnica ideal para todos los logos. Si tienes dudas, envíanos el diseño original y pide que comparemos una opción plana, en relieve o con parche en el presupuesto o el plan de muestra."
+          },
+          {
+            "type": "h2",
+            "text": "Qué enviar junto al diseño"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>El archivo más claro que tengas</b>: un archivo vectorial ayuda; si solo tienes una imagen, envía la versión limpia de mayor tamaño y dinos si se puede simplificar.",
+              "<b>Tamaño final del logo</b>: indica ancho y alto en milímetros, no solo “pequeño” o “grande”.",
+              "<b>Ubicación</b>: marca delantero, lateral o parte trasera, y aclara si va centrado en el panel o alineado con una costura.",
+              "<b>Colores y acabado</b>: indica colores de hilo o parche, qué partes deben ir en relieve y cuáles deben quedar planas.",
+              "<b>Referencia de la gorra</b>: incluye el modelo o enlace del producto, y el tejido y color si los conoces. Un panel curvo o con costura puede cambiar la posición del diseño."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Revisa la muestra física"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Comprueba medidas y posición",
+                "text": "Compara ancho, alto y distancia del logo a las costuras con el diseño aprobado o la referencia marcada."
+              },
+              {
+                "title": "Mira los detalles a distancia de uso",
+                "text": "Comprueba los espacios, la lectura de las letras pequeñas, los bordes y las zonas planas o elevadas. En un parche, revisa el contorno y cómo queda sobre el panel."
+              },
+              {
+                "title": "Comprueba color y equilibrio",
+                "text": "Mira el hilo o parche junto al tejido de la gorra con luz normal. La vista digital orienta; aprueba la muestra física para confirmar la combinación real."
+              },
+              {
+                "title": "Envía una sola lista de cambios",
+                "text": "Marca cada corrección en una foto o dibujo e incluye medidas si es posible. Indica qué puntos deben resolverse antes de aprobar."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Conserva juntos el diseño y la muestra aprobados como referencia para el pedido. Consulta nuestras páginas de <b>gorras bordadas</b> y <b>gorras con parche</b> para ver las técnicas."
+          },
+          {
+            "type": "link",
+            "href": "/custom/embroidered-caps",
+            "text": "Compara técnicas de bordado para gorras →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/patch-hats",
+            "text": "Consulta materiales de parches y modelos →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Consulta tarifas de muestras, mínimos y plazos →"
+          }
+        ],
+        "faqHeading": "Preguntas sobre diseños de bordado",
+        "faq": [
+          {
+            "q": "¿Cuál es el ancho mínimo de línea para bordado 3D?",
+            "a": "La parte más fina debe medir al menos 2 mm, salvo las puntas finales de los trazos. Si el diseño es más fino, podemos valorar ampliarlo, simplificarlo o bordar ese detalle en plano."
+          },
+          {
+            "q": "¿Qué archivo debo enviar?",
+            "a": "Envía el archivo fuente más claro que tengas, además del tamaño final, la ubicación y los colores. Si solo tienes una imagen, envía una versión limpia y de alta resolución."
+          },
+          {
+            "q": "¿Un parche puede mostrar mejor los detalles que el bordado?",
+            "a": "Depende del logo y del tipo de parche. Un parche tejido puede funcionar para líneas finas o texto pequeño; otros materiales ofrecen otra superficie y otro borde. Envíanos el diseño para confirmar la opción."
+          },
+          {
+            "q": "¿Cómo apruebo la muestra del logo?",
+            "a": "Revisa tamaño, ubicación, letras, bordes y color en la gorra física. Envía las correcciones en una lista marcada y confirma la aprobación antes de producir."
+          }
+        ],
+        "cta": {
+          "title": "¿Ya tienes el diseño?",
+          "text": "Envíanos el modelo de gorra, el archivo del logo, el tamaño final, la ubicación y la técnica que prefieres. Confirmaremos el plan de muestra y el presupuesto.",
+          "button": "Consultar mi diseño"
+        }
+      },
+      "fr": {
+        "metaTitle": "Visuel de broderie pour casquette : à plat, 3D ou écusson",
+        "metaDescription": "Choisissez une broderie à plat, en relief 3D ou un écusson pour une casquette personnalisée. Préparez le visuel et examinez l’échantillon physique avant validation.",
+        "h1": "Préparer un visuel de broderie pour une casquette",
+        "lead": "La décoration change le rendu de votre logo sur le panneau courbe d’une casquette. Ce guide vous aide à choisir entre broderie à plat, broderie 3D et écusson, à transmettre les bonnes informations et à examiner l’échantillon avant de valider la production.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Choisir la décoration selon le visuel"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Option",
+              "Usage possible",
+              "À vérifier avant l’échantillon"
+            ],
+            "rows": [
+              [
+                "Broderie à plat",
+                "Mots-signes, contours et logos qui demandent un rendu plus lisse.",
+                "Examinez les petites lettres et les espaces étroits à la taille finale ; indiquez largeur et hauteur."
+              ],
+              [
+                "Broderie 3D",
+                "Formes ou lettres simples et marquées qui doivent ressortir du panneau.",
+                "La partie la plus fine doit mesurer au moins <b>2 mm</b>, sauf les pointes finales des traits. Un texte très fin peut devoir être agrandi, simplifié ou brodé à plat."
+              ],
+              [
+                "Écusson",
+                "Visuels qui demandent un bord défini, une autre texture ou des détails difficiles à reproduire en points.",
+                "Choisissez le type et le bord de l’écusson, puis confirmez sa taille et son emplacement sur la casquette."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Il n’existe pas de méthode idéale pour chaque logo. En cas de doute, envoyez le visuel source et demandez une comparaison entre une finition à plat, en relief ou avec écusson dans le devis ou le plan d’échantillon."
+          },
+          {
+            "type": "h2",
+            "text": "Informations à joindre au visuel"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Le fichier source le plus net disponible</b> : un fichier vectoriel est utile ; si vous n’avez qu’une image, envoyez la version nette la plus grande et précisez si le dessin peut être simplifié.",
+              "<b>La taille finale de la décoration</b> : donnez la largeur et la hauteur en millimètres, plutôt que « petit » ou « grand ».",
+              "<b>L’emplacement</b> : indiquez devant, côté ou arrière, et précisez si le logo doit être centré sur un panneau ou positionné par rapport à une couture.",
+              "<b>Couleurs et finition</b> : indiquez les couleurs de fil ou d’écusson, les parties en relief et celles qui doivent rester à plat.",
+              "<b>La référence de la casquette</b> : ajoutez le modèle ou le lien produit, ainsi que le tissu et la couleur si vous les connaissez. Un panneau courbe ou cousu peut modifier le rendu."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Examiner l’échantillon physique"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Vérifier les dimensions et la position",
+                "text": "Comparez largeur, hauteur et distance aux coutures avec le visuel approuvé ou la référence annotée."
+              },
+              {
+                "title": "Examiner les détails à distance d’usage",
+                "text": "Vérifiez les espaces, la lisibilité des petites lettres, la netteté des bords et les zones en relief ou à plat. Pour un écusson, contrôlez son contour et sa pose sur le panneau."
+              },
+              {
+                "title": "Vérifier la couleur et l’équilibre",
+                "text": "Regardez le fil ou l’écusson à côté du tissu de la casquette sous un éclairage normal. L’aperçu numérique est indicatif ; validez la combinaison réelle sur l’échantillon physique."
+              },
+              {
+                "title": "Envoyer une liste de corrections claire",
+                "text": "Marquez chaque modification sur une photo ou un dessin et ajoutez des mesures si possible. Précisez les points à corriger avant validation."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Conservez ensemble le visuel et l’échantillon approuvés comme référence pour la série. Consultez nos pages <b>casquettes brodées</b> et <b>casquettes avec écusson</b> pour comparer les techniques."
+          },
+          {
+            "type": "link",
+            "href": "/custom/embroidered-caps",
+            "text": "Comparer les techniques de broderie pour casquettes →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/patch-hats",
+            "text": "Voir les matières d’écusson et les styles de casquettes →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Consulter les frais d’échantillon, minimums et délais →"
+          }
+        ],
+        "faqHeading": "Questions sur les visuels de broderie",
+        "faq": [
+          {
+            "q": "Quelle est la largeur minimale d’un trait pour une broderie 3D ?",
+            "a": "La partie la plus fine doit mesurer au moins 2 mm, sauf les pointes finales des traits. Si le visuel est plus fin, nous pouvons étudier un agrandissement, une simplification ou une broderie à plat pour ce détail."
+          },
+          {
+            "q": "Quel fichier de visuel dois-je envoyer ?",
+            "a": "Envoyez le fichier source le plus net disponible, avec la taille finale, l’emplacement et les couleurs. Si vous n’avez qu’une image, envoyez une version propre en haute résolution."
+          },
+          {
+            "q": "Un écusson peut-il mieux rendre les détails que la broderie ?",
+            "a": "Cela dépend du logo et du type d’écusson. Un écusson tissé peut convenir aux lignes fines ou aux petits textes ; d’autres matières donnent une surface et un bord différents. Envoyez le visuel pour confirmer."
+          },
+          {
+            "q": "Comment valider l’échantillon du logo ?",
+            "a": "Vérifiez la taille, la position, les lettres, les bords et la couleur sur la casquette physique. Envoyez les corrections dans une liste annotée, puis confirmez la validation avant la série."
+          }
+        ],
+        "cta": {
+          "title": "Votre visuel est prêt ?",
+          "text": "Envoyez le modèle de casquette, le fichier du logo, la taille finale, l’emplacement et la finition souhaitée. Nous confirmerons le plan d’échantillon et le devis.",
+          "button": "Parler de votre visuel"
+        }
+      },
+      "de": {
+        "metaTitle": "Stickmotiv für Caps: flach, 3D oder als Patch",
+        "metaDescription": "Wählen Sie Flachstick, 3D-Stick oder Patch für Ihre Cap. Bereiten Sie Motiv, Platzierung und Farbangaben vor und prüfen Sie das physische Muster.",
+        "h1": "Stickmotiv für eine individuelle Cap vorbereiten",
+        "lead": "Die Veredelung beeinflusst, wie Ihr Logo auf dem gewölbten Cap-Panel wirkt. Dieser Leitfaden hilft bei der Wahl zwischen Flachstick, 3D-Stick und Patch, bei der Übergabe der nötigen Angaben und bei der Prüfung des Musters vor der Freigabe.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Veredelung passend zum Motiv auswählen"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Option",
+              "Passt häufig zu",
+              "Vor dem Muster prüfen"
+            ],
+            "rows": [
+              [
+                "Flachstick",
+                "Wortmarken, Konturen und Logos mit eher flacher Optik.",
+                "Kleine Buchstaben und enge Zwischenräume in der endgültigen Größe prüfen; Breite und Höhe angeben."
+              ],
+              [
+                "3D-Stick",
+                "Klare, einfache Formen oder Schrift, die über dem Panel stehen soll.",
+                "Die dünnste Stelle sollte mindestens <b>2 mm</b> breit sein; spitze Strichenden sind ausgenommen. Sehr feine Schrift muss eventuell vergrößert, vereinfacht oder flach gestickt werden."
+              ],
+              [
+                "Patch",
+                "Motive, die eine klare Kante, eine andere Oberflächenstruktur oder schwer stickbare Details brauchen.",
+                "Patchart und Kante auswählen und Größe sowie Position auf der Cap bestätigen."
+              ]
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Es gibt keine beste Methode für jedes Logo. Wenn Sie unsicher sind, senden Sie das Originalmotiv und bitten Sie um einen Vergleich zwischen flacher, erhabener oder Patch-Ausführung im Angebot oder Musterplan."
+          },
+          {
+            "type": "h2",
+            "text": "Diese Angaben gehören zum Motiv"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Die klarste verfügbare Quelldatei</b>: Eine Vektordatei ist hilfreich. Wenn Sie nur ein Bild haben, senden Sie die größte saubere Version und sagen Sie, ob das Motiv vereinfacht werden darf.",
+              "<b>Endgröße der Veredelung</b>: Breite und Höhe in Millimetern angeben, statt nur „klein“ oder „groß“ zu schreiben.",
+              "<b>Platzierung</b>: Vorderseite, Seite oder Rückseite markieren und angeben, ob das Logo mittig auf einem Panel oder mit Bezug zu einer Naht sitzen soll.",
+              "<b>Farbe und Ausführung</b>: Garn- oder Patchfarben nennen und festhalten, welche Teile erhaben und welche flach bleiben sollen.",
+              "<b>Cap-Referenz</b>: Modell oder Produktlink sowie Stoff und Farbe angeben, falls bekannt. Ein gewölbtes oder geteiltes Panel kann die Wirkung des Motivs verändern."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Das physische Muster prüfen"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Maße und Position kontrollieren",
+                "text": "Breite, Höhe und Abstand zu Nähten mit dem freigegebenen Motiv oder der markierten Referenz vergleichen."
+              },
+              {
+                "title": "Details aus normalem Betrachtungsabstand prüfen",
+                "text": "Zwischenräume, Lesbarkeit kleiner Schrift, saubere Kanten und die geplanten erhabenen oder flachen Bereiche ansehen. Bei einem Patch auch Kontur und Sitz auf dem Panel prüfen."
+              },
+              {
+                "title": "Farbe und Gesamtwirkung prüfen",
+                "text": "Garn oder Patch bei normalem Licht neben dem Cap-Stoff ansehen. Die digitale Vorschau dient zur Orientierung; für die tatsächliche Kombination ist das physische Muster maßgeblich."
+              },
+              {
+                "title": "Änderungen in einer klaren Liste senden",
+                "text": "Jede gewünschte Änderung auf einem Foto oder einer Zeichnung markieren und wenn möglich Maße ergänzen. Punkte, die vor der Freigabe geändert werden müssen, ausdrücklich nennen."
+              }
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Bewahren Sie freigegebenes Motiv und Muster gemeinsam als Referenz für die Serie auf. Beispiele finden Sie auf unseren Seiten zu <b>bestickten Caps</b> und <b>Caps mit Patches</b>."
+          },
+          {
+            "type": "link",
+            "href": "/custom/embroidered-caps",
+            "text": "Stickarten für individuelle Caps vergleichen →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/patch-hats",
+            "text": "Patchmaterialien und Cap-Modelle ansehen →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Musterkosten, Mindestmengen und Lieferzeiten ansehen →"
+          }
+        ],
+        "faqHeading": "Fragen zu Stickmotiven",
+        "faq": [
+          {
+            "q": "Wie breit muss eine Linie für 3D-Stick mindestens sein?",
+            "a": "Die dünnste Stelle sollte mindestens 2 mm breit sein; spitze Strichenden sind ausgenommen. Bei feineren Motiven können wir eine Vergrößerung, Vereinfachung oder Flachstick für das Detail besprechen."
+          },
+          {
+            "q": "Welche Motivdatei soll ich senden?",
+            "a": "Senden Sie die klarste Quelldatei, die Sie haben, sowie Endgröße, Platzierung und Farbangaben. Wenn nur ein Bild verfügbar ist, senden Sie eine saubere hochauflösende Version."
+          },
+          {
+            "q": "Kann ein Patch Details besser zeigen als Stickerei?",
+            "a": "Das hängt vom Logo und der Patchart ab. Ein gewebter Patch kann für feine Linien oder kleine Schrift passen; andere Materialien haben eine andere Oberfläche und Kante. Senden Sie das Motiv zur Abstimmung."
+          },
+          {
+            "q": "Wie gebe ich das Logo-Muster frei?",
+            "a": "Prüfen Sie Größe, Position, Schrift, Kanten und Farbe an der physischen Cap. Senden Sie Korrekturen gesammelt und markiert und bestätigen Sie die Freigabe vor der Serienproduktion."
+          }
+        ],
+        "cta": {
+          "title": "Ist Ihr Motiv fertig?",
+          "text": "Senden Sie Cap-Modell, Logodatei, Endgröße, Platzierung und gewünschte Ausführung. Wir stimmen Musterplan und Angebot ab.",
+          "button": "Motiv abstimmen"
+        }
+      }
+    },
+    {
+      "slug": "sample-approval",
+      "products": [],
+      "en": {
+        "metaTitle": "Custom Cap Sample Approval: Fee, Timing and Checklist",
+        "metaDescription": "Plan a custom cap sample: US$50 for one standard logo, shipping extra; multi-logo samples are quoted separately. Review the sample before bulk production.",
+        "h1": "Custom Cap Samples: From Request to Approval",
+        "lead": "A sample is the point where artwork, cap construction and finish come together. Confirm the scope before it is made, review the physical cap against your brief, and record approval before bulk production starts.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Confirm what the sample covers"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Standard sample fee:</b> US$50 for one ordinary cap sample with one logo; shipping is not included.",
+              "<b>More than one logo position:</b> the US$50 fee does not cover multiple logos. Send each position and decoration method for a separate price confirmation.",
+              "<b>Complex designs:</b> special or complex samples are quoted after the design and construction are reviewed.",
+              "<b>Artwork and materials:</b> agree on the logo file, size, placement, cap fabric and colour before the sample schedule is confirmed."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "The sample fee is refunded when the bulk order for the same design reaches <b>1,000 pieces</b>. Shipping remains separate. Ask for the refund condition to be shown with the sample and order quotation."
+          },
+          {
+            "type": "h2",
+            "text": "Sample and bulk timing"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Confirm the sample brief",
+                "text": "Settle the artwork, logo positions, fabric and main construction details so the sample can be made to a clear reference."
+              },
+              {
+                "title": "Allow 7–15 days for sampling",
+                "text": "Sample timing is 7–15 days, depending on the style and requirements. Confirm the expected date after the brief is reviewed."
+              },
+              {
+                "title": "Review and approve the sample",
+                "text": "Check fit, dimensions, colour, logo placement and finish on the physical cap. Send any revisions clearly and approve the final sample before bulk."
+              },
+              {
+                "title": "Start bulk after the agreed conditions",
+                "text": "Bulk production takes about 25–30 days after sample approval and receipt of the agreed payment. Shipping time is additional."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "A useful sample approval checklist"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Does the cap shape, fit and construction match the agreed reference?",
+              "Are fabric and colour acceptable beside the approved reference?",
+              "Are logo size, position, colours and decoration method correct?",
+              "Are seams, edges, closures and other requested details present as agreed?",
+              "Have all required changes been resolved and recorded before approval?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "If something needs changing, send a marked photo with one numbered list of required corrections. Keep the final approval tied to the exact sample and artwork version you reviewed."
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "See current sample fees, payment terms and minimum order quantities →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Prepare logo artwork and review embroidery or patch details →"
+          },
+          {
+            "type": "link",
+            "href": "/factory",
+            "text": "See our factory and production information →"
+          }
+        ],
+        "faqHeading": "Questions about cap samples",
+        "faq": [
+          {
+            "q": "How much is a standard cap sample?",
+            "a": "US$50 for one ordinary sample with one logo, excluding shipping. Multiple logo positions or complex designs need a separate price confirmation."
+          },
+          {
+            "q": "How long does sampling take?",
+            "a": "Allow 7–15 days, depending on the style and requirements. Confirm the expected timing once the sample brief is reviewed."
+          },
+          {
+            "q": "When does bulk production start?",
+            "a": "After you approve the sample and the agreed payment is received. Bulk production takes about 25–30 days, plus shipping time."
+          },
+          {
+            "q": "When is the sample fee refunded?",
+            "a": "The sample fee is refunded when the bulk order for the same design reaches 1,000 pieces. Shipping is separate."
+          }
+        ],
+        "cta": {
+          "title": "Ready to request a sample?",
+          "text": "Send your cap reference, logo artwork, number of logo positions, quantity and target date so the sample scope can be confirmed.",
+          "button": "Plan a sample"
+        }
+      },
+      "es": {
+        "metaTitle": "Aprobación de muestras de gorras: precio, plazo y revisión",
+        "metaDescription": "Planifica una muestra de gorra personalizada: US$50 para un logo estándar, sin envío; los pedidos con varios logos se cotizan aparte. Revisa la muestra antes de producir.",
+        "h1": "Muestras de gorras: de la solicitud a la aprobación",
+        "lead": "La muestra reúne el diseño, la construcción de la gorra y el acabado. Confirma el alcance antes de fabricarla, revisa la gorra física según tus indicaciones y registra la aprobación antes de iniciar la producción.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Confirma qué incluye la muestra"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Precio de una muestra estándar:</b> US$50 para una gorra ordinaria con un logo; el envío no está incluido.",
+              "<b>Más de una ubicación de logo:</b> los US$50 no cubren varios logos. Envía cada ubicación y técnica para confirmar otro precio.",
+              "<b>Diseños complejos:</b> las muestras especiales o complejas se cotizan después de revisar el diseño y la construcción.",
+              "<b>Diseño y materiales:</b> confirma archivo, tamaño y ubicación del logo, tejido y color de la gorra antes de cerrar el calendario."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "El precio de la muestra se devuelve cuando el pedido de producción del mismo diseño alcanza <b>1.000 piezas</b>. El envío se cobra aparte. Pide que la condición de devolución figure en la cotización de muestra y pedido."
+          },
+          {
+            "type": "h2",
+            "text": "Plazos de muestra y producción"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Confirma las indicaciones de la muestra",
+                "text": "Define diseño, ubicaciones de logos, tejido y detalles principales para que la muestra siga una referencia clara."
+              },
+              {
+                "title": "Calcula 7–15 días para la muestra",
+                "text": "El plazo es de 7–15 días según el modelo y los requisitos. Confirma la fecha prevista después de revisar las indicaciones."
+              },
+              {
+                "title": "Revisa y aprueba la muestra",
+                "text": "Comprueba ajuste, medidas, color, posición del logo y acabado en la gorra física. Envía las correcciones con claridad y aprueba la muestra final antes del pedido."
+              },
+              {
+                "title": "Inicia la producción según lo acordado",
+                "text": "La producción tarda unos 25–30 días después de aprobar la muestra y recibir el pago acordado. El envío requiere tiempo adicional."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Lista práctica para aprobar la muestra"
+          },
+          {
+            "type": "list",
+            "items": [
+              "¿La forma, el ajuste y la construcción coinciden con la referencia acordada?",
+              "¿El tejido y el color son aceptables junto a la referencia aprobada?",
+              "¿El tamaño, la posición, los colores y la técnica del logo son correctos?",
+              "¿Están las costuras, bordes, cierres y demás detalles solicitados?",
+              "¿Se han resuelto y anotado todos los cambios necesarios antes de aprobar?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Si hay que cambiar algo, envía una foto marcada con una lista numerada de correcciones. Vincula la aprobación final a la muestra y a la versión exacta del diseño que revisaste."
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Consulta las tarifas actuales de muestras, pagos y mínimos →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Prepara el diseño del logo y revisa bordados o parches →"
+          },
+          {
+            "type": "link",
+            "href": "/factory",
+            "text": "Conoce la fábrica y cómo producimos →"
+          }
+        ],
+        "faqHeading": "Preguntas sobre muestras de gorras",
+        "faq": [
+          {
+            "q": "¿Cuánto cuesta una muestra estándar?",
+            "a": "US$50 por una muestra ordinaria con un logo, sin envío. Varias ubicaciones de logo o diseños complejos requieren confirmar otro precio."
+          },
+          {
+            "q": "¿Cuánto tarda una muestra?",
+            "a": "Calcula 7–15 días según el modelo y los requisitos. Confirma el plazo después de revisar las indicaciones."
+          },
+          {
+            "q": "¿Cuándo empieza la producción?",
+            "a": "Después de aprobar la muestra y recibir el pago acordado. La producción tarda unos 25–30 días, más el envío."
+          },
+          {
+            "q": "¿Cuándo se devuelve el precio de la muestra?",
+            "a": "Se devuelve cuando el pedido de producción del mismo diseño alcanza 1.000 piezas. El envío se cobra aparte."
+          }
+        ],
+        "cta": {
+          "title": "¿Quieres pedir una muestra?",
+          "text": "Envía la referencia de la gorra, el diseño del logo, el número de ubicaciones, la cantidad y la fecha objetivo para confirmar el alcance.",
+          "button": "Planificar una muestra"
+        }
+      },
+      "fr": {
+        "metaTitle": "Validation d’échantillon de casquette : coût, délai et contrôle",
+        "metaDescription": "Préparez un échantillon de casquette personnalisée : 50 USD pour un logo standard, hors transport ; plusieurs logos sont chiffrés séparément. Validez avant la série.",
+        "h1": "Échantillon de casquette : de la demande à la validation",
+        "lead": "L’échantillon réunit le visuel, la construction de la casquette et la finition. Confirmez le périmètre avant sa fabrication, examinez la casquette physique selon votre brief et consignez la validation avant la série.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Confirmer le contenu de l’échantillon"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Tarif d’un échantillon standard :</b> 50 USD pour une casquette ordinaire avec un logo ; le transport n’est pas inclus.",
+              "<b>Plusieurs emplacements de logo :</b> le tarif de 50 USD ne couvre pas plusieurs logos. Envoyez chaque emplacement et technique pour confirmation du prix.",
+              "<b>Visuels complexes :</b> les échantillons spéciaux ou complexes sont chiffrés après examen du visuel et de la construction.",
+              "<b>Visuel et matières :</b> confirmez le fichier, la taille et l’emplacement du logo, le tissu et la couleur avant de fixer le calendrier."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Les frais d’échantillon sont remboursés lorsque la commande en série du même modèle atteint <b>1 000 pièces</b>. Le transport reste séparé. Demandez que la condition de remboursement figure dans le devis d’échantillon et de commande."
+          },
+          {
+            "type": "h2",
+            "text": "Délais de l’échantillon et de la série"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Confirmer le brief de l’échantillon",
+                "text": "Définissez le visuel, les emplacements des logos, le tissu et les principaux détails pour donner une référence claire."
+              },
+              {
+                "title": "Prévoir 7 à 15 jours pour l’échantillon",
+                "text": "Le délai est de 7 à 15 jours selon le modèle et les exigences. Confirmez la date prévue après examen du brief."
+              },
+              {
+                "title": "Examiner et valider l’échantillon",
+                "text": "Vérifiez la coupe, les dimensions, la couleur, la position du logo et la finition sur la casquette physique. Envoyez clairement les corrections et validez l’échantillon final avant la série."
+              },
+              {
+                "title": "Lancer la série selon les conditions convenues",
+                "text": "La production prend environ 25 à 30 jours après validation de l’échantillon et réception du paiement convenu. Le transport s’ajoute à ce délai."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Liste de contrôle pour valider l’échantillon"
+          },
+          {
+            "type": "list",
+            "items": [
+              "La forme, la coupe et la construction correspondent-elles à la référence convenue ?",
+              "Le tissu et la couleur conviennent-ils par rapport à la référence approuvée ?",
+              "La taille, l’emplacement, les couleurs et la technique du logo sont-ils corrects ?",
+              "Les coutures, bords, fermetures et autres détails demandés sont-ils présents ?",
+              "Toutes les modifications requises ont-elles été réglées et consignées avant validation ?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Si une modification est nécessaire, envoyez une photo annotée avec une liste numérotée des corrections. Associez la validation finale à l’échantillon et à la version du visuel que vous avez examinés."
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Voir les frais d’échantillon, modalités de paiement et minimums →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Préparer le visuel du logo et examiner broderie ou écusson →"
+          },
+          {
+            "type": "link",
+            "href": "/factory",
+            "text": "Découvrir notre usine et la production →"
+          }
+        ],
+        "faqHeading": "Questions sur les échantillons de casquettes",
+        "faq": [
+          {
+            "q": "Combien coûte un échantillon standard ?",
+            "a": "50 USD pour un échantillon ordinaire avec un logo, hors transport. Plusieurs emplacements de logo ou un visuel complexe nécessitent une confirmation du prix."
+          },
+          {
+            "q": "Combien de temps prend l’échantillon ?",
+            "a": "Prévoir 7 à 15 jours selon le modèle et les exigences. Confirmez le délai après examen du brief."
+          },
+          {
+            "q": "Quand la production en série commence-t-elle ?",
+            "a": "Après validation de l’échantillon et réception du paiement convenu. La série prend environ 25 à 30 jours, auxquels s’ajoute le transport."
+          },
+          {
+            "q": "Quand les frais d’échantillon sont-ils remboursés ?",
+            "a": "Ils sont remboursés lorsque la commande en série du même modèle atteint 1 000 pièces. Le transport reste séparé."
+          }
+        ],
+        "cta": {
+          "title": "Prêt à demander un échantillon ?",
+          "text": "Envoyez la référence de la casquette, le visuel du logo, le nombre d’emplacements, la quantité et la date souhaitée afin de confirmer le périmètre.",
+          "button": "Préparer un échantillon"
+        }
+      },
+      "de": {
+        "metaTitle": "Cap-Musterfreigabe: Kosten, Zeitplan und Prüfliste",
+        "metaDescription": "Planen Sie ein individuelles Cap-Muster: 50 US-Dollar für ein Standardlogo, Versand extra; mehrere Logos werden separat kalkuliert. Prüfen Sie das Muster vor der Serie.",
+        "h1": "Cap-Muster: von der Anfrage bis zur Freigabe",
+        "lead": "Im Muster treffen Motiv, Cap-Aufbau und Ausführung zusammen. Klären Sie den Umfang vor der Anfertigung, prüfen Sie die physische Cap anhand Ihrer Vorgaben und dokumentieren Sie die Freigabe vor der Serienproduktion.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Den Umfang des Musters bestätigen"
+          },
+          {
+            "type": "list",
+            "items": [
+              "<b>Preis für ein Standardmuster:</b> 50 US-Dollar für eine gewöhnliche Cap mit einem Logo; Versand ist nicht enthalten.",
+              "<b>Mehr als eine Logoposition:</b> Die 50 US-Dollar decken mehrere Logos nicht ab. Senden Sie jede Position und Veredelungsart zur separaten Preisbestätigung.",
+              "<b>Komplexe Motive:</b> Sonder- oder komplexe Muster werden nach Prüfung von Motiv und Aufbau kalkuliert.",
+              "<b>Motiv und Materialien:</b> Stimmen Sie Logodatei, Größe und Position sowie Cap-Stoff und Farbe ab, bevor der Musterzeitplan bestätigt wird."
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Die Mustergebühr wird erstattet, wenn der Serienauftrag für dasselbe Design <b>1.000 Stück</b> erreicht. Versand bleibt separat. Lassen Sie die Erstattungsbedingung im Muster- und Auftragsangebot aufführen."
+          },
+          {
+            "type": "h2",
+            "text": "Zeitplan für Muster und Serie"
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Musterbriefing bestätigen",
+                "text": "Legen Sie Motiv, Logopositionen, Stoff und wichtige Konstruktionsdetails fest, damit das Muster eine klare Referenz hat."
+              },
+              {
+                "title": "7–15 Tage für das Muster einplanen",
+                "text": "Die Musterzeit beträgt je nach Modell und Anforderungen 7–15 Tage. Den erwarteten Termin nach Prüfung des Briefings bestätigen."
+              },
+              {
+                "title": "Muster prüfen und freigeben",
+                "text": "Passform, Maße, Farbe, Logoposition und Ausführung an der physischen Cap prüfen. Korrekturen klar mitteilen und das finale Muster vor der Serie freigeben."
+              },
+              {
+                "title": "Serie nach den vereinbarten Bedingungen starten",
+                "text": "Die Serienproduktion dauert etwa 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung. Versandzeit kommt hinzu."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Prüfliste für die Musterfreigabe"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Entsprechen Form, Passform und Aufbau der vereinbarten Referenz?",
+              "Passen Stoff und Farbe zur freigegebenen Referenz?",
+              "Stimmen Größe, Position, Farben und Veredelungsart des Logos?",
+              "Sind Nähte, Kanten, Verschlüsse und weitere vereinbarte Details vorhanden?",
+              "Sind alle erforderlichen Änderungen vor der Freigabe erledigt und dokumentiert?"
+            ]
+          },
+          {
+            "type": "p",
+            "text": "Falls etwas geändert werden muss, senden Sie ein markiertes Foto mit einer nummerierten Liste der erforderlichen Korrekturen. Beziehen Sie die endgültige Freigabe auf genau das Muster und die Motivversion, die Sie geprüft haben."
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Aktuelle Musterkosten, Zahlungsbedingungen und Mindestmengen ansehen →"
+          },
+          {
+            "type": "link",
+            "href": "/solutions/embroidery-artwork",
+            "text": "Logomotiv vorbereiten und Stick oder Patch prüfen →"
+          },
+          {
+            "type": "link",
+            "href": "/factory",
+            "text": "Informationen zu unserer Fabrik und Produktion →"
+          }
+        ],
+        "faqHeading": "Fragen zu Cap-Mustern",
+        "faq": [
+          {
+            "q": "Was kostet ein Standardmuster?",
+            "a": "50 US-Dollar für ein gewöhnliches Muster mit einem Logo, Versand nicht enthalten. Mehrere Logopositionen oder komplexe Motive benötigen eine separate Preisbestätigung."
+          },
+          {
+            "q": "Wie lange dauert ein Muster?",
+            "a": "Je nach Modell und Anforderungen 7–15 Tage. Den Termin nach Prüfung des Musterbriefings bestätigen."
+          },
+          {
+            "q": "Wann beginnt die Serienproduktion?",
+            "a": "Nach Freigabe des Musters und Eingang der vereinbarten Zahlung. Die Produktion dauert etwa 25–30 Tage, zuzüglich Versand."
+          },
+          {
+            "q": "Wann wird die Mustergebühr erstattet?",
+            "a": "Wenn der Serienauftrag für dasselbe Design 1.000 Stück erreicht. Versand bleibt separat."
+          }
+        ],
+        "cta": {
+          "title": "Möchten Sie ein Muster anfragen?",
+          "text": "Senden Sie Cap-Referenz, Logomotiv, Anzahl der Logopositionen, Menge und Wunschtermin, damit der Umfang bestätigt werden kann.",
+          "button": "Muster planen"
         }
       }
     }

@@ -9,6 +9,8 @@ const solutionsLinks = [
   { href: "/solutions/corporate-events" as const, key: "corporate-events" as const },
   { href: "/solutions/festival-merch" as const, key: "festival-merch" as const },
   { href: "/solutions/bulk-orders" as const, key: "bulk-orders" as const },
+  { href: "/solutions/embroidery-artwork" as const, key: "embroidery-artwork" as const },
+  { href: "/solutions/sample-approval" as const, key: "sample-approval" as const },
 ];
 
 export default function Footer() {

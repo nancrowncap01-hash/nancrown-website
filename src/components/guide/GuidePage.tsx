@@ -7,8 +7,8 @@ import ProductCard from "@/components/products/ProductCard";
 // 「指南类」页面(/pricing、/start-a-hat-brand、/solutions/<slug>)的共用渲染组件。
 // 文案全部来自 src/lib/guide-content.ts / src/lib/solutions-content.ts,这里只管排版,不新增/修改/润色任何一个字。
 //
-// guide-content.ts 里 p / list / 表格单元格允许出现 <b>…</b> 加粗,别的尖括号一律当纯文字。
-// 用 parseBold() 把 <b>…</b> 拆成 React 节点(<strong>),不用 dangerouslySetInnerHTML。
+// guide-content.ts 里 p / list / 表格单元格允许 <b>…</b> 加粗和站内 <a> 链接。
+// 解析成 React 节点,不用 dangerouslySetInnerHTML。
 function parseBold(text: string): ReactNode[] {
   const parts = text.split(/(<b>.*?<\/b>)/g).filter((part) => part.length > 0);
   return parts.map((part, i) => {
@@ -17,6 +17,37 @@ function parseBold(text: string): ReactNode[] {
       return (
         <strong key={i} className="font-semibold text-gray-900">
           {match[1]}
+        </strong>
+      );
+    }
+    return part;
+  });
+}
+
+function parseInline(text: string): ReactNode[] {
+  const parts = text
+    .split(/(<b>.*?<\/b>|<a href="\/[^\"]+">.*?<\/a>)/g)
+    .filter((part) => part.length > 0);
+
+  return parts.map((part, i) => {
+    const linkMatch = part.match(/^<a href="(\/[^\"]+)">(.*?)<\/a>$/);
+    if (linkMatch) {
+      return (
+        <Link
+          key={i}
+          href={linkMatch[1]}
+          className="text-amber-700 underline underline-offset-2 hover:text-amber-800"
+        >
+          {parseBold(linkMatch[2])}
+        </Link>
+      );
+    }
+
+    const boldMatch = part.match(/^<b>(.*?)<\/b>$/);
+    if (boldMatch) {
+      return (
+        <strong key={i} className="font-semibold text-gray-900">
+          {boldMatch[1]}
         </strong>
       );
     }
@@ -49,7 +80,7 @@ function renderBlock(block: GuideBlock, i: number) {
       );
     case "h2":
       return (
-        <h2 key={i} className="text-2xl sm:text-3xl font-bold text-gray-900 pt-2">
+        <h2 key={i} id={block.id} className="scroll-mt-28 text-2xl sm:text-3xl font-bold text-gray-900 pt-2">
           {block.text}
         </h2>
       );
@@ -57,7 +88,7 @@ function renderBlock(block: GuideBlock, i: number) {
     case "p":
       return (
         <p key={i} className="text-gray-600 leading-relaxed">
-          {parseBold(block.text)}
+          {parseInline(block.text)}
         </p>
       );
 
@@ -67,7 +98,7 @@ function renderBlock(block: GuideBlock, i: number) {
           {block.items.map((item, ii) => (
             <li key={ii} className="flex items-start gap-3">
               <CheckIcon />
-              <span className="text-gray-700 leading-relaxed">{parseBold(item)}</span>
+              <span className="text-gray-700 leading-relaxed">{parseInline(item)}</span>
             </li>
           ))}
         </ul>

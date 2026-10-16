@@ -11,6 +11,12 @@ const LAST_MODIFIED = new Date("2026-10-07");
 const DISCOVERY_UPDATED = new Date("2026-10-08");
 const CONTENT_UPDATED_2026_10_11 = new Date("2026-10-11");
 const CONTENT_UPDATED_2026_10_13 = new Date("2026-10-13");
+const CONTENT_UPDATED_2026_10_17 = new Date("2026-10-17");
+const UPDATED_2026_10_17_PATHS = new Set([
+  "/pricing",
+  "/custom/embroidered-caps",
+  "/custom/snapback-hats",
+]);
 // 10/11 实际改正文的主力页面；首页 FAQ 也在该轮更新。
 const UPDATED_2026_10_11_PATHS = new Set([
   "",
@@ -65,8 +71,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
     return routing.locales.map((locale) => ({
       url: localizedUrl(locale, path),
-      lastModified: UPDATED_2026_10_13_PATHS.has(path)
-        ? CONTENT_UPDATED_2026_10_13
+      lastModified: UPDATED_2026_10_17_PATHS.has(path)
+        ? CONTENT_UPDATED_2026_10_17
+        : UPDATED_2026_10_13_PATHS.has(path)
+          ? CONTENT_UPDATED_2026_10_13
         : UPDATED_2026_10_11_PATHS.has(path)
           ? CONTENT_UPDATED_2026_10_11
           : path === "" || path === "/products" || path.startsWith("/products/")

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import TruckerBuyingGuide from "@/components/TruckerBuyingGuide";
 import BrandBuyingGuide from "@/components/BrandBuyingGuide";
+import CategoryEvidence from "@/components/category/CategoryEvidence";
 import truckerBuyingContent from "@/lib/trucker-buying-content.json";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
@@ -184,6 +185,13 @@ export default async function CategoryPage({
 
       {def.slug === "trucker-hats" && <TruckerBuyingGuide locale={locale as Locale} />}
       {def.slug === "private-label-hats" && <BrandBuyingGuide locale={locale as Locale} />}
+      {["snapback-hats", "embroidered-caps"].includes(def.slug) && (
+        <CategoryEvidence
+          locale={locale as Locale}
+          kind={def.slug === "snapback-hats" ? "snapback" : "embroidery"}
+          products={products}
+        />
+      )}
       {["5-panel-caps", "patch-hats"].includes(def.slug) && (
         <section className="py-8">
           <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">

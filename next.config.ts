@@ -34,15 +34,23 @@ const nextConfig: NextConfig = {
     minimumCacheTTL: 2678400,
   },
   async redirects() {
-    // 英文默认不带前缀;/en/... 先由 next-intl 去掉前缀再命中第一条
-    return Object.entries(retiredProducts).flatMap(([slug, to]) => [
-      { source: `/products/${slug}`, destination: to, permanent: true },
+    // 先统一到canonical主机，保留路径与查询参数，再处理原有下架产品跳转。
+    return [
       {
-        source: `/:locale(es|fr|de)/products/${slug}`,
-        destination: `/:locale${to}`,
+        source: "/:path*",
+        has: [{ type: "host", value: "www.nancrown.com" }],
+        destination: "https://nancrown.com/:path*",
         permanent: true,
       },
-    ]);
+      ...Object.entries(retiredProducts).flatMap(([slug, to]) => [
+        { source: `/products/${slug}`, destination: to, permanent: true },
+        {
+          source: `/:locale(es|fr|de)/products/${slug}`,
+          destination: `/:locale${to}`,
+          permanent: true,
+        },
+      ]),
+    ];
   },
 };
 

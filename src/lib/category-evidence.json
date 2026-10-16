@@ -1,0 +1,154 @@
+{
+  "en": {
+    "samplesHeading": "Published product examples",
+    "samplesIntro": "These are catalog samples with their listed construction and decoration. They are product references, not completed customer orders.",
+    "outsourcingNote": "Embroidery is handled by our long-standing specialist partner; we coordinate the artwork, sample and bulk production with them.",
+    "sampleLabel": "Catalog sample",
+    "codeLabel": "SKU",
+    "moqLabel": "Listed MOQ",
+    "moqScope": "per style, colour and size",
+    "choiceHeading": "Choose the decoration for the result you want",
+    "snapChoices": [
+      "Raised, bold front logo: ask us to assess 3D puff against your artwork and structured front.",
+      "Fine wording or a more detailed mark: ask about flat embroidery and the exact stitch layout."
+    ],
+    "embroideryChoices": [
+      "For a raised look on a structured front, send the logo for a 3D puff feasibility check.",
+      "For smaller lettering or finer detail, compare a flat satin-stitch sample.",
+      "For a textured vintage look, compare chain stitch; the J0041 sample shows this stitch around the crown.",
+      "For 3D puff, the thinnest area should be at least 2 mm wide, except pointed stroke ends. The artwork and sample determine the final stitch choice."
+    ],
+    "planHeading": "A purchasing plan to review",
+    "planIntro": "Planning examples only. These quantities are a checklist for a future enquiry, not records of completed customer orders.",
+    "snapPlans": [
+      "100 snapbacks with a 3D puff logo: confirm the artwork, cap construction, decoration positions and quote together.",
+      "100–300 flat-brim snapbacks: confirm the exact brim shape, base cap and decoration before requesting a quote."
+    ],
+    "embroideryPlans": [
+      "100 caps with a 3D puff logo: confirm the artwork, material, cap style, decoration positions and quantity in the specification."
+    ],
+    "termsHeading": "Sample and production timing",
+    "terms": [
+      "MOQ: 50 pieces per style, colour and size.",
+      "A standard sample is US$50 plus shipping. Complex samples need a separate check and quote.",
+      "Sample lead time: about 7–15 days after artwork and material are confirmed.",
+      "Bulk production: about 25–30 days after sample approval and receipt of the agreed payment, plus shipping time."
+    ],
+    "artworkLink": "Prepare embroidery artwork",
+    "sampleLink": "How sample approval works"
+  },
+  "es": {
+    "samplesHeading": "Ejemplos de productos publicados",
+    "samplesIntro": "Son muestras de catálogo con la construcción y decoración indicadas. Sirven como referencia de producto; no son pedidos de clientes ya realizados.",
+    "outsourcingNote": "El bordado lo realiza nuestro socio especialista de larga trayectoria; coordinamos con él el diseño, la muestra y la producción.",
+    "sampleLabel": "Muestra de catálogo",
+    "codeLabel": "SKU",
+    "moqLabel": "Pedido mínimo indicado",
+    "moqScope": "por modelo, color y talla",
+    "choiceHeading": "Elige el bordado según el resultado que buscas",
+    "snapChoices": [
+      "Para un logo frontal con relieve: revisamos si el bordado 3D (puff) encaja con tu diseño y una copa estructurada.",
+      "Para texto fino o un logo con más detalle: consulta el bordado plano y la distribución exacta de puntadas."
+    ],
+    "embroideryChoices": [
+      "Para un acabado en relieve sobre una copa estructurada, envía el logo para revisar si admite bordado 3D (puff).",
+      "Para letras pequeñas o más detalle, compara una muestra de bordado plano de satén.",
+      "Para una textura vintage, compara el punto de cadeneta; la muestra J0041 lo lleva alrededor de la copa.",
+      "En el bordado 3D, la parte más fina debe medir al menos 2 mm, salvo las puntas de los trazos. El diseño y la muestra determinan el bordado final."
+    ],
+    "planHeading": "Plan de compra para revisar",
+    "planIntro": "Son ejemplos de planificación para una futura consulta, no pedidos de clientes ya realizados.",
+    "snapPlans": [
+      "100 snapbacks con logo 3D (puff): confirmar juntos el diseño, la construcción, las posiciones del bordado y el presupuesto.",
+      "100–300 snapbacks de visera plana: confirmar la forma exacta de la visera, la gorra base y el bordado antes de pedir presupuesto."
+    ],
+    "embroideryPlans": [
+      "100 gorras con logo 3D (puff): confirmar el diseño, el material, el modelo de gorra, las posiciones del bordado y la cantidad en la ficha de especificaciones."
+    ],
+    "termsHeading": "Plazos de muestra y producción",
+    "terms": [
+      "Pedido mínimo: 50 piezas por modelo, color y talla.",
+      "Una muestra estándar cuesta 50 USD más el envío. Las muestras complejas requieren revisión y presupuesto aparte.",
+      "Plazo de muestra: aproximadamente 7–15 días después de confirmar el diseño y el material.",
+      "Producción: aproximadamente 25–30 días después de aprobar la muestra y recibir el pago acordado, más el envío."
+    ],
+    "artworkLink": "Preparar el diseño de bordado",
+    "sampleLink": "Cómo se aprueba una muestra"
+  },
+  "fr": {
+    "samplesHeading": "Exemples de produits publiés",
+    "samplesIntro": "Ce sont des modèles du catalogue avec leur construction et leur décoration indiquées. Ils servent de références produit et ne représentent pas des commandes clients déjà réalisées.",
+    "outsourcingNote": "La broderie est réalisée par notre partenaire spécialiste de longue date ; nous coordonnons avec lui le visuel, l'échantillon et la production.",
+    "sampleLabel": "Modèle du catalogue",
+    "codeLabel": "SKU",
+    "moqLabel": "MOQ indiqué",
+    "moqScope": "par modèle, couleur et taille",
+    "choiceHeading": "Choisissez la broderie selon le résultat souhaité",
+    "snapChoices": [
+      "Pour un grand logo en relief à l'avant : nous vérifions si la broderie 3D (puff) convient à votre visuel et à un devant structuré.",
+      "Pour un texte fin ou un logo détaillé : demandez une comparaison avec la broderie à plat et son placement précis."
+    ],
+    "embroideryChoices": [
+      "Pour un rendu en relief sur un devant structuré, envoyez le logo afin de vérifier sa faisabilité en broderie 3D (puff).",
+      "Pour les petites lettres ou les détails fins, comparez un échantillon en broderie satinée à plat.",
+      "Pour une texture vintage, comparez le point de chaînette ; le modèle J0041 montre ce point tout autour de la calotte.",
+      "En broderie 3D, la partie la plus fine doit mesurer au moins 2 mm, sauf aux pointes des traits. Le visuel et l'échantillon déterminent le point final."
+    ],
+    "planHeading": "Plan d'achat à examiner",
+    "planIntro": "Exemples de planification pour une future demande, et non commandes clients déjà réalisées.",
+    "snapPlans": [
+      "100 snapbacks avec logo en broderie 3D (puff) : validez ensemble le visuel, la construction, les emplacements et le devis.",
+      "100 à 300 snapbacks à visière plate : précisez la forme de la visière, la casquette de base et la décoration avant de demander un devis."
+    ],
+    "embroideryPlans": [
+      "100 casquettes avec logo en broderie 3D (puff) : confirmer le visuel, la matière, le modèle de casquette, les emplacements et la quantité dans la fiche de spécifications."
+    ],
+    "termsHeading": "Délais d'échantillon et de production",
+    "terms": [
+      "MOQ : 50 pièces par modèle, couleur et taille.",
+      "Un échantillon standard coûte 50 USD, transport en plus. Les échantillons complexes demandent une vérification et un devis séparés.",
+      "Délai d'échantillon : environ 7 à 15 jours après confirmation du visuel et de la matière.",
+      "Production en série : environ 25 à 30 jours après validation de l'échantillon et réception du paiement convenu, plus le transport."
+    ],
+    "artworkLink": "Préparer le fichier de broderie",
+    "sampleLink": "Comprendre la validation d'échantillon"
+  },
+  "de": {
+    "samplesHeading": "Veröffentlichte Produktbeispiele",
+    "samplesIntro": "Das sind Katalogmuster mit den jeweils angegebenen Merkmalen und Stickdetails. Sie dienen als Produktreferenzen und sind keine abgeschlossenen Kundenaufträge.",
+    "outsourcingNote": "Die Stickerei übernimmt unser langjähriger Fachpartner; wir stimmen Motiv, Muster und Serienproduktion mit ihm ab.",
+    "sampleLabel": "Katalogmuster",
+    "codeLabel": "SKU",
+    "moqLabel": "Angegebene MOQ",
+    "moqScope": "je Modell, Farbe und Größe",
+    "choiceHeading": "Wählen Sie die Stickerei nach dem gewünschten Ergebnis",
+    "snapChoices": [
+      "Für ein markantes, erhabenes Frontlogo: Wir prüfen, ob 3D-Puff-Stickerei zu Ihrem Motiv und einer strukturierten Front passt.",
+      "Für feine Schrift oder ein detailliertes Motiv: Fragen Sie nach Flachstickerei und der genauen Stichanordnung."
+    ],
+    "embroideryChoices": [
+      "Für einen erhabenen Look auf einer strukturierten Front senden Sie das Logo zur Prüfung für 3D-Puff-Stickerei.",
+      "Für kleine Schrift oder feine Details vergleichen Sie ein Muster mit flacher Satinstickerei.",
+      "Für eine strukturierte Vintage-Optik vergleichen Sie Kettstich; das Muster J0041 zeigt ihn rund um die Krone.",
+      "Bei 3D-Puff sollte die dünnste Stelle mindestens 2 mm breit sein, ausgenommen spitze Strichenden. Motiv und Muster bestimmen die endgültige Stichart."
+    ],
+    "planHeading": "Einkaufsplanung zur Prüfung",
+    "planIntro": "Planungsbeispiele für eine künftige Anfrage, keine abgeschlossenen Kundenaufträge.",
+    "snapPlans": [
+      "100 Snapbacks mit 3D-Puff-Logo: Motiv, Cap-Aufbau, Stickpositionen und Angebot gemeinsam bestätigen.",
+      "100–300 Snapbacks mit flachem Schirm: Schirmform, Grundmodell und Veredelung vor der Angebotsanfrage festlegen."
+    ],
+    "embroideryPlans": [
+      "100 Caps mit 3D-Puff-Logo: Motiv, Material, Cap-Modell, Stickpositionen und Stückzahl in der Spezifikation bestätigen."
+    ],
+    "termsHeading": "Muster- und Produktionszeit",
+    "terms": [
+      "MOQ: 50 Stück je Modell, Farbe und Größe.",
+      "Ein Standardmuster kostet 50 US-Dollar zuzüglich Versand. Komplexe Muster müssen separat geprüft und kalkuliert werden.",
+      "Musterzeit: etwa 7–15 Tage nach Bestätigung von Motiv und Material.",
+      "Serienproduktion: etwa 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung, zuzüglich Versand."
+    ],
+    "artworkLink": "Stickdatei vorbereiten",
+    "sampleLink": "Ablauf der Musterfreigabe"
+  }
+}

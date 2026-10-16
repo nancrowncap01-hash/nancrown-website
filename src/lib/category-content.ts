@@ -1688,11 +1688,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Snapback Hats",
         h1: "Custom Snapback Hats Manufacturer",
-        metaDescription: "Custom snapback hats from our Guangzhou factory: structured crowns, flat or curved brims, 3D puff embroidery or patches, snap closure. From 50 pcs per colour.",
+        metaDescription: "Custom snapback hats from our Guangzhou factory: structured crowns, flat or curved brims, 3D puff embroidery or patches, snap closure. From 50 pcs per style, colour and size.",
         intro: [
           "Snapbacks are built to hold their shape: a structured front, a flat or lightly curved brim and an adjustable plastic snap at the back. NanCrown makes snapbacks as 5-panel and 6-panel caps and as mesh-back truckers, with multi-row brim topstitching and snaps colour-matched to the cap.",
-          "The front panel is where your brand does the talking: 3D puff or flat embroidery, woven, leather or PVC patches, printed artwork, or a souvenir-style patch with a rope across the brim. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
-          "Streetwear brands usually order flat-brim snapbacks at 100 to 300 pieces per style, with a raised 3D puff logo on the front and smaller flat embroidery on the side or back. Two things are worth knowing before you design. For 3D puff, the thinnest part of the logo should be at least 2 mm wide. And on trucker-style snapbacks the mesh is polyester, so it can be matched closely to a cotton front but never exactly.",
+          "The front panel is where your brand does the talking: 3D puff or flat embroidery, woven, leather or PVC patches, printed artwork, or a souvenir-style patch with a rope across the brim. After artwork and material confirmation, we prepare a pre-production sample in 7–15 days. We produce factory-direct in Guangzhou from 50 pieces per style, colour and size, with bulk production taking about 25–30 days after sample approval and receipt of the agreed payment.",
         ],
         customOptions: [
           "Construction: structured 5-panel or 6-panel crown, or a trucker build with a mesh back.",
@@ -1704,7 +1703,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "What is the minimum order for custom snapbacks?",
-            a: "50 pieces per colour, per style. You can mix colours within one style to reach the 100-piece price tier.",
+            a: "50 pieces per style, colour and size.",
           },
           {
             q: "Can you do 3D puff embroidery on a snapback?",
@@ -1712,11 +1711,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How long does a custom snapback order take?",
-            a: "About 7–15 days for the sample and 25–30 days for bulk production after you approve it, plus shipping time.",
+            a: "A sample takes about 7–15 days after artwork and material are confirmed. Bulk production takes about 25–30 days after sample approval and receipt of the agreed payment, plus shipping time.",
           },
           {
             q: "How much do custom snapbacks cost at 100–300 pieces?",
-            a: "Our standard cap with a flat embroidered logo and one woven label is US$4.3–5.7 per cap at 100–299 pieces and US$3.6–4.3 at 300–499, ex-works Guangzhou. 3D puff embroidery and patches are quoted per design.",
+            a: "We quote by the exact cap style, fabric, artwork size and decoration positions; shipping is quoted separately. The Pricing table covers only a standard 6-panel cotton-twill cap with one flat-embroidered front logo and one woven label. It is not a category-wide price or a 3D-puff quote.",
           },
           {
             q: "What size should the logo on the back be?",
@@ -1724,18 +1723,17 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How much is a snapback sample?",
-            a: "US$50 for a standard sample, not including shipping; samples with several logo positions or complex details are quoted separately. It takes 7–15 days, and the fee is refunded when you order 1,000 pieces or more of that style.",
+            a: "A standard sample is US$50 plus shipping. Complex samples need a separate check and quote. A sample takes about 7–15 days after artwork and material are confirmed. The sample fee is refunded when you order at least 1,000 pieces of the same design.",
           },
         ],
       },
       es: {
         name: "Gorras Snapback",
         h1: "Fabricante de gorras snapback personalizadas",
-        metaDescription: "Gorras snapback personalizadas hechas en Guangzhou: copa estructurada, visera plana o curva, bordado 3D o parches. Desde 50 uds. por color.",
+        metaDescription: "Gorras snapback personalizadas hechas en Guangzhou: copa estructurada, visera plana o curva, bordado 3D o parches. Desde 50 uds. por modelo, color y talla.",
         intro: [
           "Las snapbacks están hechas para mantener la forma: frontal estructurado, visera plana o ligeramente curva y un broche de plástico ajustable detrás. En NanCrown fabricamos snapbacks de 5 y 6 paneles y truckers con malla trasera, con pespuntes en varias filas en la visera y broches del mismo color que la gorra.",
-          "El frontal es donde habla tu marca: bordado 3D (puff) o plano, parches tejidos, de cuero o de PVC, estampados o un parche tipo souvenir con cordón sobre la visera. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
-          "Las marcas de streetwear suelen pedir snapbacks de visera plana en 100 a 300 piezas por modelo, con un logo en bordado 3D al frente y un bordado plano más pequeño en el lateral o detrás. Hay dos cosas que conviene saber antes de diseñar. En el bordado 3D, la parte más fina del logo debe medir al menos 2 mm de ancho. Y en las snapbacks tipo trucker la malla es de poliéster, así que se puede acercar mucho al color de un frente de algodón, pero nunca será idéntica.",
+          "El frontal es donde habla tu marca: bordado 3D (puff) o plano, parches tejidos, de cuero o de PVC, estampados o un parche tipo souvenir con cordón sobre la visera. Tras confirmar el diseño y el material, preparamos una muestra de preproducción en unos 7–15 días. Fabricamos directamente en Guangzhou desde 50 piezas por modelo, color y talla. La producción tarda unos 25–30 días después de aprobar la muestra y recibir el pago acordado.",
         ],
         customOptions: [
           "Construcción: copa estructurada de 5 o 6 paneles, o trucker con malla trasera.",
@@ -1747,7 +1745,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "¿Cuál es el pedido mínimo de snapbacks personalizadas?",
-            a: "50 piezas por color y por modelo. Puedes combinar colores dentro de un modelo para llegar al tramo de precio de 100 piezas.",
+            a: "50 piezas por modelo, color y talla.",
           },
           {
             q: "¿Hacéis bordado 3D (puff) en snapbacks?",
@@ -1755,11 +1753,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto tarda un pedido de snapbacks personalizadas?",
-            a: "Unos 7–15 días para la muestra y 25–30 días de producción después de tu aprobación, más el tiempo de envío.",
+            a: "La muestra tarda unos 7–15 días después de confirmar el diseño y el material. La producción tarda unos 25–30 días después de aprobar la muestra y recibir el pago acordado, más el envío.",
           },
           {
             q: "¿Cuánto cuestan las snapbacks personalizadas en 100–300 piezas?",
-            a: "Nuestra gorra estándar con un logo bordado plano y una etiqueta tejida cuesta 4,3–5,7 USD por unidad en 100–299 piezas y 3,6–4,3 USD en 300–499, en fábrica Guangzhou. El bordado 3D y los parches se cotizan según el diseño.",
+            a: "El precio se calcula según el modelo de gorra, el tejido, el tamaño del diseño y las posiciones de decoración; el envío se presupuesta aparte. La tabla de precios solo corresponde a una gorra estándar de 6 paneles de sarga de algodón, con un logo bordado plano en el frontal y una etiqueta tejida. No es un precio para toda la categoría ni para bordado 3D (puff).",
           },
           {
             q: "¿Qué tamaño debe tener el logo de detrás?",
@@ -1767,18 +1765,17 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto cuesta una muestra de snapback?",
-            a: "50 USD por una muestra estándar, sin incluir el envío; las muestras con varios logos o detalles complejos se cotizan aparte. Tarda 7–15 días, y el importe se devuelve cuando pides 1.000 piezas o más de ese modelo.",
+            a: "Una muestra estándar cuesta 50 USD más el envío. Las muestras complejas requieren revisión y presupuesto aparte. La muestra tarda unos 7–15 días después de confirmar el diseño y el material. El coste de la muestra se devuelve al pedir al menos 1.000 piezas del mismo diseño.",
           },
         ],
       },
       fr: {
         name: "Casquettes Snapback",
         h1: "Fabricant de casquettes snapback personnalisées",
-        metaDescription: "Casquettes snapback personnalisées fabriquées à Guangzhou : calotte structurée, visière plate ou courbe, broderie 3D ou écussons. Dès 50 pièces par couleur.",
+        metaDescription: "Casquettes snapback personnalisées fabriquées à Guangzhou : calotte structurée, visière plate ou courbe, broderie 3D ou écussons. Dès 50 pièces par modèle, couleur et taille.",
         intro: [
           "Les snapbacks sont faites pour garder leur forme : un devant structuré, une visière plate ou légèrement courbe et une fermeture à pression réglable à l'arrière. NanCrown fabrique des snapbacks 5 et 6 panneaux ainsi que des truckers à dos en filet, avec des surpiqûres multiples sur la visière et des pressions assorties à la casquette.",
-          "Le devant, c'est là que votre marque s'exprime : broderie 3D (puff) ou à plat, écussons tissés, en cuir ou en PVC, impression, ou écusson façon souvenir avec une cordelette sur la visière. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
-          "Les marques streetwear commandent en général leurs snapbacks à visière plate par 100 à 300 pièces par modèle, avec un logo en broderie 3D devant et une broderie à plat plus petite sur le côté ou à l'arrière. Deux choses sont bonnes à savoir avant de dessiner. En broderie 3D, la partie la plus fine du logo doit faire au moins 2 mm de large. Et sur les snapbacks façon trucker, le filet est en polyester : on peut l'approcher de très près de la couleur d'un devant en coton, mais jamais à l'identique.",
+          "Le devant, c'est là que votre marque s'exprime : broderie 3D (puff) ou à plat, écussons tissés, en cuir ou en PVC, impression, ou écusson façon souvenir avec une cordelette sur la visière. Après confirmation du visuel et de la matière, nous préparons un échantillon de pré-production en 7 à 15 jours. Nous produisons à Guangzhou dès 50 pièces par modèle, couleur et taille. La série prend environ 25 à 30 jours après validation de l'échantillon et réception du paiement convenu.",
         ],
         customOptions: [
           "Construction : calotte structurée 5 ou 6 panneaux, ou trucker à dos en filet.",
@@ -1790,7 +1787,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Quel est le minimum de commande pour des snapbacks personnalisées ?",
-            a: "50 pièces par couleur et par modèle. Vous pouvez mélanger les couleurs d'un modèle pour atteindre le palier de prix de 100 pièces.",
+            a: "50 pièces par modèle, couleur et taille.",
           },
           {
             q: "Faites-vous de la broderie 3D (puff) sur une snapback ?",
@@ -1798,11 +1795,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien de temps prend une commande de snapbacks personnalisées ?",
-            a: "Environ 7 à 15 jours pour l'échantillon et 25 à 30 jours de production après votre validation, plus le délai de transport.",
+            a: "L'échantillon prend environ 7 à 15 jours après confirmation du visuel et de la matière. La production prend environ 25 à 30 jours après validation de l'échantillon et réception du paiement convenu, plus le transport.",
           },
           {
-            q: "Combien coûtent des snapbacks personnalisées pour 100 à 300 pièces ?",
-            a: "Notre casquette standard avec un logo brodé à plat et une étiquette tissée coûte 4,3–5,7 USD pièce pour 100–299 pièces et 3,6–4,3 USD pour 300–499, départ usine Guangzhou. La broderie 3D et les écussons sont chiffrés selon le design.",
+            q: "Combien coûtent les snapbacks personnalisées pour 100 à 300 pièces ?",
+            a: "Le prix dépend du modèle exact, du tissu, de la taille du motif et des emplacements de décoration ; le transport est chiffré séparément. Le tableau des prix concerne uniquement une casquette standard à 6 panneaux en sergé de coton, avec un logo brodé à plat devant et une étiquette tissée. Il ne s'applique pas à toute la catégorie ni à la broderie 3D (puff).",
           },
           {
             q: "Quelle taille pour le logo à l'arrière ?",
@@ -1810,18 +1807,17 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien coûte un échantillon de snapback ?",
-            a: "50 USD pour un échantillon standard, hors transport ; les échantillons avec plusieurs emplacements de logo ou des détails complexes sont chiffrés à part. Il prend 7 à 15 jours, et le montant est remboursé dès 1 000 pièces commandées de ce modèle.",
+            a: "Un échantillon standard coûte 50 USD, transport en plus. Les échantillons complexes demandent une vérification et un devis séparés. L'échantillon prend environ 7 à 15 jours après confirmation du visuel et de la matière. Le coût de l'échantillon est remboursé à partir de 1 000 pièces commandées du même design.",
           },
         ],
       },
       de: {
         name: "Snapback Caps",
         h1: "Hersteller für individuelle Snapback Caps",
-        metaDescription: "Individuelle Snapback Caps aus Guangzhou: strukturierte Krone, flacher oder gebogener Schirm, 3D-Stickerei oder Patches. Ab 50 Stück pro Farbe.",
+        metaDescription: "Individuelle Snapback Caps aus Guangzhou: strukturierte Krone, flacher oder gebogener Schirm, 3D-Stickerei oder Patches. Ab 50 Stück je Modell, Farbe und Größe.",
         intro: [
           "Snapbacks sind dafür gemacht, ihre Form zu halten: eine strukturierte Front, ein flacher oder leicht gebogener Schirm und ein verstellbarer Kunststoff-Druckverschluss hinten. NanCrown fertigt Snapbacks als 5- und 6-Panel-Caps und als Trucker mit Netzrücken, mit mehrreihiger Schirmsteppung und farblich passendem Verschluss.",
-          "Auf der Front spricht Ihre Marke: 3D-Puff- oder Flachstickerei, gewebte, Leder- oder PVC-Patches, Druck oder ein Souvenir-Patch mit Kordel über dem Schirm. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
-          "Streetwear-Marken bestellen Snapbacks mit flachem Schirm meist in 100 bis 300 Stück pro Modell, mit erhabenem 3D-Puff-Logo vorne und kleinerer Flachstickerei an der Seite oder hinten. Zwei Dinge sollten Sie vor dem Entwurf wissen. Bei 3D-Puff sollte die dünnste Stelle des Logos mindestens 2 mm breit sein. Und bei Snapbacks im Trucker-Stil ist das Mesh aus Polyester: Es lässt sich sehr nah an eine Baumwollfront angleichen, aber nie ganz exakt.",
+          "Auf der Front spricht Ihre Marke: 3D-Puff- oder Flachstickerei, gewebte, Leder- oder PVC-Patches, Druck oder ein Souvenir-Patch mit Kordel über dem Schirm. Nach Bestätigung von Motiv und Material erstellen wir in etwa 7–15 Tagen ein Vorproduktionsmuster. Wir produzieren direkt ab Fabrik in Guangzhou ab 50 Stück je Modell, Farbe und Größe. Die Serienproduktion dauert etwa 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung.",
         ],
         customOptions: [
           "Aufbau: strukturierte 5- oder 6-Panel-Krone oder Trucker mit Netzrücken.",
@@ -1833,7 +1829,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Wie hoch ist die Mindestmenge für individuelle Snapbacks?",
-            a: "50 Stück pro Farbe und Modell. Farben innerhalb eines Modells lassen sich kombinieren, um die 100-Stück-Preisstufe zu erreichen.",
+            a: "50 Stück je Modell, Farbe und Größe.",
           },
           {
             q: "Machen Sie 3D-Puff-Stickerei auf Snapbacks?",
@@ -1841,11 +1837,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Wie lange dauert eine Snapback-Bestellung?",
-            a: "Etwa 7–15 Tage für das Muster und 25–30 Tage Serienproduktion nach Ihrer Freigabe, zuzüglich Transportzeit.",
+            a: "Das Muster dauert etwa 7–15 Tage nach Bestätigung von Motiv und Material. Die Serienproduktion dauert etwa 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung, zuzüglich Transport.",
           },
           {
             q: "Was kosten individuelle Snapbacks bei 100–300 Stück?",
-            a: "Unsere Standardcap mit flach gesticktem Logo und einem Webetikett kostet 4,3–5,7 USD pro Stück bei 100–299 Stück und 3,6–4,3 USD bei 300–499, ab Werk Guangzhou. 3D-Puff-Stickerei und Patches werden je Design kalkuliert.",
+            a: "Der Preis richtet sich nach Cap-Modell, Stoff, Motivgröße und Veredelungspositionen; der Versand wird separat kalkuliert. Die Preistabelle gilt nur für eine Standardcap mit 6 Panels aus Baumwoll-Twill, einem flach gestickten Frontlogo und einem Webetikett. Sie ist weder ein Preis für die gesamte Kategorie noch für 3D-Puff-Stickerei.",
           },
           {
             q: "Wie groß sollte das Logo hinten sein?",
@@ -1853,7 +1849,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Was kostet ein Snapback-Muster?",
-            a: "50 USD für ein Standardmuster ohne Versand; Muster mit mehreren Logo-Positionen oder aufwendigen Details werden separat kalkuliert. Es dauert 7–15 Tage, und die Gebühr wird erstattet, wenn Sie 1.000 Stück oder mehr dieses Modells bestellen.",
+            a: "Ein Standardmuster kostet 50 US-Dollar zuzüglich Versand. Komplexe Muster müssen separat geprüft und kalkuliert werden. Das Muster dauert etwa 7–15 Tage nach Bestätigung von Motiv und Material. Die Musterkosten werden bei einer Bestellung von mindestens 1.000 Stück desselben Designs erstattet.",
           },
         ],
       },
@@ -2212,10 +2208,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Embroidered Caps",
         h1: "Custom Embroidered Caps: 3D Puff, Flat & Chain-Stitch",
-        metaDescription: "Custom embroidered caps with 3D puff, satin-stitch, outline or chain-stitch embroidery. Factory-direct from Guangzhou, 50 pcs per colour, samples in 7–15 days.",
+        metaDescription: "Custom embroidered caps with 3D puff, satin-stitch, outline or chain-stitch embroidery. Factory-direct from Guangzhou, 50 pcs per style, colour and size; samples in 7–15 days.",
         intro: [
           "Embroidery is the most common way to put a brand on a cap, and the stitch style changes the whole look. NanCrown embroiders caps in raised 3D puff for bold streetwear logos, flat satin-stitch for clean wordmarks, open outline embroidery that lets the fabric show through, chain-stitch for a textured vintage feel, and appliqué for large letters.",
-          "We digitise your artwork, stitch it on a pre-production sample in 7–15 days, and adjust thread colours and density with you before bulk. Logos can go on the front, sides, back and brim of any of our cap styles, from 50 pieces per colour.",
+          "We digitise your artwork, stitch it on a pre-production sample in 7–15 days after artwork and material are confirmed, and adjust thread colours and density with you before bulk. Logos can go on the front, sides, back and brim of any of our cap styles, from 50 pieces per style, colour and size. Bulk production takes about 25–30 days after sample approval and receipt of the agreed payment, plus shipping time.",
           "3D puff embroidery has one technical limit worth knowing before you design: the thinnest part of the logo should be at least 2 mm wide, apart from the pointed ends of strokes. Thinner lines are stitched flat, or we suggest enlarging or simplifying the logo. A common build is a large raised wordmark with a small flat line of text under it. Gradients and very fine detail do not stitch well, so for those we recommend a heat-transfer print instead.",
         ],
         customOptions: [
@@ -2228,7 +2224,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Can you do 3D puff embroidery with a small order?",
-            a: "Yes. 3D puff embroidery is available from our 50-piece-per-colour minimum and is quoted per design, depending on size and stitch count.",
+            a: "Yes. 3D puff embroidery is available from our 50-piece-per-style, colour and size minimum and is quoted per design, depending on size and stitch count.",
           },
           {
             q: "What file do you need for embroidery?",
@@ -2236,15 +2232,15 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Is embroidery included in the price?",
-            a: "Our price tiers include one flat embroidered logo on the front. 3D puff, extra positions and large stitch counts are quoted per design.",
+            a: "The Pricing table includes one flat-embroidered front logo and one woven label on a standard 6-panel cotton-twill cap only. Other cap styles, fabrics, logo sizes or positions need a design-specific quote; shipping is separate. 3D puff is not included in that standard reference.",
+          },
+          {
+            q: "How much do 3D puff embroidered caps cost at 100 pieces?",
+            a: "We quote 3D puff by the exact cap style, fabric, artwork size and decoration positions; shipping is quoted separately. The Pricing table covers only a standard 6-panel cotton-twill cap with one flat-embroidered front logo and one woven label, so it is not a 3D-puff quote.",
           },
           {
             q: "How small can 3D puff embroidery go?",
             a: "The thinnest part of the design should be at least 2 mm wide, apart from pointed stroke ends. Whether your logo is long enough to raise depends on the artwork, so send it and we will tell you honestly whether to stitch it raised, flat, or part of each.",
-          },
-          {
-            q: "How much do 3D puff embroidered caps cost at 100 pieces?",
-            a: "Our standard cap with a flat embroidered logo is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou. 3D puff is quoted per design on top of that, depending on size and stitch count. A standard sample is US$50, not including shipping.",
           },
           {
             q: "Will the embroidery colour match my label and print exactly?",
@@ -2255,10 +2251,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       es: {
         name: "Gorras Bordadas",
         h1: "Gorras bordadas personalizadas: bordado 3D, plano y de cadeneta",
-        metaDescription: "Gorras bordadas personalizadas: bordado 3D (puff), de satén, de contorno o de cadeneta. Directo de fábrica, 50 uds. por color, muestra en 7–15 días.",
+        metaDescription: "Gorras bordadas personalizadas: bordado 3D (puff), de satén, de contorno o de cadeneta. Directo de fábrica, 50 uds. por modelo, color y talla; muestra en 7–15 días.",
         intro: [
           "El bordado es la forma más habitual de poner una marca en una gorra, y el tipo de puntada cambia todo el aspecto. En NanCrown bordamos gorras en 3D (puff) en relieve para logos streetwear contundentes, en satén plano para logotipos limpios, en contorno abierto que deja ver el tejido, en cadeneta para un toque vintage con textura, y en aplicación para letras grandes.",
-          "Digitalizamos tu diseño, lo bordamos en una muestra de preproducción en 7–15 días y ajustamos contigo los colores del hilo y la densidad antes de producir. Los logos pueden ir en el frontal, los laterales, la parte trasera y la visera de cualquiera de nuestros modelos, desde 50 piezas por color.",
+          "Digitalizamos tu diseño, lo bordamos en una muestra de preproducción en 7–15 días tras confirmar el diseño y el material, y ajustamos contigo los colores del hilo y la densidad antes de producir. Los logos pueden ir en el frontal, los laterales, la parte trasera y la visera de cualquiera de nuestros modelos, desde 50 piezas por modelo, color y talla. La producción tarda unos 25–30 días después de aprobar la muestra y recibir el pago acordado, más el envío.",
           "El bordado 3D (puff) tiene un límite técnico que conviene conocer antes de diseñar: la parte más fina del logo debe medir al menos 2 mm de ancho, salvo las puntas de los trazos. Las líneas más finas se bordan en plano, o proponemos agrandar o simplificar el logo. Una combinación habitual es una palabra grande en relieve con una línea pequeña de texto en plano debajo. Los degradados y los detalles muy finos no se bordan bien; para esos casos recomendamos un estampado por transferencia térmica.",
         ],
         customOptions: [
@@ -2271,7 +2267,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "¿Hacéis bordado 3D (puff) en pedidos pequeños?",
-            a: "Sí. El bordado 3D está disponible desde nuestro mínimo de 50 piezas por color y se cotiza según el diseño, en función del tamaño y del número de puntadas.",
+            a: "Sí. El bordado 3D está disponible desde nuestro mínimo de 50 piezas por modelo, color y talla y se cotiza según el diseño, en función del tamaño y del número de puntadas.",
           },
           {
             q: "¿Qué archivo necesitáis para bordar?",
@@ -2279,15 +2275,15 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿El bordado está incluido en el precio?",
-            a: "Nuestros tramos de precio incluyen un logo bordado plano en el frontal. El bordado 3D, las posiciones adicionales y los bordados muy grandes se cotizan según el diseño.",
+            a: "La tabla de precios solo incluye un logo bordado plano en el frontal y una etiqueta tejida en una gorra estándar de 6 paneles de sarga de algodón. Otros modelos, tejidos, tamaños de diseño o posiciones requieren un presupuesto según el diseño; el envío se presupuesta aparte. El bordado 3D (puff) no está incluido en esa referencia estándar.",
+          },
+          {
+            q: "¿Cuánto cuestan las gorras con bordado 3D en 100 piezas?",
+            a: "El precio del bordado 3D se calcula según el modelo de gorra, el tejido, el tamaño del diseño y las posiciones de decoración; el envío se presupuesta aparte. La tabla de precios solo corresponde a una gorra estándar de 6 paneles de sarga de algodón, con un logo bordado plano en el frontal y una etiqueta tejida; no es un precio para bordado 3D.",
           },
           {
             q: "¿Qué tamaño mínimo admite el bordado 3D (puff)?",
             a: "La parte más fina del diseño debe medir al menos 2 mm de ancho, salvo las puntas de los trazos. Que tu logo sea lo bastante largo para hacerlo en relieve depende del dibujo: envíanoslo y te diremos con sinceridad si conviene bordarlo en relieve, en plano o una parte de cada forma.",
-          },
-          {
-            q: "¿Cuánto cuestan las gorras con bordado 3D en 100 piezas?",
-            a: "Nuestra gorra estándar con un logo bordado plano cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou. El bordado 3D se cotiza aparte según el diseño, en función del tamaño y del número de puntadas. Una muestra estándar cuesta 50 USD, sin incluir el envío.",
           },
           {
             q: "¿El color del bordado será exactamente igual al de mi etiqueta y mi estampado?",
@@ -2298,10 +2294,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       fr: {
         name: "Casquettes Brodées",
         h1: "Casquettes brodées personnalisées : broderie 3D, à plat et au point de chaînette",
-        metaDescription: "Casquettes brodées personnalisées : broderie 3D (puff), à plat, en contour ou chaînette. Direct usine, dès 50 pièces par couleur, échantillon en 7 à 15 jours.",
+        metaDescription: "Casquettes brodées personnalisées : broderie 3D (puff), à plat, en contour ou chaînette. Direct usine, dès 50 pièces par modèle, couleur et taille ; échantillon en 7 à 15 jours.",
         intro: [
           "La broderie est la façon la plus courante de mettre une marque sur une casquette, et le type de point change tout. NanCrown brode des casquettes en 3D (puff) en relief pour des logos streetwear affirmés, au point lancé à plat pour des logotypes nets, en contour ouvert qui laisse voir le tissu, au point de chaînette pour un rendu vintage texturé, et en appliqué pour les grandes lettres.",
-          "Nous numérisons votre visuel, le brodons sur un échantillon de pré-production en 7 à 15 jours et ajustons avec vous les couleurs de fil et la densité avant la série. Les logos peuvent être placés devant, sur les côtés, à l'arrière et sur la visière de tous nos modèles, dès 50 pièces par couleur.",
+          "Nous numérisons votre visuel, le brodons sur un échantillon de pré-production en 7 à 15 jours après confirmation du visuel et de la matière, et ajustons avec vous les couleurs de fil et la densité avant la série. Les logos peuvent être placés devant, sur les côtés, à l'arrière et sur la visière de tous nos modèles, dès 50 pièces par modèle, couleur et taille. La production prend environ 25 à 30 jours après validation de l'échantillon et réception du paiement convenu, plus le transport.",
           "La broderie 3D (puff) a une limite technique à connaître avant de dessiner : la partie la plus fine du logo doit faire au moins 2 mm de large, hormis les pointes des traits. Les lignes plus fines sont brodées à plat, ou nous proposons d'agrandir ou de simplifier le logo. Une combinaison courante est un grand mot en relief avec une petite ligne de texte à plat en dessous. Les dégradés et les détails très fins se brodent mal : dans ce cas, nous conseillons plutôt un transfert à chaud.",
         ],
         customOptions: [
@@ -2314,7 +2310,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Faites-vous de la broderie 3D (puff) en petite quantité ?",
-            a: "Oui. La broderie 3D est possible dès notre minimum de 50 pièces par couleur et se chiffre selon le design, en fonction de la taille et du nombre de points.",
+            a: "Oui. La broderie 3D est possible dès notre minimum de 50 pièces par modèle, couleur et taille et se chiffre selon le design, en fonction de la taille et du nombre de points.",
           },
           {
             q: "De quel fichier avez-vous besoin pour la broderie ?",
@@ -2322,15 +2318,15 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "La broderie est-elle comprise dans le prix ?",
-            a: "Nos paliers de prix comprennent un logo brodé à plat sur le devant. La broderie 3D, les emplacements supplémentaires et les grandes broderies sont chiffrés selon le design.",
+            a: "Le tableau des prix comprend uniquement un logo brodé à plat devant et une étiquette tissée sur une casquette standard à 6 panneaux en sergé de coton. Les autres modèles, tissus, tailles de motif ou emplacements demandent un devis selon le design ; le transport est en plus. La broderie 3D (puff) n'est pas comprise dans cette référence standard.",
+          },
+          {
+            q: "Combien coûtent des casquettes en broderie 3D pour 100 pièces ?",
+            a: "Le prix de la broderie 3D dépend du modèle exact, du tissu, de la taille du motif et des emplacements de décoration ; le transport est chiffré séparément. Le tableau des prix concerne uniquement une casquette standard à 6 panneaux en sergé de coton, avec un logo brodé à plat devant et une étiquette tissée ; ce n'est pas un devis pour la broderie 3D.",
           },
           {
             q: "Jusqu'à quelle finesse peut aller la broderie 3D (puff) ?",
             a: "La partie la plus fine du motif doit faire au moins 2 mm de large, hormis les pointes des traits. Savoir si votre logo est assez long pour être mis en relief dépend du dessin : envoyez-le et nous vous dirons honnêtement s'il vaut mieux le broder en relief, à plat, ou un peu des deux.",
-          },
-          {
-            q: "Combien coûtent des casquettes en broderie 3D pour 100 pièces ?",
-            a: "Notre casquette standard avec un logo brodé à plat coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou. La broderie 3D se chiffre en plus selon le design, en fonction de la taille et du nombre de points. Un échantillon standard coûte 50 USD, hors transport.",
           },
           {
             q: "La couleur de la broderie sera-t-elle exactement celle de mon étiquette et de mon impression ?",
@@ -2341,10 +2337,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
       de: {
         name: "Bestickte Caps",
         h1: "Individuell bestickte Caps: 3D-Puff-, Flach- und Kettstich",
-        metaDescription: "Individuell bestickte Caps mit 3D-Puff-, Satinstich-, Kontur- oder Kettstich-Stickerei. Direkt ab Fabrik in Guangzhou, 50 Stück pro Farbe, Muster in 7–15 Tagen.",
+        metaDescription: "Individuell bestickte Caps mit 3D-Puff-, Satinstich-, Kontur- oder Kettstich-Stickerei. Direkt ab Fabrik in Guangzhou, 50 Stück je Modell, Farbe und Größe; Muster in 7–15 Tagen.",
         intro: [
           "Stickerei ist der häufigste Weg, eine Marke auf eine Cap zu bringen, und die Stichart verändert den ganzen Look. NanCrown bestickt Caps mit erhabener 3D-Puff-Stickerei für kräftige Streetwear-Logos, flachem Satinstich für klare Schriftzüge, offener Konturstickerei, durch die der Stoff sichtbar bleibt, Kettstich für einen strukturierten Vintage-Look und Applikationen für große Buchstaben.",
-          "Wir digitalisieren Ihr Motiv, sticken es in 7–15 Tagen auf ein Vorproduktionsmuster und stimmen Garnfarben und Stichdichte vor der Serie mit Ihnen ab. Logos sind vorne, seitlich, hinten und auf dem Schirm all unserer Cap-Modelle möglich, ab 50 Stück pro Farbe.",
+          "Wir digitalisieren Ihr Motiv, sticken es in 7–15 Tagen nach Bestätigung von Motiv und Material auf ein Vorproduktionsmuster und stimmen Garnfarben und Stichdichte vor der Serie mit Ihnen ab. Logos sind vorne, seitlich, hinten und auf dem Schirm all unserer Cap-Modelle möglich, ab 50 Stück je Modell, Farbe und Größe. Die Serienproduktion dauert etwa 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung, zuzüglich Transport.",
           "3D-Puff-Stickerei hat eine technische Grenze, die Sie vor dem Entwurf kennen sollten: Die dünnste Stelle des Logos sollte mindestens 2 mm breit sein, ausgenommen die spitzen Enden von Strichen. Dünnere Linien werden flach gestickt, oder wir schlagen vor, das Logo zu vergrößern oder zu vereinfachen. Üblich ist ein großer erhabener Schriftzug mit einer kleinen flach gestickten Textzeile darunter. Farbverläufe und sehr feine Details lassen sich schlecht sticken; dafür empfehlen wir einen Transferdruck.",
         ],
         customOptions: [
@@ -2357,7 +2353,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         faq: [
           {
             q: "Machen Sie 3D-Puff-Stickerei auch bei kleinen Mengen?",
-            a: "Ja. 3D-Puff-Stickerei ist ab unserer Mindestmenge von 50 Stück pro Farbe möglich und wird je Design nach Größe und Stichzahl kalkuliert.",
+            a: "Ja. 3D-Puff-Stickerei ist ab unserer Mindestmenge von 50 Stück je Modell, Farbe und Größe möglich und wird je Design nach Größe und Stichzahl kalkuliert.",
           },
           {
             q: "Welche Datei brauchen Sie für die Stickerei?",
@@ -2365,15 +2361,15 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Ist die Stickerei im Preis enthalten?",
-            a: "Unsere Preisstufen enthalten ein flach gesticktes Logo vorne. 3D-Puff, weitere Positionen und große Stichzahlen kalkulieren wir je Design.",
+            a: "Die Preistabelle umfasst nur ein flach gesticktes Frontlogo und ein Webetikett auf einer Standardcap mit 6 Panels aus Baumwoll-Twill. Für andere Modelle, Stoffe, Motivgrößen oder Positionen erstellen wir ein designbezogenes Angebot; der Versand kommt separat hinzu. 3D-Puff-Stickerei ist in diesem Standardrichtwert nicht enthalten.",
+          },
+          {
+            q: "Was kosten Caps mit 3D-Puff-Stickerei bei 100 Stück?",
+            a: "Der Preis für 3D-Puff richtet sich nach Cap-Modell, Stoff, Motivgröße und Veredelungspositionen; der Versand wird separat kalkuliert. Die Preistabelle gilt nur für eine Standardcap mit 6 Panels aus Baumwoll-Twill, einem flach gestickten Frontlogo und einem Webetikett; sie ist kein Preis für 3D-Puff-Stickerei.",
           },
           {
             q: "Wie fein kann 3D-Puff-Stickerei sein?",
             a: "Die dünnste Stelle des Motivs sollte mindestens 2 mm breit sein, ausgenommen spitze Strichenden. Ob Ihr Logo lang genug für eine erhabene Stickerei ist, hängt vom Motiv ab: Schicken Sie es uns, und wir sagen Ihnen ehrlich, ob wir es erhaben, flach oder gemischt sticken würden.",
-          },
-          {
-            q: "Was kosten Caps mit 3D-Puff-Stickerei bei 100 Stück?",
-            a: "Unsere Standardcap mit flach gesticktem Logo kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou. 3D-Puff wird je Design nach Größe und Stichzahl zusätzlich kalkuliert. Ein Standardmuster kostet 50 USD ohne Versand.",
           },
           {
             q: "Passt die Stickfarbe genau zu meinem Etikett und meinem Druck?",

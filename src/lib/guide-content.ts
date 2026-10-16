@@ -13,7 +13,7 @@
 //   - 没有任何认证,一个字都不许写
 // 改数字前先改那份记忆文件,两边保持一致。
 //
-// 正文格式:p / list / 表格单元格里只允许 <b>…</b> 加粗,别的 HTML 一律不认(渲染端只解析 <b>)。
+// 正文格式:p / list 允许 <b>…</b> 和站内 <a href="/…">…</a>；表格单元格只解析 <b>。
 
 import type { Locale } from "@/i18n/routing";
 
@@ -26,7 +26,7 @@ export const guideSlugs: GuideSlug[] = [
 ];
 
 export type GuideBlock =
-  | { type: "h2"; text: string }
+  | { type: "h2"; text: string; id?: string }
   | { type: "link"; href: string; text: string }
   | { type: "p"; text: string }
   | { type: "list"; items: string[] }
@@ -92,22 +92,17 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       type: "p",
-      text: "We quote these per design, so the fastest way to an exact price is to send us your artwork and specification.",
+      text: "We quote these per design, so the fastest way to an exact price is to send us your artwork and specification. See our <a href=\"/solutions/embroidery-artwork\">embroidery artwork guide</a> for details on how decoration affects cost.",
     },
     { type: "h2", text: "Minimum order (MOQ)" },
     {
       type: "p",
       text: "Minimum 50 pieces per style, per colour and per size. Colours of the same style can be combined to reach a price tier, provided every colour/size meets the minimum. For example, 2 colours × 50 = 100 pieces; 100 pieces cannot be split into 3 colours. Different styles do not combine for a price tier.",
     },
-    { type: "h2", text: "Samples" },
+    { type: "h2", text: "Samples", id: "sample-policy" },
     {
-      type: "list",
-      items: [
-        "Sample fee: <b>$50 per sample</b> for a standard design, shipping not included. Complex designs are quoted separately.",
-        "Sample time: <b>7–15 days</b> after we confirm your artwork and fabric.",
-        "The sample fee is <b>refunded</b> when you order 1,000 pieces or more of that design.",
-        "Revisions are made before you approve. Bulk production starts after your sample sign-off and receipt of the agreed payment; see payment terms below.",
-      ],
+      type: "p",
+      text: "Sample policy reviewed 17 October 2026: a standard physical sample costs <b>$50</b> plus shipping and takes <b>7–15 days</b> after artwork and fabric are confirmed; complex designs are quoted separately. The fee is refunded on orders of 1,000 or more pieces of the same design. Revisions happen before approval, and bulk starts after sample sign-off and receipt of the agreed payment. See the <a href=\"/solutions/sample-approval\">sample approval guide</a> and the <a href=\"/pricing#sample-policy\">official NanCrown pricing source</a> for the current terms.",
     },
     { type: "h2", text: "Lead times" },
     {
@@ -252,22 +247,17 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       type: "p",
-      text: "Estos elementos se cotizan según el diseño, así que la forma más rápida de tener un precio exacto es enviarnos tu arte y tus especificaciones.",
+      text: "Estos elementos se cotizan según el diseño, así que la forma más rápida de tener un precio exacto es enviarnos tu arte y tus especificaciones. Consulta nuestra <a href=\"/solutions/embroidery-artwork\">guía de diseños de bordado</a> para saber cómo influye la decoración en el precio.",
     },
     { type: "h2", text: "Pedido mínimo (MOQ)" },
     {
       type: "p",
       text: "Mínimo 50 piezas por modelo, color y talla. Los colores de un mismo modelo pueden sumarse para alcanzar un tramo, siempre que cada color/talla cumpla el mínimo. Ejemplo: 2 colores × 50 = 100 piezas; 100 piezas no se pueden repartir en 3 colores. Los modelos diferentes no se suman para alcanzar un tramo.",
     },
-    { type: "h2", text: "Muestras" },
+    { type: "h2", text: "Muestras", id: "sample-policy" },
     {
-      type: "list",
-      items: [
-        "Coste de la muestra: <b>50 USD por muestra</b> para un diseño estándar, envío no incluido. Los diseños complejos se cotizan aparte.",
-        "Plazo de la muestra: <b>7–15 días</b> desde que confirmamos arte y tejido.",
-        "El coste de la muestra se <b>devuelve</b> si pides 1.000 piezas o más de ese diseño.",
-        "Las correcciones se hacen antes de tu aprobación. La producción solo empieza cuando das el visto bueno.",
-      ],
+      type: "p",
+      text: "Política de muestras revisada el 17 de octubre de 2026: una muestra física estándar cuesta <b>50 USD</b> más el envío y tarda <b>7–15 días</b> desde que se confirman el diseño y el tejido; los diseños complejos se cotizan aparte. Se devuelve el coste al pedir 1.000 piezas o más del mismo diseño. Las revisiones se hacen antes de aprobar la muestra y la producción comienza tras aprobarla y recibir el pago acordado. Consulta la <a href=\"/solutions/sample-approval\">guía de aprobación de muestras</a> y la <a href=\"/pricing#sample-policy\">fuente oficial de precios de NanCrown</a> para ver las condiciones vigentes.",
     },
     { type: "h2", text: "Plazos" },
     {
@@ -412,22 +402,17 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       type: "p",
-      text: "Ces options sont chiffrées selon le design : le moyen le plus rapide d'obtenir un prix exact est de nous envoyer votre visuel et votre cahier des charges.",
+      text: "Ces options sont chiffrées selon le design : le moyen le plus rapide d'obtenir un prix exact est de nous envoyer votre visuel et votre cahier des charges. Consultez notre <a href=\"/solutions/embroidery-artwork\">guide sur les visuels de broderie</a> pour savoir comment la décoration influe sur le prix.",
     },
     { type: "h2", text: "Minimum de commande (MOQ)" },
     {
       type: "p",
       text: "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent être cumulées pour atteindre un palier, si chaque couleur/taille respecte le minimum. Exemple : 2 couleurs × 50 = 100 pièces ; 100 pièces ne peuvent pas être réparties en 3 couleurs. Des modèles différents ne sont pas cumulés pour un palier.",
     },
-    { type: "h2", text: "Échantillons" },
+    { type: "h2", text: "Échantillons", id: "sample-policy" },
     {
-      type: "list",
-      items: [
-        "Prix de l'échantillon : <b>50 USD pièce</b> pour un design standard, hors frais d'envoi. Les designs complexes sont chiffrés à part.",
-        "Délai de l'échantillon : <b>7 à 15 jours</b> après validation du visuel et du tissu.",
-        "Le prix de l'échantillon est <b>remboursé</b> si vous commandez 1 000 pièces ou plus de ce design.",
-        "Les corrections sont faites avant votre validation. La production ne démarre qu'après votre accord.",
-      ],
+      type: "p",
+      text: "Politique d’échantillonnage vérifiée le 17 octobre 2026 : un échantillon physique standard coûte <b>50 USD</b>, hors frais d’envoi, et prend <b>7 à 15 jours</b> après validation du visuel et du tissu ; les designs complexes sont chiffrés à part. Le prix est remboursé pour une commande d’au moins 1 000 pièces du même design. Les corrections ont lieu avant validation ; la production démarre après validation de l’échantillon et réception du paiement convenu. Consultez le <a href=\"/solutions/sample-approval\">guide d’approbation des échantillons</a> et la <a href=\"/pricing#sample-policy\">source officielle des prix NanCrown</a> pour les conditions en vigueur.",
     },
     { type: "h2", text: "Délais" },
     {
@@ -572,22 +557,17 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       type: "p",
-      text: "Diese Punkte kalkulieren wir je Design. Am schnellsten kommen Sie zu einem genauen Preis, wenn Sie uns Ihre Vorlage und Spezifikation schicken.",
+      text: "Diese Punkte kalkulieren wir je Design. Am schnellsten kommen Sie zu einem genauen Preis, wenn Sie uns Ihre Vorlage und Spezifikation schicken. In unserem <a href=\"/solutions/embroidery-artwork\">Leitfaden zu Stickdateien</a> erfahren Sie, wie Verzierungen den Preis beeinflussen.",
     },
     { type: "h2", text: "Mindestbestellmenge (MOQ)" },
     {
       type: "p",
       text: "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe zusammengezählt werden, sofern jede Farbe/Größe die Mindestmenge erfüllt. Beispiel: 2 Farben × 50 = 100 Stück; 100 Stück können nicht auf 3 Farben aufgeteilt werden. Verschiedene Modelle werden für eine Preisstufe nicht zusammengezählt.",
     },
-    { type: "h2", text: "Muster" },
+    { type: "h2", text: "Muster", id: "sample-policy" },
     {
-      type: "list",
-      items: [
-        "Musterkosten: <b>50 USD pro Muster</b> bei einem Standarddesign, zuzüglich Versand. Aufwendige Designs kalkulieren wir separat.",
-        "Musterzeit: <b>7–15 Tage</b>, nachdem Vorlage und Stoff bestätigt sind.",
-        "Die Musterkosten werden <b>erstattet</b>, wenn Sie 1.000 Stück oder mehr von diesem Design bestellen.",
-        "Korrekturen erfolgen vor Ihrer Freigabe. Die Serienproduktion startet erst nach Ihrem Okay.",
-      ],
+      type: "p",
+      text: "Musterbedingungen geprüft am 17. Oktober 2026: Ein physisches Standardmuster kostet <b>50 USD</b> zuzüglich Versand und dauert <b>7–15 Tage</b> nach Bestätigung von Vorlage und Stoff; aufwendige Designs kalkulieren wir separat. Bei einer Bestellung von mindestens 1.000 Stück desselben Designs erstatten wir die Musterkosten. Korrekturen erfolgen vor Ihrer Freigabe; die Serienproduktion beginnt nach Musterfreigabe und Eingang der vereinbarten Zahlung. Lesen Sie den <a href=\"/solutions/sample-approval\">Leitfaden zur Musterfreigabe</a> und die <a href=\"/pricing#sample-policy\">offizielle NanCrown-Preisquelle</a> für die aktuellen Bedingungen.",
     },
     { type: "h2", text: "Lieferzeiten" },
     {

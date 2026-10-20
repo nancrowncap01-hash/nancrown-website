@@ -190,7 +190,7 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "How are the caps packed?",
-      a: "As standard, each cap goes in its own poly bag, 25 caps to an inner box and 100 caps to a carton. Custom packaging, such as branded boxes or hangtags, is quoted separately.",
+      a: "As standard, 25 caps share one poly bag and go in one inner box; each export carton holds 4 inner boxes (100 caps). If you need individual bags or other custom packaging, we’ll confirm the packing method and quote separately.",
     },
     {
       q: "Are you a factory or a trading company?",
@@ -345,7 +345,7 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Cómo se embalan las gorras?",
-      a: "De serie, cada gorra va en su propia bolsa de plástico, 25 gorras por caja interior y 100 por caja de cartón. El embalaje personalizado, como cajas con tu marca o etiquetas colgantes, se presupuesta aparte.",
+      a: "De serie, 25 gorras comparten una bolsa de plástico y van en una caja interior; cada caja de exportación contiene 4 cajas interiores (100 gorras). Si necesitas una bolsa por gorra u otro embalaje personalizado, confirmaremos cómo prepararlo y te enviaremos un presupuesto aparte.",
     },
     {
       q: "¿Sois fábrica o empresa comercializadora?",
@@ -500,7 +500,7 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Comment les casquettes sont-elles emballées ?",
-      a: "En standard, chaque casquette est dans son sachet plastique, 25 casquettes par boîte intérieure et 100 par carton. Un emballage personnalisé, comme des boîtes à votre marque ou des étiquettes volantes, est chiffré à part.",
+      a: "En standard, 25 casquettes partagent un sachet plastique et sont placées dans une boîte intérieure ; chaque carton d’exportation contient 4 boîtes intérieures (100 casquettes). Pour un sachet individuel ou un autre emballage personnalisé, nous confirmerons le conditionnement et établirons un devis séparé.",
     },
     {
       q: "Êtes-vous une usine ou une société de négoce ?",
@@ -655,7 +655,7 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Wie werden die Caps verpackt?",
-      a: "Standardmäßig kommt jede Cap in einen eigenen Polybeutel, 25 Caps in einen Innenkarton und 100 in einen Versandkarton. Individuelle Verpackung wie Markenboxen oder Hängeetiketten wird separat kalkuliert.",
+      a: "Standardmäßig teilen sich 25 Caps einen Polybeutel und kommen gemeinsam in einen Innenkarton; jeder Exportkarton enthält 4 Innenkartons (100 Caps). Wenn Sie einzelne Beutel oder eine andere individuelle Verpackung wünschen, stimmen wir die Verpackungsart ab und erstellen ein separates Angebot.",
     },
     {
       q: "Sind Sie Hersteller oder Händler?",
@@ -1178,7 +1178,7 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification. Standard packing: one poly bag per cap, 25 caps per inner box and 100 per carton."
+      "text": "<b>Our answer:</b> One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification. Standard packing: 25 caps share one poly bag and go in one inner box; each export carton holds 4 inner boxes (100 caps). Individual bags or other custom packaging can be arranged after we confirm the packing method and quote separately."
     },
     {
       "type": "h2",
@@ -1362,7 +1362,7 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones. Embalaje estándar: una bolsa por gorra, 25 por caja interior y 100 por caja de cartón."
+      "text": "<b>Nuestra respuesta:</b> El precio de la gorra de béisbol estándar de 6 paneles en sarga de algodón incluye una etiqueta tejida personalizada en todos los tramos, también en 50–99 piezas, sin cargo adicional de preparación para esa etiqueta estándar. La muestra estándar también incluye una etiqueta. Etiquetas adicionales, cinta interior estampada, etiquetas colgantes y embalaje personalizado se cotizan aparte. Otros modelos se cotizan según sus especificaciones. Embalaje estándar: 25 gorras comparten una bolsa de plástico y van en una caja interior; cada caja de exportación contiene 4 cajas interiores (100 gorras). Podemos preparar bolsas individuales u otro embalaje personalizado tras confirmar cómo hacerlo y enviar un presupuesto aparte."
     },
     {
       "type": "h2",
@@ -1546,7 +1546,7 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications. Emballage standard : un sachet par casquette, 25 par boîte intérieure et 100 par carton."
+      "text": "<b>Notre réponse :</b> Le prix de la casquette de baseball standard à 6 panneaux en sergé de coton inclut une étiquette tissée personnalisée dans tous les paliers, y compris 50–99 pièces, sans frais de mise en route supplémentaires pour cette étiquette standard. L’échantillon standard inclut aussi une étiquette. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres modèles sont chiffrés selon leurs spécifications. Conditionnement standard : 25 casquettes partagent un sachet plastique et sont placées dans une boîte intérieure ; chaque carton d’exportation contient 4 boîtes intérieures (100 casquettes). Nous pouvons prévoir des sachets individuels ou un autre emballage personnalisé après confirmation du conditionnement et du devis."
     },
     {
       "type": "h2",
@@ -1730,7 +1730,7 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert. Standardverpackung: ein Polybeutel pro Cap, 25 pro Innenkarton und 100 pro Versandkarton."
+      "text": "<b>Unsere Antwort:</b> Der Preis der Standard-Baseballcap mit 6 Panels aus Baumwoll-Twill enthält in jeder veröffentlichten Mengenstufe ein individuelles Webetikett, auch bei 50–99 Stück; dafür fallen keine zusätzlichen Rüstkosten an. Auch das Standardmuster enthält ein Etikett. Zusätzliche Etiketten, bedrucktes Innenband, Hängeetiketten und individuelle Verpackung werden separat angeboten. Andere Cap-Modelle werden nach ihrer eigenen Spezifikation kalkuliert. Standardverpackung: 25 Caps teilen sich einen Polybeutel und kommen gemeinsam in einen Innenkarton; jeder Exportkarton enthält 4 Innenkartons (100 Caps). Einzelbeutel oder andere individuelle Verpackung können wir nach Abstimmung der Verpackungsart separat anbieten."
     },
     {
       "type": "h2",

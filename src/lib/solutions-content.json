@@ -1690,7 +1690,7 @@
           },
           {
             "type": "p",
-            "text": "As standard, each cap goes in its own poly bag, 25 caps to an inner box and 100 caps to a carton. Custom packaging, such as branded boxes or hangtags, is quoted separately."
+            "text": "As standard, 25 caps share one poly bag and go in one inner box; each export carton holds 4 inner boxes (100 caps). If you need individual bags or other custom packaging, we’ll confirm the packing method and quote separately."
           },
           {
             "type": "h2",
@@ -1844,7 +1844,7 @@
           },
           {
             "type": "p",
-            "text": "De serie, cada gorra va en su propia bolsa de plástico, 25 gorras por caja interior y 100 por caja de cartón. El embalaje personalizado, como cajas con tu marca o etiquetas colgantes, se cotiza aparte."
+            "text": "De serie, 25 gorras comparten una bolsa de plástico y van en una caja interior; cada caja de exportación contiene 4 cajas interiores (100 gorras). Si necesitas una bolsa por gorra u otro embalaje personalizado, confirmaremos cómo prepararlo y te enviaremos un presupuesto aparte."
           },
           {
             "type": "h2",
@@ -1998,7 +1998,7 @@
           },
           {
             "type": "p",
-            "text": "En standard, chaque casquette est dans son sachet plastique, 25 casquettes par boîte intérieure et 100 par carton. Un emballage personnalisé, comme des boîtes à votre marque ou des étiquettes volantes, est chiffré à part."
+            "text": "En standard, 25 casquettes partagent un sachet plastique et sont placées dans une boîte intérieure ; chaque carton d’exportation contient 4 boîtes intérieures (100 casquettes). Pour un sachet individuel ou un autre emballage personnalisé, nous confirmerons le conditionnement et établirons un devis séparé."
           },
           {
             "type": "h2",
@@ -2152,7 +2152,7 @@
           },
           {
             "type": "p",
-            "text": "Standardmäßig kommt jede Cap in einen eigenen Polybeutel, 25 Caps in einen Innenkarton und 100 in einen Versandkarton. Individuelle Verpackung wie Markenboxen oder Hängeetiketten wird separat kalkuliert."
+            "text": "Standardmäßig teilen sich 25 Caps einen Polybeutel und kommen gemeinsam in einen Innenkarton; jeder Exportkarton enthält 4 Innenkartons (100 Caps). Wenn Sie einzelne Beutel oder eine andere individuelle Verpackung wünschen, stimmen wir die Verpackungsart ab und erstellen ein separates Angebot."
           },
           {
             "type": "h2",
@@ -2771,6 +2771,14 @@
             "text": "If something needs changing, send a marked photo with one numbered list of required corrections. Keep the final approval tied to the exact sample and artwork version you reviewed."
           },
           {
+            "type": "h2",
+            "text": "Packing"
+          },
+          {
+            "type": "p",
+            "text": "As standard, 25 caps share one poly bag and go in one inner box; each export carton holds 4 inner boxes (100 caps). If you need individual bags or other custom packaging, we’ll confirm the packing method and quote separately."
+          },
+          {
             "type": "link",
             "href": "/pricing",
             "text": "See current sample fees, payment terms and minimum order quantities →"
@@ -2876,6 +2884,14 @@
           {
             "type": "p",
             "text": "Si hay que cambiar algo, envía una foto marcada con una lista numerada de correcciones. Vincula la aprobación final a la muestra y a la versión exacta del diseño que revisaste."
+          },
+          {
+            "type": "h2",
+            "text": "Embalaje"
+          },
+          {
+            "type": "p",
+            "text": "De serie, 25 gorras comparten una bolsa de plástico y van en una caja interior; cada caja de exportación contiene 4 cajas interiores (100 gorras). Si necesitas una bolsa por gorra u otro embalaje personalizado, confirmaremos cómo prepararlo y te enviaremos un presupuesto aparte."
           },
           {
             "type": "link",
@@ -2985,6 +3001,14 @@
             "text": "Si une modification est nécessaire, envoyez une photo annotée avec une liste numérotée des corrections. Associez la validation finale à l’échantillon et à la version du visuel que vous avez examinés."
           },
           {
+            "type": "h2",
+            "text": "Conditionnement"
+          },
+          {
+            "type": "p",
+            "text": "En standard, 25 casquettes partagent un sachet plastique et sont placées dans une boîte intérieure ; chaque carton d’exportation contient 4 boîtes intérieures (100 casquettes). Pour un sachet individuel ou un autre emballage personnalisé, nous confirmerons le conditionnement et établirons un devis séparé."
+          },
+          {
             "type": "link",
             "href": "/pricing",
             "text": "Voir les frais d’échantillon, modalités de paiement et minimums →"
@@ -3090,6 +3114,14 @@
           {
             "type": "p",
             "text": "Falls etwas geändert werden muss, senden Sie ein markiertes Foto mit einer nummerierten Liste der erforderlichen Korrekturen. Beziehen Sie die endgültige Freigabe auf genau das Muster und die Motivversion, die Sie geprüft haben."
+          },
+          {
+            "type": "h2",
+            "text": "Verpackung"
+          },
+          {
+            "type": "p",
+            "text": "Standardmäßig teilen sich 25 Caps einen Polybeutel und kommen gemeinsam in einen Innenkarton; jeder Exportkarton enthält 4 Innenkartons (100 Caps). Wenn Sie einzelne Beutel oder eine andere individuelle Verpackung wünschen, stimmen wir die Verpackungsart ab und erstellen ein separates Angebot."
           },
           {
             "type": "link",

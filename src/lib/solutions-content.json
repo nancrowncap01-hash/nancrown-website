@@ -915,6 +915,17 @@
           },
           {
             "type": "h2",
+            "text": "What to send for a 2,000-cap event quote"
+          },
+          {
+            "type": "list",
+            "items": [
+              "List quantities by style, colour and size, adding up to 2,000; include the logo artwork, embroidery size and positions, and any extra labels or special packing. We quote the design and quantity rather than a fixed 2,000-piece price.",
+              "Include your event date, required arrival date, destination country and postcode. Ask for the cap price and shipping separately, with duties and taxes identified, so you can compare the total cost."
+            ]
+          },
+          {
+            "type": "h2",
             "text": "Caps companies often choose"
           },
           {
@@ -1014,6 +1025,17 @@
           {
             "type": "p",
             "text": "Cuenta hacia atrás desde el evento: 7–15 días para la muestra, 25–30 días de producción después de aprobarla y recibir el pago acordado, y luego el envío. El transporte marítimo tarda más que el aéreo, así que dinos pronto la fecha de entrega y planificamos el calendario contigo. Nuestro taller fabrica <b>más de 100.000 gorras al mes</b>."
+          },
+          {
+            "type": "h2",
+            "text": "Qué enviar para cotizar 2.000 gorras para un evento"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Desglosa las cantidades por modelo, color y talla hasta sumar 2.000; incluye el arte del logo, tamaño y posiciones del bordado, y las etiquetas extra o el embalaje especial. Cotizamos según el diseño y la cantidad, sin un precio fijo para 2.000 piezas.",
+              "Indica la fecha del evento, la fecha de llegada requerida, el país y el código postal. Pide el precio de las gorras y del transporte por separado, con aranceles e impuestos identificados, para comparar el coste total."
+            ]
           },
           {
             "type": "h2",
@@ -1119,6 +1141,17 @@
           },
           {
             "type": "h2",
+            "text": "Informations pour un devis de 2 000 casquettes événementielles"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Détaillez les quantités par modèle, couleur et taille pour un total de 2 000 ; joignez le visuel du logo, les dimensions et emplacements de broderie, les étiquettes supplémentaires et tout emballage spécial. Le prix dépend du design et de la quantité : il n’existe pas de prix fixe pour 2 000 pièces.",
+              "Indiquez la date de l’événement, la date d’arrivée souhaitée, le pays et le code postal. Demandez le prix des casquettes et du transport séparément, avec les droits et taxes précisés, pour comparer le coût total."
+            ]
+          },
+          {
+            "type": "h2",
             "text": "Casquettes souvent choisies par les entreprises"
           },
           {
@@ -1218,6 +1251,17 @@
           {
             "type": "p",
             "text": "Rechnen Sie vom Event zurück: 7–15 Tage für das Muster, 25–30 Tage Produktion nach der Freigabe und Eingang der vereinbarten Zahlung, danach der Versand. Seefracht dauert länger als Luftfracht, nennen Sie uns den Liefertermin also früh, dann planen wir den Ablauf mit Ihnen. Unsere Werkstatt fertigt <b>über 100.000 Caps im Monat</b>."
+          },
+          {
+            "type": "h2",
+            "text": "Angaben für ein Angebot über 2.000 Event-Caps"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Schlüsseln Sie die insgesamt 2.000 Stück nach Modell, Farbe und Größe auf; senden Sie Logo-Datei, Stickgröße und Positionen sowie zusätzliche Etiketten oder Sonderverpackung. Wir kalkulieren nach Design und Menge, ohne festen Preis für 2.000 Stück.",
+              "Nennen Sie Eventdatum, gewünschten Ankunftstermin, Zielland und Postleitzahl. Fordern Sie Cap-Preis und Versand getrennt an, mit ausgewiesenen Zöllen und Steuern, um die Gesamtkosten zu vergleichen."
+            ]
           },
           {
             "type": "h2",
@@ -1632,7 +1676,7 @@
             "type": "list",
             "items": [
               "<b>Sample:</b> 7–15 days.",
-              "<b>Bulk:</b> 25–30 days after sample approval is our standard. For larger or multi-style orders we confirm the schedule with your quote, based on quantity, styles and decoration.",
+              "<b>Bulk:</b> 25–30 days after pre-production sample approval and receipt of the agreed payment is our standard. For larger or multi-style orders we confirm the schedule with your quote, based on quantity, styles and decoration.",
               "<b>Shipping:</b> add sea, air or courier time. We can quote DDP (delivered duties paid) to your door."
             ]
           },
@@ -1648,6 +1692,17 @@
               "<b>Checks at every stage:</b> cutting, sewing, decoration and finished caps are checked before they move on.",
               "<b>Colour control:</b> fabric is ordered as soon as colours are confirmed. If the bulk dye lot differs slightly in shade from the sample fabric, we show you photos first.",
               "<b>Photos before shipping:</b> we send photos of the finished order before it ships, and you are welcome to inspect it yourself or send a third-party inspector."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Quoting 1,000–2,000 embroidered caps per style"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Send a separate quantity and colour/size breakdown for each style, plus the crown, brim, fabric and closure specifications. Price tiers apply per style; each colour and size needs at least 50 pieces.",
+              "For embroidery, send the artwork, method, colours, finished size and placement to confirm on the physical sample. For a repeat order, include the previous order reference and mark any changes to the approved cap or logo. Embroidery is done by partner workshops and each batch returns to us for review."
             ]
           },
           {
@@ -1786,7 +1841,7 @@
             "type": "list",
             "items": [
               "<b>Muestra:</b> 7–15 días.",
-              "<b>Producción:</b> nuestro plazo estándar es de 25–30 días tras aprobar la muestra. En pedidos grandes o con varios modelos confirmamos el calendario con tu presupuesto, según la cantidad, los modelos y la decoración.",
+              "<b>Producción:</b> nuestro plazo estándar es de 25–30 días tras aprobar la muestra de preproducción y recibir el pago acordado. En pedidos grandes o con varios modelos confirmamos el calendario con tu presupuesto, según la cantidad, los modelos y la decoración.",
               "<b>Envío:</b> suma el tiempo de barco, avión o mensajería. Podemos cotizar DDP (entrega con aranceles pagados) hasta tu puerta."
             ]
           },
@@ -1802,6 +1857,17 @@
               "<b>Controles en cada etapa:</b> el corte, la costura, la decoración y las gorras terminadas se revisan antes de pasar al siguiente paso.",
               "<b>Control del color:</b> el tejido se pide en cuanto se confirman los colores. Si el lote de tinte de la producción difiere ligeramente del tejido de la muestra, primero te enseñamos fotos.",
               "<b>Fotos antes del envío:</b> te enviamos fotos del pedido terminado antes de que salga, y puedes inspeccionarlo tú mismo o enviar un inspector externo."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Cotizar 1.000–2.000 gorras bordadas por modelo"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Envía la cantidad y el reparto por color y talla de cada modelo, junto con las especificaciones de copa, visera, tejido y cierre. Los tramos de precio son por modelo; cada color y talla necesita al menos 50 piezas.",
+              "Para el bordado, envía el arte, la técnica, los colores, el tamaño final y la ubicación que confirmarás en la muestra física. En una reposición, indica el pedido anterior y los cambios respecto a la gorra o el logo aprobado. El bordado se realiza en talleres colaboradores y cada lote vuelve a nosotros para su revisión."
             ]
           },
           {
@@ -1940,7 +2006,7 @@
             "type": "list",
             "items": [
               "<b>Échantillon :</b> 7 à 15 jours.",
-              "<b>Production :</b> notre délai standard est de 25 à 30 jours après validation de l'échantillon. Pour les commandes importantes ou à plusieurs modèles, nous confirmons le planning avec votre devis, selon la quantité, les modèles et le marquage.",
+              "<b>Production :</b> notre délai standard est de 25 à 30 jours après validation de l'échantillon de pré-production et réception du paiement convenu. Pour les commandes importantes ou à plusieurs modèles, nous confirmons le planning avec votre devis, selon la quantité, les modèles et le marquage.",
               "<b>Transport :</b> ajoutez le délai maritime, aérien ou express. Nous pouvons chiffrer en DDP (rendu droits acquittés) jusqu'à votre porte."
             ]
           },
@@ -1956,6 +2022,17 @@
               "<b>Contrôles à chaque étape :</b> la coupe, la couture, le marquage et les casquettes finies sont contrôlés avant l'étape suivante.",
               "<b>Maîtrise de la couleur :</b> le tissu est commandé dès que les couleurs sont confirmées. Si le bain de teinture de la production diffère légèrement du tissu de l'échantillon, nous vous montrons d'abord des photos.",
               "<b>Photos avant expédition :</b> nous envoyons des photos de la commande terminée avant son départ, et vous pouvez la contrôler vous-même ou envoyer un inspecteur indépendant."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Devis pour 1 000–2 000 casquettes brodées par modèle"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Envoyez la quantité et la répartition par couleur et taille pour chaque modèle, ainsi que les spécifications de calotte, visière, tissu et fermeture. Les paliers de prix sont par modèle ; chaque couleur et taille exige au moins 50 pièces.",
+              "Pour la broderie, envoyez le visuel, la technique, les couleurs, les dimensions finales et l’emplacement à valider sur l’échantillon physique. Pour un réassort, indiquez la référence de la commande précédente et les changements par rapport à la casquette ou au logo validé. La broderie est réalisée par des ateliers partenaires et chaque lot revient chez nous pour contrôle."
             ]
           },
           {
@@ -2094,7 +2171,7 @@
             "type": "list",
             "items": [
               "<b>Muster:</b> 7–15 Tage.",
-              "<b>Produktion:</b> Unser Standard sind 25–30 Tage nach der Musterfreigabe. Bei größeren Aufträgen oder mehreren Modellen bestätigen wir den Zeitplan mit Ihrem Angebot, je nach Menge, Modellen und Veredelung.",
+              "<b>Produktion:</b> Unser Standard sind 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung. Bei größeren Aufträgen oder mehreren Modellen bestätigen wir den Zeitplan mit Ihrem Angebot, je nach Menge, Modellen und Veredelung.",
               "<b>Versand:</b> dazu kommt die Zeit für See-, Luftfracht oder Kurier. Wir können DDP (geliefert verzollt) bis zu Ihrer Tür anbieten."
             ]
           },
@@ -2110,6 +2187,17 @@
               "<b>Prüfung in jedem Schritt:</b> Zuschnitt, Nähen, Veredelung und fertige Caps werden geprüft, bevor es weitergeht.",
               "<b>Farbkontrolle:</b> Der Stoff wird bestellt, sobald die Farben bestätigt sind. Weicht die Färbepartie der Serie leicht vom Musterstoff ab, zeigen wir Ihnen zuerst Fotos.",
               "<b>Fotos vor dem Versand:</b> Wir schicken Fotos der fertigen Ware, bevor sie rausgeht, und Sie können sie selbst prüfen oder einen unabhängigen Prüfer schicken."
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Anfrage für 1.000–2.000 bestickte Caps pro Modell"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Senden Sie je Modell die Menge und Aufteilung nach Farbe und Größe sowie die Vorgaben zu Krone, Schirm, Stoff und Verschluss. Preisstufen gelten pro Modell; jede Farbe und Größe benötigt mindestens 50 Stück.",
+              "Für die Stickerei senden Sie Motiv, Technik, Farben, fertige Größe und Platzierung zur Bestätigung am physischen Muster. Bei Nachbestellungen nennen Sie die vorige Auftragsnummer und kennzeichnen Änderungen gegenüber der freigegebenen Cap oder dem Logo. Partnerwerkstätten führen die Stickerei aus; jede Charge kommt zur Prüfung zu uns zurück."
             ]
           },
           {

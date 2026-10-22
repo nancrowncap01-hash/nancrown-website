@@ -920,6 +920,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Do you make 5-panel running caps?",
             a: "Yes. We build lightweight 5-panel sport caps in quick-dry nylon with a longer brim, alongside softer roll-brim running caps.",
           },
+          {
+            q: "What should our club send for a quote on 200 running caps?",
+            a: "Send quantities by style, colour and size, whether the caps are for training or race day, your logo file with size and placement, preferred decoration, delivery country and target date. Technical fabrics, ventilation and reflective details are quoted for the selected build; standard cotton-cap price tiers are not a running-cap quote. We confirm the specification, sample, production schedule and shipping costs before you approve the order.",
+          },
         ],
       },
       es: {
@@ -950,6 +954,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "¿Hacéis gorras de running de 5 paneles?",
             a: "Sí. Fabricamos gorras deportivas ligeras de 5 paneles en nailon de secado rápido con visera más larga, además de gorras de running suaves de visera flexible.",
+          },
+          {
+            q: "¿Qué debe enviar nuestro club para cotizar 200 gorras de running?",
+            a: "Envía las cantidades por modelo, color y talla, si son para entrenamientos o carreras, el archivo del logo con medidas y ubicación, la técnica de decoración, el país de entrega y la fecha objetivo. Los tejidos técnicos, la ventilación y los detalles reflectantes se cotizan según la construcción elegida; los precios de gorras estándar de algodón no son una cotización de running. Confirmamos las especificaciones, la muestra, el calendario de producción y el coste de envío antes de que apruebes el pedido.",
           },
         ],
       },
@@ -982,6 +990,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
             q: "Faites-vous des casquettes de running 5 panneaux ?",
             a: "Oui. Nous fabriquons des casquettes de sport 5 panneaux légères en nylon séchage rapide à visière plus longue, en plus des casquettes de running souples.",
           },
+          {
+            q: "Que doit envoyer notre club pour un devis de 200 casquettes de running ?",
+            a: "Envoyez les quantités par modèle, couleur et taille, l’usage prévu (entraînement ou course), le fichier du logo avec ses dimensions et son emplacement, le marquage souhaité, le pays de livraison et la date visée. Les tissus techniques, l’aération et les détails réfléchissants sont chiffrés selon le modèle choisi ; les tarifs des casquettes standard en coton ne constituent pas un devis de running. Nous confirmons les spécifications, l’échantillon, le calendrier de production et les frais de transport avant votre validation de la commande.",
+          },
         ],
       },
       de: {
@@ -1012,6 +1024,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "Fertigen Sie 5-Panel Running Caps?",
             a: "Ja. Neben weichen Running Caps mit rollbarem Schirm fertigen wir leichte 5-Panel-Sport-Caps aus schnell trocknendem Nylon mit längerem Schirm.",
+          },
+          {
+            q: "Was benötigt unser Verein für ein Angebot über 200 Running Caps?",
+            a: "Senden Sie die Mengen je Modell, Farbe und Größe, den Einsatz beim Training oder Rennen, Ihre Logodatei mit Größe und Position, die gewünschte Veredelung sowie Lieferland und Wunschtermin. Funktionsstoffe, Belüftung und reflektierende Details werden für den gewählten Aufbau kalkuliert; Preisstaffeln für Standard-Baumwollkappen sind kein Angebot für Running Caps. Vor Ihrer Auftragsfreigabe bestätigen wir Spezifikation, Muster, Produktionsplan und Versandkosten.",
           },
         ],
       },
@@ -1505,7 +1521,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom dad hats from our Guangzhou factory: unstructured 6-panel, washed cotton or denim, embroidered logos. 50 pcs per colour, samples in 7–15 days.",
         intro: [
           "A dad hat lives or dies on its shape: an unstructured six-panel crown that sits low and soft, a curved brim, and a fabric that already looks broken in. NanCrown builds dad hats in garment-washed cotton twill, pigment-dyed cotton and washed denim, with finishes from a clean tonal wash to worn brim edges, gradient bleach and piping around the crown.",
-          "Your logo goes on as satin-stitch, outline or 3D puff embroidery, raw-edge appliqué or a small patch, and the strap closes with an antique brass or silver slider in your finish. We confirm fit and wash on a pre-production sample in 7–15 days, then produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after sample approval.",
+          "Your logo goes on as satin-stitch, outline or 3D puff embroidery, raw-edge appliqué or a small patch, and the strap closes with an antique brass or silver slider in your finish. We confirm fit and wash on a pre-production sample in 7–15 days, then produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after sample approval and receipt of the agreed payment.",
           "Most dad hat orders we see are a brand's first cap: one washed style in two or three colours, 50 to 100 pieces per colour, with a small embroidered logo on the front and a woven label. Before sampling we ask one question that changes the result: do you want a light wash that just softens the cotton, or a heavy wash with visible fading? Colours for small runs come from in-stock fabric colour cards, and we send photos if the bulk dye lot differs from your sample.",
         ],
         customOptions: [
@@ -1548,7 +1564,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Dad caps personalizadas hechas en Guangzhou: 6 paneles sin estructura, algodón lavado o denim, logos bordados. 50 uds. por color, muestra en 7–15 días.",
         intro: [
           "Una dad cap depende de su forma: una copa de seis paneles sin estructura que queda baja y suave, una visera curva y un tejido que ya parece usado. En NanCrown fabricamos dad caps en sarga de algodón lavada, algodón teñido en pigmento y denim lavado, con acabados que van de un lavado tono sobre tono a bordes de visera gastados, degradados con lejía y vivos alrededor de la copa.",
-          "Tu logo puede ir en bordado de satén, de contorno o 3D (puff), en aplicación de bordes crudos o en un parche pequeño, y la tira se cierra con una hebilla de latón envejecido o plateada. Confirmamos el ajuste y el lavado en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra.",
+          "Tu logo puede ir en bordado de satén, de contorno o 3D (puff), en aplicación de bordes crudos o en un parche pequeño, y la tira se cierra con una hebilla de latón envejecido o plateada. Confirmamos el ajuste y el lavado en una muestra de preproducción en 7–15 días y fabricamos directamente en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra y recibir el pago acordado.",
           "La mayoría de los pedidos de dad caps que recibimos son la primera gorra de una marca: un modelo lavado en dos o tres colores, de 50 a 100 piezas por color, con un logo bordado pequeño al frente y una etiqueta tejida. Antes de hacer la muestra preguntamos algo que cambia el resultado: ¿quieres un lavado suave, que solo ablanda el algodón, o un lavado fuerte con desgaste visible? En tiradas pequeñas los colores se eligen de las cartas de color de tejido en stock, y te enviamos fotos si el lote de tinte de la producción difiere de tu muestra.",
         ],
         customOptions: [
@@ -1591,7 +1607,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Dad caps personnalisées fabriquées à Guangzhou : 6 panneaux souples, coton délavé ou denim, logos brodés. 50 pièces par couleur, échantillon en 7 à 15 jours.",
         intro: [
           "Une dad cap tient tout à sa forme : une calotte six panneaux non structurée, basse et souple, une visière courbe et un tissu qui a déjà l'air porté. NanCrown fabrique des dad caps en sergé de coton délavé, en coton teint pigment et en denim délavé, avec des finitions allant du délavage ton sur ton aux bords de visière usés, en passant par le dégradé à la javel et le passepoil autour de la calotte.",
-          "Votre logo peut être brodé au point lancé, en contour ou en 3D (puff), appliqué en bords bruts ou posé en petit écusson, et la sangle se ferme par une boucle en laiton vieilli ou argentée. Nous validons la tenue et le délavage sur un échantillon de pré-production en 7 à 15 jours, puis nous produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon.",
+          "Votre logo peut être brodé au point lancé, en contour ou en 3D (puff), appliqué en bords bruts ou posé en petit écusson, et la sangle se ferme par une boucle en laiton vieilli ou argentée. Nous validons la tenue et le délavage sur un échantillon de pré-production en 7 à 15 jours, puis nous produisons en direct usine à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon et réception du paiement convenu.",
           "La plupart des commandes de dad caps que nous recevons sont la première casquette d'une marque : un modèle délavé en deux ou trois couleurs, 50 à 100 pièces par couleur, avec un petit logo brodé devant et une étiquette tissée. Avant l'échantillon, nous posons une question qui change le résultat : voulez-vous un délavage léger, qui assouplit simplement le coton, ou un délavage marqué avec une décoloration visible ? Pour les petites séries, les couleurs se choisissent sur les nuanciers de tissus en stock, et nous envoyons des photos si le bain de teinture de la production diffère de votre échantillon.",
         ],
         customOptions: [
@@ -1634,7 +1650,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Dad Caps aus Guangzhou: unstrukturierte 6-Panel, gewaschene Baumwolle oder Denim, gestickte Logos. 50 Stück pro Farbe, Muster in 7–15 Tagen.",
         intro: [
           "Bei einer Dad Cap kommt es auf die Form an: eine unstrukturierte Sechs-Panel-Krone, die tief und weich sitzt, ein gebogener Schirm und ein Stoff, der schon getragen wirkt. NanCrown fertigt Dad Caps aus garment-gewaschenem Baumwoll-Twill, pigmentgefärbter Baumwolle und gewaschenem Denim, mit Finishes von der Ton-in-Ton-Waschung über abgenutzte Schirmkanten und Bleichverläufe bis zu Paspeln rund um die Krone.",
-          "Ihr Logo kommt als Satinstich-, Kontur- oder 3D-Puff-Stickerei, als Applikation mit offenen Kanten oder als kleiner Patch aufs Cap, und das Band schließt mit einer Schnalle in Altmessing oder Silber. Passform und Waschung bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren dann direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Musterfreigabe.",
+          "Ihr Logo kommt als Satinstich-, Kontur- oder 3D-Puff-Stickerei, als Applikation mit offenen Kanten oder als kleiner Patch aufs Cap, und das Band schließt mit einer Schnalle in Altmessing oder Silber. Passform und Waschung bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren dann direkt ab Fabrik in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Musterfreigabe und Eingang der vereinbarten Zahlung.",
           "Die meisten Dad-Cap-Aufträge, die wir sehen, sind die erste Cap einer Marke: ein gewaschenes Modell in zwei oder drei Farben, 50 bis 100 Stück pro Farbe, mit kleinem gesticktem Logo vorne und einem Webetikett. Vor dem Muster stellen wir eine Frage, die das Ergebnis verändert: Möchten Sie eine leichte Waschung, die die Baumwolle nur weicher macht, oder eine starke Waschung mit sichtbarem Ausbleichen? Bei kleinen Auflagen kommen die Farben von Farbkarten lagernder Stoffe, und wir schicken Fotos, falls die Färbepartie der Serie von Ihrem Muster abweicht.",
         ],
         customOptions: [

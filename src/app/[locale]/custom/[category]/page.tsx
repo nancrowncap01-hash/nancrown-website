@@ -126,6 +126,14 @@ export default async function CategoryPage({
               {paragraph}
             </p>
           ))}
+          {def.slug === "baseball-caps" && (
+            <Link
+              href="/custom/dad-hats"
+              className="mt-6 block font-medium text-amber-700 underline underline-offset-4"
+            >
+              {getCategoryDefinition("dad-hats")!.content[locale as Locale].h1}
+            </Link>
+          )}
           {solutionLink && (
             <Link
               href={solutionLink.href}

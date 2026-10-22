@@ -13,6 +13,14 @@ const CONTENT_UPDATED_2026_10_11 = new Date("2026-10-11");
 const CONTENT_UPDATED_2026_10_13 = new Date("2026-10-13");
 const CONTENT_UPDATED_2026_10_17 = new Date("2026-10-17");
 const CONTENT_UPDATED_2026_10_20 = new Date("2026-10-20");
+const CONTENT_UPDATED_2026_10_22 = new Date("2026-10-22");
+const UPDATED_2026_10_22_PATHS = new Set([
+  "/custom/dad-hats",
+  "/custom/baseball-caps",
+  "/custom/running-caps",
+  "/solutions/bulk-orders",
+  "/solutions/corporate-events",
+]);
 // Actual packing-copy updates only; do not refresh unchanged pages.
 const UPDATED_2026_10_20_PATHS = new Set([
   "/pricing",
@@ -79,7 +87,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
     return routing.locales.map((locale) => ({
       url: localizedUrl(locale, path),
-      lastModified: UPDATED_2026_10_20_PATHS.has(path)
+      lastModified: UPDATED_2026_10_22_PATHS.has(path)
+        ? CONTENT_UPDATED_2026_10_22
+        : UPDATED_2026_10_20_PATHS.has(path)
         ? CONTENT_UPDATED_2026_10_20
         : UPDATED_2026_10_17_PATHS.has(path)
           ? CONTENT_UPDATED_2026_10_17

@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { solutions, solutionSlugs, isSolutionSlug } from "@/lib/solutions-content";
 import { pageMetadata } from "@/lib/seo";
+import CapFitDiagram from "@/components/guide/CapFitDiagram";
 import GuidePage from "@/components/guide/GuidePage";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
 
@@ -64,6 +65,7 @@ export default async function SolutionPage({
         faq={content.faq}
       />
       <GuidePage
+        introductionVisual={slug === "cap-size-fit-guide" ? <CapFitDiagram locale={locale as Locale} /> : undefined}
         content={content}
         homeLabel={tNav("home")}
         breadcrumbLabel={shortName}

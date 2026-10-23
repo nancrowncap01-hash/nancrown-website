@@ -192,7 +192,7 @@ export default async function CategoryPage({
       </section>
 
       {def.slug === "trucker-hats" && <TruckerBuyingGuide locale={locale as Locale} />}
-      {def.slug === "private-label-hats" && <BrandBuyingGuide locale={locale as Locale} />}
+      {def.slug === "private-label-hats" && <BrandBuyingGuide locale={locale as Locale} showFinishing />}
       {["snapback-hats", "embroidered-caps"].includes(def.slug) && (
         <CategoryEvidence
           locale={locale as Locale}

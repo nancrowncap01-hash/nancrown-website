@@ -21,6 +21,8 @@ const UPDATED_2026_10_22_PATHS = new Set([
   "/solutions/bulk-orders",
   "/solutions/corporate-events",
 ]);
+const CONTENT_UPDATED_2026_10_24 = new Date("2026-10-24");
+const UPDATED_2026_10_24_PATHS = new Set(["/solutions/cap-size-fit-guide", "/custom/private-label-hats"]);
 const CONTENT_UPDATED_2026_10_23 = new Date("2026-10-23");
 // About lead-time start conditions corrected across all four locales.
 // Actual packing-copy updates only; do not refresh unchanged pages.
@@ -89,7 +91,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
     return routing.locales.map((locale) => ({
       url: localizedUrl(locale, path),
-      lastModified: path === "/about"
+      lastModified: UPDATED_2026_10_24_PATHS.has(path)
+        ? CONTENT_UPDATED_2026_10_24
+        : path === "/about"
         ? CONTENT_UPDATED_2026_10_23
         : UPDATED_2026_10_22_PATHS.has(path)
         ? CONTENT_UPDATED_2026_10_22

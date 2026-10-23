@@ -228,6 +228,7 @@ export interface GuidePageProps {
   // CTA 上方的跳转链接(pricing↔start-a-hat-brand 互链),两页都传,可选
   crossLink?: { href: string; label: string };
   children?: ReactNode;
+  introductionVisual?: ReactNode;
 }
 
 export default function GuidePage({
@@ -236,6 +237,7 @@ export default function GuidePage({
   breadcrumbLabel,
   crossLink,
   children,
+  introductionVisual,
 }: GuidePageProps) {
   return (
     <>
@@ -259,6 +261,8 @@ export default function GuidePage({
           <p className="text-lg text-gray-600 leading-relaxed">{content.lead}</p>
         </div>
       </section>
+
+      {introductionVisual}
 
       {/* 正文 blocks(遇到 products block 单独切成整宽段,其余照旧放进 max-w-3xl 容器) */}
       {segmentBlocks(content.blocks).map((segment) =>

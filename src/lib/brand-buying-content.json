@@ -27,6 +27,44 @@
       "products": "Browse product references",
       "contact": "Send your specifications for a quote",
       "factory": "See our factory and production process"
+    },
+    "finishing": {
+      "heading": "Labels & packaging: confirm the finishing details",
+      "lead": "Use this handover checklist with your artwork before sampling. The diagram shows possible positions only; confirm the position, size and construction on your own cap sample.",
+      "diagramLabel": "Illustrative cap interior and separate hangtag; positions A–D are references, not a production specification.",
+      "columns": [
+        "Part",
+        "Details to send and approve"
+      ],
+      "rows": [
+        [
+          "A · Brand label",
+          "Send the final artwork and colours, finished width and height, fold type, sewing allowance and marked inside position. Confirm reading direction and artwork version on the sample."
+        ],
+        [
+          "B · Size / care label",
+          "Provide the size wording and care or material text for the actual product and destination market. Confirm language, dimensions, fold and position; do not copy care instructions from a different fabric."
+        ],
+        [
+          "C · Printed inside taping",
+          "Specify tape colour, width, print colour, logo repeat, orientation and the seams to cover. Ask us to check that the chosen construction can accommodate it."
+        ],
+        [
+          "D · Hangtag",
+          "Supply approved front/back files, size, material, hole position and attachment method. Confirm any barcode, product code or retail text before printing."
+        ],
+        [
+          "E · Packing",
+          "State units per bag, inner box and carton; any individual bag, barcode sticker, assortment or carton mark. Confirm the packing method and artwork version in the quotation."
+        ]
+      ],
+      "includedTitle": "What the standard price includes",
+      "included": "The published Pricing table is for a standard 6-panel cotton-twill baseball cap with one flat-embroidered front logo and one custom woven label at every price tier. There is no additional standard-label setup charge; one label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds need their own quote.",
+      "packingTitle": "Standard packing · 25 → 100",
+      "packing": "25 caps share one poly bag and go in one inner box. Four inner boxes hold 100 caps in one export carton. Individual bags or other custom packaging require confirmation and a separate quote.",
+      "approval": "Before bulk production, approve one dated specification version together with the sample: artwork, placement, wording and packing. Record later changes explicitly so an older file is not used.",
+      "fitLink": "Confirm cap measurements and fit",
+      "pricingLink": "Check current pricing and inclusions"
     }
   },
   "es": {
@@ -57,6 +95,44 @@
       "products": "Ver modelos de referencia",
       "contact": "Enviar especificaciones para cotizar",
       "factory": "Ver nuestra fábrica y proceso de producción"
+    },
+    "finishing": {
+      "heading": "Etiquetas y embalaje: confirma los detalles finales",
+      "lead": "Utiliza esta lista de especificaciones junto con tus archivos antes del muestreo. El dibujo solo muestra posibles posiciones; confirma la ubicación, las medidas y la construcción en la muestra de tu gorra.",
+      "diagramLabel": "Esquema del interior de una gorra y una etiqueta colgante aparte; las posiciones A–D son referencias, no especificaciones de producción.",
+      "columns": [
+        "Componente",
+        "Datos que enviar y aprobar"
+      ],
+      "rows": [
+        [
+          "A · Etiqueta de marca",
+          "Envía el diseño final y los colores, ancho y alto terminados, tipo de pliegue, margen de costura y ubicación interior marcada. Confirma el sentido de lectura y la versión del archivo en la muestra."
+        ],
+        [
+          "B · Etiqueta de talla / cuidado",
+          "Facilita la talla y el texto de cuidado o composición correspondientes al producto real y al mercado de destino. Confirma idioma, medidas, pliegue y ubicación; no copies instrucciones de otro tejido."
+        ],
+        [
+          "C · Cinta interior estampada",
+          "Indica color y ancho de cinta, color de impresión, repetición y orientación del logo y costuras que cubrir. Solicita que comprobemos la compatibilidad con la construcción elegida."
+        ],
+        [
+          "D · Etiqueta colgante",
+          "Facilita archivos aprobados de ambas caras, medidas, material, posición del orificio y método de sujeción. Confirma códigos de barras, referencias y textos comerciales antes de imprimir."
+        ],
+        [
+          "E · Embalaje",
+          "Indica unidades por bolsa, caja interior y caja de exportación; bolsas individuales, pegatinas de códigos de barras, surtidos o marcas de caja. Confirma el método y la versión de los archivos en la cotización."
+        ]
+      ],
+      "includedTitle": "Qué incluye el precio estándar",
+      "included": "La tabla de Precios corresponde a una gorra de béisbol estándar de 6 paneles en sarga de algodón, con un logo frontal en bordado plano y una etiqueta tejida personalizada en todos los tramos. No hay coste adicional de preparación de la etiqueta estándar; la muestra estándar también incluye una. Las etiquetas adicionales, la cinta interior estampada, las etiquetas colgantes y el embalaje personalizado se cotizan aparte. Otras construcciones requieren su propia cotización.",
+      "packingTitle": "Embalaje estándar · 25 → 100",
+      "packing": "25 gorras comparten una bolsa de plástico y se colocan en una caja interior. Cuatro cajas interiores suman 100 gorras en una caja de exportación. Las bolsas individuales u otros embalajes personalizados requieren confirmación y cotización aparte.",
+      "approval": "Antes de producir, aprueba una versión fechada de las especificaciones junto con la muestra: diseños, posiciones, textos y embalaje. Registra expresamente cualquier cambio posterior para evitar utilizar un archivo antiguo.",
+      "fitLink": "Confirmar medidas y ajuste de la gorra",
+      "pricingLink": "Ver precios actuales y conceptos incluidos"
     }
   },
   "fr": {
@@ -87,6 +163,44 @@
       "products": "Parcourir les modèles de référence",
       "contact": "Envoyer vos spécifications pour un devis",
       "factory": "Voir notre usine et le processus de production"
+    },
+    "finishing": {
+      "heading": "Étiquettes et emballage : valider les finitions",
+      "lead": "Joignez cette liste de spécifications à vos fichiers avant l’échantillonnage. Le schéma indique uniquement des positions possibles ; validez l’emplacement, les dimensions et la construction sur votre propre échantillon.",
+      "diagramLabel": "Schéma de l’intérieur d’une casquette et d’une étiquette volante séparée ; les positions A–D sont indicatives, sans valeur de spécification de production.",
+      "columns": [
+        "Élément",
+        "Informations à transmettre et à valider"
+      ],
+      "rows": [
+        [
+          "A · Étiquette de marque",
+          "Fournissez le visuel définitif et les couleurs, la largeur et la hauteur finies, le pliage, la marge de couture et l’emplacement intérieur repéré. Validez le sens de lecture et la version du fichier sur l’échantillon."
+        ],
+        [
+          "B · Étiquette de taille / entretien",
+          "Fournissez la taille et les textes d’entretien ou de composition adaptés au produit réel et au marché de destination. Validez la langue, les dimensions, le pliage et l’emplacement ; ne reprenez pas les consignes d’un autre tissu."
+        ],
+        [
+          "C · Ganse intérieure imprimée",
+          "Précisez la couleur et la largeur de la ganse, la couleur d’impression, la répétition et l’orientation du logo ainsi que les coutures à couvrir. Demandez-nous de vérifier la compatibilité avec la construction choisie."
+        ],
+        [
+          "D · Étiquette volante",
+          "Fournissez les fichiers recto/verso approuvés, les dimensions, la matière, la position du trou et le mode de fixation. Validez codes-barres, références et textes de vente avant impression."
+        ],
+        [
+          "E · Emballage",
+          "Indiquez les quantités par sachet, boîte intérieure et carton ; tout sachet individuel, autocollant code-barres, assortiment ou marquage de carton. Validez le conditionnement et la version des fichiers dans le devis."
+        ]
+      ],
+      "includedTitle": "Ce que comprend le prix standard",
+      "included": "Le tableau des Tarifs concerne une casquette de baseball standard à 6 panneaux en sergé de coton, avec un logo frontal en broderie plate et une étiquette tissée personnalisée à chaque palier. Aucun frais supplémentaire de préparation de l’étiquette standard ; l’échantillon standard en comprend également une. Les étiquettes supplémentaires, la ganse imprimée, les étiquettes volantes et l’emballage personnalisé sont chiffrés séparément. Les autres constructions nécessitent leur propre devis.",
+      "packingTitle": "Emballage standard · 25 → 100",
+      "packing": "25 casquettes partagent un sachet plastique dans une boîte intérieure. Quatre boîtes intérieures contiennent 100 casquettes dans un carton d’exportation. Les sachets individuels ou autres emballages personnalisés nécessitent confirmation et devis séparé.",
+      "approval": "Avant la production, approuvez une version datée des spécifications avec l’échantillon : visuels, emplacements, textes et emballage. Consignez explicitement les modifications ultérieures pour éviter l’utilisation d’un ancien fichier.",
+      "fitLink": "Valider les mesures et le bien-aller",
+      "pricingLink": "Consulter les tarifs et éléments inclus"
     }
   },
   "de": {
@@ -117,6 +231,44 @@
       "products": "Produktreferenzen ansehen",
       "contact": "Spezifikationen für ein Angebot senden",
       "factory": "Unser Werk und den Produktionsablauf ansehen"
+    },
+    "finishing": {
+      "heading": "Etiketten und Verpackung: Details vorab abstimmen",
+      "lead": "Nutzen Sie diese Spezifikationsliste zusammen mit Ihren Druckdateien vor der Bemusterung. Die Zeichnung zeigt nur mögliche Positionen; bestätigen Sie Position, Maße und Verarbeitung an Ihrem eigenen Kappenmuster.",
+      "diagramLabel": "Schematische Kappeninnenseite mit separatem Hangtag; Positionen A–D dienen zur Orientierung, nicht als Produktionsvorgabe.",
+      "columns": [
+        "Bestandteil",
+        "Angaben zur Übergabe und Freigabe"
+      ],
+      "rows": [
+        [
+          "A · Markenetikett",
+          "Senden Sie das endgültige Motiv und die Farben, fertige Breite und Höhe, Faltung, Nahtzugabe und markierte Innenposition. Bestätigen Sie Leserichtung und Dateiversion am Muster."
+        ],
+        [
+          "B · Größen- / Pflegeetikett",
+          "Liefern Sie Größenangabe sowie Pflege- oder Materialtext passend zum tatsächlichen Produkt und Zielmarkt. Bestätigen Sie Sprache, Maße, Faltung und Position; übernehmen Sie keine Pflegehinweise eines anderen Stoffes."
+        ],
+        [
+          "C · Bedrucktes Innenband",
+          "Geben Sie Bandfarbe und -breite, Druckfarbe, Logowiederholung, Ausrichtung und abzudeckende Nähte an. Lassen Sie uns die Eignung für die gewählte Konstruktion prüfen."
+        ],
+        [
+          "D · Hangtag",
+          "Liefern Sie freigegebene Vorder- und Rückseitendateien, Maße, Material, Lochposition und Befestigungsart. Bestätigen Sie Barcodes, Artikelnummern und Verkaufstexte vor dem Druck."
+        ],
+        [
+          "E · Verpackung",
+          "Geben Sie Stückzahlen je Beutel, Innenkarton und Exportkarton sowie Einzelbeutel, Barcodeaufkleber, Sortierung oder Kartonmarkierungen an. Bestätigen Sie Packmethode und Dateiversion im Angebot."
+        ]
+      ],
+      "includedTitle": "Was der Standardpreis enthält",
+      "included": "Die veröffentlichte Preistabelle gilt für eine Standard-Baseballkappe mit 6 Segmenten aus Baumwollköper, einem flach gestickten Frontlogo und einem individuellen Webetikett in jeder Preisstaffel. Für das Standardetikett fallen keine zusätzlichen Einrichtungskosten an; auch das Standardmuster enthält ein Etikett. Weitere Etiketten, bedrucktes Innenband, Hangtags und individuelle Verpackung werden separat angeboten. Andere Kappenkonstruktionen benötigen ein eigenes Angebot.",
+      "packingTitle": "Standardverpackung · 25 → 100",
+      "packing": "25 Kappen teilen sich einen Kunststoffbeutel in einem Innenkarton. Vier Innenkartons enthalten 100 Kappen in einem Exportkarton. Einzelbeutel oder andere individuelle Verpackungen erfordern Abstimmung und ein separates Angebot.",
+      "approval": "Geben Sie vor der Produktion eine datierte Spezifikationsversion zusammen mit dem Muster frei: Motive, Positionen, Texte und Verpackung. Halten Sie spätere Änderungen ausdrücklich fest, damit keine ältere Datei verwendet wird.",
+      "fitLink": "Kappenmaße und Passform abstimmen",
+      "pricingLink": "Aktuelle Preise und enthaltene Leistungen ansehen"
     }
   }
 }

@@ -3252,6 +3252,854 @@
           "button": "Muster planen"
         }
       }
+    },
+    {
+      "slug": "cap-size-fit-guide",
+      "products": [],
+      "en": {
+        "metaTitle": "Cap Size & Fit Guide for Custom Orders",
+        "metaDescription": "Measure head circumference, cap depth and brim length. Compare crown and closure choices, then use a blank specification checklist for your custom cap sample.",
+        "h1": "Cap Size & Fit Guide for Custom Orders",
+        "lead": "A useful cap specification connects the wearer’s head measurement with a physical reference cap, clear measurement points and a sample fit check. Use this guide to prepare a custom order; it is a measurement method, not a NanCrown stock size chart.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Begin with the wearer and one reference cap",
+            "id": "measurement-methods"
+          },
+          {
+            "type": "p",
+            "text": "Head circumference measures the wearer. Inside circumference measures the cap along its wearing line. They are different measurements: do not copy one into the other without a physical fit check. A flat width multiplied by two is not a reliable substitute for the inside circumference of a shaped cap."
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Measure the head",
+                "text": "Use a flexible tape around the intended wearing line, above the eyebrows and ears and around the back of the head. Keep it level and snug without compressing. Record the unit, hair condition and any headwear worn underneath."
+              },
+              {
+                "title": "Choose one reference",
+                "text": "Identify a cap that fits the intended wearer. Give it a reference name and photograph the front, side, back, inside and closure setting. Use this same cap for all measurements."
+              },
+              {
+                "title": "Record the cap state",
+                "text": "Measure the dry cap without stretching it. Record whether it is relaxed or supported, the closure position, and whether it has been washed. Agree on any different test condition before comparing results."
+              },
+              {
+                "title": "Check the sample on a wearer",
+                "text": "Try the physical sample at the recorded setting. Check pressure, slipping, ear clearance and crown position. Keep measurement results and comfort feedback together."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Agree on the measurement points",
+            "id": "measurement-points"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Measurement",
+              "How to define it"
+            ],
+            "rows": [
+              [
+                "Inside circumference",
+                "Follow the inner sweatband at the agreed wearing line with a flexible tape, without pulling. Record the exact closure setting. For stretch constructions, agree separately how any stretched measurement is taken."
+              ],
+              [
+                "Crown depth / height",
+                "Mark the start and end points on a photo. For example, agree whether the front measurement follows the outer crown from the lower sweatband edge to the top seam. A surface measurement and a vertical height are different: state which you use."
+              ],
+              [
+                "Brim centre length",
+                "Mark the centre line from the crown-to-brim seam to the brim tip. Agree whether the tape follows the curve or a straight distance is measured; record the brim’s flat or curved state."
+              ],
+              [
+                "Adjustment range",
+                "Record the shortest and longest intended usable closure positions on the same cap, with photos. Check the fit at those positions; the hardware’s travel alone is not a verified wearer size range."
+              ]
+            ],
+            "caption": "Record centimetres (cm) or millimetres (mm) beside every value. Use the same method when comparing the reference and the sample."
+          },
+          {
+            "type": "h2",
+            "text": "Choose the shape and closure together",
+            "id": "fit-choices"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Choice",
+              "What to confirm"
+            ],
+            "rows": [
+              [
+                "Structured / unstructured crown",
+                "A supported front holds its shape differently from a soft front. Share front and side views, desired softness and a physical reference rather than only saying “low profile”."
+              ],
+              [
+                "Adjustable / fitted / stretch",
+                "Specify the closure type and setting, or the individual fitted sizes. For stretch fabric or sweatbands, agree on relaxed measurement and any stretch test method. Adjustable does not mean it fits every wearer."
+              ],
+              [
+                "Adult / children’s fit",
+                "Record actual target head measurements and sample fit feedback for the intended wearers. Do not choose dimensions from age labels alone or simply scale an adult cap. Confirm crown, brim and closure separately."
+              ]
+            ],
+            "caption": "Crown shape, fabric, sweatband and closure work together. A size name alone does not define the finished fit."
+          },
+          {
+            "type": "h2",
+            "text": "Copy this blank specification checklist",
+            "id": "specification-template"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Specification",
+              "Your requirement / sample result"
+            ],
+            "rows": [
+              [
+                "Style / reference cap ID",
+                "________"
+              ],
+              [
+                "Intended wearers / use",
+                "________"
+              ],
+              [
+                "Head circumference and unit",
+                "________"
+              ],
+              [
+                "Cap state / wash state / closure setting",
+                "________"
+              ],
+              [
+                "Inside circumference and unit",
+                "________"
+              ],
+              [
+                "Crown measurement: endpoints, path and value",
+                "________"
+              ],
+              [
+                "Brim measurement: endpoints, state and value",
+                "________"
+              ],
+              [
+                "Crown support / fabric / sweatband",
+                "________"
+              ],
+              [
+                "Closure type / usable settings or fitted sizes",
+                "________"
+              ],
+              [
+                "Agreed tolerance per measurement",
+                "________"
+              ],
+              [
+                "Sample version / fit feedback / approval date",
+                "________"
+              ],
+              [
+                "Quantity per style, colour and size / destination",
+                "________"
+              ]
+            ],
+            "caption": "Copy these rows into your inquiry or tech pack. Blanks are for your own requirements and sample results, not published NanCrown dimensions. Agree on tolerances for each measurement before approval; this guide does not set a universal tolerance."
+          },
+          {
+            "type": "h2",
+            "text": "Approve the fit on the physical sample",
+            "id": "sample-fit-check"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Compare the reference cap and sample using the same marked points, unit, state and closure setting. Photograph the tape position so another person can repeat the check.",
+              "Review the crown position, forehead pressure, ear clearance, slipping and closure comfort on the intended wearer. A matching circumference alone does not confirm the fit.",
+              "Record requested changes by measurement and photo reference. Keep the approved sample ID and final specification together; check any revised sample again before approval."
+            ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Use the sample approval checklist →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Check current MOQ, sample fees and order terms →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/baseball-caps",
+            "text": "Explore custom baseball cap construction →"
+          }
+        ],
+        "faqHeading": "Cap size and fit questions",
+        "faq": [
+          {
+            "q": "Is head circumference the same as cap size?",
+            "a": "Head circumference describes the wearer; cap inside circumference describes a product in a stated condition. Fit also depends on shape, fabric, sweatband and closure. Confirm the relationship on a physical sample."
+          },
+          {
+            "q": "Can I order a universal adult or children’s size?",
+            "a": "Do not assume a universal fit from those labels. Share target head measurements, the intended wearers and a reference cap, then confirm the sample and usable closure settings."
+          },
+          {
+            "q": "Can you match a cap I already like?",
+            "a": "Send the reference cap details, photos, measurements and the features you want to keep or change. Feasibility and the final specification need confirmation through sampling; a photograph alone cannot establish exact fit."
+          },
+          {
+            "q": "What tolerance should I put in the specification?",
+            "a": "Agree on a tolerance for each measurement together with its measuring method and cap condition. This guide does not publish a standard tolerance or a tested size range."
+          }
+        ],
+        "cta": {
+          "title": "Prepare your cap fit brief",
+          "text": "Send your completed checklist, reference photos, quantity by style, colour and size, and destination. We can review the details for a quotation and sample.",
+          "button": "Discuss your cap specification"
+        }
+      },
+      "es": {
+        "metaTitle": "Guía de tallas y ajuste para gorras personalizadas",
+        "metaDescription": "Aprenda a medir el contorno de cabeza, la profundidad de copa y la visera. Compare estructuras y cierres y prepare una ficha de medidas para su muestra.",
+        "h1": "Guía de tallas y ajuste para gorras personalizadas",
+        "lead": "Una especificación útil relaciona las medidas de la persona con una gorra física de referencia, puntos de medición definidos y una prueba de ajuste. Esta guía explica el método; no es una tabla de tallas de existencias de NanCrown.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Empiece por la persona y una gorra de referencia",
+            "id": "measurement-methods"
+          },
+          {
+            "type": "p",
+            "text": "El contorno de cabeza mide a la persona. El contorno interior mide la gorra por la línea de uso. Son medidas distintas: no copie una en la otra sin probar el ajuste físico. Multiplicar un ancho plano por dos no sustituye de forma fiable el contorno interior de una gorra con volumen."
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Mida la cabeza",
+                "text": "Pase una cinta flexible por la línea donde se llevará la gorra, sobre las cejas y las orejas y alrededor de la parte posterior. Manténgala nivelada y ajustada sin comprimir. Anote la unidad, el estado del cabello y cualquier prenda que se lleve debajo."
+              },
+              {
+                "title": "Elija una referencia",
+                "text": "Identifique una gorra que le quede bien a la persona prevista. Asígnele un nombre y fotografíe el frente, el lateral, la parte posterior, el interior y la posición del cierre. Use esa misma gorra para todas las medidas."
+              },
+              {
+                "title": "Anote el estado",
+                "text": "Mida la gorra seca y sin estirarla. Anote si está relajada o sostenida, la posición del cierre y si se ha lavado. Acuerde cualquier otra condición de prueba antes de comparar resultados."
+              },
+              {
+                "title": "Pruebe la muestra",
+                "text": "Pruebe la muestra física con el ajuste registrado. Revise presión, deslizamiento, separación respecto a las orejas y posición de la copa. Guarde las medidas y las observaciones de comodidad juntas."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Acuerde los puntos de medición",
+            "id": "measurement-points"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Medida",
+              "Cómo definirla"
+            ],
+            "rows": [
+              [
+                "Contorno interior",
+                "Siga la banda interior por la línea de uso acordada con una cinta flexible, sin tirar. Anote la posición exacta del cierre. Para construcciones elásticas, acuerde por separado cómo medir bajo estiramiento."
+              ],
+              [
+                "Profundidad / altura de copa",
+                "Marque inicio y final en una foto. Por ejemplo, acuerde si la medida frontal sigue el exterior desde el borde inferior de la banda hasta la costura superior. Recorrer la superficie y medir la altura vertical son métodos distintos: indique cuál utiliza."
+              ],
+              [
+                "Longitud central de visera",
+                "Marque la línea central desde la costura entre copa y visera hasta la punta. Acuerde si se sigue la curva o se mide una distancia recta; indique si la visera está plana o curvada."
+              ],
+              [
+                "Rango de regulación",
+                "Registre con fotos las posiciones mínima y máxima de uso previstas en la misma gorra. Compruebe el ajuste en ellas: el recorrido del cierre por sí solo no demuestra un rango de tallas para usuarios."
+              ]
+            ],
+            "caption": "Anote centímetros (cm) o milímetros (mm) junto a cada valor. Use el mismo método para comparar la referencia y la muestra."
+          },
+          {
+            "type": "h2",
+            "text": "Elija la forma junto con el cierre",
+            "id": "fit-choices"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Elección",
+              "Qué confirmar"
+            ],
+            "rows": [
+              [
+                "Copa estructurada / sin estructura",
+                "Un frontal reforzado mantiene su forma de manera distinta a uno blando. Envíe vistas frontal y lateral, la suavidad deseada y una referencia física; no basta con decir «perfil bajo»."
+              ],
+              [
+                "Regulable / cerrada / elástica",
+                "Indique el cierre y su posición, o las tallas individuales de una gorra cerrada. Para tejidos o bandas elásticos, acuerde la medida en reposo y cualquier método de prueba con estiramiento. Regulable no significa que sirva para todas las personas."
+              ],
+              [
+                "Ajuste adulto / infantil",
+                "Anote medidas reales de cabeza y comentarios sobre la muestra de los usuarios previstos. No elija dimensiones solo por la edad ni reduzca simplemente una gorra adulta. Confirme copa, visera y cierre por separado."
+              ]
+            ],
+            "caption": "La forma, el tejido, la banda interior y el cierre actúan conjuntamente. El nombre de una talla no define el ajuste final."
+          },
+          {
+            "type": "h2",
+            "text": "Copie esta ficha de especificaciones en blanco",
+            "id": "specification-template"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Especificación",
+              "Su requisito / resultado de la muestra"
+            ],
+            "rows": [
+              [
+                "Modelo / ID de referencia",
+                "________"
+              ],
+              [
+                "Usuarios previstos / uso",
+                "________"
+              ],
+              [
+                "Contorno de cabeza y unidad",
+                "________"
+              ],
+              [
+                "Estado de gorra / lavado / posición del cierre",
+                "________"
+              ],
+              [
+                "Contorno interior y unidad",
+                "________"
+              ],
+              [
+                "Medida de copa: puntos, recorrido y valor",
+                "________"
+              ],
+              [
+                "Medida de visera: puntos, estado y valor",
+                "________"
+              ],
+              [
+                "Refuerzo de copa / tejido / banda interior",
+                "________"
+              ],
+              [
+                "Cierre / posiciones útiles o tallas cerradas",
+                "________"
+              ],
+              [
+                "Tolerancia acordada para cada medida",
+                "________"
+              ],
+              [
+                "Versión de muestra / comentarios / fecha de aprobación",
+                "________"
+              ],
+              [
+                "Cantidad por modelo, color y talla / destino",
+                "________"
+              ]
+            ],
+            "caption": "Copie estas filas en su consulta o ficha técnica. Los espacios son para sus requisitos y resultados, no dimensiones publicadas de NanCrown. Acuerde tolerancias por medida antes de aprobar; esta guía no establece una tolerancia universal."
+          },
+          {
+            "type": "h2",
+            "text": "Apruebe el ajuste con la muestra física",
+            "id": "sample-fit-check"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Compare la referencia y la muestra con los mismos puntos marcados, unidad, estado y posición del cierre. Fotografíe la cinta para que otra persona pueda repetir la medición.",
+              "Revise posición de copa, presión en la frente, separación de las orejas, deslizamiento y comodidad del cierre en el usuario previsto. Un contorno coincidente no confirma por sí solo el ajuste.",
+              "Registre cambios solicitados por medida y foto. Guarde juntos el ID de la muestra aprobada y la ficha final; vuelva a comprobar cualquier muestra revisada antes de aprobarla."
+            ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Consulte la lista de aprobación de muestras →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Consulte MOQ, muestras y condiciones vigentes →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/baseball-caps",
+            "text": "Explore la construcción de gorras de béisbol →"
+          }
+        ],
+        "faqHeading": "Preguntas sobre tallas y ajuste",
+        "faq": [
+          {
+            "q": "¿El contorno de cabeza equivale a la talla de gorra?",
+            "a": "El contorno de cabeza describe a la persona; el contorno interior describe el producto en un estado concreto. Forma, tejido, banda y cierre también afectan al ajuste. Confirme la relación con una muestra física."
+          },
+          {
+            "q": "¿Puedo pedir una talla universal adulta o infantil?",
+            "a": "No suponga un ajuste universal a partir de esas etiquetas. Envíe las medidas objetivo, los usuarios previstos y una gorra de referencia; después confirme la muestra y las posiciones útiles del cierre."
+          },
+          {
+            "q": "¿Pueden reproducir el ajuste de una gorra que me gusta?",
+            "a": "Envíe datos, fotos y medidas de la referencia, e indique qué quiere conservar o cambiar. La viabilidad y la especificación final se confirman mediante muestras; una fotografía sola no determina el ajuste exacto."
+          },
+          {
+            "q": "¿Qué tolerancia debo indicar?",
+            "a": "Acuerde una tolerancia por medida junto con su método y el estado de la gorra. Esta guía no publica una tolerancia estándar ni un rango de tallas ensayado."
+          }
+        ],
+        "cta": {
+          "title": "Prepare su ficha de ajuste",
+          "text": "Envíe la ficha completada, fotos de referencia, cantidad por modelo, color y talla y el destino. Revisaremos los detalles para una cotización y una muestra.",
+          "button": "Consultar especificaciones"
+        }
+      },
+      "fr": {
+        "metaTitle": "Guide des tailles et du bien-aller des casquettes",
+        "metaDescription": "Mesurez tour de tête, profondeur de calotte et visière. Comparez structures et fermetures, puis préparez une fiche de mesures pour votre échantillon.",
+        "h1": "Guide des tailles et du bien-aller des casquettes",
+        "lead": "Une spécification utile relie les mesures du porteur à une casquette physique de référence, à des points de mesure définis et à un essayage. Ce guide explique une méthode ; ce n’est pas un tableau des tailles en stock chez NanCrown.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Commencez par le porteur et une casquette de référence",
+            "id": "measurement-methods"
+          },
+          {
+            "type": "p",
+            "text": "Le tour de tête mesure le porteur. Le tour intérieur mesure la casquette le long de la ligne de port. Ces mesures diffèrent : ne recopiez pas l’une à la place de l’autre sans essayage. Doubler une largeur à plat ne remplace pas de manière fiable le tour intérieur d’une casquette en volume."
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Mesurez la tête",
+                "text": "Passez un mètre souple sur la ligne de port prévue, au-dessus des sourcils et des oreilles et autour de l’arrière de la tête. Gardez-le horizontal, ajusté sans comprimer. Notez l’unité, la coiffure et tout élément porté dessous."
+              },
+              {
+                "title": "Choisissez une référence",
+                "text": "Choisissez une casquette qui convient au porteur prévu. Donnez-lui un identifiant et photographiez face, profil, dos, intérieur et réglage de fermeture. Utilisez cette même casquette pour toutes les mesures."
+              },
+              {
+                "title": "Notez l’état",
+                "text": "Mesurez la casquette sèche sans l’étirer. Notez si elle est au repos ou soutenue, le réglage de fermeture et si elle a été lavée. Convenez de toute autre condition d’essai avant de comparer."
+              },
+              {
+                "title": "Essayez l’échantillon",
+                "text": "Essayez l’échantillon physique au réglage noté. Vérifiez pression, glissement, dégagement des oreilles et position de la calotte. Conservez mesures et observations de confort ensemble."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Convenez des points de mesure",
+            "id": "measurement-points"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Mesure",
+              "Comment la définir"
+            ],
+            "rows": [
+              [
+                "Tour intérieur",
+                "Suivez la bande intérieure sur la ligne de port convenue avec un mètre souple, sans tirer. Notez le réglage exact de fermeture. Pour une construction extensible, convenez séparément de la méthode de mesure sous étirement."
+              ],
+              [
+                "Profondeur / hauteur de calotte",
+                "Marquez départ et arrivée sur une photo. Convenez par exemple d’une mesure avant suivant la surface extérieure depuis le bord inférieur de la bande jusqu’à la couture supérieure. Une mesure de surface diffère d’une hauteur verticale : précisez la méthode."
+              ],
+              [
+                "Longueur centrale de visière",
+                "Marquez l’axe central entre la couture calotte-visière et le bout de la visière. Convenez d’une mesure suivant la courbe ou d’une distance droite ; notez si la visière est plate ou courbée."
+              ],
+              [
+                "Plage de réglage",
+                "Notez et photographiez les positions minimale et maximale d’usage prévues sur la même casquette. Vérifiez le bien-aller à ces positions : la course du mécanisme ne prouve pas une plage de tailles pour les porteurs."
+              ]
+            ],
+            "caption": "Indiquez les centimètres (cm) ou millimètres (mm) à côté de chaque valeur. Comparez la référence et l’échantillon avec la même méthode."
+          },
+          {
+            "type": "h2",
+            "text": "Choisissez la forme avec la fermeture",
+            "id": "fit-choices"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Choix",
+              "Points à confirmer"
+            ],
+            "rows": [
+              [
+                "Calotte structurée / souple",
+                "Un devant renforcé tient sa forme autrement qu’un devant souple. Fournissez vues de face et de profil, souplesse souhaitée et référence physique plutôt que la seule mention « profil bas »."
+              ],
+              [
+                "Réglable / ajustée / extensible",
+                "Précisez fermeture et réglage, ou chaque taille pour une casquette fermée. Pour tissu ou bande extensible, convenez de la mesure au repos et de toute méthode d’essai sous étirement. Réglable ne signifie pas adaptée à tous."
+              ],
+              [
+                "Adulte / enfant",
+                "Notez les tours de tête réels et les retours d’essayage des porteurs prévus. Ne choisissez pas les dimensions uniquement selon l’âge et ne réduisez pas simplement une casquette adulte. Confirmez calotte, visière et fermeture séparément."
+              ]
+            ],
+            "caption": "Forme, tissu, bande intérieure et fermeture agissent ensemble. Un nom de taille ne définit pas le bien-aller final."
+          },
+          {
+            "type": "h2",
+            "text": "Copiez cette fiche de spécifications vierge",
+            "id": "specification-template"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Spécification",
+              "Votre besoin / résultat de l’échantillon"
+            ],
+            "rows": [
+              [
+                "Modèle / identifiant de référence",
+                "________"
+              ],
+              [
+                "Porteurs prévus / usage",
+                "________"
+              ],
+              [
+                "Tour de tête et unité",
+                "________"
+              ],
+              [
+                "État / lavage / réglage de fermeture",
+                "________"
+              ],
+              [
+                "Tour intérieur et unité",
+                "________"
+              ],
+              [
+                "Calotte : points, trajet et valeur",
+                "________"
+              ],
+              [
+                "Visière : points, état et valeur",
+                "________"
+              ],
+              [
+                "Renfort de calotte / tissu / bande intérieure",
+                "________"
+              ],
+              [
+                "Fermeture / réglages utiles ou tailles ajustées",
+                "________"
+              ],
+              [
+                "Tolérance convenue pour chaque mesure",
+                "________"
+              ],
+              [
+                "Version de l’échantillon / retours / date de validation",
+                "________"
+              ],
+              [
+                "Quantité par modèle, couleur et taille / destination",
+                "________"
+              ]
+            ],
+            "caption": "Copiez ces lignes dans votre demande ou dossier technique. Les blancs accueillent vos exigences et résultats, pas des dimensions publiées par NanCrown. Convenez des tolérances par mesure avant validation ; ce guide ne fixe aucune tolérance universelle."
+          },
+          {
+            "type": "h2",
+            "text": "Validez le bien-aller sur un échantillon physique",
+            "id": "sample-fit-check"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Comparez référence et échantillon aux mêmes points, dans la même unité, le même état et le même réglage. Photographiez le mètre pour permettre à une autre personne de répéter le contrôle.",
+              "Vérifiez position de calotte, pression au front, dégagement des oreilles, glissement et confort de fermeture sur le porteur prévu. Un tour identique ne suffit pas à confirmer le bien-aller.",
+              "Notez les corrections par mesure et photo. Gardez ensemble l’identifiant de l’échantillon validé et la fiche finale ; contrôlez à nouveau tout échantillon révisé avant validation."
+            ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Consulter la liste de validation des échantillons →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Voir MOQ, frais d’échantillon et conditions actuelles →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/baseball-caps",
+            "text": "Découvrir la construction des casquettes de baseball →"
+          }
+        ],
+        "faqHeading": "Questions sur les tailles et le bien-aller",
+        "faq": [
+          {
+            "q": "Le tour de tête correspond-il à la taille de casquette ?",
+            "a": "Le tour de tête décrit le porteur ; le tour intérieur décrit le produit dans un état donné. Forme, tissu, bande et fermeture influencent aussi le bien-aller. Confirmez leur relation par un essayage physique."
+          },
+          {
+            "q": "Puis-je commander une taille adulte ou enfant universelle ?",
+            "a": "Ces étiquettes ne garantissent pas un bien-aller universel. Fournissez les tours de tête visés, les porteurs prévus et une référence, puis validez l’échantillon et les réglages utiles."
+          },
+          {
+            "q": "Pouvez-vous reprendre le bien-aller d’une casquette existante ?",
+            "a": "Envoyez détails, photos, mesures et éléments à conserver ou à modifier. Faisabilité et spécification finale se confirment par échantillonnage ; une photo seule ne détermine pas le bien-aller exact."
+          },
+          {
+            "q": "Quelle tolérance dois-je indiquer ?",
+            "a": "Convenez d’une tolérance pour chaque mesure avec sa méthode et l’état de la casquette. Ce guide ne publie ni tolérance standard ni plage de tailles testée."
+          }
+        ],
+        "cta": {
+          "title": "Préparez votre fiche de bien-aller",
+          "text": "Envoyez la fiche remplie, les photos de référence, les quantités par modèle, couleur et taille et la destination. Nous examinerons les détails pour un devis et un échantillon.",
+          "button": "Discuter des spécifications"
+        }
+      },
+      "de": {
+        "metaTitle": "Größen- und Passformguide für individuelle Caps",
+        "metaDescription": "Kopfumfang, Kronentiefe und Schirmlänge messen: Vergleichen Sie Form und Verschluss und erstellen Sie eine Maßspezifikation für Ihr Cap-Muster.",
+        "h1": "Größen- und Passformguide für individuelle Caps",
+        "lead": "Eine brauchbare Spezifikation verbindet die Kopfmaße der Zielperson mit einer physischen Referenzcap, klaren Messpunkten und einer Anprobe. Dieser Guide beschreibt die Methode; er ist keine Größentabelle für NanCrown-Lagerware.",
+        "blocks": [
+          {
+            "type": "h2",
+            "text": "Mit der Zielperson und einer Referenzcap beginnen",
+            "id": "measurement-methods"
+          },
+          {
+            "type": "p",
+            "text": "Der Kopfumfang beschreibt die Person. Der Innenumfang beschreibt die Cap entlang ihrer Tragelinie. Es sind unterschiedliche Maße: Übernehmen Sie das eine nicht ohne Anprobe als das andere. Eine flach gemessene Breite mal zwei ersetzt den Innenumfang einer geformten Cap nicht zuverlässig."
+          },
+          {
+            "type": "steps",
+            "items": [
+              {
+                "title": "Kopf messen",
+                "text": "Führen Sie ein flexibles Maßband entlang der vorgesehenen Tragelinie über Augenbrauen und Ohren um den Hinterkopf. Halten Sie es waagerecht und anliegend, ohne Druck. Notieren Sie Einheit, Frisur und darunter getragene Kopfbedeckung."
+              },
+              {
+                "title": "Referenz auswählen",
+                "text": "Wählen Sie eine Cap, die der Zielperson passt. Vergeben Sie eine Referenzkennung und fotografieren Sie Vorderseite, Seite, Rückseite, Innenraum und Verschlusseinstellung. Verwenden Sie dieselbe Cap für alle Maße."
+              },
+              {
+                "title": "Zustand notieren",
+                "text": "Messen Sie die trockene Cap ohne Dehnung. Notieren Sie, ob sie entspannt oder gestützt ist, die Verschlusseinstellung und ob sie gewaschen wurde. Vereinbaren Sie abweichende Prüfbedingungen vor dem Vergleich."
+              },
+              {
+                "title": "Muster anprobieren",
+                "text": "Probieren Sie das physische Muster mit der dokumentierten Einstellung an. Prüfen Sie Druck, Verrutschen, Abstand zu den Ohren und Kronensitz. Bewahren Sie Maße und Komfortfeedback zusammen auf."
+              }
+            ]
+          },
+          {
+            "type": "h2",
+            "text": "Messpunkte gemeinsam festlegen",
+            "id": "measurement-points"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Maß",
+              "So wird es definiert"
+            ],
+            "rows": [
+              [
+                "Innenumfang",
+                "Folgen Sie dem inneren Schweißband an der vereinbarten Tragelinie mit einem flexiblen Maßband, ohne zu ziehen. Dokumentieren Sie die genaue Verschlusseinstellung. Bei elastischen Konstruktionen vereinbaren Sie eine Messung unter Dehnung gesondert."
+              ],
+              [
+                "Kronentiefe / Kronenhöhe",
+                "Markieren Sie Anfang und Ende auf einem Foto. Vereinbaren Sie beispielsweise, ob das vordere Maß außen von der unteren Schweißbandkante bis zur oberen Naht verläuft. Ein Oberflächenmaß und eine senkrechte Höhe sind unterschiedlich: Benennen Sie Ihre Methode."
+              ],
+              [
+                "Schirmlänge in der Mitte",
+                "Markieren Sie die Mittellinie von der Naht zwischen Krone und Schirm bis zur Schirmspitze. Vereinbaren Sie eine Messung entlang der Kurve oder als gerade Strecke; notieren Sie den flachen oder gebogenen Schirmzustand."
+              ],
+              [
+                "Verstellbereich",
+                "Dokumentieren Sie die kleinste und größte vorgesehene nutzbare Verschlussposition derselben Cap mit Fotos. Prüfen Sie die Passform dort; der Verstellweg der Hardware allein belegt keinen Größenbereich für Träger."
+              ]
+            ],
+            "caption": "Schreiben Sie Zentimeter (cm) oder Millimeter (mm) neben jeden Wert. Vergleichen Sie Referenz und Muster mit derselben Methode."
+          },
+          {
+            "type": "h2",
+            "text": "Form und Verschluss zusammen wählen",
+            "id": "fit-choices"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Auswahl",
+              "Was zu klären ist"
+            ],
+            "rows": [
+              [
+                "Verstärkte / weiche Krone",
+                "Eine verstärkte Front hält ihre Form anders als eine weiche. Senden Sie Vorder- und Seitenansicht, gewünschte Weichheit und ein physisches Referenzmuster statt nur „Low Profile“ anzugeben."
+              ],
+              [
+                "Verstellbar / feste Größe / Stretch",
+                "Nennen Sie Verschluss und Einstellung oder einzelne feste Größen. Bei elastischem Stoff oder Schweißband vereinbaren Sie das entspannte Maß und gegebenenfalls ein Dehnprüfverfahren. Verstellbar bedeutet nicht, dass die Cap allen passt."
+              ],
+              [
+                "Erwachsene / Kinder",
+                "Erfassen Sie tatsächliche Kopfmaße und Anprobe-Feedback der vorgesehenen Träger. Leiten Sie Maße nicht nur aus Altersangaben ab und verkleinern Sie nicht einfach eine Erwachsenencap. Bestätigen Sie Krone, Schirm und Verschluss getrennt."
+              ]
+            ],
+            "caption": "Kronenform, Stoff, Schweißband und Verschluss wirken zusammen. Eine Größenbezeichnung allein definiert die fertige Passform nicht."
+          },
+          {
+            "type": "h2",
+            "text": "Diese leere Spezifikationsliste kopieren",
+            "id": "specification-template"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Spezifikation",
+              "Ihre Anforderung / Musterergebnis"
+            ],
+            "rows": [
+              [
+                "Modell / Referenzcap-ID",
+                "________"
+              ],
+              [
+                "Vorgesehene Träger / Einsatz",
+                "________"
+              ],
+              [
+                "Kopfumfang und Einheit",
+                "________"
+              ],
+              [
+                "Cap-Zustand / Waschzustand / Verschlusseinstellung",
+                "________"
+              ],
+              [
+                "Innenumfang und Einheit",
+                "________"
+              ],
+              [
+                "Kronenmaß: Endpunkte, Verlauf und Wert",
+                "________"
+              ],
+              [
+                "Schirmmaß: Endpunkte, Zustand und Wert",
+                "________"
+              ],
+              [
+                "Kronenverstärkung / Stoff / Schweißband",
+                "________"
+              ],
+              [
+                "Verschluss / nutzbare Einstellungen oder feste Größen",
+                "________"
+              ],
+              [
+                "Vereinbarte Toleranz je Maß",
+                "________"
+              ],
+              [
+                "Musterversion / Feedback / Freigabedatum",
+                "________"
+              ],
+              [
+                "Menge je Modell, Farbe und Größe / Zielort",
+                "________"
+              ]
+            ],
+            "caption": "Kopieren Sie die Zeilen in Ihre Anfrage oder Ihr Tech Pack. Die Leerfelder sind für Ihre Anforderungen und Musterergebnisse bestimmt, nicht für veröffentlichte NanCrown-Maße. Vereinbaren Sie Toleranzen je Maß vor der Freigabe; dieser Guide setzt keine allgemeingültige Toleranz."
+          },
+          {
+            "type": "h2",
+            "text": "Passform am physischen Muster freigeben",
+            "id": "sample-fit-check"
+          },
+          {
+            "type": "list",
+            "items": [
+              "Vergleichen Sie Referenz und Muster an denselben markierten Punkten mit gleicher Einheit, gleichem Zustand und gleicher Verschlusseinstellung. Fotografieren Sie die Maßbandposition, damit eine andere Person die Prüfung wiederholen kann.",
+              "Prüfen Sie Kronensitz, Stirndruck, Ohrenabstand, Verrutschen und Verschlusskomfort an der Zielperson. Ein übereinstimmender Umfang allein bestätigt die Passform nicht.",
+              "Dokumentieren Sie Änderungswünsche nach Maß und Fotoreferenz. Bewahren Sie die ID des freigegebenen Musters zusammen mit der finalen Spezifikation auf; prüfen Sie überarbeitete Muster vor der Freigabe erneut."
+            ]
+          },
+          {
+            "type": "link",
+            "href": "/solutions/sample-approval",
+            "text": "Checkliste zur Musterfreigabe ansehen →"
+          },
+          {
+            "type": "link",
+            "href": "/pricing",
+            "text": "Aktuelle Mindestmengen, Musterkosten und Konditionen →"
+          },
+          {
+            "type": "link",
+            "href": "/custom/baseball-caps",
+            "text": "Konstruktion individueller Baseballcaps ansehen →"
+          }
+        ],
+        "faqHeading": "Fragen zu Größe und Passform",
+        "faq": [
+          {
+            "q": "Ist der Kopfumfang mit der Cap-Größe identisch?",
+            "a": "Der Kopfumfang beschreibt die Person, der Innenumfang das Produkt in einem festgelegten Zustand. Form, Stoff, Schweißband und Verschluss beeinflussen die Passform ebenfalls. Bestätigen Sie den Zusammenhang an einem physischen Muster."
+          },
+          {
+            "q": "Kann ich eine universelle Erwachsenen- oder Kindergröße bestellen?",
+            "a": "Leiten Sie daraus keine universelle Passform ab. Senden Sie Zielkopfmaße, Angaben zu den Trägern und eine Referenzcap. Bestätigen Sie anschließend Muster und nutzbare Verschlusseinstellungen."
+          },
+          {
+            "q": "Können Sie die Passform einer vorhandenen Cap übernehmen?",
+            "a": "Senden Sie Referenzdetails, Fotos, Maße und die gewünschten unveränderten oder angepassten Merkmale. Machbarkeit und endgültige Spezifikation werden durch Muster bestätigt; ein Foto allein bestimmt keine exakte Passform."
+          },
+          {
+            "q": "Welche Toleranz gehört in meine Spezifikation?",
+            "a": "Vereinbaren Sie für jedes Maß eine Toleranz zusammen mit Messmethode und Cap-Zustand. Dieser Guide veröffentlicht weder eine Standardtoleranz noch einen getesteten Größenbereich."
+          }
+        ],
+        "cta": {
+          "title": "Bereiten Sie Ihre Passform-Spezifikation vor",
+          "text": "Senden Sie die ausgefüllte Liste, Referenzfotos, Mengen je Modell, Farbe und Größe sowie den Zielort. Wir prüfen die Angaben für Angebot und Muster.",
+          "button": "Spezifikation besprechen"
+        }
+      }
     }
   ]
 }

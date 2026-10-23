@@ -14,7 +14,8 @@ export type SolutionSlug =
   | "festival-merch"
   | "bulk-orders"
   | "embroidery-artwork"
-  | "sample-approval";
+  | "sample-approval"
+  | "cap-size-fit-guide";
 
 export const solutionSlugs: SolutionSlug[] = [
   "run-clubs",
@@ -24,6 +25,7 @@ export const solutionSlugs: SolutionSlug[] = [
   "bulk-orders",
   "embroidery-artwork",
   "sample-approval",
+  "cap-size-fit-guide",
 ];
 
 interface SolutionsJsonPage {

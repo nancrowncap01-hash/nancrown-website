@@ -144,7 +144,7 @@ export default async function CategoryPage({
           )}
           <div className="mt-8 flex flex-col items-center gap-3">
             <Link
-              href="/contact"
+              href={def.slug === "running-caps" || def.slug === "dad-hats" ? `/contact?category=${def.slug}` : "/contact"}
               className="inline-flex items-center px-8 py-3.5 text-base font-semibold bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
             >
               {ui.requestQuote}
@@ -305,7 +305,7 @@ export default async function CategoryPage({
             {ui.ctaHeading}
           </h2>
           <Link
-            href="/contact"
+            href={def.slug === "running-caps" || def.slug === "dad-hats" ? `/contact?category=${def.slug}` : "/contact"}
             className="inline-flex items-center px-8 py-3.5 text-base font-semibold bg-white text-amber-700 rounded-lg hover:bg-amber-50 transition-colors"
           >
             {ui.requestQuote}

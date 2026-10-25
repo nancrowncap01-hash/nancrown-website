@@ -229,6 +229,7 @@ export interface GuidePageProps {
   crossLink?: { href: string; label: string };
   children?: ReactNode;
   introductionVisual?: ReactNode;
+  contactHref?: string;
 }
 
 export default function GuidePage({
@@ -238,6 +239,7 @@ export default function GuidePage({
   crossLink,
   children,
   introductionVisual,
+  contactHref = "/contact",
 }: GuidePageProps) {
   return (
     <>
@@ -324,7 +326,7 @@ export default function GuidePage({
           <h2 className="text-3xl font-bold text-white mb-3">{content.cta.title}</h2>
           <p className="text-amber-50 mb-6">{content.cta.text}</p>
           <Link
-            href="/contact"
+            href={contactHref}
             className="inline-flex items-center px-8 py-3.5 text-base font-semibold bg-white text-amber-700 rounded-lg hover:bg-amber-50 transition-colors"
           >
             {content.cta.button}

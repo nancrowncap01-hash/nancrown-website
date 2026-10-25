@@ -1,3 +1,4 @@
+import CapSpecificationDownload from "@/components/CapSpecificationDownload";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import copy from "@/lib/brand-buying-content.json";
@@ -18,7 +19,7 @@ export default function BrandBuyingGuide({ locale, showFinishing = false }: { lo
   return (
     <section className="bg-gray-50 py-14 sm:py-16">
       <div className="mx-auto max-w-5xl px-4 sm:px-6 lg:px-8">
-        {showFinishing && <FinishingGuide locale={locale} />}
+        {showFinishing && <><FinishingGuide locale={locale} /><CapSpecificationDownload locale={locale} /></>}
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900">{content.heading}</h2>
         <p className="mt-4 max-w-3xl text-gray-600 leading-relaxed">{content.lead}</p>
 

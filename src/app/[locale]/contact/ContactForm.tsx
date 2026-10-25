@@ -1,9 +1,12 @@
 "use client";
 
-import { useRef, useState, type ChangeEvent, type FormEvent } from "react";
+import { Suspense, useCallback, useEffect, useRef, useState, type ChangeEvent, type FormEvent } from "react";
 import { useTranslations, useLocale } from "next-intl";
+import { useSearchParams } from "next/navigation";
 import { HOME_AB_COOKIE } from "@/lib/home-ab";
 import { readStoredSource } from "@/lib/source-tracking";
+import CapSpecificationDownload from "@/components/CapSpecificationDownload";
+import { appendQuoteRequirements, DRAFT_FIELDS, getQuoteCopy, readQuoteDraft, resolveQuoteContext, type QuoteProduct } from "@/lib/quote-context";
 
 // 读浏览器里的 nc_home cookie(首页 A/B 分流标记),没有就返回 undefined
 function readHomeVariantCookie(): string | undefined {
@@ -27,15 +30,85 @@ function getExtension(filename: string): string {
 type ContactFormProps = {
   // "page" = /contact 独立页(带深色大标题头),"embedded" = 嵌进首页某个板块,只出表单本身
   variant?: "page" | "embedded";
+  quoteProducts?: QuoteProduct[];
 };
 
-export default function ContactForm({ variant = "page" }: ContactFormProps) {
+// The URL reader has its own Suspense boundary so the form stays prerendered.
+function QuoteContextReader({ onSearch }: { onSearch: (search: string) => void }) {
+  const search = useSearchParams().toString();
+  useEffect(() => { onSearch(search); }, [search, onSearch]);
+  return null;
+}
+
+export default function ContactForm({ variant = "page", quoteProducts = [] }: ContactFormProps) {
   const t = useTranslations("Contact");
   const locale = useLocale();
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [attachmentFiles, setAttachmentFiles] = useState<File[]>([]);
   const [attachmentErrorKey, setAttachmentErrorKey] = useState<string | null>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const formRef = useRef<HTMLFormElement>(null);
+  const draftKeyRef = useRef<string | null>(null);
+  const editedRef = useRef(false);
+  const copy = getQuoteCopy(locale);
+
+  const initializeContext = useCallback((search: string) => {
+    if (variant !== "page" || !formRef.current) return;
+    const form = formRef.current;
+    const context = resolveQuoteContext(search, quoteProducts, locale);
+    const key = `nc_quote_draft_v1:${locale}:${context.key}`;
+    if (draftKeyRef.current === key) return;
+    // A query-only navigation can reuse this component. Preserve edited text;
+    // otherwise replace the previous automatic selection with the new context.
+    if (draftKeyRef.current && editedRef.current) return;
+    if (draftKeyRef.current) form.reset();
+    draftKeyRef.current = key;
+    let saved = null;
+    try {
+      saved = readQuoteDraft(sessionStorage.getItem(key), Date.now());
+      // Expired or malformed drafts are removed; nothing is sent to a server here.
+      for (let i = sessionStorage.length - 1; i >= 0; i--) {
+        const storedKey = sessionStorage.key(i);
+        if (storedKey?.startsWith("nc_quote_draft_v1:") && !readQuoteDraft(sessionStorage.getItem(storedKey), Date.now())) sessionStorage.removeItem(storedKey);
+      }
+    } catch { /* Storage may be disabled. The ordinary form still works. */ }
+    if (editedRef.current) return;
+    const values = saved?.values ?? { product: context.product, message: context.message, purpose: context.purpose };
+    for (const [name, value] of Object.entries(values)) {
+      const field = form.elements.namedItem(name);
+      if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement || field instanceof HTMLTextAreaElement) {
+        // Autofill and browser-restored values take precedence over a draft or URL.
+        if (!field.value && typeof value === "string") field.value = value;
+      }
+    }
+  }, [locale, quoteProducts, variant]);
+
+  function saveDraft() {
+    editedRef.current = true;
+    if (variant !== "page" || !draftKeyRef.current || !formRef.current) return;
+    const values: Record<string, string> = {};
+    for (const name of DRAFT_FIELDS) {
+      const field = formRef.current.elements.namedItem(name);
+      if (field instanceof HTMLInputElement || field instanceof HTMLSelectElement || field instanceof HTMLTextAreaElement) values[name] = field.value;
+    }
+    try { sessionStorage.setItem(draftKeyRef.current, JSON.stringify({ savedAt: Date.now(), values })); } catch { /* Optional convenience only. */ }
+  }
+
+  function clearSavedText() {
+    if (draftKeyRef.current) {
+      try { sessionStorage.removeItem(draftKeyRef.current); } catch { /* Optional storage. */ }
+    }
+    // If the URL changed while edited text was protected, a cleared form now
+    // belongs to the current URL rather than the previous draft context.
+    const context = resolveQuoteContext(window.location.search, quoteProducts, locale);
+    draftKeyRef.current = `nc_quote_draft_v1:${locale}:${context.key}`;
+    try { sessionStorage.removeItem(draftKeyRef.current); } catch { /* Optional storage. */ }
+    formRef.current?.reset();
+    editedRef.current = false;
+    resetAttachments();
+    setAttachmentErrorKey(null);
+    setStatus("idle");
+  }
 
   function resetAttachments() {
     if (fileInputRef.current) fileInputRef.current.value = "";
@@ -82,6 +155,15 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
 
     // 改用 multipart/form-data(而不是 JSON),这样才能把设计图附件一起带上
     const formData = new FormData(e.currentTarget);
+    if (variant === "page") {
+      formData.set("message", appendQuoteRequirements(
+        String(formData.get("message") ?? ""), String(formData.get("targetDate") ?? ""),
+        String(formData.get("purpose") ?? ""), locale,
+      ));
+      // Reuse the established message delivery; no new backend fields are required.
+      formData.delete("targetDate");
+      formData.delete("purpose");
+    }
     // 标注这条询盘来自首页 A 版还是 B 版,没有 cookie(没经过首页/单版模式)就带空字符串
     formData.set("homeVersion", readHomeVariantCookie() ?? "");
     // 带上当前页面语言,接口那边用它来决定客户确认信发哪种语言(只认 en/es/fr/de,别的当 en)
@@ -106,6 +188,9 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
       });
 
       if (res.ok) {
+        if (draftKeyRef.current) {
+          try { sessionStorage.removeItem(draftKeyRef.current); } catch { /* Optional storage. */ }
+        }
         setStatus("success");
         (e.target as HTMLFormElement).reset();
         resetAttachments();
@@ -143,6 +228,7 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
 
   return (
     <>
+      {variant === "page" && <Suspense fallback={null}><QuoteContextReader onSearch={initializeContext} /></Suspense>}
       {/* Header —— 嵌进首页时(variant="embedded")不要这段大标题,首页自己有对应板块的标题 */}
       {variant === "page" && (
         <section className="bg-gray-900 text-white py-16">
@@ -166,6 +252,7 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
         </section>
       )}
 
+      {variant === "page" && <CapSpecificationDownload locale={locale} showContactLink={false} />}
       <section className={variant === "page" ? "py-16" : undefined}>
         <div className={variant === "page" ? "mx-auto max-w-3xl px-4 sm:px-6 lg:px-8" : undefined}>
           {status === "success" ? (
@@ -186,7 +273,7 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
               <p className="text-green-800 font-medium">{t("success")}</p>
             </div>
           ) : (
-            <form onSubmit={handleSubmit} className="space-y-6">
+            <form ref={formRef} onSubmit={handleSubmit} onInput={saveDraft} onChange={saveDraft} className="space-y-6">
               {/* 防机器人暗格:真人看不见(CSS 移出屏幕,不是 display:none)、Tab 键跳不到、浏览器不会自动填。
                   label 文字特意留着"Leave this field empty"——读页面结构的 AI 代理(不是靠肉眼看)能读到这句提示,
                   就知道该跳过它;只有那种不管三七二十一见输入框就填的机器人才会中招。
@@ -281,6 +368,20 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
                 </div>
               </div>
 
+              {variant === "page" && (
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                  <div>
+                    <label htmlFor="quote-target-date" className="block text-sm font-medium text-gray-700 mb-1">{copy.targetDate}</label>
+                    <input id="quote-target-date" name="targetDate" type="date" className="w-full min-w-0 px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500" />
+                    <p className="mt-1 text-xs text-gray-500">{copy.dateHint}</p>
+                  </div>
+                  <div>
+                    <label htmlFor="quote-purpose" className="block text-sm font-medium text-gray-700 mb-1">{copy.purpose}</label>
+                    <input id="quote-purpose" name="purpose" type="text" maxLength={300} placeholder={copy.purposeHint} className="w-full px-4 py-2.5 border border-gray-200 rounded-lg text-sm focus:outline-none focus:ring-2 focus:ring-amber-500" />
+                  </div>
+                </div>
+              )}
+
               <div>
                 <label className="block text-sm font-medium text-gray-700 mb-1">
                   {t("message")} <span className="text-red-500">*</span>
@@ -339,6 +440,13 @@ export default function ContactForm({ variant = "page" }: ContactFormProps) {
                   )}
                 </div>
               </div>
+
+              {variant === "page" && (
+                <div className="text-xs text-gray-500">
+                  <p>{copy.draftHint}</p>
+                  <button type="button" disabled={status === "sending"} onClick={clearSavedText} className="mt-2 underline underline-offset-2 hover:text-gray-800">{copy.clearDraft}</button>
+                </div>
+              )}
 
               {status === "error" && (
                 <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-sm text-red-700">

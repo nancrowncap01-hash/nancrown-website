@@ -194,7 +194,7 @@ function ProductDetail({
               {/* CTA */}
               <div className="mt-10">
                 <Link
-                  href="/contact"
+                  href={`/contact?product=${product.slug}`}
                   className="inline-flex items-center px-8 py-3.5 text-base font-semibold bg-amber-600 text-white rounded-lg hover:bg-amber-700 transition-colors"
                 >
                   {t("requestQuote")}

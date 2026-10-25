@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import type { Locale } from "@/i18n/routing";
 import { solutions, solutionSlugs, isSolutionSlug } from "@/lib/solutions-content";
 import { pageMetadata } from "@/lib/seo";
+import CapSpecificationDownload from "@/components/CapSpecificationDownload";
 import CapFitDiagram from "@/components/guide/CapFitDiagram";
 import GuidePage from "@/components/guide/GuidePage";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
@@ -66,11 +67,14 @@ export default async function SolutionPage({
       />
       <GuidePage
         introductionVisual={slug === "cap-size-fit-guide" ? <CapFitDiagram locale={locale as Locale} /> : undefined}
+        contactHref={slug === "run-clubs" ? "/contact?category=running-caps&use=run-club" : undefined}
         content={content}
         homeLabel={tNav("home")}
         breadcrumbLabel={shortName}
         crossLink={{ href: "/pricing", label: tGuides("customToPricing") }}
-      />
+      >
+        {["cap-size-fit-guide", "sample-approval"].includes(slug) && <CapSpecificationDownload locale={locale as Locale} />}
+      </GuidePage>
     </>
   );
 }

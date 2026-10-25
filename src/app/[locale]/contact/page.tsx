@@ -3,6 +3,8 @@ import { use } from "react";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { pageMetadata } from "@/lib/seo";
 import ContactForm from "./ContactForm";
+import { sampleProducts } from "@/lib/sample-data";
+import { localizeProduct } from "@/lib/product-i18n";
 
 export async function generateMetadata({
   params,
@@ -26,5 +28,8 @@ export default function ContactPage({
 }) {
   const { locale } = use(params);
   setRequestLocale(locale);
-  return <ContactForm />;
+  const quoteProducts = sampleProducts.map((p) => ({
+    slug: p.slug, code: p.code, category: p.category, name: localizeProduct(p, locale).name,
+  }));
+  return <ContactForm quoteProducts={quoteProducts} />;
 }

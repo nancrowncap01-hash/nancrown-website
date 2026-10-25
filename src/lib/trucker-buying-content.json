@@ -31,7 +31,7 @@
           "Logo: attach artwork, dimensions, positions and decoration method; flag lettering or artwork that crosses a seam.",
           "Labels and packing: specify woven labels, hangtags and any retail packaging; ask the quotation to list the included items.",
           "Sample: confirm front shape, fit, colour combination and decoration before bulk approval.",
-          "Timing: samples normally take 7–15 days after artwork and fabric confirmation; bulk normally takes 25–30 days after sample approval. Confirm the schedule for this build.",
+          "Timing: samples normally take 7–15 days after artwork and fabric confirmation; bulk normally takes 25–30 days after pre-production sample approval and receipt of the agreed payment. Confirm the schedule for this build.",
           "Destination: send country, postcode and full delivery address for a separate freight quote; give the required arrival date, allowing for transit."
         ]
       },
@@ -43,7 +43,7 @@
           "Logo: provide production artwork with dimensions and positions for embroidery, printing or patches; confirm detail across the front seam.",
           "Labels and packing: supply label artwork, placement, hangtags, barcode requirements and carton/retail packing instructions for quotation and feasibility review.",
           "Sample: approve a pre-production sample and the final specification for each distinct build; use them as the batch-checking reference.",
-          "Timing: 25–30 days after sample approval is the normal bulk reference; the 5,000-piece schedule, multiple styles and any staged dispatch must be confirmed in the quotation.",
+          "Timing: 25–30 days after pre-production sample approval and receipt of the agreed payment is the normal bulk reference; the 5,000-piece schedule, multiple styles and any staged dispatch must be confirmed in the quotation.",
           "Destination: send the full destination and required arrival date; request an EXW cap price and a separate freight or DDP quote from the forwarder."
         ]
       }
@@ -78,7 +78,7 @@
       },
       {
         "q": "What should a 5,000-piece retail order confirm?",
-        "a": "Confirm the SKU quantity breakdown, materials, logo methods, labels and retail packing, the approved pre-production sample, and destination. Normal bulk production is 25–30 days after sample approval, plus transit; the specific 5,000-piece schedule and any staged dispatch are confirmed with the quote."
+        "a": "Confirm the SKU quantity breakdown, materials, logo methods, labels and retail packing, the approved pre-production sample, and destination. Normal bulk production is 25–30 days after pre-production sample approval and receipt of the agreed payment, plus transit; the specific 5,000-piece schedule and any staged dispatch are confirmed with the quote."
       },
       {
         "q": "Does a centre-front seam affect my logo?",
@@ -118,7 +118,7 @@
           "Logo: adjunta el diseño, dimensiones, posiciones y técnica; señala si cruza alguna costura.",
           "Etiquetas y embalaje: indica etiquetas tejidas, colgantes y embalaje de tienda; pide que el presupuesto detalle lo incluido.",
           "Muestra: confirma forma frontal, ajuste, combinación de colores y decoración antes de aprobar producción.",
-          "Plazos: muestra normalmente en 7–15 días tras confirmar diseño y tejido; producción normalmente en 25–30 días tras aprobar la muestra. Confirma el calendario del modelo.",
+          "Plazos: muestra normalmente en 7–15 días tras confirmar diseño y tejido; producción normalmente en 25–30 días tras aprobar la muestra de preproducción y recibir el pago acordado. Confirma el calendario del modelo.",
           "Destino: país, código postal y dirección completa para cotizar transporte aparte; indica fecha de llegada y contempla el tránsito."
         ]
       },
@@ -130,7 +130,7 @@
           "Logo: diseño de producción, medidas y posiciones de bordado, impresión o parches; confirma detalles sobre la costura frontal.",
           "Etiquetas y embalaje: diseño y ubicación de etiquetas, colgantes, requisitos de códigos de barras y cajas para revisión de viabilidad y presupuesto.",
           "Muestra: aprueba una muestra de preproducción y la ficha final de cada construcción distinta como referencia de control de lote.",
-          "Plazos: la referencia normal es 25–30 días desde la aprobación; el calendario de 5.000 piezas, varios modelos y envíos parciales se confirma en el presupuesto.",
+          "Plazos: la referencia normal es 25–30 días desde la aprobación de la muestra de preproducción y la recepción del pago acordado; el calendario de 5.000 piezas, varios modelos y envíos parciales se confirma en el presupuesto.",
           "Destino: dirección y fecha de llegada; pide precio EXW de las gorras y transporte o DDP por separado con el transitario."
         ]
       }
@@ -165,7 +165,7 @@
       },
       {
         "q": "¿Qué debe confirmar un pedido de tienda de 5.000 piezas?",
-        "a": "Desglose de SKU, materiales, técnicas de logo, etiquetas y embalaje, muestra de preproducción aprobada y destino. La referencia normal es 25–30 días tras aprobar la muestra, más tránsito; el calendario concreto de 5.000 piezas y los envíos parciales se confirman con el presupuesto."
+        "a": "Desglose de SKU, materiales, técnicas de logo, etiquetas y embalaje, muestra de preproducción aprobada y destino. La referencia normal es 25–30 días tras aprobar la muestra de preproducción y recibir el pago acordado, más tránsito; el calendario concreto de 5.000 piezas y los envíos parciales se confirman con el presupuesto."
       },
       {
         "q": "¿La costura frontal central afecta al logo?",
@@ -205,7 +205,7 @@
           "Logo : visuel, dimensions, positions et procédé ; signaler les détails qui traversent une couture.",
           "Étiquettes et emballage : étiquettes tissées, volantes et emballage boutique ; faire préciser les éléments inclus au devis.",
           "Échantillon : valider forme du devant, porté, couleurs et décoration avant la production.",
-          "Délais : échantillon normalement en 7–15 jours après confirmation du visuel et du tissu ; série normalement en 25–30 jours après approbation. Confirmer le calendrier du modèle.",
+          "Délais : échantillon normalement en 7–15 jours après confirmation du visuel et du tissu ; série normalement en 25–30 jours après validation de l’échantillon de pré-production et réception du paiement convenu. Confirmer le calendrier du modèle.",
           "Destination : pays, code postal et adresse complète pour le transport séparé ; indiquer date d’arrivée requise et temps de transit."
         ]
       },
@@ -217,7 +217,7 @@
           "Logo : fichiers de production, dimensions et positions de broderie, impression ou patchs ; valider les détails sur la couture avant.",
           "Étiquettes et emballage : visuels, emplacements, étiquettes volantes, exigences de codes-barres et cartons pour devis et étude de faisabilité.",
           "Échantillon : approuver un échantillon de pré-production et la fiche finale de chaque construction distincte, comme référence de contrôle des lots.",
-          "Délais : 25–30 jours après approbation est la référence normale ; le calendrier de 5 000 pièces, les modèles multiples et expéditions échelonnées sont confirmés au devis.",
+          "Délais : 25–30 jours après validation de l’échantillon de pré-production et réception du paiement convenu est la référence normale ; le calendrier de 5 000 pièces, les modèles multiples et expéditions échelonnées sont confirmés au devis.",
           "Destination : adresse complète et date d’arrivée ; demander prix EXW des casquettes et devis transport ou DDP séparé via le transitaire."
         ]
       }
@@ -252,7 +252,7 @@
       },
       {
         "q": "Que confirmer pour une commande boutique de 5 000 pièces ?",
-        "a": "Détail des SKU, matières, procédés de logo, étiquettes et emballage, échantillon de pré-production approuvé et destination. La référence normale est 25–30 jours après approbation, plus transit ; le calendrier concret de 5 000 pièces et les expéditions échelonnées sont confirmés au devis."
+        "a": "Détail des SKU, matières, procédés de logo, étiquettes et emballage, échantillon de pré-production approuvé et destination. La référence normale est 25–30 jours après validation de l’échantillon de pré-production et réception du paiement convenu, plus transit ; le calendrier concret de 5 000 pièces et les expéditions échelonnées sont confirmés au devis."
       },
       {
         "q": "La couture centrale avant affecte-t-elle le logo ?",
@@ -292,7 +292,7 @@
           "Logo: Datei, Maße, Positionen und Verfahren angeben; Motive über einer Naht kennzeichnen.",
           "Etiketten und Verpackung: Webetiketten, Hängeetiketten und Verkaufsverpackung nennen; enthaltene Leistungen im Angebot auflisten lassen.",
           "Muster: Frontform, Passform, Farbkombination und Veredelung vor Serienfreigabe bestätigen.",
-          "Zeit: Muster normalerweise 7–15 Tage nach Bestätigung von Motiv und Stoff; Serie normalerweise 25–30 Tage nach Musterfreigabe. Den Modellterminplan bestätigen lassen.",
+          "Zeit: Muster normalerweise 7–15 Tage nach Bestätigung von Motiv und Stoff; Serie normalerweise 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung. Den Modellterminplan bestätigen lassen.",
           "Ziel: Land, Postleitzahl und vollständige Adresse für ein separates Frachtangebot; gewünschten Ankunftstermin mit Transportzeit angeben."
         ]
       },
@@ -304,7 +304,7 @@
           "Logo: Produktionsdateien, Maße und Positionen für Stickerei, Druck oder Patches; Details über der Frontnaht bestätigen.",
           "Etiketten und Verpackung: Vorlagen, Positionen, Hängeetiketten, Barcodeanforderungen und Karton-/Verkaufsverpackung zur Machbarkeitsprüfung und Kalkulation senden.",
           "Muster: Vorproduktionsmuster und endgültige Spezifikation für jede unterschiedliche Konstruktion als Referenz zur Chargenprüfung freigeben.",
-          "Zeit: 25–30 Tage nach Musterfreigabe ist die normale Referenz; Terminplan für 5.000 Stück, mehrere Modelle und Teillieferungen im Angebot bestätigen lassen.",
+          "Zeit: 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung ist die normale Referenz; Terminplan für 5.000 Stück, mehrere Modelle und Teillieferungen im Angebot bestätigen lassen.",
           "Ziel: vollständige Adresse und Ankunftstermin; EXW-Cappreis und separates Fracht- oder DDP-Angebot des Spediteurs anfragen."
         ]
       }
@@ -339,7 +339,7 @@
       },
       {
         "q": "Was muss ein Einzelhandelsauftrag mit 5.000 Stück bestätigen?",
-        "a": "SKU-Aufteilung, Materialien, Logoverfahren, Etiketten und Verkaufsverpackung, freigegebenes Vorproduktionsmuster und Ziel. Normal sind 25–30 Tage nach Musterfreigabe plus Transport; der konkrete Plan für 5.000 Stück und Teillieferungen wird im Angebot bestätigt."
+        "a": "SKU-Aufteilung, Materialien, Logoverfahren, Etiketten und Verkaufsverpackung, freigegebenes Vorproduktionsmuster und Ziel. Normal sind 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung plus Transport; der konkrete Plan für 5.000 Stück und Teillieferungen wird im Angebot bestätigt."
       },
       {
         "q": "Beeinflusst die vordere Mittelnaht mein Logo?",

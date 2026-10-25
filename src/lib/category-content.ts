@@ -1894,7 +1894,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom 5-panel caps made in Guangzhou: camp, snapback and sport styles in cotton, nylon or quick-dry fabric. Embroidery or patches, from 50 pcs per colour.",
         intro: [
           "A 5-panel cap has one wide front panel with no centre seam, which makes it a favourite for logos, patches and clean graphics. NanCrown builds 5-panel caps as low camp caps with a flat brim, as structured snapbacks, and as lightweight sport caps in quick-dry nylon with side mesh and a long brim.",
-          "Choose the fabric, brim and closure, and we build around your branding: flat or 3D puff embroidery, woven or leather patches, printing, or details such as a front flap pocket. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Choose the fabric, brim and closure, and we build around your branding: flat or 3D puff embroidery, woven or leather patches, printing, or details such as a front flap pocket. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour, with bulk ready 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time.",
           "For outdoor brands, the nylon camp cap is the usual starting point: a low 5-panel crown, a flat or short curved brim, and a webbing strap with a buckle or an elastic cord at the back. We also work with functional fabrics, including cooling, UPF sun-protective and water-repellent fabrics, with a quick-dry sweatband inside. On water-repellent caps the back panels can be laser-perforated for airflow.",
         ],
         customOptions: [
@@ -1919,11 +1919,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "What is the MOQ and price for nylon camp caps?",
-            a: "50 pieces per colour, per style. As a guide, our standard cotton cap is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou; quick-dry and other performance fabrics add about US$0.5–1 per cap. We confirm the exact price from your fabric and logo.",
+            a: "50 pieces per colour, per style. As a guide, our standard cotton cap is US$4.3–5.7 per cap at 100–299 pieces, ex-works Guangzhou; at 50–100 pieces of one style, quick-dry and breathable performance fabrics add about US$0.5–1 per cap compared with the standard cotton twill cap. These are separate quantity references, not a final 5-panel quote. We confirm the exact price from your construction, fabric and logo.",
           },
           {
             q: "What is the difference between a 5-panel and a 6-panel cap?",
-            a: "A 6-panel cap has a seam down the middle of the front. A 5-panel cap has one seamless front panel, so a wide logo, patch or print sits on a flat surface.",
+            a: "A typical 6-panel cap has a centre-front seam; the 5-panel styles shown here use a single front panel. Avoiding that seam can help logo placement, but the crown is still curved. Panel count does not determine crown depth or stiffness. Confirm the actual pattern, logo size and placement on a pre-production sample.",
           },
           {
             q: "Can you use recycled or organic fabrics?",
@@ -1937,7 +1937,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras de 5 paneles personalizadas hechas en Guangzhou: camp, snapback o deportivas en algodón, nailon o tejido técnico. Desde 50 uds. por color.",
         intro: [
           "Una gorra de 5 paneles tiene un frontal ancho sin costura central, por eso es la favorita para logos, parches y gráficos limpios. En NanCrown fabricamos gorras de 5 paneles como camp caps de perfil bajo con visera plana, como snapbacks estructuradas y como gorras deportivas ligeras en nailon de secado rápido con malla lateral y visera larga.",
-          "Elige tejido, visera y cierre, y construimos la gorra alrededor de tu marca: bordado plano o 3D (puff), parches tejidos o de cuero, estampados o detalles como un bolsillo con solapa en el frontal. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Elige tejido, visera y cierre, y construimos la gorra alrededor de tu marca: bordado plano o 3D (puff), parches tejidos o de cuero, estampados o detalles como un bolsillo con solapa en el frontal. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos en Guangzhou desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío.",
           "Para las marcas outdoor, la camp cap de nailon es el punto de partida habitual: copa baja de 5 paneles, visera plana o corta y curva, y cinta con hebilla o cordón elástico detrás. También trabajamos con tejidos funcionales: efecto frío, protección solar UPF y repelentes al agua, con una banda interior de secado rápido. En las gorras repelentes al agua, los paneles traseros pueden llevar perforaciones láser para ventilar.",
         ],
         customOptions: [
@@ -1962,11 +1962,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuál es el pedido mínimo y el precio de las camp caps de nailon?",
-            a: "50 piezas por color y por modelo. Como referencia, nuestra gorra estándar de algodón cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou; los tejidos de secado rápido y otros tejidos técnicos suman unos 0,5–1 USD por gorra. Confirmamos el precio exacto según tu tejido y tu logo.",
+            a: "50 piezas por color y por modelo. Como referencia, nuestra gorra estándar de algodón cuesta 4,3–5,7 USD por unidad en 100–299 piezas, en fábrica Guangzhou; para 50–100 piezas de un mismo modelo, los tejidos técnicos de secado rápido y transpirables suman unos 0,5–1 USD por gorra frente a la gorra estándar de sarga de algodón. Son referencias de cantidades distintas, no un precio final de cinco paneles. Confirmamos el precio según la construcción, el tejido y el logo.",
           },
           {
             q: "¿Qué diferencia hay entre una gorra de 5 paneles y una de 6?",
-            a: "La gorra de 6 paneles tiene una costura en el centro del frente. La de 5 paneles tiene un panel frontal sin costura, así que un logo ancho, un parche o un estampado quedan sobre una superficie plana.",
+            a: "Una gorra típica de 6 paneles lleva costura central frontal; los modelos de 5 paneles mostrados aquí usan un frontal de una pieza. Evitar esa costura puede facilitar la colocación del logo, pero la copa sigue siendo curva. El número de paneles no determina profundidad ni rigidez. Confirma el patrón, tamaño y posición del logo en una muestra de preproducción.",
           },
           {
             q: "¿Podéis usar tejidos reciclados u orgánicos?",
@@ -1980,7 +1980,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes 5 panneaux personnalisées fabriquées à Guangzhou : camp, snapback ou sport, en coton, nylon ou tissu technique. Dès 50 pièces par couleur.",
         intro: [
           "Une casquette 5 panneaux a un large panneau avant sans couture centrale, ce qui en fait la favorite pour les logos, les écussons et les graphismes nets. NanCrown fabrique des casquettes 5 panneaux en camp cap à profil bas et visière plate, en snapback structurée et en casquette de sport légère en nylon séchage rapide avec filet latéral et longue visière.",
-          "Choisissez le tissu, la visière et la fermeture, et nous construisons la casquette autour de votre marque : broderie à plat ou 3D (puff), écussons tissés ou en cuir, impression, ou détails comme une poche à rabat sur le devant. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Choisissez le tissu, la visière et la fermeture, et nous construisons la casquette autour de votre marque : broderie à plat ou 3D (puff), écussons tissés ou en cuir, impression, ou détails comme une poche à rabat sur le devant. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons à Guangzhou dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l’échantillon de pré-production et réception du paiement convenu, hors transport.",
           "Pour les marques outdoor, la camp cap en nylon est le point de départ habituel : une calotte basse à 5 panneaux, une visière plate ou courte et incurvée, et une sangle à boucle ou un cordon élastique à l'arrière. Nous travaillons aussi des tissus fonctionnels : effet frais, protection solaire UPF et déperlants, avec un bandeau intérieur à séchage rapide. Sur les casquettes déperlantes, les panneaux arrière peuvent être perforés au laser pour l'aération.",
         ],
         customOptions: [
@@ -2005,11 +2005,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Quel minimum et quel prix pour des camp caps en nylon ?",
-            a: "50 pièces par couleur et par modèle. À titre indicatif, notre casquette coton standard coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou ; les tissus à séchage rapide et autres tissus techniques ajoutent environ 0,5 à 1 USD par casquette. Nous confirmons le prix exact selon votre tissu et votre logo.",
+            a: "50 pièces par couleur et par modèle. À titre indicatif, notre casquette coton standard coûte 4,3–5,7 USD pièce pour 100–299 pièces, départ usine Guangzhou ; pour 50 à 100 pièces d’un même modèle, les tissus techniques à séchage rapide et respirants ajoutent environ 0,5 à 1 USD par casquette par rapport à la casquette standard en sergé de coton. Ces références correspondent à des quantités différentes, pas à un devis final cinq panneaux. Le prix est confirmé selon la construction, le tissu et le logo.",
           },
           {
             q: "Quelle différence entre une casquette 5 panneaux et une 6 panneaux ?",
-            a: "Une 6 panneaux a une couture au milieu du devant. Une 5 panneaux a un panneau avant sans couture : un logo large, un écusson ou une impression repose sur une surface plane.",
+            a: "Une casquette classique à 6 panneaux a une couture centrale devant ; les modèles à 5 panneaux présentés ici ont un devant d’une pièce. Éviter cette couture peut faciliter le placement du logo, mais la calotte reste courbe. Le nombre de panneaux ne détermine ni profondeur ni rigidité. Validez le patron, les dimensions et la position du logo sur un échantillon de pré-production.",
           },
           {
             q: "Pouvez-vous utiliser des tissus recyclés ou biologiques ?",
@@ -2023,7 +2023,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle 5-Panel Caps aus Guangzhou: Camp-, Snapback- und Sport-Styles aus Baumwolle, Nylon oder Funktionsstoff. Ab 50 Stück pro Farbe.",
         intro: [
           "Eine 5-Panel Cap hat ein breites Frontteil ohne Mittelnaht und ist deshalb erste Wahl für Logos, Patches und klare Grafiken. NanCrown fertigt 5-Panel Caps als flache Camp Caps mit geradem Schirm, als strukturierte Snapbacks und als leichte Sport-Caps aus schnell trocknendem Nylon mit Seitennetz und langem Schirm.",
-          "Wählen Sie Stoff, Schirm und Verschluss, und wir bauen die Cap um Ihre Marke herum: Flach- oder 3D-Puff-Stickerei, gewebte oder Leder-Patches, Druck oder Details wie eine Pattentasche vorne. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Wählen Sie Stoff, Schirm und Verschluss, und wir bauen die Cap um Ihre Marke herum: Flach- oder 3D-Puff-Stickerei, gewebte oder Leder-Patches, Druck oder Details wie eine Pattentasche vorne. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren in Guangzhou ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Versandzeit.",
           "Für Outdoormarken ist die Camp Cap aus Nylon der übliche Einstieg: ein flaches 5-Panel-Kopfteil, ein flacher oder kurzer gebogener Schirm und hinten ein Gurtband mit Schnalle oder eine elastische Kordel. Wir arbeiten auch mit Funktionsstoffen: kühlend, mit UPF-Sonnenschutz und wasserabweisend, innen mit schnell trocknendem Schweißband. Bei wasserabweisenden Caps lassen sich die hinteren Panels zur Belüftung laserperforieren.",
         ],
         customOptions: [
@@ -2048,11 +2048,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Wie hoch sind Mindestmenge und Preis für Camp Caps aus Nylon?",
-            a: "50 Stück pro Farbe und Modell. Als Richtwert: Unsere Standard-Baumwollcap kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou; schnell trocknende und andere Funktionsstoffe kosten etwa 0,5–1 USD mehr pro Cap. Den genauen Preis bestätigen wir anhand von Stoff und Logo.",
+            a: "50 Stück pro Farbe und Modell. Als Richtwert: Unsere Standard-Baumwollcap kostet 4,3–5,7 USD pro Stück bei 100–299 Stück, ab Werk Guangzhou; bei 50–100 Stück eines Modells kosten schnell trocknende, atmungsaktive Funktionsstoffe etwa 0,5–1 USD mehr pro Cap als die Standardcap aus Baumwoll-Twill. Dies sind Referenzen für unterschiedliche Mengen, kein endgültiges Angebot für 5-Panel-Caps. Den Preis bestätigen wir anhand von Konstruktion, Stoff und Logo.",
           },
           {
             q: "Was ist der Unterschied zwischen einer 5-Panel- und einer 6-Panel-Cap?",
-            a: "Eine 6-Panel-Cap hat vorne in der Mitte eine Naht. Eine 5-Panel-Cap hat ein nahtloses Vorderteil, sodass ein breites Logo, ein Patch oder ein Druck auf einer glatten Fläche sitzt.",
+            a: "Eine typische 6-Panel-Cap hat eine Mittelnaht vorne; die hier gezeigten 5-Panel-Modelle haben ein einteiliges Vorderteil. Ohne Mittelnaht lässt sich ein Logo leichter platzieren, die Krone bleibt jedoch gewölbt. Die Panelzahl bestimmt weder Tiefe noch Steifigkeit. Schnitt, Logogröße und Position am Vorproduktionsmuster bestätigen.",
           },
           {
             q: "Können Sie recycelte oder Bio-Stoffe verwenden?",
@@ -2417,7 +2417,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom patch hats from our Guangzhou factory: leather, PU, PVC, woven, embroidered and felt patches on caps, truckers and bucket hats. From 50 pcs per colour.",
         intro: [
           "A patch gives a cap a finished, retail look and keeps fine detail sharp. NanCrown makes patch hats with leather and PU leather patches, rubbery PVC patches, fine-detail woven patches, embroidered patches and felt or fabric appliqué letters.",
-          "Patches can be sewn onto trucker hats, baseball and dad caps, snapbacks and bucket hats, in the shape, size and colours of your design. We confirm the patch and its position on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Patches can be sewn onto trucker hats, baseball and dad caps, snapbacks and bucket hats, in the shape, size and colours of your design. We confirm the patch and its position on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time.",
           "A leather patch is the classic choice: your logo debossed into leather or PU leather and sewn onto the front of a trucker, a washed cap or a 5-panel. PU leather can also be embossed with your own pattern, and rubber patches suit water-repellent and outdoor caps. On samples a rubber patch is positioned by hand; for bulk we make a positioning mould so the placement is the same on every cap.",
         ],
         customOptions: [
@@ -2434,7 +2434,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Which patch type should I choose?",
-            a: "Leather and PU patches look premium on washed and trucker caps, PVC is durable and bold, woven patches hold fine detail, and embroidered patches give a classic textured look. We can sample more than one option.",
+            a: "Leather and PU patches look premium on washed and trucker caps, PVC gives a raised, bold look; durability must be checked on the chosen material and attachment. Woven patches hold fine detail, and embroidered patches give a classic textured look. We can sample more than one option.",
           },
           {
             q: "Can you put a patch on a trucker hat?",
@@ -2460,7 +2460,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras con parche personalizadas hechas en Guangzhou: parches de cuero, PU, PVC, tejidos, bordados y de fieltro. Desde 50 uds. por color.",
         intro: [
           "Un parche da a la gorra un acabado de tienda y mantiene nítidos los detalles finos. En NanCrown fabricamos gorras con parches de cuero y de cuero PU, parches de PVC con tacto de goma, parches tejidos de alta definición, parches bordados y letras aplicadas en fieltro o tela.",
-          "Los parches se cosen en truckers, gorras de béisbol y dad caps, snapbacks y gorros de pescador, con la forma, el tamaño y los colores de tu diseño. Confirmamos el parche y su posición en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "Los parches se cosen en truckers, gorras de béisbol y dad caps, snapbacks y gorros de pescador, con la forma, el tamaño y los colores de tu diseño. Confirmamos el parche y su posición en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío.",
           "El parche de cuero es la opción clásica: tu logo grabado en bajorrelieve sobre cuero o cuero PU y cosido al frente de una trucker, una gorra lavada o una de 5 paneles. El cuero PU también puede llevar grabado tu propio dibujo, y los parches de goma van bien en gorras repelentes al agua y de exterior. En las muestras el parche de goma se coloca a mano; para la producción hacemos un molde de posición para que quede igual en todas las gorras.",
         ],
         customOptions: [
@@ -2477,7 +2477,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Qué tipo de parche me conviene?",
-            a: "El cuero y el PU quedan premium en gorras lavadas y truckers, el PVC es resistente y llamativo, los parches tejidos mantienen el detalle fino y los bordados dan un aspecto clásico con textura. Podemos hacer muestras de más de una opción.",
+            a: "El cuero y el PU quedan premium en gorras lavadas y truckers, el PVC ofrece relieve y un aspecto llamativo; la resistencia debe comprobarse en el material y la fijación elegidos. Los parches tejidos mantienen el detalle fino y los bordados dan un aspecto clásico con textura. Podemos hacer muestras de más de una opción.",
           },
           {
             q: "¿Podéis poner un parche en una trucker?",
@@ -2503,7 +2503,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes à écusson personnalisées fabriquées à Guangzhou : écussons cuir, PU, PVC, tissés, brodés ou feutre. Dès 50 pièces par couleur.",
         intro: [
           "Un écusson donne à la casquette une finition boutique et garde les détails fins bien nets. NanCrown fabrique des casquettes avec écussons en cuir et en cuir PU, écussons en PVC au toucher caoutchouc, écussons tissés haute définition, écussons brodés et lettres appliquées en feutre ou en tissu.",
-          "Les écussons se cousent sur les truckers, les casquettes baseball et dad caps, les snapbacks et les bobs, à la forme, à la taille et aux couleurs de votre design. Nous validons l'écusson et son emplacement sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Les écussons se cousent sur les truckers, les casquettes baseball et dad caps, les snapbacks et les bobs, à la forme, à la taille et aux couleurs de votre design. Nous validons l'écusson et son emplacement sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l’échantillon de pré-production et réception du paiement convenu, hors transport.",
           "L'écusson en cuir est le choix classique : votre logo marqué en creux dans du cuir ou du cuir PU et cousu sur le devant d'une trucker, d'une casquette délavée ou d'une 5 panneaux. Le cuir PU peut aussi être gaufré avec votre propre motif, et les écussons en caoutchouc conviennent aux casquettes déperlantes et outdoor. Sur les échantillons, l'écusson en caoutchouc est positionné à la main ; pour la production, nous fabriquons un gabarit de positionnement pour que l'emplacement soit identique sur chaque casquette.",
         ],
         customOptions: [
@@ -2520,7 +2520,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Quel type d'écusson choisir ?",
-            a: "Le cuir et le PU font premium sur les casquettes délavées et les truckers, le PVC est résistant et affirmé, l'écusson tissé garde les détails fins et l'écusson brodé offre un rendu classique et texturé. Nous pouvons échantillonner plusieurs options.",
+            a: "Le cuir et le PU font premium sur les casquettes délavées et les truckers, le PVC offre du relief et un rendu affirmé ; la résistance doit être vérifiée sur la matière et la fixation retenues. L'écusson tissé garde les détails fins et l'écusson brodé offre un rendu classique et texturé. Nous pouvons échantillonner plusieurs options.",
           },
           {
             q: "Pouvez-vous poser un écusson sur une trucker ?",
@@ -2546,7 +2546,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Patch Caps aus Guangzhou: Leder-, PU-, PVC-, Web-, Stick- und Filz-Patches auf Caps, Truckern und Fischerhüten. Ab 50 Stück pro Farbe.",
         intro: [
           "Ein Patch gibt einer Cap ein fertiges Retail-Finish und hält feine Details scharf. NanCrown fertigt Patch Caps mit Leder- und PU-Leder-Patches, gummiartigen PVC-Patches, detailgenauen Web-Patches, Stick-Patches sowie applizierten Buchstaben aus Filz oder Stoff.",
-          "Patches werden auf Trucker Caps, Baseball und Dad Caps, Snapbacks und Fischerhüte genäht, in Form, Größe und Farben Ihres Designs. Patch und Position bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Patches werden auf Trucker Caps, Baseball und Dad Caps, Snapbacks und Fischerhüte genäht, in Form, Größe und Farben Ihres Designs. Patch und Position bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Versandzeit.",
           "Ein Leder-Patch ist der Klassiker: Ihr Logo wird in Leder oder PU-Leder geprägt und vorne auf eine Trucker-Cap, eine gewaschene Cap oder eine 5-Panel-Cap genäht. PU-Leder lässt sich auch mit Ihrem eigenen Muster prägen, und Gummi-Patches passen zu wasserabweisenden und Outdoor-Caps. Beim Muster wird ein Gummi-Patch von Hand positioniert; für die Serie fertigen wir eine Positionierform, damit er auf jeder Cap an derselben Stelle sitzt.",
         ],
         customOptions: [
@@ -2563,7 +2563,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Welche Patch-Art soll ich wählen?",
-            a: "Leder und PU wirken auf gewaschenen Caps und Truckern hochwertig, PVC ist robust und auffällig, Web-Patches halten feine Details und Stick-Patches geben einen klassischen, strukturierten Look. Wir können mehrere Varianten bemustern.",
+            a: "Leder und PU wirken auf gewaschenen Caps und Truckern hochwertig, PVC wirkt plastisch und auffällig; die Haltbarkeit muss am gewählten Material und der Befestigung geprüft werden. Web-Patches halten feine Details und Stick-Patches geben einen klassischen, strukturierten Look. Wir können mehrere Varianten bemustern.",
           },
           {
             q: "Können Sie einen Patch auf eine Trucker Cap setzen?",

@@ -1,0 +1,338 @@
+{
+  "en": {
+    "links": [
+      "Size & fit handoff",
+      "Sample approval checklist",
+      "Price scope",
+      "Discuss your specification"
+    ],
+    "five": {
+      "heading": "5-panel vs 6-panel: choose the build, then the logo",
+      "lead": "For the cap constructions discussed here, the useful difference is the front seam. Panel count alone does not specify crown height, stiffness, fit or performance. Confirm the actual pattern and finished sample.",
+      "diagram": [
+        "Single front panel",
+        "Front centre seam",
+        "Front-view schematic only — not a cutting pattern or a size specification. A seamless front still curves around the head."
+      ],
+      "cards": [
+        [
+          "Front panel & artwork",
+          "A single front panel avoids a centre seam through the logo. A typical 6-panel front has that seam: ask where lettering, thin lines and patch edges will sit. Neither construction guarantees the artwork will fit."
+        ],
+        [
+          "Structured vs unstructured",
+          "A supported front holds its shape; a soft front follows the head more closely. Choose support separately from panel count. Request front and side sample photos and check the feel on the head."
+        ],
+        [
+          "Camp, snapback or sport",
+          "A low camp shape, a structured snapback and a soft sport cap can all use a 5-panel build. Select crown depth, brim shape and closure for the intended use; a panel count is not a fit measurement."
+        ]
+      ],
+      "checkHeading": "Before approving the logo placement",
+      "checks": [
+        "Send vector artwork and the required finished logo width and height, with units.",
+        "Mark the logo position relative to the brim edge and centre line; identify any seam it crosses.",
+        "Review embroidery puckering, patch edge lift and print distortion on the curved finished cap, not only on a flat artwork proof.",
+        "Approve the crown, brim, closure and logo together on the pre-production sample. Record revisions before bulk approval."
+      ],
+      "notice": "No universal maximum logo size or fit tolerance is promised here. The usable area depends on the pattern, decoration method and approved sample."
+    },
+    "patch": {
+      "heading": "Compare patch types before choosing the attachment",
+      "lead": "Start with the artwork and the finished cap. Material, edge finish, backing and attachment work together; the patch name alone does not prove wash resistance, outdoor life or waterproof performance.",
+      "columns": [
+        "Patch type",
+        "Visual direction",
+        "Check on the sample"
+      ],
+      "rows": [
+        [
+          "Embroidered",
+          "Visible stitched texture and raised thread coverage.",
+          "Small letters, line separation, thread coverage and the finished edge."
+        ],
+        [
+          "Woven",
+          "A flatter thread-based design, useful to explore for fine lines and small lettering.",
+          "Readability at the actual patch size, colour separation and edge finish."
+        ],
+        [
+          "Genuine leather",
+          "Natural surface variation; a debossed mark creates a different effect from stitched thread.",
+          "Actual leather swatch, colour variation, mark clarity and the intended care method."
+        ],
+        [
+          "PU leather",
+          "A synthetic leather-look surface; keep it distinct from genuine leather in the specification.",
+          "Actual material and finish, emboss/deboss result, flexing and care requirements."
+        ],
+        [
+          "PVC",
+          "Moulded relief and a rubber-like appearance.",
+          "Relief detail, thickness, weight and how the edge sits on the curved crown."
+        ]
+      ],
+      "checkHeading": "Attachment & approval checklist",
+      "checks": [
+        "Sewn-on: confirm stitch path, edge allowance and access to the inside of the cap. Check for puckering, rough edges and uncomfortable stitching.",
+        "If heat, adhesive or a removable backing is requested, ask for a feasibility check on the selected cap fabric and patch. Do not assume it is available or suitable for every combination.",
+        "Specify patch width and height, position, edge finish, backing and attachment as separate fields. Approve the complete cap as well as the loose patch.",
+        "If washing, rain exposure or repeated flexing matters, agree on a relevant test and acceptance criteria before claiming performance. Keep the approved sample and revision record."
+      ],
+      "notice": "A patch is quoted by its design, material, size and construction. Existing standard cap prices are not an all-inclusive patch price.",
+      "scrollHint": "On small screens, scroll the comparison sideways."
+    }
+  },
+  "es": {
+    "links": [
+      "Medidas y ajuste",
+      "Lista de aprobación de muestras",
+      "Alcance del precio",
+      "Consultar tu especificación"
+    ],
+    "five": {
+      "heading": "5 o 6 paneles: elige la construcción y después el logo",
+      "lead": "En las construcciones descritas aquí, la diferencia útil está en la costura frontal. El número de paneles no define la altura, rigidez, ajuste ni prestaciones. Confirma el patrón concreto y la muestra terminada.",
+      "diagram": [
+        "Frontal de una pieza",
+        "Costura central frontal",
+        "Esquema frontal: no es un patrón de corte ni una especificación de medidas. El frontal sin costura también se curva sobre la cabeza."
+      ],
+      "cards": [
+        [
+          "Frontal y diseño",
+          "Un frontal de una pieza evita una costura central atravesando el logo. El frontal típico de 6 paneles tiene esa costura: comprueba la posición de letras, líneas finas y bordes del parche. Ninguna construcción garantiza que el diseño quepa."
+        ],
+        [
+          "Estructurada o sin estructura",
+          "Un frontal reforzado mantiene la forma; uno blando se adapta más a la cabeza. Elige el refuerzo aparte del número de paneles. Pide fotos frontales y laterales y comprueba la sensación al llevar la muestra."
+        ],
+        [
+          "Camp, snapback o deportiva",
+          "Una camp baja, una snapback estructurada y una deportiva blanda pueden tener 5 paneles. Selecciona profundidad, visera y cierre según el uso; el número de paneles no es una medida de ajuste."
+        ]
+      ],
+      "checkHeading": "Antes de aprobar la posición del logo",
+      "checks": [
+        "Envía el diseño vectorial y el ancho y alto finales del logo, con unidades.",
+        "Marca la posición respecto al borde de la visera y al eje central; identifica las costuras que atraviesa.",
+        "Comprueba arrugas del bordado, bordes levantados del parche y deformación de la impresión en la gorra curva terminada, no solo en el diseño plano.",
+        "Aprueba copa, visera, cierre y logo juntos en la muestra de preproducción. Registra los cambios antes de aprobar la producción."
+      ],
+      "notice": "No se promete una medida máxima universal del logo ni una tolerancia de ajuste. El área útil depende del patrón, la técnica de decoración y la muestra aprobada."
+    },
+    "patch": {
+      "heading": "Compara los parches antes de elegir la fijación",
+      "lead": "Empieza por el diseño y la gorra terminada. Material, borde, reverso y fijación funcionan juntos; el nombre del parche no demuestra resistencia al lavado, vida en exterior ni impermeabilidad.",
+      "columns": [
+        "Tipo de parche",
+        "Aspecto buscado",
+        "Comprobar en la muestra"
+      ],
+      "rows": [
+        [
+          "Bordado",
+          "Textura de puntadas visibles y relieve del hilo.",
+          "Letras pequeñas, separación de líneas, cobertura y acabado del borde."
+        ],
+        [
+          "Tejido",
+          "Diseño con hilos más plano, una opción a explorar para líneas finas y letras pequeñas.",
+          "Legibilidad al tamaño real, separación de colores y borde."
+        ],
+        [
+          "Cuero auténtico",
+          "Variaciones naturales; el bajorrelieve ofrece un efecto distinto del hilo bordado.",
+          "Muestra real de cuero, variación de color, claridad del grabado y cuidado previsto."
+        ],
+        [
+          "Cuero PU",
+          "Superficie sintética de aspecto cuero; distinguirla del cuero auténtico en la especificación.",
+          "Material y acabado reales, relieve o bajorrelieve, flexión y cuidados."
+        ],
+        [
+          "PVC",
+          "Relieve moldeado y aspecto similar a la goma.",
+          "Detalle, grosor, peso y cómo queda el borde sobre la copa curva."
+        ]
+      ],
+      "checkHeading": "Fijación y aprobación",
+      "checks": [
+        "Cosido: confirma recorrido de costura, margen del borde y acceso al interior de la gorra. Revisa arrugas, bordes ásperos y costuras molestas.",
+        "Si se solicita calor, adhesivo o reverso desmontable, pide una evaluación con el tejido y parche elegidos. No supongas que está disponible o funciona con todas las combinaciones.",
+        "Indica ancho, alto, posición, borde, reverso y fijación en campos separados. Aprueba la gorra completa además del parche suelto.",
+        "Si importan el lavado, la lluvia o la flexión repetida, acuerda pruebas y criterios de aceptación antes de afirmar prestaciones. Conserva la muestra aprobada y sus revisiones."
+      ],
+      "notice": "El parche se cotiza según diseño, material, tamaño y construcción. El precio de la gorra estándar no incluye cualquier parche.",
+      "scrollHint": "En pantallas pequeñas, desliza la comparación hacia los lados."
+    }
+  },
+  "fr": {
+    "links": [
+      "Mesures et ajustement",
+      "Validation des échantillons",
+      "Périmètre du prix",
+      "Discuter de votre cahier des charges"
+    ],
+    "five": {
+      "heading": "5 ou 6 panneaux : choisir la construction, puis le logo",
+      "lead": "Pour les constructions présentées ici, la différence utile est la couture frontale. Le nombre de panneaux ne définit ni hauteur, ni rigidité, ni ajustement, ni performance. Confirmez le patron précis et l’échantillon fini.",
+      "diagram": [
+        "Panneau frontal unique",
+        "Couture centrale frontale",
+        "Schéma de face uniquement — ni patron de coupe, ni spécification dimensionnelle. Un devant sans couture reste courbé autour de la tête."
+      ],
+      "cards": [
+        [
+          "Devant et graphisme",
+          "Un panneau frontal unique évite une couture centrale traversant le logo. Un devant classique à 6 panneaux possède cette couture : vérifiez lettres, traits fins et bords du patch. Aucune construction ne garantit que le dessin tiendra."
+        ],
+        [
+          "Structurée ou souple",
+          "Un devant renforcé conserve sa forme ; un devant souple suit davantage la tête. Choisissez le renfort indépendamment du nombre de panneaux. Demandez des photos de face et de profil et vérifiez le confort de l’échantillon porté."
+        ],
+        [
+          "Camp, snapback ou sport",
+          "Une camp basse, une snapback structurée et une casquette de sport souple peuvent toutes avoir 5 panneaux. Choisissez profondeur, visière et fermeture selon l’usage ; le nombre de panneaux n’est pas une mesure d’ajustement."
+        ]
+      ],
+      "checkHeading": "Avant de valider la position du logo",
+      "checks": [
+        "Envoyez le fichier vectoriel et les largeur et hauteur finales du logo, avec les unités.",
+        "Repérez le logo par rapport au bord de la visière et à l’axe central ; identifiez toute couture traversée.",
+        "Vérifiez les fronces de broderie, les bords de patch soulevés et la déformation de l’impression sur la casquette finie et courbée, pas seulement sur un dessin à plat.",
+        "Validez ensemble calotte, visière, fermeture et logo sur l’échantillon de préproduction. Consignez les modifications avant l’accord de production."
+      ],
+      "notice": "Aucune taille maximale universelle de logo ni tolérance d’ajustement n’est promise ici. La zone utile dépend du patron, du marquage et de l’échantillon approuvé."
+    },
+    "patch": {
+      "heading": "Comparer les patchs avant de choisir la fixation",
+      "lead": "Partez du graphisme et de la casquette finie. Matière, bord, support et fixation sont liés ; le nom du patch ne prouve ni résistance au lavage, ni durée de vie en extérieur, ni étanchéité.",
+      "columns": [
+        "Type de patch",
+        "Effet visuel",
+        "À vérifier sur l’échantillon"
+      ],
+      "rows": [
+        [
+          "Brodé",
+          "Texture de points visibles et relief du fil.",
+          "Petites lettres, séparation des traits, couverture et finition du bord."
+        ],
+        [
+          "Tissé",
+          "Dessin en fils plus plat, à explorer pour les traits fins et petites lettres.",
+          "Lisibilité à la taille réelle, séparation des couleurs et finition du bord."
+        ],
+        [
+          "Cuir véritable",
+          "Variations naturelles ; le marquage en creux donne un effet différent des fils brodés.",
+          "Échantillon réel de cuir, variation de couleur, netteté du marquage et entretien prévu."
+        ],
+        [
+          "Similicuir PU",
+          "Surface synthétique aspect cuir ; la distinguer du cuir véritable dans la spécification.",
+          "Matière et finition réelles, embossage ou marquage en creux, flexion et entretien."
+        ],
+        [
+          "PVC",
+          "Relief moulé et aspect caoutchouteux.",
+          "Détail du relief, épaisseur, poids et tenue du bord sur la calotte courbée."
+        ]
+      ],
+      "checkHeading": "Fixation et validation",
+      "checks": [
+        "Cousu : confirmer le trajet de couture, la marge au bord et l’accès intérieur. Vérifier fronces, bords rugueux et coutures inconfortables.",
+        "Pour une fixation à chaud, adhésive ou amovible, demander une étude de faisabilité avec le tissu et le patch choisis. Ne pas présumer sa disponibilité ou sa compatibilité avec toutes les combinaisons.",
+        "Spécifier séparément largeur, hauteur, position, bord, support et fixation. Valider la casquette complète ainsi que le patch seul.",
+        "Si lavage, pluie ou flexions répétées comptent, convenir d’un test pertinent et de critères d’acceptation avant toute promesse de performance. Conserver l’échantillon approuvé et les révisions."
+      ],
+      "notice": "Le patch est chiffré selon dessin, matière, dimensions et construction. Le prix standard de la casquette n’est pas un prix tout compris pour chaque patch.",
+      "scrollHint": "Sur petit écran, faites défiler le comparatif horizontalement."
+    }
+  },
+  "de": {
+    "links": [
+      "Maße und Passform",
+      "Musterfreigabe prüfen",
+      "Preisumfang",
+      "Spezifikation besprechen"
+    ],
+    "five": {
+      "heading": "5 oder 6 Panels: erst den Aufbau, dann das Logo wählen",
+      "lead": "Bei den hier beschriebenen Konstruktionen ist die Frontnaht der wichtige Unterschied. Die Panelzahl bestimmt weder Höhe, Steifigkeit, Passform noch Leistung. Bestätigen Sie den konkreten Schnitt und das fertige Muster.",
+      "diagram": [
+        "Einteiliges Frontpanel",
+        "Mittlere Frontnaht",
+        "Schematische Vorderansicht — kein Schnittmuster und keine Maßvorgabe. Auch eine nahtlose Front ist um den Kopf gewölbt."
+      ],
+      "cards": [
+        [
+          "Front und Motiv",
+          "Eine einteilige Front vermeidet eine Mittelnaht durch das Logo. Eine typische 6-Panel-Front hat diese Naht: Prüfen Sie die Lage von Schrift, feinen Linien und Patchkanten. Keine Konstruktion garantiert, dass das Motiv passt."
+        ],
+        [
+          "Verstärkt oder unverstärkt",
+          "Eine verstärkte Front hält ihre Form; eine weiche Front folgt stärker dem Kopf. Wählen Sie die Verstärkung unabhängig von der Panelzahl. Fordern Sie Front- und Seitenfotos an und prüfen Sie das Tragegefühl am Muster."
+        ],
+        [
+          "Camp, Snapback oder Sport",
+          "Eine flache Camp Cap, eine verstärkte Snapback und eine weiche Sportcap können jeweils 5 Panels haben. Wählen Sie Kronentiefe, Schirm und Verschluss nach dem Einsatzzweck; die Panelzahl ist kein Passformmaß."
+        ]
+      ],
+      "checkHeading": "Vor der Freigabe der Logoposition",
+      "checks": [
+        "Senden Sie Vektordaten sowie fertige Logobreite und -höhe mit Einheiten.",
+        "Bemaßen Sie die Position zur Schirmkante und Mittellinie; kennzeichnen Sie überquerte Nähte.",
+        "Prüfen Sie Stickfalten, abstehende Patchkanten und Druckverzerrung an der gewölbten fertigen Cap, nicht nur am flachen Entwurf.",
+        "Geben Sie Krone, Schirm, Verschluss und Logo gemeinsam am Vorproduktionsmuster frei. Halten Sie Änderungen vor der Serienfreigabe fest."
+      ],
+      "notice": "Hier wird keine allgemeine maximale Logogröße oder Passformtoleranz zugesagt. Die nutzbare Fläche hängt von Schnitt, Veredelung und freigegebenem Muster ab."
+    },
+    "patch": {
+      "heading": "Patcharten vor der Befestigung vergleichen",
+      "lead": "Beginnen Sie mit dem Motiv und der fertigen Cap. Material, Kante, Rückseite und Befestigung wirken zusammen; der Patchname belegt weder Waschbeständigkeit, Lebensdauer im Freien noch Wasserdichtigkeit.",
+      "columns": [
+        "Patchart",
+        "Optische Richtung",
+        "Am Muster prüfen"
+      ],
+      "rows": [
+        [
+          "Gestickt",
+          "Sichtbare Stichstruktur und erhabene Fadenflächen.",
+          "Kleine Schrift, Linienabstand, Fadendeckung und Kantenabschluss."
+        ],
+        [
+          "Gewebt",
+          "Flacheres Fadenmotiv, als Option für feine Linien und kleine Schrift prüfen.",
+          "Lesbarkeit in Originalgröße, Farbtrennung und Kantenabschluss."
+        ],
+        [
+          "Echtleder",
+          "Natürliche Oberflächenunterschiede; eine Tiefprägung wirkt anders als gestickte Fäden.",
+          "Tatsächliches Ledermuster, Farbunterschiede, klare Prägung und vorgesehene Pflege."
+        ],
+        [
+          "PU-Kunstleder",
+          "Synthetische Oberfläche in Lederoptik; in der Spezifikation von Echtleder unterscheiden.",
+          "Konkretes Material und Finish, Hoch-/Tiefprägung, Biegung und Pflege."
+        ],
+        [
+          "PVC",
+          "Geformtes Relief mit gummiartiger Optik.",
+          "Reliefdetails, Dicke, Gewicht und Kantenauflage auf der gewölbten Krone."
+        ]
+      ],
+      "checkHeading": "Befestigung und Freigabe",
+      "checks": [
+        "Aufgenäht: Nahtverlauf, Randzugabe und Zugang zur Cap-Innenseite bestätigen. Falten, raue Kanten und störende Nähte prüfen.",
+        "Bei gewünschter Hitze-, Klebe- oder abnehmbarer Befestigung die Machbarkeit mit gewähltem Stoff und Patch prüfen lassen. Verfügbarkeit und Eignung nicht für jede Kombination voraussetzen.",
+        "Breite, Höhe, Position, Kante, Rückseite und Befestigung einzeln angeben. Die komplette Cap zusätzlich zum losen Patch freigeben.",
+        "Falls Waschen, Regen oder wiederholtes Biegen wichtig sind, passende Tests und Abnahmekriterien vor Leistungsversprechen vereinbaren. Freigegebenes Muster und Änderungsstand aufbewahren."
+      ],
+      "notice": "Der Patch wird nach Motiv, Material, Größe und Aufbau kalkuliert. Der Standard-Cappreis ist kein Komplettpreis für beliebige Patches.",
+      "scrollHint": "Auf kleinen Bildschirmen den Vergleich seitlich scrollen."
+    }
+  }
+}

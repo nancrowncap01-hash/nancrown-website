@@ -7,6 +7,8 @@ import { solutionSlugs } from "@/lib/solutions-content";
 import { localizedUrl, SITE_URL } from "@/lib/seo";
 
 // 固定真实内容更新时间，避免每次构建都标成当前时间。
+const CONTENT_UPDATED_2026_10_28 = new Date("2026-10-28");
+const UPDATED_2026_10_28_PATHS = new Set(["/custom/visors", "/custom/winter-hats", "/custom/golf-caps"]);
 const CONTENT_UPDATED_2026_10_25 = new Date("2026-10-25");
 const UPDATED_2026_10_25_PATHS = new Set(["/custom/5-panel-caps", "/custom/patch-hats", "/custom/trucker-hats", "/solutions/run-clubs", "/solutions/cap-size-fit-guide", "/solutions/sample-approval", "/custom/private-label-hats", "/custom/dad-hats", "/custom/running-caps", "/contact"]);
 const LAST_MODIFIED = new Date("2026-10-07");
@@ -93,7 +95,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     // 每种语言都需要独立的 url/loc,不能只出现在英文条目的 alternate 中。
     return routing.locales.map((locale) => ({
       url: localizedUrl(locale, path),
-      lastModified: (UPDATED_2026_10_25_PATHS.has(path) || path.startsWith("/products/"))
+      lastModified: UPDATED_2026_10_28_PATHS.has(path) ? CONTENT_UPDATED_2026_10_28 : (UPDATED_2026_10_25_PATHS.has(path) || path.startsWith("/products/"))
         ? CONTENT_UPDATED_2026_10_25
         : UPDATED_2026_10_24_PATHS.has(path)
         ? CONTENT_UPDATED_2026_10_24

@@ -579,7 +579,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "A visor keeps the shade of a cap without the crown, which is exactly why golf, tennis, running and event-merch buyers ask for them: cooler on the head, and the whole front band is open real estate for a logo. NanCrown builds visors in mesh knit and stretch woven fabrics, from a simple open-crown band to a sport style with a side slot that holds a pair of sunglasses.",
           "Because there's no crown to compete with your artwork, the front band and brim take embroidery or print cleanly, and we can colour-match the mesh interior and rear closure to your palette. We work from your logo file, confirm the build with a pre-production sample, and produce factory-direct in Guangzhou with a 50-piece-per-colour minimum — OEM/ODM orders welcome.",
-          "Tennis and pickleball brands, clubs and coaches order visors for the same reasons runners do: a visor stays cool through a long match and leaves room for a ponytail. Most start with one style in one or two colours, from 50 pieces per colour, and an order of around 200 visors fits our normal schedule: a sample in 7–15 days, then bulk 25–30 days after you approve it. Visors are quoted per design, based on fabric, closure and logo.",
+          "Tennis and pickleball brands, clubs and coaches order visors for the same reasons runners do: a visor stays cool through a long match and leaves room for a ponytail. Most start with one style in one or two colours, from 50 pieces per colour, and an order of around 200 visors fits our normal schedule: a pre-production sample in 7–15 days, then bulk production in 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time. Visors are quoted per design, based on fabric, closure and logo.",
         ],
         customOptions: [
           "Fabric: mesh knit, or a stretch woven blend of recycled polyester and elastane.",
@@ -607,7 +607,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "How long does an order of about 200 visors take?",
-            a: "A physical sample takes 7–15 days. After you approve it, bulk production takes 25–30 days, plus shipping time.",
+            a: "A pre-production sample takes 7–15 days. Bulk production takes 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time.",
           },
           {
             q: "How much does a custom visor cost?",
@@ -623,7 +623,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Una visera da la sombra de una gorra sin la copa, por eso la piden tanto en golf, tenis, running como en merchandising de eventos: la cabeza va más fresca y toda la banda frontal queda libre para un logo. En NanCrown fabricamos viseras en malla o tejido elástico, desde una banda simple de copa abierta hasta un modelo deportivo con una ranura lateral para sujetar unas gafas de sol.",
           "Al no haber copa que compita con tu diseño, la banda frontal y la visera admiten bordado o estampado con buen acabado, y podemos ajustar el color de la malla interior y el cierre trasero a tu paleta. Trabajamos a partir de tu logo, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un pedido mínimo de 50 piezas por color — aceptamos OEM/ODM.",
-          "Las marcas, clubs y entrenadores de tenis y pickleball piden viseras por lo mismo que los corredores: la visera se mantiene fresca durante un partido largo y deja sitio para una coleta. La mayoría empieza con un modelo en uno o dos colores, desde 50 piezas por color, y un pedido de unas 200 viseras entra en nuestro plazo normal: muestra en 7–15 días y producción 25–30 días después de aprobarla. Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo.",
+          "Las marcas, clubs y entrenadores de tenis y pickleball piden viseras por lo mismo que los corredores: la visera se mantiene fresca durante un partido largo y deja sitio para una coleta. La mayoría empieza con un modelo en uno o dos colores, desde 50 piezas por color, y un pedido de unas 200 viseras entra en nuestro plazo normal: muestra de preproducción en 7–15 días y producción en 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío. Las viseras se presupuestan por diseño, según el tejido, el cierre y el logo.",
         ],
         customOptions: [
           "Tejido: malla, o mezcla elástica de poliéster reciclado y elastano.",
@@ -651,7 +651,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuánto tarda un pedido de unas 200 viseras?",
-            a: "La muestra física tarda 7–15 días. Después de aprobarla, la producción tarda 25–30 días, más el tiempo de envío.",
+            a: "La muestra de preproducción tarda 7–15 días. La producción tarda 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío.",
           },
           {
             q: "¿Cuánto cuesta una visera personalizada?",
@@ -667,7 +667,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Une visière apporte l'ombre d'une casquette sans la calotte, c'est pourquoi le golf, le tennis, le running et le merchandising événementiel en redemandent : la tête reste plus fraîche, et toute la bande avant devient un espace libre pour un logo. NanCrown fabrique des visières en maille ou en tissu stretch, du modèle simple à calotte ouverte au modèle sport avec une fente latérale pour glisser des lunettes de soleil.",
           "Sans calotte pour concurrencer votre visuel, la bande avant et la visière accueillent broderie ou impression avec un rendu net, et nous pouvons assortir la maille intérieure et la fermeture arrière à votre palette. Nous travaillons à partir de votre logo, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
-          "Les marques, clubs et coachs de tennis et de pickleball commandent des visières pour les mêmes raisons que les coureurs : une visière reste fraîche pendant un long match et laisse de la place pour une queue de cheval. La plupart commencent avec un modèle en une ou deux couleurs, dès 50 pièces par couleur, et une commande d'environ 200 visières entre dans notre planning habituel : échantillon en 7 à 15 jours, puis production 25 à 30 jours après validation. Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo.",
+          "Les marques, clubs et coachs de tennis et de pickleball commandent des visières pour les mêmes raisons que les coureurs : une visière reste fraîche pendant un long match et laisse de la place pour une queue de cheval. La plupart commencent avec un modèle en une ou deux couleurs, dès 50 pièces par couleur, et une commande d'environ 200 visières entre dans notre planning habituel : échantillon de pré-production en 7 à 15 jours, puis production en 25 à 30 jours après validation de cet échantillon et réception du paiement convenu, auxquels s'ajoute le transport. Les visières sont chiffrées par design, selon le tissu, la fermeture et le logo.",
         ],
         customOptions: [
           "Tissu : maille, ou mélange stretch de polyester recyclé et d'élasthanne.",
@@ -695,7 +695,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Combien de temps prend une commande d'environ 200 visières ?",
-            a: "L'échantillon physique prend 7 à 15 jours. Après validation, la production prend 25 à 30 jours, plus le transport.",
+            a: "L'échantillon de pré-production prend 7 à 15 jours. La production prend 25 à 30 jours après validation de cet échantillon et réception du paiement convenu, auxquels s'ajoute le transport.",
           },
           {
             q: "Combien coûte une visière personnalisée ?",
@@ -711,7 +711,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Eine Schirmmütze spendet Schatten wie eine Kappe, aber ohne geschlossenes Kopfteil — deshalb greifen Golf, Tennis, Laufsport und Event-Merchandise gerne darauf zurück: der Kopf bleibt kühler, und das gesamte Stirnband ist freie Fläche für ein Logo. Der Verschluss — Klettband oder eine doppelte Gummischlaufe — passt sich unterwegs schnell an unterschiedliche Kopfgrößen an. NanCrown fertigt Schirmmützen aus Mesh oder Stretch-Gewebe, vom einfachen offenen Band bis zum Sportmodell mit seitlichem Schlitz für eine Sonnenbrille.",
           "Da kein Kopfteil mit Ihrem Design konkurriert, nehmen Stirnband und Schirm Stickerei oder Druck sauber auf, und wir stimmen Mesh-Innenfutter und rückwärtigen Verschluss auf Ihre Farbpalette ab. Wir arbeiten mit Ihrer Logodatei, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM-Aufträge willkommen.",
-          "Tennis- und Pickleball-Marken, Vereine und Trainer bestellen Schirmmützen aus denselben Gründen wie Läufer: Eine Schirmmütze bleibt auch im langen Match kühl und lässt Platz für einen Pferdeschwanz. Die meisten starten mit einem Modell in ein oder zwei Farben, ab 50 Stück pro Farbe, und ein Auftrag über etwa 200 Schirmmützen passt in unseren normalen Ablauf: Muster in 7–15 Tagen, danach Produktion 25–30 Tage nach der Freigabe. Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo.",
+          "Tennis- und Pickleball-Marken, Vereine und Trainer bestellen Schirmmützen aus denselben Gründen wie Läufer: Eine Schirmmütze bleibt auch im langen Match kühl und lässt Platz für einen Pferdeschwanz. Die meisten starten mit einem Modell in ein oder zwei Farben, ab 50 Stück pro Farbe, und ein Auftrag über etwa 200 Schirmmützen passt in unseren normalen Ablauf: Vorproduktionsmuster in 7–15 Tagen, danach Produktion in 25–30 Tagen nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Versandzeit. Schirmmützen werden pro Design kalkuliert, je nach Stoff, Verschluss und Logo.",
         ],
         customOptions: [
           "Material: Mesh, oder Stretch-Mix aus recyceltem Polyester und Elasthan.",
@@ -739,7 +739,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Wie lange dauert ein Auftrag über etwa 200 Schirmmützen?",
-            a: "Ein echtes Muster dauert 7–15 Tage. Nach der Freigabe dauert die Produktion 25–30 Tage, dazu kommt der Versand.",
+            a: "Ein Vorproduktionsmuster dauert 7–15 Tage. Die Produktion dauert 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Versandzeit.",
           },
           {
             q: "Was kostet eine individuelle Schirmmütze?",
@@ -1317,7 +1317,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Winter headwear is where NanCrown builds the most texture into a cap: wide-wale corduroy with a quilted sherpa lining, a baseball crown ringed in long-pile faux fur, or a reversible shell that flips from crinkle nylon to fleece depending on the weather. All three styles carry earflaps — some fold up or down, others wrap the back of the head in one piece.",
           "Every winter style is built to take your own branding, whether that's a script embroidered across the front panel or a small mark that sits quietly on a reversible shell. Note that any fur trim we use is faux fur only — no animal fur. We work from your logo and colour references, confirm the build with a pre-production sample, and manufacture factory-direct in Guangzhou with a minimum of 50 pieces per colour — OEM/ODM welcome.",
-          "We also supply knitted winter hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties, branded with a woven label, patch or embroidery. For hats that need to be in shops by December, plan about seven to eight weeks from the first sample to delivery by air: 7–15 days for the sample, 25–30 days for bulk after you approve it, then shipping.",
+          "We also supply knitted winter hats: plain or cuffed beanies and knitted earflap hats, with or without a pom-pom and braided ties, branded with a woven label, patch or embroidery. For hats that need to be in shops by December, work backwards from your required arrival date: allow 7–15 days for the pre-production sample, then 25–30 days for bulk production after pre-production sample approval and receipt of the agreed payment. Shipping time is additional and must be confirmed for your destination and chosen method, whether air or sea freight.",
         ],
         customOptions: [
           "Fabric: wide-wale cotton corduroy with sherpa lining, or a reversible crinkle nylon and fleece shell.",
@@ -1351,7 +1351,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "When should I order winter hats?",
-            a: "Plan about seven to eight weeks from the first sample to delivery by air: 7–15 days for the sample, 25–30 days of bulk production after you approve it, then shipping. Sea freight adds several weeks.",
+            a: "Work backwards from your required arrival date: allow 7–15 days for the pre-production sample, then 25–30 days for bulk production after pre-production sample approval and receipt of the agreed payment. Shipping time is additional and must be confirmed for your destination and chosen method, whether air or sea freight.",
           },
         ],
       },
@@ -1363,7 +1363,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Los gorros de invierno son donde NanCrown mete más textura en una gorra: pana de canal ancho con forro sherpa acolchado, una copa de béisbol rodeada de pelo sintético de pelo largo, o un modelo reversible que pasa de nylon crujiente a forro polar según el clima. Los tres modelos llevan orejeras — unas se doblan hacia arriba o abajo, otras envuelven la parte trasera de la cabeza en una sola pieza.",
           "Cada modelo de invierno está pensado para llevar tu propia marca, ya sea un texto bordado en el panel frontal o una marca discreta en un modelo reversible. Ten en cuenta que cualquier ribete de pelo que usamos es pelo sintético únicamente — no usamos pelo de animal. Trabajamos a partir de tu logo y referencias de color, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un mínimo de 50 piezas por color — aceptamos OEM/ODM.",
-          "También suministramos gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados, con tu marca en etiqueta tejida, parche o bordado. Si los gorros tienen que estar en tienda en diciembre, calcula unas siete u ocho semanas desde la primera muestra hasta la entrega por avión: 7–15 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío.",
+          "También suministramos gorros de punto: gorros lisos o con vuelta y gorros de punto con orejeras, con o sin pompón y cordones trenzados, con tu marca en etiqueta tejida, parche o bordado. Si los gorros tienen que estar en tienda en diciembre, planifica hacia atrás desde la fecha de llegada que necesitas: cuenta con 7–15 días para la muestra de preproducción y después 25–30 días de producción tras aprobar la muestra de preproducción y recibir el pago acordado. El tiempo de transporte se suma aparte y debe confirmarse según el destino y el medio elegido, ya sea aéreo o marítimo.",
         ],
         customOptions: [
           "Tejido: pana de algodón de canal ancho con forro sherpa, o exterior reversible de nylon crujiente y forro polar.",
@@ -1397,7 +1397,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "¿Cuándo debo pedir los gorros de invierno?",
-            a: "Calcula unas siete u ocho semanas desde la primera muestra hasta la entrega por avión: 7–15 días para la muestra, 25–30 días de producción tras tu aprobación y después el envío. El transporte marítimo añade varias semanas.",
+            a: "Planifica hacia atrás desde la fecha de llegada que necesitas: cuenta con 7–15 días para la muestra de preproducción y después 25–30 días de producción tras aprobar la muestra de preproducción y recibir el pago acordado. El tiempo de transporte se suma aparte y debe confirmarse según el destino y el medio elegido, ya sea aéreo o marítimo.",
           },
         ],
       },
@@ -1409,7 +1409,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Le bonnet d'hiver est là où NanCrown apporte le plus de texture à une casquette : velours côtelé à grosses côtes avec doublure sherpa matelassée, calotte de baseball cerclée de fausse fourrure longue, ou modèle réversible qui passe du nylon froissé à la polaire selon le temps. Les trois modèles ont des cache-oreilles — certains se replient vers le haut ou le bas, d'autres enveloppent l'arrière de la tête en une seule pièce.",
           "Chaque modèle d'hiver est conçu pour porter votre propre marque, qu'il s'agisse d'un texte brodé sur le panneau avant ou d'une petite marque discrète sur un modèle réversible. À noter que toute bordure de fourrure que nous utilisons est en fausse fourrure uniquement — aucune fourrure animale. Nous travaillons à partir de votre logo et de vos références de couleur, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
-          "Nous fournissons aussi des bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés, marqués d'une étiquette tissée, d'un patch ou d'une broderie. Pour des bonnets en boutique en décembre, comptez environ sept à huit semaines entre le premier échantillon et la livraison par avion : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition.",
+          "Nous fournissons aussi des bonnets tricotés : bonnets simples ou à revers et bonnets tricotés à cache-oreilles, avec ou sans pompon et cordons tressés, marqués d'une étiquette tissée, d'un patch ou d'une broderie. Pour des bonnets en boutique en décembre, planifiez à rebours à partir de la date d'arrivée souhaitée : prévoyez 7 à 15 jours pour l'échantillon de pré-production, puis 25 à 30 jours de production après validation de cet échantillon et réception du paiement convenu. Le délai de transport s'ajoute et doit être confirmé selon la destination et le mode choisi, aérien ou maritime.",
         ],
         customOptions: [
           "Tissu : velours côtelé en coton à grosses côtes avec doublure sherpa, ou extérieur réversible nylon froissé et polaire.",
@@ -1443,7 +1443,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Quand faut-il commander des bonnets d'hiver ?",
-            a: "Comptez environ sept à huit semaines entre le premier échantillon et la livraison par avion : 7 à 15 jours pour l'échantillon, 25 à 30 jours de production après votre validation, puis l'expédition. Le fret maritime ajoute plusieurs semaines.",
+            a: "Planifiez à rebours à partir de la date d'arrivée souhaitée : prévoyez 7 à 15 jours pour l'échantillon de pré-production, puis 25 à 30 jours de production après validation de cet échantillon et réception du paiement convenu. Le délai de transport s'ajoute et doit être confirmé selon la destination et le mode choisi, aérien ou maritime.",
           },
         ],
       },
@@ -1455,7 +1455,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         intro: [
           "Bei Wintermützen steckt NanCrown die meiste Textur in eine Kappe: breitgerippter Cord mit gestepptem Sherpa-Futter, ein Baseball-Kopfteil umrandet von langem Kunstfell, oder eine wendbare Variante, die je nach Wetter von knisterndem Nylon auf Fleece wechselt. Alle drei Modelle haben Ohrenklappen — manche lassen sich hoch- oder herunterklappen, andere umschließen den Hinterkopf in einem Stück.",
           "Jedes Wintermodell ist für Ihr eigenes Branding ausgelegt, ob als Schriftzug quer über das Vorderpanel gestickt oder als kleines, dezentes Zeichen auf einer wendbaren Variante. Jeglicher Fellbesatz, den wir verwenden, ist ausschließlich Kunstfell — kein Tierfell. Wir arbeiten mit Ihrer Logodatei und Ihren Farbvorgaben, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM willkommen.",
-          "Außerdem liefern wir Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder, gebrandet mit Webetikett, Patch oder Stickerei. Sollen die Mützen im Dezember im Laden sein, planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben bis acht Wochen: 7–15 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand.",
+          "Außerdem liefern wir Strickmützen: glatte Beanies oder Beanies mit Umschlag sowie gestrickte Mützen mit Ohrenklappen, mit oder ohne Bommel und geflochtene Bänder, gebrandet mit Webetikett, Patch oder Stickerei. Sollen die Mützen im Dezember im Laden sein, planen Sie vom gewünschten Ankunftstermin aus rückwärts: Rechnen Sie mit 7–15 Tagen für das Vorproduktionsmuster und danach 25–30 Tagen für die Produktion ab Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung. Die Transportzeit kommt hinzu und muss je nach Zielort und gewählter Versandart, ob Luft- oder Seefracht, bestätigt werden.",
         ],
         customOptions: [
           "Material: breitgerippter Baumwollcord mit Sherpa-Futter, oder wendbares Obermaterial aus knisterndem Nylon und Fleece.",
@@ -1489,7 +1489,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
           },
           {
             q: "Wann sollte ich Wintermützen bestellen?",
-            a: "Planen Sie vom ersten Muster bis zur Lieferung per Luftfracht etwa sieben bis acht Wochen: 7–15 Tage für das Muster, 25–30 Tage Produktion nach Ihrer Freigabe, danach der Versand. Seefracht dauert mehrere Wochen länger.",
+            a: "Planen Sie vom gewünschten Ankunftstermin aus rückwärts: Rechnen Sie mit 7–15 Tagen für das Vorproduktionsmuster und danach 25–30 Tagen für die Produktion ab Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung. Die Transportzeit kommt hinzu und muss je nach Zielort und gewählter Versandart, ob Luft- oder Seefracht, bestätigt werden.",
           },
         ],
       },
@@ -2083,7 +2083,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Custom golf caps and visors made in Guangzhou: lightweight performance fabrics, flat or 3D embroidery, reflective or printed logos. From 50 pcs per colour.",
         intro: [
           "A golf cap has to look sharp on the course and stay comfortable through a long round in the sun: light fabric, a secure fit and a clean logo. NanCrown makes golf caps and visors for golf brands, clubs and events, in quick-dry nylon and stretch woven performance fabrics, with structured or soft crowns and curved brims.",
-          "Branding can be flat or 3D puff embroidery or printed and reflective logos, and laser-cut ventilation holes can be added to the crown. Visors come with an open crown, a wide band and a hook-and-loop or elastic closure. We confirm the build on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after approval.",
+          "Branding can be flat or 3D puff embroidery or printed and reflective logos, and laser-cut ventilation holes can be added to the crown. Visors come with an open crown, a wide band and a hook-and-loop or elastic closure. We confirm the build on a pre-production sample in 7–15 days and produce from 50 pieces per colour, with bulk ready 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time.",
         ],
         customOptions: [
           "Style: 6-panel or 5-panel golf cap, or an open-crown visor.",
@@ -2113,7 +2113,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Gorras y viseras de golf personalizadas hechas en Guangzhou: tejidos técnicos ligeros, bordado plano o 3D, logos reflectantes. Desde 50 uds. por color.",
         intro: [
           "Una gorra de golf tiene que verse impecable en el campo y ser cómoda durante una larga vuelta al sol: tejido ligero, buen ajuste y un logo limpio. En NanCrown fabricamos gorras y viseras de golf para marcas, clubes y eventos, en nailon de secado rápido y tejidos técnicos elásticos, con copa estructurada o suave y visera curva.",
-          "El logo puede ir bordado en plano o en 3D (puff), estampado o reflectante, y podemos añadir perforaciones láser de ventilación en la copa. Las viseras llevan la copa abierta, una banda ancha y cierre de velcro o elástico. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de la aprobación.",
+          "El logo puede ir bordado en plano o en 3D (puff), estampado o reflectante, y podemos añadir perforaciones láser de ventilación en la copa. Las viseras llevan la copa abierta, una banda ancha y cierre de velcro o elástico. Confirmamos la construcción en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color, con la producción lista 25–30 días después de aprobar la muestra de preproducción y recibir el pago acordado, más el tiempo de envío.",
         ],
         customOptions: [
           "Estilo: gorra de golf de 6 o 5 paneles, o visera de copa abierta.",
@@ -2143,7 +2143,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Casquettes et visières de golf personnalisées fabriquées à Guangzhou : tissus techniques légers, broderie à plat ou 3D, logos réfléchissants. Dès 50 pièces.",
         intro: [
           "Une casquette de golf doit avoir de l'allure sur le parcours et rester confortable pendant un long parcours au soleil : tissu léger, bon maintien et logo net. NanCrown fabrique des casquettes et visières de golf pour les marques, les clubs et les événements, en nylon séchage rapide et en tissus techniques extensibles, avec calotte structurée ou souple et visière courbe.",
-          "Le logo peut être brodé à plat ou en 3D (puff), imprimé ou réfléchissant, et des micro-perforations laser d'aération peuvent être ajoutées sur la calotte. Les visières ont une calotte ouverte, un large bandeau et une fermeture auto-agrippante ou élastique. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation.",
+          "Le logo peut être brodé à plat ou en 3D (puff), imprimé ou réfléchissant, et des micro-perforations laser d'aération peuvent être ajoutées sur la calotte. Les visières ont une calotte ouverte, un large bandeau et une fermeture auto-agrippante ou élastique. Nous validons la construction sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur, avec une série prête 25 à 30 jours après validation de l'échantillon de pré-production et réception du paiement convenu, auxquels s'ajoute le transport.",
         ],
         customOptions: [
           "Style : casquette de golf 6 ou 5 panneaux, ou visière à calotte ouverte.",
@@ -2173,7 +2173,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
         metaDescription: "Individuelle Golf Caps und Visors aus Guangzhou: leichte Funktionsstoffe, Flach- oder 3D-Stickerei, reflektierende Logos. Ab 50 Stück pro Farbe.",
         intro: [
           "Eine Golf Cap soll auf dem Platz gut aussehen und eine lange Runde in der Sonne bequem bleiben: leichter Stoff, sicherer Sitz und ein sauberes Logo. NanCrown fertigt Golf Caps und Visors für Golfmarken, Clubs und Events, aus schnell trocknendem Nylon und elastischen Funktionsstoffen, mit strukturierter oder weicher Krone und gebogenem Schirm.",
-          "Das Logo kann flach oder als 3D-Puff gestickt, gedruckt oder reflektierend sein, und Laser-Lüftungslöcher lassen sich in die Krone einarbeiten. Visors haben eine offene Krone, ein breites Band und einen Klett- oder Gummizugverschluss. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe.",
+          "Das Logo kann flach oder als 3D-Puff gestickt, gedruckt oder reflektierend sein, und Laser-Lüftungslöcher lassen sich in die Krone einarbeiten. Visors haben eine offene Krone, ein breites Band und einen Klett- oder Gummizugverschluss. Den Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe, mit fertiger Serie 25–30 Tage nach Freigabe des Vorproduktionsmusters und Eingang der vereinbarten Zahlung, zuzüglich Versandzeit.",
         ],
         customOptions: [
           "Style: 6- oder 5-Panel Golf Cap oder Visor mit offener Krone.",

@@ -444,121 +444,121 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Bucket Hats",
         h1: "Custom Bucket Hats Manufacturer",
-        metaDescription: "Custom bucket hats from our Guangzhou factory: cotton, denim, wool or sherpa builds, embroidery and custom inside labels. MOQ 50 pcs per colour, per design.",
+        metaDescription: "Custom bucket hats: compare denim, contrast-brim, gathered-crown and earflap builds. Sample logo and label. MOQ 50 per style, colour and size.",
         intro: [
-          "Bucket hats move fast in streetwear, festival merch and sun-season retail, and NanCrown builds them in several directions: a low flat-top crown with a short brim, a wide gathered-crown sun hat, a frayed-edge denim bucket, and winter buckets in wool with fleece-lined earflaps. Each starts from a blank shell, so the finished hat carries only the branding you add.",
-          "Trim and stitching do the styling work, from sherpa panels and piped contrast brims to rings of topstitching and frayed edges, and every surface is open for embroidery, printing, patches or a small raised logo. Inside, we sew in your own woven label. We confirm fit and construction on a pre-production sample in 7–15 days and produce from 50 pieces per colour, per design.",
+          "Custom bucket hats for streetwear, festival merchandise and seasonal retail: compare denim, contrast-brim, gathered-crown and earflap builds before choosing your colours and branding.",
+          "Confirm embroidery, print or patch placement on the actual material and seams; suitable areas vary by construction. Approve the inside label, fit and finish on a physical sample. MOQ is 50 pieces per style, colour and size."
         ],
         customOptions: [
-          "Fabric: cotton twill, washed denim, polyester, wool, or sherpa and fleece trims.",
-          "Crown & brim: low flat-top crown with a short brim, or a wide sun-hat brim.",
-          "Trim: frayed edges, piped contrast brim, concentric topstitching or earflaps.",
-          "Closure: adjustable chin cord with a toggle, or a removable webbing chin cord.",
-          "Branding: embroidery, printing or patches outside, and your woven label inside.",
+          "Fabric: confirm cotton twill, washed denim, polyester, wool-blend or fleece swatches.",
+          "Shape: specify crown depth, brim width and soft or firm hand.",
+          "Details: choose frayed edges, contrast stitching, gathers or earflaps for the selected build.",
+          "Chin cord: adjustable, removable or no cord; approve attachments on the sample.",
+          "Branding: submit logo dimensions, seam clearance and inside-label specification."
         ],
         faq: [
           {
-            q: "What is the minimum order for custom bucket hats?",
-            a: "50 pieces per colour, per design, which is enough to test a colourway before committing to a larger run.",
+            "q": "What is the minimum order for custom bucket hats?",
+            "a": "50 pieces per style, colour and size. A 50-piece first order uses one style, one colour and one size; send any split for confirmation."
           },
           {
-            q: "Can you sew our own label inside the bucket hat?",
-            a: "Yes. We sew in your woven label, and can add printed inside taping and hangtags for a complete private label finish.",
+            "q": "Can you add embroidery and our own inside label?",
+            "a": "Yes. Check logo dimensions and placement against seams, gathers and material, then approve embroidery and label on the sample. Confirm label specification and price for the chosen bucket hat."
           },
           {
-            q: "What bucket hat styles do you make?",
-            a: "Low flat-top buckets, wide-brim sun hats, frayed-edge denim buckets and winter buckets in wool with fleece-lined earflaps, all built to your colours and branding.",
-          },
+            "q": "What should we send for 3,000 festival bucket hats?",
+            "a": "Send event date, destination, quantity split, construction, fit, logo, label and packaging. Request order-specific production and shipping quotes; quantity alone establishes neither price nor arrival date."
+          }
         ],
       },
       es: {
         name: "Sombreros de Pescador",
         h1: "Fabricante de sombreros de pescador personalizados",
-        metaDescription: "Gorros de pescador personalizados hechos en Guangzhou: algodón, denim, lana o sherpa, bordado y etiqueta interior propia. 50 uds. por color y diseño.",
+        metaDescription: "Gorros personalizados: compara denim, alas en contraste, frunces y orejeras. Confirma logo y etiqueta. Mínimo 50 por modelo, color y talla.",
         intro: [
-          "Los gorros de pescador se mueven rápido en streetwear, merchandising de festivales y temporada de verano, y en NanCrown los fabricamos en varias líneas: copa baja de tapa plana con ala corta, sombrero de sol de ala ancha con copa fruncida, gorro de denim con bordes deshilachados y gorros de invierno de lana con orejeras forradas de forro polar. Todos parten de una base lisa, así que el gorro terminado solo lleva la marca que añadas.",
-          "Los remates y pespuntes marcan el estilo, desde paneles de sherpa y alas con vivo en contraste hasta anillos de pespunte y bordes deshilachados, y toda la superficie admite bordado, estampado, parches o un pequeño logo en relieve. Por dentro cosemos tu propia etiqueta tejida. Confirmamos el ajuste y la construcción en una muestra de preproducción en 7–15 días y fabricamos desde 50 piezas por color y por diseño.",
+          "Gorros de pescador personalizados para streetwear, merchandising de festivales y colecciones de temporada: compara denim, alas en contraste, copas fruncidas y orejeras antes de elegir colores y marca.",
+          "Confirma bordado, estampado o parche sobre el tejido y las costuras reales; las zonas adecuadas varían por construcción. Aprueba etiqueta interior, ajuste y acabado en una muestra física. Mínimo 50 piezas por modelo, color y talla."
         ],
         customOptions: [
-          "Tejido: sarga de algodón, denim lavado, poliéster, lana, o remates de sherpa y forro polar.",
-          "Copa y ala: copa baja de tapa plana con ala corta, o ala ancha tipo sombrero de sol.",
-          "Remates: bordes deshilachados, ala con vivo en contraste, pespuntes concéntricos u orejeras.",
-          "Cierre: cordón ajustable con tope, o cinta de barbilla desmontable.",
-          "Marca: bordado, estampado o parches por fuera, y tu etiqueta tejida por dentro.",
+          "Tejido: confirma muestras de sarga de algodón, denim lavado, poliéster, mezcla de lana o polar.",
+          "Forma: indica profundidad de copa, anchura del ala y tacto suave o firme.",
+          "Detalles: elige bordes deshilachados, pespuntes en contraste, frunces u orejeras según el modelo.",
+          "Barboquejo: ajustable, desmontable o sin cordón; aprueba las fijaciones en la muestra.",
+          "Marca: envía medidas del logo, distancia a costuras y especificación de etiqueta interior."
         ],
         faq: [
           {
-            q: "¿Cuál es el pedido mínimo de gorros de pescador personalizados?",
-            a: "50 piezas por color y por diseño, suficiente para probar un color antes de comprometerte con una tirada mayor.",
+            "q": "¿Cuál es el pedido mínimo de gorros personalizados?",
+            "a": "50 piezas por modelo, color y talla. Un primer pedido de 50 usa un solo modelo, color y talla; envía cualquier reparto para confirmarlo."
           },
           {
-            q: "¿Podéis coser nuestra propia etiqueta dentro del gorro?",
-            a: "Sí. Cosemos tu etiqueta tejida y podemos añadir cinta interior estampada y etiquetas colgantes para un acabado completo de marca propia.",
+            "q": "¿Podéis añadir bordado y nuestra etiqueta interior?",
+            "a": "Sí. Comprueba medidas y posición respecto a costuras, frunces y tejido; aprueba bordado y etiqueta en la muestra. Confirma especificación y precio de etiqueta para el gorro elegido."
           },
           {
-            q: "¿Qué estilos de gorro de pescador fabricáis?",
-            a: "Gorros de tapa plana, sombreros de sol de ala ancha, gorros de denim con bordes deshilachados y gorros de invierno de lana con orejeras forradas, todos con tus colores y tu marca.",
-          },
+            "q": "¿Qué enviar para 3.000 gorros de festival?",
+            "a": "Fecha, destino, cantidades, construcción, ajuste, logo, etiqueta y embalaje. Pide presupuesto de producción y transporte por pedido; la cantidad no determina precio ni llegada."
+          }
         ],
       },
       fr: {
         name: "Bobs",
         h1: "Fabricant de bobs personnalisés",
-        metaDescription: "Bobs personnalisés fabriqués à Guangzhou : coton, denim, laine ou sherpa, broderie et étiquette intérieure à votre marque. Dès 50 pièces par couleur et design.",
+        metaDescription: "Bobs personnalisés : comparez denim, bord contrasté, fronces et oreillettes. Validez logo et étiquette. Minimum 50 par modèle, couleur et taille.",
         intro: [
-          "Le bob va vite en streetwear, en merch de festival et en saison estivale, et NanCrown le fabrique dans plusieurs directions : calotte basse à dessus plat avec bord court, chapeau de soleil à large bord et calotte froncée, bob en denim à bords effilochés et bobs d'hiver en laine avec oreillettes doublées polaire. Chacun part d'une base vierge, pour que le bob fini ne porte que la marque que vous ajoutez.",
-          "Finitions et surpiqûres font le style, des empiècements sherpa et bords passepoilés contrastés aux cercles de surpiqûres et bords effilochés, et toute la surface accepte broderie, impression, écussons ou petit logo en relief. À l'intérieur, nous cousons votre propre étiquette tissée. Nous validons la tenue et la construction sur un échantillon de pré-production en 7 à 15 jours et produisons dès 50 pièces par couleur et par design.",
+          "Bobs personnalisés pour streetwear, merchandising de festival et collections saisonnières : comparez denim, bords contrastés, calottes froncées et oreillettes avant les couleurs et le marquage.",
+          "Validez broderie, impression ou écusson sur le tissu et les coutures réels ; les zones adaptées varient selon la construction. Approuvez étiquette intérieure, porté et finition sur un échantillon physique. Minimum 50 pièces par modèle, couleur et taille."
         ],
         customOptions: [
-          "Tissu : sergé de coton, denim délavé, polyester, laine, ou finitions sherpa et polaire.",
-          "Calotte et bord : calotte basse à dessus plat avec bord court, ou large bord façon chapeau de soleil.",
-          "Finitions : bords effilochés, bord passepoilé contrasté, surpiqûres concentriques ou oreillettes.",
-          "Fermeture : cordon réglable avec stoppeur, ou jugulaire amovible.",
-          "Marque : broderie, impression ou écussons à l'extérieur, et votre étiquette tissée à l'intérieur.",
+          "Tissu : validez sergé de coton, denim délavé, polyester, mélange de laine ou polaire sur échantillon.",
+          "Forme : précisez profondeur de calotte, largeur du bord et toucher souple ou ferme.",
+          "Détails : choisissez effilochage, coutures contrastées, fronces ou oreillettes selon le modèle.",
+          "Jugulaire : réglable, amovible ou sans cordon ; validez les fixations sur échantillon.",
+          "Marquage : envoyez dimensions du logo, distances aux coutures et spécification de l’étiquette intérieure."
         ],
         faq: [
           {
-            q: "Quel est le minimum de commande pour des bobs personnalisés ?",
-            a: "50 pièces par couleur et par design, de quoi tester un coloris avant de passer à une série plus importante.",
+            "q": "Quel est le minimum pour des bobs personnalisés ?",
+            "a": "50 pièces par modèle, couleur et taille. Une première commande de 50 utilise un seul modèle, une couleur et une taille ; faites confirmer toute répartition."
           },
           {
-            q: "Pouvez-vous coudre notre propre étiquette à l'intérieur du bob ?",
-            a: "Oui. Nous cousons votre étiquette tissée et pouvons ajouter une ganse intérieure imprimée et des étiquettes volantes pour une finition complète en marque propre.",
+            "q": "Pouvez-vous ajouter broderie et étiquette intérieure à notre marque?",
+            "a": "Oui. Vérifiez dimensions et position par rapport aux coutures, fronces et tissu ; validez broderie et étiquette sur échantillon. Confirmez spécification et prix de l’étiquette pour le bob choisi."
           },
           {
-            q: "Quels styles de bobs fabriquez-vous ?",
-            a: "Bobs à dessus plat, chapeaux de soleil à large bord, bobs en denim à bords effilochés et bobs d'hiver en laine avec oreillettes doublées, tous à vos couleurs et à votre marque.",
-          },
+            "q": "Que fournir pour 3 000 bobs de festival ?",
+            "a": "Date, destination, quantités, construction, porté, logo, étiquette et emballage. Demandez un devis de production et transport propre à la commande ; la quantité seule ne fixe ni prix ni arrivée."
+          }
         ],
       },
       de: {
         name: "Fischerhüte",
         h1: "Hersteller für individuelle Fischerhüte",
-        metaDescription: "Individuelle Fischerhüte aus Guangzhou: Baumwolle, Denim, Wolle oder Sherpa, Stickerei und eigenes Innenetikett. Ab 50 Stück pro Farbe und Design.",
+        metaDescription: "Individuelle Fischerhüte: Denim, Kontrastkrempe, Raffungen und Ohrenklappen vergleichen. Logo und Etikett bemustern. MOQ 50 je Modell, Farbe und Größe.",
         intro: [
-          "Fischerhüte laufen schnell in Streetwear, Festival-Merch und Sommersaison, und NanCrown fertigt sie in mehreren Richtungen: niedrige Krone mit flachem Oberteil und kurzer Krempe, breitkrempiger Sonnenhut mit gerafftem Kopfteil, Denim-Fischerhut mit ausgefransten Kanten und Winter-Fischerhüte aus Wolle mit fleecegefütterten Ohrenklappen. Jeder startet als unbedruckte Basis, sodass der fertige Hut nur die Marke trägt, die Sie hinzufügen.",
-          "Besätze und Steppungen prägen den Stil, von Sherpa-Einsätzen und paspelierten Kontrastkrempen bis zu Steppringen und ausgefransten Kanten, und jede Fläche eignet sich für Stickerei, Druck, Patches oder ein kleines erhabenes Logo. Innen nähen wir Ihr eigenes gewebtes Etikett ein. Passform und Aufbau bestätigen wir an einem Vorproduktionsmuster in 7–15 Tagen und produzieren ab 50 Stück pro Farbe und Design.",
+          "Individuelle Fischerhüte für Streetwear, Festival-Merch und Saisonkollektionen: Denim, Kontrastkrempen, geraffte Kopfteile und Ohrenklappen vor Farben und Branding vergleichen.",
+          "Stick, Druck oder Patch auf tatsächlichem Material und Nähten bestätigen; geeignete Flächen unterscheiden sich je Konstruktion. Innenetikett, Passform und Verarbeitung am physischen Muster freigeben. Mindestmenge 50 Stück je Modell, Farbe und Größe."
         ],
         customOptions: [
-          "Stoff: Baumwoll-Twill, gewaschener Denim, Polyester, Wolle oder Sherpa- und Fleecebesätze.",
-          "Krone & Krempe: niedrige Krone mit flachem Oberteil und kurzer Krempe oder breite Sonnenhutkrempe.",
-          "Besatz: ausgefranste Kanten, paspelierte Kontrastkrempe, konzentrische Steppung oder Ohrenklappen.",
-          "Verschluss: verstellbare Kinnkordel mit Stopper oder abnehmbares Kinnband.",
-          "Branding: Stickerei, Druck oder Patches außen, Ihr gewebtes Etikett innen.",
+          "Stoff: Baumwolltwill, gewaschenen Denim, Polyester, Wollmischungen oder Fleece bemustern.",
+          "Form: Kopfteiltiefe, Krempenbreite und weichen oder festen Griff festlegen.",
+          "Details: Fransen, Kontrastnähte, Raffungen oder Ohrenklappen passend zum Modell wählen.",
+          "Kinnriemen: verstellbar, abnehmbar oder ohne Kordel; Befestigungen am Muster bestätigen.",
+          "Branding: Logomaße, Nahtabstände und Spezifikation des Innenetiketts senden."
         ],
         faq: [
           {
-            q: "Wie hoch ist die Mindestmenge für individuelle Fischerhüte?",
-            a: "50 Stück pro Farbe und Design, genug, um eine Farbvariante zu testen, bevor Sie eine größere Serie bestellen.",
+            "q": "Wie hoch ist die Mindestmenge für individuelle Fischerhüte?",
+            "a": "50 Stück je Modell, Farbe und Größe. Ein Erstauftrag mit 50 Stück umfasst ein Modell, eine Farbe und eine Größe; Aufteilungen bestätigen lassen."
           },
           {
-            q: "Können Sie unser eigenes Etikett in den Fischerhut nähen?",
-            a: "Ja. Wir nähen Ihr gewebtes Etikett ein und ergänzen auf Wunsch bedrucktes Innenband und Hängeetiketten für ein komplettes Private-Label-Finish.",
+            "q": "Können Sie Stick und unser Innenetikett ergänzen?",
+            "a": "Ja. Logomaße und Position zu Nähten, Raffungen und Stoff prüfen; Stick und Etikett am Muster freigeben. Etikettspezifikation und Preis für den gewählten Hut bestätigen."
           },
           {
-            q: "Welche Fischerhut-Styles fertigen Sie?",
-            a: "Fischerhüte mit flachem Oberteil, breitkrempige Sonnenhüte, Denim-Fischerhüte mit ausgefransten Kanten und Winter-Fischerhüte aus Wolle mit gefütterten Ohrenklappen, alle in Ihren Farben und mit Ihrer Marke.",
-          },
+            "q": "Was benötigen Sie für 3.000 Festival-Fischerhüte?",
+            "a": "Datum, Zielort, Mengen, Konstruktion, Passform, Logo, Etikett und Verpackung. Produktion und Versand je Auftrag anbieten lassen; die Menge allein bestimmt weder Preis noch Ankunft."
+          }
         ],
       },
     },

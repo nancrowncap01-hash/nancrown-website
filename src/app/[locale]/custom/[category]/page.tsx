@@ -1,3 +1,4 @@
+import BucketBuyingGuide from "@/components/category/BucketBuyingGuide";
 import type { Metadata } from "next";
 import TruckerBuyingGuide from "@/components/TruckerBuyingGuide";
 import BrandBuyingGuide from "@/components/BrandBuyingGuide";
@@ -208,6 +209,8 @@ export default async function CategoryPage({
       {(def.slug === "camp-caps" || def.slug === "outdoor-caps") && (
         <CampOutdoorBuyingGuide locale={locale as Locale} kind={def.slug === "camp-caps" ? "camp" : "outdoor"} />
       )}
+
+      {def.slug === "bucket-hats" && <BucketBuyingGuide locale={locale as Locale} />}
 
       {/* 该分类下的产品网格,直接用现成的 ProductCard */}
       {products.length > 0 && (

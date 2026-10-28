@@ -1,0 +1,226 @@
+{
+  "en": {
+    "heading": "Prepare an inspection for your cap order",
+    "lead": "The 2023 workshop video and eight photos show production processes. They are not an inspection report or a certificate of acceptance for your current order. Use your approved sample and agreed specifications to prepare an order-specific check.",
+    "checksHeading": "Five points to agree before checking",
+    "checks": [
+      [
+        "Approved sample and revision",
+        "Identify the approved sample, artwork and specification revision. Record any later change so the inspector uses the same reference as production."
+      ],
+      [
+        "Material and color",
+        "Compare fabric, trims and color with the agreed references, including any agreed lighting or comparison method."
+      ],
+      [
+        "Measurements and fit",
+        "List the measurement points, tolerances and agreed measuring conditions. Check size adjustment and fit against the approved reference."
+      ],
+      [
+        "Logo and workmanship",
+        "Review logo placement, size and execution, plus seams, shaping and visible finish, against the approved sample."
+      ],
+      [
+        "Labels and packing",
+        "Check label text and placement, SKU and size identification, quantities by color and size, and the agreed bag and carton packing."
+      ]
+    ],
+    "recordHeading": "Make the inspection record useful",
+    "record": "Share style/SKU, order quantity and color/size breakdown, sample version, acceptance criteria, check method and sample quantities before the inspection. Record what was checked, photos and any issues; agree how open issues will be reviewed before shipping. We send finished-order photos before shipment, and third-party inspection is welcome. Video viewing of your order can be discussed with us; confirm the scope and arrangements together.",
+    "briefHeading": "Copy a blank inspection brief",
+    "briefHelp": "Copy this outline and complete it in your own document. This page does not collect or store your entries.",
+    "copy": "Copy brief",
+    "success": "Brief copied. Fill in the blank fields in your own document.",
+    "failure": "Copy was unavailable. The template text is selected; copy it manually.",
+    "fields": [
+      "Style / SKU",
+      "Order quantity",
+      "Color / size breakdown",
+      "Approved sample ID / version",
+      "Artwork / specification revision",
+      "Material / color references",
+      "Measurement points / tolerances / conditions",
+      "Logo / workmanship criteria",
+      "Labels / packing requirements",
+      "Agreed acceptance criteria",
+      "Check method / sample quantities",
+      "Inspection scope / arrangements",
+      "Photo / issue record requirements",
+      "Open-issue review before shipping"
+    ],
+    "links": [
+      "Sample approval guide",
+      "Cap size and fit guide",
+      "Specification pack PDF (English)",
+      "Discuss your inspection brief"
+    ]
+  },
+  "es": {
+    "heading": "Prepare la inspección de su pedido de gorras",
+    "lead": "El vídeo de 2023 y las ocho fotos del taller muestran procesos de producción. No son un informe de inspección ni un certificado de aceptación de su pedido actual. Prepare la revisión de su pedido con la muestra aprobada y las especificaciones acordadas.",
+    "checksHeading": "Cinco puntos que acordar antes de revisar",
+    "checks": [
+      [
+        "Muestra aprobada y revisión",
+        "Identifique la muestra aprobada y las revisiones del diseño y de las especificaciones. Registre los cambios posteriores para que inspección y producción usen la misma referencia."
+      ],
+      [
+        "Material y color",
+        "Compare tejidos, accesorios y colores con las referencias acordadas, incluidas las condiciones de iluminación o el método de comparación convenidos."
+      ],
+      [
+        "Medidas y ajuste",
+        "Indique puntos de medición, tolerancias y condiciones acordadas. Revise el ajuste y el sistema de regulación frente a la referencia aprobada."
+      ],
+      [
+        "Logotipo y confección",
+        "Revise posición, tamaño y ejecución del logotipo, costuras, forma y acabados visibles frente a la muestra aprobada."
+      ],
+      [
+        "Etiquetas y embalaje",
+        "Revise texto y posición de etiquetas, identificación de SKU y talla, cantidades por color y talla y embalaje acordado de bolsas y cajas."
+      ]
+    ],
+    "recordHeading": "Un registro de inspección útil",
+    "record": "Comparta modelo/SKU, cantidad y desglose por color y talla, versión de la muestra, criterios de aceptación, método de revisión y cantidades de muestra antes de inspeccionar. Registre lo revisado, las fotos y las incidencias; acuerde cómo se revisarán las incidencias pendientes antes del envío. Enviamos fotos del pedido terminado antes del envío y aceptamos inspecciones de terceros. Puede consultar la visualización de su pedido por vídeo; acordaremos juntos el alcance y la organización.",
+    "briefHeading": "Copie una ficha de inspección en blanco",
+    "briefHelp": "Copie el esquema y complételo en su propio documento. Esta página no recoge ni guarda sus datos.",
+    "copy": "Copiar ficha",
+    "success": "Ficha copiada. Complete los campos vacíos en su propio documento.",
+    "failure": "No se pudo copiar. El texto de la plantilla está seleccionado; cópialo manualmente.",
+    "fields": [
+      "Modelo / SKU",
+      "Cantidad del pedido",
+      "Desglose por color / talla",
+      "ID / versión de muestra aprobada",
+      "Revisión de diseño / especificaciones",
+      "Referencias de material / color",
+      "Puntos de medición / tolerancias / condiciones",
+      "Criterios de logotipo / confección",
+      "Requisitos de etiquetas / embalaje",
+      "Criterios de aceptación acordados",
+      "Método de revisión / cantidades de muestra",
+      "Alcance / organización de la inspección",
+      "Requisitos de registro de fotos / incidencias",
+      "Revisión de incidencias antes del envío"
+    ],
+    "links": [
+      "Guía de aprobación de muestras",
+      "Guía de tallas y ajuste",
+      "Ficha de especificaciones PDF (inglés)",
+      "Consultar su ficha de inspección"
+    ]
+  },
+  "fr": {
+    "heading": "Préparer le contrôle de votre commande de casquettes",
+    "lead": "La vidéo de 2023 et les huit photos de l’atelier montrent des étapes de fabrication. Elles ne constituent ni un rapport de contrôle ni un certificat d’acceptation de votre commande actuelle. Préparez le contrôle de votre commande à partir de l’échantillon approuvé et des spécifications convenues.",
+    "checksHeading": "Cinq points à convenir avant le contrôle",
+    "checks": [
+      [
+        "Échantillon approuvé et révision",
+        "Identifiez l’échantillon approuvé et les révisions du visuel et des spécifications. Consignez les modifications ultérieures pour que le contrôle et la production utilisent la même référence."
+      ],
+      [
+        "Matière et couleur",
+        "Comparez tissus, accessoires et couleurs aux références convenues, avec l’éclairage ou la méthode de comparaison prévus."
+      ],
+      [
+        "Mesures et ajustement",
+        "Précisez les points de mesure, tolérances et conditions convenues. Vérifiez l’ajustement et le réglage par rapport à la référence approuvée."
+      ],
+      [
+        "Logo et confection",
+        "Contrôlez l’emplacement, la taille et l’exécution du logo, les coutures, la mise en forme et les finitions visibles par rapport à l’échantillon approuvé."
+      ],
+      [
+        "Étiquettes et emballage",
+        "Vérifiez le texte et l’emplacement des étiquettes, l’identification SKU et taille, les quantités par couleur et taille ainsi que les sachets et cartons convenus."
+      ]
+    ],
+    "recordHeading": "Un compte rendu de contrôle exploitable",
+    "record": "Transmettez avant le contrôle le modèle/SKU, la quantité et sa répartition par couleur et taille, la version de l’échantillon, les critères d’acceptation, la méthode et les quantités à contrôler. Consignez les contrôles, photos et problèmes ; convenez de l’examen des points ouverts avant l’expédition. Nous envoyons des photos de la commande terminée avant l’expédition et accueillons les inspections par un tiers. Le visionnage de votre commande par vidéo peut être discuté avec nous ; convenons ensemble du périmètre et de l’organisation.",
+    "briefHeading": "Copier une fiche de contrôle vierge",
+    "briefHelp": "Copiez cette trame et complétez-la dans votre propre document. Cette page ne collecte ni ne conserve vos données.",
+    "copy": "Copier la fiche",
+    "success": "Fiche copiée. Complétez les champs vides dans votre propre document.",
+    "failure": "La copie est indisponible. Le texte du modèle est sélectionné ; copiez-le manuellement.",
+    "fields": [
+      "Modèle / SKU",
+      "Quantité commandée",
+      "Répartition couleur / taille",
+      "ID / version de l’échantillon approuvé",
+      "Révision du visuel / des spécifications",
+      "Références matière / couleur",
+      "Points de mesure / tolérances / conditions",
+      "Critères logo / confection",
+      "Exigences étiquettes / emballage",
+      "Critères d’acceptation convenus",
+      "Méthode / quantités à contrôler",
+      "Périmètre / organisation du contrôle",
+      "Exigences de photos / relevé des problèmes",
+      "Examen des points ouverts avant expédition"
+    ],
+    "links": [
+      "Guide d’approbation des échantillons",
+      "Guide des tailles et de l’ajustement",
+      "Dossier de spécifications PDF (anglais)",
+      "Discuter de votre fiche de contrôle"
+    ]
+  },
+  "de": {
+    "heading": "Die Prüfung Ihrer Kappenbestellung vorbereiten",
+    "lead": "Das Werkstattvideo von 2023 und die acht Fotos zeigen Fertigungsschritte. Sie sind kein Prüfbericht und keine Abnahmebescheinigung für Ihre aktuelle Bestellung. Bereiten Sie die auftragsbezogene Prüfung anhand des freigegebenen Musters und der vereinbarten Spezifikationen vor.",
+    "checksHeading": "Fünf Punkte vor der Prüfung abstimmen",
+    "checks": [
+      [
+        "Freigegebenes Muster und Versionsstand",
+        "Benennen Sie das freigegebene Muster sowie die Version von Motiv und Spezifikation. Halten Sie spätere Änderungen fest, damit Prüfung und Fertigung dieselbe Referenz verwenden."
+      ],
+      [
+        "Material und Farbe",
+        "Vergleichen Sie Stoffe, Zubehör und Farben mit den vereinbarten Referenzen, einschließlich vereinbarter Beleuchtung oder Vergleichsmethode."
+      ],
+      [
+        "Maße und Passform",
+        "Legen Sie Messpunkte, Toleranzen und Messbedingungen fest. Prüfen Sie Passform und Größenverstellung anhand der freigegebenen Referenz."
+      ],
+      [
+        "Logo und Verarbeitung",
+        "Prüfen Sie Position, Größe und Ausführung des Logos sowie Nähte, Form und sichtbare Verarbeitung anhand des freigegebenen Musters."
+      ],
+      [
+        "Etiketten und Verpackung",
+        "Prüfen Sie Etikettentext und Position, SKU- und Größenkennzeichnung, Mengen je Farbe und Größe sowie vereinbarte Beutel- und Kartonverpackung."
+      ]
+    ],
+    "recordHeading": "Ein nachvollziehbares Prüfprotokoll",
+    "record": "Teilen Sie vor der Prüfung Modell/SKU, Menge und Aufteilung nach Farbe und Größe, Musterversion, Abnahmekriterien, Prüfmethode und Stichprobenmengen mit. Dokumentieren Sie die geprüften Punkte, Fotos und Probleme; vereinbaren Sie die Prüfung offener Punkte vor dem Versand. Wir senden vor dem Versand Fotos der fertigen Bestellung; Prüfungen durch Dritte sind willkommen. Eine Videoansicht Ihrer Bestellung können Sie mit uns besprechen; Umfang und Organisation stimmen wir gemeinsam ab.",
+    "briefHeading": "Eine leere Prüfvorlage kopieren",
+    "briefHelp": "Kopieren Sie die Vorlage und ergänzen Sie sie in Ihrem eigenen Dokument. Diese Seite erfasst und speichert keine Eingaben.",
+    "copy": "Vorlage kopieren",
+    "success": "Vorlage kopiert. Ergänzen Sie die leeren Felder in Ihrem eigenen Dokument.",
+    "failure": "Kopieren war nicht möglich. Der Vorlagentext ist markiert; kopieren Sie ihn manuell.",
+    "fields": [
+      "Modell / SKU",
+      "Bestellmenge",
+      "Aufteilung nach Farbe / Größe",
+      "ID / Version des freigegebenen Musters",
+      "Motiv- / Spezifikationsversion",
+      "Material- / Farbreferenzen",
+      "Messpunkte / Toleranzen / Bedingungen",
+      "Kriterien für Logo / Verarbeitung",
+      "Etiketten- / Verpackungsanforderungen",
+      "Vereinbarte Abnahmekriterien",
+      "Prüfmethode / Stichprobenmengen",
+      "Prüfumfang / Organisation",
+      "Anforderungen an Fotos / Problemprotokoll",
+      "Prüfung offener Punkte vor Versand"
+    ],
+    "links": [
+      "Leitfaden zur Musterfreigabe",
+      "Leitfaden für Größe und Passform",
+      "Spezifikationspaket PDF (Englisch)",
+      "Ihre Prüfvorlage besprechen"
+    ]
+  }
+}

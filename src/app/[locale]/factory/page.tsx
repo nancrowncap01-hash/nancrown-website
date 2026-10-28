@@ -6,6 +6,7 @@ import type { Locale } from "@/i18n/routing";
 import { factoryContent, factoryVideo, factoryPhotoFiles } from "@/lib/factory-content";
 import { FactoryJsonLd } from "@/components/seo/FactoryJsonLd";
 import { pageMetadata } from "@/lib/seo";
+import FactoryInspectionGuide from "@/components/FactoryInspectionGuide";
 
 export async function generateMetadata({
   params,
@@ -131,6 +132,8 @@ export default async function FactoryPage({
           </div>
         </div>
       </section>
+
+      <FactoryInspectionGuide locale={locale as Locale} />
 
       {/* 自己做什么 / 合作工序做什么 */}
       <section className="py-16 bg-gray-50">

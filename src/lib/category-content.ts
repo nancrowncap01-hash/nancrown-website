@@ -760,125 +760,121 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Camp Caps",
         h1: "Custom Camp Caps Manufacturer",
-        metaDescription:
-          "Custom camp caps from our Guangzhou factory — 5-panel low crown, flat brim, windproof woven fabric, functional flap pocket. MOQ 50 pcs per colour.",
+        metaDescription: "Custom camp caps: compare J0029 pocket, M0055 curved-brim and M0050 earflap references. Confirm fit and branding on a sample. MOQ 50 per style, colour and size.",
         intro: [
-          "Camp caps read as outdoor and heritage rather than sport, which is why outfitters, coffee brands and lifestyle labels reach for the style: a low 5-panel crown, a flat brim, and a build that looks at home next to a flannel shirt. NanCrown's camp cap carries a working flap pocket on the front panel — a detail that reads as tool, not logo, and gives you a second surface for branding beyond the crown.",
-          "The windproof woven shell, metal eyelets and webbing strap adjuster are all part of the base build, ready for your embroidery, print, woven label or patch on the crown or the pocket flap. We work from your logo and colour references, confirm the build with a pre-production sample, and manufacture factory-direct in Guangzhou with a minimum of 50 pieces per colour — OEM/ODM welcome.",
+          "For a lifestyle range or branded merchandise, begin with the crown shape, brim and intended fit. Camp caps in this catalogue include different constructions; choose the reference closest to your design before specifying changes.",
+          "J0029 is the pocket-front example, while M0055 and M0050 offer other builds. Send your colours and logo artwork, and confirm the material, decoration and fit on a pre-production sample."
         ],
         customOptions: [
-          "Fabric: windproof woven shell built for a low, structured 5-panel crown.",
-          "Construction: low crown with a flat brim, for a heritage outdoor silhouette.",
-          "Detail: functional front flap pocket that opens and closes, an extra spot for a woven label.",
-          "Hardware: metal eyelets on the side panels for ventilation and detail.",
-          "Closure: webbing strap adjuster at the back, sized to fit most head sizes.",
+          "Crown and brim: J0029 low crown and flat brim; M0055 soft crown and curved brim.",
+          "Pocket option: J0029 front flap pocket; confirm size and logo clearance.",
+          "Closure: J0029 webbing strap or M0055 elastic cord, according to the reference.",
+          "Additional details: M0050 ear flaps and chin strap, subject to sample confirmation.",
+          "Branding: artwork size, placement and technique agreed for the chosen reference."
         ],
         faq: [
           {
-            q: "What is the minimum order for custom camp caps?",
-            a: "Our MOQ is 50 pieces per colour, a manageable size for a first run of a heritage or outdoor-styled cap.",
+            "q": "What is the minimum order?",
+            "a": "MOQ is 50 pieces per style, colour and size. Send the quantity breakdown and selected construction for a quote under our existing pricing policy."
           },
           {
-            q: "Can you brand the flap pocket as well as the crown?",
-            a: "Yes — the pocket flap is a natural spot for a woven label or a small embroidered mark, in addition to embroidery or print on the crown.",
+            "q": "Does every camp cap have a pocket?",
+            "a": "No. J0029 has a front flap pocket; M0055 uses a seamless embroidered front. Pocket placement and decoration must be confirmed for the selected sample."
           },
           {
-            q: "What makes a camp cap different from a baseball cap?",
-            a: "A camp cap sits lower with a flat brim and a 5-panel construction, plus the front flap pocket — a more workwear-inspired build than a rounded 6-panel baseball cap.",
-          },
+            "q": "Are technical performance claims verified here?",
+            "a": "No. These catalogue descriptions are not test reports. Waterproofing, UPF, breathability and wet-storage suitability require agreed specifications and supporting evidence."
+          }
         ],
       },
       es: {
         name: "Gorras Camp",
         h1: "Fabricante de gorras camp personalizadas",
-        metaDescription:
-          "Gorras camp personalizadas de fábrica en Guangzhou: 5 paneles, copa baja, visera plana, con bolsillo funcional. Mínimo 50 uds/color.",
+        metaDescription: "Gorras camp personalizadas: compara J0029 con bolsillo, M0055 de visera curva y M0050 con orejeras. Confirma una muestra. Mínimo 50 por modelo, color y talla.",
         intro: [
-          "La gorra camp transmite un aire outdoor y clásico más que deportivo, por eso las marcas de estilo de vida, cafeterías y tiendas de equipamiento la eligen: copa baja de 5 paneles, visera plana y una construcción que combina bien con una camisa de cuadros. La gorra camp de NanCrown lleva un bolsillo funcional con solapa en el panel frontal — un detalle que se lee como herramienta, no como logo, y da una segunda superficie para tu marca además de la copa.",
-          "El tejido cortaviento, los ojetes metálicos y el ajustador de cincha trasero forman parte del modelo base, listos para tu bordado, estampado, etiqueta tejida o parche en la copa o en la solapa del bolsillo. Trabajamos a partir de tu logo y referencias de color, confirmamos el modelo con una muestra de preproducción y fabricamos en nuestra propia fábrica de Guangzhou, con un mínimo de 50 piezas por color — aceptamos OEM/ODM.",
+          "Para una colección lifestyle o artículos de marca, empieza por la copa, la visera y el ajuste previsto. El catálogo incluye gorras camp de distintas construcciones; elige la referencia más cercana antes de pedir cambios.",
+          "J0029 es la referencia con bolsillo frontal; M0055 y M0050 ofrecen otras construcciones. Envía colores y archivo del logo, y confirma tejido, decoración y ajuste en una muestra de preproducción."
         ],
         customOptions: [
-          "Tejido: exterior cortaviento pensado para una copa de 5 paneles baja y estructurada.",
-          "Construcción: copa baja con visera plana, para una silueta outdoor clásica.",
-          "Detalle: bolsillo funcional con solapa en el panel frontal, un lugar extra para una etiqueta tejida.",
-          "Herrería: ojetes metálicos en los paneles laterales para ventilación y detalle.",
-          "Cierre: ajustador de cincha en la parte trasera, en talla única para la mayoría de cabezas.",
+          "Copa y visera: J0029 de copa baja y visera plana; M0055 de copa suave y visera curva.",
+          "Bolsillo opcional: solapa frontal de J0029; confirmar medidas y espacio para el logo.",
+          "Cierre: cincha de J0029 o cordón elástico de M0055, según referencia.",
+          "Otros detalles: orejeras y correa de barbilla de M0050, sujetos a confirmar en muestra.",
+          "Marca: medidas, posición y técnica acordadas para la referencia elegida."
         ],
         faq: [
           {
-            q: "¿Cuál es el pedido mínimo para gorras camp personalizadas?",
-            a: "Nuestro pedido mínimo es de 50 piezas por color, un tamaño manejable para una primera producción de una gorra de estilo outdoor.",
+            "q": "¿Cuál es el pedido mínimo?",
+            "a": "El mínimo es de 50 piezas por modelo, color y talla. Envía el desglose y la construcción elegida para cotizar según nuestra política de precios existente."
           },
           {
-            q: "¿Pueden personalizar la solapa del bolsillo además de la copa?",
-            a: "Sí — la solapa del bolsillo es un lugar natural para una etiqueta tejida o un pequeño bordado, además del bordado o estampado en la copa.",
+            "q": "¿Todas las gorras camp llevan bolsillo?",
+            "a": "No. J0029 lleva bolsillo frontal con solapa; M0055 tiene frontal sin costura con bordado. Confirma posición y decoración del bolsillo en la muestra elegida."
           },
           {
-            q: "¿Qué diferencia una gorra camp de una gorra de béisbol?",
-            a: "La gorra camp tiene una copa más baja de 5 paneles con visera plana, además del bolsillo frontal con solapa — una construcción de inspiración workwear, distinta a la copa redondeada de 6 paneles de una gorra de béisbol.",
-          },
+            "q": "¿Se verifican aquí las prestaciones técnicas?",
+            "a": "No. Las descripciones del catálogo no son informes de ensayo. La impermeabilidad, UPF, transpirabilidad y aptitud para guardado húmedo requieren especificaciones acordadas y pruebas."
+          }
         ],
       },
       fr: {
         name: "Casquettes Camp",
         h1: "Fabricant de casquettes camp personnalisées",
-        metaDescription:
-          "Casquettes camp personnalisées, fabriquées à Guangzhou : 5 panneaux, visière plate, poche à rabat fonctionnelle. Min. 50 pièces/couleur.",
+        metaDescription: "Casquettes camp personnalisées : comparez J0029 à poche, M0055 à visière courbe et M0050 à oreillettes. Validez un échantillon. Minimum 50 par modèle, couleur et taille.",
         intro: [
-          "La casquette camp évoque l'outdoor et l'héritage plus que le sport, c'est pourquoi les marques lifestyle, les torréfacteurs et les équipementiers s'y intéressent : calotte basse à 5 panneaux, visière plate, une construction qui s'accorde avec une chemise en flanelle. La casquette camp de NanCrown porte une poche à rabat fonctionnelle sur le panneau avant — un détail qui se lit comme un outil, pas comme un logo, et offre une deuxième surface pour votre marque en plus de la calotte.",
-          "Le tissu extérieur coupe-vent, les œillets métalliques et la sangle de réglage arrière font partie du modèle de base, prêts pour votre broderie, impression, étiquette tissée ou patch sur la calotte ou le rabat de la poche. Nous travaillons à partir de votre logo et de vos références de couleur, validons le modèle avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
+          "Pour une collection lifestyle ou des articles de marque, commencez par la calotte, la visière et le porté souhaité. Le catalogue comprend plusieurs constructions camp ; choisissez la référence la plus proche avant de préciser les modifications.",
+          "J0029 est l’exemple à poche avant ; M0055 et M0050 proposent d’autres constructions. Envoyez couleurs et fichier logo, puis validez tissu, décoration et ajustement sur un échantillon de préproduction."
         ],
         customOptions: [
-          "Tissu : extérieur coupe-vent conçu pour une calotte 5 panneaux basse et structurée.",
-          "Construction : calotte basse à visière plate, pour une silhouette outdoor intemporelle.",
-          "Détail : poche à rabat fonctionnelle sur le panneau avant, un emplacement supplémentaire pour une étiquette tissée.",
-          "Quincaillerie : œillets métalliques sur les panneaux latéraux, pour l'aération et le détail.",
-          "Fermeture : sangle de réglage à l'arrière, taille unique adaptée à la plupart des tours de tête.",
+          "Calotte et visière : J0029 basse et plate ; M0055 souple et courbe.",
+          "Poche optionnelle : rabat avant de J0029 ; dimensions et espace du logo à confirmer.",
+          "Fermeture : sangle de J0029 ou cordon élastique de M0055, selon la référence.",
+          "Autres détails : oreillettes et jugulaire de M0050, à valider sur échantillon.",
+          "Marquage : dimensions, placement et technique convenus pour la référence retenue."
         ],
         faq: [
           {
-            q: "Quelle est la commande minimale pour des casquettes camp personnalisées ?",
-            a: "Notre commande minimale est de 50 pièces par couleur, une quantité raisonnable pour une première production d'une casquette de style outdoor.",
+            "q": "Quelle est la commande minimale ?",
+            "a": "Le minimum est de 50 pièces par modèle, couleur et taille. Envoyez la répartition et la construction retenue pour un devis selon notre politique tarifaire existante."
           },
           {
-            q: "Pouvez-vous personnaliser le rabat de la poche en plus de la calotte ?",
-            a: "Oui — le rabat de la poche est un emplacement naturel pour une étiquette tissée ou une petite broderie, en plus de la broderie ou de l'impression sur la calotte.",
+            "q": "Toutes les casquettes camp ont-elles une poche ?",
+            "a": "Non. J0029 possède une poche avant à rabat ; M0055, un panneau avant sans couture brodé. Validez position et décoration de la poche sur l’échantillon choisi."
           },
           {
-            q: "Quelle est la différence entre une casquette camp et une casquette de baseball ?",
-            a: "La casquette camp a une calotte plus basse à 5 panneaux avec visière plate, plus la poche avant à rabat — une construction d'inspiration workwear, différente de la calotte arrondie à 6 panneaux d'une casquette de baseball.",
-          },
+            "q": "Les performances techniques sont-elles vérifiées ici ?",
+            "a": "Non. Les descriptions du catalogue ne sont pas des rapports d’essai. Étanchéité, UPF, respirabilité et aptitude au rangement humide nécessitent des spécifications convenues et des preuves."
+          }
         ],
       },
       de: {
         name: "Camp-Kappen",
         h1: "Hersteller für individuelle Camp-Kappen",
-        metaDescription:
-          "Individuelle Camp-Kappen aus unserer Fabrik in Guangzhou — 5-Panel, niedriges Kopfteil, funktionale Klappentasche. Ab 50 Stk/Farbe.",
+        metaDescription: "Individuelle Camp-Kappen: J0029 mit Tasche, M0055 mit gebogenem Schirm und M0050 mit Ohrenklappen vergleichen. Muster bestätigen. MOQ 50 je Modell, Farbe und Größe.",
         intro: [
-          "Die Camp-Kappe wirkt eher outdoor- und heritage-geprägt als sportlich, weshalb Lifestyle-Marken, Kaffeeröstereien und Outdoor-Ausstatter gerne darauf zurückgreifen: niedriges 5-Panel-Kopfteil, flacher Schirm und eine Machart, die gut zu einem Flanellhemd passt. Die Camp-Kappe von NanCrown trägt eine funktionale Klappentasche auf dem Vorderpanel — ein Detail, das wie ein Werkzeug wirkt, nicht wie ein Logo, und Ihnen neben dem Kopfteil eine zweite Fläche fürs Branding gibt.",
-          "Das winddichte Obermaterial, die Metallösen und der Gurtband-Verschluss hinten gehören zum Grundmodell und sind bereit für Ihre Stickerei, Ihren Druck, Ihr gewebtes Etikett oder Ihren Aufnäher auf Kopfteil oder Taschenklappe. Wir arbeiten mit Ihrer Logodatei und Ihren Farbvorgaben, bestätigen das Modell mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM willkommen.",
+          "Für Lifestyle-Kollektionen oder Markenartikel beginnen Sie mit Kopfteil, Schirm und gewünschter Passform. Der Katalog enthält unterschiedliche Camp-Konstruktionen; wählen Sie vor Änderungswünschen die passende Referenz.",
+          "J0029 ist das Beispiel mit Fronttasche; M0055 und M0050 bieten andere Konstruktionen. Senden Sie Farben und Logodatei und bestätigen Sie Material, Veredelung und Passform am Vorproduktionsmuster."
         ],
         customOptions: [
-          "Material: winddichtes Obergewebe für ein niedriges, strukturiertes 5-Panel-Kopfteil.",
-          "Konstruktion: niedriges Kopfteil mit flachem Schirm, für eine klassische Outdoor-Silhouette.",
-          "Detail: funktionale Klappentasche auf dem Vorderpanel, zusätzlicher Platz für ein gewebtes Etikett.",
-          "Beschläge: Metallösen an den Seitenpanels für Belüftung und Optik.",
-          "Verschluss: Gurtband-Verschluss hinten, One Size für die meisten Kopfgrößen.",
+          "Kopfteil und Schirm: J0029 niedrig und flach; M0055 weich mit gebogenem Schirm.",
+          "Taschenoption: vordere Klappentasche von J0029; Maße und Logofreiraum bestätigen.",
+          "Verschluss: Gurtband von J0029 oder elastische Kordel von M0055, je nach Referenz.",
+          "Weitere Details: Ohrenklappen und Kinnriemen von M0050, am Muster zu bestätigen.",
+          "Veredelung: Maße, Position und Technik für die gewählte Referenz vereinbaren."
         ],
         faq: [
           {
-            q: "Wie hoch ist die Mindestbestellmenge für individuelle Camp-Kappen?",
-            a: "Unsere Mindestbestellmenge liegt bei 50 Stück pro Farbe — eine überschaubare Größe für eine erste Charge einer Outdoor-Kappe.",
+            "q": "Wie hoch ist die Mindestbestellmenge?",
+            "a": "Die Mindestmenge beträgt 50 Stück je Modell, Farbe und Größe. Mengenaufteilung und Konstruktion für ein Angebot nach unserer bestehenden Preispolitik senden."
           },
           {
-            q: "Können Sie auch die Taschenklappe branden, nicht nur das Kopfteil?",
-            a: "Ja — die Taschenklappe eignet sich hervorragend für ein gewebtes Etikett oder eine kleine Stickerei, zusätzlich zu Stickerei oder Druck auf dem Kopfteil.",
+            "q": "Hat jede Camp-Kappe eine Tasche?",
+            "a": "Nein. J0029 hat eine vordere Klappentasche; M0055 eine nahtlose bestickte Front. Position und Veredelung der Tasche am gewählten Muster bestätigen."
           },
           {
-            q: "Was unterscheidet eine Camp-Kappe von einer Baseballkappe?",
-            a: "Die Camp-Kappe sitzt niedriger, hat einen flachen Schirm und eine 5-Panel-Konstruktion plus die vordere Klappentasche — eine workwear-inspirierte Machart, anders als das gerundete 6-Panel-Kopfteil einer Baseballkappe.",
-          },
+            "q": "Sind technische Leistungen hier nachgewiesen?",
+            "a": "Nein. Katalogbeschreibungen sind keine Prüfberichte. Wasserdichtheit, UPF, Atmungsaktivität und Eignung zur Nasslagerung erfordern vereinbarte Spezifikationen und Nachweise."
+          }
         ],
       },
     },
@@ -1178,125 +1174,121 @@ export const categoryDefinitions: CategoryDefinition[] = [
       en: {
         name: "Outdoor Caps",
         h1: "Custom Outdoor Caps Manufacturer",
-        metaDescription:
-          "Custom outdoor caps from our Guangzhou factory — water-repellent woven fabric, detachable neck shade, laser perforation venting. MOQ 50 pcs per colour.",
+        metaDescription: "Custom outdoor caps with PJ0005 as a neck-shade jet-cap reference. Confirm fit, shade attachments and material requirements. MOQ 50 per style, colour and size.",
         intro: [
-          "An outdoor cap has to work harder than a fashion cap — shade for the neck on the water or the trail, ventilation that doesn't trap heat, and a build that survives being packed away wet. NanCrown's outdoor cap is a 5-panel jet crown in matte water-repellent woven fabric, with graduated laser perforation down each side panel and a detachable neck shade for when the sun gets low.",
-          "The neck shade comes off with a 3-point hook-and-loop attachment, so the same cap works as a full sun shield or a plain jet cap — either way, the front and side panels stay blank for your embroidery or print. We build from your logo and colour references, confirm the construction with a pre-production sample, and manufacture factory-direct in Guangzhou with a minimum of 50 pieces per colour — OEM/ODM welcome.",
+          "For an outdoor-branded range, define where the cap will be worn and which construction details are needed. Agree on fit, brim coverage, material and decoration before treating a catalogue style as a finished specification.",
+          "PJ0005 provides one starting point with a removable neck shade and side perforations. These are details of this reference, not standard features of the whole category. Confirm any requested changes and performance requirements through the sample and agreed evidence."
         ],
         customOptions: [
-          "Fabric: matte, water-repellent woven shell built for a soft-top 5-panel jet crown.",
-          "Ventilation: graduated laser perforation running down each side panel, large to small.",
-          "Function: detachable neck shade with a 3-point hook-and-loop attachment.",
-          "Closure: rear drawcord with a barrel adjuster.",
-          "Decoration: embroidery or screen printing on the front and side panels.",
+          "Crown: PJ0005 soft-top five-panel jet construction.",
+          "Shade option: PJ0005 detachable neck shade with three hook-and-loop attachment points.",
+          "Side detail: PJ0005 graduated laser perforations.",
+          "Closure: PJ0005 rear drawcord with barrel adjuster.",
+          "Material and branding: PJ0005 catalogue woven reference; confirm swatch, logo position and any required evidence."
         ],
         faq: [
           {
-            q: "What is the minimum order for custom outdoor caps?",
-            a: "Our MOQ is 50 pieces per colour, workable for an outfitter's first seasonal run or a trail-event merchandise order.",
+            "q": "What is the minimum order?",
+            "a": "MOQ is 50 pieces per style, colour and size. Send the quantity breakdown and selected construction for a quote under our existing pricing policy."
           },
           {
-            q: "Can the neck shade be removed?",
-            a: "Yes — it attaches with a 3-point hook-and-loop closure, so the cap works as a full sun shield or a plain jet cap depending on conditions.",
+            "q": "Does every outdoor cap include a detachable shade?",
+            "a": "No. The three-point hook-and-loop neck shade belongs to PJ0005. Confirm shade dimensions and attachments on your selected sample."
           },
           {
-            q: "How does the cap stay ventilated in the heat?",
-            a: "Graduated laser perforation runs down each side panel, large holes near the crown tapering to small ones lower down, paired with a water-repellent shell that still breathes.",
-          },
+            "q": "Are technical performance claims verified here?",
+            "a": "No. These catalogue descriptions are not test reports. Waterproofing, UPF, breathability and wet-storage suitability require agreed specifications and supporting evidence."
+          }
         ],
       },
       es: {
         name: "Gorras Outdoor",
         h1: "Fabricante de gorras outdoor personalizadas",
-        metaDescription:
-          "Gorras outdoor personalizadas de fábrica en Guangzhou: tejido repelente al agua, protector de cuello desmontable. Mínimo 50 uds/color.",
+        metaDescription: "Gorras outdoor personalizadas con PJ0005 como referencia con protector de cuello. Confirma ajuste, fijaciones y tejido. Mínimo 50 por modelo, color y talla.",
         intro: [
-          "Una gorra outdoor tiene que rendir más que una gorra de moda: sombra para el cuello en el agua o el sendero, ventilación que no atrape el calor y una construcción que aguante guardarse mojada. La gorra outdoor de NanCrown es una copa jet de 5 paneles en tejido mate repelente al agua, con perforación láser progresiva en cada panel lateral y un protector de cuello desmontable para cuando el sol pega bajo.",
-          "El protector de cuello se quita con un cierre de velcro de 3 puntos, así que la misma gorra funciona como protección solar completa o como gorra jet sencilla — en ambos casos, los paneles frontal y laterales quedan en blanco para tu bordado o estampado. Fabricamos a partir de tu logo y referencias de color, confirmamos la construcción con una muestra de preproducción y producimos en nuestra propia fábrica de Guangzhou, con un mínimo de 50 piezas por color — aceptamos OEM/ODM.",
+          "Para una colección outdoor, define dónde se usará la gorra y qué detalles necesitas. Acuerda ajuste, cobertura de visera, tejido y decoración antes de convertir una referencia del catálogo en una especificación final.",
+          "PJ0005 ofrece un punto de partida con protector de cuello desmontable y perforaciones laterales. Son detalles de esta referencia, no características estándar de toda la categoría. Confirma cambios y requisitos de prestaciones mediante la muestra y las pruebas acordadas."
         ],
         customOptions: [
-          "Tejido: exterior mate repelente al agua, pensado para una copa jet de 5 paneles de parte superior suave.",
-          "Ventilación: perforación láser progresiva en cada panel lateral, de grande a pequeña.",
-          "Función: protector de cuello desmontable con cierre de velcro de 3 puntos.",
-          "Cierre: cordón trasero con regulador de tope.",
-          "Personalización: bordado o serigrafía en los paneles frontal y laterales.",
+          "Copa: construcción jet suave de cinco paneles de PJ0005.",
+          "Protector opcional: protector de cuello desmontable de PJ0005 con tres fijaciones autoadherentes.",
+          "Detalle lateral: perforaciones láser progresivas de PJ0005.",
+          "Cierre: cordón trasero de PJ0005 con regulador de tope.",
+          "Tejido y marca: referencia tejida del catálogo PJ0005; confirmar muestra de tejido, posición del logo y pruebas necesarias."
         ],
         faq: [
           {
-            q: "¿Cuál es el pedido mínimo para gorras outdoor personalizadas?",
-            a: "Nuestro pedido mínimo es de 50 piezas por color, viable para la primera producción de temporada de una tienda de equipamiento o un pedido de merchandising para un evento de senderismo.",
+            "q": "¿Cuál es el pedido mínimo?",
+            "a": "El mínimo es de 50 piezas por modelo, color y talla. Envía el desglose y la construcción elegida para cotizar según nuestra política de precios existente."
           },
           {
-            q: "¿Se puede quitar el protector de cuello?",
-            a: "Sí — se sujeta con un cierre de velcro de 3 puntos, así que la gorra funciona como protección solar completa o como gorra jet sencilla según las condiciones.",
+            "q": "¿Todas las gorras outdoor llevan protector desmontable?",
+            "a": "No. El protector con tres puntos de fijación autoadherente pertenece a PJ0005. Confirma medidas y fijaciones en la muestra elegida."
           },
           {
-            q: "¿Cómo se mantiene ventilada la gorra con calor?",
-            a: "La perforación láser progresiva recorre cada panel lateral, con orificios grandes cerca de la copa que se hacen más pequeños hacia abajo, combinada con un exterior repelente al agua que sigue transpirando.",
-          },
+            "q": "¿Se verifican aquí las prestaciones técnicas?",
+            "a": "No. Las descripciones del catálogo no son informes de ensayo. La impermeabilidad, UPF, transpirabilidad y aptitud para guardado húmedo requieren especificaciones acordadas y pruebas."
+          }
         ],
       },
       fr: {
         name: "Casquettes Outdoor",
         h1: "Fabricant de casquettes outdoor personnalisées",
-        metaDescription:
-          "Casquettes outdoor personnalisées, fabriquées à Guangzhou : tissu déperlant, protège-nuque amovible. Min. 50 pièces/couleur.",
+        metaDescription: "Casquettes outdoor personnalisées : PJ0005 comme référence à protège-nuque. Validez ajustement, fixations et tissu. Minimum 50 par modèle, couleur et taille.",
         intro: [
-          "Une casquette outdoor doit en faire plus qu'une casquette mode : ombre sur la nuque sur l'eau ou sur le sentier, ventilation qui n'emprisonne pas la chaleur, et une construction qui supporte d'être rangée humide. La casquette outdoor de NanCrown est une calotte jet 5 panneaux en tissu mat déperlant, avec une perforation laser dégressive sur chaque panneau latéral et un protège-nuque amovible pour quand le soleil est bas.",
-          "Le protège-nuque se détache grâce à une fixation auto-agrippante à 3 points, si bien que la même casquette fonctionne en protection solaire complète ou en simple casquette jet — dans les deux cas, les panneaux avant et latéraux restent vierges pour votre broderie ou impression. Nous fabriquons à partir de votre logo et de vos références de couleur, validons la construction avec un échantillon de pré-production, et fabriquons en direct depuis notre usine de Guangzhou, commande minimale de 50 pièces par couleur — OEM/ODM bienvenus.",
+          "Pour une collection outdoor, définissez le lieu d’utilisation et les détails nécessaires. Convenez du porté, de la couverture de visière, du tissu et de la décoration avant de transformer une référence du catalogue en spécification finale.",
+          "PJ0005 constitue un point de départ avec protège-nuque amovible et perforations latérales. Ces détails appartiennent à cette référence, pas à toute la catégorie. Validez modifications et exigences de performances par l’échantillon et les preuves convenues."
         ],
         customOptions: [
-          "Tissu : extérieur mat déperlant, conçu pour une calotte jet 5 panneaux à sommet souple.",
-          "Ventilation : perforation laser dégressive sur chaque panneau latéral, de grande à petite.",
-          "Fonction : protège-nuque amovible avec fixation auto-agrippante à 3 points.",
-          "Fermeture : cordon arrière avec bloqueur cylindrique.",
-          "Personnalisation : broderie ou sérigraphie sur les panneaux avant et latéraux.",
+          "Calotte : construction jet souple à cinq panneaux de PJ0005.",
+          "Option : protège-nuque amovible de PJ0005 à trois fixations auto-agrippantes.",
+          "Détail latéral : perforations laser dégressives de PJ0005.",
+          "Fermeture : cordon arrière avec stoppeur de PJ0005.",
+          "Tissu et marquage : référence tissée du catalogue PJ0005 ; échantillon de tissu, placement du logo et preuves requises à confirmer."
         ],
         faq: [
           {
-            q: "Quelle est la commande minimale pour des casquettes outdoor personnalisées ?",
-            a: "Notre commande minimale est de 50 pièces par couleur, adaptée à une première production saisonnière pour un équipementier ou une commande de merchandising pour un événement outdoor.",
+            "q": "Quelle est la commande minimale ?",
+            "a": "Le minimum est de 50 pièces par modèle, couleur et taille. Envoyez la répartition et la construction retenue pour un devis selon notre politique tarifaire existante."
           },
           {
-            q: "Le protège-nuque est-il amovible ?",
-            a: "Oui — il se fixe par une attache auto-agrippante à 3 points, si bien que la casquette fonctionne en protection solaire complète ou en simple casquette jet selon les conditions.",
+            "q": "Toutes les casquettes outdoor ont-elles un protège-nuque amovible ?",
+            "a": "Non. Le protège-nuque à trois fixations auto-agrippantes appartient à PJ0005. Validez dimensions et fixations sur l’échantillon choisi."
           },
           {
-            q: "Comment la casquette reste-t-elle ventilée par forte chaleur ?",
-            a: "Une perforation laser dégressive parcourt chaque panneau latéral, avec de grands trous près de la calotte qui rétrécissent vers le bas, associée à un tissu déperlant qui reste respirant.",
-          },
+            "q": "Les performances techniques sont-elles vérifiées ici ?",
+            "a": "Non. Les descriptions du catalogue ne sont pas des rapports d’essai. Étanchéité, UPF, respirabilité et aptitude au rangement humide nécessitent des spécifications convenues et des preuves."
+          }
         ],
       },
       de: {
         name: "Outdoor-Kappen",
         h1: "Hersteller für individuelle Outdoor-Kappen",
-        metaDescription:
-          "Individuelle Outdoor-Kappen aus unserer Fabrik in Guangzhou — wasserabweisendes Gewebe, abnehmbarer Nackenschutz. Ab 50 Stk/Farbe.",
+        metaDescription: "Individuelle Outdoor-Kappen mit PJ0005 als Nackenschutz-Referenz. Passform, Befestigungen und Material abstimmen. MOQ 50 je Modell, Farbe und Größe.",
         intro: [
-          "Eine Outdoor-Kappe muss mehr leisten als eine Fashion-Kappe — Schatten für den Nacken auf dem Wasser oder dem Trail, Belüftung, die keine Hitze staut, und eine Machart, die auch nass eingepackt übersteht. Die Outdoor-Kappe von NanCrown ist ein 5-Panel-Jet-Kopfteil aus mattem, wasserabweisendem Gewebe, mit abgestufter Laserperforation an jedem Seitenpanel und einem abnehmbaren Nackenschutz für tiefstehende Sonne.",
-          "Der Nackenschutz löst sich über eine 3-Punkt-Klettbefestigung, sodass dieselbe Kappe als voller Sonnenschutz oder als schlichte Jet-Kappe funktioniert — in beiden Fällen bleiben Vorder- und Seitenpanels unbedruckt für Ihre Stickerei oder Ihren Druck. Wir arbeiten mit Ihrer Logodatei und Ihren Farbvorgaben, bestätigen die Konstruktion mit einem Vorproduktionsmuster und fertigen direkt in unserer eigenen Fabrik in Guangzhou — Mindestbestellmenge 50 Stück pro Farbe, OEM/ODM willkommen.",
+          "Für eine Outdoor-Kollektion legen Sie Einsatzort und benötigte Konstruktionsdetails fest. Passform, Schirmabdeckung, Material und Veredelung abstimmen, bevor eine Katalogreferenz zur endgültigen Spezifikation wird.",
+          "PJ0005 bietet einen Ausgangspunkt mit abnehmbarem Nackenschutz und seitlicher Perforation. Diese Details gehören zu dieser Referenz, nicht zur gesamten Kategorie. Änderungen und Leistungsanforderungen anhand des Musters und vereinbarter Nachweise bestätigen."
         ],
         customOptions: [
-          "Material: mattes, wasserabweisendes Obergewebe für ein weiches 5-Panel-Jet-Kopfteil.",
-          "Belüftung: abgestufte Laserperforation an jedem Seitenpanel, von groß zu klein.",
-          "Funktion: abnehmbarer Nackenschutz mit 3-Punkt-Klettbefestigung.",
-          "Verschluss: rückwärtiger Kordelzug mit Stopper.",
-          "Veredelung: Stickerei oder Siebdruck auf Vorder- und Seitenpanels.",
+          "Kopfteil: weiche 5-Panel-Jet-Konstruktion von PJ0005.",
+          "Option: abnehmbarer Nackenschutz von PJ0005 mit drei Klett-Befestigungspunkten.",
+          "Seitendetail: abgestufte Laserperforation von PJ0005.",
+          "Verschluss: rückwärtiger Kordelzug mit Stopper von PJ0005.",
+          "Material und Logo: gewebte Katalogreferenz PJ0005; Stoffmuster, Logoposition und erforderliche Nachweise bestätigen."
         ],
         faq: [
           {
-            q: "Wie hoch ist die Mindestbestellmenge für individuelle Outdoor-Kappen?",
-            a: "Unsere Mindestbestellmenge liegt bei 50 Stück pro Farbe — machbar für die erste Saisoncharge eines Outdoor-Ausstatters oder eine Merchandise-Bestellung für ein Trail-Event.",
+            "q": "Wie hoch ist die Mindestbestellmenge?",
+            "a": "Die Mindestmenge beträgt 50 Stück je Modell, Farbe und Größe. Mengenaufteilung und Konstruktion für ein Angebot nach unserer bestehenden Preispolitik senden."
           },
           {
-            q: "Lässt sich der Nackenschutz abnehmen?",
-            a: "Ja — er ist mit einer 3-Punkt-Klettbefestigung angebracht, sodass die Kappe je nach Bedingungen als voller Sonnenschutz oder als schlichte Jet-Kappe funktioniert.",
+            "q": "Hat jede Outdoor-Kappe einen abnehmbaren Nackenschutz?",
+            "a": "Nein. Der Nackenschutz mit drei Klett-Befestigungspunkten gehört zu PJ0005. Maße und Befestigungen am gewählten Muster bestätigen."
           },
           {
-            q: "Wie bleibt die Kappe bei Hitze belüftet?",
-            a: "Eine abgestufte Laserperforation zieht sich über jedes Seitenpanel, mit großen Löchern nahe am Kopfteil, die nach unten kleiner werden, kombiniert mit einem wasserabweisenden, aber atmungsaktiven Obermaterial.",
-          },
+            "q": "Sind technische Leistungen hier nachgewiesen?",
+            "a": "Nein. Katalogbeschreibungen sind keine Prüfberichte. Wasserdichtheit, UPF, Atmungsaktivität und Eignung zur Nasslagerung erfordern vereinbarte Spezifikationen und Nachweise."
+          }
         ],
       },
     },

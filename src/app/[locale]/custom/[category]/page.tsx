@@ -3,6 +3,7 @@ import TruckerBuyingGuide from "@/components/TruckerBuyingGuide";
 import BrandBuyingGuide from "@/components/BrandBuyingGuide";
 import CategoryEvidence from "@/components/category/CategoryEvidence";
 import CategorySelectionGuide from "@/components/category/CategorySelectionGuide";
+import CampOutdoorBuyingGuide from "@/components/category/CampOutdoorBuyingGuide";
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
@@ -202,6 +203,10 @@ export default async function CategoryPage({
       )}
       {["5-panel-caps", "patch-hats"].includes(def.slug) && (
         <CategorySelectionGuide locale={locale as Locale} kind={def.slug === "5-panel-caps" ? "five" : "patch"} />
+      )}
+
+      {(def.slug === "camp-caps" || def.slug === "outdoor-caps") && (
+        <CampOutdoorBuyingGuide locale={locale as Locale} kind={def.slug === "camp-caps" ? "camp" : "outdoor"} />
       )}
 
       {/* 该分类下的产品网格,直接用现成的 ProductCard */}

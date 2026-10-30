@@ -6,6 +6,7 @@ import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { pageMetadata } from "@/lib/seo";
 import { categoryDefinitions, categoryUi } from "@/lib/category-content";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export async function generateMetadata({
   params,
@@ -139,6 +140,10 @@ export default function CustomPage({
           </div>
         </div>
       </section>
+
+      <div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+        <RelatedLinks includeFitGuide />
+      </div>
 
       {/* CTA */}
       <section className="bg-amber-600 py-16">

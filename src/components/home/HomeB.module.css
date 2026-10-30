@@ -54,7 +54,10 @@
   align-items: center;
 }
 .heroEyebrow {
-  margin-bottom: 28px;
+  margin: 0 0 28px;
+  font-weight: inherit;
+  line-height: inherit;
+  overflow-wrap: anywhere;
 }
 .heroTitle {
   font-weight: 400;

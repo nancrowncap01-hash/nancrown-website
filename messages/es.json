@@ -354,7 +354,7 @@
     "workshopTeaserButton": "Ver el vídeo"
   },
   "HomeA": {
-    "eyebrow": "Fábrica de gorras en Guangzhou, China — desde 2015",
+    "eyebrow": "Fábrica de gorras y sombreros personalizados en Guangzhou, China",
     "titleLine1": "Fábrica de gorras personalizadas",
     "titleLine2": "en China, desde 50 piezas.",
     "lead": "Una fábrica de gorras de 2.000 m² en Guangzhou, China — con nuestras propias líneas de corte, costura y ensamblaje, respaldadas por socios de bordado, estampado y acabado con los que trabajamos desde hace años. Trabajamos directamente con marcas que necesitan un socio de fabricación, no solo un proveedor de catálogo.",
@@ -473,7 +473,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Fábrica de gorras en Guangzhou, China — desde 2015",
+    "eyebrow": "Fábrica de gorras y sombreros personalizados en Guangzhou, China",
     "titlePrefix": "Gorras,",
     "titleMid": "hechas a ",
     "titleEmphasis": "tu",
@@ -551,6 +551,7 @@
   "Discovery": {
     "title": "Explora gorras y sombreros personalizados por estilo",
     "description": "Compara formas, opciones de logotipo y detalles de pedido para tu próxima colección.",
-    "productTitle": "Opciones de personalización para este estilo"
+    "productTitle": "Opciones de personalización para este estilo",
+    "relatedTitle": "Enlaces relacionados"
   }
 }

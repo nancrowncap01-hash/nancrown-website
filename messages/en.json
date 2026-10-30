@@ -354,7 +354,7 @@
     "workshopTeaserButton": "Watch the video"
   },
   "HomeA": {
-    "eyebrow": "Cap factory in Guangzhou, China — since 2015",
+    "eyebrow": "Custom cap & hat factory in Guangzhou, China",
     "titleLine1": "Private-label headwear,",
     "titleLine2": "built to spec.",
     "lead": "A 2,000 m² cap factory in Guangzhou, China — our own cutting, sewing and assembly lines, backed by long-term embroidery, printing and finishing partners. We work directly with brand owners who need a manufacturing partner, not just a listing.",
@@ -473,7 +473,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Cap factory in Guangzhou, China — since 2015",
+    "eyebrow": "Custom cap & hat factory in Guangzhou, China",
     "titlePrefix": "Headwear,",
     "titleMid": "made to ",
     "titleEmphasis": "your",
@@ -551,6 +551,7 @@
   "Discovery": {
     "title": "Explore custom hats by style",
     "description": "Compare hat shapes, logo options and ordering details for your next collection.",
-    "productTitle": "Customization options for this style"
+    "productTitle": "Customization options for this style",
+    "relatedTitle": "Related"
   }
 }

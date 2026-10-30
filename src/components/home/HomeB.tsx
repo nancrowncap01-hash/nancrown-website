@@ -8,6 +8,7 @@ import { sampleProducts, categories } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
 import FAQ from "@/components/FAQ";
 import CategoryDiscovery from "@/components/CategoryDiscovery";
+import RelatedLinks from "@/components/RelatedLinks";
 import { getPrimaryCategory } from "@/lib/category-content";
 import styles from "./HomeB.module.css";
 
@@ -51,14 +52,14 @@ export default function HomeB() {
       <section className={styles.hero}>
         <div className={`${styles.wrap} ${styles.heroGrid}`}>
           <div>
-            <div className={`${styles.heroEyebrow} ${styles.sc}`}>{t("eyebrow")}</div>
-            <h1 className={`${styles.heroTitle} ${styles.serif}`}>
+            <h1 className={`${styles.heroEyebrow} ${styles.sc}`}>{t("eyebrow")}</h1>
+            <p className={`${styles.heroTitle} ${styles.serif}`}>
               {t("titlePrefix")}
               <br />
               {t("titleMid")}
               <em>{t("titleEmphasis")}</em>
               {t("titleSuffix")}
-            </h1>
+            </p>
             <p className={styles.heroLead}>{t("lead")}</p>
             <a href="#contact" className={styles.inquire}>
               {t("inquireCta")} <span>→</span>
@@ -119,6 +120,7 @@ export default function HomeB() {
                 </div>
               </div>
               <CategoryDiscovery variant="decoration" slugs={["embroidered-caps", "patch-hats", "private-label-hats"]} />
+              <RelatedLinks slugs={["5-panel-caps", "dad-hats"]} includeFitGuide />
             </div>
           </div>
         </div>

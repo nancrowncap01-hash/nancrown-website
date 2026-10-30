@@ -5,6 +5,7 @@ import { guides } from "@/lib/guide-content";
 import { pageMetadata } from "@/lib/seo";
 import GuidePage from "@/components/guide/GuidePage";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
+import RelatedLinks from "@/components/RelatedLinks";
 
 export async function generateMetadata({
   params,
@@ -49,6 +50,9 @@ export default async function PricingPage({
         breadcrumbLabel={tNav("pricing")}
         crossLink={{ href: "/start-a-hat-brand", label: tGuides("pricingToBrand") }}
       />
+      <div className="mx-auto max-w-7xl px-4 pb-12 sm:px-6 lg:px-8">
+        <RelatedLinks slugs={["bucket-hats", "5-panel-caps", "private-label-hats", "patch-hats"]} includeFitGuide />
+      </div>
     </>
   );
 }

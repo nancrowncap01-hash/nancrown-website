@@ -354,7 +354,7 @@
     "workshopTeaserButton": "Voir la vidéo"
   },
   "HomeA": {
-    "eyebrow": "Usine de casquettes à Guangzhou, Chine — depuis 2015",
+    "eyebrow": "Fabricant de casquettes et chapeaux personnalisés à Guangzhou, Chine",
     "titleLine1": "Fabricant de casquettes personnalisées",
     "titleLine2": "en Chine, dès 50 pièces.",
     "lead": "Une usine de casquettes de 2 000 m² à Guangzhou, en Chine — nos propres lignes de coupe, de couture et d'assemblage, appuyées par des partenaires de broderie, d'impression et de finition de longue date. Nous travaillons directement avec des marques qui ont besoin d'un partenaire de fabrication, pas seulement d'un catalogue.",
@@ -473,7 +473,7 @@
     "contactFactoryValue": "Guangzhou, Chine"
   },
   "HomeB": {
-    "eyebrow": "Usine de casquettes à Guangzhou, Chine — depuis 2015",
+    "eyebrow": "Fabricant de casquettes et chapeaux personnalisés à Guangzhou, Chine",
     "titlePrefix": "Des casquettes,",
     "titleMid": "faites à ",
     "titleEmphasis": "votre",
@@ -551,6 +551,7 @@
   "Discovery": {
     "title": "Découvrez nos modèles de casquettes et chapeaux personnalisés",
     "description": "Comparez les formes, les options de logo et les modalités de commande pour votre prochaine collection.",
-    "productTitle": "Options de personnalisation pour ce modèle"
+    "productTitle": "Options de personnalisation pour ce modèle",
+    "relatedTitle": "Liens connexes"
   }
 }

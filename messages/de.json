@@ -354,7 +354,7 @@
     "workshopTeaserButton": "Video ansehen"
   },
   "HomeA": {
-    "eyebrow": "Cap-Fabrik in Guangzhou, China — seit 2015",
+    "eyebrow": "Hersteller für individuelle Caps und Hüte in Guangzhou, China",
     "titleLine1": "Hersteller für individuelle Caps",
     "titleLine2": "in China, ab 50 Stück.",
     "lead": "Eine 2.000 m² große Kappenfabrik in Guangzhou, China — mit eigenen Zuschnitt-, Näh- und Montagelinien, unterstützt von langjährigen Partnern für Stickerei, Druck und Veredelung. Wir arbeiten direkt mit Markeninhabern zusammen, die einen Fertigungspartner brauchen, nicht nur einen Katalog.",
@@ -473,7 +473,7 @@
     "contactFactoryValue": "Guangzhou, China"
   },
   "HomeB": {
-    "eyebrow": "Cap-Fabrik in Guangzhou, China — seit 2015",
+    "eyebrow": "Hersteller für individuelle Caps und Hüte in Guangzhou, China",
     "titlePrefix": "Kopfbedeckungen,",
     "titleMid": "gefertigt nach ",
     "titleEmphasis": "Ihrem",
@@ -551,6 +551,7 @@
   "Discovery": {
     "title": "Individuelle Caps und Hüte nach Stil entdecken",
     "description": "Vergleichen Sie Formen, Logooptionen und Bestelldetails für Ihre nächste Kollektion.",
-    "productTitle": "Individualisierung für dieses Modell"
+    "productTitle": "Individualisierung für dieses Modell",
+    "relatedTitle": "Weiterführende Links"
   }
 }

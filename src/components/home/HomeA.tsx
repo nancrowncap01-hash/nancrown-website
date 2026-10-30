@@ -6,6 +6,7 @@ import { sampleProducts, categories } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
 import FAQ from "@/components/FAQ";
 import CategoryDiscovery from "@/components/CategoryDiscovery";
+import RelatedLinks from "@/components/RelatedLinks";
 import { getPrimaryCategory } from "@/lib/category-content";
 import ContactForm from "@/app/[locale]/contact/ContactForm";
 import styles from "./HomeA.module.css";
@@ -68,12 +69,12 @@ export default function HomeA() {
         </div>
         <div className={styles.heroScrim} />
         <div className={styles.heroInner}>
-          <div className={styles.eyebrow}>{t("eyebrow")}</div>
-          <h1 className={styles.heroTitle}>
+          <h1 className={styles.eyebrow}>{t("eyebrow")}</h1>
+          <p className={styles.heroTitle}>
             {t("titleLine1")}
             <br />
             {t("titleLine2")}
-          </h1>
+          </p>
           <p className={styles.heroLead}>{t("lead")}</p>
           <div className={styles.heroCta}>
             <Link href="/contact" className={`${styles.btn} ${styles.btnSolid}`}>
@@ -185,6 +186,7 @@ export default function HomeA() {
             </div>
           </div>
           <CategoryDiscovery variant="decoration" slugs={["embroidered-caps", "patch-hats", "private-label-hats"]} />
+          <RelatedLinks slugs={["5-panel-caps", "dad-hats"]} includeFitGuide />
         </div>
       </section>
 

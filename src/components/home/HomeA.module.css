@@ -73,12 +73,15 @@
   width: 100%;
 }
 .eyebrow {
+  margin: 0 0 22px;
+  font-weight: inherit;
+  line-height: inherit;
+  overflow-wrap: anywhere;
   font-family: var(--font-plex-mono), monospace;
   font-size: 12.5px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--sand);
-  margin-bottom: 22px;
   display: flex;
   align-items: center;
   gap: 10px;
@@ -86,6 +89,7 @@
 .eyebrow::before {
   content: "";
   width: 26px;
+  flex-shrink: 0;
   height: 1px;
   background: var(--sand);
   display: inline-block;

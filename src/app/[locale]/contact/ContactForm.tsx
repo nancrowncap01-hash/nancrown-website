@@ -4,17 +4,22 @@ import { Suspense, useCallback, useEffect, useRef, useState, type ChangeEvent, t
 import { useTranslations, useLocale } from "next-intl";
 import { useSearchParams } from "next/navigation";
 import { HOME_AB_COOKIE } from "@/lib/home-ab";
-import { readStoredSource } from "@/lib/source-tracking";
+import { captureFirstTouchSource, readStoredSource } from "@/lib/source-tracking";
 import CapSpecificationDownload from "@/components/CapSpecificationDownload";
 import { appendQuoteRequirements, DRAFT_FIELDS, getQuoteCopy, readQuoteDraft, resolveQuoteContext, type QuoteProduct } from "@/lib/quote-context";
 
 // 读浏览器里的 nc_home cookie(首页 A/B 分流标记),没有就返回 undefined
 function readHomeVariantCookie(): string | undefined {
   if (typeof document === "undefined") return undefined;
-  const match = document.cookie.match(
-    new RegExp(`(?:^|; )${HOME_AB_COOKIE}=([^;]*)`)
-  );
-  return match ? decodeURIComponent(match[1]) : undefined;
+  try {
+    const match = document.cookie.match(
+      new RegExp(`(?:^|; )${HOME_AB_COOKIE}=([^;]*)`)
+    );
+    return match ? decodeURIComponent(match[1]) : undefined;
+  } catch {
+    // 来源记录是选填,cookie 被禁也不能挡住提交
+    return undefined;
+  }
 }
 
 // 设计图附件限制:跟接口那边(src/app/api/inquiry/route.ts)保持一致,前端先挡一道给友好提示
@@ -170,6 +175,7 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
     formData.set("locale", locale);
 
     // 带上"访客第一次从哪来"的记录(选填,读不到就不带)
+    captureFirstTouchSource();
     const source = readStoredSource();
     if (source) {
       formData.set("srcReferrer", source.referrer);

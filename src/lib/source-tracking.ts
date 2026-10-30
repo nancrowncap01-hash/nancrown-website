@@ -9,6 +9,8 @@
 
 export const SOURCE_STORAGE_KEY = "nc_src";
 const SOURCE_COOKIE_MAX_AGE_SECONDS = 60 * 60 * 24 * 90; // 90 天兜底
+// 浏览器存储可能用不了:内存里留一份,当前页面和站内跳转还能带上首次来源
+let memorySource: SourceData | null = null;
 
 export type SourceData = {
   referrer: string; // 来源网站域名(已去掉 www,自家域名 nancrown.com 不算"来源")
@@ -40,21 +42,32 @@ function isOwnHost(host: string): boolean {
 
 function readCookieRaw(name: string): string | null {
   if (typeof document === "undefined") return null;
-  const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
-  return match ? decodeURIComponent(match[1]) : null;
+  try {
+    const match = document.cookie.match(new RegExp(`(?:^|; )${name}=([^;]*)`));
+    return match ? decodeURIComponent(match[1]) : null;
+  } catch {
+    return null; // cookie 被禁或内容编码坏了,都不能挡住表单提交
+  }
 }
 
 function writeCookieRaw(name: string, value: string, maxAgeSeconds: number): void {
   if (typeof document === "undefined") return;
-  document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAgeSeconds}; SameSite=Lax`;
+  try {
+    document.cookie = `${name}=${encodeURIComponent(value)}; path=/; max-age=${maxAgeSeconds}; SameSite=Lax`;
+  } catch {
+    // 存不进去也没关系,内存里还有一份
+  }
 }
 
 function parseSource(json: string | null): SourceData | null {
   if (!json) return null;
   try {
     const parsed = JSON.parse(json);
-    if (parsed && typeof parsed === "object") {
-      return { ...EMPTY_SOURCE, ...parsed };
+    if (parsed && typeof parsed === "object" && !Array.isArray(parsed) &&
+        Object.keys(EMPTY_SOURCE).every((key) => typeof parsed[key] === "string") &&
+        parsed.landingPage.startsWith("/") && Number.isFinite(Date.parse(parsed.firstVisit))) {
+      // 只保留约定的来源字段,多余内容不带
+      return Object.fromEntries(Object.keys(EMPTY_SOURCE).map((key) => [key, parsed[key]])) as SourceData;
     }
   } catch {
     // 存的内容损坏了,当没存过处理
@@ -67,23 +80,17 @@ function parseSource(json: string | null): SourceData | null {
 export function captureFirstTouchSource(): void {
   if (typeof window === "undefined") return;
 
-  try {
-    const existingLocal = window.localStorage.getItem(SOURCE_STORAGE_KEY);
-    if (existingLocal) return;
-
-    // localStorage 是空的,但 cookie 还在(比如浏览器清了部分数据)——用 cookie 补回 localStorage,
-    // 同样不算"新的一次",避免把老客户的来源覆盖成"直接访问"
-    const existingCookie = readCookieRaw(SOURCE_STORAGE_KEY);
-    if (existingCookie) {
-      try {
-        window.localStorage.setItem(SOURCE_STORAGE_KEY, existingCookie);
-      } catch {
-        // 存不进 localStorage 也没关系,cookie 那份已经够用了
+  const existing = readStoredSource();
+  if (existing) {
+    memorySource = existing;
+    try {
+      // 用 cookie 那份补回 localStorage;读 localStorage 报错时也不影响
+      const json = JSON.stringify(existing);
+      if (window.localStorage.getItem(SOURCE_STORAGE_KEY) !== json) {
+        window.localStorage.setItem(SOURCE_STORAGE_KEY, json);
       }
-      return;
-    }
-  } catch {
-    // localStorage 读不了(隐私模式/被浏览器拦截),往下走,至少尝试单独存一份 cookie
+    } catch { /* 存不进去不影响提交 */ }
+    return;
   }
 
   // 真·第一次:采集这次访问的来源信息
@@ -118,6 +125,7 @@ export function captureFirstTouchSource(): void {
     firstVisit: new Date().toISOString(),
   };
 
+  memorySource = data;
   const json = JSON.stringify(data);
   try {
     window.localStorage.setItem(SOURCE_STORAGE_KEY, json);
@@ -132,11 +140,12 @@ export function readStoredSource(): SourceData | null {
   if (typeof window === "undefined") return null;
   try {
     const local = window.localStorage.getItem(SOURCE_STORAGE_KEY);
-    if (local) return parseSource(local);
+    const parsed = parseSource(local);
+    if (parsed) return parsed;
   } catch {
     // ignore
   }
-  return parseSource(readCookieRaw(SOURCE_STORAGE_KEY));
+  return parseSource(readCookieRaw(SOURCE_STORAGE_KEY)) ?? memorySource;
 }
 
 export type SourceClassification = {

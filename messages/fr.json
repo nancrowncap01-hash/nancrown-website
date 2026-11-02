@@ -306,7 +306,9 @@
     "attachmentsHint": "Jusqu'à 3 fichiers · JPG, PNG, WEBP ou PDF · 4 Mo au total",
     "attachmentsTooLarge": "Ces fichiers sont trop volumineux. Merci de les envoyer par e-mail à info@nancrown.com.",
     "attachmentsInvalidType": "Type de fichier non pris en charge. Utilisez JPG, PNG, WEBP ou PDF, ou écrivez-nous à info@nancrown.com.",
-    "attachmentsTooMany": "Vous pouvez joindre jusqu'à 3 fichiers. Merci d'envoyer le reste à info@nancrown.com."
+    "attachmentsTooMany": "Vous pouvez joindre jusqu'à 3 fichiers. Merci d'envoyer le reste à info@nancrown.com.",
+    "attachmentsNotSent": "Votre message a bien été envoyé, mais vos fichiers n'ont pas pu être transférés. Merci de les envoyer à info@nancrown.com.",
+    "invalidEmail": "Veuillez vérifier votre adresse e-mail. Elle semble incomplète, par exemple : nom@entreprise.com."
   },
   "FAQ": {
     "title": "FAQ",

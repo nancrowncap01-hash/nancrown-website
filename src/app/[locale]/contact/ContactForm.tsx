@@ -32,6 +32,52 @@ function getExtension(filename: string): string {
   return idx === -1 ? "" : filename.slice(idx).toLowerCase();
 }
 
+// 接口返回的错误代码 → 给客户看的提示(messages 里 Contact 下的键);其它情况用通用提示 error
+const SUBMIT_ERROR_KEYS: Record<string, string> = {
+  invalid_email: "invalidEmail",
+  invalid_file_type: "attachmentsInvalidType",
+  attachment_too_large: "attachmentsTooLarge",
+  too_many_files: "attachmentsTooMany",
+};
+
+async function readSubmitErrorKey(res: Response): Promise<string> {
+  // 413 是 Vercel 直接拦的(请求体超限),不会返回我们的 JSON
+  if (res.status === 413) return "attachmentsTooLarge";
+  try {
+    const data = (await res.json()) as { code?: string };
+    return SUBMIT_ERROR_KEYS[data.code ?? ""] ?? "error";
+  } catch {
+    return "error";
+  }
+}
+
+// 网络断了/手机上的文件读不出来时 fetch 会直接抛错;没带附件也可能是一时断网,所以先原样重试一次
+async function postInquiry(body: FormData): Promise<Response> {
+  try {
+    return await fetch("/api/inquiry", { method: "POST", body });
+  } catch {
+    return await fetch("/api/inquiry", { method: "POST", body });
+  }
+}
+
+// 附件传不上去时,询盘文字不能跟着丢:去掉附件再发一次,并在留言里告诉业务员问客户要文件
+function withoutAttachments(formData: FormData): FormData {
+  const textOnly = new FormData();
+  const names: string[] = [];
+  formData.forEach((value, key) => {
+    if (value instanceof File) {
+      if (value.size > 0) names.push(value.name);
+    } else {
+      textOnly.append(key, value);
+    }
+  });
+  textOnly.set(
+    "message",
+    `${String(formData.get("message") ?? "")}\n\n[Attachments failed to upload, please ask the customer for them: ${names.join(", ")}]`
+  );
+  return textOnly;
+}
+
 type ContactFormProps = {
   // "page" = /contact 独立页(带深色大标题头),"embedded" = 嵌进首页某个板块,只出表单本身
   variant?: "page" | "embedded";
@@ -51,6 +97,8 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
   const [status, setStatus] = useState<"idle" | "sending" | "success" | "error">("idle");
   const [attachmentFiles, setAttachmentFiles] = useState<File[]>([]);
   const [attachmentErrorKey, setAttachmentErrorKey] = useState<string | null>(null);
+  const [submitErrorKey, setSubmitErrorKey] = useState("error");
+  const [attachmentsNotSent, setAttachmentsNotSent] = useState(false);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const formRef = useRef<HTMLFormElement>(null);
   const draftKeyRef = useRef<string | null>(null);
@@ -187,23 +235,33 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
       formData.set("srcFirstVisit", source.firstVisit);
     }
 
+    const hasFiles = formData.getAll("attachments").some((v) => v instanceof File && v.size > 0);
+    let droppedFiles = false;
+
     try {
-      const res = await fetch("/api/inquiry", {
-        method: "POST",
-        body: formData,
-      });
+      let res: Response;
+      try {
+        res = await postInquiry(formData);
+      } catch (networkError) {
+        if (!hasFiles) throw networkError;
+        res = await fetch("/api/inquiry", { method: "POST", body: withoutAttachments(formData) });
+        droppedFiles = true;
+      }
 
       if (res.ok) {
         if (draftKeyRef.current) {
           try { sessionStorage.removeItem(draftKeyRef.current); } catch { /* Optional storage. */ }
         }
+        setAttachmentsNotSent(droppedFiles);
         setStatus("success");
         (e.target as HTMLFormElement).reset();
         resetAttachments();
       } else {
+        setSubmitErrorKey(await readSubmitErrorKey(res));
         setStatus("error");
       }
     } catch {
+      setSubmitErrorKey("error");
       setStatus("error");
     }
   }
@@ -277,6 +335,9 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
                 />
               </svg>
               <p className="text-green-800 font-medium">{t("success")}</p>
+              {attachmentsNotSent && (
+                <p className="mt-3 text-sm text-amber-800">{t("attachmentsNotSent")}</p>
+              )}
             </div>
           ) : (
             <form ref={formRef} onSubmit={handleSubmit} onInput={saveDraft} onChange={saveDraft} className="space-y-6">
@@ -456,7 +517,7 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
 
               {status === "error" && (
                 <div className="bg-red-50 border border-red-200 rounded-lg p-4 text-sm text-red-700">
-                  {t("error")}
+                  {t(submitErrorKey)}
                 </div>
               )}
 

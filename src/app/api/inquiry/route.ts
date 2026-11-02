@@ -44,21 +44,22 @@ const FOUND_VIA_LABELS: Record<string, string> = {
 const MAX_FILES = 3;
 const MAX_TOTAL_BYTES = 4 * 1024 * 1024;
 const ALLOWED_EXTENSIONS = [".jpg", ".jpeg", ".png", ".webp", ".pdf"];
-const ALLOWED_MIME_TYPES = ["image/jpeg", "image/png", "image/webp", "application/pdf"];
+// 浏览器不一定给标准类型(iPhone/iCloud/部分 Windows 会给 octet-stream、image/jpg、application/x-pdf 等),这些都不算类型不符
+const GENERIC_MIME_TYPES = ["application/octet-stream", "binary/octet-stream"];
 
 function getExtension(filename: string): string {
   const idx = filename.lastIndexOf(".");
   return idx === -1 ? "" : filename.slice(idx).toLowerCase();
 }
 
-// 后缀必须在白名单里;浏览器/系统给了 MIME 的话顺手核对一下(防止真实类型和后缀对不上),
-// 没给 MIME(有些工具/curl 测试不带)就只信后缀
+// 后缀必须在白名单里;浏览器/系统给了明确 MIME 的话核对大类(防止真实类型和后缀对不上),
+// 没给或只给通用类型就只信后缀
 function isAllowedFile(file: File): boolean {
   const ext = getExtension(file.name || "");
   if (!ALLOWED_EXTENSIONS.includes(ext)) return false;
   const mime = (file.type || "").toLowerCase();
-  if (mime && !ALLOWED_MIME_TYPES.includes(mime)) return false;
-  return true;
+  if (!mime || GENERIC_MIME_TYPES.includes(mime)) return true;
+  return ext === ".pdf" ? mime.includes("pdf") : mime.startsWith("image/");
 }
 
 function formatBytes(bytes: number): string {
@@ -272,6 +273,11 @@ export async function POST(request: NextRequest) {
     );
   }
 
+  // 邮箱格式不对(比如 a@gmail 没写 .com):浏览器会放行,但发信通道会拒收,这里先挡下来让客户改
+  if (!EMAIL_FORMAT_RE.test(email.trim())) {
+    return NextResponse.json({ error: "invalid_email", code: "invalid_email" }, { status: 400 });
+  }
+
   // 设计图附件(选填):最多 3 个、只收几种常见格式、合计 ≤ 4MB
   const rawFiles = formData
     .getAll("attachments")
@@ -482,7 +488,7 @@ export async function POST(request: NextRequest) {
       // 用子域名:不碰主域名的收信设置,也不会被公司邮箱当成「冒充本域」拦掉
       from: "NanCrown Website <inquiry@notify.nancrown.com>",
       to: [notifyEmail],
-      replyTo: email,
+      replyTo: email.trim(),
       subject,
       html,
       headers: metaHeaders,

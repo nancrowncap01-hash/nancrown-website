@@ -96,11 +96,11 @@
   },
   "About": {
     "title": "Sobre Nosotros",
-    "subtitle": "Fábrica de gorras y sombreros personalizados en Guangzhou, China, fabricando para marcas desde 2015.",
+    "subtitle": "Fabricante de gorras y sombreros personalizados con nuestras propias fábricas en Guangzhou y Dongguan, China, fabricando para marcas desde 2015.",
     "story": "Nuestra Historia",
     "storyText": "NanCrown empezó en 2015 como un pequeño taller de gorras en Guangzhou, China. Hoy somos una fábrica de 2.000 m² con un equipo de más de 30 personas, y fabricamos más de 100.000 gorras al mes para marcas de más de 50 países.",
     "capacity": "Capacidad de Producción",
-    "capacityText": "Nuestro taller ocupa unos 2.000 m² y tiene un equipo de más de 30 personas. Con el corte, la costura y el montaje en nuestro propio taller, y colaboradores de largo plazo para el bordado y el estampado, fabricamos más de 100.000 gorras al mes, así que atendemos tanto una prueba de 50 piezas como un pedido grande y repetido.",
+    "capacityText": "Nuestro taller ocupa unos 2.000 m² y tiene un equipo de más de 30 personas, y tenemos nuestras propias fábricas en Guangzhou y Dongguan, China. Nos hacemos cargo de cada pedido desde el patronaje hasta la inspección final, y cada lote lo revisamos nosotros antes del envío, así que seguimos fabricando más de 100.000 gorras al mes y atendemos tanto una prueba de 50 piezas como un pedido grande y repetido.",
     "certifications": "Control de Calidad",
     "certificationsText": "Cada pedido se revisa en cada etapa de producción, y la producción solo empieza cuando apruebas una muestra de preproducción. Antes del envío te mandamos fotos de las gorras terminadas, y también puedes revisarlas en una videollamada o mediante un inspector externo.",
     "years": "Años de Experiencia",
@@ -168,8 +168,8 @@
         "info@nancrown.com — respondemos en 1–2 días laborables"
       ]
     ],
-    "splitHeading": "Qué hacemos nosotros y quién nos ayuda",
-    "splitIntro": "Así se reparte el trabajo, para que sepas quién fabrica tus gorras.",
+    "howHeading": "Cómo se hace tu pedido",
+    "howIntro": "Un solo equipo se hace cargo de tu pedido, del primer patrón a la inspección final, y cada lote se revisa antes del envío.",
     "ownHeading": "En nuestro taller",
     "ownItems": [
       "Sala de patronaje: patrones y desarrollo de muestras para cada modelo nuevo",
@@ -177,14 +177,14 @@
       "Montaje, conformado y acabado",
       "Control y embalaje"
     ],
-    "partnerHeading": "Con talleres colaboradores de largo plazo",
-    "partnerItems": [
+    "finishHeading": "Acabados que organizamos nosotros",
+    "finishItems": [
       "Bordado, incluidos el bordado 3D (puff) y el de chenilla",
       "Serigrafía, transfer y estampado reflectante",
       "Lavado y teñido en prenda",
       "Corte láser y otros trabajos especiales"
     ],
-    "splitNote": "Lo que hacen los colaboradores vuelve a nuestro taller y se revisa antes de que la gorra pase al siguiente paso.",
+    "checkNote": "Cada decoración y acabado lo organizamos nosotros y se revisa antes de que la gorra pase al siguiente paso.",
     "whoHeading": "Para quién fabricamos gorras",
     "whoItems": [
       {
@@ -220,7 +220,7 @@
     "faq": [
       {
         "q": "¿Sois fábrica o empresa comercializadora?",
-        "a": "Fábrica. El patronaje, el corte, la costura y el montaje se hacen en nuestro propio taller en Guangzhou, China, y trabajamos directamente con los dueños de las marcas. El bordado, el estampado y el lavado los hacen talleres colaboradores de largo plazo y los revisamos nosotros."
+        "a": "Fábrica. Tenemos nuestras propias fábricas en Guangzhou y Dongguan, China, y un solo equipo se hace cargo de cada pedido, del patronaje a la inspección final. Cada lote lo revisamos nosotros antes del envío."
       },
       {
         "q": "¿Dónde está la fábrica?",
@@ -318,7 +318,7 @@
     "q2": "¿Cuál es su cantidad mínima de pedido (MOQ)?",
     "a2": "Mínimo 50 piezas por modelo, color y talla. Los colores del mismo modelo pueden sumarse para alcanzar un tramo, con al menos 50 en cada color/talla. Los modelos distintos se cotizan aparte.",
     "q3": "¿Pueden producir diseños personalizados con nuestro logo?",
-    "a3": "¡Por supuesto! Ofrecemos personalización completa incluyendo bordado, serigrafía, etiquetas tejidas, parches y más. Solo envíenos su logo y requisitos de diseño.",
+    "a3": "¡Por supuesto! Ofrecemos personalización completa incluyendo bordado, serigrafía, etiquetas tejidas, parches y más, y cada decoración la organizamos y revisamos nosotros antes de que las gorras salgan. Somos fabricante y tenemos nuestras propias fábricas en Guangzhou y Dongguan, China: solo envíanos tu logo y tus requisitos de diseño.",
     "q4": "¿Qué materiales utilizan?",
     "a4": "Trabajamos con una amplia gama de materiales incluyendo sarga de algodón, poliéster, nylon, lana, acrílico, pana y telas orgánicas/recicladas. También podemos conseguir materiales específicos según su solicitud.",
     "q5": "¿Cómo manejan el envío?",
@@ -359,7 +359,7 @@
     "eyebrow": "Fábrica de gorras y sombreros personalizados en Guangzhou, China",
     "titleLine1": "Fábrica de gorras personalizadas",
     "titleLine2": "en China, desde 50 piezas.",
-    "lead": "Una fábrica de gorras de 2.000 m² en Guangzhou, China — con nuestras propias líneas de corte, costura y ensamblaje, respaldadas por socios de bordado, estampado y acabado con los que trabajamos desde hace años. Trabajamos directamente con marcas que necesitan un socio de fabricación, no solo un proveedor de catálogo.",
+    "lead": "Nuestras propias fábricas en Guangzhou y Dongguan, China. En nuestra fábrica de gorras de 2.000 m², un solo equipo se hace cargo de cada pedido, del patrón a la inspección final, y cada lote se revisa antes del envío, para dueños de marca que buscan un fabricante y no solo un anuncio.",
     "ctaPrimary": "Solicitar Cotización",
     "ctaSecondary": "Ver Capacidades",
     "statFoundedValue": "2015",
@@ -374,7 +374,7 @@
     "statCountriesLabel": "Países atendidos",
     "capKicker": "Capacidades",
     "capHeading": "Qué fabricamos, y con qué lo fabricamos",
-    "capDescription": "Las especificaciones se fijan en la muestra y se mantienen durante la producción en volumen. El corte, la costura y el ensamblaje se hacen en nuestro propio taller; el bordado, el estampado y los acabados especiales los realizan talleres socios de larga colaboración, y cada lote vuelve a nosotros para revisión antes de continuar.",
+    "capDescription": "Las especificaciones se fijan en la muestra y se mantienen durante la producción en volumen. El corte, la costura y el ensamblaje se hacen en nuestro propio taller, y cada decoración —bordado, estampado y acabados especiales— la organizamos y revisamos nosotros antes de que el lote avance.",
     "stylesHeading": "Estilos de Gorras",
     "styleSubs": [
       "estructuradas y no estructuradas",
@@ -491,7 +491,7 @@
     ],
     "capabilityLabel": "Capacidad",
     "capabilityHeading": "Hecho por gente que conocemos.",
-    "capabilityP1": "El corte, la costura y el ensamblaje ocurren dentro de nuestra propia planta de <b>2.000 m²</b>, a cargo de un equipo de <b>30+</b> manos expertas que llevan años trabajando juntas. El bordado, el estampado y el lavado los realizan talleres socios con los que trabajamos desde hace años, y cada lote vuelve a nosotros para revisión.",
+    "capabilityP1": "Tenemos nuestras propias fábricas en Guangzhou y Dongguan, China. El corte, la costura y el ensamblaje se hacen en nuestro taller de <b>2.000 m²</b>, a cargo de un equipo de <b>30+</b> manos expertas que llevan años trabajando juntas. El bordado, el estampado y el lavado los organizamos y revisamos nosotros, y cada lote se inspecciona antes del envío.",
     "capabilityP2": "Los pedidos parten de <b>50 piezas por color</b>. Una muestra física está lista en <b>7–15 días</b>; un pedido en volumen confirmado se envía en <b>25–30 días</b>. Cada etapa se revisa en el momento, y nada pasa a producción en volumen hasta que apruebes una muestra de preproducción.",
     "stylesLabel": "Estilos que fabricamos",
     "collectionLabel": "Colección",

@@ -2,7 +2,7 @@
   "en": {
     "samplesHeading": "Published product examples",
     "samplesIntro": "These are catalog samples with their listed construction and decoration. They are product references, not completed customer orders.",
-    "outsourcingNote": "Embroidery is handled by our long-standing specialist partner; we coordinate the artwork, sample and bulk production with them.",
+    "embroideryNote": "Embroidery is part of what we offer: we coordinate the artwork, the sample and bulk production, and every batch is checked by us.",
     "sampleLabel": "Catalog sample",
     "codeLabel": "SKU",
     "moqLabel": "Listed MOQ",
@@ -40,7 +40,7 @@
   "es": {
     "samplesHeading": "Ejemplos de productos publicados",
     "samplesIntro": "Son muestras de catálogo con la construcción y decoración indicadas. Sirven como referencia de producto; no son pedidos de clientes ya realizados.",
-    "outsourcingNote": "El bordado lo realiza nuestro socio especialista de larga trayectoria; coordinamos con él el diseño, la muestra y la producción.",
+    "embroideryNote": "El bordado forma parte de lo que ofrecemos: coordinamos el diseño, la muestra y la producción, y cada lote lo revisamos nosotros.",
     "sampleLabel": "Muestra de catálogo",
     "codeLabel": "SKU",
     "moqLabel": "Pedido mínimo indicado",
@@ -78,7 +78,7 @@
   "fr": {
     "samplesHeading": "Exemples de produits publiés",
     "samplesIntro": "Ce sont des modèles du catalogue avec leur construction et leur décoration indiquées. Ils servent de références produit et ne représentent pas des commandes clients déjà réalisées.",
-    "outsourcingNote": "La broderie est réalisée par notre partenaire spécialiste de longue date ; nous coordonnons avec lui le visuel, l'échantillon et la production.",
+    "embroideryNote": "La broderie fait partie de ce que nous proposons : nous coordonnons le visuel, l'échantillon et la production, et chaque lot est contrôlé par nous.",
     "sampleLabel": "Modèle du catalogue",
     "codeLabel": "SKU",
     "moqLabel": "MOQ indiqué",
@@ -116,7 +116,7 @@
   "de": {
     "samplesHeading": "Veröffentlichte Produktbeispiele",
     "samplesIntro": "Das sind Katalogmuster mit den jeweils angegebenen Merkmalen und Stickdetails. Sie dienen als Produktreferenzen und sind keine abgeschlossenen Kundenaufträge.",
-    "outsourcingNote": "Die Stickerei übernimmt unser langjähriger Fachpartner; wir stimmen Motiv, Muster und Serienproduktion mit ihm ab.",
+    "embroideryNote": "Stickerei gehört zu unserem Angebot: Wir stimmen Motiv, Muster und Serienproduktion ab, und jede Charge wird von uns geprüft.",
     "sampleLabel": "Katalogmuster",
     "codeLabel": "SKU",
     "moqLabel": "Angegebene MOQ",

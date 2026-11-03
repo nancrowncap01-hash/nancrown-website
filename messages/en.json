@@ -96,11 +96,11 @@
   },
   "About": {
     "title": "About Us",
-    "subtitle": "A custom cap and hat factory in Guangzhou, China, making caps for brands since 2015.",
+    "subtitle": "A custom cap and hat manufacturer with our own factories in Guangzhou and Dongguan, China, making caps for brands since 2015.",
     "story": "Our Story",
     "storyText": "NanCrown started in 2015 as a small cap workshop in Guangzhou, China. Today we are a 2,000 m² factory with a team of more than 30 people, making over 100,000 caps a month for brands in more than 50 countries.",
     "capacity": "Production Capacity",
-    "capacityText": "Our workshop covers about 2,000 m² with a team of more than 30 people. With cutting, sewing and assembly on our own floor, and long-term partners for embroidery and printing, we make over 100,000 caps a month, so we can take a 50-piece trial and a large repeat order alike.",
+    "capacityText": "Our workshop covers about 2,000 m² with a team of more than 30 people, and we have our own factories in Guangzhou and Dongguan, China. We are responsible for every order from paper pattern to final inspection, so every batch is checked by us before it ships — and we still make over 100,000 caps a month, taking a 50-piece trial and a large repeat order alike.",
     "certifications": "Quality Control",
     "certificationsText": "Every order is checked at each stage of production, and bulk only starts after you approve a pre-production sample. Before the order ships, we send you photos of the finished caps, and you can also check them on a live video call or through a third-party inspector.",
     "years": "Years Experience",
@@ -168,8 +168,8 @@
         "info@nancrown.com — we reply within 1–2 business days"
       ]
     ],
-    "splitHeading": "What we make ourselves, and who helps us",
-    "splitIntro": "Here is how the work is split, so you know who makes your caps.",
+    "howHeading": "How your order is made",
+    "howIntro": "One team is responsible for your order from the first pattern to the final inspection, and every batch is checked before it ships.",
     "ownHeading": "On our own floor",
     "ownItems": [
       "Pattern room: patterns and sample development for every new style",
@@ -177,14 +177,14 @@
       "Assembly, shaping and finishing",
       "Checking and packing"
     ],
-    "partnerHeading": "With long-term partner workshops",
-    "partnerItems": [
+    "finishHeading": "Decoration and finishing we arrange",
+    "finishItems": [
       "Embroidery, including 3D puff and chenille",
       "Screen, heat-transfer and reflective printing",
       "Washing and garment dyeing",
       "Laser cutting and other specialty work"
     ],
-    "splitNote": "Partner work comes back to our floor, where it is checked before the cap moves to the next step.",
+    "checkNote": "Every decoration and finish is arranged by us and checked before the cap moves to the next step.",
     "whoHeading": "Who we make caps for",
     "whoItems": [
       {
@@ -220,7 +220,7 @@
     "faq": [
       {
         "q": "Are you a factory or a trading company?",
-        "a": "A factory. Pattern making, cutting, sewing and assembly are done on our own floor in Guangzhou, China, and we work directly with brand owners. Embroidery, printing and washing are done by long-term partner workshops and checked by us."
+        "a": "A manufacturer. We have our own factories in Guangzhou and Dongguan, China, and one team is responsible for every order from pattern making to final inspection. Every batch is checked by us before it ships."
       },
       {
         "q": "Where is your factory?",
@@ -318,7 +318,7 @@
     "q2": "What is your minimum order quantity (MOQ)?",
     "a2": "Minimum 50 pieces per style, colour and size. Colours within the same style can reach a price tier together, with at least 50 in every colour/size. Different styles are quoted separately.",
     "q3": "Can you produce custom designs with our logo?",
-    "a3": "Absolutely! We offer full customization including embroidery, screen printing, woven labels, patches, and more. Just send us your logo and design requirements.",
+    "a3": "Absolutely! We offer full customization including embroidery, screen printing, woven labels, patches, and more, and every decoration is arranged and checked by us before the caps ship. We are a manufacturer with our own factories in Guangzhou and Dongguan, China — just send us your logo and design requirements.",
     "q4": "What materials do you use?",
     "a4": "We work with a wide range of materials including cotton twill, polyester, nylon, wool, acrylic, corduroy, and organic/recycled fabrics. We can also source specific materials per your request.",
     "q5": "How do you handle shipping?",
@@ -359,7 +359,7 @@
     "eyebrow": "Custom cap & hat factory in Guangzhou, China",
     "titleLine1": "Private-label headwear,",
     "titleLine2": "built to spec.",
-    "lead": "A 2,000 m² cap factory in Guangzhou, China — our own cutting, sewing and assembly lines, backed by long-term embroidery, printing and finishing partners. We work directly with brand owners who need a manufacturing partner, not just a listing.",
+    "lead": "Our own factories in Guangzhou and Dongguan, China. In our 2,000 m² cap factory, one team is responsible for every order from paper pattern to final inspection, and every batch is checked before it ships — we work with brand owners who need a manufacturer, not just a listing.",
     "ctaPrimary": "Request a Quote",
     "ctaSecondary": "See Capabilities",
     "statFoundedValue": "2015",
@@ -374,7 +374,7 @@
     "statCountriesLabel": "Countries shipped to",
     "capKicker": "Capabilities",
     "capHeading": "What we build, and what we build it with",
-    "capDescription": "Specs are locked at sampling, then held through bulk production. Cutting, sewing and assembly run inside our own workshop; embroidery, printing and specialty finishes are handled by long-term partner workshops, and every batch is checked back in before it moves on.",
+    "capDescription": "Specs are locked at sampling, then held through bulk production. Cutting, sewing and assembly run inside our own workshop, and every decoration — embroidery, printing and specialty finishes — is arranged and checked by us before the batch moves on.",
     "stylesHeading": "Hat Styles",
     "styleSubs": [
       "structured & unstructured",
@@ -491,7 +491,7 @@
     ],
     "capabilityLabel": "Capability",
     "capabilityHeading": "Made by people we know.",
-    "capabilityP1": "Cutting, sewing and assembly happen inside our own <b>2,000 m²</b> facility, run by a team of <b>30+</b> skilled hands who have worked together for years. Embroidery, printing and washing are handled by partner workshops we've used for years, and every batch comes back to us for checking.",
+    "capabilityP1": "We have our own factories in Guangzhou and Dongguan, China. Cutting, sewing and assembly run in our <b>2,000 m²</b> workshop with a team of <b>30+</b> skilled hands who have worked together for years. Embroidery, printing and washing are arranged and checked by us, and every batch is inspected before it ships.",
     "capabilityP2": "Orders start from <b>50 pieces per colour</b>. A physical sample is ready in <b>7–15 days</b>; a confirmed bulk order ships in <b>25–30 days</b>. Every stage is checked as it happens, and nothing moves to bulk production until you've approved a pre-production sample.",
     "stylesLabel": "Styles we build",
     "collectionLabel": "Collection",

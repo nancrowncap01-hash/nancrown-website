@@ -97,7 +97,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
     ],
     inhouseHeading: "What we do ourselves",
     inhouseText:
-      "Pattern making, cutting, sewing, shaping and packing happen in our own workshop. Embroidery, printing and washing are done by partner workshops we have worked with for years, and every batch is checked when it comes back to us.",
+      "Pattern making, cutting, sewing, shaping and packing happen in our own workshop in Guangzhou. We have our own factories in Guangzhou and Dongguan, China, and one team is responsible for every order from pattern to final inspection: embroidery, printing and washing are arranged and checked by us, and every batch is inspected before it ships.",
     liveHeading: "See your own order",
     liveText:
       "We do live video calls of the workshop on request, so you can see your caps on the line. Third-party inspection is welcome before the order ships.",
@@ -150,7 +150,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
     ],
     inhouseHeading: "Lo que hacemos nosotros",
     inhouseText:
-      "El patronaje, el corte, la costura, el moldeado y el embalaje se hacen en nuestro propio taller. El bordado, la estampación y el lavado los hacen talleres asociados con los que trabajamos desde hace años, y cada lote se revisa cuando vuelve a nosotros.",
+      "El patronaje, el corte, la costura, el moldeado y el embalaje se hacen en nuestro propio taller en Guangzhou. Tenemos nuestras propias fábricas en Guangzhou y Dongguan, China, y un solo equipo se hace cargo de cada pedido, del patrón a la inspección final: el bordado, el estampado y el lavado los organizamos y revisamos nosotros, y cada lote se inspecciona antes del envío.",
     liveHeading: "Vea su propio pedido",
     liveText:
       "Si lo solicita, hacemos videollamadas en directo desde el taller para que vea sus gorras en la línea de producción. Se aceptan inspecciones de terceros antes del envío.",
@@ -203,7 +203,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
     ],
     inhouseHeading: "Ce que nous faisons nous-mêmes",
     inhouseText:
-      "Le patronage, la découpe, la couture, la mise en forme et l'emballage se font dans notre propre atelier. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires avec qui nous travaillons depuis des années, et chaque lot est contrôlé à son retour chez nous.",
+      "Le patronage, la découpe, la couture, la mise en forme et l'emballage se font dans notre propre atelier à Guangzhou. Nous avons nos propres usines à Guangzhou et Dongguan, en Chine, et une seule équipe assume chaque commande, du patron au contrôle final : la broderie, l'impression et le délavage sont organisés et contrôlés par nous, et chaque lot est contrôlé avant l'expédition.",
     liveHeading: "Voir votre propre commande",
     liveText:
       "Nous faisons des appels vidéo en direct depuis l'atelier sur demande, pour que vous voyiez vos casquettes en production. Les inspections par un tiers sont les bienvenues avant l'expédition.",
@@ -256,7 +256,7 @@ export const factoryContent: Record<Locale, FactoryLocaleContent> = {
     ],
     inhouseHeading: "Was wir selbst machen",
     inhouseText:
-      "Schnittmuster, Zuschnitt, Nähen, Formen und Verpacken erledigen wir in unserer eigenen Werkstatt. Stickerei, Druck und Waschung übernehmen Partnerwerkstätten, mit denen wir seit Jahren arbeiten, und jede Charge wird geprüft, wenn sie zu uns zurückkommt.",
+      "Schnittmuster, Zuschnitt, Nähen, Formen und Verpacken erledigen wir in unserer eigenen Werkstatt in Guangzhou. Wir haben eigene Fabriken in Guangzhou und Dongguan, China, und ein Team verantwortet jeden Auftrag vom Schnittmuster bis zur Endkontrolle: Stickerei, Druck und Waschung werden von uns abgewickelt und geprüft, und jede Charge wird vor dem Versand kontrolliert.",
     liveHeading: "Ihren eigenen Auftrag sehen",
     liveText:
       "Auf Wunsch machen wir Live-Videocalls aus der Werkstatt, damit Sie Ihre Caps in der Produktion sehen. Eine Prüfung durch Dritte vor dem Versand ist willkommen.",

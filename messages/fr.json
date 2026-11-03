@@ -96,11 +96,11 @@
   },
   "About": {
     "title": "À Propos",
-    "subtitle": "Usine de casquettes et chapeaux personnalisés à Guangzhou, en Chine, au service des marques depuis 2015.",
+    "subtitle": "Fabricant de casquettes et chapeaux personnalisés avec nos propres usines à Guangzhou et Dongguan, en Chine, au service des marques depuis 2015.",
     "story": "Notre Histoire",
     "storyText": "NanCrown a commencé en 2015 comme un petit atelier de casquettes à Guangzhou, en Chine. Aujourd'hui, nous sommes une usine de 2 000 m² avec une équipe de plus de 30 personnes, et nous fabriquons plus de 100 000 casquettes par mois pour des marques de plus de 50 pays.",
     "capacity": "Capacité de Production",
-    "capacityText": "Notre atelier fait environ 2 000 m² avec une équipe de plus de 30 personnes. Avec la coupe, la couture et l'assemblage dans notre propre atelier, et des partenaires de longue date pour la broderie et l'impression, nous fabriquons plus de 100 000 casquettes par mois : un essai de 50 pièces comme une grosse commande récurrente.",
+    "capacityText": "Notre atelier fait environ 2 000 m² avec une équipe de plus de 30 personnes, et nous avons nos propres usines à Guangzhou et Dongguan, en Chine. Nous assumons chaque commande du patronage au contrôle final, et chaque lot est contrôlé par nous avant l'expédition : nous fabriquons ainsi plus de 100 000 casquettes par mois, pour un essai de 50 pièces comme pour une grosse commande récurrente.",
     "certifications": "Contrôle Qualité",
     "certificationsText": "Chaque commande est contrôlée à chaque étape de production, et la production ne démarre qu'après validation d'un échantillon de pré-production. Avant l'expédition, nous vous envoyons des photos des casquettes terminées, et vous pouvez aussi les vérifier en appel vidéo ou via un inspecteur indépendant.",
     "years": "Années d'Expérience",
@@ -168,8 +168,8 @@
         "info@nancrown.com — réponse sous 1 à 2 jours ouvrés"
       ]
     ],
-    "splitHeading": "Ce que nous faisons nous-mêmes, et qui nous aide",
-    "splitIntro": "Voici comment le travail est réparti, pour que vous sachiez qui fabrique vos casquettes.",
+    "howHeading": "Comment votre commande est fabriquée",
+    "howIntro": "Une seule équipe assume votre commande, du premier patron au contrôle final, et chaque lot est contrôlé avant l'expédition.",
     "ownHeading": "Dans notre atelier",
     "ownItems": [
       "Salle de patronage : patrons et développement des échantillons pour chaque nouveau modèle",
@@ -177,14 +177,14 @@
       "Assemblage, mise en forme et finition",
       "Contrôle et emballage"
     ],
-    "partnerHeading": "Avec des ateliers partenaires de longue date",
-    "partnerItems": [
+    "finishHeading": "Les finitions que nous organisons",
+    "finishItems": [
       "Broderie, y compris la broderie 3D (puff) et chenille",
       "Sérigraphie, transfert et impression réfléchissante",
       "Délavage et teinture en pièce",
       "Découpe laser et autres travaux spéciaux"
     ],
-    "splitNote": "Le travail des partenaires revient dans notre atelier, où il est contrôlé avant que la casquette passe à l'étape suivante.",
+    "checkNote": "Chaque décoration et finition est organisée par nous et contrôlée avant que la casquette passe à l'étape suivante.",
     "whoHeading": "Pour qui nous fabriquons",
     "whoItems": [
       {
@@ -220,7 +220,7 @@
     "faq": [
       {
         "q": "Êtes-vous une usine ou une société de négoce ?",
-        "a": "Une usine. Le patronage, la coupe, la couture et l'assemblage sont faits dans notre propre atelier à Guangzhou, en Chine, et nous travaillons directement avec les propriétaires de marques. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires de longue date et contrôlés par nous."
+        "a": "Un fabricant. Nous avons nos propres usines à Guangzhou et Dongguan, en Chine, et une seule équipe assume chaque commande, du patronage au contrôle final. Chaque lot est contrôlé par nous avant l'expédition."
       },
       {
         "q": "Où se trouve votre usine ?",
@@ -318,7 +318,7 @@
     "q2": "Quelle est votre quantité minimum de commande (MOQ) ?",
     "a2": "Minimum 50 pièces par modèle, couleur et taille. Les couleurs d’un même modèle peuvent se cumuler pour un palier, avec au moins 50 dans chaque couleur/taille. Les modèles différents sont chiffrés séparément.",
     "q3": "Pouvez-vous produire des designs personnalisés avec notre logo ?",
-    "a3": "Absolument ! Nous offrons une personnalisation complète incluant broderie, sérigraphie, étiquettes tissées, patchs et plus. Envoyez-nous simplement votre logo et vos exigences de design.",
+    "a3": "Absolument ! Nous offrons une personnalisation complète incluant broderie, sérigraphie, étiquettes tissées, patchs et plus, et chaque décoration est organisée et contrôlée par nous avant l'expédition. Nous sommes un fabricant avec nos propres usines à Guangzhou et Dongguan, en Chine — envoyez-nous simplement votre logo et vos exigences de design.",
     "q4": "Quels matériaux utilisez-vous ?",
     "a4": "Nous travaillons avec une large gamme de matériaux incluant sergé de coton, polyester, nylon, laine, acrylique, velours côtelé et tissus organiques/recyclés. Nous pouvons également sourcer des matériaux spécifiques selon votre demande.",
     "q5": "Comment gérez-vous l'expédition ?",
@@ -359,7 +359,7 @@
     "eyebrow": "Fabricant de casquettes et chapeaux personnalisés à Guangzhou, Chine",
     "titleLine1": "Fabricant de casquettes personnalisées",
     "titleLine2": "en Chine, dès 50 pièces.",
-    "lead": "Une usine de casquettes de 2 000 m² à Guangzhou, en Chine — nos propres lignes de coupe, de couture et d'assemblage, appuyées par des partenaires de broderie, d'impression et de finition de longue date. Nous travaillons directement avec des marques qui ont besoin d'un partenaire de fabrication, pas seulement d'un catalogue.",
+    "lead": "Nos propres usines à Guangzhou et Dongguan, en Chine. Dans notre usine de casquettes de 2 000 m², une seule équipe assume chaque commande, du patron au contrôle final, et chaque lot est contrôlé avant l'expédition, pour des propriétaires de marques qui cherchent un fabricant, pas une simple annonce.",
     "ctaPrimary": "Demander un Devis",
     "ctaSecondary": "Voir les Capacités",
     "statFoundedValue": "2015",
@@ -374,7 +374,7 @@
     "statCountriesLabel": "Pays livrés",
     "capKicker": "Capacités",
     "capHeading": "Ce que nous fabriquons, et avec quoi",
-    "capDescription": "Les spécifications sont fixées à l'échantillonnage, puis conservées jusqu'à la production en volume. La coupe, la couture et l'assemblage se font dans notre propre atelier ; la broderie, l'impression et les finitions spéciales sont confiées à des ateliers partenaires de longue date, et chaque lot revient chez nous pour contrôle avant de poursuivre.",
+    "capDescription": "Les spécifications sont fixées à l'échantillonnage, puis conservées jusqu'à la production en volume. La coupe, la couture et l'assemblage se font dans notre propre atelier, et chaque décoration — broderie, impression et finitions spéciales — est organisée et contrôlée par nous avant que le lot n'avance.",
     "stylesHeading": "Styles de Casquettes",
     "styleSubs": [
       "structurées et non structurées",
@@ -491,7 +491,7 @@
     ],
     "capabilityLabel": "Savoir-faire",
     "capabilityHeading": "Fabriqué par des gens que nous connaissons.",
-    "capabilityP1": "La coupe, la couture et l'assemblage se font dans notre propre atelier de <b>2 000 m²</b>, animé par une équipe de <b>30+</b> mains expertes qui travaillent ensemble depuis des années. La broderie, l'impression et le lavage sont confiés à des ateliers partenaires de longue date, et chaque lot nous revient pour contrôle.",
+    "capabilityP1": "Nous avons nos propres usines à Guangzhou et Dongguan, en Chine. La coupe, la couture et l'assemblage se font dans notre atelier de <b>2 000 m²</b>, animé par une équipe de <b>30+</b> mains expertes qui travaillent ensemble depuis des années. La broderie, l'impression et le délavage sont organisés et contrôlés par nous, et chaque lot est contrôlé avant l'expédition.",
     "capabilityP2": "Les commandes démarrent à <b>50 pièces par couleur</b>. Un échantillon physique est prêt en <b>7 à 15 jours</b> ; une commande en volume confirmée est expédiée en <b>25 à 30 jours</b>. Chaque étape est contrôlée au fil de l'eau, et rien ne passe en production en volume avant votre validation d'un échantillon de préproduction.",
     "stylesLabel": "Styles que nous fabriquons",
     "collectionLabel": "Collection",

@@ -56,7 +56,7 @@ export default function AboutPage({
   // 数组/对象类的 key 用 t.raw(...) 原样取出,不经过 next-intl 的字符串插值
   const glanceRows = t.raw("glanceRows") as string[][];
   const ownItems = t.raw("ownItems") as string[];
-  const partnerItems = t.raw("partnerItems") as string[];
+  const finishItems = t.raw("finishItems") as string[];
   const whoItems = t.raw("whoItems") as { title: string; text: string; href: string }[];
   const faq = t.raw("faq") as { q: string; a: string }[];
 
@@ -146,14 +146,14 @@ export default function AboutPage({
         </div>
       </section>
 
-      {/* 自己做 / 合作伙伴做 */}
+      {/* 订单怎么做 / 装饰与后道由我们安排和把关 */}
       <section className="py-20">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
           <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 mb-3">
-            {t("splitHeading")}
+            {t("howHeading")}
           </h2>
           <p className="text-gray-600 leading-relaxed max-w-3xl mb-10">
-            {t("splitIntro")}
+            {t("howIntro")}
           </p>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm">
@@ -171,10 +171,10 @@ export default function AboutPage({
             </div>
             <div className="bg-white rounded-xl p-6 sm:p-8 border border-gray-100 shadow-sm">
               <h3 className="text-lg font-bold text-gray-900 mb-4">
-                {t("partnerHeading")}
+                {t("finishHeading")}
               </h3>
               <ul className="space-y-3">
-                {partnerItems.map((item, i) => (
+                {finishItems.map((item, i) => (
                   <li key={i} className="flex items-start gap-3">
                     <CheckIcon />
                     <span className="text-gray-700 leading-relaxed">{item}</span>
@@ -184,7 +184,7 @@ export default function AboutPage({
             </div>
           </div>
           <p className="mt-6 text-sm text-gray-500 leading-relaxed max-w-3xl">
-            {t("splitNote")}
+            {t("checkNote")}
           </p>
         </div>
       </section>

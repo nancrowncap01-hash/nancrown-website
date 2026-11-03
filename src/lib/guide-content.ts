@@ -9,7 +9,7 @@
 //   - 起订 50 顶/色/款;同款可混色凑档;样品普通款 $50/个(不含运费)、复杂款另报,7–15 天,同款大货满 1000 顶退样品费
 //   - 大货:样品确认并收到约定款项后 25–30 天,另加物流时间;付款按整单总量分档:≤200 全款生产前,201–500 50/50,>500 30/70(后两档尾款发货前;发货前先发大货照片)
 //   - 2015 年成立、约 2,000 m²、30+ 员工、月产 10 万+、客户 50+ 国家
-//   - 裁剪车缝组装自己做;刺绣/印花/水洗交长期合作工序厂、每批回厂检查(🔴 不许写 in-house / under one roof / 不外发)
+//   - 对外只说:自有工厂(广州、东莞)、从纸样到最终检验由我们负责、每批货都经我们检查;工艺由我们安排和把关,不写谁来做(🔴 不许写 in-house / under one roof / 不外发,也不许写「所有工序自己做」)
 //   - 没有任何认证,一个字都不许写
 // 改数字前先改那份记忆文件,两边保持一致。
 //
@@ -139,7 +139,7 @@ const pricingEn: GuideLocaleContent = {
     { type: "h2", text: "Who you are working with" },
     {
       type: "p",
-      text: "NanCrown is a cap manufacturer in Guangzhou, China, founded in 2015: a <b>2,000 m²</b> facility, <b>30+ skilled workers</b> and capacity for <b>100,000+ caps a month</b>, shipping to customers in <b>50+ countries</b>. Cutting, sewing and assembly run in our own workshop. Embroidery, printing and washing are done by partner workshops we have worked with for years, and every batch comes back to us for checking.",
+      text: "NanCrown is a cap manufacturer in Guangzhou, China, founded in 2015: a <b>2,000 m²</b> facility, <b>30+ skilled workers</b> and capacity for <b>100,000+ caps a month</b>, shipping to customers in <b>50+ countries</b>. We have our own factories in Guangzhou and Dongguan, and we are responsible for every order from paper pattern to final inspection. Cutting, sewing and assembly run in our own workshop; embroidery, printing and washing are arranged and checked by us, and every batch is checked before it ships.",
     },
     { type: "h2", text: "What to send for a quote" },
     {
@@ -194,7 +194,7 @@ const pricingEn: GuideLocaleContent = {
     },
     {
       q: "Are you a factory or a trading company?",
-      a: "A manufacturer. Cutting, sewing and assembly are done in our own workshop in Guangzhou; embroidery, printing and washing are handled by long-term partner workshops and checked by us.",
+      a: "A manufacturer. We have our own factories in Guangzhou and Dongguan, China, and one team is responsible for every order from pattern making to final inspection; every batch is checked by us before it ships.",
     },
   ],
   cta: {
@@ -294,7 +294,7 @@ const pricingEs: GuideLocaleContent = {
     { type: "h2", text: "Con quién trabajas" },
     {
       type: "p",
-      text: "NanCrown es un fabricante de gorras en Guangzhou (China), fundado en 2015: una instalación de <b>2.000 m²</b>, <b>más de 30 trabajadores</b> cualificados y capacidad para <b>más de 100.000 gorras al mes</b>, con clientes en <b>más de 50 países</b>. El corte, la costura y el montaje se hacen en nuestro propio taller. El bordado, el estampado y el lavado los realizan talleres colaboradores con los que trabajamos desde hace años, y cada lote vuelve a nosotros para su revisión.",
+      text: "NanCrown es un fabricante de gorras en Guangzhou (China), fundado en 2015: una instalación de <b>2.000 m²</b>, <b>más de 30 trabajadores</b> cualificados y capacidad para <b>más de 100.000 gorras al mes</b>, con clientes en <b>más de 50 países</b>. Tenemos nuestras propias fábricas en Guangzhou y Dongguan, y nos hacemos cargo de cada pedido desde el patronaje hasta la inspección final. El corte, la costura y el montaje se hacen en nuestro propio taller; el bordado, el estampado y el lavado los organizamos y revisamos nosotros, y cada lote se revisa antes del envío.",
     },
     { type: "h2", text: "Qué enviarnos para cotizar" },
     {
@@ -349,7 +349,7 @@ const pricingEs: GuideLocaleContent = {
     },
     {
       q: "¿Sois fábrica o empresa comercializadora?",
-      a: "Somos fabricante. El corte, la costura y el montaje se hacen en nuestro propio taller en Guangzhou; el bordado, el estampado y el lavado los realizan talleres colaboradores de confianza y los revisamos nosotros.",
+      a: "Somos fabricante. Tenemos nuestras propias fábricas en Guangzhou y Dongguan, China, y un solo equipo se hace cargo de cada pedido, del patronaje a la inspección final; cada lote lo revisamos nosotros antes del envío.",
     },
   ],
   cta: {
@@ -449,7 +449,7 @@ const pricingFr: GuideLocaleContent = {
     { type: "h2", text: "Avec qui vous travaillez" },
     {
       type: "p",
-      text: "NanCrown est un fabricant de casquettes à Guangzhou (Chine), fondé en 2015 : un site de <b>2 000 m²</b>, <b>plus de 30 ouvriers</b> qualifiés et une capacité de <b>plus de 100 000 casquettes par mois</b>, avec des clients dans <b>plus de 50 pays</b>. La coupe, la couture et l'assemblage se font dans notre propre atelier. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires avec lesquels nous travaillons depuis des années, et chaque lot revient chez nous pour contrôle.",
+      text: "NanCrown est un fabricant de casquettes à Guangzhou (Chine), fondé en 2015 : un site de <b>2 000 m²</b>, <b>plus de 30 ouvriers</b> qualifiés et une capacité de <b>plus de 100 000 casquettes par mois</b>, avec des clients dans <b>plus de 50 pays</b>. Nous avons nos propres usines à Guangzhou et Dongguan, et nous assumons chaque commande du patronage au contrôle final. La coupe, la couture et l'assemblage se font dans notre propre atelier ; la broderie, l'impression et le délavage sont organisés et contrôlés par nous, et chaque lot est contrôlé avant l'expédition.",
     },
     { type: "h2", text: "Ce qu'il faut nous envoyer pour un devis" },
     {
@@ -504,7 +504,7 @@ const pricingFr: GuideLocaleContent = {
     },
     {
       q: "Êtes-vous une usine ou une société de négoce ?",
-      a: "Un fabricant. La coupe, la couture et l'assemblage sont réalisés dans notre propre atelier à Guangzhou ; la broderie, l'impression et le délavage sont confiés à des ateliers partenaires de longue date et contrôlés par nous.",
+      a: "Un fabricant. Nous avons nos propres usines à Guangzhou et Dongguan, en Chine, et une seule équipe assume chaque commande, du patronage au contrôle final ; chaque lot est contrôlé par nous avant l'expédition.",
     },
   ],
   cta: {
@@ -604,7 +604,7 @@ const pricingDe: GuideLocaleContent = {
     { type: "h2", text: "Mit wem Sie arbeiten" },
     {
       type: "p",
-      text: "NanCrown ist ein Cap-Hersteller in Guangzhou, China, gegründet 2015: <b>2.000 m²</b> Fläche, <b>über 30 Fachkräfte</b> und eine Kapazität von <b>über 100.000 Caps pro Monat</b>, mit Kunden in <b>über 50 Ländern</b>. Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt. Stickerei, Druck und Waschung übernehmen Partnerwerkstätten, mit denen wir seit Jahren arbeiten, und jede Charge kommt zur Prüfung zu uns zurück.",
+      text: "NanCrown ist ein Cap-Hersteller in Guangzhou, China, gegründet 2015: <b>2.000 m²</b> Fläche, <b>über 30 Fachkräfte</b> und eine Kapazität von <b>über 100.000 Caps pro Monat</b>, mit Kunden in <b>über 50 Ländern</b>. Wir haben eigene Fabriken in Guangzhou und Dongguan und verantworten jeden Auftrag vom Schnittmuster bis zur Endkontrolle. Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt; Stickerei, Druck und Waschung werden von uns abgewickelt und geprüft, und jede Charge wird vor dem Versand kontrolliert.",
     },
     { type: "h2", text: "Was Sie uns für ein Angebot schicken" },
     {
@@ -659,7 +659,7 @@ const pricingDe: GuideLocaleContent = {
     },
     {
       q: "Sind Sie Hersteller oder Händler?",
-      a: "Hersteller. Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt in Guangzhou; Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, geprüft von uns.",
+      a: "Hersteller. Wir haben eigene Fabriken in Guangzhou und Dongguan, China, und ein Team verantwortet jeden Auftrag vom Schnittmuster bis zur Endkontrolle; jede Charge wird von uns vor dem Versand geprüft.",
     },
   ],
   cta: {
@@ -1122,15 +1122,15 @@ const factoryEn: GuideLocaleContent = {
     },
     {
       "type": "h2",
-      "text": "5. Which steps do you do yourselves, and which go to partner workshops?"
+      "text": "5. Who is responsible for every stage of the order, and who inspects the finished caps?"
     },
     {
       "type": "p",
-      "text": "<b>Why it matters:</b> almost every cap factory uses partner workshops for some steps, such as embroidery, printing or washing. That is normal. What matters is that the factory tells you honestly and checks the partner work before it goes into your caps."
+      "text": "<b>Why it matters:</b> some factories run every stage on their own floor; others work with specialists for particular processes. Both are common. What matters is that one company is accountable for the whole order and that the finished caps are inspected before they ship."
     },
     {
       "type": "p",
-      "text": "<b>Our answer:</b> pattern making, cutting, sewing and assembly are done on our own floor in Guangzhou. Embroidery, printing and washing are done by partner workshops we have worked with for years, and we check every batch before it moves to the next step."
+      "text": "<b>Our answer:</b> NanCrown is accountable for the whole order. We are a manufacturer with our own factories in Guangzhou and Dongguan, China; pattern making, cutting, sewing, assembly and decoration are all coordinated by us, and every batch is inspected before it moves to the next step and again before it ships."
     },
     {
       "type": "h2",
@@ -1220,7 +1220,7 @@ const factoryEn: GuideLocaleContent = {
   "faq": [
     {
       "q": "How do I know if a supplier is a real factory?",
-      "a": "Ask to see the sewing floor on a live video call, ask who makes the patterns and samples, and ask which steps go to partner workshops. A factory can answer all three straight away."
+      "a": "Ask to see the sewing floor on a live video call, ask who makes the patterns and samples, and ask who is accountable for every stage of the order and how the finished caps are inspected. A factory can answer all three straight away."
     },
     {
       "q": "What is a normal minimum order for custom caps in China?",
@@ -1306,15 +1306,15 @@ const factoryEs: GuideLocaleContent = {
     },
     {
       "type": "h2",
-      "text": "5. ¿Qué pasos hacéis vosotros y cuáles van a talleres colaboradores?"
+      "text": "5. ¿Quién es responsable de cada etapa del pedido y quién revisa las gorras terminadas?"
     },
     {
       "type": "p",
-      "text": "<b>Por qué importa:</b> casi todas las fábricas de gorras usan talleres colaboradores para algún paso, como el bordado, el estampado o el lavado. Es normal. Lo importante es que la fábrica te lo diga con honestidad y revise ese trabajo antes de que entre en tus gorras."
+      "text": "<b>Por qué importa:</b> algunas fábricas hacen cada etapa en su propio taller; otras trabajan con especialistas en procesos concretos. Las dos cosas son habituales. Lo importante es que una sola empresa responda por todo el pedido y que las gorras terminadas se revisen antes del envío."
     },
     {
       "type": "p",
-      "text": "<b>Nuestra respuesta:</b> el patronaje, el corte, la costura y el montaje se hacen en nuestro propio taller en Guangzhou. El bordado, el estampado y el lavado los hacen talleres colaboradores con los que trabajamos desde hace años, y revisamos cada lote antes de pasar al siguiente paso."
+      "text": "<b>Nuestra respuesta:</b> en NanCrown respondemos por todo el pedido. Somos fabricante y tenemos nuestras propias fábricas en Guangzhou y Dongguan, China; el patronaje, el corte, la costura, el montaje y la decoración los coordinamos nosotros, y cada lote se revisa antes de pasar al siguiente paso y otra vez antes del envío."
     },
     {
       "type": "h2",
@@ -1404,7 +1404,7 @@ const factoryEs: GuideLocaleContent = {
   "faq": [
     {
       "q": "¿Cómo sé si un proveedor es una fábrica de verdad?",
-      "a": "Pide ver el taller de costura en una videollamada, pregunta quién hace los patrones y las muestras, y qué pasos van a talleres colaboradores. Una fábrica responde a las tres cosas al momento."
+      "a": "Pide ver el taller de costura en una videollamada, pregunta quién hace los patrones y las muestras, y quién responde por cada etapa del pedido y cómo se revisan las gorras terminadas. Una fábrica responde a las tres cosas al momento."
     },
     {
       "q": "¿Cuál es un pedido mínimo normal para gorras personalizadas en China?",
@@ -1490,15 +1490,15 @@ const factoryFr: GuideLocaleContent = {
     },
     {
       "type": "h2",
-      "text": "5. Quelles étapes faites-vous vous-mêmes, et lesquelles partent chez des partenaires ?"
+      "text": "5. Qui est responsable de chaque étape de la commande, et qui contrôle les casquettes terminées ?"
     },
     {
       "type": "p",
-      "text": "<b>Pourquoi c'est important :</b> presque toutes les usines de casquettes confient certaines étapes à des ateliers partenaires, comme la broderie, l'impression ou le délavage. C'est normal. L'important est que l'usine vous le dise honnêtement et contrôle ce travail avant qu'il n'entre dans vos casquettes."
+      "text": "<b>Pourquoi c'est important :</b> certaines usines réalisent chaque étape dans leur propre atelier ; d'autres travaillent avec des spécialistes pour certains procédés. Les deux sont courants. L'important est qu'une seule entreprise réponde de toute la commande et que les casquettes terminées soient contrôlées avant l'expédition."
     },
     {
       "type": "p",
-      "text": "<b>Notre réponse :</b> le patronage, la coupe, la couture et l'assemblage sont faits dans notre propre atelier à Guangzhou. La broderie, l'impression et le délavage sont confiés à des ateliers partenaires avec qui nous travaillons depuis des années, et nous contrôlons chaque lot avant l'étape suivante."
+      "text": "<b>Notre réponse :</b> chez NanCrown, nous répondons de toute la commande. Nous sommes un fabricant avec nos propres usines à Guangzhou et Dongguan, en Chine ; le patronage, la coupe, la couture, l'assemblage et la décoration sont coordonnés par nous, et chaque lot est contrôlé avant l'étape suivante puis à nouveau avant l'expédition."
     },
     {
       "type": "h2",
@@ -1588,7 +1588,7 @@ const factoryFr: GuideLocaleContent = {
   "faq": [
     {
       "q": "Comment savoir si un fournisseur est une vraie usine ?",
-      "a": "Demandez à voir l'atelier de couture en appel vidéo, demandez qui fait les patrons et les échantillons, et quelles étapes partent chez des partenaires. Une usine répond aux trois tout de suite."
+      "a": "Demandez à voir l'atelier de couture en appel vidéo, demandez qui fait les patrons et les échantillons, et qui répond de chaque étape de la commande et comment les casquettes terminées sont contrôlées. Une usine répond aux trois tout de suite."
     },
     {
       "q": "Quel est un minimum normal pour des casquettes personnalisées en Chine ?",
@@ -1674,15 +1674,15 @@ const factoryDe: GuideLocaleContent = {
     },
     {
       "type": "h2",
-      "text": "5. Welche Schritte machen Sie selbst, und welche gehen an Partnerwerkstätten?"
+      "text": "5. Wer verantwortet jeden Schritt des Auftrags, und wer prüft die fertigen Caps?"
     },
     {
       "type": "p",
-      "text": "<b>Warum das wichtig ist:</b> Fast jede Cap-Fabrik gibt einzelne Schritte an Partnerwerkstätten, etwa Stickerei, Druck oder Waschung. Das ist normal. Wichtig ist, dass die Fabrik es Ihnen ehrlich sagt und diese Arbeit prüft, bevor sie in Ihre Caps kommt."
+      "text": "<b>Warum das wichtig ist:</b> Manche Fabriken erledigen jeden Schritt in der eigenen Werkstatt, andere arbeiten für einzelne Verfahren mit Spezialisten. Beides ist üblich. Wichtig ist, dass ein Unternehmen den ganzen Auftrag verantwortet und die fertigen Caps vor dem Versand geprüft werden."
     },
     {
       "type": "p",
-      "text": "<b>Unsere Antwort:</b> Schnitt, Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt in Guangzhou. Stickerei, Druck und Waschung übernehmen Partnerwerkstätten, mit denen wir seit Jahren arbeiten, und wir prüfen jede Charge vor dem nächsten Schritt."
+      "text": "<b>Unsere Antwort:</b> Bei NanCrown verantworten wir den ganzen Auftrag. Wir sind Hersteller mit eigenen Fabriken in Guangzhou und Dongguan, China; Schnitt, Zuschnitt, Nähen, Montage und Veredelung koordinieren wir, und jede Charge wird vor dem nächsten Schritt und erneut vor dem Versand geprüft."
     },
     {
       "type": "h2",
@@ -1772,7 +1772,7 @@ const factoryDe: GuideLocaleContent = {
   "faq": [
     {
       "q": "Woran erkenne ich, ob ein Lieferant eine echte Fabrik ist?",
-      "a": "Lassen Sie sich die Näherei im Live-Videocall zeigen, fragen Sie, wer Schnitte und Muster macht und welche Schritte an Partnerwerkstätten gehen. Eine Fabrik beantwortet alle drei Fragen sofort."
+      "a": "Lassen Sie sich die Näherei im Live-Videocall zeigen, fragen Sie, wer Schnitte und Muster macht und wer jeden Schritt des Auftrags verantwortet und wie die fertigen Caps geprüft werden. Eine Fabrik beantwortet alle drei Fragen sofort."
     },
     {
       "q": "Welche Mindestmenge ist für individuelle Caps in China normal?",

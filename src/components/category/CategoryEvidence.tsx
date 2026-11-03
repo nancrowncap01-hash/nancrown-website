@@ -32,7 +32,7 @@ export default function CategoryEvidence({
             {copy.samplesHeading}
           </h2>
           <p className="mt-3 text-gray-600 leading-relaxed">{copy.samplesIntro}</p>
-          {kind === "embroidery" && <p className="mt-3 text-sm text-gray-600 leading-relaxed">{copy.outsourcingNote}</p>}
+          {kind === "embroidery" && <p className="mt-3 text-sm text-gray-600 leading-relaxed">{copy.embroideryNote}</p>}
         </div>
 
         <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">

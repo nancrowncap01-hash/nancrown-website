@@ -96,11 +96,11 @@
   },
   "About": {
     "title": "Über Uns",
-    "subtitle": "Fabrik für individuelle Caps und Hüte in Guangzhou, China – seit 2015 für Marken tätig.",
+    "subtitle": "Hersteller individueller Caps und Hüte mit eigenen Fabriken in Guangzhou und Dongguan, China – seit 2015 für Marken tätig.",
     "story": "Unsere Geschichte",
     "storyText": "NanCrown begann 2015 als kleine Cap-Werkstatt in Guangzhou, China. Heute sind wir eine Fabrik mit 2.000 m² und einem Team von über 30 Leuten und fertigen mehr als 100.000 Caps im Monat für Marken in über 50 Ländern.",
     "capacity": "Produktionskapazität",
-    "capacityText": "Unsere Werkstatt hat etwa 2.000 m² und ein Team von über 30 Leuten. Mit Zuschnitt, Nähen und Montage in der eigenen Werkstatt und langjährigen Partnern für Stickerei und Druck fertigen wir über 100.000 Caps im Monat – für einen Test mit 50 Stück ebenso wie für große Nachbestellungen.",
+    "capacityText": "Unsere Werkstatt hat etwa 2.000 m² und ein Team von über 30 Leuten, und wir haben eigene Fabriken in Guangzhou und Dongguan, China. Wir verantworten jeden Auftrag vom Schnittmuster bis zur Endkontrolle, und jede Charge wird von uns geprüft, bevor sie versandt wird – so fertigen wir weiterhin über 100.000 Caps im Monat, für einen Test mit 50 Stück ebenso wie für große Nachbestellungen.",
     "certifications": "Qualitätskontrolle",
     "certificationsText": "Jeder Auftrag wird in jedem Produktionsschritt geprüft, und die Serie startet erst nach Freigabe eines Vorproduktionsmusters. Vor dem Versand schicken wir Ihnen Fotos der fertigen Caps, und Sie können die Ware auch im Videocall oder durch einen unabhängigen Prüfer kontrollieren.",
     "years": "Jahre Erfahrung",
@@ -168,8 +168,8 @@
         "info@nancrown.com — Antwort innerhalb von 1–2 Werktagen"
       ]
     ],
-    "splitHeading": "Was wir selbst machen – und wer uns hilft",
-    "splitIntro": "So ist die Arbeit aufgeteilt, damit Sie wissen, wer Ihre Caps fertigt.",
+    "howHeading": "So entsteht Ihr Auftrag",
+    "howIntro": "Ein Team verantwortet Ihren Auftrag vom ersten Schnittmuster bis zur Endkontrolle, und jede Charge wird geprüft, bevor sie versandt wird.",
     "ownHeading": "In unserer eigenen Werkstatt",
     "ownItems": [
       "Schnittabteilung: Schnitte und Musterentwicklung für jedes neue Modell",
@@ -177,14 +177,14 @@
       "Montage, Formgebung und Finish",
       "Kontrolle und Verpackung"
     ],
-    "partnerHeading": "Mit langjährigen Partnerwerkstätten",
-    "partnerItems": [
+    "finishHeading": "Veredelung, die wir für Sie abwickeln",
+    "finishItems": [
       "Stickerei, auch 3D-Puff und Chenille",
       "Sieb-, Transfer- und Reflexdruck",
       "Waschung und Stückfärbung",
       "Laserschnitt und andere Spezialarbeiten"
     ],
-    "splitNote": "Arbeiten der Partner kommen in unsere Werkstatt zurück und werden geprüft, bevor die Cap zum nächsten Schritt geht.",
+    "checkNote": "Jede Veredelung wird von uns abgewickelt und geprüft, bevor die Cap zum nächsten Schritt geht.",
     "whoHeading": "Für wen wir Caps fertigen",
     "whoItems": [
       {
@@ -220,7 +220,7 @@
     "faq": [
       {
         "q": "Sind Sie Hersteller oder Händler?",
-        "a": "Hersteller. Schnitt, Zuschnitt, Nähen und Montage erfolgen in unserer eigenen Werkstatt in Guangzhou, China, und wir arbeiten direkt mit Markeninhabern. Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, geprüft von uns."
+        "a": "Hersteller. Wir haben eigene Fabriken in Guangzhou und Dongguan, China, und ein Team verantwortet jeden Auftrag vom Schnittmuster bis zur Endkontrolle. Jede Charge wird von uns geprüft, bevor sie versandt wird."
       },
       {
         "q": "Wo ist Ihre Fabrik?",
@@ -318,7 +318,7 @@
     "q2": "Was ist Ihre Mindestbestellmenge (MOQ)?",
     "a2": "Mindestens 50 Stück pro Modell, Farbe und Größe. Farben desselben Modells können für eine Preisstufe kombiniert werden, mit mindestens 50 je Farbe/Größe. Verschiedene Modelle werden separat kalkuliert.",
     "q3": "Können Sie individuelle Designs mit unserem Logo produzieren?",
-    "a3": "Selbstverständlich! Wir bieten vollständige Individualisierung einschließlich Stickerei, Siebdruck, gewebte Etiketten, Aufnäher und mehr. Senden Sie uns einfach Ihr Logo und Ihre Designanforderungen.",
+    "a3": "Selbstverständlich! Wir bieten vollständige Individualisierung einschließlich Stickerei, Siebdruck, gewebte Etiketten, Aufnäher und mehr, und jede Veredelung wird von uns abgewickelt und geprüft, bevor die Caps versandt werden. Wir sind Hersteller mit eigenen Fabriken in Guangzhou und Dongguan, China – senden Sie uns einfach Ihr Logo und Ihre Designanforderungen.",
     "q4": "Welche Materialien verwenden Sie?",
     "a4": "Wir arbeiten mit einer breiten Palette von Materialien einschließlich Baumwolltwill, Polyester, Nylon, Wolle, Acryl, Cord und organischen/recycelten Stoffen. Wir können auch spezifische Materialien nach Ihren Wünschen beschaffen.",
     "q5": "Wie handhaben Sie den Versand?",
@@ -359,7 +359,7 @@
     "eyebrow": "Hersteller für individuelle Caps und Hüte in Guangzhou, China",
     "titleLine1": "Hersteller für individuelle Caps",
     "titleLine2": "in China, ab 50 Stück.",
-    "lead": "Eine 2.000 m² große Kappenfabrik in Guangzhou, China — mit eigenen Zuschnitt-, Näh- und Montagelinien, unterstützt von langjährigen Partnern für Stickerei, Druck und Veredelung. Wir arbeiten direkt mit Markeninhabern zusammen, die einen Fertigungspartner brauchen, nicht nur einen Katalog.",
+    "lead": "Eigene Fabriken in Guangzhou und Dongguan, China. In unserer 2.000 m² großen Kappenfabrik verantwortet ein Team jeden Auftrag vom Schnittmuster bis zur Endkontrolle, und jede Charge wird geprüft, bevor sie versandt wird – für Markeninhaber, die einen Hersteller brauchen und kein bloßes Angebot.",
     "ctaPrimary": "Angebot Anfordern",
     "ctaSecondary": "Kompetenzen Ansehen",
     "statFoundedValue": "2015",
@@ -374,7 +374,7 @@
     "statCountriesLabel": "Belieferte Länder",
     "capKicker": "Kompetenzen",
     "capHeading": "Was wir bauen, und womit",
-    "capDescription": "Spezifikationen werden beim Musterentwurf festgelegt und bis zur Großserie beibehalten. Zuschnitt, Nähen und Montage laufen in unserer eigenen Werkstatt; Stickerei, Druck und Sonderveredelungen übernehmen langjährige Partnerwerkstätten, und jede Charge kommt vor dem nächsten Schritt zur Prüfung zurück zu uns.",
+    "capDescription": "Spezifikationen werden beim Musterentwurf festgelegt und bis zur Großserie beibehalten. Zuschnitt, Nähen und Montage laufen in unserer eigenen Werkstatt, und jede Veredelung – Stickerei, Druck und Sonderfinish – wird von uns abgewickelt und geprüft, bevor die Charge weitergeht.",
     "stylesHeading": "Kappen-Stile",
     "styleSubs": [
       "strukturiert & unstrukturiert",
@@ -491,7 +491,7 @@
     ],
     "capabilityLabel": "Kompetenz",
     "capabilityHeading": "Gefertigt von Menschen, die wir kennen.",
-    "capabilityP1": "Zuschnitt, Naht und Montage finden in unserer eigenen <b>2.000 m²</b> großen Fertigung statt, geführt von einem Team aus <b>30+</b> Fachkräften, die seit Jahren zusammenarbeiten. Stickerei, Druck und Waschung übernehmen langjährige Partnerwerkstätten, und jede Charge kommt zur Prüfung zu uns zurück.",
+    "capabilityP1": "Wir haben eigene Fabriken in Guangzhou und Dongguan, China. Zuschnitt, Nähen und Montage laufen in unserer <b>2.000 m²</b> großen Werkstatt mit einem Team aus <b>30+</b> Fachkräften, die seit Jahren zusammenarbeiten. Stickerei, Druck und Waschung werden von uns abgewickelt und geprüft, und jede Charge wird vor dem Versand kontrolliert.",
     "capabilityP2": "Bestellungen starten ab <b>50 Stück pro Farbe</b>. Ein physisches Muster ist in <b>7–15 Tagen</b> fertig; eine bestätigte Großbestellung wird in <b>25–30 Tagen</b> versandt. Jede Stufe wird laufend geprüft, und nichts geht in die Großserie, bevor Sie ein Vorproduktionsmuster freigegeben haben.",
     "stylesLabel": "Stile, die wir fertigen",
     "collectionLabel": "Kollektion",

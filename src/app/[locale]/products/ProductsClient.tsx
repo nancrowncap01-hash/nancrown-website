@@ -48,6 +48,7 @@ export default function ProductsClient() {
       // 同时匹配英文原文和当前语言本地化后的名称/面料,避免翻译后搜不到
       const localized = localizeProduct(p, locale);
       const matchesSearch =
+        p.code?.toLowerCase().includes(query) ||
         p.name.toLowerCase().includes(query) ||
         p.material.toLowerCase().includes(query) ||
         localized.name.toLowerCase().includes(query) ||

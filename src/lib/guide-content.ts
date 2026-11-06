@@ -52,7 +52,7 @@ export interface GuideLocaleContent {
 const pricingEn: GuideLocaleContent = {
   metaTitle: "Custom Hat Pricing, MOQ & Lead Times",
   metaDescription:
-    "Standard cotton twill baseball cap prices: $7.0–7.7 at 50, $2.9–3.6 at 500+. Front flat embroidery and one custom woven label included. EXW, shipping extra.",
+    "Custom hat pricing by quantity, MOQ 50 per style, colour and size, sample fees and lead times. Cotton twill reference prices are EXW, excluding shipping.",
   h1: "Custom Hat Pricing, MOQ & Lead Times",
   lead:
     "Straight answers to what every brand asks before ordering custom caps: what a cap costs at 50, 100, 300 or 500 pieces, how samples work, how long production takes and how you pay. Prices below are indicative for our standard build. Send us your design and we will confirm an exact quote.",
@@ -205,9 +205,9 @@ const pricingEn: GuideLocaleContent = {
 };
 
 const pricingEs: GuideLocaleContent = {
-  metaTitle: "Precios de gorras personalizadas, pedido mínimo y plazos",
+  metaTitle: "Precios de gorras: mínimos y plazos",
   metaDescription:
-    "Gorra de béisbol estándar: 7,0–7,7 USD en 50 piezas; 2,9–3,6 desde 500. Bordado plano y una etiqueta tejida incluidos. EXW, transporte aparte.",
+    "Precios por cantidad, mínimo 50 por modelo, color y talla, muestras y plazos. Precios orientativos para sarga de algodón, EXW sin transporte.",
   h1: "Precios de gorras personalizadas, pedido mínimo y plazos",
   lead:
     "Respuestas claras a lo que toda marca pregunta antes de encargar gorras personalizadas: cuánto cuesta una gorra en 50, 100, 300 o 500 piezas, cómo funcionan las muestras, cuánto tarda la producción y cómo se paga. Los precios son orientativos para nuestro modelo estándar. Envíanos tu diseño y te confirmamos un presupuesto exacto.",
@@ -360,9 +360,9 @@ const pricingEs: GuideLocaleContent = {
 };
 
 const pricingFr: GuideLocaleContent = {
-  metaTitle: "Prix des casquettes personnalisées, minimum de commande et délais",
+  metaTitle: "Prix des casquettes : minimums et délais",
   metaDescription:
-    "Casquette de baseball standard : 7,0–7,7 USD à 50 pièces, 2,9–3,6 dès 500. Broderie à plat et une étiquette tissée incluses. EXW, transport exclu.",
+    "Prix par quantité, minimum 50 par modèle, couleur et taille, échantillons et délais. Tarifs indicatifs du sergé de coton, EXW hors transport.",
   h1: "Prix des casquettes personnalisées, minimum de commande et délais",
   lead:
     "Des réponses claires à ce que chaque marque demande avant de commander des casquettes personnalisées : le prix d'une casquette à 50, 100, 300 ou 500 pièces, le fonctionnement des échantillons, la durée de production et le paiement. Les prix sont indicatifs pour notre modèle standard. Envoyez-nous votre design et nous vous confirmons un devis exact.",
@@ -515,9 +515,9 @@ const pricingFr: GuideLocaleContent = {
 };
 
 const pricingDe: GuideLocaleContent = {
-  metaTitle: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
+  metaTitle: "Cap-Preise, Mindestmengen & Lieferzeiten",
   metaDescription:
-    "Standard-Baseballcap: 7,0–7,7 USD bei 50 Stück, 2,9–3,6 ab 500. Flaches Frontlogo und ein Webetikett enthalten. EXW, Versand extra.",
+    "Cap-Preise nach Menge, mindestens 50 je Modell, Farbe und Größe, Musterkosten und Lieferzeiten. Richtpreise für Baumwoll-Twill ab Werk, ohne Versand.",
   h1: "Preise für individuelle Caps, Mindestmenge und Lieferzeiten",
   lead:
     "Klare Antworten auf das, was jede Marke vor der Bestellung individueller Caps wissen will: was eine Cap bei 50, 100, 300 oder 500 Stück kostet, wie Muster funktionieren, wie lange die Produktion dauert und wie Sie bezahlen. Die Preise sind Richtwerte für unser Standardmodell. Schicken Sie uns Ihr Design, und wir bestätigen Ihnen ein genaues Angebot.",
@@ -672,9 +672,9 @@ const pricingDe: GuideLocaleContent = {
 // ─────────────────────────── /start-a-hat-brand ───────────────────────────
 
 const brandEn: GuideLocaleContent = {
-  metaTitle: "Hat Manufacturer for New Brands: Your First Collection",
+  metaTitle: "Hat Manufacturer for New Brands",
   metaDescription:
-    "Launching a hat brand? We make custom caps and hats from 50 pieces per colour. Plan a first collection of 2–5 styles, samples in 7–15 days, bulk in 25–30 days.",
+    "Starting a hat brand? Plan styles, colour quantities, branding and sample approval with a China manufacturer. MOQ 50 per style, colour and size.",
   h1: "Hat Manufacturer for New Brands: Your First Collection",
   lead:
     "A new hat brand usually starts with a few designs, a limited budget and no room for a bad first batch. Here is how we take new brands from an idea to finished caps, and how to plan a first order that sells through and sets you up for reorders.",
@@ -768,9 +768,9 @@ const brandEn: GuideLocaleContent = {
 };
 
 const brandEs: GuideLocaleContent = {
-  metaTitle: "Fabricante de gorras para marcas nuevas: tu primera colección",
+  metaTitle: "Fabricante de gorras para nuevas marcas",
   metaDescription:
-    "¿Lanzas una marca de gorras? Fabricamos gorras personalizadas desde 50 piezas por color. Planifica una colección de 2–5 modelos, muestras en 7–15 días.",
+    "¿Creas una marca de gorras? Planifica modelos, colores, logos y aprobación de muestras con un fabricante en China. Mínimo 50 por modelo, color y talla.",
   h1: "Fabricante de gorras para marcas nuevas: tu primera colección",
   lead:
     "Una marca de gorras nueva suele empezar con pocos diseños, un presupuesto ajustado y ningún margen para un primer lote fallido. Así acompañamos a las marcas nuevas desde la idea hasta la gorra terminada, y así puedes planificar un primer pedido que se venda y te prepare para reponer.",
@@ -864,9 +864,9 @@ const brandEs: GuideLocaleContent = {
 };
 
 const brandFr: GuideLocaleContent = {
-  metaTitle: "Fabricant de casquettes pour nouvelles marques : votre première collection",
+  metaTitle: "Fabricant de casquettes pour nouvelles marques",
   metaDescription:
-    "Vous lancez une marque de casquettes ? Fabrication dès 50 pièces par couleur. Préparez une première collection de 2 à 5 modèles, échantillon en 7 à 15 jours.",
+    "Vous lancez une marque de casquettes ? Préparez modèles, coloris, logos et validation des échantillons. Dès 50 pièces par modèle, couleur et taille.",
   h1: "Fabricant de casquettes pour nouvelles marques : votre première collection",
   lead:
     "Une nouvelle marque de casquettes démarre souvent avec quelques designs, un budget serré et aucune marge pour un premier lot raté. Voici comment nous accompagnons les nouvelles marques de l'idée à la casquette finie, et comment préparer une première commande qui se vend et prépare vos réassorts.",
@@ -960,9 +960,9 @@ const brandFr: GuideLocaleContent = {
 };
 
 const brandDe: GuideLocaleContent = {
-  metaTitle: "Cap-Hersteller für neue Marken: Ihre erste Kollektion",
+  metaTitle: "Cap-Hersteller für neue Marken",
   metaDescription:
-    "Sie gründen eine Cap-Marke? Wir fertigen individuelle Caps ab 50 Stück pro Farbe. Planen Sie eine erste Kollektion mit 2–5 Modellen, Muster in 7–15 Tagen.",
+    "Eine Cap-Marke gründen: Modelle, Farben, Logos und Musterfreigabe mit einem Hersteller in China planen. Ab 50 Stück je Modell, Farbe und Größe.",
   h1: "Cap-Hersteller für neue Marken: Ihre erste Kollektion",
   lead:
     "Eine neue Cap-Marke startet meist mit wenigen Designs, einem knappen Budget und keinem Spielraum für eine missglückte erste Charge. So begleiten wir neue Marken von der Idee bis zur fertigen Cap, und so planen Sie eine erste Bestellung, die sich verkauft und den Weg für Nachbestellungen ebnet.",
@@ -1059,8 +1059,8 @@ const brandDe: GuideLocaleContent = {
 // 1001 主脑写,一字不改照抄 copy_1001.json 的 guide.<locale>(JSON 结构跟 GuideLocaleContent 完全一致,直接序列化,保证逐字不走样)
 
 const factoryEn: GuideLocaleContent = {
-  "metaTitle": "How to Choose a Hat Factory in China: 10 Questions to Ask",
-  "metaDescription": "A buyer's checklist for choosing a custom cap manufacturer in China: MOQ, real prices, samples, lead times, who embroiders, inspection and payment, with NanCrown's answers.",
+  "metaTitle": "Choose a Hat Factory in China: 10 Questions",
+  "metaDescription": "Choose a hat factory in China: compare MOQ, quotes, samples, lead times and quality checks. A buyer checklist with NanCrown’s answers.",
   "h1": "How to Choose a Hat Factory in China: 10 Questions to Ask",
   "lead": "There are thousands of cap suppliers in China, and most of their websites look the same. The fastest way to tell them apart is to ask each one the same ten questions and compare the answers. Here is the checklist we would use if we were buying, with our own answers next to each question so you can hold us to them.",
   "blocks": [
@@ -1243,8 +1243,8 @@ const factoryEn: GuideLocaleContent = {
 };
 
 const factoryEs: GuideLocaleContent = {
-  "metaTitle": "Cómo elegir una fábrica de gorras en China: 10 preguntas clave",
-  "metaDescription": "Lista para elegir un fabricante de gorras personalizadas en China: pedido mínimo, precios reales, muestras, plazos, quién borda, inspección y pago, con las respuestas de NanCrown.",
+  "metaTitle": "Elegir una fábrica de gorras en China",
+  "metaDescription": "Compara fábricas de gorras en China: mínimos, cotizaciones, muestras, plazos y controles de calidad. Lista de preguntas con respuestas de NanCrown.",
   "h1": "Cómo elegir una fábrica de gorras en China: 10 preguntas clave",
   "lead": "En China hay miles de proveedores de gorras y la mayoría de sus webs se parecen. La forma más rápida de distinguirlos es hacer a todos las mismas diez preguntas y comparar las respuestas. Esta es la lista que usaríamos si fuéramos compradores, con nuestras propias respuestas al lado de cada pregunta para que puedas exigírnoslas.",
   "blocks": [
@@ -1427,8 +1427,8 @@ const factoryEs: GuideLocaleContent = {
 };
 
 const factoryFr: GuideLocaleContent = {
-  "metaTitle": "Comment choisir une usine de casquettes en Chine : 10 questions à poser",
-  "metaDescription": "La liste pour choisir un fabricant de casquettes personnalisées en Chine : minimum, vrais prix, échantillons, délais, qui brode, inspection et paiement, avec les réponses de NanCrown.",
+  "metaTitle": "Choisir une usine de casquettes en Chine",
+  "metaDescription": "Comparez les usines de casquettes en Chine : minimums, devis, échantillons, délais et contrôles qualité. Questions et réponses de NanCrown.",
   "h1": "Comment choisir une usine de casquettes en Chine : 10 questions à poser",
   "lead": "Il existe des milliers de fournisseurs de casquettes en Chine, et la plupart de leurs sites se ressemblent. Le moyen le plus rapide de les départager est de poser à chacun les dix mêmes questions et de comparer les réponses. Voici la liste que nous utiliserions si nous étions acheteurs, avec nos propres réponses à côté de chaque question pour que vous puissiez nous y tenir.",
   "blocks": [
@@ -1611,8 +1611,8 @@ const factoryFr: GuideLocaleContent = {
 };
 
 const factoryDe: GuideLocaleContent = {
-  "metaTitle": "Cap-Fabrik in China auswählen: 10 Fragen, die Sie stellen sollten",
-  "metaDescription": "Checkliste für die Wahl eines Herstellers individueller Caps in China: Mindestmenge, echte Preise, Muster, Lieferzeiten, wer stickt, Prüfung und Zahlung – mit den Antworten von NanCrown.",
+  "metaTitle": "Cap-Fabrik in China wählen: 10 Fragen",
+  "metaDescription": "Cap-Fabrik in China wählen: Mindestmengen, Angebote, Muster, Lieferzeiten und Qualitätsprüfung vergleichen. Checkliste mit NanCrowns Antworten.",
   "h1": "Cap-Fabrik in China auswählen: 10 Fragen, die Sie stellen sollten",
   "lead": "In China gibt es Tausende Cap-Lieferanten, und die meisten Websites sehen gleich aus. Am schnellsten unterscheiden Sie sie, wenn Sie allen dieselben zehn Fragen stellen und die Antworten vergleichen. Das ist die Liste, die wir als Einkäufer verwenden würden – mit unseren eigenen Antworten neben jeder Frage, damit Sie uns beim Wort nehmen können.",
   "blocks": [

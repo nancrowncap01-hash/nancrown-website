@@ -42,6 +42,8 @@ export default async function PricingPage({
         path="/pricing"
         pageName={tNav("pricing")}
         homeLabel={tNav("home")}
+        headline={content.h1}
+        description={content.lead}
         faq={content.faq}
       />
       <GuidePage

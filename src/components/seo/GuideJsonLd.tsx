@@ -10,6 +10,8 @@ interface GuideJsonLdProps {
   pageName: string;
   homeLabel: string;
   faq: { q: string; a: string }[];
+  headline: string;
+  description: string;
 }
 
 export function GuideJsonLd({
@@ -18,6 +20,8 @@ export function GuideJsonLd({
   pageName,
   homeLabel,
   faq,
+  headline,
+  description,
 }: GuideJsonLdProps) {
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -51,8 +55,24 @@ export function GuideJsonLd({
     })),
   };
 
+  // Describe the visible guide; do not invent publication dates, ratings or how-to steps.
+  const articleData = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    headline,
+    description,
+    inLanguage: locale,
+    mainEntityOfPage: localizedUrl(locale, path),
+    author: { "@type": "Organization", "@id": "https://nancrown.com/#organization", name: "NanCrown" },
+    publisher: { "@id": "https://nancrown.com/#organization" },
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(articleData).replace(/</g, "\\u003c") }}
+      />
       <script
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbData) }}

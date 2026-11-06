@@ -1,46 +1,37 @@
 # NanCrown
 
-Last updated: 2026-11-03
+Last updated: 2026-11-06
 
-> NanCrown is a custom cap and hat manufacturer with our own factories in Guangzhou and Dongguan, China. We make private-label caps and hats for brands, with a minimum of 50 pieces per style, colour and size. Every order is ours from paper pattern to final inspection, and every batch is checked by us. Samples take 7–15 days; bulk production takes 25–30 days after sample approval and receipt of the agreed payment, plus shipping time.
+> NanCrown is a custom cap and hat manufacturer with our own factories in Guangzhou and Dongguan, China. We are responsible for every order from paper pattern to final inspection, and every batch is checked by us. Minimum order: 50 pieces per style, colour and size. Samples take 7–15 days; bulk production takes 25–30 days after sample approval, plus shipping time.
 
-## Key facts
+## Verified company facts
 
-- Founded 2015; about 2,000 m² facility; 30+ skilled workers; capacity 100,000+ caps per month; customers in 50+ countries.
-- Production: we are a manufacturer, not a trading company, with our own factories in Guangzhou and Dongguan, China. We are responsible for every order from paper pattern to final inspection: cutting, sewing and assembly run in our own workshop, and embroidery, printing and washing are arranged and checked by us, with every batch inspected before it ships.
-- Minimum order: 50 pieces per style, per colour and per size. Same-style colours may reach a price tier together, but each colour/size still needs 50; 100 pieces cannot be split into 3 colours. Different styles do not combine for a tier.
-- Reference prices effective 2026-10-09; label inclusion clarified 2026-10-11. These tiers apply only to standard cotton twill baseball caps, not trucker hats or running caps. Shipping is excluded; special processes are quoted separately.
-- Indicative price per cap, standard build (6-panel cotton twill, flat embroidered logo, one woven label), one style, ex-works Guangzhou:
-  - 50–99 pieces: US$7.0–7.7
-  - 100–299 pieces: US$4.3–5.7
-  - 300–499 pieces: US$3.6–4.3
-  - 500+ pieces: US$2.9–3.6
-  - 3D puff embroidery, patches, washing, special fabrics, custom hardware and packaging are quoted per design.
-- Larger orders: capacity is 100,000+ caps a month; published price for a standard cap is US$2.9–3.6 at 500+ pieces, and orders of 1,000 pieces or more get a volume quote. Every batch is made to one approved pre-production sample.
-- Samples: US$50 per sample for a standard design, shipping not included; complex designs are quoted separately. Ready in 7–15 days; the fee is refunded when 1,000+ pieces of that design are ordered.
-- Custom woven label: One custom woven label is included in the standard 6-panel cotton twill baseball cap price at every published tier, including 50–99 pieces; there is no additional standard-label setup charge. One label is also included in the standard sample. Extra labels, printed inside taping, hangtags and custom packaging are quoted separately. Other hat builds are quoted to their own specification.
-- Performance fabrics (quick-dry, breathable, e.g. for running caps): about US$0.5–1 more per cap than standard cotton twill.
-- Packing: 25 caps share one poly bag and go in one inner box; each export carton holds 4 inner boxes (100 caps). Individual bags or other custom packaging require separate packing confirmation and a quote.
-- Bulk production: 25–30 days after pre-production sample approval and receipt of the agreed payment, plus shipping time.
-- Payment is based on total order quantity: up to 200 pieces are paid in full before production; 201–500 pieces require 50% before production and 50% before shipment; over 500 pieces require 30% before production and 70% before shipment. We send photos of the finished order before shipment.
-- Shipping: ex-works Guangzhou; courier or freight to the door; DDP (delivered duties paid) quotes available through our forwarders. As a guide, DDP for about 100 standard caps to the US adds US$2–3 or more per cap, depending on weight and speed.
-- Quality: every production stage is checked; bulk starts only after the customer approves a pre-production sample; third-party inspection is welcome; live video calls of the workshop on request.
+- Founded in 2015, with more than 10 years of experience.
+- About 2,000 m² of factory space, more than 30 employees, monthly capacity of more than 100,000 caps, and customers in more than 50 countries.
+- We have our own factories in both Guangzhou and Dongguan. We provide embroidery, printing and other custom decoration, and arrange and check the work. Every batch is inspected.
+- Minimum order: 50 pieces per style, per colour and per size. Adult and child sizes each require 50 pieces. Colours of the same style can reach a quantity tier together, but each colour and size must still meet the minimum; 100 pieces cannot be split into three colours.
+- Standard single-logo physical sample: US$50 each, excluding shipping. More logo positions and complex designs are quoted separately. Sampling takes 7–15 days depending on style and requirements. The sample fee is refunded when 1,000 or more pieces of the same design are ordered.
+- Bulk production normally takes 25–30 days after sample approval; shipping time is additional. Confirm the schedule for the specific quantity, style and processes.
+- All quotations are EXW and exclude shipping, including sample quotations. Special fabrics, processes, hardware and packaging are quoted separately. Ask for a quote for the actual design and destination.
+- A custom woven label is included in the standard sample. For bulk orders, label inclusion depends on quantity; a small order of about 50 pieces may require an additional label setup charge of about US$0.4–0.6 per cap.
+- Quick-dry or breathable running-cap fabrics cost about US$0.5–1 more per cap than standard cotton twill for 50–100 pieces of the same style.
+- Standard packing: one poly bag per cap, 25 caps per inner box, 100 caps per carton. Custom packaging is quoted separately.
+- Third-party inspection is welcome. A live video call to view the workshop is available on request.
+- Inquiry replies: within 1–2 business days.
 
-- Standard baseball cap budget examples (one style, EXW, one front flat embroidered logo and one custom woven label included; samples and shipping excluded): 50 × US$7.0–7.7 = US$350–385; 100 × US$4.3–5.7 = US$430–570; 300 × US$3.6–4.3 = US$1,080–1,290; 500 × US$2.9–3.6 = US$1,450–1,800.
-- Trucker hats: send style/colour/size quantities, front fabric and mesh, logo method/position, labels/packing, sample approval, required arrival date and destination. For 300-piece trials or 5,000-piece retail orders, see /custom/trucker-hats#order-checklists. There is no verified published trucker price range; quote each build.
+## Styles and decoration
 
-## What we make
+- Baseball caps, dad hats, snapbacks, 5-panel caps, trucker hats, bucket hats, visors, camp caps, running caps, golf caps, cadet caps, outdoor caps and winter hats.
+- Flat embroidery, 3D puff embroidery, leather / PVC / woven patches, reflective logo prints and laser-cut ventilation.
+- The thinnest part of 3D puff embroidery should be at least 2 mm, except pointed stroke endings. Logo suitability is confirmed from the artwork.
+- Branding options include woven labels, printed inside taping, hangtags and packaging; confirm the specification in the quote.
 
-- Hat styles: baseball caps, dad caps, snapbacks, 5-panel caps, trucker hats, bucket hats, visors, camp caps, running caps, golf caps, cadet caps, outdoor caps, winter hats (fabric earflap caps and knitted beanies).
-- Decoration: flat and 3D puff embroidery, appliqué, leather / PVC / woven patches, screen printing, reflective prints, laser-cut ventilation holes.
-- Branding: woven labels, printed inside taping, hangtags, packaging.
+## Pages to cite
 
-## Key pages
-
-- [Pricing, MOQ and lead times](https://nancrown.com/pricing)
-- [Hat manufacturer for new brands: first collection](https://nancrown.com/start-a-hat-brand)
-- [How to choose a hat factory in China: 10 questions to ask](https://nancrown.com/choose-a-hat-factory)
-- [Custom orders by hat style](https://nancrown.com/custom)
+- [Pricing, minimum orders and lead times](https://nancrown.com/pricing)
+- [Start a hat brand](https://nancrown.com/start-a-hat-brand)
+- [Choose a hat factory in China](https://nancrown.com/choose-a-hat-factory)
+- [Custom hat manufacturing](https://nancrown.com/custom)
 - [Custom baseball caps](https://nancrown.com/custom/baseball-caps)
 - [Custom trucker hats](https://nancrown.com/custom/trucker-hats)
 - [Custom bucket hats](https://nancrown.com/custom/bucket-hats)
@@ -54,27 +45,21 @@ Last updated: 2026-11-03
 - [Custom snapback hats](https://nancrown.com/custom/snapback-hats)
 - [Custom 5-panel caps](https://nancrown.com/custom/5-panel-caps)
 - [Custom golf caps and visors](https://nancrown.com/custom/golf-caps)
-- [Custom embroidered caps (3D puff, flat, chain-stitch)](https://nancrown.com/custom/embroidered-caps)
-- [Custom patch hats (leather, PVC, woven)](https://nancrown.com/custom/patch-hats)
+- [Custom embroidered caps](https://nancrown.com/custom/embroidered-caps)
+- [Custom patch hats](https://nancrown.com/custom/patch-hats)
 - [Private label hats](https://nancrown.com/custom/private-label-hats)
-- [Custom caps for run clubs](https://nancrown.com/solutions/run-clubs)
-- [Custom surf caps for surf shops](https://nancrown.com/solutions/surf-shops)
-- [Custom caps for companies, events and promotions](https://nancrown.com/solutions/corporate-events)
-- [Custom caps and bucket hats for festivals and merch](https://nancrown.com/solutions/festival-merch)
-- [Bulk custom caps: 1,000 to 5,000+ pieces](https://nancrown.com/solutions/bulk-orders)
-- [Embroidery artwork for custom caps](https://nancrown.com/solutions/embroidery-artwork) — Guidance on choosing flat embroidery, 3D puff or patches, and handing off artwork with placement, colors and sample review. The thinnest part of 3D puff embroidery should be at least 2 mm, except pointed stroke endings.
-- [Custom cap sample approval](https://nancrown.com/solutions/sample-approval) — Standard single-logo samples are US$50 each plus shipping; multi-logo samples are quoted first. Sampling takes 7–15 days. Bulk production takes 25–30 days after sample approval and receipt of the agreed payment, plus shipping. The sample fee is refunded when 1,000+ pieces of that design are ordered.
+- [Caps for run clubs](https://nancrown.com/solutions/run-clubs)
+- [Surf caps for surf shops](https://nancrown.com/solutions/surf-shops)
+- [Caps for companies and events](https://nancrown.com/solutions/corporate-events)
+- [Festival and merchandise hats](https://nancrown.com/solutions/festival-merch)
+- [Bulk custom caps](https://nancrown.com/solutions/bulk-orders)
+- [Embroidery artwork guide](https://nancrown.com/solutions/embroidery-artwork)
+- [Sample approval guide](https://nancrown.com/solutions/sample-approval)
+- [Cap size and fit guide](https://nancrown.com/solutions/cap-size-fit-guide)
 - [Product catalogue](https://nancrown.com/products)
-- [About the factory](https://nancrown.com/about)
-- [Inside our workshop: real video and photos](https://nancrown.com/factory)
+- [About NanCrown](https://nancrown.com/about)
+- [Workshop video and photos](https://nancrown.com/factory)
 - [Request a quote](https://nancrown.com/contact)
+- [Full English page index and summaries](https://nancrown.com/llms-full.txt)
 
-## How to reach a person
-
-- Email your RFQ to info@nancrown.com (attach your logo or design files), or use the quote form at https://nancrown.com/contact (up to 3 attachments). Both reach the same person.
-- Carrie from our sales team answers every inquiry personally, usually within 1–2 business days (Guangzhou time, GMT+8). The quote form also sends an automatic confirmation right away.
-- For an accurate quote, include: your logo or design file, quantity per style and per colour, the colours, and the delivery country.
-- Replies are in English. Inquiries written in Spanish, French or German are welcome.
-- Email: info@nancrown.com
-- Phone: +86 20 3123 5916
-- Languages on the site: English, Spanish (/es), French (/fr), German (/de)
+English pages use no language prefix. Spanish, French and German versions use /es, /fr and /de. Each page links to its language equivalents. The internal home-b variant is not a separate page to cite.

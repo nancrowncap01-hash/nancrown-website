@@ -43,6 +43,8 @@ export default async function StartAHatBrandPage({
         path="/start-a-hat-brand"
         pageName={tFooter("forNewBrands")}
         homeLabel={tNav("home")}
+        headline={content.h1}
+        description={content.lead}
         faq={content.faq}
       />
       <GuidePage

@@ -46,7 +46,7 @@ export async function generateMetadata({
   return pageMetadata({
     locale,
     path: `/custom/${def.slug}`,
-    title: content.h1,
+    title: content.metaTitle,
     description: content.metaDescription,
     image: firstProduct?.image,
   });

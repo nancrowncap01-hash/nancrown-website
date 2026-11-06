@@ -37,7 +37,7 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="h-full scroll-smooth">
       <head>
-        <OrganizationJsonLd />
+        <OrganizationJsonLd locale={locale} />
       </head>
       <body className="min-h-full flex flex-col bg-white text-gray-900 antialiased">
         <NextIntlClientProvider messages={messages}>

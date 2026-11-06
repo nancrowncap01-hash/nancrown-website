@@ -1,5 +1,6 @@
 import type { Product } from "@/lib/sample-data";
 import { localizedUrl } from "@/lib/seo";
+import { localizeProduct } from "@/lib/product-i18n";
 
 // 分类落地页的结构化数据:面包屑(BreadcrumbList) + 该分类下的产品列表(ItemList) + 页面上的常见问题(FAQPage,0930 加)
 // 面包屑文案用调用方传进来的本地化文字(home/custom/categoryName),不在这里写死英文
@@ -56,7 +57,7 @@ export function CategoryJsonLd({
       "@type": "ListItem",
       position: index + 1,
       url: localizedUrl(locale, `/products/${product.slug}`),
-      name: product.name,
+      name: localizeProduct(product, locale).name,
     })),
   };
 

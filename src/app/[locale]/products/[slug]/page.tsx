@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import { useLocale, useTranslations } from "next-intl";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { sampleProducts } from "@/lib/sample-data";
 import { localizeProduct } from "@/lib/product-i18n";
@@ -10,7 +10,7 @@ import CategoryDiscovery from "@/components/CategoryDiscovery";
 import { getPrimaryCategory, getProductCategorySlugs, categoryUi } from "@/lib/category-content";
 import type { Locale } from "@/i18n/routing";
 import { ProductJsonLd } from "@/components/seo/JsonLd";
-import { pageMetadata } from "@/lib/seo";
+import { pageMetadata, productSearchCopy } from "@/lib/seo";
 import type { Metadata } from "next";
 
 // 构建时把全部产品 × 四种语言预渲染成静态页(语言那一层由 [locale]/layout.tsx 的 generateStaticParams 提供)。
@@ -30,19 +30,11 @@ export async function generateMetadata({
   const product = sampleProducts.find((p) => p.slug === slug);
   if (!product) return {};
   const localized = localizeProduct(product, locale);
-  const catT = await getTranslations({ locale, namespace: "Categories" });
-  const metaT = await getTranslations({ locale, namespace: "Products" });
-  // 德语名词任何位置都要大写,不能转小写;西语/法语句中普通名词按原文风格转小写
-  const categoryForMeta =
-    locale === "de" ? catT(product.category) : catT(product.category).toLowerCase();
+  const copy = productSearchCopy(locale, slug, localized.name, product.moq);
   return pageMetadata({
     locale,
     path: `/products/${slug}`,
-    title: localized.name,
-    description: `${localized.description} ${metaT("metaSuffix", {
-      category: categoryForMeta,
-      moq: product.moq,
-    })}`.slice(0, 200),
+    ...copy,
     image: product.image,
   });
 }

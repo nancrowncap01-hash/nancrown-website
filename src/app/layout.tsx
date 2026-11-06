@@ -9,7 +9,7 @@ export const metadata: Metadata = {
     template: "%s | NanCrown",
   },
   description:
-    "Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more. Quality craftsmanship with competitive factory-direct pricing.",
+    "Custom caps and hats from our own factories in Guangzhou and Dongguan, China. From 50 pieces per style, colour and size. Samples in 7–15 days.",
   keywords: [
     "custom hats",
     "hat manufacturer",

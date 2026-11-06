@@ -63,6 +63,8 @@ export default async function SolutionPage({
         path={`/solutions/${slug}`}
         pageName={shortName}
         homeLabel={tNav("home")}
+        headline={content.h1}
+        description={content.lead}
         faq={content.faq}
       />
       <GuidePage

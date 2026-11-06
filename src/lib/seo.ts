@@ -48,23 +48,67 @@ export function pageMetadata({
   absolute = false,
 }: PageMetaInput): Metadata {
   const url = localizedUrl(locale, path);
+  const fullTitle = absolute ? title : `${title} | ${SITE_NAME}`;
+  const socialLocale = { en: "en_US", es: "es_ES", fr: "fr_FR", de: "de_DE" };
   return {
-    title: absolute ? { absolute: title } : title,
+    // Resolve the brand suffix once, including it in the length budget and social cards.
+    title: { absolute: fullTitle },
     description,
     alternates: buildAlternates(locale, path),
     openGraph: {
-      title,
+      title: fullTitle,
       description,
       url,
       siteName: SITE_NAME,
       type: "website",
-      images: [{ url: image }],
+      locale: socialLocale[locale as keyof typeof socialLocale],
+      alternateLocale: Object.entries(socialLocale).filter(([key]) => key !== locale).map(([, value]) => value),
+      images: [{ url: image, alt: title }],
     },
     twitter: {
       card: "summary_large_image",
-      title,
+      title: fullTitle,
       description,
-      images: [image],
+      images: [{ url: image, alt: title }],
     },
   };
+}
+
+// Search copy only: catalogue names, materials, quantities and other product facts stay intact.
+// These short labels retain the distinguishing features without cutting a word or sentence.
+const shortProductTitles: Record<string, Partial<Record<string, string>>> = {
+  "sunglass-slot-long-brim-sport-cap": {
+    de: "Sportcap: langer Schirm, Sonnenbrillenfach",
+    es: "Gorra sport: visera larga y ranura para gafas",
+    fr: "Casquette sport longue visière porte-lunettes",
+  },
+  "contrast-piping-outline-letter-cap": {
+    es: "Gorra: ribete en contraste y letras de contorno",
+  },
+  "frayed-edge-denim-bucket-hat": {
+    es: "Sombrero de pescador denim de borde deshilachado",
+  },
+  "corduroy-sherpa-earflap-cap": {
+    fr: "Bonnet en velours côtelé à oreillettes sherpa",
+  },
+  "double-zip-brim-cap": {
+    fr: "Casquette à visière avec double zip",
+  },
+  "faux-fur-trim-earflap-cap": {
+    fr: "Casquette à oreillettes, bord en fausse fourrure",
+  },
+  "reflective-print-running-cap": {
+    fr: "Casquette running : nylon, imprimé réfléchissant",
+  },
+};
+
+export function productSearchCopy(locale: string, slug: string, name: string, moq: number) {
+  const title = shortProductTitles[slug]?.[locale] ?? name;
+  const suffix: Record<string, string> = {
+    en: `Customise this style from ${moq} pieces per colour and size. Request a factory quote.`,
+    es: `Personaliza este modelo desde ${moq} piezas por color y talla. Solicita una cotización.`,
+    fr: `Personnalisez ce modèle dès ${moq} pièces par couleur et taille. Demandez un devis.`,
+    de: `Dieses Modell ab ${moq} Stück je Farbe und Größe personalisieren. Angebot anfordern.`,
+  };
+  return { title, description: `${title}. ${suffix[locale] ?? suffix.en}` };
 }

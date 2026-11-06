@@ -45,6 +45,8 @@ export default async function ChooseAHatFactoryPage({
         path="/choose-a-hat-factory"
         pageName={tGuides("chooseFactoryName")}
         homeLabel={tNav("home")}
+        headline={content.h1}
+        description={content.lead}
         faq={content.faq}
       />
       <GuidePage

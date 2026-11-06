@@ -1,6 +1,7 @@
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import copy from "@/lib/category-selection-content.json";
+import { FivePanelCentreSeam, FivePanelSingleFront } from "@/components/diagrams/CapDiagrams";
 
 const links = ["/solutions/cap-size-fit-guide", "/solutions/sample-approval", "/pricing", "/contact"];
 
@@ -10,12 +11,8 @@ function FrontDiagram({ labels }: { labels: string[] }) {
       <div className="grid grid-cols-2 gap-4 sm:gap-8">
         {labels.slice(0, 2).map((label, i) => (
           <div key={label} className="min-w-0 text-center">
-            <svg viewBox="0 0 220 165" className="mx-auto w-full max-w-64" role="img" aria-label={label}>
-              <path d="M30 116 C30 20 190 20 190 116 Q110 138 30 116Z" fill="#f3f4f6" stroke="#374151" strokeWidth="3" />
-              <path d="M30 116 Q110 148 190 116 Q202 157 110 156 Q18 157 30 116Z" fill="#fef3c7" stroke="#374151" strokeWidth="3" />
-              {i === 1 && <path d="M110 44 L110 130" fill="none" stroke="#b45309" strokeWidth="3" strokeDasharray="5 4" />}
-              <rect x="67" y="77" width="86" height="31" rx="5" fill="none" stroke="#0f766e" strokeWidth="2" />
-              <path d="M80 92 H140" stroke="#0f766e" strokeWidth="3" />
+            <svg viewBox="0 0 220 165" className="mx-auto w-full max-w-64" role="img" aria-label={label} fill="none" strokeLinecap="round" strokeLinejoin="round">
+              {i === 1 ? <FivePanelCentreSeam /> : <FivePanelSingleFront />}
             </svg>
             <p className="mt-3 font-semibold text-gray-900">{label}</p>
           </div>

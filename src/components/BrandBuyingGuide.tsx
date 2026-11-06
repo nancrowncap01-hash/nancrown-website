@@ -1,4 +1,5 @@
 import CapSpecificationDownload from "@/components/CapSpecificationDownload";
+import { diagramWords, LabelPositions } from "@/components/diagrams/CapDiagrams";
 import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import copy from "@/lib/brand-buying-content.json";
@@ -72,20 +73,8 @@ function FinishingGuide({ locale }: { locale: Locale }) {
       <h2 className="text-2xl font-bold text-gray-900 sm:text-3xl">{c.heading}</h2>
       <p className="mt-4 max-w-3xl leading-relaxed text-gray-600">{c.lead}</p>
       <figure className="mt-7 rounded-2xl border border-gray-200 bg-white p-5 sm:p-8">
-        <svg viewBox="0 0 640 260" role="img" aria-label={c.diagramLabel} className="mx-auto w-full max-w-2xl">
-          <path d="M90 164C73 76 135 25 231 25c100 0 155 55 138 139" fill="#f1f5f9" stroke="#334155" strokeWidth="3" />
-          <ellipse cx="230" cy="165" rx="139" ry="57" fill="#fff" stroke="#334155" strokeWidth="3" />
-          <ellipse cx="230" cy="165" rx="120" ry="42" fill="#f8fafc" stroke="#94a3b8" strokeWidth="12" />
-          <path d="M230 26v97M142 49l46 77M319 49l-47 77" stroke="#0f766e" strokeWidth="9" fill="none" />
-          <rect x="198" y="188" width="65" height="28" rx="3" fill="#fef3c7" stroke="#92400e" strokeWidth="2" />
-          <rect x="273" y="176" width="26" height="40" rx="2" fill="#fef3c7" stroke="#92400e" strokeWidth="2" />
-          <path d="M458 68h92l25 25v100H458z" fill="#fef3c7" stroke="#92400e" strokeWidth="2" />
-          <circle cx="555" cy="88" r="5" fill="#fff" stroke="#92400e" strokeWidth="2" />
-          <path d="M555 82q36-46 56-15" fill="none" stroke="#94a3b8" strokeWidth="2" />
-          <g fill="#0f172a" fontSize="20" fontWeight="700" textAnchor="middle">
-            <text x="230" y="209">A</text><text x="286" y="202">B</text>
-            <text x="262" y="85">C</text><text x="516" y="142">D</text>
-          </g>
+        <svg viewBox="0 0 640 260" role="img" aria-label={c.diagramLabel} className="mx-auto w-full max-w-2xl" fill="none" strokeLinecap="round" strokeLinejoin="round">
+          <LabelPositions w={diagramWords[locale] ?? diagramWords.en} />
         </svg>
         <figcaption className="mt-3 text-sm leading-relaxed text-gray-500">{c.diagramLabel}</figcaption>
       </figure>

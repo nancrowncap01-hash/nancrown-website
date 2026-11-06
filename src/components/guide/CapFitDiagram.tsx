@@ -1,4 +1,5 @@
 import type { Locale } from "@/i18n/routing";
+import { diagramWords, FitCrownBrim, FitHeadCircumference, FitInsideCircumference } from "@/components/diagrams/CapDiagrams";
 
 const copy = {
   en: { title: "Mark the measurement before giving the number", note: "Schematic reference, not a size chart. Agree on endpoints, tape path and cap condition using a marked photo of your reference cap. No universal size or tolerance is implied.", labels: ["A · Head circumference", "B · Inside circumference", "C · Crown depth and brim length"], notes: ["Keep the tape level around the intended wearing line, above the ears. Record the unit; do not pull it tight.", "Follow the inside sweatband at the agreed closure setting, without stretching. A head measurement and a cap measurement are not interchangeable.", "Mark the crown-depth endpoints and whether you measure along the surface. For the brim, agree on the centre line from the crown seam to the edge and its curved or flat state."] },
@@ -9,6 +10,7 @@ const copy = {
 
 export default function CapFitDiagram({ locale }: { locale: Locale }) {
   const c = copy[locale] ?? copy.en;
+  const w = diagramWords[locale] ?? diagramWords.en;
   return (
     <section className="mx-auto max-w-5xl px-4 pt-10 sm:px-6" aria-labelledby="fit-diagram-title">
       <h2 id="fit-diagram-title" className="text-2xl font-bold text-gray-900">{c.title}</h2>
@@ -17,24 +19,7 @@ export default function CapFitDiagram({ locale }: { locale: Locale }) {
         {c.labels.map((label, i) => (
           <figure key={label} className="min-w-0 rounded-2xl border border-gray-200 bg-gray-50 p-5">
             <svg viewBox="0 0 240 165" aria-hidden="true" className="w-full" fill="none" strokeLinecap="round" strokeLinejoin="round">
-              {i === 0 ? <>
-                <path d="M75 140 Q54 100 65 51 Q77 20 119 20 Q161 20 173 51 Q184 100 163 140" stroke="#233c50" strokeWidth="3" />
-                <ellipse cx="119" cy="89" rx="64" ry="18" stroke="#087f79" strokeWidth="3" strokeDasharray="6 4" />
-                <path d="M108 124 Q119 130 130 124" stroke="#233c50" strokeWidth="2" />
-                <text x="198" y="94" fill="#087f79" stroke="none" fontSize="20">A</text>
-              </> : i === 1 ? <>
-                <ellipse cx="115" cy="81" rx="80" ry="55" stroke="#233c50" strokeWidth="3" />
-                <ellipse cx="115" cy="81" rx="65" ry="42" stroke="#087f79" strokeWidth="3" strokeDasharray="6 4" />
-                <path d="M62 122 Q115 157 168 122" stroke="#233c50" strokeWidth="3" />
-                <path d="M94 30 L134 30" stroke="#233c50" strokeWidth="7" />
-                <text x="204" y="87" fill="#087f79" stroke="none" fontSize="20">B</text>
-              </> : <>
-                <path d="M27 114 Q32 38 111 30 Q159 38 165 108 L214 120 Q185 143 155 125 L27 114Z" stroke="#233c50" strokeWidth="3" />
-                <path d="M111 30 Q152 50 165 108" stroke="#087f79" strokeWidth="3" strokeDasharray="5 4" />
-                <path d="M165 108 Q188 114 214 120" stroke="#b77816" strokeWidth="4" />
-                <circle cx="111" cy="30" r="4" fill="#087f79" /><circle cx="165" cy="108" r="4" fill="#087f79" /><circle cx="214" cy="120" r="4" fill="#b77816" />
-                <text x="180" y="48" fill="#087f79" stroke="none" fontSize="20">C</text>
-              </>}
+              {i === 0 ? <FitHeadCircumference /> : i === 1 ? <FitInsideCircumference w={w} /> : <FitCrownBrim />}
             </svg>
             <figcaption><h3 className="mt-3 font-semibold text-gray-900">{label}</h3><p className="mt-2 text-sm leading-relaxed text-gray-600">{c.notes[i]}</p></figcaption>
           </figure>

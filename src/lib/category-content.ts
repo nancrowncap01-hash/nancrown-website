@@ -2719,7 +2719,7 @@ export const categoryDefinitions: CategoryDefinition[] = [
       fr: {
         name: "Casquettes en Marque Propre",
         h1: "Fabricant de casquettes en marque propre",
-        metaTitle: "Casquettes et chapeaux en marque blanche",
+        metaTitle: "Casquettes et chapeaux en marque propre",
         metaDescription: "Casquettes et chapeaux à votre marque : logo, étiquettes tissées, bande intérieure et emballage. Dès 50 pièces par modèle, couleur et taille.",
         intro: [
           "Marque propre signifie que la casquette finie ne porte que votre marque : votre logo à l'extérieur, vos détails à l'intérieur, sans aucune marque d'usine. NanCrown fabrique des casquettes et bonnets en marque propre à partir de votre design ou de l'un de nos modèles de base, dans le tissu, les couleurs et la décoration de votre choix.",

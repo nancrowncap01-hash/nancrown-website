@@ -89,7 +89,7 @@ const shortProductTitles: Record<string, Partial<Record<string, string>>> = {
     es: "Sombrero de pescador denim de borde deshilachado",
   },
   "corduroy-sherpa-earflap-cap": {
-    fr: "Bonnet en velours côtelé à oreillettes sherpa",
+    fr: "Casquette en velours côtelé à oreillettes sherpa",
   },
   "double-zip-brim-cap": {
     fr: "Casquette à visière avec double zip",

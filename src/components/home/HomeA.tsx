@@ -61,6 +61,7 @@ export default function HomeA() {
           <Image
             src="/images/factory-video-cover.jpg"
             alt=""
+            aria-hidden
             fill
             priority
             sizes="100vw"
@@ -198,6 +199,7 @@ export default function HomeA() {
               <Image
                 src="/images/factory/workshop-die-cutting-press.jpg"
                 alt=""
+                aria-hidden
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"
                 className={styles.workshopImg}

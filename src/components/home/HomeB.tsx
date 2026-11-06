@@ -97,6 +97,7 @@ export default function HomeB() {
               <Image
                 src="/images/factory-video-cover.jpg"
                 alt=""
+                aria-hidden
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"
               />
@@ -134,6 +135,7 @@ export default function HomeB() {
               <Image
                 src="/images/factory/workshop-steam-shaping.jpg"
                 alt=""
+                aria-hidden
                 fill
                 sizes="(max-width: 860px) 100vw, 45vw"
               />

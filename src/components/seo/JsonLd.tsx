@@ -27,6 +27,7 @@ export function OrganizationJsonLd({ locale }: { locale: string }) {
       "@type": "ContactPoint",
       contactType: "sales",
       email: "info@nancrown.com",
+      url: "https://wa.me/nancrowncaps",
       telephone: "+862031235916",
       availableLanguage: ["en", "es", "fr", "de", "zh"],
     },

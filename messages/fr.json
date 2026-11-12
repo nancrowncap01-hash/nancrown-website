@@ -55,7 +55,11 @@
     "subtitle": "Parlez-nous de vos besoins et recevez un devis gratuit sous 1 à 2 jours ouvrés.",
     "button": "Demander un Devis"
   },
+  "WhatsApp": {
+    "ariaLabel": "Discutez avec nous sur WhatsApp"
+  },
   "Footer": {
+    "whatsapp": "WhatsApp : @nancrowncaps",
     "description": "NanCrown — Fabricant professionnel de casquettes spécialisé dans les casquettes de baseball, bobs, snapbacks et plus.",
     "quickLinks": "Liens Rapides",
     "contactUs": "Contactez-nous",
@@ -262,6 +266,7 @@
     "getStarted": "Démarrer Votre Commande"
   },
   "Contact": {
+    "preferWhatsApp": "Vous préférez discuter ? Écrivez-nous sur <whatsapp>WhatsApp : @nancrowncaps</whatsapp>.",
     "title": "Contact",
     "subtitle": "Contactez-nous — Nous Serions Ravis de Vous Entendre",
     "name": "Votre Nom",

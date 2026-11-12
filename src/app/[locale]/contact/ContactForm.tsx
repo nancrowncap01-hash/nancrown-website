@@ -312,6 +312,15 @@ export default function ContactForm({ variant = "page", quoteProducts = [] }: Co
                 ),
               })}
             </p>
+            <p className="mt-2 text-sm text-gray-300">
+              {t.rich("preferWhatsApp", {
+                whatsapp: (chunks) => (
+                  <a href="https://wa.me/nancrowncaps" target="_blank" rel="noopener noreferrer" className="font-medium text-amber-400 underline underline-offset-2 hover:text-amber-300">
+                    {chunks}
+                  </a>
+                ),
+              })}
+            </p>
           </div>
         </section>
       )}

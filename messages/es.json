@@ -55,7 +55,11 @@
     "subtitle": "Cuéntanos tus necesidades y recibe una cotización gratuita en 1 a 2 días laborables.",
     "button": "Solicitar Cotización"
   },
+  "WhatsApp": {
+    "ariaLabel": "Chatea con nosotros por WhatsApp"
+  },
   "Footer": {
+    "whatsapp": "WhatsApp: @nancrowncaps",
     "description": "NanCrown — Fabricante profesional de gorras especializado en gorras de béisbol, sombreros de pescador, snapbacks y más.",
     "quickLinks": "Enlaces Rápidos",
     "contactUs": "Contáctenos",
@@ -262,6 +266,7 @@
     "getStarted": "Iniciar Pedido Personalizado"
   },
   "Contact": {
+    "preferWhatsApp": "¿Prefieres chatear? Escríbenos por <whatsapp>WhatsApp: @nancrowncaps</whatsapp>.",
     "title": "Contacto",
     "subtitle": "Ponte en Contacto — Nos Encantaría Saber de Ti",
     "name": "Tu Nombre",

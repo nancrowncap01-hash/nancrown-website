@@ -4,6 +4,7 @@ import { notFound } from "next/navigation";
 import { routing } from "@/i18n/routing";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import WhatsAppButton from "@/components/layout/WhatsAppButton";
 import { OrganizationJsonLd } from "@/components/seo/JsonLd";
 // Vercel 自带的访问统计:不用 cookie、不用弹同意框;要在 Vercel 项目的 Analytics 里点开才开始记数
 import { Analytics } from "@vercel/analytics/next";
@@ -44,6 +45,7 @@ export default async function LocaleLayout({
           <Header />
           <main className="flex-1">{children}</main>
           <Footer />
+          <WhatsAppButton />
         </NextIntlClientProvider>
         <SourceTracker />
         <Analytics />

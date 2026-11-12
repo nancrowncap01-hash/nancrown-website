@@ -55,7 +55,11 @@
     "subtitle": "Tell us about your needs and get a free quote within 1–2 business days.",
     "button": "Request a Quote"
   },
+  "WhatsApp": {
+    "ariaLabel": "Chat with us on WhatsApp"
+  },
   "Footer": {
+    "whatsapp": "WhatsApp: @nancrowncaps",
     "description": "NanCrown — Professional headwear manufacturer specializing in custom baseball caps, bucket hats, snapbacks, and more.",
     "quickLinks": "Quick Links",
     "contactUs": "Contact Us",
@@ -262,6 +266,7 @@
     "getStarted": "Start Your Custom Order"
   },
   "Contact": {
+    "preferWhatsApp": "Prefer chatting? Message us on <whatsapp>WhatsApp: @nancrowncaps</whatsapp>.",
     "title": "Contact Us",
     "subtitle": "Get in Touch — We'd Love to Hear From You",
     "name": "Your Name",

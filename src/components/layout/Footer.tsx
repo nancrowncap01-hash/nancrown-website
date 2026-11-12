@@ -154,6 +154,11 @@ export default function Footer() {
                   info@nancrown.com
                 </a>
               </li>
+              <li>
+                <a href="https://wa.me/nancrowncaps" target="_blank" rel="noopener noreferrer" className="hover:text-amber-400 transition-colors">
+                  {t("whatsapp")}
+                </a>
+              </li>
               <li className="flex items-center gap-2">
                 <svg
                   className="h-4 w-4 shrink-0"

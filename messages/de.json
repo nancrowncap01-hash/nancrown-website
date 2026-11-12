@@ -55,7 +55,11 @@
     "subtitle": "Erzählen Sie uns von Ihren Anforderungen und erhalten Sie ein kostenloses Angebot innerhalb von 1–2 Werktagen.",
     "button": "Angebot Anfordern"
   },
+  "WhatsApp": {
+    "ariaLabel": "Schreiben Sie uns auf WhatsApp"
+  },
   "Footer": {
+    "whatsapp": "WhatsApp: @nancrowncaps",
     "description": "NanCrown — Professioneller Kopfbedeckungshersteller spezialisiert auf individuelle Baseballkappen, Fischerhüte, Snapbacks und mehr.",
     "quickLinks": "Schnelllinks",
     "contactUs": "Kontaktieren Sie Uns",
@@ -262,6 +266,7 @@
     "getStarted": "Bestellung Starten"
   },
   "Contact": {
+    "preferWhatsApp": "Sie möchten lieber chatten? Schreiben Sie uns über <whatsapp>WhatsApp: @nancrowncaps</whatsapp>.",
     "title": "Kontakt",
     "subtitle": "Kontaktieren Sie Uns — Wir Freuen Uns auf Ihre Nachricht",
     "name": "Ihr Name",

@@ -45,6 +45,8 @@ export default async function PricingPage({
         headline={content.h1}
         description={content.lead}
         faq={content.faq}
+        // 取正文写明的最晚日期(价格 10-09 生效、10-11 补说明、样品政策 10-17 复核);改价或改样品政策时这里一起改
+        dateModified="2026-10-17"
       />
       <GuidePage
         content={content}

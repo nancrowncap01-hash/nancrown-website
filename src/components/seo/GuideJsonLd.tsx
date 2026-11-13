@@ -12,6 +12,8 @@ interface GuideJsonLdProps {
   faq: { q: string; a: string }[];
   headline: string;
   description: string;
+  // 只填页面正文里写明的日期(如 /pricing 正文里的生效/复核日期),没有就不填,不编造
+  dateModified?: string;
 }
 
 export function GuideJsonLd({
@@ -22,6 +24,7 @@ export function GuideJsonLd({
   faq,
   headline,
   description,
+  dateModified,
 }: GuideJsonLdProps) {
   const breadcrumbData = {
     "@context": "https://schema.org",
@@ -65,6 +68,7 @@ export function GuideJsonLd({
     mainEntityOfPage: localizedUrl(locale, path),
     author: { "@type": "Organization", "@id": "https://nancrown.com/#organization", name: "NanCrown" },
     publisher: { "@id": "https://nancrown.com/#organization" },
+    ...(dateModified ? { dateModified } : {}),
   };
 
   return (

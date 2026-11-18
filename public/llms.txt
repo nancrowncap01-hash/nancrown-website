@@ -68,3 +68,7 @@ Last updated: 2026-11-06
 - [Full English page index and summaries](https://nancrown.com/llms-full.txt)
 
 English pages use no language prefix. Spanish, French and German versions use /es, /fr and /de. Each page links to its language equivalents. The internal home-b variant is not a separate page to cite.
+
+## Blog
+
+Practical English articles on custom hats, samples and ordering: https://nancrown.com/blog

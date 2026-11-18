@@ -1,5 +1,6 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
+import NextLink from "next/link";
 import BrandLogo from "./BrandLogo";
 
 // 新增一栏的 5 个链接,顺序跟 messages 的 Solutions namespace(run-clubs / surf-shops / corporate-events / festival-merch / bulk-orders)一一对应
@@ -96,6 +97,15 @@ export default function Footer() {
                 >
                   {t("workshop")}
                 </Link>
+              </li>
+              <li>
+                <NextLink
+                  href="/blog"
+                  prefetch={false}
+                  className="hover:text-amber-400 transition-colors"
+                >
+                  {t("blog")}
+                </NextLink>
               </li>
               <li>
                 <Link

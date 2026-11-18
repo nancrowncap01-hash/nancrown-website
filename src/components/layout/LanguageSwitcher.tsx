@@ -24,7 +24,8 @@ export default function LanguageSwitcher() {
   }, []);
 
   function switchLocale(newLocale: Locale) {
-    router.replace(pathname, { locale: newLocale });
+    const isBlog = pathname === "/blog" || pathname.startsWith("/blog/");
+    router.replace(isBlog && newLocale !== "en" ? "/" : pathname, { locale: newLocale });
     setOpen(false);
   }
 

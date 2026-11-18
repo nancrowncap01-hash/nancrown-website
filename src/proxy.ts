@@ -11,6 +11,15 @@ import {
 } from "./lib/home-ab";
 
 const intlMiddleware = createMiddleware(routing);
+// Blog is English-only: ignore and preserve locale cookies (including on
+// prefetch), and do not advertise untranslated versions in HTTP Link headers.
+const blogMiddleware = createMiddleware({
+  ...routing,
+  localeDetection: false,
+  localeCookie: false,
+  alternateLinks: false,
+});
+const BLOG_PATH_RE = /^\/(?:(?:en|es|fr|de)\/)?blog(?:\/|$)/;
 
 // 四种语言首页的路径:英文默认不带前缀是"/",其余是"/es"、"/fr"、"/de"
 // (localePrefix 是 as-needed,所以只在这几个精确路径上做 A/B 分流,子页面不受影响)
@@ -41,6 +50,9 @@ export function proxy(request: NextRequest) {
   }
 
   if (!HOME_PATH_RE.test(pathname)) {
+    if (BLOG_PATH_RE.test(readablePathname)) {
+      return blogMiddleware(request);
+    }
     return intlMiddleware(request);
   }
 

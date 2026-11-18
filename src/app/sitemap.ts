@@ -5,6 +5,8 @@ import { categorySlugs } from "@/lib/category-content";
 import { factoryContent } from "@/lib/factory-content";
 import { solutionSlugs } from "@/lib/solutions-content";
 import { localizedUrl, SITE_URL } from "@/lib/seo";
+import { getBlogPosts } from "@/lib/blog";
+import { blogAlternates } from "@/lib/blog-seo";
 
 // All formal pages received metadata updates in this SEO review.
 const LAST_MODIFIED = new Date("2026-11-06");
@@ -31,7 +33,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...sampleProducts.map((p) => `/products/${p.slug}`),
   ];
 
-  return paths.flatMap((path) => {
+  const existingEntries = paths.flatMap((path) => {
     // 每个页面把四语言版本用 hreflang 关联起来(多语言互链)
     const languages: Record<string, string> = {};
     for (const l of routing.locales) {
@@ -71,4 +73,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
         : {}),
     }));
   });
+
+  const posts = getBlogPosts();
+  const latestModified = posts.map((post) => post.date_modified).sort().at(-1);
+  const blogPages = [
+    { path: "/blog", date: latestModified },
+    ...posts.map((post) => ({ path: `/blog/${post.slug}`, date: post.date_modified })),
+  ];
+  return [
+    ...existingEntries,
+    ...blogPages.map(({ path, date }) => ({
+      url: localizedUrl("en", path),
+      ...(date ? { lastModified: new Date(date) } : {}),
+      changeFrequency: "monthly" as const,
+      priority: 0.7,
+      alternates: { languages: blogAlternates(path).languages },
+    })),
+  ];
 }

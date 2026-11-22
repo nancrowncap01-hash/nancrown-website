@@ -38,7 +38,7 @@ export const factoryVideo = {
   // 时长:73.24 秒,JSON-LD 用 ISO 8601 "PT1M13S",sitemap videos 字段用秒数(number)73
   durationIso: "PT1M13S",
   durationSeconds: 73,
-  uploadDate: "2026-09-30",
+  uploadDate: "2026-09-30T00:35:31+08:00",
 };
 
 // 8 张照片的文件名,顺序固定,和四语言 content.photos[i] 一一对应

@@ -2860,6 +2860,40 @@
           },
           {
             "type": "h2",
+            "text": "What each sample stage confirms"
+          },
+          {
+            "type": "table",
+            "head": [
+              "Sample type",
+              "What it confirms",
+              "What it does not confirm"
+            ],
+            "rows": [
+              [
+                "Structure sample",
+                "Shape, fit and construction against the agreed reference.",
+                "Fabric, colour and logo details still need review against the approved reference."
+              ],
+              [
+                "Logo sample",
+                "Logo position, size, colours and decoration method.",
+                "Fabric is not confirmed by the logo review."
+              ],
+              [
+                "Size sample",
+                "Dimensions and fit using agreed measurement points and a physical fit check.",
+                "Head circumference alone does not confirm cap fit."
+              ],
+              [
+                "Final / pre-production sample",
+                "The approved sample is the standard for bulk production.",
+                "For any change after approval, ask us to confirm price and timing."
+              ]
+            ]
+          },
+          {
+            "type": "h2",
             "text": "Packing"
           },
           {

@@ -910,11 +910,11 @@ export const categoryDefinitions: CategoryDefinition[] = [
     content: {
       en: {
         name: "Running Caps",
-        h1: "Custom Running Caps Manufacturer",
-        metaTitle: "Custom Running Caps Manufacturer",
-        metaDescription: "Custom running caps with quick-dry fabrics, laser-cut vents and reflective logos. 5-panel options. MOQ 50 per style, colour and size.",
+        h1: "Custom Running Hats Manufacturer for Wholesale Orders",
+        metaTitle: "Wholesale Custom Running Caps Manufacturer",
+        metaDescription: "Personalised running caps with quick-dry fabrics, laser-cut vents and your logo, direct from the manufacturer. MOQ 50 per style, colour and size.",
         intro: [
-          "A running cap has to disappear on the head: light fabric, a brim that won't fight the wind, and a closure that stays put through a race or a training block. NanCrown builds running caps in stretch woven polyester and quick-dry nylon, from a soft roll-brim style to 5-panel sport caps with a longer brim and side mesh windows that hold a pair of sunglasses.",
+          "NanCrown is a manufacturer of custom running hats and caps for wholesale orders, from club kit to activewear collections. We make personalised running caps in stretch woven polyester and quick-dry nylon, from a soft roll-brim style to 5-panel sport caps with a longer brim and side mesh windows that hold a pair of sunglasses.",
           "Performance details are built in to your spec: laser-cut ventilation holes, mesh panels, reflective prints and trim, and an elastic cord adjuster. Your team crest, race logo or brand mark goes on in embroidery, screen print or a reflective heat-transfer print. We confirm the build on a pre-production sample in 7–15 days and produce factory-direct in Guangzhou from 50 pieces per colour.",
         ],
         customOptions: [
@@ -941,6 +941,10 @@ export const categoryDefinitions: CategoryDefinition[] = [
           {
             q: "What should our club send for a quote on 200 running caps?",
             a: "Send quantities by style, colour and size, whether the caps are for training or race day, your logo file with size and placement, preferred decoration, delivery country and target date. Technical fabrics, ventilation and reflective details are quoted for the selected build; standard cotton-cap price tiers are not a running-cap quote. We confirm the specification, sample, production schedule and shipping costs before you approve the order.",
+          },
+          {
+            q: "Can I order personalised running hats wholesale?",
+            a: "Yes. We can add your team crest, race logo or brand mark with embroidery, screen printing or reflective heat-transfer printing. The minimum is 50 pieces per style, colour and size.",
           },
         ],
       },

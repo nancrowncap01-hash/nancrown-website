@@ -11,6 +11,7 @@ import { Link } from "@/i18n/navigation";
 import type { Locale } from "@/i18n/routing";
 import { sampleProducts } from "@/lib/sample-data";
 import ProductCard from "@/components/products/ProductCard";
+import RelatedGuides from "@/components/RelatedGuides";
 import { CategoryJsonLd } from "@/components/seo/CategoryJsonLd";
 import { pageMetadata } from "@/lib/seo";
 import {
@@ -299,6 +300,8 @@ export default async function CategoryPage({
           </div>
         </div>
       </section>
+
+      <RelatedGuides locale={locale} sitePath={`/custom/${def.slug}`} />
 
       {/* CTA */}
       <section className="bg-amber-600 py-16">

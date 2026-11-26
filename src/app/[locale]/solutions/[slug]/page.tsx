@@ -7,6 +7,7 @@ import { pageMetadata } from "@/lib/seo";
 import CapSpecificationDownload from "@/components/CapSpecificationDownload";
 import CapFitDiagram from "@/components/guide/CapFitDiagram";
 import GuidePage from "@/components/guide/GuidePage";
+import RelatedGuides from "@/components/RelatedGuides";
 import { GuideJsonLd } from "@/components/seo/GuideJsonLd";
 
 // 构建时把全部身份页 × 四种语言预渲染成静态页(语言那一层由 [locale]/layout.tsx 的 generateStaticParams 提供);
@@ -76,6 +77,7 @@ export default async function SolutionPage({
         crossLink={{ href: "/pricing", label: tGuides("customToPricing") }}
       >
         {["cap-size-fit-guide", "sample-approval"].includes(slug) && <CapSpecificationDownload locale={locale as Locale} />}
+        <RelatedGuides locale={locale} sitePath={`/solutions/${slug}`} />
       </GuidePage>
     </>
   );

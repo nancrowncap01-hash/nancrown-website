@@ -130,6 +130,13 @@ export function getBlogPost(slug: string): BlogPost | undefined {
   return getBlogPosts().find((post) => post.slug === slug);
 }
 
+// getBlogPosts already excludes unpublished posts and sorts newest first.
+export function getRelatedBlogPosts(sitePath: string): BlogPost[] {
+  return getBlogPosts()
+    .filter((post) => post.internal_links.includes(sitePath))
+    .slice(0, 3);
+}
+
 export function formatBlogDate(date: string): string {
   return new Intl.DateTimeFormat("en", { dateStyle: "long", timeZone: "UTC" }).format(new Date(`${date}T00:00:00Z`));
 }

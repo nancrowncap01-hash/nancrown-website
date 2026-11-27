@@ -2,6 +2,11 @@ import { readFileSync, readdirSync } from "node:fs";
 import path from "node:path";
 import { marked, Renderer } from "marked";
 
+export interface BlogFaq {
+  question: string;
+  answer: string;
+}
+
 export interface BlogPost {
   title: string;
   slug: string;
@@ -12,9 +17,77 @@ export interface BlogPost {
   status: "published";
   body: string;
   html: string;
+  faq: BlogFaq[];
 }
 
 const BLOG_DIRECTORY = path.join(process.cwd(), "content/blog");
+
+function blogRenderer(): Renderer {
+  const renderer = new Renderer();
+  renderer.html = () => "";
+  renderer.table = function (token) {
+    return `<div class="overflow-x-auto rounded-xl border border-gray-200">${Renderer.prototype.table.call(this, token)}</div>`;
+  };
+  return renderer;
+}
+
+function htmlToPlainText(html: string): string {
+  const entities: Record<string, string> = {
+    amp: "&", lt: "<", gt: ">", quot: '"', apos: "'", nbsp: " ",
+    copy: "©", reg: "®", trade: "™", ndash: "–", mdash: "—", hellip: "…",
+  };
+  return html
+    // Block boundaries need spaces; inline formatting must not split words.
+    .replace(/<\/?(?:p|div|h[1-6]|ul|ol|li|blockquote|pre|table|tr|th|td|br|hr)\b[^>]*>/gi, " ")
+    .replace(/<[^>]*>/g, "")
+    // Decode after stripping tags so escaped, visible angle brackets survive.
+    .replace(/&(#x[\da-f]+|#\d+|[a-z]+);/gi, (entity, name: string) => {
+      if (!name.startsWith("#")) return entities[name] ?? entity;
+      const code = name[1].toLowerCase() === "x" ? parseInt(name.slice(2), 16) : Number(name.slice(1));
+      return code > 0 && code <= 0x10ffff && !(code >= 0xd800 && code <= 0xdfff)
+        ? String.fromCodePoint(code)
+        : "\uFFFD";
+    })
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+export function extractBlogFaq(body: string): BlogFaq[] {
+  const tokens = marked.lexer(body);
+  const renderer = blogRenderer();
+  // Render with the page's rules first, then remove tags and decode entities.
+  const plainText = (section: typeof tokens[number][]): string =>
+    htmlToPlainText(marked.parser(section, { renderer, async: false }));
+  const faq: BlogFaq[] = [];
+  let inFaq = false;
+  for (let i = 0; i < tokens.length; i++) {
+    const token = tokens[i];
+    if (token.type !== "heading") continue;
+    if (token.depth <= 2) {
+      inFaq = token.depth === 2 && /^(faq|frequently asked questions)$/i.test(plainText([token]));
+    } else if (inFaq && token.depth === 3) {
+      let end = i + 1;
+      while (end < tokens.length) {
+        const next = tokens[end];
+        if (next.type === "heading" && next.depth <= 3) break;
+        end++;
+      }
+      // 文章结尾的「联系我们」号召段常紧跟在最后一问后面，不属于答案，去掉
+      const section = tokens.slice(i + 1, end);
+      while (section.length) {
+        const last = section[section.length - 1];
+        if (last.type === "space") { section.pop(); continue; }
+        if (last.type === "paragraph" && /\]\(\/contact[)#?\/]/.test(last.raw)) { section.pop(); continue; }
+        break;
+      }
+      const question = plainText([token]);
+      const answer = plainText(section);
+      if (question && answer) faq.push({ question, answer });
+      i = end - 1;
+    }
+  }
+  return faq;
+}
 
 // Deliberately limited YAML: single-line scalars and an inline or block string list.
 // Content is repository-owned Markdown; raw HTML is omitted when rendering.
@@ -99,11 +172,7 @@ function parsePost(filename: string): BlogPost | undefined {
   if (tokens.some((token) => token.type === "heading" && token.depth === 1)) {
     throw new Error(`Use H2/H3 in ${filename}; an optional opening H1 must match title`);
   }
-  const renderer = new Renderer();
-  renderer.html = () => "";
-  renderer.table = function (token) {
-    return `<div class="overflow-x-auto rounded-xl border border-gray-200">${Renderer.prototype.table.call(this, token)}</div>`;
-  };
+  const renderer = blogRenderer();
 
   return {
     title,
@@ -115,6 +184,7 @@ function parsePost(filename: string): BlogPost | undefined {
     status: "published",
     body,
     html: marked.parser(tokens, { renderer, async: false }),
+    faq: extractBlogFaq(body),
   };
 }
 
@@ -134,6 +204,15 @@ export function getBlogPost(slug: string): BlogPost | undefined {
 export function getRelatedBlogPosts(sitePath: string): BlogPost[] {
   return getBlogPosts()
     .filter((post) => post.internal_links.includes(sitePath))
+    .slice(0, 3);
+}
+
+export function getMoreBlogPosts(current: BlogPost, posts = getBlogPosts()): BlogPost[] {
+  const links = new Set(current.internal_links);
+  const overlap = (post: BlogPost) => new Set(post.internal_links.filter((link) => links.has(link))).size;
+  return posts
+    .filter((post) => post.status === "published" && post.slug !== current.slug)
+    .sort((a, b) => overlap(b) - overlap(a) || b.date_published.localeCompare(a.date_published) || a.slug.localeCompare(b.slug))
     .slice(0, 3);
 }
 

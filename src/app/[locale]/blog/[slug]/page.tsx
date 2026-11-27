@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
-import { formatBlogDate, getBlogPost, getBlogPosts } from "@/lib/blog";
+import { formatBlogDate, getBlogPost, getBlogPosts, getMoreBlogPosts } from "@/lib/blog";
 import { blogMetadata } from "@/lib/blog-seo";
 import { BlogJsonLd } from "@/components/seo/BlogJsonLd";
+import RelatedGuides from "@/components/RelatedGuides";
 
 export const dynamicParams = false;
 
@@ -56,6 +57,7 @@ export default async function BlogPostPage({ params }: Props) {
           dangerouslySetInnerHTML={{ __html: post.html }}
         />
       </article>
+      <RelatedGuides locale={locale} posts={getMoreBlogPosts(post)} heading="More guides" headingId="more-guides-heading" />
       <section className="bg-amber-600 py-16">
         <div className="mx-auto max-w-3xl px-4 text-center sm:px-6 lg:px-8">
           <h2 className="mb-3 text-3xl font-bold text-white">{cta("title")}</h2>

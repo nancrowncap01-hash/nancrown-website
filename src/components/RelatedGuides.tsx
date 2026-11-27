@@ -1,23 +1,27 @@
 import Link from "next/link";
-import { getRelatedBlogPosts } from "@/lib/blog";
+import { getRelatedBlogPosts, type BlogPost } from "@/lib/blog";
 
 export default function RelatedGuides({
   locale,
   sitePath,
+  posts: suppliedPosts,
+  heading = "Related guides",
+  headingId = "related-guides-heading",
 }: {
   locale: string;
-  sitePath: string;
-}) {
+  heading?: string;
+  headingId?: string;
+} & ({ sitePath: string; posts?: never } | { sitePath?: never; posts: BlogPost[] })) {
   if (locale !== "en") return null;
 
-  const posts = getRelatedBlogPosts(sitePath);
+  const posts = suppliedPosts ?? getRelatedBlogPosts(sitePath);
   if (posts.length === 0) return null;
 
   return (
     <section className="py-10">
-      <nav aria-labelledby="related-guides-heading" className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
+      <nav aria-labelledby={headingId} className="mx-auto max-w-3xl px-4 sm:px-6 lg:px-8">
         <div className="border-t border-stone-300/60 pt-6">
-          <h2 id="related-guides-heading" className="text-base font-semibold">Related guides</h2>
+          <h2 id={headingId} className="text-base font-semibold">{heading}</h2>
           <ul className="mt-4 space-y-4 text-sm break-words">
             {posts.map((post) => (
               <li key={post.slug}>

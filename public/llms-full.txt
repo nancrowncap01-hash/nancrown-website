@@ -271,3 +271,9 @@ French: https://nancrown.com/fr
 German: https://nancrown.com/de
 
 Blog: https://nancrown.com/blog — Practical English articles on custom hats, samples and ordering.
+<!-- BEGIN:blog-list -->
+- [What to Include in a Hat Tech Pack](https://nancrown.com/blog/hat-tech-pack-checklist): Build a useful hat tech pack with a practical checklist for shape, measurements, materials, artwork and sample feedback.
+- [Custom Hat Samples: Timing and What to Check](https://nancrown.com/blog/custom-hat-sample-time-checklist): Learn how long a custom hat sample takes and what to check for fit, fabric, logo placement and construction before approving production.
+- [Hat Logos: Embroidery vs Woven, Leather and PVC Patches](https://nancrown.com/blog/hat-logo-embroidery-vs-patches): Choose a hat logo method by comparing artwork detail, texture, placement and sample checks for embroidery and woven, leather or PVC patches.
+- [How Much Do 50 Custom Trucker Hats Cost?](https://nancrown.com/blog/custom-trucker-hats-cost-50): Learn what goes into the cost of 50 custom trucker hats, from logo and sample to shipping, and what to include in a quote request.
+<!-- END:blog-list -->
